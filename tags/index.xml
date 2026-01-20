@@ -2,164 +2,164 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Agent Skills Hub</title>
-    <link>http://localhost:55861/tags/</link>
+    <link>http://localhost:56280/skills/tags/</link>
     <description>Recent content in Tags on Agent Skills Hub</description>
     <generator>Hugo</generator>
     <language>zh</language>
     <lastBuildDate>Wed, 14 Jan 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:55861/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:56280/skills/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Automation</title>
-      <link>http://localhost:55861/tags/automation/</link>
+      <link>http://localhost:56280/skills/tags/automation/</link>
       <pubDate>Wed, 14 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:55861/tags/automation/</guid>
+      <guid>http://localhost:56280/skills/tags/automation/</guid>
       <description></description>
     </item>
     <item>
       <title>Best Practices</title>
-      <link>http://localhost:55861/tags/best-practices/</link>
+      <link>http://localhost:56280/skills/tags/best-practices/</link>
       <pubDate>Wed, 14 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:55861/tags/best-practices/</guid>
+      <guid>http://localhost:56280/skills/tags/best-practices/</guid>
       <description></description>
     </item>
     <item>
       <title>Code Quality</title>
-      <link>http://localhost:55861/tags/code-quality/</link>
+      <link>http://localhost:56280/skills/tags/code-quality/</link>
       <pubDate>Wed, 14 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:55861/tags/code-quality/</guid>
+      <guid>http://localhost:56280/skills/tags/code-quality/</guid>
       <description></description>
     </item>
     <item>
       <title>Data Engineering</title>
-      <link>http://localhost:55861/tags/data-engineering/</link>
+      <link>http://localhost:56280/skills/tags/data-engineering/</link>
       <pubDate>Wed, 14 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:55861/tags/data-engineering/</guid>
+      <guid>http://localhost:56280/skills/tags/data-engineering/</guid>
       <description></description>
     </item>
     <item>
       <title>Data Processing</title>
-      <link>http://localhost:55861/tags/data-processing/</link>
+      <link>http://localhost:56280/skills/tags/data-processing/</link>
       <pubDate>Wed, 14 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:55861/tags/data-processing/</guid>
+      <guid>http://localhost:56280/skills/tags/data-processing/</guid>
       <description></description>
     </item>
     <item>
       <title>Debugging</title>
-      <link>http://localhost:55861/tags/debugging/</link>
+      <link>http://localhost:56280/skills/tags/debugging/</link>
       <pubDate>Wed, 14 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:55861/tags/debugging/</guid>
+      <guid>http://localhost:56280/skills/tags/debugging/</guid>
       <description></description>
     </item>
     <item>
       <title>ETL</title>
-      <link>http://localhost:55861/tags/etl/</link>
+      <link>http://localhost:56280/skills/tags/etl/</link>
       <pubDate>Wed, 14 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:55861/tags/etl/</guid>
+      <guid>http://localhost:56280/skills/tags/etl/</guid>
       <description></description>
     </item>
     <item>
       <title>Machine Learning</title>
-      <link>http://localhost:55861/tags/machine-learning/</link>
+      <link>http://localhost:56280/skills/tags/machine-learning/</link>
       <pubDate>Wed, 14 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:55861/tags/machine-learning/</guid>
+      <guid>http://localhost:56280/skills/tags/machine-learning/</guid>
       <description></description>
     </item>
     <item>
       <title>Model Optimization</title>
-      <link>http://localhost:55861/tags/model-optimization/</link>
+      <link>http://localhost:56280/skills/tags/model-optimization/</link>
       <pubDate>Wed, 14 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:55861/tags/model-optimization/</guid>
+      <guid>http://localhost:56280/skills/tags/model-optimization/</guid>
       <description></description>
     </item>
     <item>
       <title>Optimization</title>
-      <link>http://localhost:55861/tags/optimization/</link>
+      <link>http://localhost:56280/skills/tags/optimization/</link>
       <pubDate>Wed, 14 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:55861/tags/optimization/</guid>
+      <guid>http://localhost:56280/skills/tags/optimization/</guid>
       <description></description>
     </item>
     <item>
       <title>Python</title>
-      <link>http://localhost:55861/tags/python/</link>
+      <link>http://localhost:56280/skills/tags/python/</link>
       <pubDate>Wed, 14 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:55861/tags/python/</guid>
+      <guid>http://localhost:56280/skills/tags/python/</guid>
       <description></description>
     </item>
     <item>
       <title>PyTorch</title>
-      <link>http://localhost:55861/tags/pytorch/</link>
+      <link>http://localhost:56280/skills/tags/pytorch/</link>
       <pubDate>Wed, 14 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:55861/tags/pytorch/</guid>
+      <guid>http://localhost:56280/skills/tags/pytorch/</guid>
       <description></description>
     </item>
     <item>
       <title>TensorFlow</title>
-      <link>http://localhost:55861/tags/tensorflow/</link>
+      <link>http://localhost:56280/skills/tags/tensorflow/</link>
       <pubDate>Wed, 14 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:55861/tags/tensorflow/</guid>
+      <guid>http://localhost:56280/skills/tags/tensorflow/</guid>
       <description></description>
     </item>
     <item>
       <title>代码质量</title>
-      <link>http://localhost:55861/tags/%E4%BB%A3%E7%A0%81%E8%B4%A8%E9%87%8F/</link>
+      <link>http://localhost:56280/skills/tags/%E4%BB%A3%E7%A0%81%E8%B4%A8%E9%87%8F/</link>
       <pubDate>Wed, 14 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:55861/tags/%E4%BB%A3%E7%A0%81%E8%B4%A8%E9%87%8F/</guid>
+      <guid>http://localhost:56280/skills/tags/%E4%BB%A3%E7%A0%81%E8%B4%A8%E9%87%8F/</guid>
       <description></description>
     </item>
     <item>
       <title>调试</title>
-      <link>http://localhost:55861/tags/%E8%B0%83%E8%AF%95/</link>
+      <link>http://localhost:56280/skills/tags/%E8%B0%83%E8%AF%95/</link>
       <pubDate>Wed, 14 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:55861/tags/%E8%B0%83%E8%AF%95/</guid>
+      <guid>http://localhost:56280/skills/tags/%E8%B0%83%E8%AF%95/</guid>
       <description></description>
     </item>
     <item>
       <title>机器学习</title>
-      <link>http://localhost:55861/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</link>
+      <link>http://localhost:56280/skills/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</link>
       <pubDate>Wed, 14 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:55861/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</guid>
+      <guid>http://localhost:56280/skills/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</guid>
       <description></description>
     </item>
     <item>
       <title>模型优化</title>
-      <link>http://localhost:55861/tags/%E6%A8%A1%E5%9E%8B%E4%BC%98%E5%8C%96/</link>
+      <link>http://localhost:56280/skills/tags/%E6%A8%A1%E5%9E%8B%E4%BC%98%E5%8C%96/</link>
       <pubDate>Wed, 14 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:55861/tags/%E6%A8%A1%E5%9E%8B%E4%BC%98%E5%8C%96/</guid>
+      <guid>http://localhost:56280/skills/tags/%E6%A8%A1%E5%9E%8B%E4%BC%98%E5%8C%96/</guid>
       <description></description>
     </item>
     <item>
       <title>数据处理</title>
-      <link>http://localhost:55861/tags/%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86/</link>
+      <link>http://localhost:56280/skills/tags/%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86/</link>
       <pubDate>Wed, 14 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:55861/tags/%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86/</guid>
+      <guid>http://localhost:56280/skills/tags/%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86/</guid>
       <description></description>
     </item>
     <item>
       <title>数据工程</title>
-      <link>http://localhost:55861/tags/%E6%95%B0%E6%8D%AE%E5%B7%A5%E7%A8%8B/</link>
+      <link>http://localhost:56280/skills/tags/%E6%95%B0%E6%8D%AE%E5%B7%A5%E7%A8%8B/</link>
       <pubDate>Wed, 14 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:55861/tags/%E6%95%B0%E6%8D%AE%E5%B7%A5%E7%A8%8B/</guid>
+      <guid>http://localhost:56280/skills/tags/%E6%95%B0%E6%8D%AE%E5%B7%A5%E7%A8%8B/</guid>
       <description></description>
     </item>
     <item>
       <title>优化</title>
-      <link>http://localhost:55861/tags/%E4%BC%98%E5%8C%96/</link>
+      <link>http://localhost:56280/skills/tags/%E4%BC%98%E5%8C%96/</link>
       <pubDate>Wed, 14 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:55861/tags/%E4%BC%98%E5%8C%96/</guid>
+      <guid>http://localhost:56280/skills/tags/%E4%BC%98%E5%8C%96/</guid>
       <description></description>
     </item>
     <item>
       <title>自动化</title>
-      <link>http://localhost:55861/tags/%E8%87%AA%E5%8A%A8%E5%8C%96/</link>
+      <link>http://localhost:56280/skills/tags/%E8%87%AA%E5%8A%A8%E5%8C%96/</link>
       <pubDate>Wed, 14 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:55861/tags/%E8%87%AA%E5%8A%A8%E5%8C%96/</guid>
+      <guid>http://localhost:56280/skills/tags/%E8%87%AA%E5%8A%A8%E5%8C%96/</guid>
       <description></description>
     </item>
     <item>
       <title>最佳实践</title>
-      <link>http://localhost:55861/tags/%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5/</link>
+      <link>http://localhost:56280/skills/tags/%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5/</link>
       <pubDate>Wed, 14 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:55861/tags/%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5/</guid>
+      <guid>http://localhost:56280/skills/tags/%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5/</guid>
       <description></description>
     </item>
   </channel>

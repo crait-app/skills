@@ -2,80 +2,80 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Agent Skills Hub</title>
-    <link>http://localhost:55861/en/</link>
+    <link>http://localhost:56280/skills/en/</link>
     <description>Recent content on Agent Skills Hub</description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Thu, 15 Jan 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:55861/en/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:56280/skills/en/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Backend Developer</title>
-      <link>http://localhost:55861/en/topics/backend-developer/</link>
+      <link>http://localhost:56280/skills/en/topics/backend-developer/</link>
       <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:55861/en/topics/backend-developer/</guid>
+      <guid>http://localhost:56280/skills/en/topics/backend-developer/</guid>
       <description>Here are carefully selected Skills for backend developers to help build high-performance, secure backend systems.</description>
     </item>
     <item>
       <title>Data Scientist</title>
-      <link>http://localhost:55861/en/topics/data-scientist/</link>
+      <link>http://localhost:56280/skills/en/topics/data-scientist/</link>
       <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:55861/en/topics/data-scientist/</guid>
+      <guid>http://localhost:56280/skills/en/topics/data-scientist/</guid>
       <description>Here are carefully selected Skills for data scientists to help you analyze data and build models more efficiently.</description>
     </item>
     <item>
       <title>DevOps Engineer</title>
-      <link>http://localhost:55861/en/topics/devops-engineer/</link>
+      <link>http://localhost:56280/skills/en/topics/devops-engineer/</link>
       <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:55861/en/topics/devops-engineer/</guid>
+      <guid>http://localhost:56280/skills/en/topics/devops-engineer/</guid>
       <description>Here are carefully selected Skills for DevOps engineers to help build efficient and reliable CI/CD workflows.</description>
     </item>
     <item>
       <title>Frontend Developer</title>
-      <link>http://localhost:55861/en/topics/frontend-developer/</link>
+      <link>http://localhost:56280/skills/en/topics/frontend-developer/</link>
       <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:55861/en/topics/frontend-developer/</guid>
+      <guid>http://localhost:56280/skills/en/topics/frontend-developer/</guid>
       <description>Here are carefully selected Skills for frontend developers to help solve various daily development challenges.</description>
     </item>
     <item>
       <title>Product Manager</title>
-      <link>http://localhost:55861/en/topics/product-manager/</link>
+      <link>http://localhost:56280/skills/en/topics/product-manager/</link>
       <pubDate>Thu, 15 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:55861/en/topics/product-manager/</guid>
+      <guid>http://localhost:56280/skills/en/topics/product-manager/</guid>
       <description>Here are carefully selected Skills for product managers to help make more data-driven product decisions and improve team collaboration.</description>
     </item>
     <item>
       <title>AI Engineer</title>
-      <link>http://localhost:55861/en/topics/ai-engineer/</link>
+      <link>http://localhost:56280/skills/en/topics/ai-engineer/</link>
       <pubDate>Wed, 14 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:55861/en/topics/ai-engineer/</guid>
+      <guid>http://localhost:56280/skills/en/topics/ai-engineer/</guid>
       <description>Here are carefully selected Skills for AI engineers to help you tackle various pain points in your daily work.</description>
     </item>
     <item>
       <title>Data Pipeline Builder</title>
-      <link>http://localhost:55861/en/skills/data-pipeline-builder/</link>
+      <link>http://localhost:56280/skills/en/skills/data-pipeline-builder/</link>
       <pubDate>Wed, 14 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:55861/en/skills/data-pipeline-builder/</guid>
+      <guid>http://localhost:56280/skills/en/skills/data-pipeline-builder/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Data Pipeline Builder allows you to quickly build robust data processing pipelines without writing lots of boilerplate code.&lt;/p&gt;&#xA;&lt;h3 id=&#34;key-features&#34;&gt;Key Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Multi-source Support&lt;/strong&gt;: Databases, APIs, file systems, cloud storage, etc.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Visual Builder&lt;/strong&gt;: Design pipelines through interactive interface&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Auto Optimization&lt;/strong&gt;: Intelligently optimize data flow and performance&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Error Handling&lt;/strong&gt;: Built-in retry and error recovery mechanisms&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Monitoring &amp;amp; Alerts&lt;/strong&gt;: Real-time monitoring of pipeline status&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;use-cases&#34;&gt;Use Cases&lt;/h2&gt;&#xA;&lt;p&gt;Collect data from multiple sources, clean, transform, aggregate, and finally load into data warehouse.&lt;/p&gt;</description>
     </item>
     <item>
       <title>ML Model Debugger</title>
-      <link>http://localhost:55861/en/skills/ml-model-debugger/</link>
+      <link>http://localhost:56280/skills/en/skills/ml-model-debugger/</link>
       <pubDate>Wed, 14 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:55861/en/skills/ml-model-debugger/</guid>
+      <guid>http://localhost:56280/skills/en/skills/ml-model-debugger/</guid>
       <description>&lt;h2 id=&#34;overview&#34;&gt;Overview&lt;/h2&gt;&#xA;&lt;p&gt;ML Model Debugger is a debugging tool designed specifically for machine learning engineers, helping you quickly locate and resolve various issues during model training and inference.&lt;/p&gt;&#xA;&lt;h3 id=&#34;core-features&#34;&gt;Core Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Training Diagnostics&lt;/strong&gt;: Automatically detect gradient vanishing/explosion, overfitting, and other issues&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Performance Analysis&lt;/strong&gt;: Identify model inference performance bottlenecks&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Data Validation&lt;/strong&gt;: Check data quality and distribution&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Visualization&lt;/strong&gt;: Provide rich visualization tools&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Framework Support&lt;/strong&gt;: Support mainstream frameworks like TensorFlow, PyTorch, JAX&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;use-cases&#34;&gt;Use Cases&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Model training not converging&lt;/li&gt;&#xA;&lt;li&gt;Inference speed too slow&lt;/li&gt;&#xA;&lt;li&gt;Abnormal model performance&lt;/li&gt;&#xA;&lt;li&gt;Data preprocessing issues&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;advanced-features&#34;&gt;Advanced Features&lt;/h2&gt;&#xA;&lt;h3 id=&#34;automatic-fix-suggestions&#34;&gt;Automatic Fix Suggestions&lt;/h3&gt;&#xA;&lt;p&gt;Generate fix code suggestions based on detected issues.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Python Code Analyzer</title>
-      <link>http://localhost:55861/en/skills/python-code-analyzer/</link>
+      <link>http://localhost:56280/skills/en/skills/python-code-analyzer/</link>
       <pubDate>Wed, 14 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:55861/en/skills/python-code-analyzer/</guid>
+      <guid>http://localhost:56280/skills/en/skills/python-code-analyzer/</guid>
       <description>&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;&#xA;&lt;p&gt;Python Code Analyzer is a powerful code quality analysis tool designed specifically for Python developers. It can:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Static Code Analysis&lt;/strong&gt;: Detect common code issues and potential bugs&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Performance Optimization Suggestions&lt;/strong&gt;: Identify performance bottlenecks and provide optimization solutions&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Code Style Checking&lt;/strong&gt;: Follow PEP 8 and other best practice standards&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Complexity Analysis&lt;/strong&gt;: Calculate cyclomatic complexity and cognitive complexity&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Dependency Graph&lt;/strong&gt;: Visualize dependencies between modules&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;why-choose-this-skill&#34;&gt;Why Choose This Skill?&lt;/h2&gt;&#xA;&lt;p&gt;As an AI engineer, you often need to write and maintain large amounts of Python code. This Skill can help you:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Welcome</title>
-      <link>http://localhost:55861/en/landing/</link>
+      <link>http://localhost:56280/skills/en/landing/</link>
       <pubDate>Wed, 14 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:55861/en/landing/</guid>
+      <guid>http://localhost:56280/skills/en/landing/</guid>
       <description></description>
     </item>
   </channel>

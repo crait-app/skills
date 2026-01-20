@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ETL on Agent Skills Hub</title>
-    <link>http://localhost:55861/tags/etl/</link>
+    <link>http://localhost:56280/skills/tags/etl/</link>
     <description>Recent content in ETL on Agent Skills Hub</description>
     <generator>Hugo</generator>
     <language>zh</language>
     <lastBuildDate>Wed, 14 Jan 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:55861/tags/etl/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:56280/skills/tags/etl/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Data Pipeline Builder</title>
-      <link>http://localhost:55861/en/skills/data-pipeline-builder/</link>
+      <link>http://localhost:56280/skills/en/skills/data-pipeline-builder/</link>
       <pubDate>Wed, 14 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:55861/en/skills/data-pipeline-builder/</guid>
+      <guid>http://localhost:56280/skills/en/skills/data-pipeline-builder/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Data Pipeline Builder allows you to quickly build robust data processing pipelines without writing lots of boilerplate code.&lt;/p&gt;&#xA;&lt;h3 id=&#34;key-features&#34;&gt;Key Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Multi-source Support&lt;/strong&gt;: Databases, APIs, file systems, cloud storage, etc.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Visual Builder&lt;/strong&gt;: Design pipelines through interactive interface&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Auto Optimization&lt;/strong&gt;: Intelligently optimize data flow and performance&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Error Handling&lt;/strong&gt;: Built-in retry and error recovery mechanisms&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Monitoring &amp;amp; Alerts&lt;/strong&gt;: Real-time monitoring of pipeline status&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;use-cases&#34;&gt;Use Cases&lt;/h2&gt;&#xA;&lt;p&gt;Collect data from multiple sources, clean, transform, aggregate, and finally load into data warehouse.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Data Pipeline Builder</title>
-      <link>http://localhost:55861/skills/data-pipeline-builder/</link>
+      <link>http://localhost:56280/skills/skills/data-pipeline-builder/</link>
       <pubDate>Wed, 14 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:55861/skills/data-pipeline-builder/</guid>
+      <guid>http://localhost:56280/skills/skills/data-pipeline-builder/</guid>
       <description>&lt;h2 id=&#34;产品介绍&#34;&gt;产品介绍&lt;/h2&gt;&#xA;&lt;p&gt;Data Pipeline Builder 让你可以快速构建健壮的数据处理管道，无需编写大量样板代码。&lt;/p&gt;&#xA;&lt;h3 id=&#34;主要特性&#34;&gt;主要特性&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;多数据源支持&lt;/strong&gt;: 数据库、API、文件系统、云存储等&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;可视化构建&lt;/strong&gt;: 通过交互式界面设计管道&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;自动优化&lt;/strong&gt;: 智能优化数据流和性能&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;错误处理&lt;/strong&gt;: 内置重试和错误恢复机制&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;监控告警&lt;/strong&gt;: 实时监控管道运行状态&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;使用案例&#34;&gt;使用案例&lt;/h2&gt;&#xA;&lt;p&gt;从多个数据源收集数据，进行清洗、转换、聚合，最后加载到数据仓库。&lt;/p&gt;</description>
     </item>
   </channel>
