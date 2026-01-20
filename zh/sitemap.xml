@@ -2,432 +2,92 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/en/topics/backend-developer/</loc>
+    <loc>http://localhost:1313/skills/en/topics/backend-developer/</loc>
     <lastmod>2026-01-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/topics/data-scientist/</loc>
+    <loc>http://localhost:1313/skills/en/topics/data-scientist/</loc>
     <lastmod>2026-01-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/en/topics/devops-engineer/</loc>
+    <loc>http://localhost:1313/skills/en/topics/devops-engineer/</loc>
     <lastmod>2026-01-15T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/topics/devops-engineer/</loc>
-    <lastmod>2026-01-15T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/topics/devops-engineer/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="http://localhost:1313/topics/devops-engineer/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/en/topics/frontend-developer/</loc>
-    <lastmod>2026-01-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/en/topics/product-manager/</loc>
-    <lastmod>2026-01-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/topics/product-manager/</loc>
+    <loc>http://localhost:1313/skills/topics/devops-engineer/</loc>
     <lastmod>2026-01-15T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/topics/product-manager/"
+                href="http://localhost:1313/skills/en/topics/devops-engineer/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/topics/product-manager/"
+                href="http://localhost:1313/skills/topics/devops-engineer/"
                 />
   </url><url>
-    <loc>http://localhost:1313/topics/backend-developer/</loc>
+    <loc>http://localhost:1313/skills/en/topics/frontend-developer/</loc>
+    <lastmod>2026-01-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/skills/en/topics/product-manager/</loc>
+    <lastmod>2026-01-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/skills/topics/product-manager/</loc>
     <lastmod>2026-01-15T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/topics/backend-developer/"
+                href="http://localhost:1313/skills/en/topics/product-manager/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/topics/backend-developer/"
+                href="http://localhost:1313/skills/topics/product-manager/"
                 />
   </url><url>
-    <loc>http://localhost:1313/topics/frontend-developer/</loc>
+    <loc>http://localhost:1313/skills/topics/backend-developer/</loc>
     <lastmod>2026-01-15T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/topics/frontend-developer/"
+                href="http://localhost:1313/skills/en/topics/backend-developer/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/topics/frontend-developer/"
+                href="http://localhost:1313/skills/topics/backend-developer/"
                 />
   </url><url>
-    <loc>http://localhost:1313/topics/data-scientist/</loc>
+    <loc>http://localhost:1313/skills/topics/frontend-developer/</loc>
     <lastmod>2026-01-15T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/topics/data-scientist/"
+                href="http://localhost:1313/skills/en/topics/frontend-developer/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/topics/data-scientist/"
+                href="http://localhost:1313/skills/topics/frontend-developer/"
                 />
   </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2026-01-14T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/skills/topics/data-scientist/</loc>
+    <lastmod>2026-01-15T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/"
+                href="http://localhost:1313/skills/en/topics/data-scientist/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/"
+                href="http://localhost:1313/skills/topics/data-scientist/"
                 />
-  </url><url>
-    <loc>http://localhost:1313/en/</loc>
-    <lastmod>2026-01-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/en/topics/ai-engineer/</loc>
-    <lastmod>2026-01-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/topics/ai-engineer/</loc>
-    <lastmod>2026-01-14T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/topics/ai-engineer/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="http://localhost:1313/topics/ai-engineer/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/topics/ai-%E5%B7%A5%E7%A8%8B%E5%B8%88/</loc>
-    <lastmod>2026-01-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/en/skills/</loc>
-    <lastmod>2026-01-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/automation/</loc>
-    <lastmod>2026-01-14T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/tags/automation/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="http://localhost:1313/tags/automation/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/tags/best-practices/</loc>
-    <lastmod>2026-01-14T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/tags/best-practices/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="http://localhost:1313/tags/best-practices/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/tags/code-quality/</loc>
-    <lastmod>2026-01-14T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/tags/code-quality/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="http://localhost:1313/tags/code-quality/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/topics/data-engineer/</loc>
-    <lastmod>2026-01-14T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/topics/data-engineer/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="http://localhost:1313/topics/data-engineer/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/tags/data-engineering/</loc>
-    <lastmod>2026-01-14T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/tags/data-engineering/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="http://localhost:1313/tags/data-engineering/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/en/skills/data-pipeline-builder/</loc>
-    <lastmod>2026-01-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/skills/data-pipeline-builder/</loc>
-    <lastmod>2026-01-14T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/skills/data-pipeline-builder/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="http://localhost:1313/skills/data-pipeline-builder/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/tags/data-processing/</loc>
-    <lastmod>2026-01-14T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/tags/data-processing/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="http://localhost:1313/tags/data-processing/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/tags/debugging/</loc>
-    <lastmod>2026-01-14T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/tags/debugging/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="http://localhost:1313/tags/debugging/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/tags/etl/</loc>
-    <lastmod>2026-01-14T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/tags/etl/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="http://localhost:1313/tags/etl/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/en/topics/</loc>
-    <lastmod>2026-01-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/machine-learning/</loc>
-    <lastmod>2026-01-14T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/tags/machine-learning/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="http://localhost:1313/tags/machine-learning/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/en/skills/ml-model-debugger/</loc>
-    <lastmod>2026-01-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/skills/ml-model-debugger/</loc>
-    <lastmod>2026-01-14T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/skills/ml-model-debugger/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="http://localhost:1313/skills/ml-model-debugger/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/tags/model-optimization/</loc>
-    <lastmod>2026-01-14T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/tags/model-optimization/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="http://localhost:1313/tags/model-optimization/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/tags/optimization/</loc>
-    <lastmod>2026-01-14T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/tags/optimization/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="http://localhost:1313/tags/optimization/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/tags/python/</loc>
-    <lastmod>2026-01-14T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/tags/python/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="http://localhost:1313/tags/python/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/en/skills/python-code-analyzer/</loc>
-    <lastmod>2026-01-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/skills/python-code-analyzer/</loc>
-    <lastmod>2026-01-14T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/skills/python-code-analyzer/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="http://localhost:1313/skills/python-code-analyzer/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/tags/pytorch/</loc>
-    <lastmod>2026-01-14T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/tags/pytorch/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="http://localhost:1313/tags/pytorch/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2026-01-14T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="http://localhost:1313/tags/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/tags/tensorflow/</loc>
-    <lastmod>2026-01-14T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/tags/tensorflow/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="http://localhost:1313/tags/tensorflow/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/en/landing/</loc>
-    <lastmod>2026-01-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/%E4%BB%A3%E7%A0%81%E8%B4%A8%E9%87%8F/</loc>
-    <lastmod>2026-01-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/%E8%B0%83%E8%AF%95/</loc>
-    <lastmod>2026-01-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/topics/%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91/</loc>
-    <lastmod>2026-01-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/landing/</loc>
-    <lastmod>2026-01-14T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/landing/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="http://localhost:1313/landing/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</loc>
-    <lastmod>2026-01-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/topics/</loc>
-    <lastmod>2026-01-14T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://localhost:1313/en/topics/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="http://localhost:1313/topics/"
-                />
-  </url><url>
-    <loc>http://localhost:1313/tags/%E6%A8%A1%E5%9E%8B%E4%BC%98%E5%8C%96/</loc>
-    <lastmod>2026-01-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86/</loc>
-    <lastmod>2026-01-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/%E6%95%B0%E6%8D%AE%E5%B7%A5%E7%A8%8B/</loc>
-    <lastmod>2026-01-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/topics/%E6%95%B0%E6%8D%AE%E5%B7%A5%E7%A8%8B%E5%B8%88/</loc>
-    <lastmod>2026-01-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/topics/%E6%95%B0%E6%8D%AE%E7%A7%91%E5%AD%A6%E5%AE%B6/</loc>
-    <lastmod>2026-01-14T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/skills/</loc>
     <lastmod>2026-01-14T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/skills/"
+                href="http://localhost:1313/skills/en/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -435,25 +95,365 @@
                 href="http://localhost:1313/skills/"
                 />
   </url><url>
-    <loc>http://localhost:1313/tags/%E4%BC%98%E5%8C%96/</loc>
+    <loc>http://localhost:1313/skills/en/</loc>
     <lastmod>2026-01-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E8%87%AA%E5%8A%A8%E5%8C%96/</loc>
+    <loc>http://localhost:1313/skills/en/topics/ai-engineer/</loc>
     <lastmod>2026-01-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5/</loc>
+    <loc>http://localhost:1313/skills/topics/ai-engineer/</loc>
     <lastmod>2026-01-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/categories/"
+                href="http://localhost:1313/skills/en/topics/ai-engineer/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://localhost:1313/categories/"
+                href="http://localhost:1313/skills/topics/ai-engineer/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/skills/topics/ai-%E5%B7%A5%E7%A8%8B%E5%B8%88/</loc>
+    <lastmod>2026-01-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/skills/en/skills/</loc>
+    <lastmod>2026-01-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/skills/tags/automation/</loc>
+    <lastmod>2026-01-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/skills/en/tags/automation/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/skills/tags/automation/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/skills/tags/best-practices/</loc>
+    <lastmod>2026-01-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/skills/en/tags/best-practices/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/skills/tags/best-practices/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/skills/tags/code-quality/</loc>
+    <lastmod>2026-01-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/skills/en/tags/code-quality/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/skills/tags/code-quality/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/skills/topics/data-engineer/</loc>
+    <lastmod>2026-01-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/skills/en/topics/data-engineer/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/skills/topics/data-engineer/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/skills/tags/data-engineering/</loc>
+    <lastmod>2026-01-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/skills/en/tags/data-engineering/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/skills/tags/data-engineering/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/skills/en/skills/data-pipeline-builder/</loc>
+    <lastmod>2026-01-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/skills/skills/data-pipeline-builder/</loc>
+    <lastmod>2026-01-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/skills/en/skills/data-pipeline-builder/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/skills/skills/data-pipeline-builder/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/skills/tags/data-processing/</loc>
+    <lastmod>2026-01-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/skills/en/tags/data-processing/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/skills/tags/data-processing/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/skills/tags/debugging/</loc>
+    <lastmod>2026-01-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/skills/en/tags/debugging/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/skills/tags/debugging/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/skills/tags/etl/</loc>
+    <lastmod>2026-01-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/skills/en/tags/etl/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/skills/tags/etl/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/skills/en/topics/</loc>
+    <lastmod>2026-01-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/skills/tags/machine-learning/</loc>
+    <lastmod>2026-01-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/skills/en/tags/machine-learning/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/skills/tags/machine-learning/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/skills/en/skills/ml-model-debugger/</loc>
+    <lastmod>2026-01-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/skills/skills/ml-model-debugger/</loc>
+    <lastmod>2026-01-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/skills/en/skills/ml-model-debugger/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/skills/skills/ml-model-debugger/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/skills/tags/model-optimization/</loc>
+    <lastmod>2026-01-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/skills/en/tags/model-optimization/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/skills/tags/model-optimization/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/skills/tags/optimization/</loc>
+    <lastmod>2026-01-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/skills/en/tags/optimization/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/skills/tags/optimization/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/skills/tags/python/</loc>
+    <lastmod>2026-01-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/skills/en/tags/python/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/skills/tags/python/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/skills/en/skills/python-code-analyzer/</loc>
+    <lastmod>2026-01-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/skills/skills/python-code-analyzer/</loc>
+    <lastmod>2026-01-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/skills/en/skills/python-code-analyzer/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/skills/skills/python-code-analyzer/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/skills/tags/pytorch/</loc>
+    <lastmod>2026-01-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/skills/en/tags/pytorch/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/skills/tags/pytorch/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/skills/tags/</loc>
+    <lastmod>2026-01-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/skills/en/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/skills/tags/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/skills/tags/tensorflow/</loc>
+    <lastmod>2026-01-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/skills/en/tags/tensorflow/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/skills/tags/tensorflow/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/skills/en/landing/</loc>
+    <lastmod>2026-01-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/skills/tags/%E4%BB%A3%E7%A0%81%E8%B4%A8%E9%87%8F/</loc>
+    <lastmod>2026-01-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/skills/tags/%E8%B0%83%E8%AF%95/</loc>
+    <lastmod>2026-01-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/skills/topics/%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91/</loc>
+    <lastmod>2026-01-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/skills/landing/</loc>
+    <lastmod>2026-01-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/skills/en/landing/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/skills/landing/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/skills/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</loc>
+    <lastmod>2026-01-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/skills/topics/</loc>
+    <lastmod>2026-01-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/skills/en/topics/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/skills/topics/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/skills/tags/%E6%A8%A1%E5%9E%8B%E4%BC%98%E5%8C%96/</loc>
+    <lastmod>2026-01-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/skills/tags/%E6%95%B0%E6%8D%AE%E5%A4%84%E7%90%86/</loc>
+    <lastmod>2026-01-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/skills/tags/%E6%95%B0%E6%8D%AE%E5%B7%A5%E7%A8%8B/</loc>
+    <lastmod>2026-01-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/skills/topics/%E6%95%B0%E6%8D%AE%E5%B7%A5%E7%A8%8B%E5%B8%88/</loc>
+    <lastmod>2026-01-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/skills/topics/%E6%95%B0%E6%8D%AE%E7%A7%91%E5%AD%A6%E5%AE%B6/</loc>
+    <lastmod>2026-01-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/skills/skills/</loc>
+    <lastmod>2026-01-14T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/skills/en/skills/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/skills/skills/"
+                />
+  </url><url>
+    <loc>http://localhost:1313/skills/tags/%E4%BC%98%E5%8C%96/</loc>
+    <lastmod>2026-01-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/skills/tags/%E8%87%AA%E5%8A%A8%E5%8C%96/</loc>
+    <lastmod>2026-01-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/skills/tags/%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5/</loc>
+    <lastmod>2026-01-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/skills/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost:1313/skills/en/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost:1313/skills/categories/"
                 />
   </url>
 </urlset>

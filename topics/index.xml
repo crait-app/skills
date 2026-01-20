@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>精选角色 on Agent Skills Hub</title>
-    <link>http://localhost:1313/topics/</link>
+    <link>http://localhost:1313/skills/topics/</link>
     <description>Recent content in 精选角色 on Agent Skills Hub</description>
     <generator>Hugo</generator>
     <language>zh</language>
     <lastBuildDate>Wed, 14 Jan 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/topics/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/skills/topics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>AI 工程师</title>
-      <link>http://localhost:1313/topics/ai-%E5%B7%A5%E7%A8%8B%E5%B8%88/</link>
+      <link>http://localhost:1313/skills/topics/ai-%E5%B7%A5%E7%A8%8B%E5%B8%88/</link>
       <pubDate>Wed, 14 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/topics/ai-%E5%B7%A5%E7%A8%8B%E5%B8%88/</guid>
+      <guid>http://localhost:1313/skills/topics/ai-%E5%B7%A5%E7%A8%8B%E5%B8%88/</guid>
       <description></description>
     </item>
     <item>
       <title>Data Engineer</title>
-      <link>http://localhost:1313/topics/data-engineer/</link>
+      <link>http://localhost:1313/skills/topics/data-engineer/</link>
       <pubDate>Wed, 14 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/topics/data-engineer/</guid>
+      <guid>http://localhost:1313/skills/topics/data-engineer/</guid>
       <description></description>
     </item>
     <item>
       <title>后端开发</title>
-      <link>http://localhost:1313/topics/%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91/</link>
+      <link>http://localhost:1313/skills/topics/%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91/</link>
       <pubDate>Wed, 14 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/topics/%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91/</guid>
+      <guid>http://localhost:1313/skills/topics/%E5%90%8E%E7%AB%AF%E5%BC%80%E5%8F%91/</guid>
       <description></description>
     </item>
     <item>
       <title>数据工程师</title>
-      <link>http://localhost:1313/topics/%E6%95%B0%E6%8D%AE%E5%B7%A5%E7%A8%8B%E5%B8%88/</link>
+      <link>http://localhost:1313/skills/topics/%E6%95%B0%E6%8D%AE%E5%B7%A5%E7%A8%8B%E5%B8%88/</link>
       <pubDate>Wed, 14 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/topics/%E6%95%B0%E6%8D%AE%E5%B7%A5%E7%A8%8B%E5%B8%88/</guid>
+      <guid>http://localhost:1313/skills/topics/%E6%95%B0%E6%8D%AE%E5%B7%A5%E7%A8%8B%E5%B8%88/</guid>
       <description></description>
     </item>
     <item>
       <title>数据科学家</title>
-      <link>http://localhost:1313/topics/%E6%95%B0%E6%8D%AE%E7%A7%91%E5%AD%A6%E5%AE%B6/</link>
+      <link>http://localhost:1313/skills/topics/%E6%95%B0%E6%8D%AE%E7%A7%91%E5%AD%A6%E5%AE%B6/</link>
       <pubDate>Wed, 14 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/topics/%E6%95%B0%E6%8D%AE%E7%A7%91%E5%AD%A6%E5%AE%B6/</guid>
+      <guid>http://localhost:1313/skills/topics/%E6%95%B0%E6%8D%AE%E7%A7%91%E5%AD%A6%E5%AE%B6/</guid>
       <description></description>
     </item>
   </channel>
