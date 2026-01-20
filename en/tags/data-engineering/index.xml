@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Data Engineering on Agent Skills Hub</title>
+    <link>http://localhost:1313/en/tags/data-engineering/</link>
+    <description>Recent content in Data Engineering on Agent Skills Hub</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 14 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/en/tags/data-engineering/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Data Pipeline Builder</title>
+      <link>http://localhost:1313/en/skills/data-pipeline-builder/</link>
+      <pubDate>Wed, 14 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/skills/data-pipeline-builder/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;&#xA;&lt;p&gt;Data Pipeline Builder allows you to quickly build robust data processing pipelines without writing lots of boilerplate code.&lt;/p&gt;&#xA;&lt;h3 id=&#34;key-features&#34;&gt;Key Features&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Multi-source Support&lt;/strong&gt;: Databases, APIs, file systems, cloud storage, etc.&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Visual Builder&lt;/strong&gt;: Design pipelines through interactive interface&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Auto Optimization&lt;/strong&gt;: Intelligently optimize data flow and performance&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Error Handling&lt;/strong&gt;: Built-in retry and error recovery mechanisms&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Monitoring &amp;amp; Alerts&lt;/strong&gt;: Real-time monitoring of pipeline status&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;use-cases&#34;&gt;Use Cases&lt;/h2&gt;&#xA;&lt;p&gt;Collect data from multiple sources, clean, transform, aggregate, and finally load into data warehouse.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

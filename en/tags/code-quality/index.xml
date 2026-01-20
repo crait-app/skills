@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Code Quality on Agent Skills Hub</title>
+    <link>http://localhost:1313/en/tags/code-quality/</link>
+    <description>Recent content in Code Quality on Agent Skills Hub</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 14 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/en/tags/code-quality/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python Code Analyzer</title>
+      <link>http://localhost:1313/en/skills/python-code-analyzer/</link>
+      <pubDate>Wed, 14 Jan 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/en/skills/python-code-analyzer/</guid>
+      <description>&lt;h2 id=&#34;features&#34;&gt;Features&lt;/h2&gt;&#xA;&lt;p&gt;Python Code Analyzer is a powerful code quality analysis tool designed specifically for Python developers. It can:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Static Code Analysis&lt;/strong&gt;: Detect common code issues and potential bugs&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Performance Optimization Suggestions&lt;/strong&gt;: Identify performance bottlenecks and provide optimization solutions&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Code Style Checking&lt;/strong&gt;: Follow PEP 8 and other best practice standards&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Complexity Analysis&lt;/strong&gt;: Calculate cyclomatic complexity and cognitive complexity&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Dependency Graph&lt;/strong&gt;: Visualize dependencies between modules&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;why-choose-this-skill&#34;&gt;Why Choose This Skill?&lt;/h2&gt;&#xA;&lt;p&gt;As an AI engineer, you often need to write and maintain large amounts of Python code. This Skill can help you:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

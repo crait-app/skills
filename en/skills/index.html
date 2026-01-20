@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  
+<meta name="description" content="Discover and share the best Agent Skills">
+<meta name="keywords" content="agent, skills, AI, 人工智能, automation">
+<meta name="author" content="Agent Skills Hub">
+
+
+<meta property="og:title" content="All Skills | Agent Skills Hub">
+<meta property="og:description" content="Discover and share the best Agent Skills">
+<meta property="og:type" content="website">
+<meta property="og:url" content="http://localhost:1313/en/skills/">
+
+<meta property="og:image" content="http://localhost:1313/images/og-image.jpg">
+
+<meta property="og:site_name" content="Agent Skills Hub">
+
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="All Skills | Agent Skills Hub">
+<meta name="twitter:description" content="Discover and share the best Agent Skills">
+
+<meta name="twitter:image" content="http://localhost:1313/images/og-image.jpg">
+
+
+
+<link rel="canonical" href="http://localhost:1313/en/skills/">
+
+
+
+
+<link rel="alternate" hreflang="zh" href="http://localhost:1313/skills/">
+
+
+<link rel="alternate" hreflang="en" href="http://localhost:1313/en/skills/">
+
+
+<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+
+
+
+<link rel="alternate" type="application/rss&#43;xml" href="http://localhost:1313/en/skills/index.xml" title="Agent Skills Hub">
+
+
+
+  <title>Agent Skills Hub</title>
+
+  
+    <link rel="stylesheet" href="/css/style.css">
+  
+
+  
+  <script>
+    
+    (function() {
+      const theme = localStorage.getItem('theme') || 'dark';
+      document.documentElement.setAttribute('data-theme', theme);
+    })();
+  </script>
+
+  
+  <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+
+  
+</head>
+<body class="antialiased min-h-screen flex flex-col" x-data="{ theme: localStorage.getItem('theme') || 'dark' }" x-init="document.documentElement.setAttribute('data-theme', theme)">
+  <header class="sticky top-0 z-50 backdrop-blur-md border-b-2 transition-colors duration-300" style="background-color: color-mix(in srgb, var(--bg-primary) 95%, transparent); border-color: var(--gray-800);" x-data="{ mobileMenuOpen: false }">
+  <nav class="container-custom">
+    <div class="flex items-center justify-between h-20">
+      
+      <div class="flex-shrink-0">
+        <a href="/en/" class="flex items-center space-x-3 group">
+          <div class="w-10 h-10 border-2 border-[var(--neon-cyan)] flex items-center justify-center group-hover:border-[var(--neon-pink)] transition-colors">
+            <span class="text-[var(--neon-cyan)] font-bold text-lg group-hover:text-[var(--neon-pink)] transition-colors">A</span>
+          </div>
+          <span class="text-2xl font-bold gradient-text">Agent Skills</span>
+        </a>
+      </div>
+
+      
+      <div class="hidden lg:flex lg:items-center lg:space-x-2">
+        
+          <a href="/en/" class="nav-link ">
+            Home
+          </a>
+        
+          <a href="/en/topics/" class="nav-link ">
+            Featured Topics
+          </a>
+        
+          <a href="/en/skills/" class="nav-link ">
+            All Skills
+          </a>
+        
+          <a href="/en/#pricing" class="nav-link ">
+            Pricing
+          </a>
+        
+          <a href="/en/#contact" class="nav-link ">
+            Contact
+          </a>
+        
+      </div>
+
+      
+      <div class="flex items-center space-x-6" style="position: relative;">
+        
+        <button @click="toggleTheme()" class="theme-toggle hidden md:flex" aria-label="Toggle theme" x-data="themeToggle()">
+          
+          <svg x-show="theme === 'dark'" class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"></path>
+          </svg>
+          
+          <svg x-show="theme === 'light'" class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" style="display: none;">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"></path>
+          </svg>
+        </button>
+
+        
+        <div class="relative ml-auto" x-data="{ langOpen: false, dropdownStyle: { top: '0px', right: '0px' } }" @click.away="langOpen = false">
+          <button @click="langOpen = !langOpen; $nextTick(() => {
+            const rect = $el.getBoundingClientRect();
+            dropdownStyle = {
+              top: `${rect.top + rect.height + 8}px`,
+              right: `${window.innerWidth - rect.right}px`
+            };
+          })"
+                  class="flex items-center space-x-2 text-sm hover:text-[var(--neon-cyan)] transition-colors font-mono uppercase tracking-wider" style="color: var(--text-tertiary);"
+                  type="button">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022 0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129"></path>
+            </svg>
+            <span>English</span>
+          </button>
+
+          <div x-show="langOpen"
+               x-transition:enter="transition ease-out duration-200"
+               x-transition:enter-start="transform opacity-0 scale-95"
+               x-transition:enter-end="transform opacity-100 scale-100"
+               x-transition:leave="transition ease-in duration-150"
+               x-transition:leave-start="transform opacity-100 scale-100"
+               x-transition:leave-end="transform opacity-0 scale-95"
+               class="fixed z-[9999] w-40 border-2 clip-corner overflow-hidden transition-colors"
+               style="background-color: var(--bg-secondary); border-color: var(--gray-700);"
+               :style="dropdownStyle"
+               x-cloak>
+            
+              
+                
+                  <a href="http://localhost:1313/skills/" class="block px-4 py-3 text-sm text-right hover:text-[var(--neon-cyan)] transition-colors font-mono uppercase tracking-wider" style="color: var(--text-secondary);" onmouseenter="this.style.backgroundColor='var(--bg-tertiary)'" onmouseleave="this.style.backgroundColor='transparent'">
+                    简体中文
+                  </a>
+                
+              
+            
+          </div>
+        </div>
+
+        
+        <button @click="mobileMenuOpen = !mobileMenuOpen"
+                class="lg:hidden inline-flex items-center justify-center w-10 h-10 border-2 hover:border-[var(--neon-cyan)] hover:text-[var(--neon-cyan)] transition-colors" style="border-color: var(--gray-700); color: var(--text-tertiary);">
+          <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path x-show="!mobileMenuOpen" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+            <path x-show="mobileMenuOpen" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" style="display: none;"></path>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    
+    <div x-show="mobileMenuOpen"
+         x-transition:enter="transition ease-out duration-200"
+         x-transition:enter-start="opacity-0 -translate-y-4"
+         x-transition:enter-end="opacity-100 translate-y-0"
+         x-transition:leave="transition ease-in duration-150"
+         x-transition:leave-start="opacity-100 translate-y-0"
+         x-transition:leave-end="opacity-0 -translate-y-4"
+         class="lg:hidden border-t-2 py-6 backdrop-blur-sm transition-colors"
+         style="display: none; border-color: var(--gray-800); background-color: color-mix(in srgb, var(--bg-secondary) 50%, transparent);">
+      <div class="flex flex-col space-y-1">
+        
+          <a href="/en/" class="nav-link  text-base py-3">
+            Home
+          </a>
+        
+          <a href="/en/topics/" class="nav-link  text-base py-3">
+            Featured Topics
+          </a>
+        
+          <a href="/en/skills/" class="nav-link  text-base py-3">
+            All Skills
+          </a>
+        
+          <a href="/en/#pricing" class="nav-link  text-base py-3">
+            Pricing
+          </a>
+        
+          <a href="/en/#contact" class="nav-link  text-base py-3">
+            Contact
+          </a>
+        
+      </div>
+    </div>
+  </nav>
+</header>
+
+
+  <main class="flex-1">
+    
+
+<div class="section transition-colors" style="background-color: var(--bg-primary);" x-data="{
+  sortBy: 'top',
+  filterTopic: 'all',
+  searchQuery: '',
+  init() {
+    this.sortCards();
+  },
+  sortCards() {
+    const container = this.$refs.skillsGrid;
+    const cards = Array.from(container.children);
+
+    cards.sort((a, b) => {
+      if (this.sortBy === 'downloads') {
+        return parseInt(b.dataset.downloads || 0) - parseInt(a.dataset.downloads || 0);
+      } else if (this.sortBy === 'stars') {
+        return parseInt(b.dataset.stars || 0) - parseInt(a.dataset.stars || 0);
+      } else if (this.sortBy === 'updated') {
+        return parseInt(b.dataset.updated || 0) - parseInt(a.dataset.updated || 0);
+      } else {
+        // 'top' - sort by rating (stars in display) or default order
+        const ratingA = parseFloat(a.dataset.rating || 0);
+        const ratingB = parseFloat(b.dataset.rating || 0);
+        return ratingB - ratingA;
+      }
+    });
+
+    cards.forEach(card => container.appendChild(card));
+  }
+}" x-effect="sortCards()">
+  <div class="container-custom">
+    
+    <div class="max-w-4xl mx-auto mb-12 text-center">
+      <div class="inline-block mb-6">
+        <span class="badge-primary">
+          <span class="inline-block mr-2">◆</span>
+          All Skills
+        </span>
+      </div>
+      <h1 class="text-4xl md:text-6xl font-bold mb-4">
+        All Skills
+      </h1>
+      <p class="text-xl" style="color: var(--text-secondary);">
+        Browse and explore all available Skills
+      </p>
+    </div>
+
+    
+    <div class="mb-8 flex flex-col md:flex-row gap-4 items-start md:items-center justify-between">
+      
+      <div class="w-full md:w-96">
+        <div class="relative">
+          <input
+            x-model="searchQuery"
+            type="text"
+            placeholder="Search Skills..."
+            class="w-full px-4 py-3 pl-10 border-2 transition-all duration-200 focus:outline-none font-mono text-sm"
+            style="background-color: var(--bg-secondary); border-color: var(--gray-700); color: var(--text-primary);"
+            onfocus="this.style.borderColor='var(--neon-cyan)'; this.style.boxShadow='0 0 15px var(--neon-cyan)';"
+            onblur="this.style.borderColor='var(--gray-700)'; this.style.boxShadow='none';"
+          >
+          <svg class="w-5 h-5 absolute left-3 top-1/2 transform -translate-y-1/2" style="color: var(--text-tertiary);" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+          </svg>
+        </div>
+      </div>
+
+      <div class="flex flex-col sm:flex-row gap-4">
+        
+        <div class="relative" x-data="{ topicOpen: false }">
+          <button
+            @click="topicOpen = !topicOpen"
+            @click.away="topicOpen = false"
+            class="btn-secondary whitespace-nowrap"
+          >
+            <span></span>
+            <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            </svg>
+          </button>
+          <div
+            x-show="topicOpen"
+            x-transition
+            class="absolute right-0 mt-2 w-48 border-2 clip-corner py-1 z-10 transition-colors"
+            style="display: none; background-color: var(--bg-secondary); border-color: var(--gray-700);"
+          >
+            <button @click="filterTopic = 'all'; topicOpen = false" class="block w-full text-left px-4 py-2 text-sm transition-colors font-mono" style="color: var(--text-secondary);" :class="{'text-[var(--neon-cyan)]': filterTopic === 'all'}" onmouseenter="this.style.backgroundColor='var(--bg-tertiary)'" onmouseleave="this.style.backgroundColor='transparent'">
+              All
+            </button>
+            
+            
+            <button @click="filterTopic = 'Backend Developer'; topicOpen = false" class="block w-full text-left px-4 py-2 text-sm transition-colors font-mono" style="color: var(--text-secondary);" :class="{'text-[var(--neon-cyan)]': filterTopic === 'Backend Developer'}" onmouseenter="this.style.backgroundColor='var(--bg-tertiary)'" onmouseleave="this.style.backgroundColor='transparent'">
+              Backend Developer
+            </button>
+            
+            <button @click="filterTopic = 'Data Scientist'; topicOpen = false" class="block w-full text-left px-4 py-2 text-sm transition-colors font-mono" style="color: var(--text-secondary);" :class="{'text-[var(--neon-cyan)]': filterTopic === 'Data Scientist'}" onmouseenter="this.style.backgroundColor='var(--bg-tertiary)'" onmouseleave="this.style.backgroundColor='transparent'">
+              Data Scientist
+            </button>
+            
+            <button @click="filterTopic = 'DevOps Engineer'; topicOpen = false" class="block w-full text-left px-4 py-2 text-sm transition-colors font-mono" style="color: var(--text-secondary);" :class="{'text-[var(--neon-cyan)]': filterTopic === 'DevOps Engineer'}" onmouseenter="this.style.backgroundColor='var(--bg-tertiary)'" onmouseleave="this.style.backgroundColor='transparent'">
+              DevOps Engineer
+            </button>
+            
+            <button @click="filterTopic = 'Frontend Developer'; topicOpen = false" class="block w-full text-left px-4 py-2 text-sm transition-colors font-mono" style="color: var(--text-secondary);" :class="{'text-[var(--neon-cyan)]': filterTopic === 'Frontend Developer'}" onmouseenter="this.style.backgroundColor='var(--bg-tertiary)'" onmouseleave="this.style.backgroundColor='transparent'">
+              Frontend Developer
+            </button>
+            
+            <button @click="filterTopic = 'Product Manager'; topicOpen = false" class="block w-full text-left px-4 py-2 text-sm transition-colors font-mono" style="color: var(--text-secondary);" :class="{'text-[var(--neon-cyan)]': filterTopic === 'Product Manager'}" onmouseenter="this.style.backgroundColor='var(--bg-tertiary)'" onmouseleave="this.style.backgroundColor='transparent'">
+              Product Manager
+            </button>
+            
+            <button @click="filterTopic = 'AI Engineer'; topicOpen = false" class="block w-full text-left px-4 py-2 text-sm transition-colors font-mono" style="color: var(--text-secondary);" :class="{'text-[var(--neon-cyan)]': filterTopic === 'AI Engineer'}" onmouseenter="this.style.backgroundColor='var(--bg-tertiary)'" onmouseleave="this.style.backgroundColor='transparent'">
+              AI Engineer
+            </button>
+            
+          </div>
+        </div>
+
+        
+        <div class="relative" x-data="{ sortOpen: false }">
+          <button
+            @click="sortOpen = !sortOpen"
+            @click.away="sortOpen = false"
+            class="btn-secondary whitespace-nowrap"
+          >
+            <span>Sort By</span>
+            <svg class="w-4 h-4 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            </svg>
+          </button>
+          <div
+            x-show="sortOpen"
+            x-transition
+            class="absolute right-0 mt-2 w-48 border-2 clip-corner py-1 z-10 transition-colors"
+            style="display: none; background-color: var(--bg-secondary); border-color: var(--gray-700);"
+          >
+            <button @click="sortBy = 'top'; sortOpen = false" class="block w-full text-left px-4 py-2 text-sm transition-colors font-mono" style="color: var(--text-secondary);" :class="{'text-[var(--neon-cyan)]': sortBy === 'top'}" onmouseenter="this.style.backgroundColor='var(--bg-tertiary)'" onmouseleave="this.style.backgroundColor='transparent'">
+              Top
+            </button>
+            <button @click="sortBy = 'downloads'; sortOpen = false" class="block w-full text-left px-4 py-2 text-sm transition-colors font-mono" style="color: var(--text-secondary);" :class="{'text-[var(--neon-cyan)]': sortBy === 'downloads'}" onmouseenter="this.style.backgroundColor='var(--bg-tertiary)'" onmouseleave="this.style.backgroundColor='transparent'">
+              Downloads
+            </button>
+            <button @click="sortBy = 'stars'; sortOpen = false" class="block w-full text-left px-4 py-2 text-sm transition-colors font-mono" style="color: var(--text-secondary);" :class="{'text-[var(--neon-cyan)]': sortBy === 'stars'}" onmouseenter="this.style.backgroundColor='var(--bg-tertiary)'" onmouseleave="this.style.backgroundColor='transparent'">
+              Stars
+            </button>
+            <button @click="sortBy = 'updated'; sortOpen = false" class="block w-full text-left px-4 py-2 text-sm transition-colors font-mono" style="color: var(--text-secondary);" :class="{'text-[var(--neon-cyan)]': sortBy === 'updated'}" onmouseenter="this.style.backgroundColor='var(--bg-tertiary)'" onmouseleave="this.style.backgroundColor='transparent'">
+              Recently Updated
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6" x-ref="skillsGrid">
+      
+      <a href="/en/skills/data-pipeline-builder/"
+         class="skill-card"
+         x-show="(filterTopic === 'all' || 'AI Engineer, Data Engineer'.includes(filterTopic)) && (searchQuery === '' || 'Data Pipeline Builder Automate data processing pipeline construction with support for multiple data sources and transformations'.toLowerCase().includes(searchQuery.toLowerCase()))"
+         data-downloads="4500"
+         data-stars="310"
+         data-updated="20260114"
+         data-rating="4.7"
+      >
+        <div class="flex items-start justify-between mb-3">
+          <h3 class="text-lg font-semibold group-hover:text-[var(--neon-cyan)] transition-colors flex-1">
+            Data Pipeline Builder
+          </h3>
+          
+          <div class="flex items-center space-x-1 ml-2">
+            
+            
+            
+            <svg class="w-4 h-4 star" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+            </svg>
+            
+            <svg class="w-4 h-4 star" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+            </svg>
+            
+            <svg class="w-4 h-4 star" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+            </svg>
+            
+            <svg class="w-4 h-4 star" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+            </svg>
+            
+            <span class="text-sm ml-1" style="color: var(--text-tertiary);">4.7</span>
+          </div>
+          
+        </div>
+
+        
+        <p class="text-sm mb-4 line-clamp-2" style="color: var(--text-tertiary);">
+          Automate data processing pipeline construction with support for multiple data sources and transformations
+        </p>
+        
+
+        <div class="flex items-center justify-between text-sm mb-3" style="color: var(--text-tertiary);">
+          <div class="flex items-center space-x-4">
+            
+            <div class="flex items-center space-x-1">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M9 19l3 3m0 0l3-3m-3 3V10"></path>
+              </svg>
+              <span>4500</span>
+            </div>
+            
+            
+            <div class="flex items-center space-x-1">
+              <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+              </svg>
+              <span>310</span>
+            </div>
+            
+          </div>
+        </div>
+
+        
+        <div class="flex flex-wrap gap-2">
+          
+          <span class="badge-secondary">Data Processing</span>
+          
+          <span class="badge-secondary">ETL</span>
+          
+          <span class="badge-secondary">Automation</span>
+          
+        </div>
+        
+
+        
+        <div class="mt-3 pt-3 border-t text-xs font-mono" style="border-color: var(--gray-700); color: var(--text-tertiary);">
+          Author: DataFlow
+        </div>
+        
+      </a>
+      
+      <a href="/en/skills/ml-model-debugger/"
+         class="skill-card"
+         x-show="(filterTopic === 'all' || 'AI Engineer, Data Scientist'.includes(filterTopic)) && (searchQuery === '' || 'ML Model Debugger Quickly diagnose machine learning model issues with detailed debugging info and fix suggestions'.toLowerCase().includes(searchQuery.toLowerCase()))"
+         data-downloads="3800"
+         data-stars="280"
+         data-updated="20260114"
+         data-rating="4.6"
+      >
+        <div class="flex items-start justify-between mb-3">
+          <h3 class="text-lg font-semibold group-hover:text-[var(--neon-cyan)] transition-colors flex-1">
+            ML Model Debugger
+          </h3>
+          
+          <div class="flex items-center space-x-1 ml-2">
+            
+            
+            
+            <svg class="w-4 h-4 star" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+            </svg>
+            
+            <svg class="w-4 h-4 star" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+            </svg>
+            
+            <svg class="w-4 h-4 star" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+            </svg>
+            
+            <svg class="w-4 h-4 star" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+            </svg>
+            
+            <span class="text-sm ml-1" style="color: var(--text-tertiary);">4.6</span>
+          </div>
+          
+        </div>
+
+        
+        <p class="text-sm mb-4 line-clamp-2" style="color: var(--text-tertiary);">
+          Quickly diagnose machine learning model issues with detailed debugging info and fix suggestions
+        </p>
+        
+
+        <div class="flex items-center justify-between text-sm mb-3" style="color: var(--text-tertiary);">
+          <div class="flex items-center space-x-4">
+            
+            <div class="flex items-center space-x-1">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M9 19l3 3m0 0l3-3m-3 3V10"></path>
+              </svg>
+              <span>3800</span>
+            </div>
+            
+            
+            <div class="flex items-center space-x-1">
+              <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+              </svg>
+              <span>280</span>
+            </div>
+            
+          </div>
+        </div>
+
+        
+        <div class="flex flex-wrap gap-2">
+          
+          <span class="badge-secondary">Machine Learning</span>
+          
+          <span class="badge-secondary">Debugging</span>
+          
+          <span class="badge-secondary">Model Optimization</span>
+          
+        </div>
+        
+
+        
+        <div class="mt-3 pt-3 border-t text-xs font-mono" style="border-color: var(--gray-700); color: var(--text-tertiary);">
+          Author: AI Tools
+        </div>
+        
+      </a>
+      
+      <a href="/en/skills/python-code-analyzer/"
+         class="skill-card"
+         x-show="(filterTopic === 'all' || 'AI Engineer, Backend Developer, ai engineer'.includes(filterTopic)) && (searchQuery === '' || 'Python Code Analyzer Intelligently analyze Python code quality, provide optimization suggestions and best practices'.toLowerCase().includes(searchQuery.toLowerCase()))"
+         data-downloads="5200"
+         data-stars="156"
+         data-updated="20260114"
+         data-rating="4.8"
+      >
+        <div class="flex items-start justify-between mb-3">
+          <h3 class="text-lg font-semibold group-hover:text-[var(--neon-cyan)] transition-colors flex-1">
+            Python Code Analyzer
+          </h3>
+          
+          <div class="flex items-center space-x-1 ml-2">
+            
+            
+            
+            <svg class="w-4 h-4 star" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+            </svg>
+            
+            <svg class="w-4 h-4 star" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+            </svg>
+            
+            <svg class="w-4 h-4 star" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+            </svg>
+            
+            <svg class="w-4 h-4 star" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+            </svg>
+            
+            <span class="text-sm ml-1" style="color: var(--text-tertiary);">4.8</span>
+          </div>
+          
+        </div>
+
+        
+        <p class="text-sm mb-4 line-clamp-2" style="color: var(--text-tertiary);">
+          Intelligently analyze Python code quality, provide optimization suggestions and best practices
+        </p>
+        
+
+        <div class="flex items-center justify-between text-sm mb-3" style="color: var(--text-tertiary);">
+          <div class="flex items-center space-x-4">
+            
+            <div class="flex items-center space-x-1">
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M9 19l3 3m0 0l3-3m-3 3V10"></path>
+              </svg>
+              <span>5200</span>
+            </div>
+            
+            
+            <div class="flex items-center space-x-1">
+              <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path>
+              </svg>
+              <span>156</span>
+            </div>
+            
+          </div>
+        </div>
+
+        
+        <div class="flex flex-wrap gap-2">
+          
+          <span class="badge-secondary">Python</span>
+          
+          <span class="badge-secondary">Code Quality</span>
+          
+          <span class="badge-secondary">Optimization</span>
+          
+        </div>
+        
+
+        
+        <div class="mt-3 pt-3 border-t text-xs font-mono" style="border-color: var(--gray-700); color: var(--text-tertiary);">
+          Author: CodeMaster
+        </div>
+        
+      </a>
+      
+    </div>
+
+    
+    
+    <div class="hidden text-center py-12" id="no-results-message">
+      <svg class="w-16 h-16 mx-auto mb-4" style="color: var(--text-tertiary);" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+      </svg>
+      <p class="text-lg" style="color: var(--text-secondary);">
+        No Skills found matching your criteria
+      </p>
+    </div>
+  </div>
+</div>
+
+
+  </main>
+
+  <footer class="border-t-2 relative overflow-hidden transition-colors duration-300" style="background-color: var(--bg-secondary); border-color: var(--gray-800);">
+  
+  <div class="absolute inset-0 opacity-5">
+    <div class="absolute inset-0" style="background-image: linear-gradient(var(--neon-cyan) 1px, transparent 1px), linear-gradient(90deg, var(--neon-cyan) 1px, transparent 1px); background-size: 40px 40px;"></div>
+  </div>
+
+  <div class="container-custom py-12 relative z-10">
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-12">
+      
+      <div class="col-span-1 md:col-span-2">
+        <div class="flex items-center space-x-3 mb-6 group">
+          <div class="w-8 h-8 border-2 border-[var(--neon-cyan)] flex items-center justify-center">
+            <span class="text-[var(--neon-cyan)] font-bold">A</span>
+          </div>
+          <span class="text-xl font-bold gradient-text">Agent Skills</span>
+        </div>
+        <p class="text-sm mb-6 max-w-md leading-relaxed" style="color: var(--text-tertiary);">
+          Agent Skills Hub is dedicated to providing the best skill extension resources for AI Agent users.
+        </p>
+        <div class="flex space-x-4">
+          
+          
+        </div>
+      </div>
+
+      
+      <div>
+        <h3 class="text-xs font-bold text-[var(--neon-cyan)] uppercase tracking-widest mb-6 font-mono">
+          Quick Links
+        </h3>
+        <ul class="space-y-3">
+          
+          <li>
+            <a href="/en/" class="hover:text-[var(--neon-cyan)] text-sm transition-colors inline-flex items-center group" style="color: var(--text-tertiary);">
+              <span class="w-0 group-hover:w-2 h-0.5 bg-[var(--neon-cyan)] mr-0 group-hover:mr-2 transition-all duration-300"></span>
+              Home
+            </a>
+          </li>
+          
+          <li>
+            <a href="/en/topics/" class="hover:text-[var(--neon-cyan)] text-sm transition-colors inline-flex items-center group" style="color: var(--text-tertiary);">
+              <span class="w-0 group-hover:w-2 h-0.5 bg-[var(--neon-cyan)] mr-0 group-hover:mr-2 transition-all duration-300"></span>
+              Featured Topics
+            </a>
+          </li>
+          
+          <li>
+            <a href="/en/skills/" class="hover:text-[var(--neon-cyan)] text-sm transition-colors inline-flex items-center group" style="color: var(--text-tertiary);">
+              <span class="w-0 group-hover:w-2 h-0.5 bg-[var(--neon-cyan)] mr-0 group-hover:mr-2 transition-all duration-300"></span>
+              All Skills
+            </a>
+          </li>
+          
+          <li>
+            <a href="/en/#pricing" class="hover:text-[var(--neon-cyan)] text-sm transition-colors inline-flex items-center group" style="color: var(--text-tertiary);">
+              <span class="w-0 group-hover:w-2 h-0.5 bg-[var(--neon-cyan)] mr-0 group-hover:mr-2 transition-all duration-300"></span>
+              Pricing
+            </a>
+          </li>
+          
+          <li>
+            <a href="/en/#contact" class="hover:text-[var(--neon-cyan)] text-sm transition-colors inline-flex items-center group" style="color: var(--text-tertiary);">
+              <span class="w-0 group-hover:w-2 h-0.5 bg-[var(--neon-cyan)] mr-0 group-hover:mr-2 transition-all duration-300"></span>
+              Contact
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+
+      
+      <div>
+        <h3 class="text-xs font-bold text-[var(--neon-pink)] uppercase tracking-widest mb-6 font-mono">
+          Resources
+        </h3>
+        <ul class="space-y-3">
+          <li>
+            <a href="https://claude.ai/claude-code" target="_blank" rel="noopener noreferrer" class="hover:text-[var(--neon-pink)] text-sm transition-colors inline-flex items-center group" style="color: var(--text-tertiary);">
+              <span class="w-0 group-hover:w-2 h-0.5 bg-[var(--neon-pink)] mr-0 group-hover:mr-2 transition-all duration-300"></span>
+              Claude Code Documentation
+            </a>
+          </li>
+          <li>
+            <a href="https://anthropic.com" target="_blank" rel="noopener noreferrer" class="hover:text-[var(--neon-pink)] text-sm transition-colors inline-flex items-center group" style="color: var(--text-tertiary);">
+              <span class="w-0 group-hover:w-2 h-0.5 bg-[var(--neon-pink)] mr-0 group-hover:mr-2 transition-all duration-300"></span>
+              Anthropic
+            </a>
+          </li>
+          <li>
+            <a href="mailto:contact@agent-skills.example.com" class="hover:text-[var(--neon-pink)] text-sm transition-colors inline-flex items-center group" style="color: var(--text-tertiary);">
+              <span class="w-0 group-hover:w-2 h-0.5 bg-[var(--neon-pink)] mr-0 group-hover:mr-2 transition-all duration-300"></span>
+              Support
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="border-t-2 mt-8 pt-6 transition-colors" style="border-color: var(--gray-800);">
+      <div class="flex flex-col md:flex-row items-center justify-between gap-4">
+        <p class="text-sm font-mono" style="color: var(--text-tertiary);">
+          &copy; 2026 Agent Skills Hub. All rights reserved.
+        </p>
+        <div class="flex items-center gap-2 text-xs font-mono" style="color: var(--gray-700);">
+          <span class="w-2 h-2 bg-[var(--neon-green)] animate-pulse"></span>
+          <span>SYSTEM ONLINE</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  
+
+  
+  <script>
+    function themeToggle() {
+      return {
+        theme: localStorage.getItem('theme') || 'dark',
+        toggleTheme() {
+          this.theme = this.theme === 'dark' ? 'light' : 'dark';
+          localStorage.setItem('theme', this.theme);
+          document.documentElement.setAttribute('data-theme', this.theme);
+
+          
+          const bodyTheme = document.querySelector('[x-data]');
+          if (bodyTheme && bodyTheme.__x) {
+            bodyTheme.__x.$data.theme = this.theme;
+          }
+        }
+      }
+    }
+  </script>
+
+  
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.style.animationPlayState = 'running';
+          }
+        });
+      }, {
+        threshold: 0.1
+      });
+
+      document.querySelectorAll('.stagger-fade-in').forEach(el => {
+        el.style.animationPlayState = 'paused';
+        observer.observe(el);
+      });
+
+      
+      window.addEventListener('scroll', () => {
+        const scrolled = window.pageYOffset;
+        const parallaxElements = document.querySelectorAll('[class*="absolute"]');
+        parallaxElements.forEach((el, index) => {
+          const speed = 0.5 + (index % 3) * 0.2;
+          el.style.transform = `translateY(${scrolled * speed}px)`;
+        });
+      });
+    });
+  </script>
+</body>
+</html>
