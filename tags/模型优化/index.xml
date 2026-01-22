@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>模型优化 on Agent Skills Hub</title>
-    <link>http://localhost:56280/skills/tags/%E6%A8%A1%E5%9E%8B%E4%BC%98%E5%8C%96/</link>
+    <link>http://localhost:1313/tags/%E6%A8%A1%E5%9E%8B%E4%BC%98%E5%8C%96/</link>
     <description>Recent content in 模型优化 on Agent Skills Hub</description>
     <generator>Hugo</generator>
     <language>zh</language>
     <lastBuildDate>Wed, 14 Jan 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:56280/skills/tags/%E6%A8%A1%E5%9E%8B%E4%BC%98%E5%8C%96/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/%E6%A8%A1%E5%9E%8B%E4%BC%98%E5%8C%96/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ML Model Debugger</title>
-      <link>http://localhost:56280/skills/skills/ml-model-debugger/</link>
+      <link>http://localhost:1313/skills/ml-model-debugger/</link>
       <pubDate>Wed, 14 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:56280/skills/skills/ml-model-debugger/</guid>
+      <guid>http://localhost:1313/skills/ml-model-debugger/</guid>
       <description>&lt;h2 id=&#34;功能概述&#34;&gt;功能概述&lt;/h2&gt;&#xA;&lt;p&gt;ML Model Debugger 是专为机器学习工程师设计的调试工具，可以帮助你快速定位和解决模型训练和推理过程中的各种问题。&lt;/p&gt;&#xA;&lt;h3 id=&#34;核心功能&#34;&gt;核心功能&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;训练诊断&lt;/strong&gt;: 自动检测梯度消失/爆炸、过拟合等问题&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;性能分析&lt;/strong&gt;: 识别模型推理的性能瓶颈&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;数据验证&lt;/strong&gt;: 检查数据质量和分布&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;可视化&lt;/strong&gt;: 提供丰富的可视化工具&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;框架支持&lt;/strong&gt;: 支持 TensorFlow、PyTorch、JAX 等主流框架&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;适用场景&#34;&gt;适用场景&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;模型训练不收敛&lt;/li&gt;&#xA;&lt;li&gt;推理速度过慢&lt;/li&gt;&#xA;&lt;li&gt;模型性能异常&lt;/li&gt;&#xA;&lt;li&gt;数据预处理问题&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;高级特性&#34;&gt;高级特性&lt;/h2&gt;&#xA;&lt;h3 id=&#34;自动修复建议&#34;&gt;自动修复建议&lt;/h3&gt;&#xA;&lt;p&gt;根据检测到的问题，自动生成修复代码建议。&lt;/p&gt;&#xA;&lt;h3 id=&#34;实时监控&#34;&gt;实时监控&lt;/h3&gt;&#xA;&lt;p&gt;在训练过程中实时监控关键指标。&lt;/p&gt;</description>
     </item>
   </channel>
