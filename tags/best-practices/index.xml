@@ -1,26 +1,71 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Best Practices on Agent Skills Hub</title>
-    <link>http://localhost:1313/tags/best-practices/</link>
-    <description>Recent content in Best Practices on Agent Skills Hub</description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <lastBuildDate>Wed, 14 Jan 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/best-practices/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Python Code Analyzer</title>
-      <link>http://localhost:1313/en/skills/python-code-analyzer/</link>
-      <pubDate>Wed, 14 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/en/skills/python-code-analyzer/</guid>
-      <description>&lt;h2 id=&#34;why-this-skill&#34;&gt;Why This Skill?&lt;/h2&gt;&#xA;&lt;p&gt;Every Python developer faces the same challenges:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Hidden Bugs&lt;/strong&gt;: Subtle issues that pass tests but break in production&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Performance Pitfalls&lt;/strong&gt;: Code that works but runs 10x slower than it should&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Code Debt&lt;/strong&gt;: Complexity that accumulates until refactoring becomes impossible&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;This skill solves these problems by providing instant, actionable feedback as you code.&lt;/p&gt;&#xA;&lt;h2 id=&#34;core-features&#34;&gt;Core Features&lt;/h2&gt;&#xA;&lt;h3 id=&#34;-static-analysis&#34;&gt;🔍 Static Analysis&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Detects common bugs: unused variables, undefined names, import errors&lt;/li&gt;&#xA;&lt;li&gt;Identifies anti-patterns before they reach production&lt;/li&gt;&#xA;&lt;li&gt;Highlights potential runtime errors&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;-performance-optimization&#34;&gt;⚡ Performance Optimization&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Spots N+1 queries, inefficient loops, and memory leaks&lt;/li&gt;&#xA;&lt;li&gt;Suggests faster algorithms and data structures&lt;/li&gt;&#xA;&lt;li&gt;Provides before/after performance estimates&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;-complexity-metrics&#34;&gt;📐 Complexity Metrics&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Calculates cyclomatic and cognitive complexity&lt;/li&gt;&#xA;&lt;li&gt;Identifies functions that are too complex to maintain&lt;/li&gt;&#xA;&lt;li&gt;Recommends specific refactoring strategies&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;-style--best-practices&#34;&gt;🎨 Style &amp;amp; Best Practices&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Enforces PEP 8 and team-specific conventions&lt;/li&gt;&#xA;&lt;li&gt;Suggests more Pythonic ways to write code&lt;/li&gt;&#xA;&lt;li&gt;Explains &lt;em&gt;why&lt;/em&gt; certain patterns are better&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;advanced-capabilities&#34;&gt;Advanced Capabilities&lt;/h2&gt;&#xA;&lt;h3 id=&#34;custom-rule-configuration&#34;&gt;Custom Rule Configuration&lt;/h3&gt;&#xA;&lt;p&gt;Create &lt;code&gt;.python-analyzer.yml&lt;/code&gt; in your project root:&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Python Code Analyzer</title>
-      <link>http://localhost:1313/skills/python-code-analyzer/</link>
-      <pubDate>Wed, 14 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/skills/python-code-analyzer/</guid>
-      <description>&lt;h2 id=&#34;why-this-skill&#34;&gt;Why This Skill?&lt;/h2&gt;&#xA;&lt;p&gt;Every Python developer faces the same challenges:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;Hidden Bugs&lt;/strong&gt;: Subtle issues that pass tests but break in production&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Performance Pitfalls&lt;/strong&gt;: Code that works but runs 10x slower than it should&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;Code Debt&lt;/strong&gt;: Complexity that accumulates until refactoring becomes impossible&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;This skill solves these problems by providing instant, actionable feedback as you code.&lt;/p&gt;&#xA;&lt;h2 id=&#34;core-features&#34;&gt;Core Features&lt;/h2&gt;&#xA;&lt;h3 id=&#34;-static-analysis&#34;&gt;🔍 Static Analysis&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Detects common bugs: unused variables, undefined names, import errors&lt;/li&gt;&#xA;&lt;li&gt;Identifies anti-patterns before they reach production&lt;/li&gt;&#xA;&lt;li&gt;Highlights potential runtime errors&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;-performance-optimization&#34;&gt;⚡ Performance Optimization&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Spots N+1 queries, inefficient loops, and memory leaks&lt;/li&gt;&#xA;&lt;li&gt;Suggests faster algorithms and data structures&lt;/li&gt;&#xA;&lt;li&gt;Provides before/after performance estimates&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;-complexity-metrics&#34;&gt;📐 Complexity Metrics&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Calculates cyclomatic and cognitive complexity&lt;/li&gt;&#xA;&lt;li&gt;Identifies functions that are too complex to maintain&lt;/li&gt;&#xA;&lt;li&gt;Recommends specific refactoring strategies&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;-style--best-practices&#34;&gt;🎨 Style &amp;amp; Best Practices&lt;/h3&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Enforces PEP 8 and team-specific conventions&lt;/li&gt;&#xA;&lt;li&gt;Suggests more Pythonic ways to write code&lt;/li&gt;&#xA;&lt;li&gt;Explains &lt;em&gt;why&lt;/em&gt; certain patterns are better&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;advanced-capabilities&#34;&gt;Advanced Capabilities&lt;/h2&gt;&#xA;&lt;h3 id=&#34;custom-rule-configuration&#34;&gt;Custom Rule Configuration&lt;/h3&gt;&#xA;&lt;p&gt;Create &lt;code&gt;.python-analyzer.yml&lt;/code&gt; in your project root:&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Best Practices on Agent Skills Hub</title><link>https://agentskill.wiki/tags/best-practices/</link><description>Recent content in Best Practices on Agent Skills Hub</description><generator>Hugo</generator><language>en</language><lastBuildDate>Wed, 14 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/best-practices/index.xml" rel="self" type="application/rss+xml"/><item><title>Python Code Analyzer</title><link>https://agentskill.wiki/en/skills/python-code-analyzer/</link><pubDate>Wed, 14 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/python-code-analyzer/</guid><description>&lt;h2 id="why-this-skill"&gt;Why This Skill?&lt;/h2&gt;
+&lt;p&gt;Every Python developer faces the same challenges:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Hidden Bugs&lt;/strong&gt;: Subtle issues that pass tests but break in production&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Performance Pitfalls&lt;/strong&gt;: Code that works but runs 10x slower than it should&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Code Debt&lt;/strong&gt;: Complexity that accumulates until refactoring becomes impossible&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This skill solves these problems by providing instant, actionable feedback as you code.&lt;/p&gt;
+&lt;h2 id="core-features"&gt;Core Features&lt;/h2&gt;
+&lt;h3 id="-static-analysis"&gt;🔍 Static Analysis&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Detects common bugs: unused variables, undefined names, import errors&lt;/li&gt;
+&lt;li&gt;Identifies anti-patterns before they reach production&lt;/li&gt;
+&lt;li&gt;Highlights potential runtime errors&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="-performance-optimization"&gt;⚡ Performance Optimization&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Spots N+1 queries, inefficient loops, and memory leaks&lt;/li&gt;
+&lt;li&gt;Suggests faster algorithms and data structures&lt;/li&gt;
+&lt;li&gt;Provides before/after performance estimates&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="-complexity-metrics"&gt;📐 Complexity Metrics&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Calculates cyclomatic and cognitive complexity&lt;/li&gt;
+&lt;li&gt;Identifies functions that are too complex to maintain&lt;/li&gt;
+&lt;li&gt;Recommends specific refactoring strategies&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="-style--best-practices"&gt;🎨 Style &amp;amp; Best Practices&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Enforces PEP 8 and team-specific conventions&lt;/li&gt;
+&lt;li&gt;Suggests more Pythonic ways to write code&lt;/li&gt;
+&lt;li&gt;Explains &lt;em&gt;why&lt;/em&gt; certain patterns are better&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="advanced-capabilities"&gt;Advanced Capabilities&lt;/h2&gt;
+&lt;h3 id="custom-rule-configuration"&gt;Custom Rule Configuration&lt;/h3&gt;
+&lt;p&gt;Create &lt;code&gt;.python-analyzer.yml&lt;/code&gt; in your project root:&lt;/p&gt;</description></item><item><title>Python Code Analyzer</title><link>https://agentskill.wiki/skills/python-code-analyzer/</link><pubDate>Wed, 14 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/python-code-analyzer/</guid><description>&lt;h2 id="why-this-skill"&gt;Why This Skill?&lt;/h2&gt;
+&lt;p&gt;Every Python developer faces the same challenges:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Hidden Bugs&lt;/strong&gt;: Subtle issues that pass tests but break in production&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Performance Pitfalls&lt;/strong&gt;: Code that works but runs 10x slower than it should&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Code Debt&lt;/strong&gt;: Complexity that accumulates until refactoring becomes impossible&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This skill solves these problems by providing instant, actionable feedback as you code.&lt;/p&gt;
+&lt;h2 id="core-features"&gt;Core Features&lt;/h2&gt;
+&lt;h3 id="-static-analysis"&gt;🔍 Static Analysis&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Detects common bugs: unused variables, undefined names, import errors&lt;/li&gt;
+&lt;li&gt;Identifies anti-patterns before they reach production&lt;/li&gt;
+&lt;li&gt;Highlights potential runtime errors&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="-performance-optimization"&gt;⚡ Performance Optimization&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Spots N+1 queries, inefficient loops, and memory leaks&lt;/li&gt;
+&lt;li&gt;Suggests faster algorithms and data structures&lt;/li&gt;
+&lt;li&gt;Provides before/after performance estimates&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="-complexity-metrics"&gt;📐 Complexity Metrics&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Calculates cyclomatic and cognitive complexity&lt;/li&gt;
+&lt;li&gt;Identifies functions that are too complex to maintain&lt;/li&gt;
+&lt;li&gt;Recommends specific refactoring strategies&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="-style--best-practices"&gt;🎨 Style &amp;amp; Best Practices&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Enforces PEP 8 and team-specific conventions&lt;/li&gt;
+&lt;li&gt;Suggests more Pythonic ways to write code&lt;/li&gt;
+&lt;li&gt;Explains &lt;em&gt;why&lt;/em&gt; certain patterns are better&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="advanced-capabilities"&gt;Advanced Capabilities&lt;/h2&gt;
+&lt;h3 id="custom-rule-configuration"&gt;Custom Rule Configuration&lt;/h3&gt;
+&lt;p&gt;Create &lt;code&gt;.python-analyzer.yml&lt;/code&gt; in your project root:&lt;/p&gt;</description></item></channel></rss>
