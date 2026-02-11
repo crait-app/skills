@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Desktop Application Developer on Agent Skills Hub</title><link>https://agentskill.wiki/topics/desktop-application-developer/</link><description>Recent content in Desktop Application Developer on Agent Skills Hub</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/topics/desktop-application-developer/index.xml" rel="self" type="application/rss+xml"/><item><title>Wox Plugin Creator</title><link>https://agentskill.wiki/en/skills/wox-plugin-creator/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/wox-plugin-creator/</guid><description>&lt;h1 id="wox-plugin-creator"&gt;Wox Plugin Creator&lt;/h1&gt;
+&lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Scaffold a Node.js plugin (clones template repo):
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;python3 scripts/scaffold_wox_plugin.py --type nodejs --output-dir ./MyPlugin&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Scaffold a Python plugin (clones template repo):
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;python3 scripts/scaffold_wox_plugin.py --type python --output-dir ./MyPlugin&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Scaffold a script plugin (uses local templates; plugin-id auto-generated; single file output):
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;python3 scripts/scaffold_wox_plugin.py --type script-nodejs --output-dir ./Wox.Plugin.Script.MyScript.js --name &amp;quot;My Script&amp;quot; --trigger-keywords my&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="workflow"&gt;Workflow&lt;/h2&gt;
+&lt;h3 id="1-scaffold-plugin-files"&gt;1) Scaffold plugin files&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Use &lt;code&gt;scripts/scaffold_wox_plugin.py&lt;/code&gt; for &lt;code&gt;nodejs&lt;/code&gt;, &lt;code&gt;python&lt;/code&gt;, &lt;code&gt;script-nodejs&lt;/code&gt;, or &lt;code&gt;script-python&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;For Node.js and Python, the scaffold clones the official template repos and replaces placeholders like &lt;code&gt;{{.ID}}&lt;/code&gt;, &lt;code&gt;{{.Name}}&lt;/code&gt;, &lt;code&gt;{{.Description}}&lt;/code&gt;, &lt;code&gt;{{.TriggerKeywordsJSON}}&lt;/code&gt;, &lt;code&gt;{{.Author}}&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Script plugins are &lt;strong&gt;single-file&lt;/strong&gt; plugins. Prefer filenames like &lt;code&gt;Wox.Plugin.Script.&amp;lt;Name&amp;gt;.&amp;lt;ext&amp;gt;&lt;/code&gt; (e.g., &lt;code&gt;Wox.Plugin.Script.Memos.py&lt;/code&gt;).&lt;/li&gt;
+&lt;li&gt;For script plugins, the scaffold copies Wox script templates from &lt;code&gt;~/.wox/ai/skills/wox-plugin-creator/assets/script_plugin_templates/&lt;/code&gt; and fills metadata placeholders.&lt;/li&gt;
+&lt;li&gt;Prefer standard library features; avoid third-party dependencies unless absolutely necessary.&lt;/li&gt;
+&lt;li&gt;For SDK usage and API details, read &lt;code&gt;references/sdk_nodejs.md&lt;/code&gt; or &lt;code&gt;references/sdk_python.md&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="2-package-and-publish"&gt;2) Package and publish&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;For SDK plugins cloned from templates, run &lt;code&gt;make publish&lt;/code&gt; inside the template repo.&lt;/li&gt;
+&lt;li&gt;Publishing notes: &lt;code&gt;references/publishing.md&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="resources"&gt;Resources&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;scripts: &lt;code&gt;scripts/scaffold_wox_plugin.py&lt;/code&gt;, &lt;code&gt;scripts/package_plugin.py&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;references: &lt;code&gt;references/plugin_overview.md&lt;/code&gt;, &lt;code&gt;references/scaffold_nodejs.md&lt;/code&gt;, &lt;code&gt;references/scaffold_python.md&lt;/code&gt;, &lt;code&gt;references/sdk_nodejs.md&lt;/code&gt;, &lt;code&gt;references/sdk_python.md&lt;/code&gt;, &lt;code&gt;references/plugin_json_schema.md&lt;/code&gt;, &lt;code&gt;references/plugin_i18n.md&lt;/code&gt;, &lt;code&gt;references/publishing.md&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;assets: &lt;code&gt;assets/script_plugin_templates/&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Wox Plugin Creator</title><link>https://agentskill.wiki/skills/wox-plugin-creator/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/wox-plugin-creator/</guid><description>&lt;h1 id="wox-plugin-creator"&gt;Wox Plugin Creator&lt;/h1&gt;
+&lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Scaffold a Node.js plugin (clones template repo):
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;python3 scripts/scaffold_wox_plugin.py --type nodejs --output-dir ./MyPlugin&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Scaffold a Python plugin (clones template repo):
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;python3 scripts/scaffold_wox_plugin.py --type python --output-dir ./MyPlugin&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Scaffold a script plugin (uses local templates; plugin-id auto-generated; single file output):
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;python3 scripts/scaffold_wox_plugin.py --type script-nodejs --output-dir ./Wox.Plugin.Script.MyScript.js --name &amp;quot;My Script&amp;quot; --trigger-keywords my&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="workflow"&gt;Workflow&lt;/h2&gt;
+&lt;h3 id="1-scaffold-plugin-files"&gt;1) Scaffold plugin files&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Use &lt;code&gt;scripts/scaffold_wox_plugin.py&lt;/code&gt; for &lt;code&gt;nodejs&lt;/code&gt;, &lt;code&gt;python&lt;/code&gt;, &lt;code&gt;script-nodejs&lt;/code&gt;, or &lt;code&gt;script-python&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;For Node.js and Python, the scaffold clones the official template repos and replaces placeholders like &lt;code&gt;{{.ID}}&lt;/code&gt;, &lt;code&gt;{{.Name}}&lt;/code&gt;, &lt;code&gt;{{.Description}}&lt;/code&gt;, &lt;code&gt;{{.TriggerKeywordsJSON}}&lt;/code&gt;, &lt;code&gt;{{.Author}}&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Script plugins are &lt;strong&gt;single-file&lt;/strong&gt; plugins. Prefer filenames like &lt;code&gt;Wox.Plugin.Script.&amp;lt;Name&amp;gt;.&amp;lt;ext&amp;gt;&lt;/code&gt; (e.g., &lt;code&gt;Wox.Plugin.Script.Memos.py&lt;/code&gt;).&lt;/li&gt;
+&lt;li&gt;For script plugins, the scaffold copies Wox script templates from &lt;code&gt;~/.wox/ai/skills/wox-plugin-creator/assets/script_plugin_templates/&lt;/code&gt; and fills metadata placeholders.&lt;/li&gt;
+&lt;li&gt;Prefer standard library features; avoid third-party dependencies unless absolutely necessary.&lt;/li&gt;
+&lt;li&gt;For SDK usage and API details, read &lt;code&gt;references/sdk_nodejs.md&lt;/code&gt; or &lt;code&gt;references/sdk_python.md&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="2-package-and-publish"&gt;2) Package and publish&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;For SDK plugins cloned from templates, run &lt;code&gt;make publish&lt;/code&gt; inside the template repo.&lt;/li&gt;
+&lt;li&gt;Publishing notes: &lt;code&gt;references/publishing.md&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="resources"&gt;Resources&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;scripts: &lt;code&gt;scripts/scaffold_wox_plugin.py&lt;/code&gt;, &lt;code&gt;scripts/package_plugin.py&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;references: &lt;code&gt;references/plugin_overview.md&lt;/code&gt;, &lt;code&gt;references/scaffold_nodejs.md&lt;/code&gt;, &lt;code&gt;references/scaffold_python.md&lt;/code&gt;, &lt;code&gt;references/sdk_nodejs.md&lt;/code&gt;, &lt;code&gt;references/sdk_python.md&lt;/code&gt;, &lt;code&gt;references/plugin_json_schema.md&lt;/code&gt;, &lt;code&gt;references/plugin_i18n.md&lt;/code&gt;, &lt;code&gt;references/publishing.md&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;assets: &lt;code&gt;assets/script_plugin_templates/&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>

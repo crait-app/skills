@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Pull-Request on Agent Skills Hub</title><link>https://agentskill.wiki/tags/pull-request/</link><description>Recent content in Pull-Request on Agent Skills Hub</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/pull-request/index.xml" rel="self" type="application/rss+xml"/><item><title>Create Pull Request</title><link>https://agentskill.wiki/en/skills/create-pull-request/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/create-pull-request/</guid><description>&lt;h1 id="create-pull-request"&gt;Create Pull Request&lt;/h1&gt;
+&lt;p&gt;This skill guides you through creating a well-structured GitHub pull request that follows project conventions and best practices.&lt;/p&gt;
+&lt;h2 id="prerequisites-check"&gt;Prerequisites Check&lt;/h2&gt;
+&lt;p&gt;Before proceeding, verify the following:&lt;/p&gt;
+&lt;h3 id="1-check-if-gh-cli-is-installed"&gt;1. Check if &lt;code&gt;gh&lt;/code&gt; CLI is installed&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;gh --version
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;If not installed, inform the user:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The GitHub CLI (&lt;code&gt;gh&lt;/code&gt;) is required but not installed. Please install it:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;macOS: &lt;code&gt;brew install gh&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Other: &lt;a href="https://cli.github.com/"&gt;https://cli.github.com/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h3 id="2-check-if-authenticated-with-github"&gt;2. Check if authenticated with GitHub&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;gh auth status
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;If not authenticated, guide the user to run &lt;code&gt;gh auth login&lt;/code&gt;.&lt;/p&gt;</description></item><item><title>Create Pull Request</title><link>https://agentskill.wiki/skills/create-pull-request/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/create-pull-request/</guid><description>&lt;h1 id="create-pull-request"&gt;Create Pull Request&lt;/h1&gt;
+&lt;p&gt;This skill guides you through creating a well-structured GitHub pull request that follows project conventions and best practices.&lt;/p&gt;
+&lt;h2 id="prerequisites-check"&gt;Prerequisites Check&lt;/h2&gt;
+&lt;p&gt;Before proceeding, verify the following:&lt;/p&gt;
+&lt;h3 id="1-check-if-gh-cli-is-installed"&gt;1. Check if &lt;code&gt;gh&lt;/code&gt; CLI is installed&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;gh --version
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;If not installed, inform the user:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The GitHub CLI (&lt;code&gt;gh&lt;/code&gt;) is required but not installed. Please install it:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;macOS: &lt;code&gt;brew install gh&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Other: &lt;a href="https://cli.github.com/"&gt;https://cli.github.com/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;h3 id="2-check-if-authenticated-with-github"&gt;2. Check if authenticated with GitHub&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;gh auth status
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;If not authenticated, guide the user to run &lt;code&gt;gh auth login&lt;/code&gt;.&lt;/p&gt;</description></item><item><title>Fetch Diff</title><link>https://agentskill.wiki/en/skills/fetch-diff/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/fetch-diff/</guid><description>&lt;h1 id="fetch-pr-diff"&gt;Fetch PR Diff&lt;/h1&gt;
+&lt;p&gt;Fetches a pull request diff, filters out auto-generated files, and adds line numbers for easier review comment placement.&lt;/p&gt;
+&lt;h2 id="usage"&gt;Usage&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;uv run skills fetch-diff &amp;lt;pr_url&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Example:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;uv run skills fetch-diff https://github.com/mlflow/mlflow/pull/123
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Token is auto-detected from &lt;code&gt;GH_TOKEN&lt;/code&gt; env var or &lt;code&gt;gh auth token&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id="output-example"&gt;Output Example&lt;/h2&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;diff --git a/path/to/file.py b/path/to/file.py
+index abc123..def456 100644
+--- a/path/to/file.py
++++ b/path/to/file.py
+@@ -10,7 +10,7 @@
+10 10 | import os
+11 11 | import sys
+12 12 | from typing import Optional
+13 | -from old_module import OldClass
+ 14 | +from new_module import NewClass
+14 15 |
+15 16 | def process_data(input_file: str) -&amp;gt; dict:
+&lt;/code&gt;&lt;/pre&gt;</description></item><item><title>Fetch Diff</title><link>https://agentskill.wiki/skills/fetch-diff/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/fetch-diff/</guid><description>&lt;h1 id="fetch-pr-diff"&gt;Fetch PR Diff&lt;/h1&gt;
+&lt;p&gt;Fetches a pull request diff, filters out auto-generated files, and adds line numbers for easier review comment placement.&lt;/p&gt;
+&lt;h2 id="usage"&gt;Usage&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;uv run skills fetch-diff &amp;lt;pr_url&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Example:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;uv run skills fetch-diff https://github.com/mlflow/mlflow/pull/123
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Token is auto-detected from &lt;code&gt;GH_TOKEN&lt;/code&gt; env var or &lt;code&gt;gh auth token&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id="output-example"&gt;Output Example&lt;/h2&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;diff --git a/path/to/file.py b/path/to/file.py
+index abc123..def456 100644
+--- a/path/to/file.py
++++ b/path/to/file.py
+@@ -10,7 +10,7 @@
+10 10 | import os
+11 11 | import sys
+12 12 | from typing import Optional
+13 | -from old_module import OldClass
+ 14 | +from new_module import NewClass
+14 15 |
+15 16 | def process_data(input_file: str) -&amp;gt; dict:
+&lt;/code&gt;&lt;/pre&gt;</description></item><item><title>Pr Creator</title><link>https://agentskill.wiki/en/skills/pr-creator/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/pr-creator/</guid><description>&lt;h1 id="pull-request-creator"&gt;Pull Request Creator&lt;/h1&gt;
+&lt;p&gt;This skill guides the creation of high-quality Pull Requests that adhere to the
+repository&amp;rsquo;s standards.&lt;/p&gt;
+&lt;h2 id="workflow"&gt;Workflow&lt;/h2&gt;
+&lt;p&gt;Follow these steps to create a Pull Request:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Branch Management&lt;/strong&gt;: Check the current branch to avoid working directly
+on &lt;code&gt;main&lt;/code&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Run &lt;code&gt;git branch --show-current&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;If the current branch is &lt;code&gt;main&lt;/code&gt;, create and switch to a new descriptive
+branch:
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;git checkout -b &amp;lt;new-branch-name&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Locate Template&lt;/strong&gt;: Search for a pull request template in the repository.&lt;/p&gt;</description></item><item><title>Pr Creator</title><link>https://agentskill.wiki/skills/pr-creator/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/pr-creator/</guid><description>&lt;h1 id="pull-request-creator"&gt;Pull Request Creator&lt;/h1&gt;
+&lt;p&gt;This skill guides the creation of high-quality Pull Requests that adhere to the
+repository&amp;rsquo;s standards.&lt;/p&gt;
+&lt;h2 id="workflow"&gt;Workflow&lt;/h2&gt;
+&lt;p&gt;Follow these steps to create a Pull Request:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Branch Management&lt;/strong&gt;: Check the current branch to avoid working directly
+on &lt;code&gt;main&lt;/code&gt;.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Run &lt;code&gt;git branch --show-current&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;If the current branch is &lt;code&gt;main&lt;/code&gt;, create and switch to a new descriptive
+branch:
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;git checkout -b &amp;lt;new-branch-name&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Locate Template&lt;/strong&gt;: Search for a pull request template in the repository.&lt;/p&gt;</description></item><item><title>Prowler Compliance Review</title><link>https://agentskill.wiki/en/skills/prowler-compliance-review/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/prowler-compliance-review/</guid><description>&lt;h2 id="when-to-use"&gt;When to Use&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Reviewing PRs that add new compliance frameworks&lt;/li&gt;
+&lt;li&gt;Reviewing PRs that modify existing compliance frameworks&lt;/li&gt;
+&lt;li&gt;Validating compliance framework JSON structure before merge&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="review-checklist-critical"&gt;Review Checklist (Critical)&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Check&lt;/th&gt;
+ &lt;th&gt;Command/Method&lt;/th&gt;
+ &lt;th&gt;Pass Criteria&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;JSON Valid&lt;/td&gt;
+ &lt;td&gt;&lt;code&gt;python3 -m json.tool file.json&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;No syntax errors&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;All Checks Exist&lt;/td&gt;
+ &lt;td&gt;Run validation script&lt;/td&gt;
+ &lt;td&gt;0 missing checks&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;No Duplicate IDs&lt;/td&gt;
+ &lt;td&gt;Run validation script&lt;/td&gt;
+ &lt;td&gt;0 duplicate requirement IDs&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;CHANGELOG Entry&lt;/td&gt;
+ &lt;td&gt;Manual review&lt;/td&gt;
+ &lt;td&gt;Present under correct version&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Dashboard File&lt;/td&gt;
+ &lt;td&gt;Compare with existing&lt;/td&gt;
+ &lt;td&gt;Follows established pattern&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Framework Metadata&lt;/td&gt;
+ &lt;td&gt;Manual review&lt;/td&gt;
+ &lt;td&gt;All required fields populated&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id="commands"&gt;Commands&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# 1. Validate JSON syntax&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 2&lt;/span&gt;&lt;span&gt;python3 -m json.tool prowler/compliance/&lt;span style="color:#f92672"&gt;{&lt;/span&gt;provider&lt;span style="color:#f92672"&gt;}&lt;/span&gt;/&lt;span style="color:#f92672"&gt;{&lt;/span&gt;framework&lt;span style="color:#f92672"&gt;}&lt;/span&gt;.json &amp;gt; /dev/null &lt;span style="color:#ae81ff"&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 3&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;amp;&amp;amp;&lt;/span&gt; echo &lt;span style="color:#e6db74"&gt;&amp;#34;Valid JSON&amp;#34;&lt;/span&gt; &lt;span style="color:#f92672"&gt;||&lt;/span&gt; echo &lt;span style="color:#e6db74"&gt;&amp;#34;INVALID JSON&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 4&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 5&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# 2. Run full validation script&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 6&lt;/span&gt;&lt;span&gt;python3 skills/prowler-compliance-review/assets/validate_compliance.py &lt;span style="color:#ae81ff"&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 7&lt;/span&gt;&lt;span&gt; prowler/compliance/&lt;span style="color:#f92672"&gt;{&lt;/span&gt;provider&lt;span style="color:#f92672"&gt;}&lt;/span&gt;/&lt;span style="color:#f92672"&gt;{&lt;/span&gt;framework&lt;span style="color:#f92672"&gt;}&lt;/span&gt;.json
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 8&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 9&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# 3. Compare dashboard with existing (find similar framework)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;10&lt;/span&gt;&lt;span&gt;diff dashboard/compliance/&lt;span style="color:#f92672"&gt;{&lt;/span&gt;new_framework&lt;span style="color:#f92672"&gt;}&lt;/span&gt;.py &lt;span style="color:#ae81ff"&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;11&lt;/span&gt;&lt;span&gt; dashboard/compliance/&lt;span style="color:#f92672"&gt;{&lt;/span&gt;existing_framework&lt;span style="color:#f92672"&gt;}&lt;/span&gt;.py
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h2 id="decision-tree"&gt;Decision Tree&lt;/h2&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;JSON Valid?
+├── No → FAIL: Fix JSON syntax errors
+└── Yes ↓
+ All Checks Exist in Codebase?
+ ├── Missing checks → FAIL: Add missing checks or remove from framework
+ └── All exist ↓
+ Duplicate Requirement IDs?
+ ├── Yes → FAIL: Fix duplicate IDs
+ └── No ↓
+ CHANGELOG Entry Present?
+ ├── No → REQUEST CHANGES: Add CHANGELOG entry
+ └── Yes ↓
+ Dashboard File Follows Pattern?
+ ├── No → REQUEST CHANGES: Fix dashboard pattern
+ └── Yes ↓
+ Framework Metadata Complete?
+ ├── No → REQUEST CHANGES: Add missing metadata
+ └── Yes → APPROVE
+&lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;
+&lt;h2 id="framework-structure-reference"&gt;Framework Structure Reference&lt;/h2&gt;
+&lt;p&gt;Compliance frameworks are JSON files in: &lt;code&gt;prowler/compliance/{provider}/{framework}.json&lt;/code&gt;&lt;/p&gt;</description></item><item><title>Prowler Compliance Review</title><link>https://agentskill.wiki/skills/prowler-compliance-review/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/prowler-compliance-review/</guid><description>&lt;h2 id="when-to-use"&gt;When to Use&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Reviewing PRs that add new compliance frameworks&lt;/li&gt;
+&lt;li&gt;Reviewing PRs that modify existing compliance frameworks&lt;/li&gt;
+&lt;li&gt;Validating compliance framework JSON structure before merge&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="review-checklist-critical"&gt;Review Checklist (Critical)&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Check&lt;/th&gt;
+ &lt;th&gt;Command/Method&lt;/th&gt;
+ &lt;th&gt;Pass Criteria&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;JSON Valid&lt;/td&gt;
+ &lt;td&gt;&lt;code&gt;python3 -m json.tool file.json&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;No syntax errors&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;All Checks Exist&lt;/td&gt;
+ &lt;td&gt;Run validation script&lt;/td&gt;
+ &lt;td&gt;0 missing checks&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;No Duplicate IDs&lt;/td&gt;
+ &lt;td&gt;Run validation script&lt;/td&gt;
+ &lt;td&gt;0 duplicate requirement IDs&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;CHANGELOG Entry&lt;/td&gt;
+ &lt;td&gt;Manual review&lt;/td&gt;
+ &lt;td&gt;Present under correct version&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Dashboard File&lt;/td&gt;
+ &lt;td&gt;Compare with existing&lt;/td&gt;
+ &lt;td&gt;Follows established pattern&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Framework Metadata&lt;/td&gt;
+ &lt;td&gt;Manual review&lt;/td&gt;
+ &lt;td&gt;All required fields populated&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id="commands"&gt;Commands&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# 1. Validate JSON syntax&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 2&lt;/span&gt;&lt;span&gt;python3 -m json.tool prowler/compliance/&lt;span style="color:#f92672"&gt;{&lt;/span&gt;provider&lt;span style="color:#f92672"&gt;}&lt;/span&gt;/&lt;span style="color:#f92672"&gt;{&lt;/span&gt;framework&lt;span style="color:#f92672"&gt;}&lt;/span&gt;.json &amp;gt; /dev/null &lt;span style="color:#ae81ff"&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 3&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;amp;&amp;amp;&lt;/span&gt; echo &lt;span style="color:#e6db74"&gt;&amp;#34;Valid JSON&amp;#34;&lt;/span&gt; &lt;span style="color:#f92672"&gt;||&lt;/span&gt; echo &lt;span style="color:#e6db74"&gt;&amp;#34;INVALID JSON&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 4&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 5&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# 2. Run full validation script&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 6&lt;/span&gt;&lt;span&gt;python3 skills/prowler-compliance-review/assets/validate_compliance.py &lt;span style="color:#ae81ff"&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 7&lt;/span&gt;&lt;span&gt; prowler/compliance/&lt;span style="color:#f92672"&gt;{&lt;/span&gt;provider&lt;span style="color:#f92672"&gt;}&lt;/span&gt;/&lt;span style="color:#f92672"&gt;{&lt;/span&gt;framework&lt;span style="color:#f92672"&gt;}&lt;/span&gt;.json
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 8&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 9&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# 3. Compare dashboard with existing (find similar framework)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;10&lt;/span&gt;&lt;span&gt;diff dashboard/compliance/&lt;span style="color:#f92672"&gt;{&lt;/span&gt;new_framework&lt;span style="color:#f92672"&gt;}&lt;/span&gt;.py &lt;span style="color:#ae81ff"&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;11&lt;/span&gt;&lt;span&gt; dashboard/compliance/&lt;span style="color:#f92672"&gt;{&lt;/span&gt;existing_framework&lt;span style="color:#f92672"&gt;}&lt;/span&gt;.py
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h2 id="decision-tree"&gt;Decision Tree&lt;/h2&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;JSON Valid?
+├── No → FAIL: Fix JSON syntax errors
+└── Yes ↓
+ All Checks Exist in Codebase?
+ ├── Missing checks → FAIL: Add missing checks or remove from framework
+ └── All exist ↓
+ Duplicate Requirement IDs?
+ ├── Yes → FAIL: Fix duplicate IDs
+ └── No ↓
+ CHANGELOG Entry Present?
+ ├── No → REQUEST CHANGES: Add CHANGELOG entry
+ └── Yes ↓
+ Dashboard File Follows Pattern?
+ ├── No → REQUEST CHANGES: Fix dashboard pattern
+ └── Yes ↓
+ Framework Metadata Complete?
+ ├── No → REQUEST CHANGES: Add missing metadata
+ └── Yes → APPROVE
+&lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;
+&lt;h2 id="framework-structure-reference"&gt;Framework Structure Reference&lt;/h2&gt;
+&lt;p&gt;Compliance frameworks are JSON files in: &lt;code&gt;prowler/compliance/{provider}/{framework}.json&lt;/code&gt;&lt;/p&gt;</description></item><item><title>Prowler Pr</title><link>https://agentskill.wiki/en/skills/prowler-pr/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/prowler-pr/</guid><description>&lt;h2 id="pr-creation-process"&gt;PR Creation Process&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Analyze changes&lt;/strong&gt;: &lt;code&gt;git diff main...HEAD&lt;/code&gt; to understand ALL commits&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Determine affected components&lt;/strong&gt;: SDK, API, UI, MCP, Docs&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Fill template sections&lt;/strong&gt; based on changes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Create PR&lt;/strong&gt; with &lt;code&gt;gh pr create&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="pr-template-structure"&gt;PR Template Structure&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-markdown" data-lang="markdown"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;### Context
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 2&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 3&lt;/span&gt;&lt;span&gt;{Why this change? Link issues with &lt;span style="color:#e6db74"&gt;`Fix #XXXX`&lt;/span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 4&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 5&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;### Description
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 6&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 7&lt;/span&gt;&lt;span&gt;{Summary of changes and dependencies}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 8&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 9&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;### Steps to review
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;10&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;11&lt;/span&gt;&lt;span&gt;{How to test/verify the changes}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;12&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;13&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;### Checklist
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;14&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;15&lt;/span&gt;&lt;span&gt;&amp;lt;details&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;16&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;17&lt;/span&gt;&lt;span&gt;&amp;lt;summary&amp;gt;&amp;lt;b&amp;gt;Community Checklist&amp;lt;/b&amp;gt;&amp;lt;/summary&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;18&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;19&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;- [ ]&lt;/span&gt; This feature/issue is listed in [&lt;span style="color:#f92672"&gt;here&lt;/span&gt;](&lt;span style="color:#a6e22e"&gt;https://github.com/prowler-cloud/prowler/issues?q=sort%3Aupdated-desc+is%3Aissue+is%3Aopen&lt;/span&gt;) or roadmap.prowler.com
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;20&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;- [ ]&lt;/span&gt; Is it assigned to me, if not, request it via the issue/feature in [&lt;span style="color:#f92672"&gt;here&lt;/span&gt;](&lt;span style="color:#a6e22e"&gt;https://github.com/prowler-cloud/prowler/issues?q=sort%3Aupdated-desc+is%3Aissue+is%3Aopen&lt;/span&gt;) or [&lt;span style="color:#f92672"&gt;Prowler Community Slack&lt;/span&gt;](&lt;span style="color:#a6e22e"&gt;goto.prowler.com/slack&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;21&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;22&lt;/span&gt;&lt;span&gt;&amp;lt;/details&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;23&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;24&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;-&lt;/span&gt; Are there new checks included in this PR? Yes / No
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;25&lt;/span&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;-&lt;/span&gt; If so, do we need to update permissions for the provider?
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;26&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;- [ ]&lt;/span&gt; Review if the code is being covered by tests.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;27&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;- [ ]&lt;/span&gt; Review if code is being documented following https://github.com/google/styleguide/blob/gh-pages/pyguide.md#38-comments-and-docstrings
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;28&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;- [ ]&lt;/span&gt; Review if backport is needed.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;29&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;- [ ]&lt;/span&gt; Review if is needed to change the Readme.md
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;30&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;- [ ]&lt;/span&gt; Ensure new entries are added to CHANGELOG.md, if applicable.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;31&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;32&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;#### SDK/CLI
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;33&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;-&lt;/span&gt; Are there new checks included in this PR? Yes / No
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;34&lt;/span&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;-&lt;/span&gt; If so, do we need to update permissions for the provider? Please review this carefully.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;35&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;36&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;#### UI (if applicable)
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;37&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;- [ ]&lt;/span&gt; All issue/task requirements work as expected on the UI
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;38&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;- [ ]&lt;/span&gt; Screenshots/Video - Mobile (X &amp;lt; 640px)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;39&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;- [ ]&lt;/span&gt; Screenshots/Video - Tablet (640px &amp;gt; X &amp;lt; 1024px)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;40&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;- [ ]&lt;/span&gt; Screenshots/Video - Desktop (X &amp;gt; 1024px)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;41&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;- [ ]&lt;/span&gt; Ensure new entries are added to ui/CHANGELOG.md
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;42&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;43&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;#### API (if applicable)
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;44&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;- [ ]&lt;/span&gt; All issue/task requirements work as expected on the API
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;45&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;- [ ]&lt;/span&gt; Endpoint response output (if applicable)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;46&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;- [ ]&lt;/span&gt; EXPLAIN ANALYZE output for new/modified queries or indexes (if applicable)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;47&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;- [ ]&lt;/span&gt; Performance test results (if applicable)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;48&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;- [ ]&lt;/span&gt; Any other relevant evidence of the implementation (if applicable)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;49&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;- [ ]&lt;/span&gt; Verify if API specs need to be regenerated.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;50&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;- [ ]&lt;/span&gt; Check if version updates are required.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;51&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;- [ ]&lt;/span&gt; Ensure new entries are added to api/CHANGELOG.md
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;52&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;53&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;### License
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;54&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;55&lt;/span&gt;&lt;span&gt;By submitting this pull request, I confirm that my contribution is made under the terms of the Apache 2.0 license.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="component-specific-rules"&gt;Component-Specific Rules&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Component&lt;/th&gt;
+ &lt;th&gt;CHANGELOG&lt;/th&gt;
+ &lt;th&gt;Extra Checks&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;SDK&lt;/td&gt;
+ &lt;td&gt;&lt;code&gt;prowler/CHANGELOG.md&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;New checks → permissions update?&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;API&lt;/td&gt;
+ &lt;td&gt;&lt;code&gt;api/CHANGELOG.md&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;API specs, version bump, endpoint output, EXPLAIN ANALYZE, performance&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;UI&lt;/td&gt;
+ &lt;td&gt;&lt;code&gt;ui/CHANGELOG.md&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;Screenshots for Mobile/Tablet/Desktop&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;MCP&lt;/td&gt;
+ &lt;td&gt;&lt;code&gt;mcp_server/CHANGELOG.md&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;N/A&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id="commands"&gt;Commands&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Check current branch status&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 2&lt;/span&gt;&lt;span&gt;git status
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 3&lt;/span&gt;&lt;span&gt;git log main..HEAD --oneline
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 4&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 5&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# View full diff&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 6&lt;/span&gt;&lt;span&gt;git diff main...HEAD
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 7&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 8&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Create PR with heredoc for body&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 9&lt;/span&gt;&lt;span&gt;gh pr create --title &lt;span style="color:#e6db74"&gt;&amp;#34;feat: description&amp;#34;&lt;/span&gt; --body &lt;span style="color:#e6db74"&gt;&amp;#34;&lt;/span&gt;&lt;span style="color:#66d9ef"&gt;$(&lt;/span&gt;cat &lt;span style="color:#e6db74"&gt;&amp;lt;&amp;lt;&amp;#39;EOF&amp;#39;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;10&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;### Context
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;11&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;...
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;12&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;EOF&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;13&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;)&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;14&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;15&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Create draft PR&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;16&lt;/span&gt;&lt;span&gt;gh pr create --draft --title &lt;span style="color:#e6db74"&gt;&amp;#34;feat: description&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="title-conventions"&gt;Title Conventions&lt;/h2&gt;
+&lt;p&gt;Follow conventional commits:&lt;/p&gt;</description></item><item><title>Prowler Pr</title><link>https://agentskill.wiki/skills/prowler-pr/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/prowler-pr/</guid><description>&lt;h2 id="pr-creation-process"&gt;PR Creation Process&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Analyze changes&lt;/strong&gt;: &lt;code&gt;git diff main...HEAD&lt;/code&gt; to understand ALL commits&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Determine affected components&lt;/strong&gt;: SDK, API, UI, MCP, Docs&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Fill template sections&lt;/strong&gt; based on changes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Create PR&lt;/strong&gt; with &lt;code&gt;gh pr create&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="pr-template-structure"&gt;PR Template Structure&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-markdown" data-lang="markdown"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;### Context
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 2&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 3&lt;/span&gt;&lt;span&gt;{Why this change? Link issues with &lt;span style="color:#e6db74"&gt;`Fix #XXXX`&lt;/span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 4&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 5&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;### Description
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 6&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 7&lt;/span&gt;&lt;span&gt;{Summary of changes and dependencies}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 8&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 9&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;### Steps to review
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;10&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;11&lt;/span&gt;&lt;span&gt;{How to test/verify the changes}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;12&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;13&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;### Checklist
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;14&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;15&lt;/span&gt;&lt;span&gt;&amp;lt;details&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;16&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;17&lt;/span&gt;&lt;span&gt;&amp;lt;summary&amp;gt;&amp;lt;b&amp;gt;Community Checklist&amp;lt;/b&amp;gt;&amp;lt;/summary&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;18&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;19&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;- [ ]&lt;/span&gt; This feature/issue is listed in [&lt;span style="color:#f92672"&gt;here&lt;/span&gt;](&lt;span style="color:#a6e22e"&gt;https://github.com/prowler-cloud/prowler/issues?q=sort%3Aupdated-desc+is%3Aissue+is%3Aopen&lt;/span&gt;) or roadmap.prowler.com
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;20&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;- [ ]&lt;/span&gt; Is it assigned to me, if not, request it via the issue/feature in [&lt;span style="color:#f92672"&gt;here&lt;/span&gt;](&lt;span style="color:#a6e22e"&gt;https://github.com/prowler-cloud/prowler/issues?q=sort%3Aupdated-desc+is%3Aissue+is%3Aopen&lt;/span&gt;) or [&lt;span style="color:#f92672"&gt;Prowler Community Slack&lt;/span&gt;](&lt;span style="color:#a6e22e"&gt;goto.prowler.com/slack&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;21&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;22&lt;/span&gt;&lt;span&gt;&amp;lt;/details&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;23&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;24&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;-&lt;/span&gt; Are there new checks included in this PR? Yes / No
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;25&lt;/span&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;-&lt;/span&gt; If so, do we need to update permissions for the provider?
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;26&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;- [ ]&lt;/span&gt; Review if the code is being covered by tests.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;27&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;- [ ]&lt;/span&gt; Review if code is being documented following https://github.com/google/styleguide/blob/gh-pages/pyguide.md#38-comments-and-docstrings
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;28&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;- [ ]&lt;/span&gt; Review if backport is needed.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;29&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;- [ ]&lt;/span&gt; Review if is needed to change the Readme.md
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;30&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;- [ ]&lt;/span&gt; Ensure new entries are added to CHANGELOG.md, if applicable.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;31&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;32&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;#### SDK/CLI
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;33&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;-&lt;/span&gt; Are there new checks included in this PR? Yes / No
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;34&lt;/span&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;-&lt;/span&gt; If so, do we need to update permissions for the provider? Please review this carefully.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;35&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;36&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;#### UI (if applicable)
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;37&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;- [ ]&lt;/span&gt; All issue/task requirements work as expected on the UI
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;38&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;- [ ]&lt;/span&gt; Screenshots/Video - Mobile (X &amp;lt; 640px)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;39&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;- [ ]&lt;/span&gt; Screenshots/Video - Tablet (640px &amp;gt; X &amp;lt; 1024px)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;40&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;- [ ]&lt;/span&gt; Screenshots/Video - Desktop (X &amp;gt; 1024px)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;41&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;- [ ]&lt;/span&gt; Ensure new entries are added to ui/CHANGELOG.md
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;42&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;43&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;#### API (if applicable)
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;44&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;- [ ]&lt;/span&gt; All issue/task requirements work as expected on the API
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;45&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;- [ ]&lt;/span&gt; Endpoint response output (if applicable)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;46&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;- [ ]&lt;/span&gt; EXPLAIN ANALYZE output for new/modified queries or indexes (if applicable)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;47&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;- [ ]&lt;/span&gt; Performance test results (if applicable)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;48&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;- [ ]&lt;/span&gt; Any other relevant evidence of the implementation (if applicable)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;49&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;- [ ]&lt;/span&gt; Verify if API specs need to be regenerated.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;50&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;- [ ]&lt;/span&gt; Check if version updates are required.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;51&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;- [ ]&lt;/span&gt; Ensure new entries are added to api/CHANGELOG.md
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;52&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;53&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;### License
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;54&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;55&lt;/span&gt;&lt;span&gt;By submitting this pull request, I confirm that my contribution is made under the terms of the Apache 2.0 license.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="component-specific-rules"&gt;Component-Specific Rules&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Component&lt;/th&gt;
+ &lt;th&gt;CHANGELOG&lt;/th&gt;
+ &lt;th&gt;Extra Checks&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;SDK&lt;/td&gt;
+ &lt;td&gt;&lt;code&gt;prowler/CHANGELOG.md&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;New checks → permissions update?&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;API&lt;/td&gt;
+ &lt;td&gt;&lt;code&gt;api/CHANGELOG.md&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;API specs, version bump, endpoint output, EXPLAIN ANALYZE, performance&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;UI&lt;/td&gt;
+ &lt;td&gt;&lt;code&gt;ui/CHANGELOG.md&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;Screenshots for Mobile/Tablet/Desktop&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;MCP&lt;/td&gt;
+ &lt;td&gt;&lt;code&gt;mcp_server/CHANGELOG.md&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;N/A&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id="commands"&gt;Commands&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Check current branch status&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 2&lt;/span&gt;&lt;span&gt;git status
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 3&lt;/span&gt;&lt;span&gt;git log main..HEAD --oneline
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 4&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 5&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# View full diff&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 6&lt;/span&gt;&lt;span&gt;git diff main...HEAD
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 7&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 8&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Create PR with heredoc for body&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 9&lt;/span&gt;&lt;span&gt;gh pr create --title &lt;span style="color:#e6db74"&gt;&amp;#34;feat: description&amp;#34;&lt;/span&gt; --body &lt;span style="color:#e6db74"&gt;&amp;#34;&lt;/span&gt;&lt;span style="color:#66d9ef"&gt;$(&lt;/span&gt;cat &lt;span style="color:#e6db74"&gt;&amp;lt;&amp;lt;&amp;#39;EOF&amp;#39;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;10&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;### Context
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;11&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;...
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;12&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;EOF&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;13&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;)&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;14&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;15&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Create draft PR&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;16&lt;/span&gt;&lt;span&gt;gh pr create --draft --title &lt;span style="color:#e6db74"&gt;&amp;#34;feat: description&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="title-conventions"&gt;Title Conventions&lt;/h2&gt;
+&lt;p&gt;Follow conventional commits:&lt;/p&gt;</description></item><item><title>Reviewing Changes</title><link>https://agentskill.wiki/en/skills/reviewing-changes/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/reviewing-changes/</guid><description>&lt;h1 id="reviewing-changes---android-additions"&gt;Reviewing Changes - Android Additions&lt;/h1&gt;
+&lt;p&gt;This skill provides Android-specific workflow additions that complement the base &lt;code&gt;bitwarden-code-reviewer&lt;/code&gt; agent standards.&lt;/p&gt;
+&lt;h2 id="instructions"&gt;Instructions&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;IMPORTANT&lt;/strong&gt;: Use structured thinking throughout your review process. Plan your analysis in &lt;code&gt;&amp;lt;thinking&amp;gt;&lt;/code&gt; tags before providing final feedback.&lt;/p&gt;
+&lt;h3 id="step-1-retrieve-additional-details"&gt;Step 1: Retrieve Additional Details&lt;/h3&gt;
+&lt;thinking&gt;
+Determine if more context is available for the changes:
+1. Are there JIRA tickets or GitHub Issues mentioned in the PR title or body?
+2. Are there other GitHub pull requests mentioned in the PR title or body?
+&lt;/thinking&gt;
+&lt;p&gt;Retrieve any additional information linked to the pull request using available tools (JIRA MCP, GitHub API).&lt;/p&gt;</description></item><item><title>Reviewing Changes</title><link>https://agentskill.wiki/skills/reviewing-changes/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/reviewing-changes/</guid><description>&lt;h1 id="reviewing-changes---android-additions"&gt;Reviewing Changes - Android Additions&lt;/h1&gt;
+&lt;p&gt;This skill provides Android-specific workflow additions that complement the base &lt;code&gt;bitwarden-code-reviewer&lt;/code&gt; agent standards.&lt;/p&gt;
+&lt;h2 id="instructions"&gt;Instructions&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;IMPORTANT&lt;/strong&gt;: Use structured thinking throughout your review process. Plan your analysis in &lt;code&gt;&amp;lt;thinking&amp;gt;&lt;/code&gt; tags before providing final feedback.&lt;/p&gt;
+&lt;h3 id="step-1-retrieve-additional-details"&gt;Step 1: Retrieve Additional Details&lt;/h3&gt;
+&lt;thinking&gt;
+Determine if more context is available for the changes:
+1. Are there JIRA tickets or GitHub Issues mentioned in the PR title or body?
+2. Are there other GitHub pull requests mentioned in the PR title or body?
+&lt;/thinking&gt;
+&lt;p&gt;Retrieve any additional information linked to the pull request using available tools (JIRA MCP, GitHub API).&lt;/p&gt;</description></item><item><title>Woocommerce Code Review</title><link>https://agentskill.wiki/en/skills/woocommerce-code-review/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/woocommerce-code-review/</guid><description>&lt;h1 id="woocommerce-code-review"&gt;WooCommerce Code Review&lt;/h1&gt;
+&lt;p&gt;Review code changes against WooCommerce coding standards and conventions.&lt;/p&gt;
+&lt;h2 id="critical-violations-to-flag"&gt;Critical Violations to Flag&lt;/h2&gt;
+&lt;h3 id="backend-php-code"&gt;Backend PHP Code&lt;/h3&gt;
+&lt;p&gt;Consult the &lt;code&gt;woocommerce-backend-dev&lt;/code&gt; skill for detailed standards. Using these standards as guidance, flag these violations and other similar ones:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Architecture &amp;amp; Structure:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;❌ &lt;strong&gt;Standalone functions&lt;/strong&gt; - Must use class methods (&lt;a href="../woocommerce-backend-dev/file-entities.md"&gt;file-entities.md&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;❌ &lt;strong&gt;Using &lt;code&gt;new&lt;/code&gt; for DI-managed classes&lt;/strong&gt; - Classes in &lt;code&gt;src/&lt;/code&gt; must use &lt;code&gt;$container-&amp;gt;get()&lt;/code&gt; (&lt;a href="../woocommerce-backend-dev/dependency-injection.md"&gt;dependency-injection.md&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;❌ &lt;strong&gt;Classes outside &lt;code&gt;src/Internal/&lt;/code&gt;&lt;/strong&gt; - Default location unless explicitly public (&lt;a href="../woocommerce-backend-dev/file-entities.md"&gt;file-entities.md&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Naming &amp;amp; Conventions:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Woocommerce Code Review</title><link>https://agentskill.wiki/skills/woocommerce-code-review/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/woocommerce-code-review/</guid><description>&lt;h1 id="woocommerce-code-review"&gt;WooCommerce Code Review&lt;/h1&gt;
+&lt;p&gt;Review code changes against WooCommerce coding standards and conventions.&lt;/p&gt;
+&lt;h2 id="critical-violations-to-flag"&gt;Critical Violations to Flag&lt;/h2&gt;
+&lt;h3 id="backend-php-code"&gt;Backend PHP Code&lt;/h3&gt;
+&lt;p&gt;Consult the &lt;code&gt;woocommerce-backend-dev&lt;/code&gt; skill for detailed standards. Using these standards as guidance, flag these violations and other similar ones:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Architecture &amp;amp; Structure:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;❌ &lt;strong&gt;Standalone functions&lt;/strong&gt; - Must use class methods (&lt;a href="../woocommerce-backend-dev/file-entities.md"&gt;file-entities.md&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;❌ &lt;strong&gt;Using &lt;code&gt;new&lt;/code&gt; for DI-managed classes&lt;/strong&gt; - Classes in &lt;code&gt;src/&lt;/code&gt; must use &lt;code&gt;$container-&amp;gt;get()&lt;/code&gt; (&lt;a href="../woocommerce-backend-dev/dependency-injection.md"&gt;dependency-injection.md&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;❌ &lt;strong&gt;Classes outside &lt;code&gt;src/Internal/&lt;/code&gt;&lt;/strong&gt; - Default location unless explicitly public (&lt;a href="../woocommerce-backend-dev/file-entities.md"&gt;file-entities.md&lt;/a&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Naming &amp;amp; Conventions:&lt;/strong&gt;&lt;/p&gt;</description></item></channel></rss>

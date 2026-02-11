@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Push on Agent Skills Hub</title><link>https://agentskill.wiki/tags/push/</link><description>Recent content in Push on Agent Skills Hub</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/push/index.xml" rel="self" type="application/rss+xml"/><item><title>Railway Deploy</title><link>https://agentskill.wiki/en/skills/railway-deploy/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/railway-deploy/</guid><description>&lt;h1 id="railway-deploy"&gt;Railway Deploy&lt;/h1&gt;
+&lt;p&gt;Deploy code from the current directory to Railway using &lt;code&gt;railway up&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id="when-to-use"&gt;When to Use&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;User asks to &amp;ldquo;deploy&amp;rdquo;, &amp;ldquo;ship&amp;rdquo;, &amp;ldquo;push code&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;User says &amp;ldquo;railway up&amp;rdquo; or &amp;ldquo;deploy to Railway&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;User wants to deploy local code changes&lt;/li&gt;
+&lt;li&gt;User says &amp;ldquo;deploy and fix any issues&amp;rdquo; (use &amp;ndash;ci mode)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="modes"&gt;Modes&lt;/h2&gt;
+&lt;h3 id="detach-mode-default"&gt;Detach Mode (default)&lt;/h3&gt;
+&lt;p&gt;Starts deploy and returns immediately. Use for most deploys.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;railway up --detach
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="ci-mode"&gt;CI Mode&lt;/h3&gt;
+&lt;p&gt;Streams build logs until complete. Use when user wants to watch the build or needs to debug issues.&lt;/p&gt;</description></item><item><title>Railway Deploy</title><link>https://agentskill.wiki/skills/railway-deploy/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/railway-deploy/</guid><description>&lt;h1 id="railway-deploy"&gt;Railway Deploy&lt;/h1&gt;
+&lt;p&gt;Deploy code from the current directory to Railway using &lt;code&gt;railway up&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id="when-to-use"&gt;When to Use&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;User asks to &amp;ldquo;deploy&amp;rdquo;, &amp;ldquo;ship&amp;rdquo;, &amp;ldquo;push code&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;User says &amp;ldquo;railway up&amp;rdquo; or &amp;ldquo;deploy to Railway&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;User wants to deploy local code changes&lt;/li&gt;
+&lt;li&gt;User says &amp;ldquo;deploy and fix any issues&amp;rdquo; (use &amp;ndash;ci mode)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="modes"&gt;Modes&lt;/h2&gt;
+&lt;h3 id="detach-mode-default"&gt;Detach Mode (default)&lt;/h3&gt;
+&lt;p&gt;Starts deploy and returns immediately. Use for most deploys.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;railway up --detach
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="ci-mode"&gt;CI Mode&lt;/h3&gt;
+&lt;p&gt;Streams build logs until complete. Use when user wants to watch the build or needs to debug issues.&lt;/p&gt;</description></item></channel></rss>

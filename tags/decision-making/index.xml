@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Decision-Making on Agent Skills Hub</title><link>https://agentskill.wiki/tags/decision-making/</link><description>Recent content in Decision-Making on Agent Skills Hub</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/decision-making/index.xml" rel="self" type="application/rss+xml"/><item><title>Ceo Advisor</title><link>https://agentskill.wiki/en/skills/ceo-advisor/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/ceo-advisor/</guid><description>&lt;h1 id="ceo-advisor"&gt;CEO Advisor&lt;/h1&gt;
+&lt;p&gt;Strategic frameworks and tools for chief executive leadership, organizational transformation, and stakeholder management.&lt;/p&gt;
+&lt;h2 id="keywords"&gt;Keywords&lt;/h2&gt;
+&lt;p&gt;CEO, chief executive officer, executive leadership, strategic planning, board governance, investor relations, board meetings, board presentations, financial modeling, strategic decisions, organizational culture, company culture, leadership development, stakeholder management, executive strategy, crisis management, organizational transformation, investor updates, strategic initiatives, company vision&lt;/p&gt;
+&lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;
+&lt;h3 id="for-strategic-planning"&gt;For Strategic Planning&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;python scripts/strategy_analyzer.py
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Analyzes strategic position and generates actionable recommendations.&lt;/p&gt;</description></item><item><title>Ceo Advisor</title><link>https://agentskill.wiki/skills/ceo-advisor/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/ceo-advisor/</guid><description>&lt;h1 id="ceo-advisor"&gt;CEO Advisor&lt;/h1&gt;
+&lt;p&gt;Strategic frameworks and tools for chief executive leadership, organizational transformation, and stakeholder management.&lt;/p&gt;
+&lt;h2 id="keywords"&gt;Keywords&lt;/h2&gt;
+&lt;p&gt;CEO, chief executive officer, executive leadership, strategic planning, board governance, investor relations, board meetings, board presentations, financial modeling, strategic decisions, organizational culture, company culture, leadership development, stakeholder management, executive strategy, crisis management, organizational transformation, investor updates, strategic initiatives, company vision&lt;/p&gt;
+&lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;
+&lt;h3 id="for-strategic-planning"&gt;For Strategic Planning&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;python scripts/strategy_analyzer.py
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Analyzes strategic position and generates actionable recommendations.&lt;/p&gt;</description></item><item><title>Notion Meeting Intelligence</title><link>https://agentskill.wiki/en/skills/notion-meeting-intelligence/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/notion-meeting-intelligence/</guid><description>&lt;h1 id="meeting-intelligence"&gt;Meeting Intelligence&lt;/h1&gt;
+&lt;p&gt;Prep meetings by pulling Notion context, tailoring agendas/pre-reads, and enriching with Codex research.&lt;/p&gt;
+&lt;h2 id="quick-start"&gt;Quick start&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Confirm meeting goal, attendees, date/time, and decisions needed.&lt;/li&gt;
+&lt;li&gt;Gather context: search with &lt;code&gt;Notion:notion-search&lt;/code&gt;, then fetch with &lt;code&gt;Notion:notion-fetch&lt;/code&gt; (prior notes, specs, OKRs, decisions).&lt;/li&gt;
+&lt;li&gt;Pick the right template via &lt;code&gt;reference/template-selection-guide.md&lt;/code&gt; (status, decision, planning, retro, 1:1, brainstorming).&lt;/li&gt;
+&lt;li&gt;Draft agenda/pre-read in Notion with &lt;code&gt;Notion:notion-create-pages&lt;/code&gt;, embedding source links and owner/timeboxes.&lt;/li&gt;
+&lt;li&gt;Enrich with Codex research (industry insights, benchmarks, risks) and update the page with &lt;code&gt;Notion:notion-update-page&lt;/code&gt; as plans change.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="workflow"&gt;Workflow&lt;/h2&gt;
+&lt;h3 id="0-if-any-mcp-call-fails-because-notion-mcp-is-not-connected-pause-and-set-it-up"&gt;0) If any MCP call fails because Notion MCP is not connected, pause and set it up:&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Add the Notion MCP:
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;codex mcp add notion --url https://mcp.notion.com/mcp&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Enable remote MCP client:
+&lt;ul&gt;
+&lt;li&gt;Set &lt;code&gt;[features].rmcp_client = true&lt;/code&gt; in &lt;code&gt;config.toml&lt;/code&gt; &lt;strong&gt;or&lt;/strong&gt; run &lt;code&gt;codex --enable rmcp_client&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Log in with OAuth:
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;codex mcp login notion&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;After successful login, the user will have to restart codex. You should finish your answer and tell them so when they try again they can continue with Step 1.&lt;/p&gt;</description></item><item><title>Notion Meeting Intelligence</title><link>https://agentskill.wiki/skills/notion-meeting-intelligence/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/notion-meeting-intelligence/</guid><description>&lt;h1 id="meeting-intelligence"&gt;Meeting Intelligence&lt;/h1&gt;
+&lt;p&gt;Prep meetings by pulling Notion context, tailoring agendas/pre-reads, and enriching with Codex research.&lt;/p&gt;
+&lt;h2 id="quick-start"&gt;Quick start&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Confirm meeting goal, attendees, date/time, and decisions needed.&lt;/li&gt;
+&lt;li&gt;Gather context: search with &lt;code&gt;Notion:notion-search&lt;/code&gt;, then fetch with &lt;code&gt;Notion:notion-fetch&lt;/code&gt; (prior notes, specs, OKRs, decisions).&lt;/li&gt;
+&lt;li&gt;Pick the right template via &lt;code&gt;reference/template-selection-guide.md&lt;/code&gt; (status, decision, planning, retro, 1:1, brainstorming).&lt;/li&gt;
+&lt;li&gt;Draft agenda/pre-read in Notion with &lt;code&gt;Notion:notion-create-pages&lt;/code&gt;, embedding source links and owner/timeboxes.&lt;/li&gt;
+&lt;li&gt;Enrich with Codex research (industry insights, benchmarks, risks) and update the page with &lt;code&gt;Notion:notion-update-page&lt;/code&gt; as plans change.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="workflow"&gt;Workflow&lt;/h2&gt;
+&lt;h3 id="0-if-any-mcp-call-fails-because-notion-mcp-is-not-connected-pause-and-set-it-up"&gt;0) If any MCP call fails because Notion MCP is not connected, pause and set it up:&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Add the Notion MCP:
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;codex mcp add notion --url https://mcp.notion.com/mcp&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Enable remote MCP client:
+&lt;ul&gt;
+&lt;li&gt;Set &lt;code&gt;[features].rmcp_client = true&lt;/code&gt; in &lt;code&gt;config.toml&lt;/code&gt; &lt;strong&gt;or&lt;/strong&gt; run &lt;code&gt;codex --enable rmcp_client&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Log in with OAuth:
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;codex mcp login notion&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;After successful login, the user will have to restart codex. You should finish your answer and tell them so when they try again they can continue with Step 1.&lt;/p&gt;</description></item></channel></rss>

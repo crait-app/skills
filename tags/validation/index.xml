@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Validation on Agent Skills Hub</title><link>https://agentskill.wiki/tags/validation/</link><description>Recent content in Validation on Agent Skills Hub</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/validation/index.xml" rel="self" type="application/rss+xml"/><item><title>Claude Skills</title><link>https://agentskill.wiki/en/skills/claude-skills/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/claude-skills/</guid><description>&lt;h1 id="claude-skills-meta-skill"&gt;Claude Skills Meta-Skill&lt;/h1&gt;
+&lt;p&gt;Turn scattered domain material into a Skill that is reusable, maintainable, and reliably activatable:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;SKILL.md&lt;/code&gt; as the entrypoint (triggers, constraints, patterns, examples)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;references/&lt;/code&gt; for long-form evidence and navigation&lt;/li&gt;
+&lt;li&gt;optional &lt;code&gt;scripts/&lt;/code&gt; and &lt;code&gt;assets/&lt;/code&gt; for scaffolding and templates&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
+&lt;p&gt;Trigger this meta-skill when you need to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Create a new Skill from scratch from docs/specs/repos&lt;/li&gt;
+&lt;li&gt;Refactor an existing Skill (too long, unclear, inconsistent, misfires)&lt;/li&gt;
+&lt;li&gt;Design reliable activation (frontmatter + triggers + boundaries)&lt;/li&gt;
+&lt;li&gt;Extract a clean Quick Reference from large material&lt;/li&gt;
+&lt;li&gt;Split long content into navigable &lt;code&gt;references/&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Add a quality gate and a validator&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="not-for--boundaries"&gt;Not For / Boundaries&lt;/h2&gt;
+&lt;p&gt;This meta-skill is NOT:&lt;/p&gt;</description></item><item><title>Claude Skills</title><link>https://agentskill.wiki/skills/claude-skills/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/claude-skills/</guid><description>&lt;h1 id="claude-skills-meta-skill"&gt;Claude Skills Meta-Skill&lt;/h1&gt;
+&lt;p&gt;Turn scattered domain material into a Skill that is reusable, maintainable, and reliably activatable:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;SKILL.md&lt;/code&gt; as the entrypoint (triggers, constraints, patterns, examples)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;references/&lt;/code&gt; for long-form evidence and navigation&lt;/li&gt;
+&lt;li&gt;optional &lt;code&gt;scripts/&lt;/code&gt; and &lt;code&gt;assets/&lt;/code&gt; for scaffolding and templates&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
+&lt;p&gt;Trigger this meta-skill when you need to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Create a new Skill from scratch from docs/specs/repos&lt;/li&gt;
+&lt;li&gt;Refactor an existing Skill (too long, unclear, inconsistent, misfires)&lt;/li&gt;
+&lt;li&gt;Design reliable activation (frontmatter + triggers + boundaries)&lt;/li&gt;
+&lt;li&gt;Extract a clean Quick Reference from large material&lt;/li&gt;
+&lt;li&gt;Split long content into navigable &lt;code&gt;references/&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Add a quality gate and a validator&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="not-for--boundaries"&gt;Not For / Boundaries&lt;/h2&gt;
+&lt;p&gt;This meta-skill is NOT:&lt;/p&gt;</description></item><item><title>Hook Development</title><link>https://agentskill.wiki/en/skills/hook-development/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/hook-development/</guid><description>&lt;h1 id="hook-development-for-claude-code-plugins"&gt;Hook Development for Claude Code Plugins&lt;/h1&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Hooks are event-driven automation scripts that execute in response to Claude Code events. Use hooks to validate operations, enforce policies, add context, and integrate external tools into workflows.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Key capabilities:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Validate tool calls before execution (PreToolUse)&lt;/li&gt;
+&lt;li&gt;React to tool results (PostToolUse)&lt;/li&gt;
+&lt;li&gt;Enforce completion standards (Stop, SubagentStop)&lt;/li&gt;
+&lt;li&gt;Load project context (SessionStart)&lt;/li&gt;
+&lt;li&gt;Automate workflows across the development lifecycle&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="hook-types"&gt;Hook Types&lt;/h2&gt;
+&lt;h3 id="prompt-based-hooks-recommended"&gt;Prompt-Based Hooks (Recommended)&lt;/h3&gt;
+&lt;p&gt;Use LLM-driven decision making for context-aware validation:&lt;/p&gt;</description></item><item><title>Hook Development</title><link>https://agentskill.wiki/skills/hook-development/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/hook-development/</guid><description>&lt;h1 id="hook-development-for-claude-code-plugins"&gt;Hook Development for Claude Code Plugins&lt;/h1&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Hooks are event-driven automation scripts that execute in response to Claude Code events. Use hooks to validate operations, enforce policies, add context, and integrate external tools into workflows.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Key capabilities:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Validate tool calls before execution (PreToolUse)&lt;/li&gt;
+&lt;li&gt;React to tool results (PostToolUse)&lt;/li&gt;
+&lt;li&gt;Enforce completion standards (Stop, SubagentStop)&lt;/li&gt;
+&lt;li&gt;Load project context (SessionStart)&lt;/li&gt;
+&lt;li&gt;Automate workflows across the development lifecycle&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="hook-types"&gt;Hook Types&lt;/h2&gt;
+&lt;h3 id="prompt-based-hooks-recommended"&gt;Prompt-Based Hooks (Recommended)&lt;/h3&gt;
+&lt;p&gt;Use LLM-driven decision making for context-aware validation:&lt;/p&gt;</description></item><item><title>N8N Expression Syntax</title><link>https://agentskill.wiki/en/skills/n8n-expression-syntax/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/n8n-expression-syntax/</guid><description>&lt;h1 id="n8n-expression-syntax"&gt;n8n Expression Syntax&lt;/h1&gt;
+&lt;p&gt;Expert guide for writing correct n8n expressions in workflows.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="expression-format"&gt;Expression Format&lt;/h2&gt;
+&lt;p&gt;All dynamic content in n8n uses &lt;strong&gt;double curly braces&lt;/strong&gt;:&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;{{expression}}
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Examples&lt;/strong&gt;:&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;✅ {{$json.email}}
+✅ {{$json.body.name}}
+✅ {{$node[&amp;#34;HTTP Request&amp;#34;].json.data}}
+❌ $json.email (no braces - treated as literal text)
+❌ {$json.email} (single braces - invalid)
+&lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;
+&lt;h2 id="core-variables"&gt;Core Variables&lt;/h2&gt;
+&lt;h3 id="json---current-node-output"&gt;$json - Current Node Output&lt;/h3&gt;
+&lt;p&gt;Access data from the current node:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-javascript" data-lang="javascript"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;{{&lt;span style="color:#a6e22e"&gt;$json&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;fieldName&lt;/span&gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;2&lt;/span&gt;&lt;span&gt;{{&lt;span style="color:#a6e22e"&gt;$json&lt;/span&gt;[&lt;span style="color:#e6db74"&gt;&amp;#39;field with spaces&amp;#39;&lt;/span&gt;]}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;3&lt;/span&gt;&lt;span&gt;{{&lt;span style="color:#a6e22e"&gt;$json&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;nested&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;property&lt;/span&gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;4&lt;/span&gt;&lt;span&gt;{{&lt;span style="color:#a6e22e"&gt;$json&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;items&lt;/span&gt;[&lt;span style="color:#ae81ff"&gt;0&lt;/span&gt;].&lt;span style="color:#a6e22e"&gt;name&lt;/span&gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="node---reference-other-nodes"&gt;$node - Reference Other Nodes&lt;/h3&gt;
+&lt;p&gt;Access data from any previous node:&lt;/p&gt;</description></item><item><title>N8N Expression Syntax</title><link>https://agentskill.wiki/skills/n8n-expression-syntax/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/n8n-expression-syntax/</guid><description>&lt;h1 id="n8n-expression-syntax"&gt;n8n Expression Syntax&lt;/h1&gt;
+&lt;p&gt;Expert guide for writing correct n8n expressions in workflows.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="expression-format"&gt;Expression Format&lt;/h2&gt;
+&lt;p&gt;All dynamic content in n8n uses &lt;strong&gt;double curly braces&lt;/strong&gt;:&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;{{expression}}
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Examples&lt;/strong&gt;:&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;✅ {{$json.email}}
+✅ {{$json.body.name}}
+✅ {{$node[&amp;#34;HTTP Request&amp;#34;].json.data}}
+❌ $json.email (no braces - treated as literal text)
+❌ {$json.email} (single braces - invalid)
+&lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;
+&lt;h2 id="core-variables"&gt;Core Variables&lt;/h2&gt;
+&lt;h3 id="json---current-node-output"&gt;$json - Current Node Output&lt;/h3&gt;
+&lt;p&gt;Access data from the current node:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-javascript" data-lang="javascript"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;{{&lt;span style="color:#a6e22e"&gt;$json&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;fieldName&lt;/span&gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;2&lt;/span&gt;&lt;span&gt;{{&lt;span style="color:#a6e22e"&gt;$json&lt;/span&gt;[&lt;span style="color:#e6db74"&gt;&amp;#39;field with spaces&amp;#39;&lt;/span&gt;]}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;3&lt;/span&gt;&lt;span&gt;{{&lt;span style="color:#a6e22e"&gt;$json&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;nested&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;property&lt;/span&gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;4&lt;/span&gt;&lt;span&gt;{{&lt;span style="color:#a6e22e"&gt;$json&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;items&lt;/span&gt;[&lt;span style="color:#ae81ff"&gt;0&lt;/span&gt;].&lt;span style="color:#a6e22e"&gt;name&lt;/span&gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="node---reference-other-nodes"&gt;$node - Reference Other Nodes&lt;/h3&gt;
+&lt;p&gt;Access data from any previous node:&lt;/p&gt;</description></item><item><title>N8N Mcp Tools Expert</title><link>https://agentskill.wiki/en/skills/n8n-mcp-tools-expert/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/n8n-mcp-tools-expert/</guid><description>&lt;h1 id="n8n-mcp-tools-expert"&gt;n8n MCP Tools Expert&lt;/h1&gt;
+&lt;p&gt;Master guide for using n8n-mcp MCP server tools to build workflows.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="tool-categories"&gt;Tool Categories&lt;/h2&gt;
+&lt;p&gt;n8n-mcp provides &lt;strong&gt;40+ tools&lt;/strong&gt; organized into categories:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Node Discovery&lt;/strong&gt; → &lt;a href="SEARCH_GUIDE.md"&gt;SEARCH_GUIDE.md&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Configuration Validation&lt;/strong&gt; → &lt;a href="VALIDATION_GUIDE.md"&gt;VALIDATION_GUIDE.md&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Workflow Management&lt;/strong&gt; → &lt;a href="WORKFLOW_GUIDE.md"&gt;WORKFLOW_GUIDE.md&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Template Library&lt;/strong&gt; - Search and access 2,653 real workflows&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Documentation&lt;/strong&gt; - Get tool and node documentation&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id="quick-reference"&gt;Quick Reference&lt;/h2&gt;
+&lt;h3 id="most-used-tools-by-success-rate"&gt;Most Used Tools (by success rate)&lt;/h3&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Tool&lt;/th&gt;
+ &lt;th&gt;Use When&lt;/th&gt;
+ &lt;th&gt;Success Rate&lt;/th&gt;
+ &lt;th&gt;Speed&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;code&gt;search_nodes&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;Finding nodes by keyword&lt;/td&gt;
+ &lt;td&gt;99.9%&lt;/td&gt;
+ &lt;td&gt;&amp;lt;20ms&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;code&gt;get_node_essentials&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;Understanding node operations&lt;/td&gt;
+ &lt;td&gt;91.7%&lt;/td&gt;
+ &lt;td&gt;&amp;lt;10ms&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;code&gt;validate_node_operation&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;Checking configurations&lt;/td&gt;
+ &lt;td&gt;Varies&lt;/td&gt;
+ &lt;td&gt;&amp;lt;100ms&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;code&gt;n8n_create_workflow&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;Creating workflows&lt;/td&gt;
+ &lt;td&gt;96.8%&lt;/td&gt;
+ &lt;td&gt;100-500ms&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;code&gt;n8n_update_partial_workflow&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;Editing workflows (MOST USED!)&lt;/td&gt;
+ &lt;td&gt;99.0%&lt;/td&gt;
+ &lt;td&gt;50-200ms&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;code&gt;validate_workflow&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;Checking complete workflow&lt;/td&gt;
+ &lt;td&gt;95.5%&lt;/td&gt;
+ &lt;td&gt;100-500ms&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id="tool-selection-guide"&gt;Tool Selection Guide&lt;/h2&gt;
+&lt;h3 id="finding-the-right-node"&gt;Finding the Right Node&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Workflow&lt;/strong&gt;:&lt;/p&gt;</description></item><item><title>N8N Mcp Tools Expert</title><link>https://agentskill.wiki/skills/n8n-mcp-tools-expert/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/n8n-mcp-tools-expert/</guid><description>&lt;h1 id="n8n-mcp-tools-expert"&gt;n8n MCP Tools Expert&lt;/h1&gt;
+&lt;p&gt;Master guide for using n8n-mcp MCP server tools to build workflows.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="tool-categories"&gt;Tool Categories&lt;/h2&gt;
+&lt;p&gt;n8n-mcp provides &lt;strong&gt;40+ tools&lt;/strong&gt; organized into categories:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Node Discovery&lt;/strong&gt; → &lt;a href="SEARCH_GUIDE.md"&gt;SEARCH_GUIDE.md&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Configuration Validation&lt;/strong&gt; → &lt;a href="VALIDATION_GUIDE.md"&gt;VALIDATION_GUIDE.md&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Workflow Management&lt;/strong&gt; → &lt;a href="WORKFLOW_GUIDE.md"&gt;WORKFLOW_GUIDE.md&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Template Library&lt;/strong&gt; - Search and access 2,653 real workflows&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Documentation&lt;/strong&gt; - Get tool and node documentation&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id="quick-reference"&gt;Quick Reference&lt;/h2&gt;
+&lt;h3 id="most-used-tools-by-success-rate"&gt;Most Used Tools (by success rate)&lt;/h3&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Tool&lt;/th&gt;
+ &lt;th&gt;Use When&lt;/th&gt;
+ &lt;th&gt;Success Rate&lt;/th&gt;
+ &lt;th&gt;Speed&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;code&gt;search_nodes&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;Finding nodes by keyword&lt;/td&gt;
+ &lt;td&gt;99.9%&lt;/td&gt;
+ &lt;td&gt;&amp;lt;20ms&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;code&gt;get_node_essentials&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;Understanding node operations&lt;/td&gt;
+ &lt;td&gt;91.7%&lt;/td&gt;
+ &lt;td&gt;&amp;lt;10ms&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;code&gt;validate_node_operation&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;Checking configurations&lt;/td&gt;
+ &lt;td&gt;Varies&lt;/td&gt;
+ &lt;td&gt;&amp;lt;100ms&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;code&gt;n8n_create_workflow&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;Creating workflows&lt;/td&gt;
+ &lt;td&gt;96.8%&lt;/td&gt;
+ &lt;td&gt;100-500ms&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;code&gt;n8n_update_partial_workflow&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;Editing workflows (MOST USED!)&lt;/td&gt;
+ &lt;td&gt;99.0%&lt;/td&gt;
+ &lt;td&gt;50-200ms&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;code&gt;validate_workflow&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;Checking complete workflow&lt;/td&gt;
+ &lt;td&gt;95.5%&lt;/td&gt;
+ &lt;td&gt;100-500ms&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id="tool-selection-guide"&gt;Tool Selection Guide&lt;/h2&gt;
+&lt;h3 id="finding-the-right-node"&gt;Finding the Right Node&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Workflow&lt;/strong&gt;:&lt;/p&gt;</description></item><item><title>N8N Node Configuration</title><link>https://agentskill.wiki/en/skills/n8n-node-configuration/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/n8n-node-configuration/</guid><description>&lt;h1 id="n8n-node-configuration"&gt;n8n Node Configuration&lt;/h1&gt;
+&lt;p&gt;Expert guidance for operation-aware node configuration with property dependencies.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="configuration-philosophy"&gt;Configuration Philosophy&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Progressive disclosure&lt;/strong&gt;: Start minimal, add complexity as needed&lt;/p&gt;
+&lt;p&gt;Configuration best practices:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;get_node_essentials is the most used discovery pattern&lt;/li&gt;
+&lt;li&gt;56 seconds average between configuration edits&lt;/li&gt;
+&lt;li&gt;91.7% success rate with essentials-based configuration&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Key insight&lt;/strong&gt;: Most configurations need only essentials, not full schema!&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="core-concepts"&gt;Core Concepts&lt;/h2&gt;
+&lt;h3 id="1-operation-aware-configuration"&gt;1. Operation-Aware Configuration&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Not all fields are always required&lt;/strong&gt; - it depends on operation!&lt;/p&gt;</description></item><item><title>N8N Node Configuration</title><link>https://agentskill.wiki/skills/n8n-node-configuration/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/n8n-node-configuration/</guid><description>&lt;h1 id="n8n-node-configuration"&gt;n8n Node Configuration&lt;/h1&gt;
+&lt;p&gt;Expert guidance for operation-aware node configuration with property dependencies.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="configuration-philosophy"&gt;Configuration Philosophy&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Progressive disclosure&lt;/strong&gt;: Start minimal, add complexity as needed&lt;/p&gt;
+&lt;p&gt;Configuration best practices:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;get_node_essentials is the most used discovery pattern&lt;/li&gt;
+&lt;li&gt;56 seconds average between configuration edits&lt;/li&gt;
+&lt;li&gt;91.7% success rate with essentials-based configuration&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Key insight&lt;/strong&gt;: Most configurations need only essentials, not full schema!&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="core-concepts"&gt;Core Concepts&lt;/h2&gt;
+&lt;h3 id="1-operation-aware-configuration"&gt;1. Operation-Aware Configuration&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Not all fields are always required&lt;/strong&gt; - it depends on operation!&lt;/p&gt;</description></item><item><title>Prowler Compliance Review</title><link>https://agentskill.wiki/en/skills/prowler-compliance-review/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/prowler-compliance-review/</guid><description>&lt;h2 id="when-to-use"&gt;When to Use&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Reviewing PRs that add new compliance frameworks&lt;/li&gt;
+&lt;li&gt;Reviewing PRs that modify existing compliance frameworks&lt;/li&gt;
+&lt;li&gt;Validating compliance framework JSON structure before merge&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="review-checklist-critical"&gt;Review Checklist (Critical)&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Check&lt;/th&gt;
+ &lt;th&gt;Command/Method&lt;/th&gt;
+ &lt;th&gt;Pass Criteria&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;JSON Valid&lt;/td&gt;
+ &lt;td&gt;&lt;code&gt;python3 -m json.tool file.json&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;No syntax errors&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;All Checks Exist&lt;/td&gt;
+ &lt;td&gt;Run validation script&lt;/td&gt;
+ &lt;td&gt;0 missing checks&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;No Duplicate IDs&lt;/td&gt;
+ &lt;td&gt;Run validation script&lt;/td&gt;
+ &lt;td&gt;0 duplicate requirement IDs&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;CHANGELOG Entry&lt;/td&gt;
+ &lt;td&gt;Manual review&lt;/td&gt;
+ &lt;td&gt;Present under correct version&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Dashboard File&lt;/td&gt;
+ &lt;td&gt;Compare with existing&lt;/td&gt;
+ &lt;td&gt;Follows established pattern&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Framework Metadata&lt;/td&gt;
+ &lt;td&gt;Manual review&lt;/td&gt;
+ &lt;td&gt;All required fields populated&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id="commands"&gt;Commands&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# 1. Validate JSON syntax&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 2&lt;/span&gt;&lt;span&gt;python3 -m json.tool prowler/compliance/&lt;span style="color:#f92672"&gt;{&lt;/span&gt;provider&lt;span style="color:#f92672"&gt;}&lt;/span&gt;/&lt;span style="color:#f92672"&gt;{&lt;/span&gt;framework&lt;span style="color:#f92672"&gt;}&lt;/span&gt;.json &amp;gt; /dev/null &lt;span style="color:#ae81ff"&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 3&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;amp;&amp;amp;&lt;/span&gt; echo &lt;span style="color:#e6db74"&gt;&amp;#34;Valid JSON&amp;#34;&lt;/span&gt; &lt;span style="color:#f92672"&gt;||&lt;/span&gt; echo &lt;span style="color:#e6db74"&gt;&amp;#34;INVALID JSON&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 4&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 5&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# 2. Run full validation script&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 6&lt;/span&gt;&lt;span&gt;python3 skills/prowler-compliance-review/assets/validate_compliance.py &lt;span style="color:#ae81ff"&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 7&lt;/span&gt;&lt;span&gt; prowler/compliance/&lt;span style="color:#f92672"&gt;{&lt;/span&gt;provider&lt;span style="color:#f92672"&gt;}&lt;/span&gt;/&lt;span style="color:#f92672"&gt;{&lt;/span&gt;framework&lt;span style="color:#f92672"&gt;}&lt;/span&gt;.json
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 8&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 9&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# 3. Compare dashboard with existing (find similar framework)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;10&lt;/span&gt;&lt;span&gt;diff dashboard/compliance/&lt;span style="color:#f92672"&gt;{&lt;/span&gt;new_framework&lt;span style="color:#f92672"&gt;}&lt;/span&gt;.py &lt;span style="color:#ae81ff"&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;11&lt;/span&gt;&lt;span&gt; dashboard/compliance/&lt;span style="color:#f92672"&gt;{&lt;/span&gt;existing_framework&lt;span style="color:#f92672"&gt;}&lt;/span&gt;.py
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h2 id="decision-tree"&gt;Decision Tree&lt;/h2&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;JSON Valid?
+├── No → FAIL: Fix JSON syntax errors
+└── Yes ↓
+ All Checks Exist in Codebase?
+ ├── Missing checks → FAIL: Add missing checks or remove from framework
+ └── All exist ↓
+ Duplicate Requirement IDs?
+ ├── Yes → FAIL: Fix duplicate IDs
+ └── No ↓
+ CHANGELOG Entry Present?
+ ├── No → REQUEST CHANGES: Add CHANGELOG entry
+ └── Yes ↓
+ Dashboard File Follows Pattern?
+ ├── No → REQUEST CHANGES: Fix dashboard pattern
+ └── Yes ↓
+ Framework Metadata Complete?
+ ├── No → REQUEST CHANGES: Add missing metadata
+ └── Yes → APPROVE
+&lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;
+&lt;h2 id="framework-structure-reference"&gt;Framework Structure Reference&lt;/h2&gt;
+&lt;p&gt;Compliance frameworks are JSON files in: &lt;code&gt;prowler/compliance/{provider}/{framework}.json&lt;/code&gt;&lt;/p&gt;</description></item><item><title>Prowler Compliance Review</title><link>https://agentskill.wiki/skills/prowler-compliance-review/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/prowler-compliance-review/</guid><description>&lt;h2 id="when-to-use"&gt;When to Use&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Reviewing PRs that add new compliance frameworks&lt;/li&gt;
+&lt;li&gt;Reviewing PRs that modify existing compliance frameworks&lt;/li&gt;
+&lt;li&gt;Validating compliance framework JSON structure before merge&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="review-checklist-critical"&gt;Review Checklist (Critical)&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Check&lt;/th&gt;
+ &lt;th&gt;Command/Method&lt;/th&gt;
+ &lt;th&gt;Pass Criteria&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;JSON Valid&lt;/td&gt;
+ &lt;td&gt;&lt;code&gt;python3 -m json.tool file.json&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;No syntax errors&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;All Checks Exist&lt;/td&gt;
+ &lt;td&gt;Run validation script&lt;/td&gt;
+ &lt;td&gt;0 missing checks&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;No Duplicate IDs&lt;/td&gt;
+ &lt;td&gt;Run validation script&lt;/td&gt;
+ &lt;td&gt;0 duplicate requirement IDs&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;CHANGELOG Entry&lt;/td&gt;
+ &lt;td&gt;Manual review&lt;/td&gt;
+ &lt;td&gt;Present under correct version&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Dashboard File&lt;/td&gt;
+ &lt;td&gt;Compare with existing&lt;/td&gt;
+ &lt;td&gt;Follows established pattern&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Framework Metadata&lt;/td&gt;
+ &lt;td&gt;Manual review&lt;/td&gt;
+ &lt;td&gt;All required fields populated&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id="commands"&gt;Commands&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# 1. Validate JSON syntax&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 2&lt;/span&gt;&lt;span&gt;python3 -m json.tool prowler/compliance/&lt;span style="color:#f92672"&gt;{&lt;/span&gt;provider&lt;span style="color:#f92672"&gt;}&lt;/span&gt;/&lt;span style="color:#f92672"&gt;{&lt;/span&gt;framework&lt;span style="color:#f92672"&gt;}&lt;/span&gt;.json &amp;gt; /dev/null &lt;span style="color:#ae81ff"&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 3&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;amp;&amp;amp;&lt;/span&gt; echo &lt;span style="color:#e6db74"&gt;&amp;#34;Valid JSON&amp;#34;&lt;/span&gt; &lt;span style="color:#f92672"&gt;||&lt;/span&gt; echo &lt;span style="color:#e6db74"&gt;&amp;#34;INVALID JSON&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 4&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 5&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# 2. Run full validation script&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 6&lt;/span&gt;&lt;span&gt;python3 skills/prowler-compliance-review/assets/validate_compliance.py &lt;span style="color:#ae81ff"&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 7&lt;/span&gt;&lt;span&gt; prowler/compliance/&lt;span style="color:#f92672"&gt;{&lt;/span&gt;provider&lt;span style="color:#f92672"&gt;}&lt;/span&gt;/&lt;span style="color:#f92672"&gt;{&lt;/span&gt;framework&lt;span style="color:#f92672"&gt;}&lt;/span&gt;.json
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 8&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 9&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# 3. Compare dashboard with existing (find similar framework)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;10&lt;/span&gt;&lt;span&gt;diff dashboard/compliance/&lt;span style="color:#f92672"&gt;{&lt;/span&gt;new_framework&lt;span style="color:#f92672"&gt;}&lt;/span&gt;.py &lt;span style="color:#ae81ff"&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;11&lt;/span&gt;&lt;span&gt; dashboard/compliance/&lt;span style="color:#f92672"&gt;{&lt;/span&gt;existing_framework&lt;span style="color:#f92672"&gt;}&lt;/span&gt;.py
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h2 id="decision-tree"&gt;Decision Tree&lt;/h2&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;JSON Valid?
+├── No → FAIL: Fix JSON syntax errors
+└── Yes ↓
+ All Checks Exist in Codebase?
+ ├── Missing checks → FAIL: Add missing checks or remove from framework
+ └── All exist ↓
+ Duplicate Requirement IDs?
+ ├── Yes → FAIL: Fix duplicate IDs
+ └── No ↓
+ CHANGELOG Entry Present?
+ ├── No → REQUEST CHANGES: Add CHANGELOG entry
+ └── Yes ↓
+ Dashboard File Follows Pattern?
+ ├── No → REQUEST CHANGES: Fix dashboard pattern
+ └── Yes ↓
+ Framework Metadata Complete?
+ ├── No → REQUEST CHANGES: Add missing metadata
+ └── Yes → APPROVE
+&lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;
+&lt;h2 id="framework-structure-reference"&gt;Framework Structure Reference&lt;/h2&gt;
+&lt;p&gt;Compliance frameworks are JSON files in: &lt;code&gt;prowler/compliance/{provider}/{framework}.json&lt;/code&gt;&lt;/p&gt;</description></item></channel></rss>

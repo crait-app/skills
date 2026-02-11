@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Business Analyst on Agent Skills Hub</title><link>https://agentskill.wiki/topics/business-analyst/</link><description>Recent content in Business Analyst on Agent Skills Hub</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/topics/business-analyst/index.xml" rel="self" type="application/rss+xml"/><item><title>Agent Builder</title><link>https://agentskill.wiki/en/skills/agent-builder/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/agent-builder/</guid><description>&lt;h1 id="agent-builder"&gt;Agent Builder&lt;/h1&gt;
+&lt;p&gt;Build AI agents for any domain - customer service, research, operations, creative work, or specialized business processes.&lt;/p&gt;
+&lt;h2 id="the-core-philosophy"&gt;The Core Philosophy&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;The model already knows how to be an agent. Your job is to get out of the way.&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;An agent is not complex engineering. It&amp;rsquo;s a simple loop that invites the model to act:&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;LOOP:
+ Model sees: context + available capabilities
+ Model decides: act or respond
+ If act: execute capability, add result, continue
+ If respond: return to user
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;That&amp;rsquo;s it.&lt;/strong&gt; The magic isn&amp;rsquo;t in the code - it&amp;rsquo;s in the model. Your code just provides the opportunity.&lt;/p&gt;</description></item><item><title>Agent Builder</title><link>https://agentskill.wiki/skills/agent-builder/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/agent-builder/</guid><description>&lt;h1 id="agent-builder"&gt;Agent Builder&lt;/h1&gt;
+&lt;p&gt;Build AI agents for any domain - customer service, research, operations, creative work, or specialized business processes.&lt;/p&gt;
+&lt;h2 id="the-core-philosophy"&gt;The Core Philosophy&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;The model already knows how to be an agent. Your job is to get out of the way.&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;An agent is not complex engineering. It&amp;rsquo;s a simple loop that invites the model to act:&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;LOOP:
+ Model sees: context + available capabilities
+ Model decides: act or respond
+ If act: execute capability, add result, continue
+ If respond: return to user
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;That&amp;rsquo;s it.&lt;/strong&gt; The magic isn&amp;rsquo;t in the code - it&amp;rsquo;s in the model. Your code just provides the opportunity.&lt;/p&gt;</description></item><item><title>Connect</title><link>https://agentskill.wiki/en/skills/connect/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/connect/</guid><description>&lt;h1 id="connect"&gt;Connect&lt;/h1&gt;
+&lt;p&gt;Connect Claude to any app. Stop generating text about what you could do - actually do it.&lt;/p&gt;
+&lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
+&lt;p&gt;Use this skill when you need Claude to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Send that email&lt;/strong&gt; instead of drafting it&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Create that issue&lt;/strong&gt; instead of describing it&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Post that message&lt;/strong&gt; instead of suggesting it&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Update that database&lt;/strong&gt; instead of explaining how&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="what-changes"&gt;What Changes&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Without Connect&lt;/th&gt;
+ &lt;th&gt;With Connect&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&amp;ldquo;Here&amp;rsquo;s a draft email&amp;hellip;&amp;rdquo;&lt;/td&gt;
+ &lt;td&gt;Sends the email&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&amp;ldquo;You should create an issue&amp;hellip;&amp;rdquo;&lt;/td&gt;
+ &lt;td&gt;Creates the issue&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&amp;ldquo;Post this to Slack&amp;hellip;&amp;rdquo;&lt;/td&gt;
+ &lt;td&gt;Posts it&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&amp;ldquo;Add this to Notion&amp;hellip;&amp;rdquo;&lt;/td&gt;
+ &lt;td&gt;Adds it&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id="supported-apps"&gt;Supported Apps&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;1000+ integrations&lt;/strong&gt; including:&lt;/p&gt;</description></item><item><title>Connect</title><link>https://agentskill.wiki/skills/connect/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/connect/</guid><description>&lt;h1 id="connect"&gt;Connect&lt;/h1&gt;
+&lt;p&gt;Connect Claude to any app. Stop generating text about what you could do - actually do it.&lt;/p&gt;
+&lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
+&lt;p&gt;Use this skill when you need Claude to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Send that email&lt;/strong&gt; instead of drafting it&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Create that issue&lt;/strong&gt; instead of describing it&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Post that message&lt;/strong&gt; instead of suggesting it&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Update that database&lt;/strong&gt; instead of explaining how&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="what-changes"&gt;What Changes&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Without Connect&lt;/th&gt;
+ &lt;th&gt;With Connect&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&amp;ldquo;Here&amp;rsquo;s a draft email&amp;hellip;&amp;rdquo;&lt;/td&gt;
+ &lt;td&gt;Sends the email&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&amp;ldquo;You should create an issue&amp;hellip;&amp;rdquo;&lt;/td&gt;
+ &lt;td&gt;Creates the issue&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&amp;ldquo;Post this to Slack&amp;hellip;&amp;rdquo;&lt;/td&gt;
+ &lt;td&gt;Posts it&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&amp;ldquo;Add this to Notion&amp;hellip;&amp;rdquo;&lt;/td&gt;
+ &lt;td&gt;Adds it&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id="supported-apps"&gt;Supported Apps&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;1000+ integrations&lt;/strong&gt; including:&lt;/p&gt;</description></item><item><title>Connect Apps</title><link>https://agentskill.wiki/en/skills/connect-apps/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/connect-apps/</guid><description>&lt;h1 id="connect-apps"&gt;Connect Apps&lt;/h1&gt;
+&lt;p&gt;Connect Claude to 1000+ apps. Actually send emails, create issues, post messages - not just generate text about it.&lt;/p&gt;
+&lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;
+&lt;h3 id="step-1-install-the-plugin"&gt;Step 1: Install the Plugin&lt;/h3&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;/plugin install composio-toolrouter
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id="step-2-run-setup"&gt;Step 2: Run Setup&lt;/h3&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;/composio-toolrouter:setup
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;This will:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ask for your free API key (get one at &lt;a href="https://platform.composio.dev/?utm_source=Github&amp;amp;utm_content=AwesomeSkills"&gt;platform.composio.dev&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Configure Claude&amp;rsquo;s connection to 1000+ apps&lt;/li&gt;
+&lt;li&gt;Take about 60 seconds&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="step-3-try-it"&gt;Step 3: Try It!&lt;/h3&gt;
+&lt;p&gt;After setup, restart Claude Code and try:&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;Send me a test email at YOUR_EMAIL@example.com
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;If it works, you&amp;rsquo;re connected!&lt;/p&gt;</description></item><item><title>Connect Apps</title><link>https://agentskill.wiki/skills/connect-apps/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/connect-apps/</guid><description>&lt;h1 id="connect-apps"&gt;Connect Apps&lt;/h1&gt;
+&lt;p&gt;Connect Claude to 1000+ apps. Actually send emails, create issues, post messages - not just generate text about it.&lt;/p&gt;
+&lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;
+&lt;h3 id="step-1-install-the-plugin"&gt;Step 1: Install the Plugin&lt;/h3&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;/plugin install composio-toolrouter
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id="step-2-run-setup"&gt;Step 2: Run Setup&lt;/h3&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;/composio-toolrouter:setup
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;This will:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ask for your free API key (get one at &lt;a href="https://platform.composio.dev/?utm_source=Github&amp;amp;utm_content=AwesomeSkills"&gt;platform.composio.dev&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Configure Claude&amp;rsquo;s connection to 1000+ apps&lt;/li&gt;
+&lt;li&gt;Take about 60 seconds&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="step-3-try-it"&gt;Step 3: Try It!&lt;/h3&gt;
+&lt;p&gt;After setup, restart Claude Code and try:&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;Send me a test email at YOUR_EMAIL@example.com
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;If it works, you&amp;rsquo;re connected!&lt;/p&gt;</description></item><item><title>Docx</title><link>https://agentskill.wiki/en/skills/docx/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/docx/</guid><description>&lt;h1 id="docx-creation-editing-and-analysis"&gt;DOCX creation, editing, and analysis&lt;/h1&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;p&gt;A user may ask you to create, edit, or analyze the contents of a .docx file. A .docx file is essentially a ZIP archive containing XML files and other resources that you can read or edit. You have different tools and workflows available for different tasks.&lt;/p&gt;
+&lt;h2 id="workflow-decision-tree"&gt;Workflow Decision Tree&lt;/h2&gt;
+&lt;h3 id="readinganalyzing-content"&gt;Reading/Analyzing Content&lt;/h3&gt;
+&lt;p&gt;Use &amp;ldquo;Text extraction&amp;rdquo; or &amp;ldquo;Raw XML access&amp;rdquo; sections below&lt;/p&gt;
+&lt;h3 id="creating-new-document"&gt;Creating New Document&lt;/h3&gt;
+&lt;p&gt;Use &amp;ldquo;Creating a new Word document&amp;rdquo; workflow&lt;/p&gt;</description></item><item><title>Docx</title><link>https://agentskill.wiki/skills/docx/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/docx/</guid><description>&lt;h1 id="docx-creation-editing-and-analysis"&gt;DOCX creation, editing, and analysis&lt;/h1&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;p&gt;A user may ask you to create, edit, or analyze the contents of a .docx file. A .docx file is essentially a ZIP archive containing XML files and other resources that you can read or edit. You have different tools and workflows available for different tasks.&lt;/p&gt;
+&lt;h2 id="workflow-decision-tree"&gt;Workflow Decision Tree&lt;/h2&gt;
+&lt;h3 id="readinganalyzing-content"&gt;Reading/Analyzing Content&lt;/h3&gt;
+&lt;p&gt;Use &amp;ldquo;Text extraction&amp;rdquo; or &amp;ldquo;Raw XML access&amp;rdquo; sections below&lt;/p&gt;
+&lt;h3 id="creating-new-document"&gt;Creating New Document&lt;/h3&gt;
+&lt;p&gt;Use &amp;ldquo;Creating a new Word document&amp;rdquo; workflow&lt;/p&gt;</description></item><item><title>Excel Analysis</title><link>https://agentskill.wiki/en/skills/excel-analysis/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/excel-analysis/</guid><description>&lt;h1 id="excel-analysis"&gt;Excel Analysis&lt;/h1&gt;
+&lt;h2 id="quick-start"&gt;Quick start&lt;/h2&gt;
+&lt;p&gt;Read Excel files with pandas:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-python" data-lang="python"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;import&lt;/span&gt; pandas &lt;span style="color:#66d9ef"&gt;as&lt;/span&gt; pd
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 2&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 3&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Read Excel file&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 4&lt;/span&gt;&lt;span&gt;df &lt;span style="color:#f92672"&gt;=&lt;/span&gt; pd&lt;span style="color:#f92672"&gt;.&lt;/span&gt;read_excel(&lt;span style="color:#e6db74"&gt;&amp;#34;data.xlsx&amp;#34;&lt;/span&gt;, sheet_name&lt;span style="color:#f92672"&gt;=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;Sheet1&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 5&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 6&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Display first few rows&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 7&lt;/span&gt;&lt;span&gt;print(df&lt;span style="color:#f92672"&gt;.&lt;/span&gt;head())
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 8&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 9&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Basic statistics&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;10&lt;/span&gt;&lt;span&gt;print(df&lt;span style="color:#f92672"&gt;.&lt;/span&gt;describe())
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="reading-multiple-sheets"&gt;Reading multiple sheets&lt;/h2&gt;
+&lt;p&gt;Process all sheets in a workbook:&lt;/p&gt;</description></item><item><title>Excel Analysis</title><link>https://agentskill.wiki/skills/excel-analysis/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/excel-analysis/</guid><description>&lt;h1 id="excel-analysis"&gt;Excel Analysis&lt;/h1&gt;
+&lt;h2 id="quick-start"&gt;Quick start&lt;/h2&gt;
+&lt;p&gt;Read Excel files with pandas:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-python" data-lang="python"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;import&lt;/span&gt; pandas &lt;span style="color:#66d9ef"&gt;as&lt;/span&gt; pd
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 2&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 3&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Read Excel file&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 4&lt;/span&gt;&lt;span&gt;df &lt;span style="color:#f92672"&gt;=&lt;/span&gt; pd&lt;span style="color:#f92672"&gt;.&lt;/span&gt;read_excel(&lt;span style="color:#e6db74"&gt;&amp;#34;data.xlsx&amp;#34;&lt;/span&gt;, sheet_name&lt;span style="color:#f92672"&gt;=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;Sheet1&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 5&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 6&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Display first few rows&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 7&lt;/span&gt;&lt;span&gt;print(df&lt;span style="color:#f92672"&gt;.&lt;/span&gt;head())
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 8&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 9&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Basic statistics&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;10&lt;/span&gt;&lt;span&gt;print(df&lt;span style="color:#f92672"&gt;.&lt;/span&gt;describe())
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="reading-multiple-sheets"&gt;Reading multiple sheets&lt;/h2&gt;
+&lt;p&gt;Process all sheets in a workbook:&lt;/p&gt;</description></item><item><title>Notion Research Documentation</title><link>https://agentskill.wiki/en/skills/notion-research-documentation/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/notion-research-documentation/</guid><description>&lt;h1 id="research--documentation"&gt;Research &amp;amp; Documentation&lt;/h1&gt;
+&lt;p&gt;Pull relevant Notion pages, synthesize findings, and publish clear briefs or reports (with citations and links to sources).&lt;/p&gt;
+&lt;h2 id="quick-start"&gt;Quick start&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Find sources with &lt;code&gt;Notion:notion-search&lt;/code&gt; using targeted queries; confirm scope with the user.&lt;/li&gt;
+&lt;li&gt;Fetch pages via &lt;code&gt;Notion:notion-fetch&lt;/code&gt;; note key sections and capture citations (&lt;code&gt;reference/citations.md&lt;/code&gt;).&lt;/li&gt;
+&lt;li&gt;Choose output format (brief, summary, comparison, comprehensive report) using &lt;code&gt;reference/format-selection-guide.md&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Draft in Notion with &lt;code&gt;Notion:notion-create-pages&lt;/code&gt; using the matching template (quick, summary, comparison, comprehensive).&lt;/li&gt;
+&lt;li&gt;Link sources and add a references/citations section; update as new info arrives with &lt;code&gt;Notion:notion-update-page&lt;/code&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="workflow"&gt;Workflow&lt;/h2&gt;
+&lt;h3 id="0-if-any-mcp-call-fails-because-notion-mcp-is-not-connected-pause-and-set-it-up"&gt;0) If any MCP call fails because Notion MCP is not connected, pause and set it up:&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Add the Notion MCP:
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;codex mcp add notion --url https://mcp.notion.com/mcp&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Enable remote MCP client:
+&lt;ul&gt;
+&lt;li&gt;Set &lt;code&gt;[features].rmcp_client = true&lt;/code&gt; in &lt;code&gt;config.toml&lt;/code&gt; &lt;strong&gt;or&lt;/strong&gt; run &lt;code&gt;codex --enable rmcp_client&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Log in with OAuth:
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;codex mcp login notion&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;After successful login, the user will have to restart codex. You should finish your answer and tell them so when they try again they can continue with Step 1.&lt;/p&gt;</description></item><item><title>Notion Research Documentation</title><link>https://agentskill.wiki/skills/notion-research-documentation/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/notion-research-documentation/</guid><description>&lt;h1 id="research--documentation"&gt;Research &amp;amp; Documentation&lt;/h1&gt;
+&lt;p&gt;Pull relevant Notion pages, synthesize findings, and publish clear briefs or reports (with citations and links to sources).&lt;/p&gt;
+&lt;h2 id="quick-start"&gt;Quick start&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Find sources with &lt;code&gt;Notion:notion-search&lt;/code&gt; using targeted queries; confirm scope with the user.&lt;/li&gt;
+&lt;li&gt;Fetch pages via &lt;code&gt;Notion:notion-fetch&lt;/code&gt;; note key sections and capture citations (&lt;code&gt;reference/citations.md&lt;/code&gt;).&lt;/li&gt;
+&lt;li&gt;Choose output format (brief, summary, comparison, comprehensive report) using &lt;code&gt;reference/format-selection-guide.md&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Draft in Notion with &lt;code&gt;Notion:notion-create-pages&lt;/code&gt; using the matching template (quick, summary, comparison, comprehensive).&lt;/li&gt;
+&lt;li&gt;Link sources and add a references/citations section; update as new info arrives with &lt;code&gt;Notion:notion-update-page&lt;/code&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="workflow"&gt;Workflow&lt;/h2&gt;
+&lt;h3 id="0-if-any-mcp-call-fails-because-notion-mcp-is-not-connected-pause-and-set-it-up"&gt;0) If any MCP call fails because Notion MCP is not connected, pause and set it up:&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Add the Notion MCP:
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;codex mcp add notion --url https://mcp.notion.com/mcp&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Enable remote MCP client:
+&lt;ul&gt;
+&lt;li&gt;Set &lt;code&gt;[features].rmcp_client = true&lt;/code&gt; in &lt;code&gt;config.toml&lt;/code&gt; &lt;strong&gt;or&lt;/strong&gt; run &lt;code&gt;codex --enable rmcp_client&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Log in with OAuth:
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;codex mcp login notion&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;After successful login, the user will have to restart codex. You should finish your answer and tell them so when they try again they can continue with Step 1.&lt;/p&gt;</description></item><item><title>Pptx</title><link>https://agentskill.wiki/en/skills/pptx/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/pptx/</guid><description>&lt;h1 id="pptx-creation-editing-and-analysis"&gt;PPTX creation, editing, and analysis&lt;/h1&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;p&gt;A .pptx file is a ZIP archive containing XML files and resources. Create, edit, or analyze PowerPoint presentations using text extraction, raw XML access, or html2pptx workflows. Apply this skill for programmatic presentation creation and modification.&lt;/p&gt;
+&lt;h2 id="visual-enhancement-with-scientific-schematics"&gt;Visual Enhancement with Scientific Schematics&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;When creating documents with this skill, always consider adding scientific diagrams and schematics to enhance visual communication.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;If your document does not already contain schematics or diagrams:&lt;/p&gt;</description></item><item><title>Pptx</title><link>https://agentskill.wiki/skills/pptx/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/pptx/</guid><description>&lt;h1 id="pptx-creation-editing-and-analysis"&gt;PPTX creation, editing, and analysis&lt;/h1&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;p&gt;A .pptx file is a ZIP archive containing XML files and resources. Create, edit, or analyze PowerPoint presentations using text extraction, raw XML access, or html2pptx workflows. Apply this skill for programmatic presentation creation and modification.&lt;/p&gt;
+&lt;h2 id="visual-enhancement-with-scientific-schematics"&gt;Visual Enhancement with Scientific Schematics&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;When creating documents with this skill, always consider adding scientific diagrams and schematics to enhance visual communication.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;If your document does not already contain schematics or diagrams:&lt;/p&gt;</description></item><item><title>Product Manager Toolkit</title><link>https://agentskill.wiki/en/skills/product-manager-toolkit/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/product-manager-toolkit/</guid><description>&lt;h1 id="product-manager-toolkit"&gt;Product Manager Toolkit&lt;/h1&gt;
+&lt;p&gt;Essential tools and frameworks for modern product management, from discovery to delivery.&lt;/p&gt;
+&lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;
+&lt;h3 id="for-feature-prioritization"&gt;For Feature Prioritization&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;python scripts/rice_prioritizer.py sample &lt;span style="color:#75715e"&gt;# Create sample CSV&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;2&lt;/span&gt;&lt;span&gt;python scripts/rice_prioritizer.py sample_features.csv --capacity &lt;span style="color:#ae81ff"&gt;15&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="for-interview-analysis"&gt;For Interview Analysis&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;python scripts/customer_interview_analyzer.py interview_transcript.txt
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="for-prd-creation"&gt;For PRD Creation&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Choose template from &lt;code&gt;references/prd_templates.md&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Fill in sections based on discovery work&lt;/li&gt;
+&lt;li&gt;Review with stakeholders&lt;/li&gt;
+&lt;li&gt;Version control in your PM tool&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="core-workflows"&gt;Core Workflows&lt;/h2&gt;
+&lt;h3 id="feature-prioritization-process"&gt;Feature Prioritization Process&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Gather Feature Requests&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Product Manager Toolkit</title><link>https://agentskill.wiki/skills/product-manager-toolkit/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/product-manager-toolkit/</guid><description>&lt;h1 id="product-manager-toolkit"&gt;Product Manager Toolkit&lt;/h1&gt;
+&lt;p&gt;Essential tools and frameworks for modern product management, from discovery to delivery.&lt;/p&gt;
+&lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;
+&lt;h3 id="for-feature-prioritization"&gt;For Feature Prioritization&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;python scripts/rice_prioritizer.py sample &lt;span style="color:#75715e"&gt;# Create sample CSV&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;2&lt;/span&gt;&lt;span&gt;python scripts/rice_prioritizer.py sample_features.csv --capacity &lt;span style="color:#ae81ff"&gt;15&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="for-interview-analysis"&gt;For Interview Analysis&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;python scripts/customer_interview_analyzer.py interview_transcript.txt
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="for-prd-creation"&gt;For PRD Creation&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Choose template from &lt;code&gt;references/prd_templates.md&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Fill in sections based on discovery work&lt;/li&gt;
+&lt;li&gt;Review with stakeholders&lt;/li&gt;
+&lt;li&gt;Version control in your PM tool&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="core-workflows"&gt;Core Workflows&lt;/h2&gt;
+&lt;h3 id="feature-prioritization-process"&gt;Feature Prioritization Process&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Gather Feature Requests&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Startup Metrics Framework</title><link>https://agentskill.wiki/en/skills/startup-metrics-framework/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/startup-metrics-framework/</guid><description>&lt;h1 id="startup-metrics-framework"&gt;Startup Metrics Framework&lt;/h1&gt;
+&lt;p&gt;Comprehensive guide to tracking, calculating, and optimizing key performance metrics for different startup business models from seed through Series A.&lt;/p&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Track the right metrics at the right stage. Focus on unit economics, growth efficiency, and cash management metrics that matter for fundraising and operational excellence.&lt;/p&gt;
+&lt;h2 id="universal-startup-metrics"&gt;Universal Startup Metrics&lt;/h2&gt;
+&lt;h3 id="revenue-metrics"&gt;Revenue Metrics&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;MRR (Monthly Recurring Revenue)&lt;/strong&gt;&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;MRR = Σ (Active Subscriptions × Monthly Price)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;ARR (Annual Recurring Revenue)&lt;/strong&gt;&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;ARR = MRR × 12
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Growth Rate&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Startup Metrics Framework</title><link>https://agentskill.wiki/skills/startup-metrics-framework/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/startup-metrics-framework/</guid><description>&lt;h1 id="startup-metrics-framework"&gt;Startup Metrics Framework&lt;/h1&gt;
+&lt;p&gt;Comprehensive guide to tracking, calculating, and optimizing key performance metrics for different startup business models from seed through Series A.&lt;/p&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Track the right metrics at the right stage. Focus on unit economics, growth efficiency, and cash management metrics that matter for fundraising and operational excellence.&lt;/p&gt;
+&lt;h2 id="universal-startup-metrics"&gt;Universal Startup Metrics&lt;/h2&gt;
+&lt;h3 id="revenue-metrics"&gt;Revenue Metrics&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;MRR (Monthly Recurring Revenue)&lt;/strong&gt;&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;MRR = Σ (Active Subscriptions × Monthly Price)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;ARR (Annual Recurring Revenue)&lt;/strong&gt;&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;ARR = MRR × 12
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Growth Rate&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Theme Factory</title><link>https://agentskill.wiki/en/skills/theme-factory/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/theme-factory/</guid><description>&lt;h1 id="theme-factory-skill"&gt;Theme Factory Skill&lt;/h1&gt;
+&lt;p&gt;This skill provides a curated collection of professional font and color themes themes, each with carefully selected color palettes and font pairings. Once a theme is chosen, it can be applied to any artifact.&lt;/p&gt;
+&lt;h2 id="purpose"&gt;Purpose&lt;/h2&gt;
+&lt;p&gt;To apply consistent, professional styling to presentation slide decks, use this skill. Each theme includes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A cohesive color palette with hex codes&lt;/li&gt;
+&lt;li&gt;Complementary font pairings for headers and body text&lt;/li&gt;
+&lt;li&gt;A distinct visual identity suitable for different contexts and audiences&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="usage-instructions"&gt;Usage Instructions&lt;/h2&gt;
+&lt;p&gt;To apply styling to a slide deck or other artifact:&lt;/p&gt;</description></item><item><title>Theme Factory</title><link>https://agentskill.wiki/skills/theme-factory/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/theme-factory/</guid><description>&lt;h1 id="theme-factory-skill"&gt;Theme Factory Skill&lt;/h1&gt;
+&lt;p&gt;This skill provides a curated collection of professional font and color themes themes, each with carefully selected color palettes and font pairings. Once a theme is chosen, it can be applied to any artifact.&lt;/p&gt;
+&lt;h2 id="purpose"&gt;Purpose&lt;/h2&gt;
+&lt;p&gt;To apply consistent, professional styling to presentation slide decks, use this skill. Each theme includes:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A cohesive color palette with hex codes&lt;/li&gt;
+&lt;li&gt;Complementary font pairings for headers and body text&lt;/li&gt;
+&lt;li&gt;A distinct visual identity suitable for different contexts and audiences&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="usage-instructions"&gt;Usage Instructions&lt;/h2&gt;
+&lt;p&gt;To apply styling to a slide deck or other artifact:&lt;/p&gt;</description></item><item><title>Xlsx</title><link>https://agentskill.wiki/en/skills/xlsx/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/xlsx/</guid><description>&lt;h1 id="requirements-for-outputs"&gt;Requirements for Outputs&lt;/h1&gt;
+&lt;h2 id="all-excel-files"&gt;All Excel files&lt;/h2&gt;
+&lt;h3 id="zero-formula-errors"&gt;Zero Formula Errors&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Every Excel model MUST be delivered with ZERO formula errors (#REF!, #DIV/0!, #VALUE!, #N/A, #NAME?)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="preserve-existing-templates-when-updating-templates"&gt;Preserve Existing Templates (when updating templates)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Study and EXACTLY match existing format, style, and conventions when modifying files&lt;/li&gt;
+&lt;li&gt;Never impose standardized formatting on files with established patterns&lt;/li&gt;
+&lt;li&gt;Existing template conventions ALWAYS override these guidelines&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="financial-models"&gt;Financial models&lt;/h2&gt;
+&lt;h3 id="color-coding-standards"&gt;Color Coding Standards&lt;/h3&gt;
+&lt;p&gt;Unless otherwise stated by the user or existing template&lt;/p&gt;</description></item><item><title>Xlsx</title><link>https://agentskill.wiki/skills/xlsx/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/xlsx/</guid><description>&lt;h1 id="requirements-for-outputs"&gt;Requirements for Outputs&lt;/h1&gt;
+&lt;h2 id="all-excel-files"&gt;All Excel files&lt;/h2&gt;
+&lt;h3 id="zero-formula-errors"&gt;Zero Formula Errors&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Every Excel model MUST be delivered with ZERO formula errors (#REF!, #DIV/0!, #VALUE!, #N/A, #NAME?)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="preserve-existing-templates-when-updating-templates"&gt;Preserve Existing Templates (when updating templates)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Study and EXACTLY match existing format, style, and conventions when modifying files&lt;/li&gt;
+&lt;li&gt;Never impose standardized formatting on files with established patterns&lt;/li&gt;
+&lt;li&gt;Existing template conventions ALWAYS override these guidelines&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="financial-models"&gt;Financial models&lt;/h2&gt;
+&lt;h3 id="color-coding-standards"&gt;Color Coding Standards&lt;/h3&gt;
+&lt;p&gt;Unless otherwise stated by the user or existing template&lt;/p&gt;</description></item><item><title>Zapier Workflows</title><link>https://agentskill.wiki/en/skills/zapier-workflows/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/zapier-workflows/</guid><description>&lt;h1 id="zapier-workflows-skill"&gt;Zapier Workflows Skill&lt;/h1&gt;
+&lt;h2 id="the-problem-this-solves"&gt;The Problem This Solves&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Zapier MCP gives Claude access to 8,000+ individual tools&lt;/strong&gt; (every Zapier action), but there are critical limitations:&lt;/p&gt;
+&lt;p&gt;❌ &lt;strong&gt;No memory&lt;/strong&gt; - Claude doesn&amp;rsquo;t remember which tools YOU use or why
+❌ &lt;strong&gt;No context&lt;/strong&gt; - Doesn&amp;rsquo;t know when to use specific tools for your workflows
+❌ &lt;strong&gt;Only one-off actions&lt;/strong&gt; - Can&amp;rsquo;t trigger your complex, multi-step Zaps
+❌ &lt;strong&gt;Fresh start every session&lt;/strong&gt; - All context lost between conversations&lt;/p&gt;</description></item><item><title>Zapier Workflows</title><link>https://agentskill.wiki/skills/zapier-workflows/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/zapier-workflows/</guid><description>&lt;h1 id="zapier-workflows-skill"&gt;Zapier Workflows Skill&lt;/h1&gt;
+&lt;h2 id="the-problem-this-solves"&gt;The Problem This Solves&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Zapier MCP gives Claude access to 8,000+ individual tools&lt;/strong&gt; (every Zapier action), but there are critical limitations:&lt;/p&gt;
+&lt;p&gt;❌ &lt;strong&gt;No memory&lt;/strong&gt; - Claude doesn&amp;rsquo;t remember which tools YOU use or why
+❌ &lt;strong&gt;No context&lt;/strong&gt; - Doesn&amp;rsquo;t know when to use specific tools for your workflows
+❌ &lt;strong&gt;Only one-off actions&lt;/strong&gt; - Can&amp;rsquo;t trigger your complex, multi-step Zaps
+❌ &lt;strong&gt;Fresh start every session&lt;/strong&gt; - All context lost between conversations&lt;/p&gt;</description></item></channel></rss>

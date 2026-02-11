@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Claude Code Extension Developer on Agent Skills Hub</title><link>https://agentskill.wiki/topics/claude-code-extension-developer/</link><description>Recent content in Claude Code Extension Developer on Agent Skills Hub</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/topics/claude-code-extension-developer/index.xml" rel="self" type="application/rss+xml"/><item><title>Command Name</title><link>https://agentskill.wiki/en/skills/command-name/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/command-name/</guid><description>&lt;h1 id="plugin-structure-for-claude-code"&gt;Plugin Structure for Claude Code&lt;/h1&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Claude Code plugins follow a standardized directory structure with automatic component discovery. Understanding this structure enables creating well-organized, maintainable plugins that integrate seamlessly with Claude Code.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Key concepts:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Conventional directory layout for automatic discovery&lt;/li&gt;
+&lt;li&gt;Manifest-driven configuration in &lt;code&gt;.claude-plugin/plugin.json&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Component-based organization (commands, agents, skills, hooks)&lt;/li&gt;
+&lt;li&gt;Portable path references using &lt;code&gt;${CLAUDE_PLUGIN_ROOT}&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Explicit vs. auto-discovered component loading&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="directory-structure"&gt;Directory Structure&lt;/h2&gt;
+&lt;p&gt;Every Claude Code plugin follows this organizational pattern:&lt;/p&gt;</description></item><item><title>Command Name</title><link>https://agentskill.wiki/skills/command-name/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/command-name/</guid><description>&lt;h1 id="plugin-structure-for-claude-code"&gt;Plugin Structure for Claude Code&lt;/h1&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Claude Code plugins follow a standardized directory structure with automatic component discovery. Understanding this structure enables creating well-organized, maintainable plugins that integrate seamlessly with Claude Code.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Key concepts:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Conventional directory layout for automatic discovery&lt;/li&gt;
+&lt;li&gt;Manifest-driven configuration in &lt;code&gt;.claude-plugin/plugin.json&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Component-based organization (commands, agents, skills, hooks)&lt;/li&gt;
+&lt;li&gt;Portable path references using &lt;code&gt;${CLAUDE_PLUGIN_ROOT}&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Explicit vs. auto-discovered component loading&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="directory-structure"&gt;Directory Structure&lt;/h2&gt;
+&lt;p&gt;Every Claude Code plugin follows this organizational pattern:&lt;/p&gt;</description></item></channel></rss>

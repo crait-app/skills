@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Component-Discovery on Agent Skills Hub</title><link>https://agentskill.wiki/tags/component-discovery/</link><description>Recent content in Component-Discovery on Agent Skills Hub</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/component-discovery/index.xml" rel="self" type="application/rss+xml"/><item><title>Component Search</title><link>https://agentskill.wiki/en/skills/component-search/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/component-search/</guid><description>&lt;h1 id="redpanda-connect-component-search"&gt;Redpanda Connect Component Search&lt;/h1&gt;
+&lt;p&gt;Help users discover the right Redpanda Connect components for their streaming pipeline needs.&lt;/p&gt;
+&lt;h2 id="objective"&gt;Objective&lt;/h2&gt;
+&lt;p&gt;Find and recommend the most relevant components that match the user&amp;rsquo;s natural language query.
+Provide enough information for users to understand what each component does, how to configure it, and why it matches their needs.&lt;/p&gt;
+&lt;h2 id="prerequisites"&gt;Prerequisites&lt;/h2&gt;
+&lt;p&gt;This skill requires: &lt;code&gt;rpk&lt;/code&gt;, &lt;code&gt;rpk connect&lt;/code&gt;, &lt;code&gt;python3&lt;/code&gt;.
+See the &lt;a href="SETUP.md"&gt;SETUP&lt;/a&gt; for installation instructions.&lt;/p&gt;
+&lt;h2 id="component-categories"&gt;Component Categories&lt;/h2&gt;
+&lt;p&gt;Redpanda Connect has 8 types of components:&lt;/p&gt;</description></item><item><title>Component Search</title><link>https://agentskill.wiki/skills/component-search/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/component-search/</guid><description>&lt;h1 id="redpanda-connect-component-search"&gt;Redpanda Connect Component Search&lt;/h1&gt;
+&lt;p&gt;Help users discover the right Redpanda Connect components for their streaming pipeline needs.&lt;/p&gt;
+&lt;h2 id="objective"&gt;Objective&lt;/h2&gt;
+&lt;p&gt;Find and recommend the most relevant components that match the user&amp;rsquo;s natural language query.
+Provide enough information for users to understand what each component does, how to configure it, and why it matches their needs.&lt;/p&gt;
+&lt;h2 id="prerequisites"&gt;Prerequisites&lt;/h2&gt;
+&lt;p&gt;This skill requires: &lt;code&gt;rpk&lt;/code&gt;, &lt;code&gt;rpk connect&lt;/code&gt;, &lt;code&gt;python3&lt;/code&gt;.
+See the &lt;a href="SETUP.md"&gt;SETUP&lt;/a&gt; for installation instructions.&lt;/p&gt;
+&lt;h2 id="component-categories"&gt;Component Categories&lt;/h2&gt;
+&lt;p&gt;Redpanda Connect has 8 types of components:&lt;/p&gt;</description></item></channel></rss>

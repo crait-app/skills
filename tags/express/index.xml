@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Express on Agent Skills Hub</title><link>https://agentskill.wiki/tags/express/</link><description>Recent content in Express on Agent Skills Hub</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/express/index.xml" rel="self" type="application/rss+xml"/><item><title>Backend Dev Guidelines</title><link>https://agentskill.wiki/en/skills/backend-dev-guidelines/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/backend-dev-guidelines/</guid><description>&lt;h1 id="backend-development-guidelines"&gt;Backend Development Guidelines&lt;/h1&gt;
+&lt;h2 id="purpose"&gt;Purpose&lt;/h2&gt;
+&lt;p&gt;Establish consistency and best practices across backend microservices (blog-api, auth-service, notifications-service) using modern Node.js/Express/TypeScript patterns.&lt;/p&gt;
+&lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
+&lt;p&gt;Automatically activates when working on:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Creating or modifying routes, endpoints, APIs&lt;/li&gt;
+&lt;li&gt;Building controllers, services, repositories&lt;/li&gt;
+&lt;li&gt;Implementing middleware (auth, validation, error handling)&lt;/li&gt;
+&lt;li&gt;Database operations with Prisma&lt;/li&gt;
+&lt;li&gt;Error tracking with Sentry&lt;/li&gt;
+&lt;li&gt;Input validation with Zod&lt;/li&gt;
+&lt;li&gt;Configuration management&lt;/li&gt;
+&lt;li&gt;Backend testing and refactoring&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;
+&lt;h3 id="new-backend-feature-checklist"&gt;New Backend Feature Checklist&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Route&lt;/strong&gt;: Clean definition, delegate to controller&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Controller&lt;/strong&gt;: Extend BaseController&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Service&lt;/strong&gt;: Business logic with DI&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Repository&lt;/strong&gt;: Database access (if complex)&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Validation&lt;/strong&gt;: Zod schema&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Sentry&lt;/strong&gt;: Error tracking&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Tests&lt;/strong&gt;: Unit + integration tests&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Config&lt;/strong&gt;: Use unifiedConfig&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="new-microservice-checklist"&gt;New Microservice Checklist&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; Directory structure (see &lt;a href="architecture-overview.md"&gt;architecture-overview.md&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; instrument.ts for Sentry&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; unifiedConfig setup&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; BaseController class&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; Middleware stack&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; Error boundary&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; Testing framework&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="architecture-overview"&gt;Architecture Overview&lt;/h2&gt;
+&lt;h3 id="layered-architecture"&gt;Layered Architecture&lt;/h3&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;HTTP Request
+ ↓
+Routes (routing only)
+ ↓
+Controllers (request handling)
+ ↓
+Services (business logic)
+ ↓
+Repositories (data access)
+ ↓
+Database (Prisma)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Key Principle:&lt;/strong&gt; Each layer has ONE responsibility.&lt;/p&gt;</description></item><item><title>Backend Dev Guidelines</title><link>https://agentskill.wiki/skills/backend-dev-guidelines/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/backend-dev-guidelines/</guid><description>&lt;h1 id="backend-development-guidelines"&gt;Backend Development Guidelines&lt;/h1&gt;
+&lt;h2 id="purpose"&gt;Purpose&lt;/h2&gt;
+&lt;p&gt;Establish consistency and best practices across backend microservices (blog-api, auth-service, notifications-service) using modern Node.js/Express/TypeScript patterns.&lt;/p&gt;
+&lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
+&lt;p&gt;Automatically activates when working on:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Creating or modifying routes, endpoints, APIs&lt;/li&gt;
+&lt;li&gt;Building controllers, services, repositories&lt;/li&gt;
+&lt;li&gt;Implementing middleware (auth, validation, error handling)&lt;/li&gt;
+&lt;li&gt;Database operations with Prisma&lt;/li&gt;
+&lt;li&gt;Error tracking with Sentry&lt;/li&gt;
+&lt;li&gt;Input validation with Zod&lt;/li&gt;
+&lt;li&gt;Configuration management&lt;/li&gt;
+&lt;li&gt;Backend testing and refactoring&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;
+&lt;h3 id="new-backend-feature-checklist"&gt;New Backend Feature Checklist&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Route&lt;/strong&gt;: Clean definition, delegate to controller&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Controller&lt;/strong&gt;: Extend BaseController&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Service&lt;/strong&gt;: Business logic with DI&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Repository&lt;/strong&gt;: Database access (if complex)&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Validation&lt;/strong&gt;: Zod schema&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Sentry&lt;/strong&gt;: Error tracking&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Tests&lt;/strong&gt;: Unit + integration tests&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Config&lt;/strong&gt;: Use unifiedConfig&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="new-microservice-checklist"&gt;New Microservice Checklist&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; Directory structure (see &lt;a href="architecture-overview.md"&gt;architecture-overview.md&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; instrument.ts for Sentry&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; unifiedConfig setup&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; BaseController class&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; Middleware stack&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; Error boundary&lt;/li&gt;
+&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; Testing framework&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="architecture-overview"&gt;Architecture Overview&lt;/h2&gt;
+&lt;h3 id="layered-architecture"&gt;Layered Architecture&lt;/h3&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;HTTP Request
+ ↓
+Routes (routing only)
+ ↓
+Controllers (request handling)
+ ↓
+Services (business logic)
+ ↓
+Repositories (data access)
+ ↓
+Database (Prisma)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Key Principle:&lt;/strong&gt; Each layer has ONE responsibility.&lt;/p&gt;</description></item><item><title>Nodejs Backend Patterns</title><link>https://agentskill.wiki/en/skills/nodejs-backend-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/nodejs-backend-patterns/</guid><description>&lt;h1 id="nodejs-backend-patterns"&gt;Node.js Backend Patterns&lt;/h1&gt;
+&lt;p&gt;Comprehensive guidance for building scalable, maintainable, and production-ready Node.js backend applications with modern frameworks, architectural patterns, and best practices.&lt;/p&gt;
+&lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Building REST APIs or GraphQL servers&lt;/li&gt;
+&lt;li&gt;Creating microservices with Node.js&lt;/li&gt;
+&lt;li&gt;Implementing authentication and authorization&lt;/li&gt;
+&lt;li&gt;Designing scalable backend architectures&lt;/li&gt;
+&lt;li&gt;Setting up middleware and error handling&lt;/li&gt;
+&lt;li&gt;Integrating databases (SQL and NoSQL)&lt;/li&gt;
+&lt;li&gt;Building real-time applications with WebSockets&lt;/li&gt;
+&lt;li&gt;Implementing background job processing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="core-frameworks"&gt;Core Frameworks&lt;/h2&gt;
+&lt;h3 id="expressjs---minimalist-framework"&gt;Express.js - Minimalist Framework&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Basic Setup:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Nodejs Backend Patterns</title><link>https://agentskill.wiki/skills/nodejs-backend-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/nodejs-backend-patterns/</guid><description>&lt;h1 id="nodejs-backend-patterns"&gt;Node.js Backend Patterns&lt;/h1&gt;
+&lt;p&gt;Comprehensive guidance for building scalable, maintainable, and production-ready Node.js backend applications with modern frameworks, architectural patterns, and best practices.&lt;/p&gt;
+&lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Building REST APIs or GraphQL servers&lt;/li&gt;
+&lt;li&gt;Creating microservices with Node.js&lt;/li&gt;
+&lt;li&gt;Implementing authentication and authorization&lt;/li&gt;
+&lt;li&gt;Designing scalable backend architectures&lt;/li&gt;
+&lt;li&gt;Setting up middleware and error handling&lt;/li&gt;
+&lt;li&gt;Integrating databases (SQL and NoSQL)&lt;/li&gt;
+&lt;li&gt;Building real-time applications with WebSockets&lt;/li&gt;
+&lt;li&gt;Implementing background job processing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="core-frameworks"&gt;Core Frameworks&lt;/h2&gt;
+&lt;h3 id="expressjs---minimalist-framework"&gt;Express.js - Minimalist Framework&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Basic Setup:&lt;/strong&gt;&lt;/p&gt;</description></item></channel></rss>

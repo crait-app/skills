@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Infrastructure Engineer on Agent Skills Hub</title><link>https://agentskill.wiki/topics/infrastructure-engineer/</link><description>Recent content in Infrastructure Engineer on Agent Skills Hub</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/topics/infrastructure-engineer/index.xml" rel="self" type="application/rss+xml"/><item><title>Bash Defensive Patterns</title><link>https://agentskill.wiki/en/skills/bash-defensive-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/bash-defensive-patterns/</guid><description>&lt;h1 id="bash-defensive-patterns"&gt;Bash Defensive Patterns&lt;/h1&gt;
+&lt;p&gt;Comprehensive guidance for writing production-ready Bash scripts using defensive programming techniques, error handling, and safety best practices to prevent common pitfalls and ensure reliability.&lt;/p&gt;
+&lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Writing production automation scripts&lt;/li&gt;
+&lt;li&gt;Building CI/CD pipeline scripts&lt;/li&gt;
+&lt;li&gt;Creating system administration utilities&lt;/li&gt;
+&lt;li&gt;Developing error-resilient deployment automation&lt;/li&gt;
+&lt;li&gt;Writing scripts that must handle edge cases safely&lt;/li&gt;
+&lt;li&gt;Building maintainable shell script libraries&lt;/li&gt;
+&lt;li&gt;Implementing comprehensive logging and monitoring&lt;/li&gt;
+&lt;li&gt;Creating scripts that must work across different platforms&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="core-defensive-principles"&gt;Core Defensive Principles&lt;/h2&gt;
+&lt;h3 id="1-strict-mode"&gt;1. Strict Mode&lt;/h3&gt;
+&lt;p&gt;Enable bash strict mode at the start of every script to catch errors early.&lt;/p&gt;</description></item><item><title>Bash Defensive Patterns</title><link>https://agentskill.wiki/skills/bash-defensive-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/bash-defensive-patterns/</guid><description>&lt;h1 id="bash-defensive-patterns"&gt;Bash Defensive Patterns&lt;/h1&gt;
+&lt;p&gt;Comprehensive guidance for writing production-ready Bash scripts using defensive programming techniques, error handling, and safety best practices to prevent common pitfalls and ensure reliability.&lt;/p&gt;
+&lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Writing production automation scripts&lt;/li&gt;
+&lt;li&gt;Building CI/CD pipeline scripts&lt;/li&gt;
+&lt;li&gt;Creating system administration utilities&lt;/li&gt;
+&lt;li&gt;Developing error-resilient deployment automation&lt;/li&gt;
+&lt;li&gt;Writing scripts that must handle edge cases safely&lt;/li&gt;
+&lt;li&gt;Building maintainable shell script libraries&lt;/li&gt;
+&lt;li&gt;Implementing comprehensive logging and monitoring&lt;/li&gt;
+&lt;li&gt;Creating scripts that must work across different platforms&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="core-defensive-principles"&gt;Core Defensive Principles&lt;/h2&gt;
+&lt;h3 id="1-strict-mode"&gt;1. Strict Mode&lt;/h3&gt;
+&lt;p&gt;Enable bash strict mode at the start of every script to catch errors early.&lt;/p&gt;</description></item><item><title>Proxychains</title><link>https://agentskill.wiki/en/skills/proxychains/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/proxychains/</guid><description>&lt;h1 id="proxychains-network-proxy-skill"&gt;Proxychains Network Proxy Skill&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;自动使用代理解决网络问题&lt;/strong&gt; - 当遇到网络连接失败、超时或访问受限时，自动使用 proxychains4 强制走代理。&lt;/p&gt;
+&lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;触发条件（自动应用）:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;❌ Connection timeout errors&lt;/li&gt;
+&lt;li&gt;❌ DNS resolution failures&lt;/li&gt;
+&lt;li&gt;❌ &amp;ldquo;Connection refused&amp;rdquo; errors&lt;/li&gt;
+&lt;li&gt;❌ HTTP 403/451 blocked access&lt;/li&gt;
+&lt;li&gt;❌ GitHub/PyPI/npm 等国外资源访问失败&lt;/li&gt;
+&lt;li&gt;❌ curl/wget/git/pip 等命令失败&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Claude 应该：&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;检测到网络错误后，自动在命令前添加 &lt;code&gt;proxychains4&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;使用默认代理配置：&lt;code&gt;http://127.0.0.1:9910&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;如果代理失败，提示用户检查代理服务状态&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="quick-reference"&gt;Quick Reference&lt;/h2&gt;
+&lt;h3 id="基本用法模式"&gt;基本用法模式&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# ❌ 原命令失败&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;2&lt;/span&gt;&lt;span&gt;curl https://github.com/user/repo
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;3&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;4&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# ✅ 使用代理重试&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;5&lt;/span&gt;&lt;span&gt;proxychains4 curl https://github.com/user/repo
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="常见场景自动应用"&gt;常见场景自动应用&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;场景 1: Git 操作失败&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Proxychains</title><link>https://agentskill.wiki/skills/proxychains/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/proxychains/</guid><description>&lt;h1 id="proxychains-network-proxy-skill"&gt;Proxychains Network Proxy Skill&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;自动使用代理解决网络问题&lt;/strong&gt; - 当遇到网络连接失败、超时或访问受限时，自动使用 proxychains4 强制走代理。&lt;/p&gt;
+&lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;触发条件（自动应用）:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;❌ Connection timeout errors&lt;/li&gt;
+&lt;li&gt;❌ DNS resolution failures&lt;/li&gt;
+&lt;li&gt;❌ &amp;ldquo;Connection refused&amp;rdquo; errors&lt;/li&gt;
+&lt;li&gt;❌ HTTP 403/451 blocked access&lt;/li&gt;
+&lt;li&gt;❌ GitHub/PyPI/npm 等国外资源访问失败&lt;/li&gt;
+&lt;li&gt;❌ curl/wget/git/pip 等命令失败&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Claude 应该：&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;检测到网络错误后，自动在命令前添加 &lt;code&gt;proxychains4&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;使用默认代理配置：&lt;code&gt;http://127.0.0.1:9910&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;如果代理失败，提示用户检查代理服务状态&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="quick-reference"&gt;Quick Reference&lt;/h2&gt;
+&lt;h3 id="基本用法模式"&gt;基本用法模式&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# ❌ 原命令失败&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;2&lt;/span&gt;&lt;span&gt;curl https://github.com/user/repo
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;3&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;4&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# ✅ 使用代理重试&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;5&lt;/span&gt;&lt;span&gt;proxychains4 curl https://github.com/user/repo
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="常见场景自动应用"&gt;常见场景自动应用&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;场景 1: Git 操作失败&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Railway Domain</title><link>https://agentskill.wiki/en/skills/railway-domain/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/railway-domain/</guid><description>&lt;h1 id="railway-domain-management"&gt;Railway Domain Management&lt;/h1&gt;
+&lt;p&gt;Add, view, or remove domains for Railway services.&lt;/p&gt;
+&lt;h2 id="when-to-use"&gt;When to Use&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;User asks to &amp;ldquo;add a domain&amp;rdquo;, &amp;ldquo;generate a domain&amp;rdquo;, &amp;ldquo;get a URL&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;User wants to add a custom domain&lt;/li&gt;
+&lt;li&gt;User asks &amp;ldquo;what&amp;rsquo;s the URL for my service&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;User wants to remove a domain&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="add-railway-domain"&gt;Add Railway Domain&lt;/h2&gt;
+&lt;p&gt;Generate a railway-provided domain (max 1 per service):&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;railway domain --json
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;For a specific service:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;railway domain --json --service backend
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="response"&gt;Response&lt;/h3&gt;
+&lt;p&gt;Returns the generated domain URL. Service must have a deployment.&lt;/p&gt;</description></item><item><title>Railway Domain</title><link>https://agentskill.wiki/skills/railway-domain/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/railway-domain/</guid><description>&lt;h1 id="railway-domain-management"&gt;Railway Domain Management&lt;/h1&gt;
+&lt;p&gt;Add, view, or remove domains for Railway services.&lt;/p&gt;
+&lt;h2 id="when-to-use"&gt;When to Use&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;User asks to &amp;ldquo;add a domain&amp;rdquo;, &amp;ldquo;generate a domain&amp;rdquo;, &amp;ldquo;get a URL&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;User wants to add a custom domain&lt;/li&gt;
+&lt;li&gt;User asks &amp;ldquo;what&amp;rsquo;s the URL for my service&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;User wants to remove a domain&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="add-railway-domain"&gt;Add Railway Domain&lt;/h2&gt;
+&lt;p&gt;Generate a railway-provided domain (max 1 per service):&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;railway domain --json
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;For a specific service:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;railway domain --json --service backend
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="response"&gt;Response&lt;/h3&gt;
+&lt;p&gt;Returns the generated domain URL. Service must have a deployment.&lt;/p&gt;</description></item><item><title>Railway Environment</title><link>https://agentskill.wiki/en/skills/railway-environment/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/railway-environment/</guid><description>&lt;h1 id="environment-configuration"&gt;Environment Configuration&lt;/h1&gt;
+&lt;p&gt;Query, stage, and apply configuration changes for Railway environments.&lt;/p&gt;
+&lt;h2 id="shell-escaping"&gt;Shell Escaping&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;CRITICAL:&lt;/strong&gt; When running GraphQL queries via bash, you MUST wrap in heredoc to prevent shell escaping issues:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;bash &lt;span style="color:#e6db74"&gt;&amp;lt;&amp;lt;&amp;#39;SCRIPT&amp;#39;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;2&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;${CLAUDE_PLUGIN_ROOT}/skills/lib/railway-api.sh &amp;#39;query ...&amp;#39; &amp;#39;{&amp;#34;var&amp;#34;: &amp;#34;value&amp;#34;}&amp;#39;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;3&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;SCRIPT&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Without the heredoc wrapper, multi-line commands break and exclamation marks in GraphQL non-null types get escaped, causing query failures.&lt;/p&gt;
+&lt;h2 id="when-to-use"&gt;When to Use&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;User wants to create a new environment&lt;/li&gt;
+&lt;li&gt;User wants to duplicate an environment (e.g., &amp;ldquo;copy production to staging&amp;rdquo;)&lt;/li&gt;
+&lt;li&gt;User wants to switch to a different environment&lt;/li&gt;
+&lt;li&gt;User asks about current build/deploy settings, variables, replicas, health checks, domains&lt;/li&gt;
+&lt;li&gt;User asks to change service source (Docker image, branch, commit, root directory)&lt;/li&gt;
+&lt;li&gt;User wants to connect a service to a GitHub repo&lt;/li&gt;
+&lt;li&gt;User wants to deploy from a GitHub repo (create empty service first via railway-new skill, then use this)&lt;/li&gt;
+&lt;li&gt;User asks to change build or start command&lt;/li&gt;
+&lt;li&gt;User wants to add/update/delete environment variables&lt;/li&gt;
+&lt;li&gt;User wants to change replica count or configure health checks&lt;/li&gt;
+&lt;li&gt;User asks to delete a service, volume, or bucket&lt;/li&gt;
+&lt;li&gt;User says &amp;ldquo;apply changes&amp;rdquo;, &amp;ldquo;commit changes&amp;rdquo;, &amp;ldquo;deploy changes&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Auto-fixing build errors detected in logs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="create-environment"&gt;Create Environment&lt;/h2&gt;
+&lt;p&gt;Create a new environment in the linked project:&lt;/p&gt;</description></item><item><title>Railway Environment</title><link>https://agentskill.wiki/skills/railway-environment/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/railway-environment/</guid><description>&lt;h1 id="environment-configuration"&gt;Environment Configuration&lt;/h1&gt;
+&lt;p&gt;Query, stage, and apply configuration changes for Railway environments.&lt;/p&gt;
+&lt;h2 id="shell-escaping"&gt;Shell Escaping&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;CRITICAL:&lt;/strong&gt; When running GraphQL queries via bash, you MUST wrap in heredoc to prevent shell escaping issues:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;bash &lt;span style="color:#e6db74"&gt;&amp;lt;&amp;lt;&amp;#39;SCRIPT&amp;#39;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;2&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;${CLAUDE_PLUGIN_ROOT}/skills/lib/railway-api.sh &amp;#39;query ...&amp;#39; &amp;#39;{&amp;#34;var&amp;#34;: &amp;#34;value&amp;#34;}&amp;#39;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;3&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;SCRIPT&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Without the heredoc wrapper, multi-line commands break and exclamation marks in GraphQL non-null types get escaped, causing query failures.&lt;/p&gt;
+&lt;h2 id="when-to-use"&gt;When to Use&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;User wants to create a new environment&lt;/li&gt;
+&lt;li&gt;User wants to duplicate an environment (e.g., &amp;ldquo;copy production to staging&amp;rdquo;)&lt;/li&gt;
+&lt;li&gt;User wants to switch to a different environment&lt;/li&gt;
+&lt;li&gt;User asks about current build/deploy settings, variables, replicas, health checks, domains&lt;/li&gt;
+&lt;li&gt;User asks to change service source (Docker image, branch, commit, root directory)&lt;/li&gt;
+&lt;li&gt;User wants to connect a service to a GitHub repo&lt;/li&gt;
+&lt;li&gt;User wants to deploy from a GitHub repo (create empty service first via railway-new skill, then use this)&lt;/li&gt;
+&lt;li&gt;User asks to change build or start command&lt;/li&gt;
+&lt;li&gt;User wants to add/update/delete environment variables&lt;/li&gt;
+&lt;li&gt;User wants to change replica count or configure health checks&lt;/li&gt;
+&lt;li&gt;User asks to delete a service, volume, or bucket&lt;/li&gt;
+&lt;li&gt;User says &amp;ldquo;apply changes&amp;rdquo;, &amp;ldquo;commit changes&amp;rdquo;, &amp;ldquo;deploy changes&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Auto-fixing build errors detected in logs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="create-environment"&gt;Create Environment&lt;/h2&gt;
+&lt;p&gt;Create a new environment in the linked project:&lt;/p&gt;</description></item><item><title>Senior Devops</title><link>https://agentskill.wiki/en/skills/senior-devops/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/senior-devops/</guid><description>&lt;h1 id="senior-devops"&gt;Senior Devops&lt;/h1&gt;
+&lt;p&gt;Complete toolkit for senior devops with modern tools and best practices.&lt;/p&gt;
+&lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;
+&lt;h3 id="main-capabilities"&gt;Main Capabilities&lt;/h3&gt;
+&lt;p&gt;This skill provides three core capabilities through automated scripts:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Script 1: Pipeline Generator&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;2&lt;/span&gt;&lt;span&gt;python scripts/pipeline_generator.py &lt;span style="color:#f92672"&gt;[&lt;/span&gt;options&lt;span style="color:#f92672"&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;3&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;4&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Script 2: Terraform Scaffolder&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;5&lt;/span&gt;&lt;span&gt;python scripts/terraform_scaffolder.py &lt;span style="color:#f92672"&gt;[&lt;/span&gt;options&lt;span style="color:#f92672"&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;6&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;7&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Script 3: Deployment Manager&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;8&lt;/span&gt;&lt;span&gt;python scripts/deployment_manager.py &lt;span style="color:#f92672"&gt;[&lt;/span&gt;options&lt;span style="color:#f92672"&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="core-capabilities"&gt;Core Capabilities&lt;/h2&gt;
+&lt;h3 id="1-pipeline-generator"&gt;1. Pipeline Generator&lt;/h3&gt;
+&lt;p&gt;Automated tool for pipeline generator tasks.&lt;/p&gt;</description></item><item><title>Senior Devops</title><link>https://agentskill.wiki/skills/senior-devops/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/senior-devops/</guid><description>&lt;h1 id="senior-devops"&gt;Senior Devops&lt;/h1&gt;
+&lt;p&gt;Complete toolkit for senior devops with modern tools and best practices.&lt;/p&gt;
+&lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;
+&lt;h3 id="main-capabilities"&gt;Main Capabilities&lt;/h3&gt;
+&lt;p&gt;This skill provides three core capabilities through automated scripts:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Script 1: Pipeline Generator&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;2&lt;/span&gt;&lt;span&gt;python scripts/pipeline_generator.py &lt;span style="color:#f92672"&gt;[&lt;/span&gt;options&lt;span style="color:#f92672"&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;3&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;4&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Script 2: Terraform Scaffolder&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;5&lt;/span&gt;&lt;span&gt;python scripts/terraform_scaffolder.py &lt;span style="color:#f92672"&gt;[&lt;/span&gt;options&lt;span style="color:#f92672"&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;6&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;7&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Script 3: Deployment Manager&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;8&lt;/span&gt;&lt;span&gt;python scripts/deployment_manager.py &lt;span style="color:#f92672"&gt;[&lt;/span&gt;options&lt;span style="color:#f92672"&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="core-capabilities"&gt;Core Capabilities&lt;/h2&gt;
+&lt;h3 id="1-pipeline-generator"&gt;1. Pipeline Generator&lt;/h3&gt;
+&lt;p&gt;Automated tool for pipeline generator tasks.&lt;/p&gt;</description></item><item><title>Terraform Module Library</title><link>https://agentskill.wiki/en/skills/terraform-module-library/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/terraform-module-library/</guid><description>&lt;h1 id="terraform-module-library"&gt;Terraform Module Library&lt;/h1&gt;
+&lt;p&gt;Production-ready Terraform module patterns for AWS, Azure, and GCP infrastructure.&lt;/p&gt;
+&lt;h2 id="purpose"&gt;Purpose&lt;/h2&gt;
+&lt;p&gt;Create reusable, well-tested Terraform modules for common cloud infrastructure patterns across multiple cloud providers.&lt;/p&gt;
+&lt;h2 id="when-to-use"&gt;When to Use&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Build reusable infrastructure components&lt;/li&gt;
+&lt;li&gt;Standardize cloud resource provisioning&lt;/li&gt;
+&lt;li&gt;Implement infrastructure as code best practices&lt;/li&gt;
+&lt;li&gt;Create multi-cloud compatible modules&lt;/li&gt;
+&lt;li&gt;Establish organizational Terraform standards&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="module-structure"&gt;Module Structure&lt;/h2&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;terraform-modules/
+├── aws/
+│ ├── vpc/
+│ ├── eks/
+│ ├── rds/
+│ └── s3/
+├── azure/
+│ ├── vnet/
+│ ├── aks/
+│ └── storage/
+└── gcp/
+ ├── vpc/
+ ├── gke/
+ └── cloud-sql/
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id="standard-module-pattern"&gt;Standard Module Pattern&lt;/h2&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;module-name/
+├── main.tf # Main resources
+├── variables.tf # Input variables
+├── outputs.tf # Output values
+├── versions.tf # Provider versions
+├── README.md # Documentation
+├── examples/ # Usage examples
+│ └── complete/
+│ ├── main.tf
+│ └── variables.tf
+└── tests/ # Terratest files
+ └── module_test.go
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id="aws-vpc-module-example"&gt;AWS VPC Module Example&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;main.tf:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Terraform Module Library</title><link>https://agentskill.wiki/skills/terraform-module-library/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/terraform-module-library/</guid><description>&lt;h1 id="terraform-module-library"&gt;Terraform Module Library&lt;/h1&gt;
+&lt;p&gt;Production-ready Terraform module patterns for AWS, Azure, and GCP infrastructure.&lt;/p&gt;
+&lt;h2 id="purpose"&gt;Purpose&lt;/h2&gt;
+&lt;p&gt;Create reusable, well-tested Terraform modules for common cloud infrastructure patterns across multiple cloud providers.&lt;/p&gt;
+&lt;h2 id="when-to-use"&gt;When to Use&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Build reusable infrastructure components&lt;/li&gt;
+&lt;li&gt;Standardize cloud resource provisioning&lt;/li&gt;
+&lt;li&gt;Implement infrastructure as code best practices&lt;/li&gt;
+&lt;li&gt;Create multi-cloud compatible modules&lt;/li&gt;
+&lt;li&gt;Establish organizational Terraform standards&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="module-structure"&gt;Module Structure&lt;/h2&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;terraform-modules/
+├── aws/
+│ ├── vpc/
+│ ├── eks/
+│ ├── rds/
+│ └── s3/
+├── azure/
+│ ├── vnet/
+│ ├── aks/
+│ └── storage/
+└── gcp/
+ ├── vpc/
+ ├── gke/
+ └── cloud-sql/
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id="standard-module-pattern"&gt;Standard Module Pattern&lt;/h2&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;module-name/
+├── main.tf # Main resources
+├── variables.tf # Input variables
+├── outputs.tf # Output values
+├── versions.tf # Provider versions
+├── README.md # Documentation
+├── examples/ # Usage examples
+│ └── complete/
+│ ├── main.tf
+│ └── variables.tf
+└── tests/ # Terratest files
+ └── module_test.go
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id="aws-vpc-module-example"&gt;AWS VPC Module Example&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;main.tf:&lt;/strong&gt;&lt;/p&gt;</description></item></channel></rss>

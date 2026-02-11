@@ -1,0 +1,1017 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Workflow-Automation on Agent Skills Hub</title><link>https://agentskill.wiki/tags/workflow-automation/</link><description>Recent content in Workflow-Automation on Agent Skills Hub</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/workflow-automation/index.xml" rel="self" type="application/rss+xml"/><item><title>Agent Builder</title><link>https://agentskill.wiki/en/skills/agent-builder/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/agent-builder/</guid><description>&lt;h1 id="agent-builder"&gt;Agent Builder&lt;/h1&gt;
+&lt;p&gt;Build AI agents for any domain - customer service, research, operations, creative work, or specialized business processes.&lt;/p&gt;
+&lt;h2 id="the-core-philosophy"&gt;The Core Philosophy&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;The model already knows how to be an agent. Your job is to get out of the way.&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;An agent is not complex engineering. It&amp;rsquo;s a simple loop that invites the model to act:&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;LOOP:
+ Model sees: context + available capabilities
+ Model decides: act or respond
+ If act: execute capability, add result, continue
+ If respond: return to user
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;That&amp;rsquo;s it.&lt;/strong&gt; The magic isn&amp;rsquo;t in the code - it&amp;rsquo;s in the model. Your code just provides the opportunity.&lt;/p&gt;</description></item><item><title>Agent Builder</title><link>https://agentskill.wiki/skills/agent-builder/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/agent-builder/</guid><description>&lt;h1 id="agent-builder"&gt;Agent Builder&lt;/h1&gt;
+&lt;p&gt;Build AI agents for any domain - customer service, research, operations, creative work, or specialized business processes.&lt;/p&gt;
+&lt;h2 id="the-core-philosophy"&gt;The Core Philosophy&lt;/h2&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;The model already knows how to be an agent. Your job is to get out of the way.&lt;/strong&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;An agent is not complex engineering. It&amp;rsquo;s a simple loop that invites the model to act:&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;LOOP:
+ Model sees: context + available capabilities
+ Model decides: act or respond
+ If act: execute capability, add result, continue
+ If respond: return to user
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;That&amp;rsquo;s it.&lt;/strong&gt; The magic isn&amp;rsquo;t in the code - it&amp;rsquo;s in the model. Your code just provides the opportunity.&lt;/p&gt;</description></item><item><title>Autogpt Agents</title><link>https://agentskill.wiki/en/skills/autogpt-agents/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/autogpt-agents/</guid><description>&lt;h1 id="autogpt---autonomous-ai-agent-platform"&gt;AutoGPT - Autonomous AI Agent Platform&lt;/h1&gt;
+&lt;p&gt;Comprehensive platform for building, deploying, and managing continuous AI agents through a visual interface or development toolkit.&lt;/p&gt;
+&lt;h2 id="when-to-use-autogpt"&gt;When to use AutoGPT&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Use AutoGPT when:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Building autonomous agents that run continuously&lt;/li&gt;
+&lt;li&gt;Creating visual workflow-based AI agents&lt;/li&gt;
+&lt;li&gt;Deploying agents with external triggers (webhooks, schedules)&lt;/li&gt;
+&lt;li&gt;Building complex multi-step automation pipelines&lt;/li&gt;
+&lt;li&gt;Need a no-code/low-code agent builder&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Key features:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Visual Agent Builder&lt;/strong&gt;: Drag-and-drop node-based workflow editor&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Continuous Execution&lt;/strong&gt;: Agents run persistently with triggers&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Marketplace&lt;/strong&gt;: Pre-built agents and blocks to share/reuse&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Block System&lt;/strong&gt;: Modular components for LLM, tools, integrations&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Forge Toolkit&lt;/strong&gt;: Developer tools for custom agent creation&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Benchmark System&lt;/strong&gt;: Standardized agent performance testing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Use alternatives instead:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Autogpt Agents</title><link>https://agentskill.wiki/skills/autogpt-agents/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/autogpt-agents/</guid><description>&lt;h1 id="autogpt---autonomous-ai-agent-platform"&gt;AutoGPT - Autonomous AI Agent Platform&lt;/h1&gt;
+&lt;p&gt;Comprehensive platform for building, deploying, and managing continuous AI agents through a visual interface or development toolkit.&lt;/p&gt;
+&lt;h2 id="when-to-use-autogpt"&gt;When to use AutoGPT&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Use AutoGPT when:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Building autonomous agents that run continuously&lt;/li&gt;
+&lt;li&gt;Creating visual workflow-based AI agents&lt;/li&gt;
+&lt;li&gt;Deploying agents with external triggers (webhooks, schedules)&lt;/li&gt;
+&lt;li&gt;Building complex multi-step automation pipelines&lt;/li&gt;
+&lt;li&gt;Need a no-code/low-code agent builder&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Key features:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Visual Agent Builder&lt;/strong&gt;: Drag-and-drop node-based workflow editor&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Continuous Execution&lt;/strong&gt;: Agents run persistently with triggers&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Marketplace&lt;/strong&gt;: Pre-built agents and blocks to share/reuse&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Block System&lt;/strong&gt;: Modular components for LLM, tools, integrations&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Forge Toolkit&lt;/strong&gt;: Developer tools for custom agent creation&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Benchmark System&lt;/strong&gt;: Standardized agent performance testing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Use alternatives instead:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Benchling Integration</title><link>https://agentskill.wiki/en/skills/benchling-integration/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/benchling-integration/</guid><description>&lt;h1 id="benchling-integration"&gt;Benchling Integration&lt;/h1&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Benchling is a cloud platform for life sciences R&amp;amp;D. Access registry entities (DNA, proteins), inventory, electronic lab notebooks, and workflows programmatically via Python SDK and REST API.&lt;/p&gt;
+&lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
+&lt;p&gt;This skill should be used when:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Working with Benchling&amp;rsquo;s Python SDK or REST API&lt;/li&gt;
+&lt;li&gt;Managing biological sequences (DNA, RNA, proteins) and registry entities&lt;/li&gt;
+&lt;li&gt;Automating inventory operations (samples, containers, locations, transfers)&lt;/li&gt;
+&lt;li&gt;Creating or querying electronic lab notebook entries&lt;/li&gt;
+&lt;li&gt;Building workflow automations or Benchling Apps&lt;/li&gt;
+&lt;li&gt;Syncing data between Benchling and external systems&lt;/li&gt;
+&lt;li&gt;Querying the Benchling Data Warehouse for analytics&lt;/li&gt;
+&lt;li&gt;Setting up event-driven integrations with AWS EventBridge&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="core-capabilities"&gt;Core Capabilities&lt;/h2&gt;
+&lt;h3 id="1-authentication--setup"&gt;1. Authentication &amp;amp; Setup&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Python SDK Installation:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Benchling Integration</title><link>https://agentskill.wiki/skills/benchling-integration/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/benchling-integration/</guid><description>&lt;h1 id="benchling-integration"&gt;Benchling Integration&lt;/h1&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Benchling is a cloud platform for life sciences R&amp;amp;D. Access registry entities (DNA, proteins), inventory, electronic lab notebooks, and workflows programmatically via Python SDK and REST API.&lt;/p&gt;
+&lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
+&lt;p&gt;This skill should be used when:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Working with Benchling&amp;rsquo;s Python SDK or REST API&lt;/li&gt;
+&lt;li&gt;Managing biological sequences (DNA, RNA, proteins) and registry entities&lt;/li&gt;
+&lt;li&gt;Automating inventory operations (samples, containers, locations, transfers)&lt;/li&gt;
+&lt;li&gt;Creating or querying electronic lab notebook entries&lt;/li&gt;
+&lt;li&gt;Building workflow automations or Benchling Apps&lt;/li&gt;
+&lt;li&gt;Syncing data between Benchling and external systems&lt;/li&gt;
+&lt;li&gt;Querying the Benchling Data Warehouse for analytics&lt;/li&gt;
+&lt;li&gt;Setting up event-driven integrations with AWS EventBridge&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="core-capabilities"&gt;Core Capabilities&lt;/h2&gt;
+&lt;h3 id="1-authentication--setup"&gt;1. Authentication &amp;amp; Setup&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Python SDK Installation:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Clickup</title><link>https://agentskill.wiki/en/skills/clickup/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/clickup/</guid><description>&lt;h1 id="clickup"&gt;ClickUp&lt;/h1&gt;
+&lt;p&gt;Interact with ClickUp tasks and documents via the API. Get task information, view comments, create tasks, manage assignments, post updates, and create/edit documents.&lt;/p&gt;
+&lt;h2 id="setup"&gt;Setup&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Copy &lt;code&gt;.env-example&lt;/code&gt; to &lt;code&gt;.env&lt;/code&gt; in this skill directory&lt;/li&gt;
+&lt;li&gt;Add your ClickUp Personal API Token (starts with &lt;code&gt;pk_&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;Generate token at: ClickUp Settings &amp;gt; Apps &amp;gt; API Token&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;cp .claude/skills/clickup/.env-example .claude/skills/clickup/.env
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;2&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Edit .env and add your token&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Team ID and User ID are auto-detected and cached on first use.&lt;/p&gt;</description></item><item><title>Clickup</title><link>https://agentskill.wiki/skills/clickup/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/clickup/</guid><description>&lt;h1 id="clickup"&gt;ClickUp&lt;/h1&gt;
+&lt;p&gt;Interact with ClickUp tasks and documents via the API. Get task information, view comments, create tasks, manage assignments, post updates, and create/edit documents.&lt;/p&gt;
+&lt;h2 id="setup"&gt;Setup&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Copy &lt;code&gt;.env-example&lt;/code&gt; to &lt;code&gt;.env&lt;/code&gt; in this skill directory&lt;/li&gt;
+&lt;li&gt;Add your ClickUp Personal API Token (starts with &lt;code&gt;pk_&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;Generate token at: ClickUp Settings &amp;gt; Apps &amp;gt; API Token&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;cp .claude/skills/clickup/.env-example .claude/skills/clickup/.env
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;2&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Edit .env and add your token&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Team ID and User ID are auto-detected and cached on first use.&lt;/p&gt;</description></item><item><title>Github Workflow Automation</title><link>https://agentskill.wiki/en/skills/github-workflow-automation/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/github-workflow-automation/</guid><description>&lt;h1 id="github-workflow-automation-skill"&gt;GitHub Workflow Automation Skill&lt;/h1&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;p&gt;This skill provides comprehensive GitHub Actions automation with AI swarm coordination. It integrates intelligent CI/CD pipelines, workflow orchestration, and repository management to create self-organizing, adaptive GitHub workflows.&lt;/p&gt;
+&lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;
+&lt;details&gt;
+&lt;summary&gt;💡 Basic Usage - Click to expand&lt;/summary&gt;
+&lt;h3 id="initialize-github-workflow-automation"&gt;Initialize GitHub Workflow Automation&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Start with a simple workflow&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;2&lt;/span&gt;&lt;span&gt;npx ruv-swarm actions generate-workflow &lt;span style="color:#ae81ff"&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;3&lt;/span&gt;&lt;span&gt; --analyze-codebase &lt;span style="color:#ae81ff"&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;4&lt;/span&gt;&lt;span&gt; --detect-languages &lt;span style="color:#ae81ff"&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;5&lt;/span&gt;&lt;span&gt; --create-optimal-pipeline
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="common-commands"&gt;Common Commands&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Optimize existing workflow&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;2&lt;/span&gt;&lt;span&gt;npx ruv-swarm actions optimize &lt;span style="color:#ae81ff"&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;3&lt;/span&gt;&lt;span&gt; --workflow &lt;span style="color:#e6db74"&gt;&amp;#34;.github/workflows/ci.yml&amp;#34;&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;4&lt;/span&gt;&lt;span&gt; --suggest-parallelization
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;5&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;6&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Analyze failed runs&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;7&lt;/span&gt;&lt;span&gt;gh run view &amp;lt;run-id&amp;gt; --json jobs,conclusion | &lt;span style="color:#ae81ff"&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;8&lt;/span&gt;&lt;span&gt; npx ruv-swarm actions analyze-failure &lt;span style="color:#ae81ff"&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;9&lt;/span&gt;&lt;span&gt; --suggest-fixes
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/details&gt;
+&lt;h2 id="core-capabilities"&gt;Core Capabilities&lt;/h2&gt;
+&lt;h3 id="-swarm-powered-github-modes"&gt;🤖 Swarm-Powered GitHub Modes&lt;/h3&gt;
+&lt;details&gt;
+&lt;summary&gt;Available GitHub Integration Modes&lt;/summary&gt;
+&lt;h4 id="1-gh-coordinator"&gt;1. gh-coordinator&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;GitHub workflow orchestration and coordination&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Github Workflow Automation</title><link>https://agentskill.wiki/skills/github-workflow-automation/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/github-workflow-automation/</guid><description>&lt;h1 id="github-workflow-automation-skill"&gt;GitHub Workflow Automation Skill&lt;/h1&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;p&gt;This skill provides comprehensive GitHub Actions automation with AI swarm coordination. It integrates intelligent CI/CD pipelines, workflow orchestration, and repository management to create self-organizing, adaptive GitHub workflows.&lt;/p&gt;
+&lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;
+&lt;details&gt;
+&lt;summary&gt;💡 Basic Usage - Click to expand&lt;/summary&gt;
+&lt;h3 id="initialize-github-workflow-automation"&gt;Initialize GitHub Workflow Automation&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Start with a simple workflow&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;2&lt;/span&gt;&lt;span&gt;npx ruv-swarm actions generate-workflow &lt;span style="color:#ae81ff"&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;3&lt;/span&gt;&lt;span&gt; --analyze-codebase &lt;span style="color:#ae81ff"&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;4&lt;/span&gt;&lt;span&gt; --detect-languages &lt;span style="color:#ae81ff"&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;5&lt;/span&gt;&lt;span&gt; --create-optimal-pipeline
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="common-commands"&gt;Common Commands&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Optimize existing workflow&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;2&lt;/span&gt;&lt;span&gt;npx ruv-swarm actions optimize &lt;span style="color:#ae81ff"&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;3&lt;/span&gt;&lt;span&gt; --workflow &lt;span style="color:#e6db74"&gt;&amp;#34;.github/workflows/ci.yml&amp;#34;&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;4&lt;/span&gt;&lt;span&gt; --suggest-parallelization
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;5&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;6&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Analyze failed runs&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;7&lt;/span&gt;&lt;span&gt;gh run view &amp;lt;run-id&amp;gt; --json jobs,conclusion | &lt;span style="color:#ae81ff"&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;8&lt;/span&gt;&lt;span&gt; npx ruv-swarm actions analyze-failure &lt;span style="color:#ae81ff"&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;9&lt;/span&gt;&lt;span&gt; --suggest-fixes
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/details&gt;
+&lt;h2 id="core-capabilities"&gt;Core Capabilities&lt;/h2&gt;
+&lt;h3 id="-swarm-powered-github-modes"&gt;🤖 Swarm-Powered GitHub Modes&lt;/h3&gt;
+&lt;details&gt;
+&lt;summary&gt;Available GitHub Integration Modes&lt;/summary&gt;
+&lt;h4 id="1-gh-coordinator"&gt;1. gh-coordinator&lt;/h4&gt;
+&lt;p&gt;&lt;strong&gt;GitHub workflow orchestration and coordination&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>N8N Code Javascript</title><link>https://agentskill.wiki/en/skills/n8n-code-javascript/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/n8n-code-javascript/</guid><description>&lt;h1 id="javascript-code-node"&gt;JavaScript Code Node&lt;/h1&gt;
+&lt;p&gt;Expert guidance for writing JavaScript code in n8n Code nodes.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-javascript" data-lang="javascript"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;// Basic template for Code nodes
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 2&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;const&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;items&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;$input&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;all&lt;/span&gt;();
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 3&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 4&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;// Process data
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 5&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;const&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;processed&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;items&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;map&lt;/span&gt;(&lt;span style="color:#a6e22e"&gt;item&lt;/span&gt; =&amp;gt; ({
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 6&lt;/span&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;json&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 7&lt;/span&gt;&lt;span&gt; ...&lt;span style="color:#a6e22e"&gt;item&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;json&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 8&lt;/span&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;processed&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;true&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 9&lt;/span&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;timestamp&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;new&lt;/span&gt; Date().&lt;span style="color:#a6e22e"&gt;toISOString&lt;/span&gt;()
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;10&lt;/span&gt;&lt;span&gt; }
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;11&lt;/span&gt;&lt;span&gt;}));
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;12&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;13&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;return&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;processed&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="essential-rules"&gt;Essential Rules&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Choose &amp;ldquo;Run Once for All Items&amp;rdquo; mode&lt;/strong&gt; (recommended for most use cases)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Access data&lt;/strong&gt;: &lt;code&gt;$input.all()&lt;/code&gt;, &lt;code&gt;$input.first()&lt;/code&gt;, or &lt;code&gt;$input.item&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CRITICAL&lt;/strong&gt;: Must return &lt;code&gt;[{json: {...}}]&lt;/code&gt; format&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CRITICAL&lt;/strong&gt;: Webhook data is under &lt;code&gt;$json.body&lt;/code&gt; (not &lt;code&gt;$json&lt;/code&gt; directly)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Built-ins available&lt;/strong&gt;: $helpers.httpRequest(), DateTime (Luxon), $jmespath()&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id="mode-selection-guide"&gt;Mode Selection Guide&lt;/h2&gt;
+&lt;p&gt;The Code node offers two execution modes. Choose based on your use case:&lt;/p&gt;</description></item><item><title>N8N Code Javascript</title><link>https://agentskill.wiki/skills/n8n-code-javascript/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/n8n-code-javascript/</guid><description>&lt;h1 id="javascript-code-node"&gt;JavaScript Code Node&lt;/h1&gt;
+&lt;p&gt;Expert guidance for writing JavaScript code in n8n Code nodes.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-javascript" data-lang="javascript"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;// Basic template for Code nodes
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 2&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;const&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;items&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;$input&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;all&lt;/span&gt;();
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 3&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 4&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;// Process data
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 5&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;const&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;processed&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;items&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;map&lt;/span&gt;(&lt;span style="color:#a6e22e"&gt;item&lt;/span&gt; =&amp;gt; ({
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 6&lt;/span&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;json&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 7&lt;/span&gt;&lt;span&gt; ...&lt;span style="color:#a6e22e"&gt;item&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;json&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 8&lt;/span&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;processed&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;true&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 9&lt;/span&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;timestamp&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;new&lt;/span&gt; Date().&lt;span style="color:#a6e22e"&gt;toISOString&lt;/span&gt;()
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;10&lt;/span&gt;&lt;span&gt; }
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;11&lt;/span&gt;&lt;span&gt;}));
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;12&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;13&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;return&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;processed&lt;/span&gt;;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="essential-rules"&gt;Essential Rules&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Choose &amp;ldquo;Run Once for All Items&amp;rdquo; mode&lt;/strong&gt; (recommended for most use cases)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Access data&lt;/strong&gt;: &lt;code&gt;$input.all()&lt;/code&gt;, &lt;code&gt;$input.first()&lt;/code&gt;, or &lt;code&gt;$input.item&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CRITICAL&lt;/strong&gt;: Must return &lt;code&gt;[{json: {...}}]&lt;/code&gt; format&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CRITICAL&lt;/strong&gt;: Webhook data is under &lt;code&gt;$json.body&lt;/code&gt; (not &lt;code&gt;$json&lt;/code&gt; directly)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Built-ins available&lt;/strong&gt;: $helpers.httpRequest(), DateTime (Luxon), $jmespath()&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id="mode-selection-guide"&gt;Mode Selection Guide&lt;/h2&gt;
+&lt;p&gt;The Code node offers two execution modes. Choose based on your use case:&lt;/p&gt;</description></item><item><title>N8N Code Python</title><link>https://agentskill.wiki/en/skills/n8n-code-python/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/n8n-code-python/</guid><description>&lt;h1 id="python-code-node-beta"&gt;Python Code Node (Beta)&lt;/h1&gt;
+&lt;p&gt;Expert guidance for writing Python code in n8n Code nodes.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="-important-javascript-first"&gt;⚠️ Important: JavaScript First&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Recommendation&lt;/strong&gt;: Use &lt;strong&gt;JavaScript for 95% of use cases&lt;/strong&gt;. Only use Python when:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;You need specific Python standard library functions&lt;/li&gt;
+&lt;li&gt;You&amp;rsquo;re significantly more comfortable with Python syntax&lt;/li&gt;
+&lt;li&gt;You&amp;rsquo;re doing data transformations better suited to Python&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Why JavaScript is preferred:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Full n8n helper functions ($helpers.httpRequest, etc.)&lt;/li&gt;
+&lt;li&gt;Luxon DateTime library for advanced date/time operations&lt;/li&gt;
+&lt;li&gt;No external library limitations&lt;/li&gt;
+&lt;li&gt;Better n8n documentation and community support&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-python" data-lang="python"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Basic template for Python Code nodes&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 2&lt;/span&gt;&lt;span&gt;items &lt;span style="color:#f92672"&gt;=&lt;/span&gt; _input&lt;span style="color:#f92672"&gt;.&lt;/span&gt;all()
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 3&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 4&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Process data&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 5&lt;/span&gt;&lt;span&gt;processed &lt;span style="color:#f92672"&gt;=&lt;/span&gt; []
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 6&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;for&lt;/span&gt; item &lt;span style="color:#f92672"&gt;in&lt;/span&gt; items:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 7&lt;/span&gt;&lt;span&gt; processed&lt;span style="color:#f92672"&gt;.&lt;/span&gt;append({
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 8&lt;/span&gt;&lt;span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;json&amp;#34;&lt;/span&gt;: {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 9&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;**&lt;/span&gt;item[&lt;span style="color:#e6db74"&gt;&amp;#34;json&amp;#34;&lt;/span&gt;],
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;10&lt;/span&gt;&lt;span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;processed&amp;#34;&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;True&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;11&lt;/span&gt;&lt;span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;timestamp&amp;#34;&lt;/span&gt;: datetime&lt;span style="color:#f92672"&gt;.&lt;/span&gt;now()&lt;span style="color:#f92672"&gt;.&lt;/span&gt;isoformat()
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;12&lt;/span&gt;&lt;span&gt; }
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;13&lt;/span&gt;&lt;span&gt; })
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;14&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;15&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;return&lt;/span&gt; processed
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="essential-rules"&gt;Essential Rules&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Consider JavaScript first&lt;/strong&gt; - Use Python only when necessary&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Access data&lt;/strong&gt;: &lt;code&gt;_input.all()&lt;/code&gt;, &lt;code&gt;_input.first()&lt;/code&gt;, or &lt;code&gt;_input.item&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CRITICAL&lt;/strong&gt;: Must return &lt;code&gt;[{&amp;quot;json&amp;quot;: {...}}]&lt;/code&gt; format&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CRITICAL&lt;/strong&gt;: Webhook data is under &lt;code&gt;_json[&amp;quot;body&amp;quot;]&lt;/code&gt; (not &lt;code&gt;_json&lt;/code&gt; directly)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CRITICAL LIMITATION&lt;/strong&gt;: &lt;strong&gt;No external libraries&lt;/strong&gt; (no requests, pandas, numpy)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Standard library only&lt;/strong&gt;: json, datetime, re, base64, hashlib, urllib.parse, math, random, statistics&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id="mode-selection-guide"&gt;Mode Selection Guide&lt;/h2&gt;
+&lt;p&gt;Same as JavaScript - choose based on your use case:&lt;/p&gt;</description></item><item><title>N8N Code Python</title><link>https://agentskill.wiki/skills/n8n-code-python/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/n8n-code-python/</guid><description>&lt;h1 id="python-code-node-beta"&gt;Python Code Node (Beta)&lt;/h1&gt;
+&lt;p&gt;Expert guidance for writing Python code in n8n Code nodes.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="-important-javascript-first"&gt;⚠️ Important: JavaScript First&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Recommendation&lt;/strong&gt;: Use &lt;strong&gt;JavaScript for 95% of use cases&lt;/strong&gt;. Only use Python when:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;You need specific Python standard library functions&lt;/li&gt;
+&lt;li&gt;You&amp;rsquo;re significantly more comfortable with Python syntax&lt;/li&gt;
+&lt;li&gt;You&amp;rsquo;re doing data transformations better suited to Python&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Why JavaScript is preferred:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Full n8n helper functions ($helpers.httpRequest, etc.)&lt;/li&gt;
+&lt;li&gt;Luxon DateTime library for advanced date/time operations&lt;/li&gt;
+&lt;li&gt;No external library limitations&lt;/li&gt;
+&lt;li&gt;Better n8n documentation and community support&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-python" data-lang="python"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Basic template for Python Code nodes&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 2&lt;/span&gt;&lt;span&gt;items &lt;span style="color:#f92672"&gt;=&lt;/span&gt; _input&lt;span style="color:#f92672"&gt;.&lt;/span&gt;all()
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 3&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 4&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Process data&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 5&lt;/span&gt;&lt;span&gt;processed &lt;span style="color:#f92672"&gt;=&lt;/span&gt; []
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 6&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;for&lt;/span&gt; item &lt;span style="color:#f92672"&gt;in&lt;/span&gt; items:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 7&lt;/span&gt;&lt;span&gt; processed&lt;span style="color:#f92672"&gt;.&lt;/span&gt;append({
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 8&lt;/span&gt;&lt;span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;json&amp;#34;&lt;/span&gt;: {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 9&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;**&lt;/span&gt;item[&lt;span style="color:#e6db74"&gt;&amp;#34;json&amp;#34;&lt;/span&gt;],
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;10&lt;/span&gt;&lt;span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;processed&amp;#34;&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;True&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;11&lt;/span&gt;&lt;span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;timestamp&amp;#34;&lt;/span&gt;: datetime&lt;span style="color:#f92672"&gt;.&lt;/span&gt;now()&lt;span style="color:#f92672"&gt;.&lt;/span&gt;isoformat()
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;12&lt;/span&gt;&lt;span&gt; }
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;13&lt;/span&gt;&lt;span&gt; })
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;14&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;15&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;return&lt;/span&gt; processed
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="essential-rules"&gt;Essential Rules&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Consider JavaScript first&lt;/strong&gt; - Use Python only when necessary&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Access data&lt;/strong&gt;: &lt;code&gt;_input.all()&lt;/code&gt;, &lt;code&gt;_input.first()&lt;/code&gt;, or &lt;code&gt;_input.item&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CRITICAL&lt;/strong&gt;: Must return &lt;code&gt;[{&amp;quot;json&amp;quot;: {...}}]&lt;/code&gt; format&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CRITICAL&lt;/strong&gt;: Webhook data is under &lt;code&gt;_json[&amp;quot;body&amp;quot;]&lt;/code&gt; (not &lt;code&gt;_json&lt;/code&gt; directly)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CRITICAL LIMITATION&lt;/strong&gt;: &lt;strong&gt;No external libraries&lt;/strong&gt; (no requests, pandas, numpy)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Standard library only&lt;/strong&gt;: json, datetime, re, base64, hashlib, urllib.parse, math, random, statistics&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id="mode-selection-guide"&gt;Mode Selection Guide&lt;/h2&gt;
+&lt;p&gt;Same as JavaScript - choose based on your use case:&lt;/p&gt;</description></item><item><title>N8N Expression Syntax</title><link>https://agentskill.wiki/en/skills/n8n-expression-syntax/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/n8n-expression-syntax/</guid><description>&lt;h1 id="n8n-expression-syntax"&gt;n8n Expression Syntax&lt;/h1&gt;
+&lt;p&gt;Expert guide for writing correct n8n expressions in workflows.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="expression-format"&gt;Expression Format&lt;/h2&gt;
+&lt;p&gt;All dynamic content in n8n uses &lt;strong&gt;double curly braces&lt;/strong&gt;:&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;{{expression}}
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Examples&lt;/strong&gt;:&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;✅ {{$json.email}}
+✅ {{$json.body.name}}
+✅ {{$node[&amp;#34;HTTP Request&amp;#34;].json.data}}
+❌ $json.email (no braces - treated as literal text)
+❌ {$json.email} (single braces - invalid)
+&lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;
+&lt;h2 id="core-variables"&gt;Core Variables&lt;/h2&gt;
+&lt;h3 id="json---current-node-output"&gt;$json - Current Node Output&lt;/h3&gt;
+&lt;p&gt;Access data from the current node:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-javascript" data-lang="javascript"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;{{&lt;span style="color:#a6e22e"&gt;$json&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;fieldName&lt;/span&gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;2&lt;/span&gt;&lt;span&gt;{{&lt;span style="color:#a6e22e"&gt;$json&lt;/span&gt;[&lt;span style="color:#e6db74"&gt;&amp;#39;field with spaces&amp;#39;&lt;/span&gt;]}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;3&lt;/span&gt;&lt;span&gt;{{&lt;span style="color:#a6e22e"&gt;$json&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;nested&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;property&lt;/span&gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;4&lt;/span&gt;&lt;span&gt;{{&lt;span style="color:#a6e22e"&gt;$json&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;items&lt;/span&gt;[&lt;span style="color:#ae81ff"&gt;0&lt;/span&gt;].&lt;span style="color:#a6e22e"&gt;name&lt;/span&gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="node---reference-other-nodes"&gt;$node - Reference Other Nodes&lt;/h3&gt;
+&lt;p&gt;Access data from any previous node:&lt;/p&gt;</description></item><item><title>N8N Expression Syntax</title><link>https://agentskill.wiki/skills/n8n-expression-syntax/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/n8n-expression-syntax/</guid><description>&lt;h1 id="n8n-expression-syntax"&gt;n8n Expression Syntax&lt;/h1&gt;
+&lt;p&gt;Expert guide for writing correct n8n expressions in workflows.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="expression-format"&gt;Expression Format&lt;/h2&gt;
+&lt;p&gt;All dynamic content in n8n uses &lt;strong&gt;double curly braces&lt;/strong&gt;:&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;{{expression}}
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Examples&lt;/strong&gt;:&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;✅ {{$json.email}}
+✅ {{$json.body.name}}
+✅ {{$node[&amp;#34;HTTP Request&amp;#34;].json.data}}
+❌ $json.email (no braces - treated as literal text)
+❌ {$json.email} (single braces - invalid)
+&lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;
+&lt;h2 id="core-variables"&gt;Core Variables&lt;/h2&gt;
+&lt;h3 id="json---current-node-output"&gt;$json - Current Node Output&lt;/h3&gt;
+&lt;p&gt;Access data from the current node:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-javascript" data-lang="javascript"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;{{&lt;span style="color:#a6e22e"&gt;$json&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;fieldName&lt;/span&gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;2&lt;/span&gt;&lt;span&gt;{{&lt;span style="color:#a6e22e"&gt;$json&lt;/span&gt;[&lt;span style="color:#e6db74"&gt;&amp;#39;field with spaces&amp;#39;&lt;/span&gt;]}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;3&lt;/span&gt;&lt;span&gt;{{&lt;span style="color:#a6e22e"&gt;$json&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;nested&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;property&lt;/span&gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;4&lt;/span&gt;&lt;span&gt;{{&lt;span style="color:#a6e22e"&gt;$json&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;items&lt;/span&gt;[&lt;span style="color:#ae81ff"&gt;0&lt;/span&gt;].&lt;span style="color:#a6e22e"&gt;name&lt;/span&gt;}}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="node---reference-other-nodes"&gt;$node - Reference Other Nodes&lt;/h3&gt;
+&lt;p&gt;Access data from any previous node:&lt;/p&gt;</description></item><item><title>N8N Mcp Tools Expert</title><link>https://agentskill.wiki/en/skills/n8n-mcp-tools-expert/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/n8n-mcp-tools-expert/</guid><description>&lt;h1 id="n8n-mcp-tools-expert"&gt;n8n MCP Tools Expert&lt;/h1&gt;
+&lt;p&gt;Master guide for using n8n-mcp MCP server tools to build workflows.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="tool-categories"&gt;Tool Categories&lt;/h2&gt;
+&lt;p&gt;n8n-mcp provides &lt;strong&gt;40+ tools&lt;/strong&gt; organized into categories:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Node Discovery&lt;/strong&gt; → &lt;a href="SEARCH_GUIDE.md"&gt;SEARCH_GUIDE.md&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Configuration Validation&lt;/strong&gt; → &lt;a href="VALIDATION_GUIDE.md"&gt;VALIDATION_GUIDE.md&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Workflow Management&lt;/strong&gt; → &lt;a href="WORKFLOW_GUIDE.md"&gt;WORKFLOW_GUIDE.md&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Template Library&lt;/strong&gt; - Search and access 2,653 real workflows&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Documentation&lt;/strong&gt; - Get tool and node documentation&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id="quick-reference"&gt;Quick Reference&lt;/h2&gt;
+&lt;h3 id="most-used-tools-by-success-rate"&gt;Most Used Tools (by success rate)&lt;/h3&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Tool&lt;/th&gt;
+ &lt;th&gt;Use When&lt;/th&gt;
+ &lt;th&gt;Success Rate&lt;/th&gt;
+ &lt;th&gt;Speed&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;code&gt;search_nodes&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;Finding nodes by keyword&lt;/td&gt;
+ &lt;td&gt;99.9%&lt;/td&gt;
+ &lt;td&gt;&amp;lt;20ms&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;code&gt;get_node_essentials&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;Understanding node operations&lt;/td&gt;
+ &lt;td&gt;91.7%&lt;/td&gt;
+ &lt;td&gt;&amp;lt;10ms&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;code&gt;validate_node_operation&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;Checking configurations&lt;/td&gt;
+ &lt;td&gt;Varies&lt;/td&gt;
+ &lt;td&gt;&amp;lt;100ms&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;code&gt;n8n_create_workflow&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;Creating workflows&lt;/td&gt;
+ &lt;td&gt;96.8%&lt;/td&gt;
+ &lt;td&gt;100-500ms&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;code&gt;n8n_update_partial_workflow&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;Editing workflows (MOST USED!)&lt;/td&gt;
+ &lt;td&gt;99.0%&lt;/td&gt;
+ &lt;td&gt;50-200ms&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;code&gt;validate_workflow&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;Checking complete workflow&lt;/td&gt;
+ &lt;td&gt;95.5%&lt;/td&gt;
+ &lt;td&gt;100-500ms&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id="tool-selection-guide"&gt;Tool Selection Guide&lt;/h2&gt;
+&lt;h3 id="finding-the-right-node"&gt;Finding the Right Node&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Workflow&lt;/strong&gt;:&lt;/p&gt;</description></item><item><title>N8N Mcp Tools Expert</title><link>https://agentskill.wiki/skills/n8n-mcp-tools-expert/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/n8n-mcp-tools-expert/</guid><description>&lt;h1 id="n8n-mcp-tools-expert"&gt;n8n MCP Tools Expert&lt;/h1&gt;
+&lt;p&gt;Master guide for using n8n-mcp MCP server tools to build workflows.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="tool-categories"&gt;Tool Categories&lt;/h2&gt;
+&lt;p&gt;n8n-mcp provides &lt;strong&gt;40+ tools&lt;/strong&gt; organized into categories:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Node Discovery&lt;/strong&gt; → &lt;a href="SEARCH_GUIDE.md"&gt;SEARCH_GUIDE.md&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Configuration Validation&lt;/strong&gt; → &lt;a href="VALIDATION_GUIDE.md"&gt;VALIDATION_GUIDE.md&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Workflow Management&lt;/strong&gt; → &lt;a href="WORKFLOW_GUIDE.md"&gt;WORKFLOW_GUIDE.md&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Template Library&lt;/strong&gt; - Search and access 2,653 real workflows&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Documentation&lt;/strong&gt; - Get tool and node documentation&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id="quick-reference"&gt;Quick Reference&lt;/h2&gt;
+&lt;h3 id="most-used-tools-by-success-rate"&gt;Most Used Tools (by success rate)&lt;/h3&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Tool&lt;/th&gt;
+ &lt;th&gt;Use When&lt;/th&gt;
+ &lt;th&gt;Success Rate&lt;/th&gt;
+ &lt;th&gt;Speed&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;code&gt;search_nodes&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;Finding nodes by keyword&lt;/td&gt;
+ &lt;td&gt;99.9%&lt;/td&gt;
+ &lt;td&gt;&amp;lt;20ms&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;code&gt;get_node_essentials&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;Understanding node operations&lt;/td&gt;
+ &lt;td&gt;91.7%&lt;/td&gt;
+ &lt;td&gt;&amp;lt;10ms&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;code&gt;validate_node_operation&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;Checking configurations&lt;/td&gt;
+ &lt;td&gt;Varies&lt;/td&gt;
+ &lt;td&gt;&amp;lt;100ms&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;code&gt;n8n_create_workflow&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;Creating workflows&lt;/td&gt;
+ &lt;td&gt;96.8%&lt;/td&gt;
+ &lt;td&gt;100-500ms&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;code&gt;n8n_update_partial_workflow&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;Editing workflows (MOST USED!)&lt;/td&gt;
+ &lt;td&gt;99.0%&lt;/td&gt;
+ &lt;td&gt;50-200ms&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;code&gt;validate_workflow&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;Checking complete workflow&lt;/td&gt;
+ &lt;td&gt;95.5%&lt;/td&gt;
+ &lt;td&gt;100-500ms&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id="tool-selection-guide"&gt;Tool Selection Guide&lt;/h2&gt;
+&lt;h3 id="finding-the-right-node"&gt;Finding the Right Node&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Workflow&lt;/strong&gt;:&lt;/p&gt;</description></item><item><title>N8N Node Configuration</title><link>https://agentskill.wiki/en/skills/n8n-node-configuration/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/n8n-node-configuration/</guid><description>&lt;h1 id="n8n-node-configuration"&gt;n8n Node Configuration&lt;/h1&gt;
+&lt;p&gt;Expert guidance for operation-aware node configuration with property dependencies.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="configuration-philosophy"&gt;Configuration Philosophy&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Progressive disclosure&lt;/strong&gt;: Start minimal, add complexity as needed&lt;/p&gt;
+&lt;p&gt;Configuration best practices:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;get_node_essentials is the most used discovery pattern&lt;/li&gt;
+&lt;li&gt;56 seconds average between configuration edits&lt;/li&gt;
+&lt;li&gt;91.7% success rate with essentials-based configuration&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Key insight&lt;/strong&gt;: Most configurations need only essentials, not full schema!&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="core-concepts"&gt;Core Concepts&lt;/h2&gt;
+&lt;h3 id="1-operation-aware-configuration"&gt;1. Operation-Aware Configuration&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Not all fields are always required&lt;/strong&gt; - it depends on operation!&lt;/p&gt;</description></item><item><title>N8N Node Configuration</title><link>https://agentskill.wiki/skills/n8n-node-configuration/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/n8n-node-configuration/</guid><description>&lt;h1 id="n8n-node-configuration"&gt;n8n Node Configuration&lt;/h1&gt;
+&lt;p&gt;Expert guidance for operation-aware node configuration with property dependencies.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="configuration-philosophy"&gt;Configuration Philosophy&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Progressive disclosure&lt;/strong&gt;: Start minimal, add complexity as needed&lt;/p&gt;
+&lt;p&gt;Configuration best practices:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;get_node_essentials is the most used discovery pattern&lt;/li&gt;
+&lt;li&gt;56 seconds average between configuration edits&lt;/li&gt;
+&lt;li&gt;91.7% success rate with essentials-based configuration&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Key insight&lt;/strong&gt;: Most configurations need only essentials, not full schema!&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="core-concepts"&gt;Core Concepts&lt;/h2&gt;
+&lt;h3 id="1-operation-aware-configuration"&gt;1. Operation-Aware Configuration&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Not all fields are always required&lt;/strong&gt; - it depends on operation!&lt;/p&gt;</description></item><item><title>N8N Workflow Patterns</title><link>https://agentskill.wiki/en/skills/n8n-workflow-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/n8n-workflow-patterns/</guid><description>&lt;h1 id="n8n-workflow-patterns"&gt;n8n Workflow Patterns&lt;/h1&gt;
+&lt;p&gt;Proven architectural patterns for building n8n workflows.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="the-5-core-patterns"&gt;The 5 Core Patterns&lt;/h2&gt;
+&lt;p&gt;Based on analysis of real workflow usage:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href="webhook_processing.md"&gt;Webhook Processing&lt;/a&gt;&lt;/strong&gt; (Most Common)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Receive HTTP requests → Process → Output&lt;/li&gt;
+&lt;li&gt;Pattern: Webhook → Validate → Transform → Respond/Notify&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href="http_api_integration.md"&gt;HTTP API Integration&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Fetch from REST APIs → Transform → Store/Use&lt;/li&gt;
+&lt;li&gt;Pattern: Trigger → HTTP Request → Transform → Action → Error Handler&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href="database_operations.md"&gt;Database Operations&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Read/Write/Sync database data&lt;/li&gt;
+&lt;li&gt;Pattern: Schedule → Query → Transform → Write → Verify&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href="ai_agent_workflow.md"&gt;AI Agent Workflow&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>N8N Workflow Patterns</title><link>https://agentskill.wiki/skills/n8n-workflow-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/n8n-workflow-patterns/</guid><description>&lt;h1 id="n8n-workflow-patterns"&gt;n8n Workflow Patterns&lt;/h1&gt;
+&lt;p&gt;Proven architectural patterns for building n8n workflows.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="the-5-core-patterns"&gt;The 5 Core Patterns&lt;/h2&gt;
+&lt;p&gt;Based on analysis of real workflow usage:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href="webhook_processing.md"&gt;Webhook Processing&lt;/a&gt;&lt;/strong&gt; (Most Common)&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Receive HTTP requests → Process → Output&lt;/li&gt;
+&lt;li&gt;Pattern: Webhook → Validate → Transform → Respond/Notify&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href="http_api_integration.md"&gt;HTTP API Integration&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Fetch from REST APIs → Transform → Store/Use&lt;/li&gt;
+&lt;li&gt;Pattern: Trigger → HTTP Request → Transform → Action → Error Handler&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href="database_operations.md"&gt;Database Operations&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Read/Write/Sync database data&lt;/li&gt;
+&lt;li&gt;Pattern: Schedule → Query → Transform → Write → Verify&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href="ai_agent_workflow.md"&gt;AI Agent Workflow&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Notion Spec To Implementation</title><link>https://agentskill.wiki/en/skills/notion-spec-to-implementation/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/notion-spec-to-implementation/</guid><description>&lt;h1 id="spec-to-implementation"&gt;Spec to Implementation&lt;/h1&gt;
+&lt;p&gt;Convert a Notion spec into linked implementation plans, tasks, and ongoing status updates.&lt;/p&gt;
+&lt;h2 id="quick-start"&gt;Quick start&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Locate the spec with &lt;code&gt;Notion:notion-search&lt;/code&gt;, then fetch it with &lt;code&gt;Notion:notion-fetch&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Parse requirements and ambiguities using &lt;code&gt;reference/spec-parsing.md&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Create a plan page with &lt;code&gt;Notion:notion-create-pages&lt;/code&gt; (pick a template: quick vs. full).&lt;/li&gt;
+&lt;li&gt;Find the task database, confirm schema, then create tasks with &lt;code&gt;Notion:notion-create-pages&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Link spec ↔ plan ↔ tasks; keep status current with &lt;code&gt;Notion:notion-update-page&lt;/code&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="workflow"&gt;Workflow&lt;/h2&gt;
+&lt;h3 id="0-if-any-mcp-call-fails-because-notion-mcp-is-not-connected-pause-and-set-it-up"&gt;0) If any MCP call fails because Notion MCP is not connected, pause and set it up:&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Add the Notion MCP:
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;codex mcp add notion --url https://mcp.notion.com/mcp&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Enable remote MCP client:
+&lt;ul&gt;
+&lt;li&gt;Set &lt;code&gt;[features].rmcp_client = true&lt;/code&gt; in &lt;code&gt;config.toml&lt;/code&gt; &lt;strong&gt;or&lt;/strong&gt; run &lt;code&gt;codex --enable rmcp_client&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Log in with OAuth:
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;codex mcp login notion&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;After successful login, the user will have to restart codex. You should finish your answer and tell them so when they try again they can continue with Step 1.&lt;/p&gt;</description></item><item><title>Notion Spec To Implementation</title><link>https://agentskill.wiki/skills/notion-spec-to-implementation/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/notion-spec-to-implementation/</guid><description>&lt;h1 id="spec-to-implementation"&gt;Spec to Implementation&lt;/h1&gt;
+&lt;p&gt;Convert a Notion spec into linked implementation plans, tasks, and ongoing status updates.&lt;/p&gt;
+&lt;h2 id="quick-start"&gt;Quick start&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Locate the spec with &lt;code&gt;Notion:notion-search&lt;/code&gt;, then fetch it with &lt;code&gt;Notion:notion-fetch&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Parse requirements and ambiguities using &lt;code&gt;reference/spec-parsing.md&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Create a plan page with &lt;code&gt;Notion:notion-create-pages&lt;/code&gt; (pick a template: quick vs. full).&lt;/li&gt;
+&lt;li&gt;Find the task database, confirm schema, then create tasks with &lt;code&gt;Notion:notion-create-pages&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Link spec ↔ plan ↔ tasks; keep status current with &lt;code&gt;Notion:notion-update-page&lt;/code&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="workflow"&gt;Workflow&lt;/h2&gt;
+&lt;h3 id="0-if-any-mcp-call-fails-because-notion-mcp-is-not-connected-pause-and-set-it-up"&gt;0) If any MCP call fails because Notion MCP is not connected, pause and set it up:&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Add the Notion MCP:
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;codex mcp add notion --url https://mcp.notion.com/mcp&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Enable remote MCP client:
+&lt;ul&gt;
+&lt;li&gt;Set &lt;code&gt;[features].rmcp_client = true&lt;/code&gt; in &lt;code&gt;config.toml&lt;/code&gt; &lt;strong&gt;or&lt;/strong&gt; run &lt;code&gt;codex --enable rmcp_client&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Log in with OAuth:
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;codex mcp login notion&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;After successful login, the user will have to restart codex. You should finish your answer and tell them so when they try again they can continue with Step 1.&lt;/p&gt;</description></item><item><title>Protocolsio Integration</title><link>https://agentskill.wiki/en/skills/protocolsio-integration/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/protocolsio-integration/</guid><description>&lt;h1 id="protocolsio-integration"&gt;Protocols.io Integration&lt;/h1&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Protocols.io is a comprehensive platform for developing, sharing, and managing scientific protocols. This skill provides complete integration with the protocols.io API v3, enabling programmatic access to protocols, workspaces, discussions, file management, and collaboration features.&lt;/p&gt;
+&lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
+&lt;p&gt;Use this skill when working with protocols.io in any of the following scenarios:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Protocol Discovery&lt;/strong&gt;: Searching for existing protocols by keywords, DOI, or category&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Protocol Management&lt;/strong&gt;: Creating, updating, or publishing scientific protocols&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Step Management&lt;/strong&gt;: Adding, editing, or organizing protocol steps and procedures&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Collaborative Development&lt;/strong&gt;: Working with team members on shared protocols&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Workspace Organization&lt;/strong&gt;: Managing lab or institutional protocol repositories&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Discussion &amp;amp; Feedback&lt;/strong&gt;: Adding or responding to protocol comments&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;File Management&lt;/strong&gt;: Uploading data files, images, or documents to protocols&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Experiment Tracking&lt;/strong&gt;: Documenting protocol executions and results&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Data Export&lt;/strong&gt;: Backing up or migrating protocol collections&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Integration Projects&lt;/strong&gt;: Building tools that interact with protocols.io&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="core-capabilities"&gt;Core Capabilities&lt;/h2&gt;
+&lt;p&gt;This skill provides comprehensive guidance across five major capability areas:&lt;/p&gt;</description></item><item><title>Protocolsio Integration</title><link>https://agentskill.wiki/skills/protocolsio-integration/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/protocolsio-integration/</guid><description>&lt;h1 id="protocolsio-integration"&gt;Protocols.io Integration&lt;/h1&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Protocols.io is a comprehensive platform for developing, sharing, and managing scientific protocols. This skill provides complete integration with the protocols.io API v3, enabling programmatic access to protocols, workspaces, discussions, file management, and collaboration features.&lt;/p&gt;
+&lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
+&lt;p&gt;Use this skill when working with protocols.io in any of the following scenarios:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Protocol Discovery&lt;/strong&gt;: Searching for existing protocols by keywords, DOI, or category&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Protocol Management&lt;/strong&gt;: Creating, updating, or publishing scientific protocols&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Step Management&lt;/strong&gt;: Adding, editing, or organizing protocol steps and procedures&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Collaborative Development&lt;/strong&gt;: Working with team members on shared protocols&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Workspace Organization&lt;/strong&gt;: Managing lab or institutional protocol repositories&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Discussion &amp;amp; Feedback&lt;/strong&gt;: Adding or responding to protocol comments&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;File Management&lt;/strong&gt;: Uploading data files, images, or documents to protocols&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Experiment Tracking&lt;/strong&gt;: Documenting protocol executions and results&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Data Export&lt;/strong&gt;: Backing up or migrating protocol collections&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Integration Projects&lt;/strong&gt;: Building tools that interact with protocols.io&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="core-capabilities"&gt;Core Capabilities&lt;/h2&gt;
+&lt;p&gt;This skill provides comprehensive guidance across five major capability areas:&lt;/p&gt;</description></item><item><title>Skill Creator</title><link>https://agentskill.wiki/en/skills/skill-creator/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/skill-creator/</guid><description>&lt;h1 id="skill-creator"&gt;Skill Creator&lt;/h1&gt;
+&lt;p&gt;This skill provides guidance for creating effective skills.&lt;/p&gt;
+&lt;h2 id="about-skills"&gt;About Skills&lt;/h2&gt;
+&lt;p&gt;Skills are modular, self-contained packages that extend Claude&amp;rsquo;s capabilities by providing
+specialized knowledge, workflows, and tools. Think of them as &amp;ldquo;onboarding guides&amp;rdquo; for specific
+domains or tasks—they transform Claude from a general-purpose agent into a specialized agent
+equipped with procedural knowledge that no model can fully possess.&lt;/p&gt;
+&lt;h3 id="what-skills-provide"&gt;What Skills Provide&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Specialized workflows - Multi-step procedures for specific domains&lt;/li&gt;
+&lt;li&gt;Tool integrations - Instructions for working with specific file formats or APIs&lt;/li&gt;
+&lt;li&gt;Domain expertise - Company-specific knowledge, schemas, business logic&lt;/li&gt;
+&lt;li&gt;Bundled resources - Scripts, references, and assets for complex and repetitive tasks&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="core-principles"&gt;Core Principles&lt;/h2&gt;
+&lt;h3 id="concise-is-key"&gt;Concise is Key&lt;/h3&gt;
+&lt;p&gt;The context window is a public good. Skills share the context window with everything else Claude needs: system prompt, conversation history, other Skills&amp;rsquo; metadata, and the actual user request.&lt;/p&gt;</description></item><item><title>Skill Creator</title><link>https://agentskill.wiki/skills/skill-creator/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/skill-creator/</guid><description>&lt;h1 id="skill-creator"&gt;Skill Creator&lt;/h1&gt;
+&lt;p&gt;This skill provides guidance for creating effective skills.&lt;/p&gt;
+&lt;h2 id="about-skills"&gt;About Skills&lt;/h2&gt;
+&lt;p&gt;Skills are modular, self-contained packages that extend Claude&amp;rsquo;s capabilities by providing
+specialized knowledge, workflows, and tools. Think of them as &amp;ldquo;onboarding guides&amp;rdquo; for specific
+domains or tasks—they transform Claude from a general-purpose agent into a specialized agent
+equipped with procedural knowledge that no model can fully possess.&lt;/p&gt;
+&lt;h3 id="what-skills-provide"&gt;What Skills Provide&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Specialized workflows - Multi-step procedures for specific domains&lt;/li&gt;
+&lt;li&gt;Tool integrations - Instructions for working with specific file formats or APIs&lt;/li&gt;
+&lt;li&gt;Domain expertise - Company-specific knowledge, schemas, business logic&lt;/li&gt;
+&lt;li&gt;Bundled resources - Scripts, references, and assets for complex and repetitive tasks&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="core-principles"&gt;Core Principles&lt;/h2&gt;
+&lt;h3 id="concise-is-key"&gt;Concise is Key&lt;/h3&gt;
+&lt;p&gt;The context window is a public good. Skills share the context window with everything else Claude needs: system prompt, conversation history, other Skills&amp;rsquo; metadata, and the actual user request.&lt;/p&gt;</description></item><item><title>Skill Development</title><link>https://agentskill.wiki/en/skills/skill-development/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/skill-development/</guid><description>&lt;h1 id="skill-development-for-claude-code-plugins"&gt;Skill Development for Claude Code Plugins&lt;/h1&gt;
+&lt;p&gt;This skill provides guidance for creating effective skills for Claude Code plugins.&lt;/p&gt;
+&lt;h2 id="about-skills"&gt;About Skills&lt;/h2&gt;
+&lt;p&gt;Skills are modular, self-contained packages that extend Claude&amp;rsquo;s capabilities by providing
+specialized knowledge, workflows, and tools. Think of them as &amp;ldquo;onboarding guides&amp;rdquo; for specific
+domains or tasks—they transform Claude from a general-purpose agent into a specialized agent
+equipped with procedural knowledge that no model can fully possess.&lt;/p&gt;
+&lt;h3 id="what-skills-provide"&gt;What Skills Provide&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Specialized workflows - Multi-step procedures for specific domains&lt;/li&gt;
+&lt;li&gt;Tool integrations - Instructions for working with specific file formats or APIs&lt;/li&gt;
+&lt;li&gt;Domain expertise - Company-specific knowledge, schemas, business logic&lt;/li&gt;
+&lt;li&gt;Bundled resources - Scripts, references, and assets for complex and repetitive tasks&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id="anatomy-of-a-skill"&gt;Anatomy of a Skill&lt;/h3&gt;
+&lt;p&gt;Every skill consists of a required SKILL.md file and optional bundled resources:&lt;/p&gt;</description></item><item><title>Skill Development</title><link>https://agentskill.wiki/skills/skill-development/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/skill-development/</guid><description>&lt;h1 id="skill-development-for-claude-code-plugins"&gt;Skill Development for Claude Code Plugins&lt;/h1&gt;
+&lt;p&gt;This skill provides guidance for creating effective skills for Claude Code plugins.&lt;/p&gt;
+&lt;h2 id="about-skills"&gt;About Skills&lt;/h2&gt;
+&lt;p&gt;Skills are modular, self-contained packages that extend Claude&amp;rsquo;s capabilities by providing
+specialized knowledge, workflows, and tools. Think of them as &amp;ldquo;onboarding guides&amp;rdquo; for specific
+domains or tasks—they transform Claude from a general-purpose agent into a specialized agent
+equipped with procedural knowledge that no model can fully possess.&lt;/p&gt;
+&lt;h3 id="what-skills-provide"&gt;What Skills Provide&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Specialized workflows - Multi-step procedures for specific domains&lt;/li&gt;
+&lt;li&gt;Tool integrations - Instructions for working with specific file formats or APIs&lt;/li&gt;
+&lt;li&gt;Domain expertise - Company-specific knowledge, schemas, business logic&lt;/li&gt;
+&lt;li&gt;Bundled resources - Scripts, references, and assets for complex and repetitive tasks&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id="anatomy-of-a-skill"&gt;Anatomy of a Skill&lt;/h3&gt;
+&lt;p&gt;Every skill consists of a required SKILL.md file and optional bundled resources:&lt;/p&gt;</description></item><item><title>Swarm Orchestration</title><link>https://agentskill.wiki/en/skills/swarm-orchestration/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/swarm-orchestration/</guid><description>&lt;h1 id="swarm-orchestration"&gt;Swarm Orchestration&lt;/h1&gt;
+&lt;h2 id="what-this-skill-does"&gt;What This Skill Does&lt;/h2&gt;
+&lt;p&gt;Orchestrates multi-agent swarms using agentic-flow&amp;rsquo;s advanced coordination system. Supports mesh, hierarchical, and adaptive topologies with automatic task distribution, load balancing, and fault tolerance.&lt;/p&gt;
+&lt;h2 id="prerequisites"&gt;Prerequisites&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;agentic-flow v1.5.11+&lt;/li&gt;
+&lt;li&gt;Node.js 18+&lt;/li&gt;
+&lt;li&gt;Understanding of distributed systems (helpful)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Initialize swarm&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 2&lt;/span&gt;&lt;span&gt;npx agentic-flow hooks swarm-init --topology mesh --max-agents &lt;span style="color:#ae81ff"&gt;5&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 3&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 4&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Spawn agents&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 5&lt;/span&gt;&lt;span&gt;npx agentic-flow hooks agent-spawn --type coder
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 6&lt;/span&gt;&lt;span&gt;npx agentic-flow hooks agent-spawn --type tester
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 7&lt;/span&gt;&lt;span&gt;npx agentic-flow hooks agent-spawn --type reviewer
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 8&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 9&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Orchestrate task&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;10&lt;/span&gt;&lt;span&gt;npx agentic-flow hooks task-orchestrate &lt;span style="color:#ae81ff"&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;11&lt;/span&gt;&lt;span&gt; --task &lt;span style="color:#e6db74"&gt;&amp;#34;Build REST API with tests&amp;#34;&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;12&lt;/span&gt;&lt;span&gt; --mode parallel
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="topology-patterns"&gt;Topology Patterns&lt;/h2&gt;
+&lt;h3 id="1-mesh-peer-to-peer"&gt;1. Mesh (Peer-to-Peer)&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-typescript" data-lang="typescript"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;// Equal peers, distributed decision-making
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;2&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;await&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;swarm&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;init&lt;/span&gt;({
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;3&lt;/span&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;topology&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;mesh&amp;#39;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;4&lt;/span&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;agents&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; [&lt;span style="color:#e6db74"&gt;&amp;#39;coder&amp;#39;&lt;/span&gt;, &lt;span style="color:#e6db74"&gt;&amp;#39;tester&amp;#39;&lt;/span&gt;, &lt;span style="color:#e6db74"&gt;&amp;#39;reviewer&amp;#39;&lt;/span&gt;],
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;5&lt;/span&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;communication&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;broadcast&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;6&lt;/span&gt;&lt;span&gt;});
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="2-hierarchical-queen-worker"&gt;2. Hierarchical (Queen-Worker)&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-typescript" data-lang="typescript"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;// Centralized coordination, specialized workers
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;2&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;await&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;swarm&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;init&lt;/span&gt;({
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;3&lt;/span&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;topology&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;hierarchical&amp;#39;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;4&lt;/span&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;queen&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;architect&amp;#39;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;5&lt;/span&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;workers&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; [&lt;span style="color:#e6db74"&gt;&amp;#39;backend-dev&amp;#39;&lt;/span&gt;, &lt;span style="color:#e6db74"&gt;&amp;#39;frontend-dev&amp;#39;&lt;/span&gt;, &lt;span style="color:#e6db74"&gt;&amp;#39;db-designer&amp;#39;&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;6&lt;/span&gt;&lt;span&gt;});
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="3-adaptive-dynamic"&gt;3. Adaptive (Dynamic)&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-typescript" data-lang="typescript"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;// Automatically switches topology based on task
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;2&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;await&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;swarm&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;init&lt;/span&gt;({
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;3&lt;/span&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;topology&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;adaptive&amp;#39;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;4&lt;/span&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;optimization&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;task-complexity&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;5&lt;/span&gt;&lt;span&gt;});
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="task-orchestration"&gt;Task Orchestration&lt;/h2&gt;
+&lt;h3 id="parallel-execution"&gt;Parallel Execution&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-typescript" data-lang="typescript"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;// Execute tasks concurrently
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 2&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;const&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;results&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;await&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;swarm&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;execute&lt;/span&gt;({
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 3&lt;/span&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;tasks&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; [
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 4&lt;/span&gt;&lt;span&gt; { &lt;span style="color:#a6e22e"&gt;agent&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;coder&amp;#39;&lt;/span&gt;, &lt;span style="color:#a6e22e"&gt;task&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;Implement API endpoints&amp;#39;&lt;/span&gt; },
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 5&lt;/span&gt;&lt;span&gt; { &lt;span style="color:#a6e22e"&gt;agent&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;frontend&amp;#39;&lt;/span&gt;, &lt;span style="color:#a6e22e"&gt;task&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;Build UI components&amp;#39;&lt;/span&gt; },
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 6&lt;/span&gt;&lt;span&gt; { &lt;span style="color:#a6e22e"&gt;agent&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;tester&amp;#39;&lt;/span&gt;, &lt;span style="color:#a6e22e"&gt;task&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;Write test suite&amp;#39;&lt;/span&gt; }
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 7&lt;/span&gt;&lt;span&gt; ],
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 8&lt;/span&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;mode&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;parallel&amp;#39;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 9&lt;/span&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;timeout&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;300000&lt;/span&gt; &lt;span style="color:#75715e"&gt;// 5 minutes
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;10&lt;/span&gt;&lt;span&gt;});
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="pipeline-execution"&gt;Pipeline Execution&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-typescript" data-lang="typescript"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;// Sequential pipeline with dependencies
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;2&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;await&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;swarm&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;pipeline&lt;/span&gt;([
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;3&lt;/span&gt;&lt;span&gt; { &lt;span style="color:#a6e22e"&gt;stage&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;design&amp;#39;&lt;/span&gt;, &lt;span style="color:#a6e22e"&gt;agent&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;architect&amp;#39;&lt;/span&gt; },
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;4&lt;/span&gt;&lt;span&gt; { &lt;span style="color:#a6e22e"&gt;stage&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;implement&amp;#39;&lt;/span&gt;, &lt;span style="color:#a6e22e"&gt;agent&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;coder&amp;#39;&lt;/span&gt;, &lt;span style="color:#a6e22e"&gt;after&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;design&amp;#39;&lt;/span&gt; },
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;5&lt;/span&gt;&lt;span&gt; { &lt;span style="color:#a6e22e"&gt;stage&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;test&amp;#39;&lt;/span&gt;, &lt;span style="color:#a6e22e"&gt;agent&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;tester&amp;#39;&lt;/span&gt;, &lt;span style="color:#a6e22e"&gt;after&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;implement&amp;#39;&lt;/span&gt; },
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;6&lt;/span&gt;&lt;span&gt; { &lt;span style="color:#a6e22e"&gt;stage&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;review&amp;#39;&lt;/span&gt;, &lt;span style="color:#a6e22e"&gt;agent&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;reviewer&amp;#39;&lt;/span&gt;, &lt;span style="color:#a6e22e"&gt;after&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;test&amp;#39;&lt;/span&gt; }
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;7&lt;/span&gt;&lt;span&gt;]);
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="adaptive-execution"&gt;Adaptive Execution&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-typescript" data-lang="typescript"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;// Let swarm decide execution strategy
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;2&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;await&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;swarm&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;autoOrchestrate&lt;/span&gt;({
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;3&lt;/span&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;goal&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;Build production-ready API&amp;#39;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;4&lt;/span&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;constraints&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;5&lt;/span&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;maxTime&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;3600&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;6&lt;/span&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;maxAgents&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;8&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;7&lt;/span&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;quality&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;high&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;8&lt;/span&gt;&lt;span&gt; }
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;9&lt;/span&gt;&lt;span&gt;});
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="memory-coordination"&gt;Memory Coordination&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-typescript" data-lang="typescript"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;// Share state across swarm
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;2&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;await&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;swarm&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;memory&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;store&lt;/span&gt;(&lt;span style="color:#e6db74"&gt;&amp;#39;api-schema&amp;#39;&lt;/span&gt;, {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;3&lt;/span&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;endpoints&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; [...],
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;4&lt;/span&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;models&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; [...]
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;5&lt;/span&gt;&lt;span&gt;});
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;6&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;7&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;// Agents read shared memory
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;8&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;const&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;schema&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;await&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;swarm&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;memory&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;retrieve&lt;/span&gt;(&lt;span style="color:#e6db74"&gt;&amp;#39;api-schema&amp;#39;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="advanced-features"&gt;Advanced Features&lt;/h2&gt;
+&lt;h3 id="load-balancing"&gt;Load Balancing&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-typescript" data-lang="typescript"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;// Automatic work distribution
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;2&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;await&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;swarm&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;enableLoadBalancing&lt;/span&gt;({
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;3&lt;/span&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;strategy&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;dynamic&amp;#39;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;4&lt;/span&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;metrics&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; [&lt;span style="color:#e6db74"&gt;&amp;#39;cpu&amp;#39;&lt;/span&gt;, &lt;span style="color:#e6db74"&gt;&amp;#39;memory&amp;#39;&lt;/span&gt;, &lt;span style="color:#e6db74"&gt;&amp;#39;task-queue&amp;#39;&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;5&lt;/span&gt;&lt;span&gt;});
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="fault-tolerance"&gt;Fault Tolerance&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-typescript" data-lang="typescript"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;// Handle agent failures
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;2&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;await&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;swarm&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;setResiliency&lt;/span&gt;({
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;3&lt;/span&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;retry&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; { &lt;span style="color:#a6e22e"&gt;maxAttempts&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;3&lt;/span&gt;, &lt;span style="color:#a6e22e"&gt;backoff&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;exponential&amp;#39;&lt;/span&gt; },
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;4&lt;/span&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;fallback&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;reassign-task&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;5&lt;/span&gt;&lt;span&gt;});
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="performance-monitoring"&gt;Performance Monitoring&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-typescript" data-lang="typescript"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;// Track swarm metrics
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;2&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;const&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;metrics&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;await&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;swarm&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;getMetrics&lt;/span&gt;();
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;3&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;// { throughput, latency, success_rate, agent_utilization }
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="integration-with-hooks"&gt;Integration with Hooks&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Pre-task coordination&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;2&lt;/span&gt;&lt;span&gt;npx agentic-flow hooks pre-task --description &lt;span style="color:#e6db74"&gt;&amp;#34;Build API&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;3&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;4&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Post-task synchronization&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;5&lt;/span&gt;&lt;span&gt;npx agentic-flow hooks post-task --task-id &lt;span style="color:#e6db74"&gt;&amp;#34;task-123&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;6&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;7&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Session restore&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;8&lt;/span&gt;&lt;span&gt;npx agentic-flow hooks session-restore --session-id &lt;span style="color:#e6db74"&gt;&amp;#34;swarm-001&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="best-practices"&gt;Best Practices&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Start small&lt;/strong&gt;: Begin with 2-3 agents, scale up&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Use memory&lt;/strong&gt;: Share context through swarm memory&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Monitor metrics&lt;/strong&gt;: Track performance and bottlenecks&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Enable hooks&lt;/strong&gt;: Automatic coordination and sync&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Set timeouts&lt;/strong&gt;: Prevent hung tasks&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="troubleshooting"&gt;Troubleshooting&lt;/h2&gt;
+&lt;h3 id="issue-agents-not-coordinating"&gt;Issue: Agents not coordinating&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Solution&lt;/strong&gt;: Verify memory access and enable hooks&lt;/p&gt;</description></item><item><title>Swarm Orchestration</title><link>https://agentskill.wiki/skills/swarm-orchestration/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/swarm-orchestration/</guid><description>&lt;h1 id="swarm-orchestration"&gt;Swarm Orchestration&lt;/h1&gt;
+&lt;h2 id="what-this-skill-does"&gt;What This Skill Does&lt;/h2&gt;
+&lt;p&gt;Orchestrates multi-agent swarms using agentic-flow&amp;rsquo;s advanced coordination system. Supports mesh, hierarchical, and adaptive topologies with automatic task distribution, load balancing, and fault tolerance.&lt;/p&gt;
+&lt;h2 id="prerequisites"&gt;Prerequisites&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;agentic-flow v1.5.11+&lt;/li&gt;
+&lt;li&gt;Node.js 18+&lt;/li&gt;
+&lt;li&gt;Understanding of distributed systems (helpful)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Initialize swarm&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 2&lt;/span&gt;&lt;span&gt;npx agentic-flow hooks swarm-init --topology mesh --max-agents &lt;span style="color:#ae81ff"&gt;5&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 3&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 4&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Spawn agents&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 5&lt;/span&gt;&lt;span&gt;npx agentic-flow hooks agent-spawn --type coder
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 6&lt;/span&gt;&lt;span&gt;npx agentic-flow hooks agent-spawn --type tester
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 7&lt;/span&gt;&lt;span&gt;npx agentic-flow hooks agent-spawn --type reviewer
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 8&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 9&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Orchestrate task&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;10&lt;/span&gt;&lt;span&gt;npx agentic-flow hooks task-orchestrate &lt;span style="color:#ae81ff"&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;11&lt;/span&gt;&lt;span&gt; --task &lt;span style="color:#e6db74"&gt;&amp;#34;Build REST API with tests&amp;#34;&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;12&lt;/span&gt;&lt;span&gt; --mode parallel
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="topology-patterns"&gt;Topology Patterns&lt;/h2&gt;
+&lt;h3 id="1-mesh-peer-to-peer"&gt;1. Mesh (Peer-to-Peer)&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-typescript" data-lang="typescript"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;// Equal peers, distributed decision-making
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;2&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;await&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;swarm&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;init&lt;/span&gt;({
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;3&lt;/span&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;topology&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;mesh&amp;#39;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;4&lt;/span&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;agents&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; [&lt;span style="color:#e6db74"&gt;&amp;#39;coder&amp;#39;&lt;/span&gt;, &lt;span style="color:#e6db74"&gt;&amp;#39;tester&amp;#39;&lt;/span&gt;, &lt;span style="color:#e6db74"&gt;&amp;#39;reviewer&amp;#39;&lt;/span&gt;],
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;5&lt;/span&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;communication&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;broadcast&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;6&lt;/span&gt;&lt;span&gt;});
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="2-hierarchical-queen-worker"&gt;2. Hierarchical (Queen-Worker)&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-typescript" data-lang="typescript"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;// Centralized coordination, specialized workers
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;2&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;await&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;swarm&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;init&lt;/span&gt;({
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;3&lt;/span&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;topology&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;hierarchical&amp;#39;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;4&lt;/span&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;queen&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;architect&amp;#39;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;5&lt;/span&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;workers&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; [&lt;span style="color:#e6db74"&gt;&amp;#39;backend-dev&amp;#39;&lt;/span&gt;, &lt;span style="color:#e6db74"&gt;&amp;#39;frontend-dev&amp;#39;&lt;/span&gt;, &lt;span style="color:#e6db74"&gt;&amp;#39;db-designer&amp;#39;&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;6&lt;/span&gt;&lt;span&gt;});
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="3-adaptive-dynamic"&gt;3. Adaptive (Dynamic)&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-typescript" data-lang="typescript"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;// Automatically switches topology based on task
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;2&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;await&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;swarm&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;init&lt;/span&gt;({
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;3&lt;/span&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;topology&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;adaptive&amp;#39;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;4&lt;/span&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;optimization&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;task-complexity&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;5&lt;/span&gt;&lt;span&gt;});
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="task-orchestration"&gt;Task Orchestration&lt;/h2&gt;
+&lt;h3 id="parallel-execution"&gt;Parallel Execution&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-typescript" data-lang="typescript"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;// Execute tasks concurrently
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 2&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;const&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;results&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;await&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;swarm&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;execute&lt;/span&gt;({
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 3&lt;/span&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;tasks&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; [
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 4&lt;/span&gt;&lt;span&gt; { &lt;span style="color:#a6e22e"&gt;agent&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;coder&amp;#39;&lt;/span&gt;, &lt;span style="color:#a6e22e"&gt;task&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;Implement API endpoints&amp;#39;&lt;/span&gt; },
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 5&lt;/span&gt;&lt;span&gt; { &lt;span style="color:#a6e22e"&gt;agent&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;frontend&amp;#39;&lt;/span&gt;, &lt;span style="color:#a6e22e"&gt;task&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;Build UI components&amp;#39;&lt;/span&gt; },
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 6&lt;/span&gt;&lt;span&gt; { &lt;span style="color:#a6e22e"&gt;agent&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;tester&amp;#39;&lt;/span&gt;, &lt;span style="color:#a6e22e"&gt;task&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;Write test suite&amp;#39;&lt;/span&gt; }
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 7&lt;/span&gt;&lt;span&gt; ],
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 8&lt;/span&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;mode&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;parallel&amp;#39;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 9&lt;/span&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;timeout&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;300000&lt;/span&gt; &lt;span style="color:#75715e"&gt;// 5 minutes
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;10&lt;/span&gt;&lt;span&gt;});
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="pipeline-execution"&gt;Pipeline Execution&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-typescript" data-lang="typescript"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;// Sequential pipeline with dependencies
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;2&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;await&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;swarm&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;pipeline&lt;/span&gt;([
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;3&lt;/span&gt;&lt;span&gt; { &lt;span style="color:#a6e22e"&gt;stage&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;design&amp;#39;&lt;/span&gt;, &lt;span style="color:#a6e22e"&gt;agent&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;architect&amp;#39;&lt;/span&gt; },
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;4&lt;/span&gt;&lt;span&gt; { &lt;span style="color:#a6e22e"&gt;stage&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;implement&amp;#39;&lt;/span&gt;, &lt;span style="color:#a6e22e"&gt;agent&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;coder&amp;#39;&lt;/span&gt;, &lt;span style="color:#a6e22e"&gt;after&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;design&amp;#39;&lt;/span&gt; },
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;5&lt;/span&gt;&lt;span&gt; { &lt;span style="color:#a6e22e"&gt;stage&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;test&amp;#39;&lt;/span&gt;, &lt;span style="color:#a6e22e"&gt;agent&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;tester&amp;#39;&lt;/span&gt;, &lt;span style="color:#a6e22e"&gt;after&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;implement&amp;#39;&lt;/span&gt; },
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;6&lt;/span&gt;&lt;span&gt; { &lt;span style="color:#a6e22e"&gt;stage&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;review&amp;#39;&lt;/span&gt;, &lt;span style="color:#a6e22e"&gt;agent&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;reviewer&amp;#39;&lt;/span&gt;, &lt;span style="color:#a6e22e"&gt;after&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;test&amp;#39;&lt;/span&gt; }
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;7&lt;/span&gt;&lt;span&gt;]);
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="adaptive-execution"&gt;Adaptive Execution&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-typescript" data-lang="typescript"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;// Let swarm decide execution strategy
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;2&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;await&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;swarm&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;autoOrchestrate&lt;/span&gt;({
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;3&lt;/span&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;goal&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;Build production-ready API&amp;#39;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;4&lt;/span&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;constraints&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;5&lt;/span&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;maxTime&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;3600&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;6&lt;/span&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;maxAgents&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;8&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;7&lt;/span&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;quality&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;high&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;8&lt;/span&gt;&lt;span&gt; }
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;9&lt;/span&gt;&lt;span&gt;});
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="memory-coordination"&gt;Memory Coordination&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-typescript" data-lang="typescript"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;// Share state across swarm
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;2&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;await&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;swarm&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;memory&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;store&lt;/span&gt;(&lt;span style="color:#e6db74"&gt;&amp;#39;api-schema&amp;#39;&lt;/span&gt;, {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;3&lt;/span&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;endpoints&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; [...],
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;4&lt;/span&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;models&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; [...]
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;5&lt;/span&gt;&lt;span&gt;});
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;6&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;7&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;// Agents read shared memory
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;8&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;const&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;schema&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;await&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;swarm&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;memory&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;retrieve&lt;/span&gt;(&lt;span style="color:#e6db74"&gt;&amp;#39;api-schema&amp;#39;&lt;/span&gt;);
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="advanced-features"&gt;Advanced Features&lt;/h2&gt;
+&lt;h3 id="load-balancing"&gt;Load Balancing&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-typescript" data-lang="typescript"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;// Automatic work distribution
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;2&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;await&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;swarm&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;enableLoadBalancing&lt;/span&gt;({
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;3&lt;/span&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;strategy&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;dynamic&amp;#39;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;4&lt;/span&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;metrics&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; [&lt;span style="color:#e6db74"&gt;&amp;#39;cpu&amp;#39;&lt;/span&gt;, &lt;span style="color:#e6db74"&gt;&amp;#39;memory&amp;#39;&lt;/span&gt;, &lt;span style="color:#e6db74"&gt;&amp;#39;task-queue&amp;#39;&lt;/span&gt;]
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;5&lt;/span&gt;&lt;span&gt;});
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="fault-tolerance"&gt;Fault Tolerance&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-typescript" data-lang="typescript"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;// Handle agent failures
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;2&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;await&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;swarm&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;setResiliency&lt;/span&gt;({
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;3&lt;/span&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;retry&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; { &lt;span style="color:#a6e22e"&gt;maxAttempts&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;3&lt;/span&gt;, &lt;span style="color:#a6e22e"&gt;backoff&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;exponential&amp;#39;&lt;/span&gt; },
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;4&lt;/span&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;fallback&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#39;reassign-task&amp;#39;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;5&lt;/span&gt;&lt;span&gt;});
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="performance-monitoring"&gt;Performance Monitoring&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-typescript" data-lang="typescript"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;// Track swarm metrics
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;2&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;const&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;metrics&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;await&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;swarm&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;getMetrics&lt;/span&gt;();
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;3&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;// { throughput, latency, success_rate, agent_utilization }
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="integration-with-hooks"&gt;Integration with Hooks&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Pre-task coordination&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;2&lt;/span&gt;&lt;span&gt;npx agentic-flow hooks pre-task --description &lt;span style="color:#e6db74"&gt;&amp;#34;Build API&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;3&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;4&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Post-task synchronization&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;5&lt;/span&gt;&lt;span&gt;npx agentic-flow hooks post-task --task-id &lt;span style="color:#e6db74"&gt;&amp;#34;task-123&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;6&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;7&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Session restore&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;8&lt;/span&gt;&lt;span&gt;npx agentic-flow hooks session-restore --session-id &lt;span style="color:#e6db74"&gt;&amp;#34;swarm-001&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="best-practices"&gt;Best Practices&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Start small&lt;/strong&gt;: Begin with 2-3 agents, scale up&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Use memory&lt;/strong&gt;: Share context through swarm memory&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Monitor metrics&lt;/strong&gt;: Track performance and bottlenecks&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Enable hooks&lt;/strong&gt;: Automatic coordination and sync&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Set timeouts&lt;/strong&gt;: Prevent hung tasks&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="troubleshooting"&gt;Troubleshooting&lt;/h2&gt;
+&lt;h3 id="issue-agents-not-coordinating"&gt;Issue: Agents not coordinating&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Solution&lt;/strong&gt;: Verify memory access and enable hooks&lt;/p&gt;</description></item><item><title>Write Docs</title><link>https://agentskill.wiki/en/skills/write-docs/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/write-docs/</guid><description>&lt;h1 id="write-browseros-documentation"&gt;Write BrowserOS Documentation&lt;/h1&gt;
+&lt;p&gt;This skill helps write documentation for BrowserOS features. It follows a structured workflow to create high-quality, concise documentation pages.&lt;/p&gt;
+&lt;h2 id="workflow"&gt;Workflow&lt;/h2&gt;
+&lt;h3 id="step-1-understand-the-feature"&gt;Step 1: Understand the Feature&lt;/h3&gt;
+&lt;p&gt;Before writing documentation, explore the codebase to understand the feature:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Ask the user&lt;/strong&gt; which feature they want to document&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Search the codebase&lt;/strong&gt; at &lt;code&gt;../browseros-server&lt;/code&gt; (sibling directory) to find relevant code:
+&lt;ul&gt;
+&lt;li&gt;Use &lt;code&gt;Grep&lt;/code&gt; to search for feature-related keywords&lt;/li&gt;
+&lt;li&gt;Use &lt;code&gt;Glob&lt;/code&gt; to find relevant files&lt;/li&gt;
+&lt;li&gt;Read key files to understand how the feature works&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Identify key aspects&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;What problem does this feature solve?&lt;/li&gt;
+&lt;li&gt;How does the user enable/configure it?&lt;/li&gt;
+&lt;li&gt;What are the main use cases?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id="step-2-gather-screenshots"&gt;Step 2: Gather Screenshots&lt;/h3&gt;
+&lt;p&gt;Ask the user to provide screenshots for the documentation:&lt;/p&gt;</description></item><item><title>Write Docs</title><link>https://agentskill.wiki/skills/write-docs/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/write-docs/</guid><description>&lt;h1 id="write-browseros-documentation"&gt;Write BrowserOS Documentation&lt;/h1&gt;
+&lt;p&gt;This skill helps write documentation for BrowserOS features. It follows a structured workflow to create high-quality, concise documentation pages.&lt;/p&gt;
+&lt;h2 id="workflow"&gt;Workflow&lt;/h2&gt;
+&lt;h3 id="step-1-understand-the-feature"&gt;Step 1: Understand the Feature&lt;/h3&gt;
+&lt;p&gt;Before writing documentation, explore the codebase to understand the feature:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Ask the user&lt;/strong&gt; which feature they want to document&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Search the codebase&lt;/strong&gt; at &lt;code&gt;../browseros-server&lt;/code&gt; (sibling directory) to find relevant code:
+&lt;ul&gt;
+&lt;li&gt;Use &lt;code&gt;Grep&lt;/code&gt; to search for feature-related keywords&lt;/li&gt;
+&lt;li&gt;Use &lt;code&gt;Glob&lt;/code&gt; to find relevant files&lt;/li&gt;
+&lt;li&gt;Read key files to understand how the feature works&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Identify key aspects&lt;/strong&gt;:
+&lt;ul&gt;
+&lt;li&gt;What problem does this feature solve?&lt;/li&gt;
+&lt;li&gt;How does the user enable/configure it?&lt;/li&gt;
+&lt;li&gt;What are the main use cases?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id="step-2-gather-screenshots"&gt;Step 2: Gather Screenshots&lt;/h3&gt;
+&lt;p&gt;Ask the user to provide screenshots for the documentation:&lt;/p&gt;</description></item></channel></rss>

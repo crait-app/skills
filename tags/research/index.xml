@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research on Agent Skills Hub</title><link>https://agentskill.wiki/tags/research/</link><description>Recent content in Research on Agent Skills Hub</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/research/index.xml" rel="self" type="application/rss+xml"/><item><title>Agent Memory</title><link>https://agentskill.wiki/en/skills/agent-memory/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/agent-memory/</guid><description>&lt;h1 id="agent-memory"&gt;Agent Memory&lt;/h1&gt;
+&lt;p&gt;A persistent memory space for storing knowledge that survives across conversations.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Location:&lt;/strong&gt; &lt;code&gt;.claude/skills/agent-memory/memories/&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id="proactive-usage"&gt;Proactive Usage&lt;/h2&gt;
+&lt;p&gt;Save memories when you discover something worth preserving:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Research findings that took effort to uncover&lt;/li&gt;
+&lt;li&gt;Non-obvious patterns or gotchas in the codebase&lt;/li&gt;
+&lt;li&gt;Solutions to tricky problems&lt;/li&gt;
+&lt;li&gt;Architectural decisions and their rationale&lt;/li&gt;
+&lt;li&gt;In-progress work that may be resumed later&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Check memories when starting related work:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Before investigating a problem area&lt;/li&gt;
+&lt;li&gt;When working on a feature you&amp;rsquo;ve touched before&lt;/li&gt;
+&lt;li&gt;When resuming work after a conversation break&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Organize memories when needed:&lt;/p&gt;</description></item><item><title>Agent Memory</title><link>https://agentskill.wiki/skills/agent-memory/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/agent-memory/</guid><description>&lt;h1 id="agent-memory"&gt;Agent Memory&lt;/h1&gt;
+&lt;p&gt;A persistent memory space for storing knowledge that survives across conversations.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Location:&lt;/strong&gt; &lt;code&gt;.claude/skills/agent-memory/memories/&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id="proactive-usage"&gt;Proactive Usage&lt;/h2&gt;
+&lt;p&gt;Save memories when you discover something worth preserving:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Research findings that took effort to uncover&lt;/li&gt;
+&lt;li&gt;Non-obvious patterns or gotchas in the codebase&lt;/li&gt;
+&lt;li&gt;Solutions to tricky problems&lt;/li&gt;
+&lt;li&gt;Architectural decisions and their rationale&lt;/li&gt;
+&lt;li&gt;In-progress work that may be resumed later&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Check memories when starting related work:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Before investigating a problem area&lt;/li&gt;
+&lt;li&gt;When working on a feature you&amp;rsquo;ve touched before&lt;/li&gt;
+&lt;li&gt;When resuming work after a conversation break&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Organize memories when needed:&lt;/p&gt;</description></item><item><title>Labarchive Integration</title><link>https://agentskill.wiki/en/skills/labarchive-integration/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/labarchive-integration/</guid><description>&lt;h1 id="labarchives-integration"&gt;LabArchives Integration&lt;/h1&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;p&gt;LabArchives is an electronic lab notebook platform for research documentation and data management. Access notebooks, manage entries and attachments, generate reports, and integrate with third-party tools programmatically via REST API.&lt;/p&gt;
+&lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
+&lt;p&gt;This skill should be used when:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Working with LabArchives REST API for notebook automation&lt;/li&gt;
+&lt;li&gt;Backing up notebooks programmatically&lt;/li&gt;
+&lt;li&gt;Creating or managing notebook entries and attachments&lt;/li&gt;
+&lt;li&gt;Generating site reports and analytics&lt;/li&gt;
+&lt;li&gt;Integrating LabArchives with third-party tools (Protocols.io, Jupyter, REDCap)&lt;/li&gt;
+&lt;li&gt;Automating data upload to electronic lab notebooks&lt;/li&gt;
+&lt;li&gt;Managing user access and permissions programmatically&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="core-capabilities"&gt;Core Capabilities&lt;/h2&gt;
+&lt;h3 id="1-authentication-and-configuration"&gt;1. Authentication and Configuration&lt;/h3&gt;
+&lt;p&gt;Set up API access credentials and regional endpoints for LabArchives API integration.&lt;/p&gt;</description></item><item><title>Labarchive Integration</title><link>https://agentskill.wiki/skills/labarchive-integration/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/labarchive-integration/</guid><description>&lt;h1 id="labarchives-integration"&gt;LabArchives Integration&lt;/h1&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;p&gt;LabArchives is an electronic lab notebook platform for research documentation and data management. Access notebooks, manage entries and attachments, generate reports, and integrate with third-party tools programmatically via REST API.&lt;/p&gt;
+&lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
+&lt;p&gt;This skill should be used when:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Working with LabArchives REST API for notebook automation&lt;/li&gt;
+&lt;li&gt;Backing up notebooks programmatically&lt;/li&gt;
+&lt;li&gt;Creating or managing notebook entries and attachments&lt;/li&gt;
+&lt;li&gt;Generating site reports and analytics&lt;/li&gt;
+&lt;li&gt;Integrating LabArchives with third-party tools (Protocols.io, Jupyter, REDCap)&lt;/li&gt;
+&lt;li&gt;Automating data upload to electronic lab notebooks&lt;/li&gt;
+&lt;li&gt;Managing user access and permissions programmatically&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="core-capabilities"&gt;Core Capabilities&lt;/h2&gt;
+&lt;h3 id="1-authentication-and-configuration"&gt;1. Authentication and Configuration&lt;/h3&gt;
+&lt;p&gt;Set up API access credentials and regional endpoints for LabArchives API integration.&lt;/p&gt;</description></item><item><title>Lead Research Assistant</title><link>https://agentskill.wiki/en/skills/lead-research-assistant/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/lead-research-assistant/</guid><description>&lt;h1 id="lead-research-assistant"&gt;Lead Research Assistant&lt;/h1&gt;
+&lt;p&gt;This skill helps you identify and qualify potential leads for your business by analyzing your product/service, understanding your ideal customer profile, and providing actionable outreach strategies.&lt;/p&gt;
+&lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Finding potential customers or clients for your product/service&lt;/li&gt;
+&lt;li&gt;Building a list of companies to reach out to for partnerships&lt;/li&gt;
+&lt;li&gt;Identifying target accounts for sales outreach&lt;/li&gt;
+&lt;li&gt;Researching companies that match your ideal customer profile&lt;/li&gt;
+&lt;li&gt;Preparing for business development activities&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="what-this-skill-does"&gt;What This Skill Does&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Understands Your Business&lt;/strong&gt;: Analyzes your product/service, value proposition, and target market&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Identifies Target Companies&lt;/strong&gt;: Finds companies that match your ideal customer profile based on:
+&lt;ul&gt;
+&lt;li&gt;Industry and sector&lt;/li&gt;
+&lt;li&gt;Company size and location&lt;/li&gt;
+&lt;li&gt;Technology stack and tools they use&lt;/li&gt;
+&lt;li&gt;Growth stage and funding&lt;/li&gt;
+&lt;li&gt;Pain points your product solves&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Prioritizes Leads&lt;/strong&gt;: Ranks companies based on fit score and relevance&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Provides Contact Strategies&lt;/strong&gt;: Suggests how to approach each lead with personalized messaging&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Enriches Data&lt;/strong&gt;: Gathers relevant information about decision-makers and company context&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="how-to-use"&gt;How to Use&lt;/h2&gt;
+&lt;h3 id="basic-usage"&gt;Basic Usage&lt;/h3&gt;
+&lt;p&gt;Simply describe your product/service and what you&amp;rsquo;re looking for:&lt;/p&gt;</description></item><item><title>Lead Research Assistant</title><link>https://agentskill.wiki/skills/lead-research-assistant/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/lead-research-assistant/</guid><description>&lt;h1 id="lead-research-assistant"&gt;Lead Research Assistant&lt;/h1&gt;
+&lt;p&gt;This skill helps you identify and qualify potential leads for your business by analyzing your product/service, understanding your ideal customer profile, and providing actionable outreach strategies.&lt;/p&gt;
+&lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Finding potential customers or clients for your product/service&lt;/li&gt;
+&lt;li&gt;Building a list of companies to reach out to for partnerships&lt;/li&gt;
+&lt;li&gt;Identifying target accounts for sales outreach&lt;/li&gt;
+&lt;li&gt;Researching companies that match your ideal customer profile&lt;/li&gt;
+&lt;li&gt;Preparing for business development activities&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="what-this-skill-does"&gt;What This Skill Does&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Understands Your Business&lt;/strong&gt;: Analyzes your product/service, value proposition, and target market&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Identifies Target Companies&lt;/strong&gt;: Finds companies that match your ideal customer profile based on:
+&lt;ul&gt;
+&lt;li&gt;Industry and sector&lt;/li&gt;
+&lt;li&gt;Company size and location&lt;/li&gt;
+&lt;li&gt;Technology stack and tools they use&lt;/li&gt;
+&lt;li&gt;Growth stage and funding&lt;/li&gt;
+&lt;li&gt;Pain points your product solves&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Prioritizes Leads&lt;/strong&gt;: Ranks companies based on fit score and relevance&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Provides Contact Strategies&lt;/strong&gt;: Suggests how to approach each lead with personalized messaging&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Enriches Data&lt;/strong&gt;: Gathers relevant information about decision-makers and company context&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="how-to-use"&gt;How to Use&lt;/h2&gt;
+&lt;h3 id="basic-usage"&gt;Basic Usage&lt;/h3&gt;
+&lt;p&gt;Simply describe your product/service and what you&amp;rsquo;re looking for:&lt;/p&gt;</description></item><item><title>Notion Meeting Intelligence</title><link>https://agentskill.wiki/en/skills/notion-meeting-intelligence/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/notion-meeting-intelligence/</guid><description>&lt;h1 id="meeting-intelligence"&gt;Meeting Intelligence&lt;/h1&gt;
+&lt;p&gt;Prep meetings by pulling Notion context, tailoring agendas/pre-reads, and enriching with Codex research.&lt;/p&gt;
+&lt;h2 id="quick-start"&gt;Quick start&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Confirm meeting goal, attendees, date/time, and decisions needed.&lt;/li&gt;
+&lt;li&gt;Gather context: search with &lt;code&gt;Notion:notion-search&lt;/code&gt;, then fetch with &lt;code&gt;Notion:notion-fetch&lt;/code&gt; (prior notes, specs, OKRs, decisions).&lt;/li&gt;
+&lt;li&gt;Pick the right template via &lt;code&gt;reference/template-selection-guide.md&lt;/code&gt; (status, decision, planning, retro, 1:1, brainstorming).&lt;/li&gt;
+&lt;li&gt;Draft agenda/pre-read in Notion with &lt;code&gt;Notion:notion-create-pages&lt;/code&gt;, embedding source links and owner/timeboxes.&lt;/li&gt;
+&lt;li&gt;Enrich with Codex research (industry insights, benchmarks, risks) and update the page with &lt;code&gt;Notion:notion-update-page&lt;/code&gt; as plans change.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="workflow"&gt;Workflow&lt;/h2&gt;
+&lt;h3 id="0-if-any-mcp-call-fails-because-notion-mcp-is-not-connected-pause-and-set-it-up"&gt;0) If any MCP call fails because Notion MCP is not connected, pause and set it up:&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Add the Notion MCP:
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;codex mcp add notion --url https://mcp.notion.com/mcp&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Enable remote MCP client:
+&lt;ul&gt;
+&lt;li&gt;Set &lt;code&gt;[features].rmcp_client = true&lt;/code&gt; in &lt;code&gt;config.toml&lt;/code&gt; &lt;strong&gt;or&lt;/strong&gt; run &lt;code&gt;codex --enable rmcp_client&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Log in with OAuth:
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;codex mcp login notion&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;After successful login, the user will have to restart codex. You should finish your answer and tell them so when they try again they can continue with Step 1.&lt;/p&gt;</description></item><item><title>Notion Meeting Intelligence</title><link>https://agentskill.wiki/skills/notion-meeting-intelligence/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/notion-meeting-intelligence/</guid><description>&lt;h1 id="meeting-intelligence"&gt;Meeting Intelligence&lt;/h1&gt;
+&lt;p&gt;Prep meetings by pulling Notion context, tailoring agendas/pre-reads, and enriching with Codex research.&lt;/p&gt;
+&lt;h2 id="quick-start"&gt;Quick start&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Confirm meeting goal, attendees, date/time, and decisions needed.&lt;/li&gt;
+&lt;li&gt;Gather context: search with &lt;code&gt;Notion:notion-search&lt;/code&gt;, then fetch with &lt;code&gt;Notion:notion-fetch&lt;/code&gt; (prior notes, specs, OKRs, decisions).&lt;/li&gt;
+&lt;li&gt;Pick the right template via &lt;code&gt;reference/template-selection-guide.md&lt;/code&gt; (status, decision, planning, retro, 1:1, brainstorming).&lt;/li&gt;
+&lt;li&gt;Draft agenda/pre-read in Notion with &lt;code&gt;Notion:notion-create-pages&lt;/code&gt;, embedding source links and owner/timeboxes.&lt;/li&gt;
+&lt;li&gt;Enrich with Codex research (industry insights, benchmarks, risks) and update the page with &lt;code&gt;Notion:notion-update-page&lt;/code&gt; as plans change.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="workflow"&gt;Workflow&lt;/h2&gt;
+&lt;h3 id="0-if-any-mcp-call-fails-because-notion-mcp-is-not-connected-pause-and-set-it-up"&gt;0) If any MCP call fails because Notion MCP is not connected, pause and set it up:&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Add the Notion MCP:
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;codex mcp add notion --url https://mcp.notion.com/mcp&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Enable remote MCP client:
+&lt;ul&gt;
+&lt;li&gt;Set &lt;code&gt;[features].rmcp_client = true&lt;/code&gt; in &lt;code&gt;config.toml&lt;/code&gt; &lt;strong&gt;or&lt;/strong&gt; run &lt;code&gt;codex --enable rmcp_client&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Log in with OAuth:
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;codex mcp login notion&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;After successful login, the user will have to restart codex. You should finish your answer and tell them so when they try again they can continue with Step 1.&lt;/p&gt;</description></item><item><title>Notion Research Documentation</title><link>https://agentskill.wiki/en/skills/notion-research-documentation/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/notion-research-documentation/</guid><description>&lt;h1 id="research--documentation"&gt;Research &amp;amp; Documentation&lt;/h1&gt;
+&lt;p&gt;Pull relevant Notion pages, synthesize findings, and publish clear briefs or reports (with citations and links to sources).&lt;/p&gt;
+&lt;h2 id="quick-start"&gt;Quick start&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Find sources with &lt;code&gt;Notion:notion-search&lt;/code&gt; using targeted queries; confirm scope with the user.&lt;/li&gt;
+&lt;li&gt;Fetch pages via &lt;code&gt;Notion:notion-fetch&lt;/code&gt;; note key sections and capture citations (&lt;code&gt;reference/citations.md&lt;/code&gt;).&lt;/li&gt;
+&lt;li&gt;Choose output format (brief, summary, comparison, comprehensive report) using &lt;code&gt;reference/format-selection-guide.md&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Draft in Notion with &lt;code&gt;Notion:notion-create-pages&lt;/code&gt; using the matching template (quick, summary, comparison, comprehensive).&lt;/li&gt;
+&lt;li&gt;Link sources and add a references/citations section; update as new info arrives with &lt;code&gt;Notion:notion-update-page&lt;/code&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="workflow"&gt;Workflow&lt;/h2&gt;
+&lt;h3 id="0-if-any-mcp-call-fails-because-notion-mcp-is-not-connected-pause-and-set-it-up"&gt;0) If any MCP call fails because Notion MCP is not connected, pause and set it up:&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Add the Notion MCP:
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;codex mcp add notion --url https://mcp.notion.com/mcp&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Enable remote MCP client:
+&lt;ul&gt;
+&lt;li&gt;Set &lt;code&gt;[features].rmcp_client = true&lt;/code&gt; in &lt;code&gt;config.toml&lt;/code&gt; &lt;strong&gt;or&lt;/strong&gt; run &lt;code&gt;codex --enable rmcp_client&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Log in with OAuth:
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;codex mcp login notion&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;After successful login, the user will have to restart codex. You should finish your answer and tell them so when they try again they can continue with Step 1.&lt;/p&gt;</description></item><item><title>Notion Research Documentation</title><link>https://agentskill.wiki/skills/notion-research-documentation/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/notion-research-documentation/</guid><description>&lt;h1 id="research--documentation"&gt;Research &amp;amp; Documentation&lt;/h1&gt;
+&lt;p&gt;Pull relevant Notion pages, synthesize findings, and publish clear briefs or reports (with citations and links to sources).&lt;/p&gt;
+&lt;h2 id="quick-start"&gt;Quick start&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Find sources with &lt;code&gt;Notion:notion-search&lt;/code&gt; using targeted queries; confirm scope with the user.&lt;/li&gt;
+&lt;li&gt;Fetch pages via &lt;code&gt;Notion:notion-fetch&lt;/code&gt;; note key sections and capture citations (&lt;code&gt;reference/citations.md&lt;/code&gt;).&lt;/li&gt;
+&lt;li&gt;Choose output format (brief, summary, comparison, comprehensive report) using &lt;code&gt;reference/format-selection-guide.md&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Draft in Notion with &lt;code&gt;Notion:notion-create-pages&lt;/code&gt; using the matching template (quick, summary, comparison, comprehensive).&lt;/li&gt;
+&lt;li&gt;Link sources and add a references/citations section; update as new info arrives with &lt;code&gt;Notion:notion-update-page&lt;/code&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="workflow"&gt;Workflow&lt;/h2&gt;
+&lt;h3 id="0-if-any-mcp-call-fails-because-notion-mcp-is-not-connected-pause-and-set-it-up"&gt;0) If any MCP call fails because Notion MCP is not connected, pause and set it up:&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Add the Notion MCP:
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;codex mcp add notion --url https://mcp.notion.com/mcp&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Enable remote MCP client:
+&lt;ul&gt;
+&lt;li&gt;Set &lt;code&gt;[features].rmcp_client = true&lt;/code&gt; in &lt;code&gt;config.toml&lt;/code&gt; &lt;strong&gt;or&lt;/strong&gt; run &lt;code&gt;codex --enable rmcp_client&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Log in with OAuth:
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;codex mcp login notion&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;After successful login, the user will have to restart codex. You should finish your answer and tell them so when they try again they can continue with Step 1.&lt;/p&gt;</description></item><item><title>Swarm Advanced</title><link>https://agentskill.wiki/en/skills/swarm-advanced/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/swarm-advanced/</guid><description>&lt;h1 id="advanced-swarm-orchestration"&gt;Advanced Swarm Orchestration&lt;/h1&gt;
+&lt;p&gt;Master advanced swarm patterns for distributed research, development, and testing workflows. This skill covers comprehensive orchestration strategies using both MCP tools and CLI commands.&lt;/p&gt;
+&lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;
+&lt;h3 id="prerequisites"&gt;Prerequisites&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Ensure Claude Flow is installed&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;2&lt;/span&gt;&lt;span&gt;npm install -g claude-flow@alpha
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;3&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;4&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Add MCP server (if using MCP tools)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;5&lt;/span&gt;&lt;span&gt;claude mcp add claude-flow npx claude-flow@alpha mcp start
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="basic-pattern"&gt;Basic Pattern&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-javascript" data-lang="javascript"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;// 1. Initialize swarm topology
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;2&lt;/span&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;mcp__claude&lt;/span&gt;&lt;span style="color:#f92672"&gt;-&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;flow__swarm_init&lt;/span&gt;({ &lt;span style="color:#a6e22e"&gt;topology&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;mesh&amp;#34;&lt;/span&gt;, &lt;span style="color:#a6e22e"&gt;maxAgents&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;6&lt;/span&gt; })
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;3&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;4&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;// 2. Spawn specialized agents
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;5&lt;/span&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;mcp__claude&lt;/span&gt;&lt;span style="color:#f92672"&gt;-&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;flow__agent_spawn&lt;/span&gt;({ &lt;span style="color:#a6e22e"&gt;type&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;researcher&amp;#34;&lt;/span&gt;, &lt;span style="color:#a6e22e"&gt;name&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;Agent 1&amp;#34;&lt;/span&gt; })
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;6&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;7&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;// 3. Orchestrate tasks
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;8&lt;/span&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;mcp__claude&lt;/span&gt;&lt;span style="color:#f92672"&gt;-&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;flow__task_orchestrate&lt;/span&gt;({ &lt;span style="color:#a6e22e"&gt;task&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;...&amp;#34;&lt;/span&gt;, &lt;span style="color:#a6e22e"&gt;strategy&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;parallel&amp;#34;&lt;/span&gt; })
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="core-concepts"&gt;Core Concepts&lt;/h2&gt;
+&lt;h3 id="swarm-topologies"&gt;Swarm Topologies&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Mesh Topology&lt;/strong&gt; - Peer-to-peer communication, best for research and analysis&lt;/p&gt;</description></item><item><title>Swarm Advanced</title><link>https://agentskill.wiki/skills/swarm-advanced/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/swarm-advanced/</guid><description>&lt;h1 id="advanced-swarm-orchestration"&gt;Advanced Swarm Orchestration&lt;/h1&gt;
+&lt;p&gt;Master advanced swarm patterns for distributed research, development, and testing workflows. This skill covers comprehensive orchestration strategies using both MCP tools and CLI commands.&lt;/p&gt;
+&lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;
+&lt;h3 id="prerequisites"&gt;Prerequisites&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Ensure Claude Flow is installed&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;2&lt;/span&gt;&lt;span&gt;npm install -g claude-flow@alpha
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;3&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;4&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Add MCP server (if using MCP tools)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;5&lt;/span&gt;&lt;span&gt;claude mcp add claude-flow npx claude-flow@alpha mcp start
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="basic-pattern"&gt;Basic Pattern&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-javascript" data-lang="javascript"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;// 1. Initialize swarm topology
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;2&lt;/span&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;mcp__claude&lt;/span&gt;&lt;span style="color:#f92672"&gt;-&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;flow__swarm_init&lt;/span&gt;({ &lt;span style="color:#a6e22e"&gt;topology&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;mesh&amp;#34;&lt;/span&gt;, &lt;span style="color:#a6e22e"&gt;maxAgents&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;6&lt;/span&gt; })
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;3&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;4&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;// 2. Spawn specialized agents
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;5&lt;/span&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;mcp__claude&lt;/span&gt;&lt;span style="color:#f92672"&gt;-&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;flow__agent_spawn&lt;/span&gt;({ &lt;span style="color:#a6e22e"&gt;type&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;researcher&amp;#34;&lt;/span&gt;, &lt;span style="color:#a6e22e"&gt;name&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;Agent 1&amp;#34;&lt;/span&gt; })
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;6&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;7&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;// 3. Orchestrate tasks
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;8&lt;/span&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;mcp__claude&lt;/span&gt;&lt;span style="color:#f92672"&gt;-&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;flow__task_orchestrate&lt;/span&gt;({ &lt;span style="color:#a6e22e"&gt;task&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;...&amp;#34;&lt;/span&gt;, &lt;span style="color:#a6e22e"&gt;strategy&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;parallel&amp;#34;&lt;/span&gt; })
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="core-concepts"&gt;Core Concepts&lt;/h2&gt;
+&lt;h3 id="swarm-topologies"&gt;Swarm Topologies&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Mesh Topology&lt;/strong&gt; - Peer-to-peer communication, best for research and analysis&lt;/p&gt;</description></item></channel></rss>

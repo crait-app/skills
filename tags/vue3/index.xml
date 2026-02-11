@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Vue3 on Agent Skills Hub</title><link>https://agentskill.wiki/tags/vue3/</link><description>Recent content in Vue3 on Agent Skills Hub</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/vue3/index.xml" rel="self" type="application/rss+xml"/><item><title>Hula Skill</title><link>https://agentskill.wiki/en/skills/hula-skill/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/hula-skill/</guid><description>&lt;h1 id="hula-skill"&gt;HuLa Skill&lt;/h1&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Enable consistent changes across the HuLa frontend, backend, full-stack flows, and build/release tasks with repo-specific conventions and resources.&lt;/p&gt;
+&lt;h2 id="activation-gate"&gt;Activation Gate&lt;/h2&gt;
+&lt;p&gt;Ask which scope to enable: frontend, backend, fullstack, or build-release.
+Confirm platform (desktop or mobile), target area (view/component/store/command), and any constraints before editing.&lt;/p&gt;
+&lt;h2 id="workflow"&gt;Workflow&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Identify scope and platform.&lt;/li&gt;
+&lt;li&gt;Locate similar code paths and follow existing patterns.&lt;/li&gt;
+&lt;li&gt;Apply changes using repo conventions and available templates.&lt;/li&gt;
+&lt;li&gt;Update related layers (routes, stores, commands) when needed.&lt;/li&gt;
+&lt;li&gt;Propose or run checks/tests only when requested.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="scope-routing"&gt;Scope Routing&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Frontend: read &lt;code&gt;references/frontend.md&lt;/code&gt; and &lt;code&gt;references/overview.md&lt;/code&gt;; use &lt;code&gt;assets/templates/view-desktop.vue&lt;/code&gt;, &lt;code&gt;assets/templates/view-mobile.vue&lt;/code&gt;, &lt;code&gt;assets/templates/pinia-store.ts&lt;/code&gt; as starters.&lt;/li&gt;
+&lt;li&gt;Backend: read &lt;code&gt;references/backend.md&lt;/code&gt; and &lt;code&gt;references/overview.md&lt;/code&gt;; use &lt;code&gt;assets/templates/tauri-command.rs&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Fullstack: read &lt;code&gt;references/fullstack.md&lt;/code&gt; plus frontend/backend references; use &lt;code&gt;assets/templates/tauri-command.ts&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Build/Release: read &lt;code&gt;references/build-release.md&lt;/code&gt; and &lt;code&gt;references/checklists.md&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="scripts"&gt;Scripts&lt;/h2&gt;
+&lt;p&gt;Use &lt;code&gt;scripts/hula_summary.py&lt;/code&gt; for quick repo context (views/stores counts and paths).
+Use &lt;code&gt;scripts/hula_tauri_map.py&lt;/code&gt; to list Tauri commands and frontend invoke usage.&lt;/p&gt;</description></item><item><title>Hula Skill</title><link>https://agentskill.wiki/skills/hula-skill/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/hula-skill/</guid><description>&lt;h1 id="hula-skill"&gt;HuLa Skill&lt;/h1&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Enable consistent changes across the HuLa frontend, backend, full-stack flows, and build/release tasks with repo-specific conventions and resources.&lt;/p&gt;
+&lt;h2 id="activation-gate"&gt;Activation Gate&lt;/h2&gt;
+&lt;p&gt;Ask which scope to enable: frontend, backend, fullstack, or build-release.
+Confirm platform (desktop or mobile), target area (view/component/store/command), and any constraints before editing.&lt;/p&gt;
+&lt;h2 id="workflow"&gt;Workflow&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Identify scope and platform.&lt;/li&gt;
+&lt;li&gt;Locate similar code paths and follow existing patterns.&lt;/li&gt;
+&lt;li&gt;Apply changes using repo conventions and available templates.&lt;/li&gt;
+&lt;li&gt;Update related layers (routes, stores, commands) when needed.&lt;/li&gt;
+&lt;li&gt;Propose or run checks/tests only when requested.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="scope-routing"&gt;Scope Routing&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Frontend: read &lt;code&gt;references/frontend.md&lt;/code&gt; and &lt;code&gt;references/overview.md&lt;/code&gt;; use &lt;code&gt;assets/templates/view-desktop.vue&lt;/code&gt;, &lt;code&gt;assets/templates/view-mobile.vue&lt;/code&gt;, &lt;code&gt;assets/templates/pinia-store.ts&lt;/code&gt; as starters.&lt;/li&gt;
+&lt;li&gt;Backend: read &lt;code&gt;references/backend.md&lt;/code&gt; and &lt;code&gt;references/overview.md&lt;/code&gt;; use &lt;code&gt;assets/templates/tauri-command.rs&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Fullstack: read &lt;code&gt;references/fullstack.md&lt;/code&gt; plus frontend/backend references; use &lt;code&gt;assets/templates/tauri-command.ts&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Build/Release: read &lt;code&gt;references/build-release.md&lt;/code&gt; and &lt;code&gt;references/checklists.md&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="scripts"&gt;Scripts&lt;/h2&gt;
+&lt;p&gt;Use &lt;code&gt;scripts/hula_summary.py&lt;/code&gt; for quick repo context (views/stores counts and paths).
+Use &lt;code&gt;scripts/hula_tauri_map.py&lt;/code&gt; to list Tauri commands and frontend invoke usage.&lt;/p&gt;</description></item></channel></rss>

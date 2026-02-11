@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Roadmapping on Agent Skills Hub</title><link>https://agentskill.wiki/tags/roadmapping/</link><description>Recent content in Roadmapping on Agent Skills Hub</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/roadmapping/index.xml" rel="self" type="application/rss+xml"/><item><title>Product Manager Toolkit</title><link>https://agentskill.wiki/en/skills/product-manager-toolkit/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/product-manager-toolkit/</guid><description>&lt;h1 id="product-manager-toolkit"&gt;Product Manager Toolkit&lt;/h1&gt;
+&lt;p&gt;Essential tools and frameworks for modern product management, from discovery to delivery.&lt;/p&gt;
+&lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;
+&lt;h3 id="for-feature-prioritization"&gt;For Feature Prioritization&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;python scripts/rice_prioritizer.py sample &lt;span style="color:#75715e"&gt;# Create sample CSV&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;2&lt;/span&gt;&lt;span&gt;python scripts/rice_prioritizer.py sample_features.csv --capacity &lt;span style="color:#ae81ff"&gt;15&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="for-interview-analysis"&gt;For Interview Analysis&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;python scripts/customer_interview_analyzer.py interview_transcript.txt
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="for-prd-creation"&gt;For PRD Creation&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Choose template from &lt;code&gt;references/prd_templates.md&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Fill in sections based on discovery work&lt;/li&gt;
+&lt;li&gt;Review with stakeholders&lt;/li&gt;
+&lt;li&gt;Version control in your PM tool&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="core-workflows"&gt;Core Workflows&lt;/h2&gt;
+&lt;h3 id="feature-prioritization-process"&gt;Feature Prioritization Process&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Gather Feature Requests&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Product Manager Toolkit</title><link>https://agentskill.wiki/skills/product-manager-toolkit/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/product-manager-toolkit/</guid><description>&lt;h1 id="product-manager-toolkit"&gt;Product Manager Toolkit&lt;/h1&gt;
+&lt;p&gt;Essential tools and frameworks for modern product management, from discovery to delivery.&lt;/p&gt;
+&lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;
+&lt;h3 id="for-feature-prioritization"&gt;For Feature Prioritization&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;python scripts/rice_prioritizer.py sample &lt;span style="color:#75715e"&gt;# Create sample CSV&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;2&lt;/span&gt;&lt;span&gt;python scripts/rice_prioritizer.py sample_features.csv --capacity &lt;span style="color:#ae81ff"&gt;15&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="for-interview-analysis"&gt;For Interview Analysis&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;python scripts/customer_interview_analyzer.py interview_transcript.txt
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="for-prd-creation"&gt;For PRD Creation&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Choose template from &lt;code&gt;references/prd_templates.md&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Fill in sections based on discovery work&lt;/li&gt;
+&lt;li&gt;Review with stakeholders&lt;/li&gt;
+&lt;li&gt;Version control in your PM tool&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="core-workflows"&gt;Core Workflows&lt;/h2&gt;
+&lt;h3 id="feature-prioritization-process"&gt;Feature Prioritization Process&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Gather Feature Requests&lt;/strong&gt;&lt;/p&gt;</description></item></channel></rss>

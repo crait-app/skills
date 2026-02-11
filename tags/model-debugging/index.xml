@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Model-Debugging on Agent Skills Hub</title><link>https://agentskill.wiki/tags/model-debugging/</link><description>Recent content in Model-Debugging on Agent Skills Hub</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/model-debugging/index.xml" rel="self" type="application/rss+xml"/><item><title>Tensorboard</title><link>https://agentskill.wiki/en/skills/tensorboard/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/tensorboard/</guid><description>&lt;h1 id="tensorboard-visualization-toolkit-for-ml"&gt;TensorBoard: Visualization Toolkit for ML&lt;/h1&gt;
+&lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
+&lt;p&gt;Use TensorBoard when you need to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Visualize training metrics&lt;/strong&gt; like loss and accuracy over time&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Debug models&lt;/strong&gt; with histograms and distributions&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Compare experiments&lt;/strong&gt; across multiple runs&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Visualize model graphs&lt;/strong&gt; and architecture&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Project embeddings&lt;/strong&gt; to lower dimensions (t-SNE, PCA)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Track hyperparameter&lt;/strong&gt; experiments&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Profile performance&lt;/strong&gt; and identify bottlenecks&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Visualize images and text&lt;/strong&gt; during training&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Users&lt;/strong&gt;: 20M+ downloads/year | &lt;strong&gt;GitHub Stars&lt;/strong&gt;: 27k+ | &lt;strong&gt;License&lt;/strong&gt;: Apache 2.0&lt;/p&gt;</description></item><item><title>Tensorboard</title><link>https://agentskill.wiki/skills/tensorboard/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/tensorboard/</guid><description>&lt;h1 id="tensorboard-visualization-toolkit-for-ml"&gt;TensorBoard: Visualization Toolkit for ML&lt;/h1&gt;
+&lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
+&lt;p&gt;Use TensorBoard when you need to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Visualize training metrics&lt;/strong&gt; like loss and accuracy over time&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Debug models&lt;/strong&gt; with histograms and distributions&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Compare experiments&lt;/strong&gt; across multiple runs&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Visualize model graphs&lt;/strong&gt; and architecture&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Project embeddings&lt;/strong&gt; to lower dimensions (t-SNE, PCA)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Track hyperparameter&lt;/strong&gt; experiments&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Profile performance&lt;/strong&gt; and identify bottlenecks&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Visualize images and text&lt;/strong&gt; during training&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Users&lt;/strong&gt;: 20M+ downloads/year | &lt;strong&gt;GitHub Stars&lt;/strong&gt;: 27k+ | &lt;strong&gt;License&lt;/strong&gt;: Apache 2.0&lt;/p&gt;</description></item></channel></rss>

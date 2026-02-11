@@ -1,0 +1,623 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Railway on Agent Skills Hub</title><link>https://agentskill.wiki/tags/railway/</link><description>Recent content in Railway on Agent Skills Hub</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/railway/index.xml" rel="self" type="application/rss+xml"/><item><title>Railway Database</title><link>https://agentskill.wiki/en/skills/railway-database/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/railway-database/</guid><description>&lt;h1 id="railway-database"&gt;Railway Database&lt;/h1&gt;
+&lt;p&gt;Add official Railway database services. These are maintained templates with pre-configured volumes, networking, and connection variables.&lt;/p&gt;
+&lt;p&gt;For non-database templates, see the &lt;code&gt;railway-templates&lt;/code&gt; skill.&lt;/p&gt;
+&lt;h2 id="when-to-use"&gt;When to Use&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;User asks to &amp;ldquo;add a database&amp;rdquo;, &amp;ldquo;add Postgres&amp;rdquo;, &amp;ldquo;add Redis&amp;rdquo;, etc.&lt;/li&gt;
+&lt;li&gt;User needs a database for their application&lt;/li&gt;
+&lt;li&gt;User asks about connecting to a database&lt;/li&gt;
+&lt;li&gt;User says &amp;ldquo;add postgres and connect to my server&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;User says &amp;ldquo;wire up the database&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="decision-flow"&gt;Decision Flow&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;ALWAYS check for existing databases FIRST before creating.&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Railway Database</title><link>https://agentskill.wiki/skills/railway-database/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/railway-database/</guid><description>&lt;h1 id="railway-database"&gt;Railway Database&lt;/h1&gt;
+&lt;p&gt;Add official Railway database services. These are maintained templates with pre-configured volumes, networking, and connection variables.&lt;/p&gt;
+&lt;p&gt;For non-database templates, see the &lt;code&gt;railway-templates&lt;/code&gt; skill.&lt;/p&gt;
+&lt;h2 id="when-to-use"&gt;When to Use&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;User asks to &amp;ldquo;add a database&amp;rdquo;, &amp;ldquo;add Postgres&amp;rdquo;, &amp;ldquo;add Redis&amp;rdquo;, etc.&lt;/li&gt;
+&lt;li&gt;User needs a database for their application&lt;/li&gt;
+&lt;li&gt;User asks about connecting to a database&lt;/li&gt;
+&lt;li&gt;User says &amp;ldquo;add postgres and connect to my server&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;User says &amp;ldquo;wire up the database&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="decision-flow"&gt;Decision Flow&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;ALWAYS check for existing databases FIRST before creating.&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Railway Deploy</title><link>https://agentskill.wiki/en/skills/railway-deploy/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/railway-deploy/</guid><description>&lt;h1 id="railway-deploy"&gt;Railway Deploy&lt;/h1&gt;
+&lt;p&gt;Deploy code from the current directory to Railway using &lt;code&gt;railway up&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id="when-to-use"&gt;When to Use&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;User asks to &amp;ldquo;deploy&amp;rdquo;, &amp;ldquo;ship&amp;rdquo;, &amp;ldquo;push code&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;User says &amp;ldquo;railway up&amp;rdquo; or &amp;ldquo;deploy to Railway&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;User wants to deploy local code changes&lt;/li&gt;
+&lt;li&gt;User says &amp;ldquo;deploy and fix any issues&amp;rdquo; (use &amp;ndash;ci mode)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="modes"&gt;Modes&lt;/h2&gt;
+&lt;h3 id="detach-mode-default"&gt;Detach Mode (default)&lt;/h3&gt;
+&lt;p&gt;Starts deploy and returns immediately. Use for most deploys.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;railway up --detach
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="ci-mode"&gt;CI Mode&lt;/h3&gt;
+&lt;p&gt;Streams build logs until complete. Use when user wants to watch the build or needs to debug issues.&lt;/p&gt;</description></item><item><title>Railway Deploy</title><link>https://agentskill.wiki/skills/railway-deploy/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/railway-deploy/</guid><description>&lt;h1 id="railway-deploy"&gt;Railway Deploy&lt;/h1&gt;
+&lt;p&gt;Deploy code from the current directory to Railway using &lt;code&gt;railway up&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id="when-to-use"&gt;When to Use&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;User asks to &amp;ldquo;deploy&amp;rdquo;, &amp;ldquo;ship&amp;rdquo;, &amp;ldquo;push code&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;User says &amp;ldquo;railway up&amp;rdquo; or &amp;ldquo;deploy to Railway&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;User wants to deploy local code changes&lt;/li&gt;
+&lt;li&gt;User says &amp;ldquo;deploy and fix any issues&amp;rdquo; (use &amp;ndash;ci mode)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="modes"&gt;Modes&lt;/h2&gt;
+&lt;h3 id="detach-mode-default"&gt;Detach Mode (default)&lt;/h3&gt;
+&lt;p&gt;Starts deploy and returns immediately. Use for most deploys.&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;railway up --detach
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="ci-mode"&gt;CI Mode&lt;/h3&gt;
+&lt;p&gt;Streams build logs until complete. Use when user wants to watch the build or needs to debug issues.&lt;/p&gt;</description></item><item><title>Railway Deployment</title><link>https://agentskill.wiki/en/skills/railway-deployment/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/railway-deployment/</guid><description>&lt;h1 id="railway-deployment-management"&gt;Railway Deployment Management&lt;/h1&gt;
+&lt;p&gt;Manage existing Railway deployments: list, view logs, redeploy, or remove.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Important:&lt;/strong&gt; &amp;ldquo;Remove deployment&amp;rdquo; (&lt;code&gt;railway down&lt;/code&gt;) stops the current deployment but keeps the service. To delete a service entirely, use the railway-environment skill with &lt;code&gt;isDeleted: true&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id="when-to-use"&gt;When to Use&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;User says &amp;ldquo;remove deploy&amp;rdquo;, &amp;ldquo;take down service&amp;rdquo;, &amp;ldquo;stop deployment&amp;rdquo;, &amp;ldquo;railway down&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;User wants to &amp;ldquo;redeploy&amp;rdquo;, &amp;ldquo;restart the service&amp;rdquo;, &amp;ldquo;restart deployment&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;User asks to &amp;ldquo;list deployments&amp;rdquo;, &amp;ldquo;show deployment history&amp;rdquo;, &amp;ldquo;deployment status&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;User asks to &amp;ldquo;see logs&amp;rdquo;, &amp;ldquo;show logs&amp;rdquo;, &amp;ldquo;check errors&amp;rdquo;, &amp;ldquo;debug issues&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="list-deployments"&gt;List Deployments&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;railway deployment list --limit &lt;span style="color:#ae81ff"&gt;10&lt;/span&gt; --json
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Shows deployment IDs, statuses, and metadata. Use to find specific deployment IDs for logs or debugging.&lt;/p&gt;</description></item><item><title>Railway Deployment</title><link>https://agentskill.wiki/skills/railway-deployment/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/railway-deployment/</guid><description>&lt;h1 id="railway-deployment-management"&gt;Railway Deployment Management&lt;/h1&gt;
+&lt;p&gt;Manage existing Railway deployments: list, view logs, redeploy, or remove.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Important:&lt;/strong&gt; &amp;ldquo;Remove deployment&amp;rdquo; (&lt;code&gt;railway down&lt;/code&gt;) stops the current deployment but keeps the service. To delete a service entirely, use the railway-environment skill with &lt;code&gt;isDeleted: true&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id="when-to-use"&gt;When to Use&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;User says &amp;ldquo;remove deploy&amp;rdquo;, &amp;ldquo;take down service&amp;rdquo;, &amp;ldquo;stop deployment&amp;rdquo;, &amp;ldquo;railway down&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;User wants to &amp;ldquo;redeploy&amp;rdquo;, &amp;ldquo;restart the service&amp;rdquo;, &amp;ldquo;restart deployment&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;User asks to &amp;ldquo;list deployments&amp;rdquo;, &amp;ldquo;show deployment history&amp;rdquo;, &amp;ldquo;deployment status&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;User asks to &amp;ldquo;see logs&amp;rdquo;, &amp;ldquo;show logs&amp;rdquo;, &amp;ldquo;check errors&amp;rdquo;, &amp;ldquo;debug issues&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="list-deployments"&gt;List Deployments&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;railway deployment list --limit &lt;span style="color:#ae81ff"&gt;10&lt;/span&gt; --json
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Shows deployment IDs, statuses, and metadata. Use to find specific deployment IDs for logs or debugging.&lt;/p&gt;</description></item><item><title>Railway Domain</title><link>https://agentskill.wiki/en/skills/railway-domain/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/railway-domain/</guid><description>&lt;h1 id="railway-domain-management"&gt;Railway Domain Management&lt;/h1&gt;
+&lt;p&gt;Add, view, or remove domains for Railway services.&lt;/p&gt;
+&lt;h2 id="when-to-use"&gt;When to Use&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;User asks to &amp;ldquo;add a domain&amp;rdquo;, &amp;ldquo;generate a domain&amp;rdquo;, &amp;ldquo;get a URL&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;User wants to add a custom domain&lt;/li&gt;
+&lt;li&gt;User asks &amp;ldquo;what&amp;rsquo;s the URL for my service&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;User wants to remove a domain&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="add-railway-domain"&gt;Add Railway Domain&lt;/h2&gt;
+&lt;p&gt;Generate a railway-provided domain (max 1 per service):&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;railway domain --json
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;For a specific service:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;railway domain --json --service backend
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="response"&gt;Response&lt;/h3&gt;
+&lt;p&gt;Returns the generated domain URL. Service must have a deployment.&lt;/p&gt;</description></item><item><title>Railway Domain</title><link>https://agentskill.wiki/skills/railway-domain/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/railway-domain/</guid><description>&lt;h1 id="railway-domain-management"&gt;Railway Domain Management&lt;/h1&gt;
+&lt;p&gt;Add, view, or remove domains for Railway services.&lt;/p&gt;
+&lt;h2 id="when-to-use"&gt;When to Use&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;User asks to &amp;ldquo;add a domain&amp;rdquo;, &amp;ldquo;generate a domain&amp;rdquo;, &amp;ldquo;get a URL&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;User wants to add a custom domain&lt;/li&gt;
+&lt;li&gt;User asks &amp;ldquo;what&amp;rsquo;s the URL for my service&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;User wants to remove a domain&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="add-railway-domain"&gt;Add Railway Domain&lt;/h2&gt;
+&lt;p&gt;Generate a railway-provided domain (max 1 per service):&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;railway domain --json
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;For a specific service:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;railway domain --json --service backend
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="response"&gt;Response&lt;/h3&gt;
+&lt;p&gt;Returns the generated domain URL. Service must have a deployment.&lt;/p&gt;</description></item><item><title>Railway Environment</title><link>https://agentskill.wiki/en/skills/railway-environment/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/railway-environment/</guid><description>&lt;h1 id="environment-configuration"&gt;Environment Configuration&lt;/h1&gt;
+&lt;p&gt;Query, stage, and apply configuration changes for Railway environments.&lt;/p&gt;
+&lt;h2 id="shell-escaping"&gt;Shell Escaping&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;CRITICAL:&lt;/strong&gt; When running GraphQL queries via bash, you MUST wrap in heredoc to prevent shell escaping issues:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;bash &lt;span style="color:#e6db74"&gt;&amp;lt;&amp;lt;&amp;#39;SCRIPT&amp;#39;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;2&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;${CLAUDE_PLUGIN_ROOT}/skills/lib/railway-api.sh &amp;#39;query ...&amp;#39; &amp;#39;{&amp;#34;var&amp;#34;: &amp;#34;value&amp;#34;}&amp;#39;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;3&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;SCRIPT&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Without the heredoc wrapper, multi-line commands break and exclamation marks in GraphQL non-null types get escaped, causing query failures.&lt;/p&gt;
+&lt;h2 id="when-to-use"&gt;When to Use&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;User wants to create a new environment&lt;/li&gt;
+&lt;li&gt;User wants to duplicate an environment (e.g., &amp;ldquo;copy production to staging&amp;rdquo;)&lt;/li&gt;
+&lt;li&gt;User wants to switch to a different environment&lt;/li&gt;
+&lt;li&gt;User asks about current build/deploy settings, variables, replicas, health checks, domains&lt;/li&gt;
+&lt;li&gt;User asks to change service source (Docker image, branch, commit, root directory)&lt;/li&gt;
+&lt;li&gt;User wants to connect a service to a GitHub repo&lt;/li&gt;
+&lt;li&gt;User wants to deploy from a GitHub repo (create empty service first via railway-new skill, then use this)&lt;/li&gt;
+&lt;li&gt;User asks to change build or start command&lt;/li&gt;
+&lt;li&gt;User wants to add/update/delete environment variables&lt;/li&gt;
+&lt;li&gt;User wants to change replica count or configure health checks&lt;/li&gt;
+&lt;li&gt;User asks to delete a service, volume, or bucket&lt;/li&gt;
+&lt;li&gt;User says &amp;ldquo;apply changes&amp;rdquo;, &amp;ldquo;commit changes&amp;rdquo;, &amp;ldquo;deploy changes&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Auto-fixing build errors detected in logs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="create-environment"&gt;Create Environment&lt;/h2&gt;
+&lt;p&gt;Create a new environment in the linked project:&lt;/p&gt;</description></item><item><title>Railway Environment</title><link>https://agentskill.wiki/skills/railway-environment/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/railway-environment/</guid><description>&lt;h1 id="environment-configuration"&gt;Environment Configuration&lt;/h1&gt;
+&lt;p&gt;Query, stage, and apply configuration changes for Railway environments.&lt;/p&gt;
+&lt;h2 id="shell-escaping"&gt;Shell Escaping&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;CRITICAL:&lt;/strong&gt; When running GraphQL queries via bash, you MUST wrap in heredoc to prevent shell escaping issues:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;bash &lt;span style="color:#e6db74"&gt;&amp;lt;&amp;lt;&amp;#39;SCRIPT&amp;#39;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;2&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;${CLAUDE_PLUGIN_ROOT}/skills/lib/railway-api.sh &amp;#39;query ...&amp;#39; &amp;#39;{&amp;#34;var&amp;#34;: &amp;#34;value&amp;#34;}&amp;#39;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;3&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;SCRIPT&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Without the heredoc wrapper, multi-line commands break and exclamation marks in GraphQL non-null types get escaped, causing query failures.&lt;/p&gt;
+&lt;h2 id="when-to-use"&gt;When to Use&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;User wants to create a new environment&lt;/li&gt;
+&lt;li&gt;User wants to duplicate an environment (e.g., &amp;ldquo;copy production to staging&amp;rdquo;)&lt;/li&gt;
+&lt;li&gt;User wants to switch to a different environment&lt;/li&gt;
+&lt;li&gt;User asks about current build/deploy settings, variables, replicas, health checks, domains&lt;/li&gt;
+&lt;li&gt;User asks to change service source (Docker image, branch, commit, root directory)&lt;/li&gt;
+&lt;li&gt;User wants to connect a service to a GitHub repo&lt;/li&gt;
+&lt;li&gt;User wants to deploy from a GitHub repo (create empty service first via railway-new skill, then use this)&lt;/li&gt;
+&lt;li&gt;User asks to change build or start command&lt;/li&gt;
+&lt;li&gt;User wants to add/update/delete environment variables&lt;/li&gt;
+&lt;li&gt;User wants to change replica count or configure health checks&lt;/li&gt;
+&lt;li&gt;User asks to delete a service, volume, or bucket&lt;/li&gt;
+&lt;li&gt;User says &amp;ldquo;apply changes&amp;rdquo;, &amp;ldquo;commit changes&amp;rdquo;, &amp;ldquo;deploy changes&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Auto-fixing build errors detected in logs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="create-environment"&gt;Create Environment&lt;/h2&gt;
+&lt;p&gt;Create a new environment in the linked project:&lt;/p&gt;</description></item><item><title>Railway Metrics</title><link>https://agentskill.wiki/en/skills/railway-metrics/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/railway-metrics/</guid><description>&lt;h1 id="railway-service-metrics"&gt;Railway Service Metrics&lt;/h1&gt;
+&lt;p&gt;Query resource usage metrics for Railway services.&lt;/p&gt;
+&lt;h2 id="when-to-use"&gt;When to Use&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;User asks &amp;ldquo;how much memory is my service using?&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;User asks about CPU usage, network traffic, disk usage&lt;/li&gt;
+&lt;li&gt;User wants to debug performance issues&lt;/li&gt;
+&lt;li&gt;User asks &amp;ldquo;is my service healthy?&amp;rdquo; (combine with railway-service skill)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="prerequisites"&gt;Prerequisites&lt;/h2&gt;
+&lt;p&gt;Get environmentId and serviceId from linked project:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;railway status --json
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Extract:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;environment.id&lt;/code&gt; → environmentId&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;service.id&lt;/code&gt; → serviceId (optional - omit to get all services)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="metricmeasurement-values"&gt;MetricMeasurement Values&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Measurement&lt;/th&gt;
+ &lt;th&gt;Description&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;CPU_USAGE&lt;/td&gt;
+ &lt;td&gt;CPU usage (cores)&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;CPU_LIMIT&lt;/td&gt;
+ &lt;td&gt;CPU limit (cores)&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;MEMORY_USAGE_GB&lt;/td&gt;
+ &lt;td&gt;Memory usage in GB&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;MEMORY_LIMIT_GB&lt;/td&gt;
+ &lt;td&gt;Memory limit in GB&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;NETWORK_RX_GB&lt;/td&gt;
+ &lt;td&gt;Network received in GB&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;NETWORK_TX_GB&lt;/td&gt;
+ &lt;td&gt;Network transmitted in GB&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;DISK_USAGE_GB&lt;/td&gt;
+ &lt;td&gt;Disk usage in GB&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;EPHEMERAL_DISK_USAGE_GB&lt;/td&gt;
+ &lt;td&gt;Ephemeral disk usage in GB&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;BACKUP_USAGE_GB&lt;/td&gt;
+ &lt;td&gt;Backup usage in GB&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id="metrictag-values-for-groupby"&gt;MetricTag Values (for groupBy)&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Tag&lt;/th&gt;
+ &lt;th&gt;Description&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;DEPLOYMENT_ID&lt;/td&gt;
+ &lt;td&gt;Group by deployment&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;DEPLOYMENT_INSTANCE_ID&lt;/td&gt;
+ &lt;td&gt;Group by instance&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;REGION&lt;/td&gt;
+ &lt;td&gt;Group by region&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;SERVICE_ID&lt;/td&gt;
+ &lt;td&gt;Group by service&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id="query"&gt;Query&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-graphql" data-lang="graphql"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;query&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;metrics&lt;/span&gt;(
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 2&lt;/span&gt;&lt;span&gt; $environmentId: &lt;span style="color:#a6e22e"&gt;String&lt;/span&gt;!
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 3&lt;/span&gt;&lt;span&gt; $serviceId: &lt;span style="color:#a6e22e"&gt;String&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 4&lt;/span&gt;&lt;span&gt; $startDate: &lt;span style="color:#a6e22e"&gt;DateTime&lt;/span&gt;!
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 5&lt;/span&gt;&lt;span&gt; $endDate: &lt;span style="color:#a6e22e"&gt;DateTime&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 6&lt;/span&gt;&lt;span&gt; $sampleRateSeconds: &lt;span style="color:#a6e22e"&gt;Int&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 7&lt;/span&gt;&lt;span&gt; $averagingWindowSeconds: &lt;span style="color:#a6e22e"&gt;Int&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 8&lt;/span&gt;&lt;span&gt; $groupBy: [&lt;span style="color:#a6e22e"&gt;MetricTag&lt;/span&gt;!]
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 9&lt;/span&gt;&lt;span&gt; $measurements: [&lt;span style="color:#a6e22e"&gt;MetricMeasurement&lt;/span&gt;!]!
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;10&lt;/span&gt;&lt;span&gt;) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;11&lt;/span&gt;&lt;span&gt; metrics(
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;12&lt;/span&gt;&lt;span&gt; environmentId: $environmentId
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;13&lt;/span&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;serviceId&lt;/span&gt;: $serviceId
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;14&lt;/span&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;startDate&lt;/span&gt;: $startDate
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;15&lt;/span&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;endDate&lt;/span&gt;: $endDate
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;16&lt;/span&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;sampleRateSeconds&lt;/span&gt;: $sampleRateSeconds
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;17&lt;/span&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;averagingWindowSeconds&lt;/span&gt;: $averagingWindowSeconds
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;18&lt;/span&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;groupBy&lt;/span&gt;: $groupBy
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;19&lt;/span&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;measurements&lt;/span&gt;: $measurements
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;20&lt;/span&gt;&lt;span&gt; ) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;21&lt;/span&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;measurement&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;22&lt;/span&gt;&lt;span&gt; tags {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;23&lt;/span&gt;&lt;span&gt; deploymentInstanceId
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;24&lt;/span&gt;&lt;span&gt; deploymentId
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;25&lt;/span&gt;&lt;span&gt; serviceId
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;26&lt;/span&gt;&lt;span&gt; region
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;27&lt;/span&gt;&lt;span&gt; }
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;28&lt;/span&gt;&lt;span&gt; values {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;29&lt;/span&gt;&lt;span&gt; ts
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;30&lt;/span&gt;&lt;span&gt; value
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;31&lt;/span&gt;&lt;span&gt; }
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;32&lt;/span&gt;&lt;span&gt; }
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;33&lt;/span&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="example-last-hour-cpu-and-memory"&gt;Example: Last Hour CPU and Memory&lt;/h2&gt;
+&lt;p&gt;Use heredoc to avoid shell escaping issues:&lt;/p&gt;</description></item><item><title>Railway Metrics</title><link>https://agentskill.wiki/skills/railway-metrics/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/railway-metrics/</guid><description>&lt;h1 id="railway-service-metrics"&gt;Railway Service Metrics&lt;/h1&gt;
+&lt;p&gt;Query resource usage metrics for Railway services.&lt;/p&gt;
+&lt;h2 id="when-to-use"&gt;When to Use&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;User asks &amp;ldquo;how much memory is my service using?&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;User asks about CPU usage, network traffic, disk usage&lt;/li&gt;
+&lt;li&gt;User wants to debug performance issues&lt;/li&gt;
+&lt;li&gt;User asks &amp;ldquo;is my service healthy?&amp;rdquo; (combine with railway-service skill)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="prerequisites"&gt;Prerequisites&lt;/h2&gt;
+&lt;p&gt;Get environmentId and serviceId from linked project:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;railway status --json
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Extract:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;environment.id&lt;/code&gt; → environmentId&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;service.id&lt;/code&gt; → serviceId (optional - omit to get all services)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="metricmeasurement-values"&gt;MetricMeasurement Values&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Measurement&lt;/th&gt;
+ &lt;th&gt;Description&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;CPU_USAGE&lt;/td&gt;
+ &lt;td&gt;CPU usage (cores)&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;CPU_LIMIT&lt;/td&gt;
+ &lt;td&gt;CPU limit (cores)&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;MEMORY_USAGE_GB&lt;/td&gt;
+ &lt;td&gt;Memory usage in GB&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;MEMORY_LIMIT_GB&lt;/td&gt;
+ &lt;td&gt;Memory limit in GB&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;NETWORK_RX_GB&lt;/td&gt;
+ &lt;td&gt;Network received in GB&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;NETWORK_TX_GB&lt;/td&gt;
+ &lt;td&gt;Network transmitted in GB&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;DISK_USAGE_GB&lt;/td&gt;
+ &lt;td&gt;Disk usage in GB&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;EPHEMERAL_DISK_USAGE_GB&lt;/td&gt;
+ &lt;td&gt;Ephemeral disk usage in GB&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;BACKUP_USAGE_GB&lt;/td&gt;
+ &lt;td&gt;Backup usage in GB&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id="metrictag-values-for-groupby"&gt;MetricTag Values (for groupBy)&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Tag&lt;/th&gt;
+ &lt;th&gt;Description&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;DEPLOYMENT_ID&lt;/td&gt;
+ &lt;td&gt;Group by deployment&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;DEPLOYMENT_INSTANCE_ID&lt;/td&gt;
+ &lt;td&gt;Group by instance&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;REGION&lt;/td&gt;
+ &lt;td&gt;Group by region&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;SERVICE_ID&lt;/td&gt;
+ &lt;td&gt;Group by service&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id="query"&gt;Query&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-graphql" data-lang="graphql"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;query&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;metrics&lt;/span&gt;(
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 2&lt;/span&gt;&lt;span&gt; $environmentId: &lt;span style="color:#a6e22e"&gt;String&lt;/span&gt;!
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 3&lt;/span&gt;&lt;span&gt; $serviceId: &lt;span style="color:#a6e22e"&gt;String&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 4&lt;/span&gt;&lt;span&gt; $startDate: &lt;span style="color:#a6e22e"&gt;DateTime&lt;/span&gt;!
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 5&lt;/span&gt;&lt;span&gt; $endDate: &lt;span style="color:#a6e22e"&gt;DateTime&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 6&lt;/span&gt;&lt;span&gt; $sampleRateSeconds: &lt;span style="color:#a6e22e"&gt;Int&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 7&lt;/span&gt;&lt;span&gt; $averagingWindowSeconds: &lt;span style="color:#a6e22e"&gt;Int&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 8&lt;/span&gt;&lt;span&gt; $groupBy: [&lt;span style="color:#a6e22e"&gt;MetricTag&lt;/span&gt;!]
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 9&lt;/span&gt;&lt;span&gt; $measurements: [&lt;span style="color:#a6e22e"&gt;MetricMeasurement&lt;/span&gt;!]!
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;10&lt;/span&gt;&lt;span&gt;) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;11&lt;/span&gt;&lt;span&gt; metrics(
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;12&lt;/span&gt;&lt;span&gt; environmentId: $environmentId
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;13&lt;/span&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;serviceId&lt;/span&gt;: $serviceId
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;14&lt;/span&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;startDate&lt;/span&gt;: $startDate
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;15&lt;/span&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;endDate&lt;/span&gt;: $endDate
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;16&lt;/span&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;sampleRateSeconds&lt;/span&gt;: $sampleRateSeconds
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;17&lt;/span&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;averagingWindowSeconds&lt;/span&gt;: $averagingWindowSeconds
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;18&lt;/span&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;groupBy&lt;/span&gt;: $groupBy
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;19&lt;/span&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;measurements&lt;/span&gt;: $measurements
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;20&lt;/span&gt;&lt;span&gt; ) {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;21&lt;/span&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;measurement&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;22&lt;/span&gt;&lt;span&gt; tags {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;23&lt;/span&gt;&lt;span&gt; deploymentInstanceId
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;24&lt;/span&gt;&lt;span&gt; deploymentId
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;25&lt;/span&gt;&lt;span&gt; serviceId
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;26&lt;/span&gt;&lt;span&gt; region
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;27&lt;/span&gt;&lt;span&gt; }
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;28&lt;/span&gt;&lt;span&gt; values {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;29&lt;/span&gt;&lt;span&gt; ts
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;30&lt;/span&gt;&lt;span&gt; value
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;31&lt;/span&gt;&lt;span&gt; }
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;32&lt;/span&gt;&lt;span&gt; }
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;33&lt;/span&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="example-last-hour-cpu-and-memory"&gt;Example: Last Hour CPU and Memory&lt;/h2&gt;
+&lt;p&gt;Use heredoc to avoid shell escaping issues:&lt;/p&gt;</description></item><item><title>Railway New</title><link>https://agentskill.wiki/en/skills/railway-new/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/railway-new/</guid><description>&lt;h1 id="new-project--service--database"&gt;New Project / Service / Database&lt;/h1&gt;
+&lt;p&gt;Create Railway projects, services, and databases with proper configuration.&lt;/p&gt;
+&lt;h2 id="when-to-use"&gt;When to Use&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;User says &amp;ldquo;deploy to railway&amp;rdquo; (add service if linked, init if not)&lt;/li&gt;
+&lt;li&gt;User says &amp;ldquo;create a railway project&amp;rdquo;, &amp;ldquo;init&amp;rdquo;, &amp;ldquo;new project&amp;rdquo; (explicit new project)&lt;/li&gt;
+&lt;li&gt;User says &amp;ldquo;link to railway&amp;rdquo;, &amp;ldquo;connect to railway&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;User says &amp;ldquo;create a service&amp;rdquo;, &amp;ldquo;add a backend&amp;rdquo;, &amp;ldquo;new api service&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;User says &amp;ldquo;create a vite app&amp;rdquo;, &amp;ldquo;create a react website&amp;rdquo;, &amp;ldquo;make a python api&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;User says &amp;ldquo;deploy from github.com/user/repo&amp;rdquo;, &amp;ldquo;create service from this repo&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;User says &amp;ldquo;add postgres&amp;rdquo;, &amp;ldquo;add a database&amp;rdquo;, &amp;ldquo;add redis&amp;rdquo;, &amp;ldquo;add mysql&amp;rdquo;, &amp;ldquo;add mongo&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;User says &amp;ldquo;connect to postgres&amp;rdquo;, &amp;ldquo;wire up the database&amp;rdquo;, &amp;ldquo;connect my api to redis&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;User says &amp;ldquo;add postgres and connect to the server&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Setting up code + Railway service together&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="prerequisites"&gt;Prerequisites&lt;/h2&gt;
+&lt;p&gt;Check CLI installed:&lt;/p&gt;</description></item><item><title>Railway New</title><link>https://agentskill.wiki/skills/railway-new/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/railway-new/</guid><description>&lt;h1 id="new-project--service--database"&gt;New Project / Service / Database&lt;/h1&gt;
+&lt;p&gt;Create Railway projects, services, and databases with proper configuration.&lt;/p&gt;
+&lt;h2 id="when-to-use"&gt;When to Use&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;User says &amp;ldquo;deploy to railway&amp;rdquo; (add service if linked, init if not)&lt;/li&gt;
+&lt;li&gt;User says &amp;ldquo;create a railway project&amp;rdquo;, &amp;ldquo;init&amp;rdquo;, &amp;ldquo;new project&amp;rdquo; (explicit new project)&lt;/li&gt;
+&lt;li&gt;User says &amp;ldquo;link to railway&amp;rdquo;, &amp;ldquo;connect to railway&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;User says &amp;ldquo;create a service&amp;rdquo;, &amp;ldquo;add a backend&amp;rdquo;, &amp;ldquo;new api service&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;User says &amp;ldquo;create a vite app&amp;rdquo;, &amp;ldquo;create a react website&amp;rdquo;, &amp;ldquo;make a python api&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;User says &amp;ldquo;deploy from github.com/user/repo&amp;rdquo;, &amp;ldquo;create service from this repo&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;User says &amp;ldquo;add postgres&amp;rdquo;, &amp;ldquo;add a database&amp;rdquo;, &amp;ldquo;add redis&amp;rdquo;, &amp;ldquo;add mysql&amp;rdquo;, &amp;ldquo;add mongo&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;User says &amp;ldquo;connect to postgres&amp;rdquo;, &amp;ldquo;wire up the database&amp;rdquo;, &amp;ldquo;connect my api to redis&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;User says &amp;ldquo;add postgres and connect to the server&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Setting up code + Railway service together&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="prerequisites"&gt;Prerequisites&lt;/h2&gt;
+&lt;p&gt;Check CLI installed:&lt;/p&gt;</description></item><item><title>Railway Projects</title><link>https://agentskill.wiki/en/skills/railway-projects/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/railway-projects/</guid><description>&lt;h1 id="railway-project-management"&gt;Railway Project Management&lt;/h1&gt;
+&lt;p&gt;List, switch, and configure Railway projects.&lt;/p&gt;
+&lt;h2 id="when-to-use"&gt;When to Use&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;User asks &amp;ldquo;show me all my projects&amp;rdquo; or &amp;ldquo;what projects do I have&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;User asks about projects across workspaces&lt;/li&gt;
+&lt;li&gt;User asks &amp;ldquo;what workspaces do I have&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;User wants to switch to a different project&lt;/li&gt;
+&lt;li&gt;User asks to rename a project&lt;/li&gt;
+&lt;li&gt;User wants to enable/disable PR deploys&lt;/li&gt;
+&lt;li&gt;User wants to make a project public or private&lt;/li&gt;
+&lt;li&gt;User asks about project settings&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="list-projects"&gt;List Projects&lt;/h2&gt;
+&lt;p&gt;The &lt;code&gt;railway list --json&lt;/code&gt; output can be very large. Run in a subagent and return only essential fields:&lt;/p&gt;</description></item><item><title>Railway Projects</title><link>https://agentskill.wiki/skills/railway-projects/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/railway-projects/</guid><description>&lt;h1 id="railway-project-management"&gt;Railway Project Management&lt;/h1&gt;
+&lt;p&gt;List, switch, and configure Railway projects.&lt;/p&gt;
+&lt;h2 id="when-to-use"&gt;When to Use&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;User asks &amp;ldquo;show me all my projects&amp;rdquo; or &amp;ldquo;what projects do I have&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;User asks about projects across workspaces&lt;/li&gt;
+&lt;li&gt;User asks &amp;ldquo;what workspaces do I have&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;User wants to switch to a different project&lt;/li&gt;
+&lt;li&gt;User asks to rename a project&lt;/li&gt;
+&lt;li&gt;User wants to enable/disable PR deploys&lt;/li&gt;
+&lt;li&gt;User wants to make a project public or private&lt;/li&gt;
+&lt;li&gt;User asks about project settings&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="list-projects"&gt;List Projects&lt;/h2&gt;
+&lt;p&gt;The &lt;code&gt;railway list --json&lt;/code&gt; output can be very large. Run in a subagent and return only essential fields:&lt;/p&gt;</description></item><item><title>Railway Service</title><link>https://agentskill.wiki/en/skills/railway-service/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/railway-service/</guid><description>&lt;h1 id="railway-service-management"&gt;Railway Service Management&lt;/h1&gt;
+&lt;p&gt;Check status, update properties, and advanced service creation.&lt;/p&gt;
+&lt;h2 id="when-to-use"&gt;When to Use&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;User asks about service status, health, or deployments&lt;/li&gt;
+&lt;li&gt;User asks &amp;ldquo;is my service deployed?&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;User wants to rename a service or change service icon&lt;/li&gt;
+&lt;li&gt;User wants to link a different service&lt;/li&gt;
+&lt;li&gt;User wants to deploy a Docker image as a new service (advanced)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; For creating services with local code (the common case), prefer the railway-new skill which handles project setup, scaffolding, and service creation together.&lt;/p&gt;</description></item><item><title>Railway Service</title><link>https://agentskill.wiki/skills/railway-service/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/railway-service/</guid><description>&lt;h1 id="railway-service-management"&gt;Railway Service Management&lt;/h1&gt;
+&lt;p&gt;Check status, update properties, and advanced service creation.&lt;/p&gt;
+&lt;h2 id="when-to-use"&gt;When to Use&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;User asks about service status, health, or deployments&lt;/li&gt;
+&lt;li&gt;User asks &amp;ldquo;is my service deployed?&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;User wants to rename a service or change service icon&lt;/li&gt;
+&lt;li&gt;User wants to link a different service&lt;/li&gt;
+&lt;li&gt;User wants to deploy a Docker image as a new service (advanced)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; For creating services with local code (the common case), prefer the railway-new skill which handles project setup, scaffolding, and service creation together.&lt;/p&gt;</description></item><item><title>Railway Templates</title><link>https://agentskill.wiki/en/skills/railway-templates/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/railway-templates/</guid><description>&lt;h1 id="railway-templates"&gt;Railway Templates&lt;/h1&gt;
+&lt;p&gt;Search and deploy services from Railway&amp;rsquo;s template marketplace.&lt;/p&gt;
+&lt;h2 id="when-to-use"&gt;When to Use&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;User asks to &amp;ldquo;add Postgres&amp;rdquo;, &amp;ldquo;add Redis&amp;rdquo;, &amp;ldquo;add a database&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;User asks to &amp;ldquo;add Ghost&amp;rdquo;, &amp;ldquo;add Strapi&amp;rdquo;, &amp;ldquo;add n8n&amp;rdquo;, or any other service&lt;/li&gt;
+&lt;li&gt;User wants to find templates for a use case (e.g., &amp;ldquo;CMS&amp;rdquo;, &amp;ldquo;storage&amp;rdquo;, &amp;ldquo;monitoring&amp;rdquo;)&lt;/li&gt;
+&lt;li&gt;User asks &amp;ldquo;what templates are available?&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;User wants to deploy a pre-configured service&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="common-template-codes"&gt;Common Template Codes&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Category&lt;/th&gt;
+ &lt;th&gt;Template&lt;/th&gt;
+ &lt;th&gt;Code&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Databases&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;PostgreSQL&lt;/td&gt;
+ &lt;td&gt;&lt;code&gt;postgres&lt;/code&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;td&gt;Redis&lt;/td&gt;
+ &lt;td&gt;&lt;code&gt;redis&lt;/code&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;td&gt;MySQL&lt;/td&gt;
+ &lt;td&gt;&lt;code&gt;mysql&lt;/code&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;td&gt;MongoDB&lt;/td&gt;
+ &lt;td&gt;&lt;code&gt;mongodb&lt;/code&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;CMS&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Ghost&lt;/td&gt;
+ &lt;td&gt;&lt;code&gt;ghost&lt;/code&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;td&gt;Strapi&lt;/td&gt;
+ &lt;td&gt;&lt;code&gt;strapi&lt;/code&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Storage&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Minio&lt;/td&gt;
+ &lt;td&gt;&lt;code&gt;minio&lt;/code&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Automation&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;n8n&lt;/td&gt;
+ &lt;td&gt;&lt;code&gt;n8n&lt;/code&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Monitoring&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Uptime Kuma&lt;/td&gt;
+ &lt;td&gt;&lt;code&gt;uptime-kuma&lt;/code&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;For other templates, use the search query below.&lt;/p&gt;</description></item><item><title>Railway Templates</title><link>https://agentskill.wiki/skills/railway-templates/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/railway-templates/</guid><description>&lt;h1 id="railway-templates"&gt;Railway Templates&lt;/h1&gt;
+&lt;p&gt;Search and deploy services from Railway&amp;rsquo;s template marketplace.&lt;/p&gt;
+&lt;h2 id="when-to-use"&gt;When to Use&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;User asks to &amp;ldquo;add Postgres&amp;rdquo;, &amp;ldquo;add Redis&amp;rdquo;, &amp;ldquo;add a database&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;User asks to &amp;ldquo;add Ghost&amp;rdquo;, &amp;ldquo;add Strapi&amp;rdquo;, &amp;ldquo;add n8n&amp;rdquo;, or any other service&lt;/li&gt;
+&lt;li&gt;User wants to find templates for a use case (e.g., &amp;ldquo;CMS&amp;rdquo;, &amp;ldquo;storage&amp;rdquo;, &amp;ldquo;monitoring&amp;rdquo;)&lt;/li&gt;
+&lt;li&gt;User asks &amp;ldquo;what templates are available?&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;User wants to deploy a pre-configured service&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="common-template-codes"&gt;Common Template Codes&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Category&lt;/th&gt;
+ &lt;th&gt;Template&lt;/th&gt;
+ &lt;th&gt;Code&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Databases&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;PostgreSQL&lt;/td&gt;
+ &lt;td&gt;&lt;code&gt;postgres&lt;/code&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;td&gt;Redis&lt;/td&gt;
+ &lt;td&gt;&lt;code&gt;redis&lt;/code&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;td&gt;MySQL&lt;/td&gt;
+ &lt;td&gt;&lt;code&gt;mysql&lt;/code&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;td&gt;MongoDB&lt;/td&gt;
+ &lt;td&gt;&lt;code&gt;mongodb&lt;/code&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;CMS&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Ghost&lt;/td&gt;
+ &lt;td&gt;&lt;code&gt;ghost&lt;/code&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;/td&gt;
+ &lt;td&gt;Strapi&lt;/td&gt;
+ &lt;td&gt;&lt;code&gt;strapi&lt;/code&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Storage&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Minio&lt;/td&gt;
+ &lt;td&gt;&lt;code&gt;minio&lt;/code&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Automation&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;n8n&lt;/td&gt;
+ &lt;td&gt;&lt;code&gt;n8n&lt;/code&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;strong&gt;Monitoring&lt;/strong&gt;&lt;/td&gt;
+ &lt;td&gt;Uptime Kuma&lt;/td&gt;
+ &lt;td&gt;&lt;code&gt;uptime-kuma&lt;/code&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;For other templates, use the search query below.&lt;/p&gt;</description></item></channel></rss>
