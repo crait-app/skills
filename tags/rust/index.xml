@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rust on Agent Skills Hub</title><link>https://agentskill.wiki/tags/rust/</link><description>Recent content in Rust on Agent Skills Hub</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/rust/index.xml" rel="self" type="application/rss+xml"/><item><title>Generate Component Story</title><link>https://agentskill.wiki/en/skills/generate-component-story/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/generate-component-story/</guid><description>&lt;h2 id="instructions"&gt;Instructions&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rust on Agent Skills Hub</title><link>https://agentskill.wiki/tags/rust/</link><description>Recent content in Rust on Agent Skills Hub</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/rust/index.xml" rel="self" type="application/rss+xml"/><item><title>Generate Component Story</title><link>https://agentskill.wiki/skills/generate-component-story/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/generate-component-story/</guid><description>&lt;h2 id="instructions"&gt;Instructions&lt;/h2&gt;
 &lt;p&gt;When creating component stories:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;Follow existing patterns&lt;/strong&gt;: Base stories on the styles found in &lt;code&gt;crates/story/src/stories&lt;/code&gt; (examples: &lt;code&gt;tabs_story.rs&lt;/code&gt;, &lt;code&gt;group_box_story.rs&lt;/code&gt;, etc.)&lt;/li&gt;
@@ -12,7 +12,7 @@
 &lt;li&gt;Different variants and states&lt;/li&gt;
 &lt;li&gt;Interactive examples&lt;/li&gt;
 &lt;li&gt;Edge cases and error states&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Gpui Action</title><link>https://agentskill.wiki/en/skills/gpui-action/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/gpui-action/</guid><description>&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;/ul&gt;</description></item><item><title>Gpui Action</title><link>https://agentskill.wiki/skills/gpui-action/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/gpui-action/</guid><description>&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;Actions provide declarative keyboard-driven UI interactions in GPUI.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Key Concepts:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -101,7 +101,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;13&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;backspace&amp;#34;&lt;/span&gt;, &lt;span style="color:#e6db74"&gt;&amp;#34;delete&amp;#34;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;14&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;-&amp;#34;&lt;/span&gt;, &lt;span style="color:#e6db74"&gt;&amp;#34;=&amp;#34;&lt;/span&gt;, &lt;span style="color:#e6db74"&gt;&amp;#34;[&amp;#34;&lt;/span&gt;, &lt;span style="color:#e6db74"&gt;&amp;#34;]&amp;#34;&lt;/span&gt;, etc. &lt;span style="color:#75715e"&gt;// Special characters
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="action-naming"&gt;Action Naming&lt;/h2&gt;
-&lt;p&gt;Prefer verb-noun pattern:&lt;/p&gt;</description></item><item><title>Gpui Async</title><link>https://agentskill.wiki/en/skills/gpui-async/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/gpui-async/</guid><description>&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Prefer verb-noun pattern:&lt;/p&gt;</description></item><item><title>Gpui Async</title><link>https://agentskill.wiki/skills/gpui-async/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/gpui-async/</guid><description>&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;GPUI provides integrated async runtime for foreground UI updates and background computation.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Key Concepts:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -198,7 +198,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;5&lt;/span&gt;&lt;span&gt; }
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;6&lt;/span&gt;&lt;span&gt;}).detach();
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="4-task-cancellation"&gt;4. Task Cancellation&lt;/h3&gt;
-&lt;p&gt;Tasks are automatically cancelled when dropped. Store in struct to keep alive.&lt;/p&gt;</description></item><item><title>Gpui Context</title><link>https://agentskill.wiki/en/skills/gpui-context/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/gpui-context/</guid><description>&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Tasks are automatically cancelled when dropped. Store in struct to keep alive.&lt;/p&gt;</description></item><item><title>Gpui Context</title><link>https://agentskill.wiki/skills/gpui-context/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/gpui-context/</guid><description>&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;GPUI uses different context types for different scenarios:&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Context Types:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -318,7 +318,7 @@
 &lt;li&gt;Async contexts, best practices&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Gpui Entity</title><link>https://agentskill.wiki/en/skills/gpui-entity/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/gpui-entity/</guid><description>&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;/ul&gt;</description></item><item><title>Gpui Entity</title><link>https://agentskill.wiki/skills/gpui-entity/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/gpui-entity/</guid><description>&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;An &lt;code&gt;Entity&amp;lt;T&amp;gt;&lt;/code&gt; is a handle to state of type &lt;code&gt;T&lt;/code&gt;, providing safe access and updates.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Key Methods:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -444,7 +444,7 @@
 &lt;h3 id="implementation-guides"&gt;Implementation Guides&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Patterns&lt;/strong&gt;: See &lt;a href="references/patterns.md"&gt;patterns.md&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Gpui Focus Handle</title><link>https://agentskill.wiki/en/skills/gpui-focus-handle/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/gpui-focus-handle/</guid><description>&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Patterns&lt;/strong&gt;: See &lt;a href="references/patterns.md"&gt;patterns.md&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Gpui Focus Handle</title><link>https://agentskill.wiki/skills/gpui-focus-handle/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/gpui-focus-handle/</guid><description>&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;GPUI&amp;rsquo;s focus system enables keyboard navigation and focus management.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Key Concepts:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -528,7 +528,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;30&lt;/span&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="keyboard-navigation"&gt;Keyboard Navigation&lt;/h2&gt;
 &lt;h3 id="tab-order"&gt;Tab Order&lt;/h3&gt;
-&lt;p&gt;Elements with &lt;code&gt;track_focus()&lt;/code&gt; automatically participate in Tab navigation.&lt;/p&gt;</description></item><item><title>Gpui Global</title><link>https://agentskill.wiki/en/skills/gpui-global/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/gpui-global/</guid><description>&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Elements with &lt;code&gt;track_focus()&lt;/code&gt; automatically participate in Tab navigation.&lt;/p&gt;</description></item><item><title>Gpui Global</title><link>https://agentskill.wiki/skills/gpui-global/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/gpui-global/</guid><description>&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;Global state in GPUI provides app-wide shared data accessible from any context.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Key Trait&lt;/strong&gt;: &lt;code&gt;Global&lt;/code&gt; - Implement on types to make them globally accessible&lt;/p&gt;
 &lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;
@@ -640,7 +640,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;6&lt;/span&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;7&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;impl&lt;/span&gt; Global &lt;span style="color:#66d9ef"&gt;for&lt;/span&gt; GlobalState {}
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="-immutable-by-default"&gt;✅ Immutable by Default&lt;/h3&gt;
-&lt;p&gt;Globals are read-only by default. Use interior mutability when needed:&lt;/p&gt;</description></item><item><title>Gpui Layout And Style</title><link>https://agentskill.wiki/en/skills/gpui-layout-and-style/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/gpui-layout-and-style/</guid><description>&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Globals are read-only by default. Use interior mutability when needed:&lt;/p&gt;</description></item><item><title>Gpui Layout And Style</title><link>https://agentskill.wiki/skills/gpui-layout-and-style/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/gpui-layout-and-style/</guid><description>&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;GPUI provides CSS-like styling with Rust type safety.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Key Concepts:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -759,7 +759,7 @@
 &lt;li&gt;Theming, responsive design&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Hula Skill</title><link>https://agentskill.wiki/en/skills/hula-skill/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/hula-skill/</guid><description>&lt;h1 id="hula-skill"&gt;HuLa Skill&lt;/h1&gt;
+&lt;/ul&gt;</description></item><item><title>Hula Skill</title><link>https://agentskill.wiki/skills/hula-skill/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/hula-skill/</guid><description>&lt;h1 id="hula-skill"&gt;HuLa Skill&lt;/h1&gt;
 &lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;Enable consistent changes across the HuLa frontend, backend, full-stack flows, and build/release tasks with repo-specific conventions and resources.&lt;/p&gt;
 &lt;h2 id="activation-gate"&gt;Activation Gate&lt;/h2&gt;
@@ -782,7 +782,7 @@ Confirm platform (desktop or mobile), target area (view/component/store/command)
 &lt;/ul&gt;
 &lt;h2 id="scripts"&gt;Scripts&lt;/h2&gt;
 &lt;p&gt;Use &lt;code&gt;scripts/hula_summary.py&lt;/code&gt; for quick repo context (views/stores counts and paths).
-Use &lt;code&gt;scripts/hula_tauri_map.py&lt;/code&gt; to list Tauri commands and frontend invoke usage.&lt;/p&gt;</description></item><item><title>Rust Async Patterns</title><link>https://agentskill.wiki/en/skills/rust-async-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/rust-async-patterns/</guid><description>&lt;h1 id="rust-async-patterns"&gt;Rust Async Patterns&lt;/h1&gt;
+Use &lt;code&gt;scripts/hula_tauri_map.py&lt;/code&gt; to list Tauri commands and frontend invoke usage.&lt;/p&gt;</description></item><item><title>Rust Async Patterns</title><link>https://agentskill.wiki/skills/rust-async-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/rust-async-patterns/</guid><description>&lt;h1 id="rust-async-patterns"&gt;Rust Async Patterns&lt;/h1&gt;
 &lt;p&gt;Production patterns for async Rust programming with Tokio runtime, including tasks, channels, streams, and error handling.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -1269,7 +1269,7 @@ Use &lt;code&gt;scripts/hula_tauri_map.py&lt;/code&gt; to list Tauri commands an
 &lt;li&gt;&lt;a href="https://tokio.rs/tokio/tutorial"&gt;Tokio Tutorial&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://rust-lang.github.io/async-book/"&gt;Async Book&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/tokio-rs/console"&gt;Tokio Console&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Uv Package Manager</title><link>https://agentskill.wiki/en/skills/uv-package-manager/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/uv-package-manager/</guid><description>&lt;h1 id="uv-package-manager"&gt;UV Package Manager&lt;/h1&gt;
+&lt;/ul&gt;</description></item><item><title>Uv Package Manager</title><link>https://agentskill.wiki/skills/uv-package-manager/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/uv-package-manager/</guid><description>&lt;h1 id="uv-package-manager"&gt;UV Package Manager&lt;/h1&gt;
 &lt;p&gt;Comprehensive guide to using uv, an extremely fast Python package installer and resolver written in Rust, for modern Python project management and dependency workflows.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;

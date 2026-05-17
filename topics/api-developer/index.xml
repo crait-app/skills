@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>API Developer on Agent Skills Hub</title><link>https://agentskill.wiki/topics/api-developer/</link><description>Recent content in API Developer on Agent Skills Hub</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/topics/api-developer/index.xml" rel="self" type="application/rss+xml"/><item><title>Api Design Principles</title><link>https://agentskill.wiki/en/skills/api-design-principles/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/api-design-principles/</guid><description>&lt;h1 id="api-design-principles"&gt;API Design Principles&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>API Developer on Agent Skills Hub</title><link>https://agentskill.wiki/topics/api-developer/</link><description>Recent content in API Developer on Agent Skills Hub</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/topics/api-developer/index.xml" rel="self" type="application/rss+xml"/><item><title>Api Design Principles</title><link>https://agentskill.wiki/skills/api-design-principles/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/api-design-principles/</guid><description>&lt;h1 id="api-design-principles"&gt;API Design Principles&lt;/h1&gt;
 &lt;p&gt;Master REST and GraphQL API design principles to build intuitive, scalable, and maintainable APIs that delight developers and stand the test of time.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -12,7 +12,7 @@
 &lt;/ul&gt;
 &lt;h2 id="core-concepts"&gt;Core Concepts&lt;/h2&gt;
 &lt;h3 id="1-restful-design-principles"&gt;1. RESTful Design Principles&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Resource-Oriented Architecture&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Api Integration Specialist</title><link>https://agentskill.wiki/en/skills/api-integration-specialist/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/api-integration-specialist/</guid><description>&lt;h1 id="api-integration-specialist"&gt;API Integration Specialist&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Resource-Oriented Architecture&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Api Integration Specialist</title><link>https://agentskill.wiki/skills/api-integration-specialist/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/api-integration-specialist/</guid><description>&lt;h1 id="api-integration-specialist"&gt;API Integration Specialist&lt;/h1&gt;
 &lt;p&gt;Expert guidance for integrating external APIs into applications with production-ready patterns, security best practices, and comprehensive error handling.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;p&gt;Use this skill when:&lt;/p&gt;
@@ -27,7 +27,7 @@
 &lt;/ul&gt;
 &lt;h2 id="core-integration-principles"&gt;Core Integration Principles&lt;/h2&gt;
 &lt;h3 id="1-authentication--security"&gt;1. Authentication &amp;amp; Security&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;API Key Management:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Async Python Patterns</title><link>https://agentskill.wiki/en/skills/async-python-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/async-python-patterns/</guid><description>&lt;h1 id="async-python-patterns"&gt;Async Python Patterns&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;API Key Management:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Async Python Patterns</title><link>https://agentskill.wiki/skills/async-python-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/async-python-patterns/</guid><description>&lt;h1 id="async-python-patterns"&gt;Async Python Patterns&lt;/h1&gt;
 &lt;p&gt;Comprehensive guidance for implementing asynchronous Python applications using asyncio, concurrent programming patterns, and async/await for building high-performance, non-blocking systems.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -42,7 +42,7 @@
 &lt;/ul&gt;
 &lt;h2 id="core-concepts"&gt;Core Concepts&lt;/h2&gt;
 &lt;h3 id="1-event-loop"&gt;1. Event Loop&lt;/h3&gt;
-&lt;p&gt;The event loop is the heart of asyncio, managing and scheduling asynchronous tasks.&lt;/p&gt;</description></item><item><title>Doc Sync</title><link>https://agentskill.wiki/en/skills/doc-sync/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/doc-sync/</guid><description>&lt;h1 id="doc-sync-skill"&gt;Doc Sync Skill&lt;/h1&gt;
+&lt;p&gt;The event loop is the heart of asyncio, managing and scheduling asynchronous tasks.&lt;/p&gt;</description></item><item><title>Doc Sync</title><link>https://agentskill.wiki/skills/doc-sync/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/doc-sync/</guid><description>&lt;h1 id="doc-sync-skill"&gt;Doc Sync Skill&lt;/h1&gt;
 &lt;p&gt;You are a documentation synchronization specialist for the IdeaVim project. Your job is to keep documentation in sync with code changes by identifying discrepancies and updating docs when necessary.&lt;/p&gt;
 &lt;h2 id="documentation-locations"&gt;Documentation Locations&lt;/h2&gt;
 &lt;p&gt;The IdeaVim project has documentation in these locations:&lt;/p&gt;
@@ -54,7 +54,7 @@
 &lt;h2 id="core-mindset"&gt;Core Mindset&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;CRITICAL:&lt;/strong&gt; After code changes, documentation is &lt;strong&gt;GUILTY until proven innocent&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;❌ &lt;strong&gt;WRONG APPROACH:&lt;/strong&gt; &amp;ldquo;Be conservative, only update if clearly wrong&amp;rdquo;
-✅ &lt;strong&gt;RIGHT APPROACH:&lt;/strong&gt; &amp;ldquo;Be aggressive finding issues, conservative making fixes&amp;rdquo;&lt;/p&gt;</description></item><item><title>Dotnet Backend Patterns</title><link>https://agentskill.wiki/en/skills/dotnet-backend-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/dotnet-backend-patterns/</guid><description>&lt;h1 id="net-backend-development-patterns"&gt;.NET Backend Development Patterns&lt;/h1&gt;
+✅ &lt;strong&gt;RIGHT APPROACH:&lt;/strong&gt; &amp;ldquo;Be aggressive finding issues, conservative making fixes&amp;rdquo;&lt;/p&gt;</description></item><item><title>Dotnet Backend Patterns</title><link>https://agentskill.wiki/skills/dotnet-backend-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/dotnet-backend-patterns/</guid><description>&lt;h1 id="net-backend-development-patterns"&gt;.NET Backend Development Patterns&lt;/h1&gt;
 &lt;p&gt;Master C#/.NET patterns for building production-grade APIs, MCP servers, and enterprise backends with modern best practices (2024/2025).&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -819,7 +819,7 @@
 &lt;li&gt;&lt;strong&gt;assets/repository-template.cs&lt;/strong&gt;: Repository pattern implementation&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;references/ef-core-best-practices.md&lt;/strong&gt;: EF Core optimization guide&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;references/dapper-patterns.md&lt;/strong&gt;: Advanced Dapper usage patterns&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Fastapi Templates</title><link>https://agentskill.wiki/en/skills/fastapi-templates/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/fastapi-templates/</guid><description>&lt;h1 id="fastapi-project-templates"&gt;FastAPI Project Templates&lt;/h1&gt;
+&lt;/ul&gt;</description></item><item><title>Fastapi Templates</title><link>https://agentskill.wiki/skills/fastapi-templates/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/fastapi-templates/</guid><description>&lt;h1 id="fastapi-project-templates"&gt;FastAPI Project Templates&lt;/h1&gt;
 &lt;p&gt;Production-ready FastAPI project structures with async patterns, dependency injection, middleware, and best practices for building high-performance APIs.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -859,7 +859,7 @@
 │ └── item_repository.py
 └── main.py # Application entry
 &lt;/code&gt;&lt;/pre&gt;&lt;h3 id="2-dependency-injection"&gt;2. Dependency Injection&lt;/h3&gt;
-&lt;p&gt;FastAPI&amp;rsquo;s built-in DI system using &lt;code&gt;Depends&lt;/code&gt;:&lt;/p&gt;</description></item><item><title>Nodejs Backend Patterns</title><link>https://agentskill.wiki/en/skills/nodejs-backend-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/nodejs-backend-patterns/</guid><description>&lt;h1 id="nodejs-backend-patterns"&gt;Node.js Backend Patterns&lt;/h1&gt;
+&lt;p&gt;FastAPI&amp;rsquo;s built-in DI system using &lt;code&gt;Depends&lt;/code&gt;:&lt;/p&gt;</description></item><item><title>Nodejs Backend Patterns</title><link>https://agentskill.wiki/skills/nodejs-backend-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/nodejs-backend-patterns/</guid><description>&lt;h1 id="nodejs-backend-patterns"&gt;Node.js Backend Patterns&lt;/h1&gt;
 &lt;p&gt;Comprehensive guidance for building scalable, maintainable, and production-ready Node.js backend applications with modern frameworks, architectural patterns, and best practices.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -874,7 +874,7 @@
 &lt;/ul&gt;
 &lt;h2 id="core-frameworks"&gt;Core Frameworks&lt;/h2&gt;
 &lt;h3 id="expressjs---minimalist-framework"&gt;Express.js - Minimalist Framework&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Basic Setup:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Prowler Api</title><link>https://agentskill.wiki/en/skills/prowler-api/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/prowler-api/</guid><description>&lt;h2 id="when-to-use"&gt;When to Use&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Basic Setup:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Prowler Api</title><link>https://agentskill.wiki/skills/prowler-api/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/prowler-api/</guid><description>&lt;h2 id="when-to-use"&gt;When to Use&lt;/h2&gt;
 &lt;p&gt;Use this skill for &lt;strong&gt;Prowler-specific&lt;/strong&gt; patterns:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Row-Level Security (RLS) / tenant isolation&lt;/li&gt;
@@ -896,7 +896,7 @@
 &lt;li&gt;NEVER use Django&amp;rsquo;s default M2M - RLS requires through models with &lt;code&gt;tenant_id&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: &lt;code&gt;rls_transaction()&lt;/code&gt; accepts both UUID objects and strings - it converts internally via &lt;code&gt;str(value)&lt;/code&gt;.&lt;/p&gt;</description></item><item><title>Telegram Dev</title><link>https://agentskill.wiki/en/skills/telegram-dev/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/telegram-dev/</guid><description>&lt;h1 id="telegram-生态开发技能"&gt;Telegram 生态开发技能&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Note&lt;/strong&gt;: &lt;code&gt;rls_transaction()&lt;/code&gt; accepts both UUID objects and strings - it converts internally via &lt;code&gt;str(value)&lt;/code&gt;.&lt;/p&gt;</description></item><item><title>Telegram Dev</title><link>https://agentskill.wiki/skills/telegram-dev/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/telegram-dev/</guid><description>&lt;h1 id="telegram-生态开发技能"&gt;Telegram 生态开发技能&lt;/h1&gt;
 &lt;p&gt;全面的 Telegram 开发指南，涵盖 Bot 开发、Mini Apps (Web Apps)、客户端开发的完整技术栈。&lt;/p&gt;
 &lt;h2 id="何时使用此技能"&gt;何时使用此技能&lt;/h2&gt;
 &lt;p&gt;当需要以下帮助时使用此技能：&lt;/p&gt;

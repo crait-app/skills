@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Claude-Code on Agent Skills Hub</title><link>https://agentskill.wiki/tags/claude-code/</link><description>Recent content in Claude-Code on Agent Skills Hub</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/claude-code/index.xml" rel="self" type="application/rss+xml"/><item><title>Command Development</title><link>https://agentskill.wiki/en/skills/command-development/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/command-development/</guid><description>&lt;h1 id="command-development-for-claude-code"&gt;Command Development for Claude Code&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Claude-Code on Agent Skills Hub</title><link>https://agentskill.wiki/tags/claude-code/</link><description>Recent content in Claude-Code on Agent Skills Hub</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/claude-code/index.xml" rel="self" type="application/rss+xml"/><item><title>Command Development</title><link>https://agentskill.wiki/skills/command-development/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/command-development/</guid><description>&lt;h1 id="command-development-for-claude-code"&gt;Command Development for Claude Code&lt;/h1&gt;
 &lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;Slash commands are frequently-used prompts defined as Markdown files that Claude executes during interactive sessions. Understanding command structure, frontmatter options, and dynamic features enables creating powerful, reusable workflows.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Key concepts:&lt;/strong&gt;&lt;/p&gt;
@@ -11,7 +11,7 @@
 &lt;/ul&gt;
 &lt;h2 id="command-basics"&gt;Command Basics&lt;/h2&gt;
 &lt;h3 id="what-is-a-slash-command"&gt;What is a Slash Command?&lt;/h3&gt;
-&lt;p&gt;A slash command is a Markdown file containing a prompt that Claude executes when invoked. Commands provide:&lt;/p&gt;</description></item><item><title>Command Name</title><link>https://agentskill.wiki/en/skills/command-name/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/command-name/</guid><description>&lt;h1 id="plugin-structure-for-claude-code"&gt;Plugin Structure for Claude Code&lt;/h1&gt;
+&lt;p&gt;A slash command is a Markdown file containing a prompt that Claude executes when invoked. Commands provide:&lt;/p&gt;</description></item><item><title>Command Name</title><link>https://agentskill.wiki/skills/command-name/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/command-name/</guid><description>&lt;h1 id="plugin-structure-for-claude-code"&gt;Plugin Structure for Claude Code&lt;/h1&gt;
 &lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;Claude Code plugins follow a standardized directory structure with automatic component discovery. Understanding this structure enables creating well-organized, maintainable plugins that integrate seamlessly with Claude Code.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Key concepts:&lt;/strong&gt;&lt;/p&gt;
@@ -23,7 +23,7 @@
 &lt;li&gt;Explicit vs. auto-discovered component loading&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="directory-structure"&gt;Directory Structure&lt;/h2&gt;
-&lt;p&gt;Every Claude Code plugin follows this organizational pattern:&lt;/p&gt;</description></item><item><title>Configured Agent</title><link>https://agentskill.wiki/en/skills/configured-agent/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/configured-agent/</guid><description>&lt;h1 id="plugin-settings-pattern-for-claude-code-plugins"&gt;Plugin Settings Pattern for Claude Code Plugins&lt;/h1&gt;
+&lt;p&gt;Every Claude Code plugin follows this organizational pattern:&lt;/p&gt;</description></item><item><title>Configured Agent</title><link>https://agentskill.wiki/skills/configured-agent/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/configured-agent/</guid><description>&lt;h1 id="plugin-settings-pattern-for-claude-code-plugins"&gt;Plugin Settings Pattern for Claude Code Plugins&lt;/h1&gt;
 &lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;Plugins can store user-configurable settings and state in &lt;code&gt;.claude/plugin-name.local.md&lt;/code&gt; files within the project directory. This pattern uses YAML frontmatter for structured configuration and markdown content for prompts or additional context.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Key characteristics:&lt;/strong&gt;&lt;/p&gt;
@@ -52,7 +52,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;14&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;-&lt;/span&gt; Prompts to feed back to Claude
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;15&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;-&lt;/span&gt; Documentation or notes
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="example-plugin-state-file"&gt;Example: Plugin State File&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;.claude/my-plugin.local.md:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Hook Development</title><link>https://agentskill.wiki/en/skills/hook-development/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/hook-development/</guid><description>&lt;h1 id="hook-development-for-claude-code-plugins"&gt;Hook Development for Claude Code Plugins&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;.claude/my-plugin.local.md:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Hook Development</title><link>https://agentskill.wiki/skills/hook-development/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/hook-development/</guid><description>&lt;h1 id="hook-development-for-claude-code-plugins"&gt;Hook Development for Claude Code Plugins&lt;/h1&gt;
 &lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;Hooks are event-driven automation scripts that execute in response to Claude Code events. Use hooks to validate operations, enforce policies, add context, and integrate external tools into workflows.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Key capabilities:&lt;/strong&gt;&lt;/p&gt;
@@ -65,7 +65,7 @@
 &lt;/ul&gt;
 &lt;h2 id="hook-types"&gt;Hook Types&lt;/h2&gt;
 &lt;h3 id="prompt-based-hooks-recommended"&gt;Prompt-Based Hooks (Recommended)&lt;/h3&gt;
-&lt;p&gt;Use LLM-driven decision making for context-aware validation:&lt;/p&gt;</description></item><item><title>Mcp Integration</title><link>https://agentskill.wiki/en/skills/mcp-integration/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/mcp-integration/</guid><description>&lt;h1 id="mcp-integration-for-claude-code-plugins"&gt;MCP Integration for Claude Code Plugins&lt;/h1&gt;
+&lt;p&gt;Use LLM-driven decision making for context-aware validation:&lt;/p&gt;</description></item><item><title>Mcp Integration</title><link>https://agentskill.wiki/skills/mcp-integration/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/mcp-integration/</guid><description>&lt;h1 id="mcp-integration-for-claude-code-plugins"&gt;MCP Integration for Claude Code Plugins&lt;/h1&gt;
 &lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;Model Context Protocol (MCP) enables Claude Code plugins to integrate with external services and APIs by providing structured tool access. Use MCP integration to expose external service capabilities as tools within Claude Code.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Key capabilities:&lt;/strong&gt;&lt;/p&gt;
@@ -76,7 +76,7 @@
 &lt;li&gt;Bundle MCP servers with plugins for automatic setup&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="mcp-server-configuration-methods"&gt;MCP Server Configuration Methods&lt;/h2&gt;
-&lt;p&gt;Plugins can bundle MCP servers in two ways:&lt;/p&gt;</description></item><item><title>Skill Builder</title><link>https://agentskill.wiki/en/skills/skill-builder/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/skill-builder/</guid><description>&lt;h1 id="skill-builder"&gt;Skill Builder&lt;/h1&gt;
+&lt;p&gt;Plugins can bundle MCP servers in two ways:&lt;/p&gt;</description></item><item><title>Skill Builder</title><link>https://agentskill.wiki/skills/skill-builder/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/skill-builder/</guid><description>&lt;h1 id="skill-builder"&gt;Skill Builder&lt;/h1&gt;
 &lt;h2 id="what-this-skill-does"&gt;What This Skill Does&lt;/h2&gt;
 &lt;p&gt;Creates production-ready Claude Code Skills with proper YAML frontmatter, progressive disclosure architecture, and complete file/folder structure. This skill guides you through building skills that Claude can autonomously discover and use across all surfaces (Claude.ai, Claude Code, SDK, API).&lt;/p&gt;
 &lt;h2 id="prerequisites"&gt;Prerequisites&lt;/h2&gt;
@@ -111,7 +111,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
 &lt;h2 id="complete-specification"&gt;Complete Specification&lt;/h2&gt;
 &lt;h3 id="-yaml-frontmatter-required"&gt;📋 YAML Frontmatter (REQUIRED)&lt;/h3&gt;
-&lt;p&gt;Every SKILL.md &lt;strong&gt;must&lt;/strong&gt; start with YAML frontmatter containing exactly two required fields:&lt;/p&gt;</description></item><item><title>Skill Developer</title><link>https://agentskill.wiki/en/skills/skill-developer/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/skill-developer/</guid><description>&lt;h1 id="skill-developer-guide"&gt;Skill Developer Guide&lt;/h1&gt;
+&lt;p&gt;Every SKILL.md &lt;strong&gt;must&lt;/strong&gt; start with YAML frontmatter containing exactly two required fields:&lt;/p&gt;</description></item><item><title>Skill Developer</title><link>https://agentskill.wiki/skills/skill-developer/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/skill-developer/</guid><description>&lt;h1 id="skill-developer-guide"&gt;Skill Developer Guide&lt;/h1&gt;
 &lt;h2 id="purpose"&gt;Purpose&lt;/h2&gt;
 &lt;p&gt;Comprehensive guide for creating and managing skills in Claude Code with auto-activation system, following Anthropic&amp;rsquo;s official best practices including the 500-line rule and progressive disclosure pattern.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
@@ -131,7 +131,7 @@
 &lt;hr&gt;
 &lt;h2 id="system-overview"&gt;System Overview&lt;/h2&gt;
 &lt;h3 id="two-hook-architecture"&gt;Two-Hook Architecture&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;1. UserPromptSubmit Hook&lt;/strong&gt; (Proactive Suggestions)&lt;/p&gt;</description></item><item><title>Skill Writer</title><link>https://agentskill.wiki/en/skills/skill-writer/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/skill-writer/</guid><description>&lt;h1 id="skill-writer"&gt;Skill Writer&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;1. UserPromptSubmit Hook&lt;/strong&gt; (Proactive Suggestions)&lt;/p&gt;</description></item><item><title>Skill Writer</title><link>https://agentskill.wiki/skills/skill-writer/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/skill-writer/</guid><description>&lt;h1 id="skill-writer"&gt;Skill Writer&lt;/h1&gt;
 &lt;p&gt;This Skill helps you create well-structured Agent Skills for Claude Code that follow best practices and validation requirements.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to use this Skill&lt;/h2&gt;
 &lt;p&gt;Use this Skill when:&lt;/p&gt;

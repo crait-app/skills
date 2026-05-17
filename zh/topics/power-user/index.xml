@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Power User on Agent Skills Hub</title><link>https://agentskill.wiki/zh/topics/power-user/</link><description>Recent content in Power User on Agent Skills Hub</description><generator>Hugo</generator><language>zh</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/zh/topics/power-user/index.xml" rel="self" type="application/rss+xml"/><item><title>Omarchy</title><link>https://agentskill.wiki/zh/skills/omarchy/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/zh/skills/omarchy/</guid><description>&lt;h1 id="omarchy-skill"&gt;Omarchy Skill&lt;/h1&gt;
+&lt;p&gt;Manage &lt;a href="https://omarchy.org/"&gt;Omarchy&lt;/a&gt; Linux systems - a beautiful, modern, opinionated Arch Linux distribution with Hyprland.&lt;/p&gt;
+&lt;h2 id="when-this-skill-must-be-used"&gt;When This Skill MUST Be Used&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;ALWAYS invoke this skill when the user&amp;rsquo;s request involves ANY of these:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Editing ANY file in &lt;code&gt;~/.config/hypr/&lt;/code&gt; (window rules, animations, keybindings, monitors, etc.)&lt;/li&gt;
+&lt;li&gt;Editing ANY file in &lt;code&gt;~/.config/waybar/&lt;/code&gt;, &lt;code&gt;~/.config/walker/&lt;/code&gt;, &lt;code&gt;~/.config/mako/&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Editing terminal configs (alacritty, kitty, ghostty)&lt;/li&gt;
+&lt;li&gt;Editing ANY file in &lt;code&gt;~/.config/omarchy/&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Window behavior, animations, opacity, blur, gaps, borders&lt;/li&gt;
+&lt;li&gt;Layer rules, workspace settings, display/monitor configuration&lt;/li&gt;
+&lt;li&gt;Themes, wallpapers, fonts, appearance changes&lt;/li&gt;
+&lt;li&gt;Any &lt;code&gt;omarchy-*&lt;/code&gt; command&lt;/li&gt;
+&lt;li&gt;Screenshots, screen recording, night light, idle behavior, lock screen&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;If you&amp;rsquo;re about to edit a config file in ~/.config/ on this system, STOP and use this skill first.&lt;/strong&gt;&lt;/p&gt;</description></item></channel></rss>

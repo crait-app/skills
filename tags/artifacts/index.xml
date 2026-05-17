@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Artifacts on Agent Skills Hub</title><link>https://agentskill.wiki/tags/artifacts/</link><description>Recent content in Artifacts on Agent Skills Hub</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/artifacts/index.xml" rel="self" type="application/rss+xml"/><item><title>Artifacts Builder</title><link>https://agentskill.wiki/en/skills/artifacts-builder/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/artifacts-builder/</guid><description>&lt;h1 id="artifacts-builder"&gt;Artifacts Builder&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Artifacts on Agent Skills Hub</title><link>https://agentskill.wiki/tags/artifacts/</link><description>Recent content in Artifacts on Agent Skills Hub</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/artifacts/index.xml" rel="self" type="application/rss+xml"/><item><title>Artifacts Builder</title><link>https://agentskill.wiki/skills/artifacts-builder/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/artifacts-builder/</guid><description>&lt;h1 id="artifacts-builder"&gt;Artifacts Builder&lt;/h1&gt;
 &lt;p&gt;To build powerful frontend claude.ai artifacts, follow these steps:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Initialize the frontend repo using &lt;code&gt;scripts/init-artifact.sh&lt;/code&gt;&lt;/li&gt;
@@ -9,7 +9,7 @@
 &lt;/ol&gt;
 &lt;p&gt;&lt;strong&gt;Stack&lt;/strong&gt;: React 18 + TypeScript + Vite + Parcel (bundling) + Tailwind CSS + shadcn/ui&lt;/p&gt;
 &lt;h2 id="design--style-guidelines"&gt;Design &amp;amp; Style Guidelines&lt;/h2&gt;
-&lt;p&gt;VERY IMPORTANT: To avoid what is often referred to as &amp;ldquo;AI slop&amp;rdquo;, avoid using excessive centered layouts, purple gradients, uniform rounded corners, and Inter font.&lt;/p&gt;</description></item><item><title>Theme Factory</title><link>https://agentskill.wiki/en/skills/theme-factory/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/theme-factory/</guid><description>&lt;h1 id="theme-factory-skill"&gt;Theme Factory Skill&lt;/h1&gt;
+&lt;p&gt;VERY IMPORTANT: To avoid what is often referred to as &amp;ldquo;AI slop&amp;rdquo;, avoid using excessive centered layouts, purple gradients, uniform rounded corners, and Inter font.&lt;/p&gt;</description></item><item><title>Theme Factory</title><link>https://agentskill.wiki/skills/theme-factory/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/theme-factory/</guid><description>&lt;h1 id="theme-factory-skill"&gt;Theme Factory Skill&lt;/h1&gt;
 &lt;p&gt;This skill provides a curated collection of professional font and color themes themes, each with carefully selected color palettes and font pairings. Once a theme is chosen, it can be applied to any artifact.&lt;/p&gt;
 &lt;h2 id="purpose"&gt;Purpose&lt;/h2&gt;
 &lt;p&gt;To apply consistent, professional styling to presentation slide decks, use this skill. Each theme includes:&lt;/p&gt;
@@ -19,7 +19,7 @@
 &lt;li&gt;A distinct visual identity suitable for different contexts and audiences&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="usage-instructions"&gt;Usage Instructions&lt;/h2&gt;
-&lt;p&gt;To apply styling to a slide deck or other artifact:&lt;/p&gt;</description></item><item><title>Web Artifacts Builder</title><link>https://agentskill.wiki/en/skills/web-artifacts-builder/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/web-artifacts-builder/</guid><description>&lt;h1 id="web-artifacts-builder"&gt;Web Artifacts Builder&lt;/h1&gt;
+&lt;p&gt;To apply styling to a slide deck or other artifact:&lt;/p&gt;</description></item><item><title>Web Artifacts Builder</title><link>https://agentskill.wiki/skills/web-artifacts-builder/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/web-artifacts-builder/</guid><description>&lt;h1 id="web-artifacts-builder"&gt;Web Artifacts Builder&lt;/h1&gt;
 &lt;p&gt;To build powerful frontend claude.ai artifacts, follow these steps:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Initialize the frontend repo using &lt;code&gt;scripts/init-artifact.sh&lt;/code&gt;&lt;/li&gt;

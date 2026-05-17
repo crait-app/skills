@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ui-Framework on Agent Skills Hub</title><link>https://agentskill.wiki/tags/ui-framework/</link><description>Recent content in Ui-Framework on Agent Skills Hub</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/ui-framework/index.xml" rel="self" type="application/rss+xml"/><item><title>Gpui Action</title><link>https://agentskill.wiki/en/skills/gpui-action/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/gpui-action/</guid><description>&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ui-Framework on Agent Skills Hub</title><link>https://agentskill.wiki/tags/ui-framework/</link><description>Recent content in Ui-Framework on Agent Skills Hub</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/ui-framework/index.xml" rel="self" type="application/rss+xml"/><item><title>Gpui Action</title><link>https://agentskill.wiki/skills/gpui-action/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/gpui-action/</guid><description>&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;Actions provide declarative keyboard-driven UI interactions in GPUI.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Key Concepts:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -87,7 +87,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;13&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;backspace&amp;#34;&lt;/span&gt;, &lt;span style="color:#e6db74"&gt;&amp;#34;delete&amp;#34;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;14&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;-&amp;#34;&lt;/span&gt;, &lt;span style="color:#e6db74"&gt;&amp;#34;=&amp;#34;&lt;/span&gt;, &lt;span style="color:#e6db74"&gt;&amp;#34;[&amp;#34;&lt;/span&gt;, &lt;span style="color:#e6db74"&gt;&amp;#34;]&amp;#34;&lt;/span&gt;, etc. &lt;span style="color:#75715e"&gt;// Special characters
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="action-naming"&gt;Action Naming&lt;/h2&gt;
-&lt;p&gt;Prefer verb-noun pattern:&lt;/p&gt;</description></item><item><title>Gpui Context</title><link>https://agentskill.wiki/en/skills/gpui-context/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/gpui-context/</guid><description>&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Prefer verb-noun pattern:&lt;/p&gt;</description></item><item><title>Gpui Context</title><link>https://agentskill.wiki/skills/gpui-context/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/gpui-context/</guid><description>&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;GPUI uses different context types for different scenarios:&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Context Types:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -207,7 +207,7 @@
 &lt;li&gt;Async contexts, best practices&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Gpui Global</title><link>https://agentskill.wiki/en/skills/gpui-global/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/gpui-global/</guid><description>&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;/ul&gt;</description></item><item><title>Gpui Global</title><link>https://agentskill.wiki/skills/gpui-global/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/gpui-global/</guid><description>&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;Global state in GPUI provides app-wide shared data accessible from any context.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Key Trait&lt;/strong&gt;: &lt;code&gt;Global&lt;/code&gt; - Implement on types to make them globally accessible&lt;/p&gt;
 &lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;

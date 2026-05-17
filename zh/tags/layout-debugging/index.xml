@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Layout-Debugging on Agent Skills Hub</title><link>https://agentskill.wiki/zh/tags/layout-debugging/</link><description>Recent content in Layout-Debugging on Agent Skills Hub</description><generator>Hugo</generator><language>zh</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/zh/tags/layout-debugging/index.xml" rel="self" type="application/rss+xml"/><item><title>Web Design Reviewer</title><link>https://agentskill.wiki/zh/skills/web-design-reviewer/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/zh/skills/web-design-reviewer/</guid><description>&lt;h1 id="web-design-reviewer"&gt;Web Design Reviewer&lt;/h1&gt;
+&lt;p&gt;This skill enables visual inspection and validation of website design quality, identifying and fixing issues at the source code level.&lt;/p&gt;
+&lt;h2 id="scope-of-application"&gt;Scope of Application&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Static sites (HTML/CSS/JS)&lt;/li&gt;
+&lt;li&gt;SPA frameworks such as React / Vue / Angular / Svelte&lt;/li&gt;
+&lt;li&gt;Full-stack frameworks such as Next.js / Nuxt / SvelteKit&lt;/li&gt;
+&lt;li&gt;CMS platforms such as WordPress / Drupal&lt;/li&gt;
+&lt;li&gt;Any other web application&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="prerequisites"&gt;Prerequisites&lt;/h2&gt;
+&lt;h3 id="required"&gt;Required&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Target website must be running&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Local development server (e.g., &lt;code&gt;http://localhost:3000&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;Staging environment&lt;/li&gt;
+&lt;li&gt;Production environment (for read-only reviews)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Browser automation must be available&lt;/strong&gt;&lt;/p&gt;</description></item></channel></rss>

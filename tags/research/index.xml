@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research on Agent Skills Hub</title><link>https://agentskill.wiki/tags/research/</link><description>Recent content in Research on Agent Skills Hub</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/research/index.xml" rel="self" type="application/rss+xml"/><item><title>Agent Memory</title><link>https://agentskill.wiki/en/skills/agent-memory/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/agent-memory/</guid><description>&lt;h1 id="agent-memory"&gt;Agent Memory&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Research on Agent Skills Hub</title><link>https://agentskill.wiki/tags/research/</link><description>Recent content in Research on Agent Skills Hub</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/research/index.xml" rel="self" type="application/rss+xml"/><item><title>Agent Memory</title><link>https://agentskill.wiki/skills/agent-memory/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/agent-memory/</guid><description>&lt;h1 id="agent-memory"&gt;Agent Memory&lt;/h1&gt;
 &lt;p&gt;A persistent memory space for storing knowledge that survives across conversations.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Location:&lt;/strong&gt; &lt;code&gt;.claude/skills/agent-memory/memories/&lt;/code&gt;&lt;/p&gt;
 &lt;h2 id="proactive-usage"&gt;Proactive Usage&lt;/h2&gt;
@@ -16,7 +16,7 @@
 &lt;li&gt;When working on a feature you&amp;rsquo;ve touched before&lt;/li&gt;
 &lt;li&gt;When resuming work after a conversation break&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Organize memories when needed:&lt;/p&gt;</description></item><item><title>Labarchive Integration</title><link>https://agentskill.wiki/en/skills/labarchive-integration/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/labarchive-integration/</guid><description>&lt;h1 id="labarchives-integration"&gt;LabArchives Integration&lt;/h1&gt;
+&lt;p&gt;Organize memories when needed:&lt;/p&gt;</description></item><item><title>Labarchive Integration</title><link>https://agentskill.wiki/skills/labarchive-integration/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/labarchive-integration/</guid><description>&lt;h1 id="labarchives-integration"&gt;LabArchives Integration&lt;/h1&gt;
 &lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;LabArchives is an electronic lab notebook platform for research documentation and data management. Access notebooks, manage entries and attachments, generate reports, and integrate with third-party tools programmatically via REST API.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
@@ -32,7 +32,7 @@
 &lt;/ul&gt;
 &lt;h2 id="core-capabilities"&gt;Core Capabilities&lt;/h2&gt;
 &lt;h3 id="1-authentication-and-configuration"&gt;1. Authentication and Configuration&lt;/h3&gt;
-&lt;p&gt;Set up API access credentials and regional endpoints for LabArchives API integration.&lt;/p&gt;</description></item><item><title>Lead Research Assistant</title><link>https://agentskill.wiki/en/skills/lead-research-assistant/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/lead-research-assistant/</guid><description>&lt;h1 id="lead-research-assistant"&gt;Lead Research Assistant&lt;/h1&gt;
+&lt;p&gt;Set up API access credentials and regional endpoints for LabArchives API integration.&lt;/p&gt;</description></item><item><title>Lead Research Assistant</title><link>https://agentskill.wiki/skills/lead-research-assistant/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/lead-research-assistant/</guid><description>&lt;h1 id="lead-research-assistant"&gt;Lead Research Assistant&lt;/h1&gt;
 &lt;p&gt;This skill helps you identify and qualify potential leads for your business by analyzing your product/service, understanding your ideal customer profile, and providing actionable outreach strategies.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -60,7 +60,7 @@
 &lt;/ol&gt;
 &lt;h2 id="how-to-use"&gt;How to Use&lt;/h2&gt;
 &lt;h3 id="basic-usage"&gt;Basic Usage&lt;/h3&gt;
-&lt;p&gt;Simply describe your product/service and what you&amp;rsquo;re looking for:&lt;/p&gt;</description></item><item><title>Notion Meeting Intelligence</title><link>https://agentskill.wiki/en/skills/notion-meeting-intelligence/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/notion-meeting-intelligence/</guid><description>&lt;h1 id="meeting-intelligence"&gt;Meeting Intelligence&lt;/h1&gt;
+&lt;p&gt;Simply describe your product/service and what you&amp;rsquo;re looking for:&lt;/p&gt;</description></item><item><title>Notion Meeting Intelligence</title><link>https://agentskill.wiki/skills/notion-meeting-intelligence/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/notion-meeting-intelligence/</guid><description>&lt;h1 id="meeting-intelligence"&gt;Meeting Intelligence&lt;/h1&gt;
 &lt;p&gt;Prep meetings by pulling Notion context, tailoring agendas/pre-reads, and enriching with Codex research.&lt;/p&gt;
 &lt;h2 id="quick-start"&gt;Quick start&lt;/h2&gt;
 &lt;ol&gt;
@@ -89,7 +89,7 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;After successful login, the user will have to restart codex. You should finish your answer and tell them so when they try again they can continue with Step 1.&lt;/p&gt;</description></item><item><title>Notion Research Documentation</title><link>https://agentskill.wiki/en/skills/notion-research-documentation/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/notion-research-documentation/</guid><description>&lt;h1 id="research--documentation"&gt;Research &amp;amp; Documentation&lt;/h1&gt;
+&lt;p&gt;After successful login, the user will have to restart codex. You should finish your answer and tell them so when they try again they can continue with Step 1.&lt;/p&gt;</description></item><item><title>Notion Research Documentation</title><link>https://agentskill.wiki/skills/notion-research-documentation/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/notion-research-documentation/</guid><description>&lt;h1 id="research--documentation"&gt;Research &amp;amp; Documentation&lt;/h1&gt;
 &lt;p&gt;Pull relevant Notion pages, synthesize findings, and publish clear briefs or reports (with citations and links to sources).&lt;/p&gt;
 &lt;h2 id="quick-start"&gt;Quick start&lt;/h2&gt;
 &lt;ol&gt;
@@ -118,7 +118,7 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;After successful login, the user will have to restart codex. You should finish your answer and tell them so when they try again they can continue with Step 1.&lt;/p&gt;</description></item><item><title>Swarm Advanced</title><link>https://agentskill.wiki/en/skills/swarm-advanced/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/swarm-advanced/</guid><description>&lt;h1 id="advanced-swarm-orchestration"&gt;Advanced Swarm Orchestration&lt;/h1&gt;
+&lt;p&gt;After successful login, the user will have to restart codex. You should finish your answer and tell them so when they try again they can continue with Step 1.&lt;/p&gt;</description></item><item><title>Swarm Advanced</title><link>https://agentskill.wiki/skills/swarm-advanced/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/swarm-advanced/</guid><description>&lt;h1 id="advanced-swarm-orchestration"&gt;Advanced Swarm Orchestration&lt;/h1&gt;
 &lt;p&gt;Master advanced swarm patterns for distributed research, development, and testing workflows. This skill covers comprehensive orchestration strategies using both MCP tools and CLI commands.&lt;/p&gt;
 &lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;
 &lt;h3 id="prerequisites"&gt;Prerequisites&lt;/h3&gt;

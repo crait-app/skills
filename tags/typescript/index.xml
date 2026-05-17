@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Typescript on Agent Skills Hub</title><link>https://agentskill.wiki/tags/typescript/</link><description>Recent content in Typescript on Agent Skills Hub</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/typescript/index.xml" rel="self" type="application/rss+xml"/><item><title>Angular Migration</title><link>https://agentskill.wiki/en/skills/angular-migration/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/angular-migration/</guid><description>&lt;h1 id="angular-migration"&gt;Angular Migration&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Typescript on Agent Skills Hub</title><link>https://agentskill.wiki/tags/typescript/</link><description>Recent content in Typescript on Agent Skills Hub</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/typescript/index.xml" rel="self" type="application/rss+xml"/><item><title>Angular Migration</title><link>https://agentskill.wiki/skills/angular-migration/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/angular-migration/</guid><description>&lt;h1 id="angular-migration"&gt;Angular Migration&lt;/h1&gt;
 &lt;p&gt;Master AngularJS to Angular migration, including hybrid apps, component conversion, dependency injection changes, and routing migration.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -349,7 +349,7 @@ Phase 4: Cleanup (1-2 weeks)
 &lt;li&gt;Not handling scope properly&lt;/li&gt;
 &lt;li&gt;Mixing patterns (AngularJS + Angular)&lt;/li&gt;
 &lt;li&gt;Inadequate testing&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Angular Modernization</title><link>https://agentskill.wiki/en/skills/angular-modernization/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/angular-modernization/</guid><description>&lt;h1 id="angular-modernization"&gt;Angular Modernization&lt;/h1&gt;
+&lt;/ul&gt;</description></item><item><title>Angular Modernization</title><link>https://agentskill.wiki/skills/angular-modernization/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/angular-modernization/</guid><description>&lt;h1 id="angular-modernization"&gt;Angular Modernization&lt;/h1&gt;
 &lt;p&gt;Transforms legacy Angular components to modern architecture using a two-step approach:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;Automated migrations&lt;/strong&gt; - Angular CLI schematics for standalone, control flow, and signals&lt;/li&gt;
@@ -358,7 +358,7 @@ Phase 4: Cleanup (1-2 weeks)
 &lt;h2 id="workflow"&gt;Workflow&lt;/h2&gt;
 &lt;h3 id="step-1-run-angular-cli-migrations"&gt;Step 1: Run Angular CLI Migrations&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;⚠️ CRITICAL: ALWAYS use Angular CLI migrations when available. DO NOT manually migrate features that have CLI schematics.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Angular provides automated schematics that handle edge cases, update tests, and ensure correctness. Manual migration should ONLY be used for patterns not covered by CLI tools.&lt;/p&gt;</description></item><item><title>Artifacts Builder</title><link>https://agentskill.wiki/en/skills/artifacts-builder/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/artifacts-builder/</guid><description>&lt;h1 id="artifacts-builder"&gt;Artifacts Builder&lt;/h1&gt;
+&lt;p&gt;Angular provides automated schematics that handle edge cases, update tests, and ensure correctness. Manual migration should ONLY be used for patterns not covered by CLI tools.&lt;/p&gt;</description></item><item><title>Artifacts Builder</title><link>https://agentskill.wiki/skills/artifacts-builder/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/artifacts-builder/</guid><description>&lt;h1 id="artifacts-builder"&gt;Artifacts Builder&lt;/h1&gt;
 &lt;p&gt;To build powerful frontend claude.ai artifacts, follow these steps:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Initialize the frontend repo using &lt;code&gt;scripts/init-artifact.sh&lt;/code&gt;&lt;/li&gt;
@@ -369,7 +369,7 @@ Phase 4: Cleanup (1-2 weeks)
 &lt;/ol&gt;
 &lt;p&gt;&lt;strong&gt;Stack&lt;/strong&gt;: React 18 + TypeScript + Vite + Parcel (bundling) + Tailwind CSS + shadcn/ui&lt;/p&gt;
 &lt;h2 id="design--style-guidelines"&gt;Design &amp;amp; Style Guidelines&lt;/h2&gt;
-&lt;p&gt;VERY IMPORTANT: To avoid what is often referred to as &amp;ldquo;AI slop&amp;rdquo;, avoid using excessive centered layouts, purple gradients, uniform rounded corners, and Inter font.&lt;/p&gt;</description></item><item><title>Backend Dev Guidelines</title><link>https://agentskill.wiki/en/skills/backend-dev-guidelines/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/backend-dev-guidelines/</guid><description>&lt;h1 id="backend-development-guidelines"&gt;Backend Development Guidelines&lt;/h1&gt;
+&lt;p&gt;VERY IMPORTANT: To avoid what is often referred to as &amp;ldquo;AI slop&amp;rdquo;, avoid using excessive centered layouts, purple gradients, uniform rounded corners, and Inter font.&lt;/p&gt;</description></item><item><title>Backend Dev Guidelines</title><link>https://agentskill.wiki/skills/backend-dev-guidelines/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/backend-dev-guidelines/</guid><description>&lt;h1 id="backend-development-guidelines"&gt;Backend Development Guidelines&lt;/h1&gt;
 &lt;h2 id="purpose"&gt;Purpose&lt;/h2&gt;
 &lt;p&gt;Establish consistency and best practices across backend microservices (blog-api, auth-service, notifications-service) using modern Node.js/Express/TypeScript patterns.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
@@ -421,14 +421,14 @@ Services (business logic)
 Repositories (data access)
  ↓
 Database (Prisma)
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Key Principle:&lt;/strong&gt; Each layer has ONE responsibility.&lt;/p&gt;</description></item><item><title>Byethrow</title><link>https://agentskill.wiki/en/skills/byethrow/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/byethrow/</guid><description>&lt;h2 id="about-byethrow"&gt;About byethrow&lt;/h2&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Key Principle:&lt;/strong&gt; Each layer has ONE responsibility.&lt;/p&gt;</description></item><item><title>Byethrow</title><link>https://agentskill.wiki/skills/byethrow/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/byethrow/</guid><description>&lt;h2 id="about-byethrow"&gt;About byethrow&lt;/h2&gt;
 &lt;p&gt;&lt;code&gt;@praha/byethrow&lt;/code&gt; is a lightweight, tree-shakable Result type library for handling fallible operations in JavaScript and TypeScript.
 It provides a simple, consistent API for managing errors and results without throwing exceptions.&lt;/p&gt;
 &lt;p&gt;For detailed API references and usage examples, refer to the documentation in &lt;code&gt;node_modules/@praha/byethrow-docs/docs/**/*.md&lt;/code&gt;.&lt;/p&gt;
 &lt;h3 id="documentation-cli"&gt;Documentation CLI&lt;/h3&gt;
 &lt;p&gt;The byethrow documentation CLI provides commands to browse, search, and navigate documentation directly from your terminal.&lt;/p&gt;
 &lt;h4 id="list-command"&gt;&lt;code&gt;list&lt;/code&gt; command&lt;/h4&gt;
-&lt;p&gt;List all available documentation organized by sections.&lt;/p&gt;</description></item><item><title>Code Reviewer</title><link>https://agentskill.wiki/en/skills/code-reviewer/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/code-reviewer/</guid><description>&lt;h1 id="code-reviewer"&gt;Code Reviewer&lt;/h1&gt;
+&lt;p&gt;List all available documentation organized by sections.&lt;/p&gt;</description></item><item><title>Code Reviewer</title><link>https://agentskill.wiki/skills/code-reviewer/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/code-reviewer/</guid><description>&lt;h1 id="code-reviewer"&gt;Code Reviewer&lt;/h1&gt;
 &lt;p&gt;Complete toolkit for code reviewer with modern tools and best practices.&lt;/p&gt;
 &lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;
 &lt;h3 id="main-capabilities"&gt;Main Capabilities&lt;/h3&gt;
@@ -443,7 +443,7 @@ It provides a simple, consistent API for managing errors and results without thr
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;8&lt;/span&gt;&lt;span&gt;python scripts/review_report_generator.py &lt;span style="color:#f92672"&gt;[&lt;/span&gt;options&lt;span style="color:#f92672"&gt;]&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="core-capabilities"&gt;Core Capabilities&lt;/h2&gt;
 &lt;h3 id="1-pr-analyzer"&gt;1. Pr Analyzer&lt;/h3&gt;
-&lt;p&gt;Automated tool for pr analyzer tasks.&lt;/p&gt;</description></item><item><title>Create Scratch</title><link>https://agentskill.wiki/en/skills/create-scratch/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/create-scratch/</guid><description>&lt;h2 id="what-i-do"&gt;What I do&lt;/h2&gt;
+&lt;p&gt;Automated tool for pr analyzer tasks.&lt;/p&gt;</description></item><item><title>Create Scratch</title><link>https://agentskill.wiki/skills/create-scratch/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/create-scratch/</guid><description>&lt;h2 id="what-i-do"&gt;What I do&lt;/h2&gt;
 &lt;p&gt;I help you create new scratch files in the &lt;code&gt;.agents/scratches/&lt;/code&gt; directory. Each scratch file gets:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;A unique three-word identifier (e.g., &lt;code&gt;calm-teal-cloud&lt;/code&gt;)&lt;/li&gt;
@@ -460,7 +460,7 @@ It provides a simple, consistent API for managing errors and results without thr
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;4&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;goes here
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;5&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;HEREDOC&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="file-format"&gt;File format&lt;/h2&gt;
-&lt;p&gt;Files are created as: &lt;code&gt;{three-word-id}-{slug}.md&lt;/code&gt;&lt;/p&gt;</description></item><item><title>Frontend Dev Guidelines</title><link>https://agentskill.wiki/en/skills/frontend-dev-guidelines/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/frontend-dev-guidelines/</guid><description>&lt;h1 id="frontend-development-guidelines"&gt;Frontend Development Guidelines&lt;/h1&gt;
+&lt;p&gt;Files are created as: &lt;code&gt;{three-word-id}-{slug}.md&lt;/code&gt;&lt;/p&gt;</description></item><item><title>Frontend Dev Guidelines</title><link>https://agentskill.wiki/skills/frontend-dev-guidelines/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/frontend-dev-guidelines/</guid><description>&lt;h1 id="frontend-development-guidelines"&gt;Frontend Development Guidelines&lt;/h1&gt;
 &lt;h2 id="purpose"&gt;Purpose&lt;/h2&gt;
 &lt;p&gt;Comprehensive guide for modern React development, emphasizing Suspense-based data fetching, lazy loading, proper file organization, and performance optimization.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
@@ -477,7 +477,7 @@ It provides a simple, consistent API for managing errors and results without thr
 &lt;hr&gt;
 &lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;
 &lt;h3 id="new-component-checklist"&gt;New Component Checklist&lt;/h3&gt;
-&lt;p&gt;Creating a component? Follow this checklist:&lt;/p&gt;</description></item><item><title>Hula Skill</title><link>https://agentskill.wiki/en/skills/hula-skill/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/hula-skill/</guid><description>&lt;h1 id="hula-skill"&gt;HuLa Skill&lt;/h1&gt;
+&lt;p&gt;Creating a component? Follow this checklist:&lt;/p&gt;</description></item><item><title>Hula Skill</title><link>https://agentskill.wiki/skills/hula-skill/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/hula-skill/</guid><description>&lt;h1 id="hula-skill"&gt;HuLa Skill&lt;/h1&gt;
 &lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;Enable consistent changes across the HuLa frontend, backend, full-stack flows, and build/release tasks with repo-specific conventions and resources.&lt;/p&gt;
 &lt;h2 id="activation-gate"&gt;Activation Gate&lt;/h2&gt;
@@ -500,7 +500,7 @@ Confirm platform (desktop or mobile), target area (view/component/store/command)
 &lt;/ul&gt;
 &lt;h2 id="scripts"&gt;Scripts&lt;/h2&gt;
 &lt;p&gt;Use &lt;code&gt;scripts/hula_summary.py&lt;/code&gt; for quick repo context (views/stores counts and paths).
-Use &lt;code&gt;scripts/hula_tauri_map.py&lt;/code&gt; to list Tauri commands and frontend invoke usage.&lt;/p&gt;</description></item><item><title>Nextjs 15</title><link>https://agentskill.wiki/en/skills/nextjs-15/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/nextjs-15/</guid><description>&lt;h2 id="app-router-file-conventions"&gt;App Router File Conventions&lt;/h2&gt;
+Use &lt;code&gt;scripts/hula_tauri_map.py&lt;/code&gt; to list Tauri commands and frontend invoke usage.&lt;/p&gt;</description></item><item><title>Nextjs 15</title><link>https://agentskill.wiki/skills/nextjs-15/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/nextjs-15/</guid><description>&lt;h2 id="app-router-file-conventions"&gt;App Router File Conventions&lt;/h2&gt;
 &lt;pre tabindex="0"&gt;&lt;code&gt;app/
 ├── layout.tsx # Root layout (required)
 ├── page.tsx # Home page (/)
@@ -605,7 +605,7 @@ Use &lt;code&gt;scripts/hula_tauri_map.py&lt;/code&gt; to list Tauri commands an
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;4&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;export&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;async&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;function&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;getSecretData() {&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;5&lt;/span&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;return&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;db&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;secrets&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;findMany&lt;/span&gt;();
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;6&lt;/span&gt;&lt;span&gt;}
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Nextjs App Router Patterns</title><link>https://agentskill.wiki/en/skills/nextjs-app-router-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/nextjs-app-router-patterns/</guid><description>&lt;h1 id="nextjs-app-router-patterns"&gt;Next.js App Router Patterns&lt;/h1&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Nextjs App Router Patterns</title><link>https://agentskill.wiki/skills/nextjs-app-router-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/nextjs-app-router-patterns/</guid><description>&lt;h1 id="nextjs-app-router-patterns"&gt;Next.js App Router Patterns&lt;/h1&gt;
 &lt;p&gt;Comprehensive patterns for Next.js 14+ App Router architecture, Server Components, and modern full-stack React development.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -1120,7 +1120,7 @@ Use &lt;code&gt;scripts/hula_tauri_map.py&lt;/code&gt; to list Tauri commands an
 &lt;li&gt;&lt;a href="https://nextjs.org/docs/app"&gt;Next.js App Router Documentation&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/reactjs/rfcs/blob/main/text/0188-server-components.md"&gt;Server Components RFC&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://vercel.com/templates/next.js"&gt;Vercel Templates&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Nodejs Backend Patterns</title><link>https://agentskill.wiki/en/skills/nodejs-backend-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/nodejs-backend-patterns/</guid><description>&lt;h1 id="nodejs-backend-patterns"&gt;Node.js Backend Patterns&lt;/h1&gt;
+&lt;/ul&gt;</description></item><item><title>Nodejs Backend Patterns</title><link>https://agentskill.wiki/skills/nodejs-backend-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/nodejs-backend-patterns/</guid><description>&lt;h1 id="nodejs-backend-patterns"&gt;Node.js Backend Patterns&lt;/h1&gt;
 &lt;p&gt;Comprehensive guidance for building scalable, maintainable, and production-ready Node.js backend applications with modern frameworks, architectural patterns, and best practices.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -1135,7 +1135,7 @@ Use &lt;code&gt;scripts/hula_tauri_map.py&lt;/code&gt; to list Tauri commands an
 &lt;/ul&gt;
 &lt;h2 id="core-frameworks"&gt;Core Frameworks&lt;/h2&gt;
 &lt;h3 id="expressjs---minimalist-framework"&gt;Express.js - Minimalist Framework&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Basic Setup:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Payload</title><link>https://agentskill.wiki/en/skills/payload/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/payload/</guid><description>&lt;h1 id="payload-cms-application-development"&gt;Payload CMS Application Development&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Basic Setup:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Payload</title><link>https://agentskill.wiki/skills/payload/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/payload/</guid><description>&lt;h1 id="payload-cms-application-development"&gt;Payload CMS Application Development&lt;/h1&gt;
 &lt;p&gt;Payload is a Next.js native CMS with TypeScript-first architecture, providing admin panel, database management, REST/GraphQL APIs, authentication, and file storage.&lt;/p&gt;
 &lt;h2 id="quick-reference"&gt;Quick Reference&lt;/h2&gt;
 &lt;table&gt;
@@ -1333,7 +1333,7 @@ Use &lt;code&gt;scripts/hula_tauri_map.py&lt;/code&gt; to list Tauri commands an
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;14&lt;/span&gt;&lt;span&gt; ],
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;15&lt;/span&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;timestamps&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;true&lt;/span&gt;,
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;16&lt;/span&gt;&lt;span&gt;}
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;For more collection patterns (auth, upload, drafts, live preview), see &lt;a href="reference/COLLECTIONS.md"&gt;COLLECTIONS.md&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Prowler Ui</title><link>https://agentskill.wiki/en/skills/prowler-ui/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/prowler-ui/</guid><description>&lt;h2 id="related-generic-skills"&gt;Related Generic Skills&lt;/h2&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;For more collection patterns (auth, upload, drafts, live preview), see &lt;a href="reference/COLLECTIONS.md"&gt;COLLECTIONS.md&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Prowler Ui</title><link>https://agentskill.wiki/skills/prowler-ui/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/prowler-ui/</guid><description>&lt;h2 id="related-generic-skills"&gt;Related Generic Skills&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;typescript&lt;/code&gt; - Const types, flat interfaces&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;react-19&lt;/code&gt; - No useMemo/useCallback, compiler&lt;/li&gt;
@@ -1411,7 +1411,7 @@ Recharts/library? → CHART_COLORS constant + var()
 ├── tests/ # Playwright E2E
 └── styles/ # Global CSS
 &lt;/code&gt;&lt;/pre&gt;&lt;h2 id="recharts-special-case"&gt;Recharts (Special Case)&lt;/h2&gt;
-&lt;p&gt;For Recharts props that don&amp;rsquo;t accept className:&lt;/p&gt;</description></item><item><title>React 19</title><link>https://agentskill.wiki/en/skills/react-19/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/react-19/</guid><description>&lt;h2 id="no-manual-memoization-required"&gt;No Manual Memoization (REQUIRED)&lt;/h2&gt;
+&lt;p&gt;For Recharts props that don&amp;rsquo;t accept className:&lt;/p&gt;</description></item><item><title>React 19</title><link>https://agentskill.wiki/skills/react-19/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/react-19/</guid><description>&lt;h2 id="no-manual-memoization-required"&gt;No Manual Memoization (REQUIRED)&lt;/h2&gt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-typescript" data-lang="typescript"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;// ✅ React Compiler handles optimization automatically
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 2&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;function&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;Component&lt;/span&gt;({ &lt;span style="color:#a6e22e"&gt;items&lt;/span&gt; }) {
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 3&lt;/span&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;const&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;filtered&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;items&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;filter&lt;/span&gt;(&lt;span style="color:#a6e22e"&gt;x&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&amp;gt;&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;x&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;active&lt;/span&gt;);
@@ -1498,7 +1498,7 @@ Recharts/library? → CHART_COLORS constant + var()
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;5&lt;/span&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;6&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;// ❌ Old way (unnecessary now)
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;7&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;const&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;Input&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;forwardRef&lt;/span&gt;((&lt;span style="color:#a6e22e"&gt;props&lt;/span&gt;, &lt;span style="color:#a6e22e"&gt;ref&lt;/span&gt;) &lt;span style="color:#f92672"&gt;=&amp;gt;&lt;/span&gt; &amp;lt;&lt;span style="color:#f92672"&gt;input&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;ref&lt;/span&gt;&lt;span style="color:#f92672"&gt;=&lt;/span&gt;{&lt;span style="color:#a6e22e"&gt;ref&lt;/span&gt;} {&lt;span style="color:#a6e22e"&gt;...props&lt;/span&gt;} /&amp;gt;);
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>React Modernization</title><link>https://agentskill.wiki/en/skills/react-modernization/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/react-modernization/</guid><description>&lt;h1 id="react-modernization"&gt;React Modernization&lt;/h1&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>React Modernization</title><link>https://agentskill.wiki/skills/react-modernization/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/react-modernization/</guid><description>&lt;h1 id="react-modernization"&gt;React Modernization&lt;/h1&gt;
 &lt;p&gt;Master React version upgrades, class to hooks migration, concurrent features adoption, and codemods for automated transformation.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -1512,7 +1512,7 @@ Recharts/library? → CHART_COLORS constant + var()
 &lt;/ul&gt;
 &lt;h2 id="version-upgrade-path"&gt;Version Upgrade Path&lt;/h2&gt;
 &lt;h3 id="react-16--17--18"&gt;React 16 → 17 → 18&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Breaking Changes by Version:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>React Native Architecture</title><link>https://agentskill.wiki/en/skills/react-native-architecture/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/react-native-architecture/</guid><description>&lt;h1 id="react-native-architecture"&gt;React Native Architecture&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Breaking Changes by Version:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>React Native Architecture</title><link>https://agentskill.wiki/skills/react-native-architecture/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/react-native-architecture/</guid><description>&lt;h1 id="react-native-architecture"&gt;React Native Architecture&lt;/h1&gt;
 &lt;p&gt;Production-ready patterns for React Native development with Expo, including navigation, state management, native modules, and offline-first architecture.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -2160,7 +2160,7 @@ Recharts/library? → CHART_COLORS constant + var()
 &lt;li&gt;&lt;a href="https://docs.expo.dev/router/introduction/"&gt;Expo Router&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://reactnative.dev/docs/performance"&gt;React Native Performance&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://shopify.github.io/flash-list/"&gt;FlashList&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>React State Management</title><link>https://agentskill.wiki/en/skills/react-state-management/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/react-state-management/</guid><description>&lt;h1 id="react-state-management"&gt;React State Management&lt;/h1&gt;
+&lt;/ul&gt;</description></item><item><title>React State Management</title><link>https://agentskill.wiki/skills/react-state-management/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/react-state-management/</guid><description>&lt;h1 id="react-state-management"&gt;React State Management&lt;/h1&gt;
 &lt;p&gt;Comprehensive guide to modern React state management patterns, from local component state to global stores and server state synchronization.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -2577,7 +2577,7 @@ Atomic/granular updates → Jotai
 &lt;li&gt;&lt;a href="https://github.com/pmndrs/zustand"&gt;Zustand GitHub&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://jotai.org/"&gt;Jotai Documentation&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://tanstack.com/query"&gt;TanStack Query&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Senior Frontend</title><link>https://agentskill.wiki/en/skills/senior-frontend/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/senior-frontend/</guid><description>&lt;h1 id="senior-frontend"&gt;Senior Frontend&lt;/h1&gt;
+&lt;/ul&gt;</description></item><item><title>Senior Frontend</title><link>https://agentskill.wiki/skills/senior-frontend/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/senior-frontend/</guid><description>&lt;h1 id="senior-frontend"&gt;Senior Frontend&lt;/h1&gt;
 &lt;p&gt;Complete toolkit for senior frontend with modern tools and best practices.&lt;/p&gt;
 &lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;
 &lt;h3 id="main-capabilities"&gt;Main Capabilities&lt;/h3&gt;
@@ -2592,7 +2592,7 @@ Atomic/granular updates → Jotai
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;8&lt;/span&gt;&lt;span&gt;python scripts/frontend_scaffolder.py &lt;span style="color:#f92672"&gt;[&lt;/span&gt;options&lt;span style="color:#f92672"&gt;]&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="core-capabilities"&gt;Core Capabilities&lt;/h2&gt;
 &lt;h3 id="1-component-generator"&gt;1. Component Generator&lt;/h3&gt;
-&lt;p&gt;Automated tool for component generator tasks.&lt;/p&gt;</description></item><item><title>Tailwind 4</title><link>https://agentskill.wiki/en/skills/tailwind-4/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/tailwind-4/</guid><description>&lt;h2 id="styling-decision-tree"&gt;Styling Decision Tree&lt;/h2&gt;
+&lt;p&gt;Automated tool for component generator tasks.&lt;/p&gt;</description></item><item><title>Tailwind 4</title><link>https://agentskill.wiki/skills/tailwind-4/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/tailwind-4/</guid><description>&lt;h2 id="styling-decision-tree"&gt;Styling Decision Tree&lt;/h2&gt;
 &lt;pre tabindex="0"&gt;&lt;code&gt;Tailwind class exists? → className=&amp;#34;...&amp;#34;
 Dynamic value? → style={{ width: `${x}%` }}
 Conditional styles? → cn(&amp;#34;base&amp;#34;, condition &amp;amp;&amp;amp; &amp;#34;variant&amp;#34;)
@@ -2643,7 +2643,7 @@ Library can&amp;#39;t use class?→ style prop with var() constants
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;4&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;// ✅ Just use className directly
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;5&lt;/span&gt;&lt;span&gt;&amp;lt;&lt;span style="color:#f92672"&gt;div&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;className&lt;/span&gt;&lt;span style="color:#f92672"&gt;=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;flex items-center gap-2&amp;#34;&lt;/span&gt; /&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="style-constants-for-chartslibraries"&gt;Style Constants for Charts/Libraries&lt;/h2&gt;
-&lt;p&gt;When libraries don&amp;rsquo;t accept className (like Recharts):&lt;/p&gt;</description></item><item><title>Trigger Dev Tasks</title><link>https://agentskill.wiki/en/skills/trigger-dev-tasks/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/trigger-dev-tasks/</guid><description>&lt;h1 id="triggerdev-task-expert"&gt;Trigger.dev Task Expert&lt;/h1&gt;
+&lt;p&gt;When libraries don&amp;rsquo;t accept className (like Recharts):&lt;/p&gt;</description></item><item><title>Trigger Dev Tasks</title><link>https://agentskill.wiki/skills/trigger-dev-tasks/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/trigger-dev-tasks/</guid><description>&lt;h1 id="triggerdev-task-expert"&gt;Trigger.dev Task Expert&lt;/h1&gt;
 &lt;p&gt;You are an expert Trigger.dev developer specializing in building production-grade background job systems. Tasks deployed to Trigger.dev run in Node.js 21+ and use the &lt;code&gt;@trigger.dev/sdk&lt;/code&gt; package.&lt;/p&gt;
 &lt;h2 id="critical-rules"&gt;Critical Rules&lt;/h2&gt;
 &lt;ol&gt;
@@ -2709,7 +2709,7 @@ Library can&amp;#39;t use class?→ style prop with var() constants
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;14&lt;/span&gt;&lt;span&gt; },
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;15&lt;/span&gt;&lt;span&gt;});
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="idempotency-critical-for-retries"&gt;Idempotency (Critical for Retries)&lt;/h2&gt;
-&lt;p&gt;Always use idempotency keys when triggering tasks from inside other tasks:&lt;/p&gt;</description></item><item><title>Typescript</title><link>https://agentskill.wiki/en/skills/typescript/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/typescript/</guid><description>&lt;h2 id="const-types-pattern-required"&gt;Const Types Pattern (REQUIRED)&lt;/h2&gt;
+&lt;p&gt;Always use idempotency keys when triggering tasks from inside other tasks:&lt;/p&gt;</description></item><item><title>Typescript</title><link>https://agentskill.wiki/skills/typescript/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/typescript/</guid><description>&lt;h2 id="const-types-pattern-required"&gt;Const Types Pattern (REQUIRED)&lt;/h2&gt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-typescript" data-lang="typescript"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;// ✅ ALWAYS: Create const object first, then extract type
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 2&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;const&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;STATUS&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; {
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 3&lt;/span&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;ACTIVE&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;active&amp;#34;&lt;/span&gt;,
@@ -2721,7 +2721,7 @@ Library can&amp;#39;t use class?→ style prop with var() constants
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 9&lt;/span&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;10&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;// ❌ NEVER: Direct union types
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;11&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;Status&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;active&amp;#34;&lt;/span&gt; &lt;span style="color:#f92672"&gt;|&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;inactive&amp;#34;&lt;/span&gt; &lt;span style="color:#f92672"&gt;|&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;pending&amp;#34;&lt;/span&gt;;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Why?&lt;/strong&gt; Single source of truth, runtime values, autocomplete, easier refactoring.&lt;/p&gt;</description></item><item><title>Typescript Advanced Types</title><link>https://agentskill.wiki/en/skills/typescript-advanced-types/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/typescript-advanced-types/</guid><description>&lt;h1 id="typescript-advanced-types"&gt;TypeScript Advanced Types&lt;/h1&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Why?&lt;/strong&gt; Single source of truth, runtime values, autocomplete, easier refactoring.&lt;/p&gt;</description></item><item><title>Typescript Advanced Types</title><link>https://agentskill.wiki/skills/typescript-advanced-types/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/typescript-advanced-types/</guid><description>&lt;h1 id="typescript-advanced-types"&gt;TypeScript Advanced Types&lt;/h1&gt;
 &lt;p&gt;Comprehensive guidance for mastering TypeScript&amp;rsquo;s advanced type system including generics, conditional types, mapped types, template literal types, and utility types for building robust, type-safe applications.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -2736,7 +2736,7 @@ Library can&amp;#39;t use class?→ style prop with var() constants
 &lt;/ul&gt;
 &lt;h2 id="core-concepts"&gt;Core Concepts&lt;/h2&gt;
 &lt;h3 id="1-generics"&gt;1. Generics&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Purpose:&lt;/strong&gt; Create reusable, type-flexible components while maintaining type safety.&lt;/p&gt;</description></item><item><title>Typescript Review</title><link>https://agentskill.wiki/en/skills/typescript-review/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/typescript-review/</guid><description>&lt;h1 id="typescriptjavascript-code-review-skill"&gt;TypeScript/JavaScript Code Review Skill&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Purpose:&lt;/strong&gt; Create reusable, type-flexible components while maintaining type safety.&lt;/p&gt;</description></item><item><title>Typescript Review</title><link>https://agentskill.wiki/skills/typescript-review/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/typescript-review/</guid><description>&lt;h1 id="typescriptjavascript-code-review-skill"&gt;TypeScript/JavaScript Code Review Skill&lt;/h1&gt;
 &lt;p&gt;@./../_shared/typescript-commands.md&lt;/p&gt;
 &lt;h2 id="code-review-guidelines"&gt;Code Review Guidelines&lt;/h2&gt;
 &lt;p&gt;Review pull requests with a focus on:&lt;/p&gt;
@@ -2746,11 +2746,11 @@ Library can&amp;#39;t use class?→ style prop with var() constants
 &lt;li&gt;Clear and correct JSDoc comments&lt;/li&gt;
 &lt;li&gt;Type safety and proper TypeScript usage&lt;/li&gt;
 &lt;li&gt;React best practices (when applicable)&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Typescript Write</title><link>https://agentskill.wiki/en/skills/typescript-write/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/typescript-write/</guid><description>&lt;h1 id="typescriptjavascript-development-skill"&gt;TypeScript/JavaScript Development Skill&lt;/h1&gt;
+&lt;/ul&gt;</description></item><item><title>Typescript Write</title><link>https://agentskill.wiki/skills/typescript-write/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/typescript-write/</guid><description>&lt;h1 id="typescriptjavascript-development-skill"&gt;TypeScript/JavaScript Development Skill&lt;/h1&gt;
 &lt;p&gt;@./../_shared/development-workflow.md
-@./../_shared/typescript-commands.md&lt;/p&gt;</description></item><item><title>Use Gunshi Cli</title><link>https://agentskill.wiki/en/skills/use-gunshi-cli/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/use-gunshi-cli/</guid><description>&lt;p&gt;use gunshi library for creating cli instead of other libraries including cac, yargs, commander, etc.
+@./../_shared/typescript-commands.md&lt;/p&gt;</description></item><item><title>Use Gunshi Cli</title><link>https://agentskill.wiki/skills/use-gunshi-cli/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/use-gunshi-cli/</guid><description>&lt;p&gt;use gunshi library for creating cli instead of other libraries including cac, yargs, commander, etc.
 Gunshi is a modern javascript command-line library&lt;/p&gt;
-&lt;p&gt;For more information, read the gunshi API docs in &lt;code&gt;node_modules/@gunshi/docs/**.md&lt;/code&gt;.&lt;/p&gt;</description></item><item><title>Vscode Ext Commands</title><link>https://agentskill.wiki/en/skills/vscode-ext-commands/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/vscode-ext-commands/</guid><description>&lt;h1 id="vs-code-extension-command-contribution"&gt;VS Code extension command contribution&lt;/h1&gt;
+&lt;p&gt;For more information, read the gunshi API docs in &lt;code&gt;node_modules/@gunshi/docs/**.md&lt;/code&gt;.&lt;/p&gt;</description></item><item><title>Vscode Ext Commands</title><link>https://agentskill.wiki/skills/vscode-ext-commands/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/vscode-ext-commands/</guid><description>&lt;h1 id="vs-code-extension-command-contribution"&gt;VS Code extension command contribution&lt;/h1&gt;
 &lt;p&gt;This skill helps you to contribute commands in VS Code extensions&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to use this skill&lt;/h2&gt;
 &lt;p&gt;Use this skill when you need to:&lt;/p&gt;
@@ -2761,7 +2761,7 @@ Gunshi is a modern javascript command-line library&lt;/p&gt;
 &lt;p&gt;VS Code commands must always define a &lt;code&gt;title&lt;/code&gt;, independent of its category, visibility or location. We use a few patterns for each &amp;ldquo;kind&amp;rdquo; of command, with some characteristics, described below:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;Regular commands: By default, all commands should be accessible in the Command Palette, must define a &lt;code&gt;category&lt;/code&gt;, and don&amp;rsquo;t need an &lt;code&gt;icon&lt;/code&gt;, unless the command will be used in the Side Bar.&lt;/p&gt;</description></item><item><title>Vscode Ext Localization</title><link>https://agentskill.wiki/en/skills/vscode-ext-localization/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/vscode-ext-localization/</guid><description>&lt;h1 id="vs-code-extension-localization"&gt;VS Code extension localization&lt;/h1&gt;
+&lt;p&gt;Regular commands: By default, all commands should be accessible in the Command Palette, must define a &lt;code&gt;category&lt;/code&gt;, and don&amp;rsquo;t need an &lt;code&gt;icon&lt;/code&gt;, unless the command will be used in the Side Bar.&lt;/p&gt;</description></item><item><title>Vscode Ext Localization</title><link>https://agentskill.wiki/skills/vscode-ext-localization/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/vscode-ext-localization/</guid><description>&lt;h1 id="vs-code-extension-localization"&gt;VS Code extension localization&lt;/h1&gt;
 &lt;p&gt;This skill helps you localize every aspect of VS Code extensions&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to use this skill&lt;/h2&gt;
 &lt;p&gt;Use this skill when you need to:&lt;/p&gt;
@@ -2770,7 +2770,7 @@ Gunshi is a modern javascript command-line library&lt;/p&gt;
 &lt;li&gt;Localize new or existing messages or other string resources contained in extension source code that are displayed to the end user&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h1 id="instructions"&gt;Instructions&lt;/h1&gt;
-&lt;p&gt;VS Code localization is composed by three different approaches, depending on the resource that is being localized. When a new localizable resource is created or updated, the corresponding localization for all currently available languages must be created/updated.&lt;/p&gt;</description></item><item><title>Web Artifacts Builder</title><link>https://agentskill.wiki/en/skills/web-artifacts-builder/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/web-artifacts-builder/</guid><description>&lt;h1 id="web-artifacts-builder"&gt;Web Artifacts Builder&lt;/h1&gt;
+&lt;p&gt;VS Code localization is composed by three different approaches, depending on the resource that is being localized. When a new localizable resource is created or updated, the corresponding localization for all currently available languages must be created/updated.&lt;/p&gt;</description></item><item><title>Web Artifacts Builder</title><link>https://agentskill.wiki/skills/web-artifacts-builder/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/web-artifacts-builder/</guid><description>&lt;h1 id="web-artifacts-builder"&gt;Web Artifacts Builder&lt;/h1&gt;
 &lt;p&gt;To build powerful frontend claude.ai artifacts, follow these steps:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Initialize the frontend repo using &lt;code&gt;scripts/init-artifact.sh&lt;/code&gt;&lt;/li&gt;
@@ -2781,7 +2781,7 @@ Gunshi is a modern javascript command-line library&lt;/p&gt;
 &lt;/ol&gt;
 &lt;p&gt;&lt;strong&gt;Stack&lt;/strong&gt;: React 18 + TypeScript + Vite + Parcel (bundling) + Tailwind CSS + shadcn/ui&lt;/p&gt;
 &lt;h2 id="design--style-guidelines"&gt;Design &amp;amp; Style Guidelines&lt;/h2&gt;
-&lt;p&gt;VERY IMPORTANT: To avoid what is often referred to as &amp;ldquo;AI slop&amp;rdquo;, avoid using excessive centered layouts, purple gradients, uniform rounded corners, and Inter font.&lt;/p&gt;</description></item><item><title>Zustand 5</title><link>https://agentskill.wiki/en/skills/zustand-5/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/zustand-5/</guid><description>&lt;h2 id="basic-store"&gt;Basic Store&lt;/h2&gt;
+&lt;p&gt;VERY IMPORTANT: To avoid what is often referred to as &amp;ldquo;AI slop&amp;rdquo;, avoid using excessive centered layouts, purple gradients, uniform rounded corners, and Inter font.&lt;/p&gt;</description></item><item><title>Zustand 5</title><link>https://agentskill.wiki/skills/zustand-5/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/zustand-5/</guid><description>&lt;h2 id="basic-store"&gt;Basic Store&lt;/h2&gt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-typescript" data-lang="typescript"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;import&lt;/span&gt; { &lt;span style="color:#a6e22e"&gt;create&lt;/span&gt; } &lt;span style="color:#66d9ef"&gt;from&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;zustand&amp;#34;&lt;/span&gt;;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 2&lt;/span&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 3&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;interface&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;CounterStore&lt;/span&gt; {

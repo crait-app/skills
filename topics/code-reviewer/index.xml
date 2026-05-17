@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Code Reviewer on Agent Skills Hub</title><link>https://agentskill.wiki/topics/code-reviewer/</link><description>Recent content in Code Reviewer on Agent Skills Hub</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/topics/code-reviewer/index.xml" rel="self" type="application/rss+xml"/><item><title>Agent Review</title><link>https://agentskill.wiki/en/skills/agent-review/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/agent-review/</guid><description>&lt;h1 id="agent-review"&gt;Agent Review&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Code Reviewer on Agent Skills Hub</title><link>https://agentskill.wiki/topics/code-reviewer/</link><description>Recent content in Code Reviewer on Agent Skills Hub</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/topics/code-reviewer/index.xml" rel="self" type="application/rss+xml"/><item><title>Agent Review</title><link>https://agentskill.wiki/skills/agent-review/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/agent-review/</guid><description>&lt;h1 id="agent-review"&gt;Agent Review&lt;/h1&gt;
 &lt;p&gt;Get feedback from an external AI agent. Useful for code review, architecture decisions, or getting a second opinion.&lt;/p&gt;
 &lt;h2 id="running-commands"&gt;Running Commands&lt;/h2&gt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;echo &lt;span style="color:#e6db74"&gt;&amp;#34;code or prompt&amp;#34;&lt;/span&gt; | node .claude/skills/agent-review/query.mjs &lt;span style="color:#f92672"&gt;[&lt;/span&gt;options&lt;span style="color:#f92672"&gt;]&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;Your question&amp;#34;&lt;/span&gt;
@@ -99,7 +99,7 @@
  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;Anthropic models route through Claude Agent SDK (uses your Claude subscription).
-Other models route through OpenRouter API (requires &lt;code&gt;OPENROUTER_API_KEY&lt;/code&gt;).&lt;/p&gt;</description></item><item><title>Clojure Review</title><link>https://agentskill.wiki/en/skills/clojure-review/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/clojure-review/</guid><description>&lt;h1 id="clojure-code-review-skill"&gt;Clojure Code Review Skill&lt;/h1&gt;
+Other models route through OpenRouter API (requires &lt;code&gt;OPENROUTER_API_KEY&lt;/code&gt;).&lt;/p&gt;</description></item><item><title>Clojure Review</title><link>https://agentskill.wiki/skills/clojure-review/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/clojure-review/</guid><description>&lt;h1 id="clojure-code-review-skill"&gt;Clojure Code Review Skill&lt;/h1&gt;
 &lt;p&gt;@./../_shared/clojure-style-guide.md
 @./../_shared/clojure-commands.md&lt;/p&gt;
 &lt;h2 id="review-guidelines"&gt;Review guidelines&lt;/h2&gt;
@@ -115,7 +115,7 @@ Other models route through OpenRouter API (requires &lt;code&gt;OPENROUTER_API_K
 &lt;li&gt;Do not post comments confirming things &amp;ldquo;look good&amp;rdquo; or telling them they did something correctly&lt;/li&gt;
 &lt;li&gt;Only post comments about style violations or potential issues&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Example bad code review comments to avoid:&lt;/p&gt;</description></item><item><title>Code Review</title><link>https://agentskill.wiki/en/skills/code-review/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/code-review/</guid><description>&lt;h1 id="code-review-skill"&gt;Code Review Skill&lt;/h1&gt;
+&lt;p&gt;Example bad code review comments to avoid:&lt;/p&gt;</description></item><item><title>Code Review</title><link>https://agentskill.wiki/skills/code-review/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/code-review/</guid><description>&lt;h1 id="code-review-skill"&gt;Code Review Skill&lt;/h1&gt;
 &lt;p&gt;You now have expertise in conducting comprehensive code reviews. Follow this structured approach:&lt;/p&gt;
 &lt;h2 id="review-checklist"&gt;Review Checklist&lt;/h2&gt;
 &lt;h3 id="1-security-critical"&gt;1. Security (Critical)&lt;/h3&gt;
@@ -134,7 +134,7 @@ Other models route through OpenRouter API (requires &lt;code&gt;OPENROUTER_API_K
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;4&lt;/span&gt;&lt;span&gt;cargo audit &lt;span style="color:#75715e"&gt;# Rust&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;5&lt;/span&gt;&lt;span&gt;grep -r &lt;span style="color:#e6db74"&gt;&amp;#34;password\|secret\|api_key&amp;#34;&lt;/span&gt; --include&lt;span style="color:#f92672"&gt;=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;*.py&amp;#34;&lt;/span&gt; --include&lt;span style="color:#f92672"&gt;=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;*.js&amp;#34;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="2-correctness"&gt;2. Correctness&lt;/h3&gt;
-&lt;p&gt;Check for:&lt;/p&gt;</description></item><item><title>Code Review Excellence</title><link>https://agentskill.wiki/en/skills/code-review-excellence/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/code-review-excellence/</guid><description>&lt;h1 id="code-review-excellence"&gt;Code Review Excellence&lt;/h1&gt;
+&lt;p&gt;Check for:&lt;/p&gt;</description></item><item><title>Code Review Excellence</title><link>https://agentskill.wiki/skills/code-review-excellence/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/code-review-excellence/</guid><description>&lt;h1 id="code-review-excellence"&gt;Code Review Excellence&lt;/h1&gt;
 &lt;p&gt;Transform code reviews from gatekeeping to knowledge sharing through constructive feedback, systematic analysis, and collaborative improvement.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -149,7 +149,7 @@ Other models route through OpenRouter API (requires &lt;code&gt;OPENROUTER_API_K
 &lt;/ul&gt;
 &lt;h2 id="core-principles"&gt;Core Principles&lt;/h2&gt;
 &lt;h3 id="1-the-review-mindset"&gt;1. The Review Mindset&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Goals of Code Review:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Code Reviewer</title><link>https://agentskill.wiki/en/skills/code-reviewer/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/code-reviewer/</guid><description>&lt;h1 id="code-reviewer"&gt;Code Reviewer&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Goals of Code Review:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Code Reviewer</title><link>https://agentskill.wiki/skills/code-reviewer/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/code-reviewer/</guid><description>&lt;h1 id="code-reviewer"&gt;Code Reviewer&lt;/h1&gt;
 &lt;p&gt;Complete toolkit for code reviewer with modern tools and best practices.&lt;/p&gt;
 &lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;
 &lt;h3 id="main-capabilities"&gt;Main Capabilities&lt;/h3&gt;
@@ -164,7 +164,7 @@ Other models route through OpenRouter API (requires &lt;code&gt;OPENROUTER_API_K
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;8&lt;/span&gt;&lt;span&gt;python scripts/review_report_generator.py &lt;span style="color:#f92672"&gt;[&lt;/span&gt;options&lt;span style="color:#f92672"&gt;]&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="core-capabilities"&gt;Core Capabilities&lt;/h2&gt;
 &lt;h3 id="1-pr-analyzer"&gt;1. Pr Analyzer&lt;/h3&gt;
-&lt;p&gt;Automated tool for pr analyzer tasks.&lt;/p&gt;</description></item><item><title>Deslop</title><link>https://agentskill.wiki/en/skills/deslop/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/deslop/</guid><description>&lt;h1 id="remove-ai-code-slop"&gt;Remove AI Code Slop&lt;/h1&gt;
+&lt;p&gt;Automated tool for pr analyzer tasks.&lt;/p&gt;</description></item><item><title>Deslop</title><link>https://agentskill.wiki/skills/deslop/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/deslop/</guid><description>&lt;h1 id="remove-ai-code-slop"&gt;Remove AI Code Slop&lt;/h1&gt;
 &lt;p&gt;Check the diff against main and remove all AI-generated slop introduced in this branch.&lt;/p&gt;
 &lt;h2 id="what-to-remove"&gt;What to Remove&lt;/h2&gt;
 &lt;ul&gt;
@@ -180,7 +180,7 @@ Other models route through OpenRouter API (requires &lt;code&gt;OPENROUTER_API_K
 &lt;li&gt;Review each changed file for slop patterns&lt;/li&gt;
 &lt;li&gt;Remove identified slop while preserving legitimate changes&lt;/li&gt;
 &lt;li&gt;Report a 1-3 sentence summary of what was changed&lt;/li&gt;
-&lt;/ol&gt;</description></item><item><title>Fetch Diff</title><link>https://agentskill.wiki/en/skills/fetch-diff/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/fetch-diff/</guid><description>&lt;h1 id="fetch-pr-diff"&gt;Fetch PR Diff&lt;/h1&gt;
+&lt;/ol&gt;</description></item><item><title>Fetch Diff</title><link>https://agentskill.wiki/skills/fetch-diff/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/fetch-diff/</guid><description>&lt;h1 id="fetch-pr-diff"&gt;Fetch PR Diff&lt;/h1&gt;
 &lt;p&gt;Fetches a pull request diff, filters out auto-generated files, and adds line numbers for easier review comment placement.&lt;/p&gt;
 &lt;h2 id="usage"&gt;Usage&lt;/h2&gt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;uv run skills fetch-diff &amp;lt;pr_url&amp;gt;
@@ -200,7 +200,7 @@ index abc123..def456 100644
  14 | +from new_module import NewClass
 14 15 |
 15 16 | def process_data(input_file: str) -&amp;gt; dict:
-&lt;/code&gt;&lt;/pre&gt;</description></item><item><title>Find Bugs</title><link>https://agentskill.wiki/en/skills/find-bugs/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/find-bugs/</guid><description>&lt;h1 id="find-bugs"&gt;Find Bugs&lt;/h1&gt;
+&lt;/code&gt;&lt;/pre&gt;</description></item><item><title>Find Bugs</title><link>https://agentskill.wiki/skills/find-bugs/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/find-bugs/</guid><description>&lt;h1 id="find-bugs"&gt;Find Bugs&lt;/h1&gt;
 &lt;p&gt;Review changes on this branch for bugs, security vulnerabilities, and code quality issues.&lt;/p&gt;
 &lt;h2 id="phase-1-complete-input-gathering"&gt;Phase 1: Complete Input Gathering&lt;/h2&gt;
 &lt;ol&gt;
@@ -233,7 +233,7 @@ index abc123..def456 100644
 &lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Business logic&lt;/strong&gt;: Edge cases, state machine violations, numeric overflow?&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="phase-4-verification"&gt;Phase 4: Verification&lt;/h2&gt;
-&lt;p&gt;For each potential issue:&lt;/p&gt;</description></item><item><title>Move Code Quality</title><link>https://agentskill.wiki/en/skills/move-code-quality/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/move-code-quality/</guid><description>&lt;h1 id="move-code-quality-checker"&gt;Move Code Quality Checker&lt;/h1&gt;
+&lt;p&gt;For each potential issue:&lt;/p&gt;</description></item><item><title>Move Code Quality</title><link>https://agentskill.wiki/skills/move-code-quality/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/move-code-quality/</guid><description>&lt;h1 id="move-code-quality-checker"&gt;Move Code Quality Checker&lt;/h1&gt;
 &lt;p&gt;You are an expert Move language code reviewer with deep knowledge of the Move Book Code Quality Checklist. Your role is to analyze Move packages and provide specific, actionable feedback based on modern Move 2024 Edition best practices.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;p&gt;Activate this skill when:&lt;/p&gt;
@@ -247,7 +247,7 @@ index abc123..def456 100644
 &lt;h3 id="phase-1-discovery"&gt;Phase 1: Discovery&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Detect Move project structure&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Reviewing Changes</title><link>https://agentskill.wiki/en/skills/reviewing-changes/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/reviewing-changes/</guid><description>&lt;h1 id="reviewing-changes---android-additions"&gt;Reviewing Changes - Android Additions&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Detect Move project structure&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Reviewing Changes</title><link>https://agentskill.wiki/skills/reviewing-changes/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/reviewing-changes/</guid><description>&lt;h1 id="reviewing-changes---android-additions"&gt;Reviewing Changes - Android Additions&lt;/h1&gt;
 &lt;p&gt;This skill provides Android-specific workflow additions that complement the base &lt;code&gt;bitwarden-code-reviewer&lt;/code&gt; agent standards.&lt;/p&gt;
 &lt;h2 id="instructions"&gt;Instructions&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;IMPORTANT&lt;/strong&gt;: Use structured thinking throughout your review process. Plan your analysis in &lt;code&gt;&amp;lt;thinking&amp;gt;&lt;/code&gt; tags before providing final feedback.&lt;/p&gt;
@@ -257,7 +257,7 @@ Determine if more context is available for the changes:
 1. Are there JIRA tickets or GitHub Issues mentioned in the PR title or body?
 2. Are there other GitHub pull requests mentioned in the PR title or body?
 &lt;/thinking&gt;
-&lt;p&gt;Retrieve any additional information linked to the pull request using available tools (JIRA MCP, GitHub API).&lt;/p&gt;</description></item><item><title>Typescript Review</title><link>https://agentskill.wiki/en/skills/typescript-review/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/typescript-review/</guid><description>&lt;h1 id="typescriptjavascript-code-review-skill"&gt;TypeScript/JavaScript Code Review Skill&lt;/h1&gt;
+&lt;p&gt;Retrieve any additional information linked to the pull request using available tools (JIRA MCP, GitHub API).&lt;/p&gt;</description></item><item><title>Typescript Review</title><link>https://agentskill.wiki/skills/typescript-review/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/typescript-review/</guid><description>&lt;h1 id="typescriptjavascript-code-review-skill"&gt;TypeScript/JavaScript Code Review Skill&lt;/h1&gt;
 &lt;p&gt;@./../_shared/typescript-commands.md&lt;/p&gt;
 &lt;h2 id="code-review-guidelines"&gt;Code Review Guidelines&lt;/h2&gt;
 &lt;p&gt;Review pull requests with a focus on:&lt;/p&gt;
@@ -267,7 +267,7 @@ Determine if more context is available for the changes:
 &lt;li&gt;Clear and correct JSDoc comments&lt;/li&gt;
 &lt;li&gt;Type safety and proper TypeScript usage&lt;/li&gt;
 &lt;li&gt;React best practices (when applicable)&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Woocommerce Code Review</title><link>https://agentskill.wiki/en/skills/woocommerce-code-review/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/woocommerce-code-review/</guid><description>&lt;h1 id="woocommerce-code-review"&gt;WooCommerce Code Review&lt;/h1&gt;
+&lt;/ul&gt;</description></item><item><title>Woocommerce Code Review</title><link>https://agentskill.wiki/skills/woocommerce-code-review/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/woocommerce-code-review/</guid><description>&lt;h1 id="woocommerce-code-review"&gt;WooCommerce Code Review&lt;/h1&gt;
 &lt;p&gt;Review code changes against WooCommerce coding standards and conventions.&lt;/p&gt;
 &lt;h2 id="critical-violations-to-flag"&gt;Critical Violations to Flag&lt;/h2&gt;
 &lt;h3 id="backend-php-code"&gt;Backend PHP Code&lt;/h3&gt;

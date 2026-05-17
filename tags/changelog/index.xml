@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Changelog on Agent Skills Hub</title><link>https://agentskill.wiki/tags/changelog/</link><description>Recent content in Changelog on Agent Skills Hub</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/changelog/index.xml" rel="self" type="application/rss+xml"/><item><title>Changelog</title><link>https://agentskill.wiki/en/skills/changelog/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/changelog/</guid><description>&lt;h1 id="changelog-maintenance"&gt;Changelog Maintenance&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Changelog on Agent Skills Hub</title><link>https://agentskill.wiki/tags/changelog/</link><description>Recent content in Changelog on Agent Skills Hub</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/changelog/index.xml" rel="self" type="application/rss+xml"/><item><title>Changelog</title><link>https://agentskill.wiki/skills/changelog/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/changelog/</guid><description>&lt;h1 id="changelog-maintenance"&gt;Changelog Maintenance&lt;/h1&gt;
 &lt;p&gt;You are a changelog maintenance specialist for the IdeaVim project. Your job is to keep the changelog (CHANGES.md) and build.gradle.kts changeNotes in sync with code changes.&lt;/p&gt;
 &lt;h2 id="historical-context"&gt;Historical Context&lt;/h2&gt;
 &lt;ul&gt;
@@ -35,7 +35,7 @@
 &lt;li&gt;Note the date of the last entry&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id="15-check-the-last-processed-commit-automated-workflow"&gt;1.5. Check the Last Processed Commit (Automated Workflow)&lt;/h3&gt;
-&lt;p&gt;When running via the GitHub Actions workflow, check if a last processed commit SHA is provided in the prompt.&lt;/p&gt;</description></item><item><title>Changelog Automation</title><link>https://agentskill.wiki/en/skills/changelog-automation/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/changelog-automation/</guid><description>&lt;h1 id="changelog-automation"&gt;Changelog Automation&lt;/h1&gt;
+&lt;p&gt;When running via the GitHub Actions workflow, check if a last processed commit SHA is provided in the prompt.&lt;/p&gt;</description></item><item><title>Changelog Automation</title><link>https://agentskill.wiki/skills/changelog-automation/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/changelog-automation/</guid><description>&lt;h1 id="changelog-automation"&gt;Changelog Automation&lt;/h1&gt;
 &lt;p&gt;Patterns and tools for automating changelog generation, release notes, and version management following industry standards.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -599,7 +599,7 @@ PATCH: Bug fixes (fix)
 &lt;li&gt;&lt;a href="https://semver.org/"&gt;Semantic Versioning&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://semantic-release.gitbook.io/"&gt;semantic-release&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://git-cliff.org/"&gt;git-cliff&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Changelog Generator</title><link>https://agentskill.wiki/en/skills/changelog-generator/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/changelog-generator/</guid><description>&lt;h1 id="changelog-generator"&gt;Changelog Generator&lt;/h1&gt;
+&lt;/ul&gt;</description></item><item><title>Changelog Generator</title><link>https://agentskill.wiki/skills/changelog-generator/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/changelog-generator/</guid><description>&lt;h1 id="changelog-generator"&gt;Changelog Generator&lt;/h1&gt;
 &lt;p&gt;This skill transforms technical git commits into polished, user-friendly changelogs that your customers and users will actually understand and appreciate.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -622,7 +622,7 @@ PATCH: Bug fixes (fix)
 &lt;/ol&gt;
 &lt;h2 id="how-to-use"&gt;How to Use&lt;/h2&gt;
 &lt;h3 id="basic-usage"&gt;Basic Usage&lt;/h3&gt;
-&lt;p&gt;From your project repository:&lt;/p&gt;</description></item><item><title>Generate Release Notes</title><link>https://agentskill.wiki/en/skills/generate-release-notes/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/generate-release-notes/</guid><description>&lt;h1 id="generate-release-notes-for-bit"&gt;Generate Release Notes for Bit&lt;/h1&gt;
+&lt;p&gt;From your project repository:&lt;/p&gt;</description></item><item><title>Generate Release Notes</title><link>https://agentskill.wiki/skills/generate-release-notes/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/generate-release-notes/</guid><description>&lt;h1 id="generate-release-notes-for-bit"&gt;Generate Release Notes for Bit&lt;/h1&gt;
 &lt;p&gt;This skill helps generate release notes for Bit following the established patterns and guidelines.&lt;/p&gt;
 &lt;h2 id="important-intermediate-files"&gt;Important: Intermediate Files&lt;/h2&gt;
 &lt;p&gt;All intermediate steps must be saved to &lt;code&gt;releases-docs/temp-files/&lt;/code&gt; for review. This folder is gitignored.&lt;/p&gt;
@@ -634,7 +634,7 @@ PATCH: Bug fixes (fix)
 &lt;h2 id="workflow"&gt;Workflow&lt;/h2&gt;
 &lt;p&gt;Follow these steps to generate release notes:&lt;/p&gt;
 &lt;h3 id="step-1-setup-temp-directory"&gt;Step 1: Setup Temp Directory&lt;/h3&gt;
-&lt;p&gt;First, ensure the temp directory exists:&lt;/p&gt;</description></item><item><title>Prowler Ci</title><link>https://agentskill.wiki/en/skills/prowler-ci/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/prowler-ci/</guid><description>&lt;h2 id="what-this-skill-covers"&gt;What this skill covers&lt;/h2&gt;
+&lt;p&gt;First, ensure the temp directory exists:&lt;/p&gt;</description></item><item><title>Prowler Ci</title><link>https://agentskill.wiki/skills/prowler-ci/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/prowler-ci/</guid><description>&lt;h2 id="what-this-skill-covers"&gt;What this skill covers&lt;/h2&gt;
 &lt;p&gt;Use this skill whenever you are:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Reading or changing GitHub Actions workflows under &lt;code&gt;.github/workflows/&lt;/code&gt;&lt;/li&gt;
@@ -662,7 +662,7 @@ PATCH: Bug fixes (fix)
 &lt;li&gt;If it&amp;rsquo;s secrets (TruffleHog): see section below.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id="trufflehog-secret-scanning"&gt;TruffleHog Secret Scanning&lt;/h2&gt;
-&lt;p&gt;TruffleHog scans for leaked secrets. Common false positives in test files:&lt;/p&gt;</description></item><item><title>Prowler Pr</title><link>https://agentskill.wiki/en/skills/prowler-pr/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/prowler-pr/</guid><description>&lt;h2 id="pr-creation-process"&gt;PR Creation Process&lt;/h2&gt;
+&lt;p&gt;TruffleHog scans for leaked secrets. Common false positives in test files:&lt;/p&gt;</description></item><item><title>Prowler Pr</title><link>https://agentskill.wiki/skills/prowler-pr/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/prowler-pr/</guid><description>&lt;h2 id="pr-creation-process"&gt;PR Creation Process&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;Analyze changes&lt;/strong&gt;: &lt;code&gt;git diff main...HEAD&lt;/code&gt; to understand ALL commits&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Determine affected components&lt;/strong&gt;: SDK, API, UI, MCP, Docs&lt;/li&gt;

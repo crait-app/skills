@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Content Creator on Agent Skills Hub</title><link>https://agentskill.wiki/topics/content-creator/</link><description>Recent content in Content Creator on Agent Skills Hub</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/topics/content-creator/index.xml" rel="self" type="application/rss+xml"/><item><title>Brand Guidelines</title><link>https://agentskill.wiki/en/skills/brand-guidelines/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/brand-guidelines/</guid><description>&lt;h1 id="anthropic-brand-styling"&gt;Anthropic Brand Styling&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Content Creator on Agent Skills Hub</title><link>https://agentskill.wiki/topics/content-creator/</link><description>Recent content in Content Creator on Agent Skills Hub</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/topics/content-creator/index.xml" rel="self" type="application/rss+xml"/><item><title>Brand Guidelines</title><link>https://agentskill.wiki/skills/brand-guidelines/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/brand-guidelines/</guid><description>&lt;h1 id="anthropic-brand-styling"&gt;Anthropic Brand Styling&lt;/h1&gt;
 &lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;To access Anthropic&amp;rsquo;s official brand identity and style resources, use this skill.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Keywords&lt;/strong&gt;: branding, corporate identity, visual identity, post-processing, styling, brand colors, typography, Anthropic brand, visual formatting, visual design&lt;/p&gt;
@@ -57,7 +57,7 @@
 &lt;li&gt;Uses RGB color values for precise brand matching&lt;/li&gt;
 &lt;li&gt;Applied via python-pptx&amp;rsquo;s RGBColor class&lt;/li&gt;
 &lt;li&gt;Maintains color fidelity across different systems&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Json Canvas</title><link>https://agentskill.wiki/en/skills/json-canvas/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/json-canvas/</guid><description>&lt;h1 id="json-canvas-skill"&gt;JSON Canvas Skill&lt;/h1&gt;
+&lt;/ul&gt;</description></item><item><title>Json Canvas</title><link>https://agentskill.wiki/skills/json-canvas/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/json-canvas/</guid><description>&lt;h1 id="json-canvas-skill"&gt;JSON Canvas Skill&lt;/h1&gt;
 &lt;p&gt;This skill enables skills-compatible agents to create and edit valid JSON Canvas files (&lt;code&gt;.canvas&lt;/code&gt;) used in Obsidian and other applications.&lt;/p&gt;
 &lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;JSON Canvas is an open file format for infinite canvas data. Canvas files use the &lt;code&gt;.canvas&lt;/code&gt; extension and contain valid JSON following the &lt;a href="https://jsoncanvas.org/spec/1.0/"&gt;JSON Canvas Spec 1.0&lt;/a&gt;.&lt;/p&gt;
@@ -72,7 +72,7 @@
 &lt;li&gt;&lt;code&gt;edges&lt;/code&gt; (optional): Array of edge objects connecting nodes&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="nodes"&gt;Nodes&lt;/h2&gt;
-&lt;p&gt;Nodes are objects placed on the canvas. There are four node types:&lt;/p&gt;</description></item><item><title>Markitdown</title><link>https://agentskill.wiki/en/skills/markitdown/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/markitdown/</guid><description>&lt;h1 id="markitdown---file-to-markdown-conversion"&gt;MarkItDown - File to Markdown Conversion&lt;/h1&gt;
+&lt;p&gt;Nodes are objects placed on the canvas. There are four node types:&lt;/p&gt;</description></item><item><title>Markitdown</title><link>https://agentskill.wiki/skills/markitdown/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/markitdown/</guid><description>&lt;h1 id="markitdown---file-to-markdown-conversion"&gt;MarkItDown - File to Markdown Conversion&lt;/h1&gt;
 &lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;MarkItDown is a Python tool developed by Microsoft for converting various file formats to Markdown. It&amp;rsquo;s particularly useful for converting documents into LLM-friendly text format, as Markdown is token-efficient and well-understood by modern language models.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Key Benefits&lt;/strong&gt;:&lt;/p&gt;
@@ -85,12 +85,12 @@
 &lt;li&gt;Speech transcription for audio files&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="visual-enhancement-with-scientific-schematics"&gt;Visual Enhancement with Scientific Schematics&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;When creating documents with this skill, always consider adding scientific diagrams and schematics to enhance visual communication.&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Obsidian Bases</title><link>https://agentskill.wiki/en/skills/obsidian-bases/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/obsidian-bases/</guid><description>&lt;h1 id="obsidian-bases-skill"&gt;Obsidian Bases Skill&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;When creating documents with this skill, always consider adding scientific diagrams and schematics to enhance visual communication.&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Obsidian Bases</title><link>https://agentskill.wiki/skills/obsidian-bases/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/obsidian-bases/</guid><description>&lt;h1 id="obsidian-bases-skill"&gt;Obsidian Bases Skill&lt;/h1&gt;
 &lt;p&gt;This skill enables Claude Code to create and edit valid Obsidian Bases (&lt;code&gt;.base&lt;/code&gt; files) including views, filters, formulas, and all related configurations.&lt;/p&gt;
 &lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;Obsidian Bases are YAML-based files that define dynamic views of notes in an Obsidian vault. A Base file can contain multiple views, global filters, formulas, property configurations, and custom summaries.&lt;/p&gt;
 &lt;h2 id="file-format"&gt;File Format&lt;/h2&gt;
-&lt;p&gt;Base files use the &lt;code&gt;.base&lt;/code&gt; extension and contain valid YAML. They can also be embedded in Markdown code blocks.&lt;/p&gt;</description></item><item><title>Obsidian Markdown</title><link>https://agentskill.wiki/en/skills/obsidian-markdown/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/obsidian-markdown/</guid><description>&lt;h1 id="obsidian-flavored-markdown-skill"&gt;Obsidian Flavored Markdown Skill&lt;/h1&gt;
+&lt;p&gt;Base files use the &lt;code&gt;.base&lt;/code&gt; extension and contain valid YAML. They can also be embedded in Markdown code blocks.&lt;/p&gt;</description></item><item><title>Obsidian Markdown</title><link>https://agentskill.wiki/skills/obsidian-markdown/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/obsidian-markdown/</guid><description>&lt;h1 id="obsidian-flavored-markdown-skill"&gt;Obsidian Flavored Markdown Skill&lt;/h1&gt;
 &lt;p&gt;This skill enables Claude Code to create and edit valid Obsidian Flavored Markdown, including all Obsidian-specific syntax extensions.&lt;/p&gt;
 &lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;Obsidian uses a combination of Markdown flavors:&lt;/p&gt;
@@ -165,12 +165,12 @@
  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;h3 id="escaping-formatting"&gt;Escaping Formatting&lt;/h3&gt;
-&lt;p&gt;Use backslash to escape special characters:&lt;/p&gt;</description></item><item><title>Pptx</title><link>https://agentskill.wiki/en/skills/pptx/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/pptx/</guid><description>&lt;h1 id="pptx-creation-editing-and-analysis"&gt;PPTX creation, editing, and analysis&lt;/h1&gt;
+&lt;p&gt;Use backslash to escape special characters:&lt;/p&gt;</description></item><item><title>Pptx</title><link>https://agentskill.wiki/skills/pptx/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/pptx/</guid><description>&lt;h1 id="pptx-creation-editing-and-analysis"&gt;PPTX creation, editing, and analysis&lt;/h1&gt;
 &lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;A .pptx file is a ZIP archive containing XML files and resources. Create, edit, or analyze PowerPoint presentations using text extraction, raw XML access, or html2pptx workflows. Apply this skill for programmatic presentation creation and modification.&lt;/p&gt;
 &lt;h2 id="visual-enhancement-with-scientific-schematics"&gt;Visual Enhancement with Scientific Schematics&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;When creating documents with this skill, always consider adding scientific diagrams and schematics to enhance visual communication.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;If your document does not already contain schematics or diagrams:&lt;/p&gt;</description></item><item><title>Theme Factory</title><link>https://agentskill.wiki/en/skills/theme-factory/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/theme-factory/</guid><description>&lt;h1 id="theme-factory-skill"&gt;Theme Factory Skill&lt;/h1&gt;
+&lt;p&gt;If your document does not already contain schematics or diagrams:&lt;/p&gt;</description></item><item><title>Theme Factory</title><link>https://agentskill.wiki/skills/theme-factory/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/theme-factory/</guid><description>&lt;h1 id="theme-factory-skill"&gt;Theme Factory Skill&lt;/h1&gt;
 &lt;p&gt;This skill provides a curated collection of professional font and color themes themes, each with carefully selected color palettes and font pairings. Once a theme is chosen, it can be applied to any artifact.&lt;/p&gt;
 &lt;h2 id="purpose"&gt;Purpose&lt;/h2&gt;
 &lt;p&gt;To apply consistent, professional styling to presentation slide decks, use this skill. Each theme includes:&lt;/p&gt;
@@ -180,7 +180,7 @@
 &lt;li&gt;A distinct visual identity suitable for different contexts and audiences&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="usage-instructions"&gt;Usage Instructions&lt;/h2&gt;
-&lt;p&gt;To apply styling to a slide deck or other artifact:&lt;/p&gt;</description></item><item><title>Woocommerce Copy Guidelines</title><link>https://agentskill.wiki/en/skills/woocommerce-copy-guidelines/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/woocommerce-copy-guidelines/</guid><description>&lt;h1 id="woocommerce-copy-guidelines"&gt;WooCommerce Copy Guidelines&lt;/h1&gt;
+&lt;p&gt;To apply styling to a slide deck or other artifact:&lt;/p&gt;</description></item><item><title>Woocommerce Copy Guidelines</title><link>https://agentskill.wiki/skills/woocommerce-copy-guidelines/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/woocommerce-copy-guidelines/</guid><description>&lt;h1 id="woocommerce-copy-guidelines"&gt;WooCommerce Copy Guidelines&lt;/h1&gt;
 &lt;p&gt;This skill provides guidelines for writing user-facing copy in WooCommerce, including UI text, labels, buttons, messages, and documentation.&lt;/p&gt;
 &lt;h2 id="instructions"&gt;Instructions&lt;/h2&gt;
 &lt;p&gt;Follow these guidelines when writing any user-facing text:&lt;/p&gt;

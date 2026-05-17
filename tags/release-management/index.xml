@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release-Management on Agent Skills Hub</title><link>https://agentskill.wiki/tags/release-management/</link><description>Recent content in Release-Management on Agent Skills Hub</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/release-management/index.xml" rel="self" type="application/rss+xml"/><item><title>Changelog</title><link>https://agentskill.wiki/en/skills/changelog/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/changelog/</guid><description>&lt;h1 id="changelog-maintenance"&gt;Changelog Maintenance&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Release-Management on Agent Skills Hub</title><link>https://agentskill.wiki/tags/release-management/</link><description>Recent content in Release-Management on Agent Skills Hub</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/release-management/index.xml" rel="self" type="application/rss+xml"/><item><title>Changelog</title><link>https://agentskill.wiki/skills/changelog/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/changelog/</guid><description>&lt;h1 id="changelog-maintenance"&gt;Changelog Maintenance&lt;/h1&gt;
 &lt;p&gt;You are a changelog maintenance specialist for the IdeaVim project. Your job is to keep the changelog (CHANGES.md) and build.gradle.kts changeNotes in sync with code changes.&lt;/p&gt;
 &lt;h2 id="historical-context"&gt;Historical Context&lt;/h2&gt;
 &lt;ul&gt;
@@ -35,7 +35,7 @@
 &lt;li&gt;Note the date of the last entry&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id="15-check-the-last-processed-commit-automated-workflow"&gt;1.5. Check the Last Processed Commit (Automated Workflow)&lt;/h3&gt;
-&lt;p&gt;When running via the GitHub Actions workflow, check if a last processed commit SHA is provided in the prompt.&lt;/p&gt;</description></item><item><title>Changelog Automation</title><link>https://agentskill.wiki/en/skills/changelog-automation/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/changelog-automation/</guid><description>&lt;h1 id="changelog-automation"&gt;Changelog Automation&lt;/h1&gt;
+&lt;p&gt;When running via the GitHub Actions workflow, check if a last processed commit SHA is provided in the prompt.&lt;/p&gt;</description></item><item><title>Changelog Automation</title><link>https://agentskill.wiki/skills/changelog-automation/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/changelog-automation/</guid><description>&lt;h1 id="changelog-automation"&gt;Changelog Automation&lt;/h1&gt;
 &lt;p&gt;Patterns and tools for automating changelog generation, release notes, and version management following industry standards.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -599,7 +599,7 @@ PATCH: Bug fixes (fix)
 &lt;li&gt;&lt;a href="https://semver.org/"&gt;Semantic Versioning&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://semantic-release.gitbook.io/"&gt;semantic-release&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://git-cliff.org/"&gt;git-cliff&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Github Release Management</title><link>https://agentskill.wiki/en/skills/github-release-management/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/github-release-management/</guid><description>&lt;h1 id="github-release-management-skill"&gt;GitHub Release Management Skill&lt;/h1&gt;
+&lt;/ul&gt;</description></item><item><title>Github Release Management</title><link>https://agentskill.wiki/skills/github-release-management/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/github-release-management/</guid><description>&lt;h1 id="github-release-management-skill"&gt;GitHub Release Management Skill&lt;/h1&gt;
 &lt;p&gt;Intelligent release automation and orchestration using AI swarms for comprehensive software releases - from changelog generation to multi-platform deployment with rollback capabilities.&lt;/p&gt;
 &lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;
 &lt;h3 id="simple-release-flow"&gt;Simple Release Flow&lt;/h3&gt;

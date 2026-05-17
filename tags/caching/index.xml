@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Caching on Agent Skills Hub</title><link>https://agentskill.wiki/tags/caching/</link><description>Recent content in Caching on Agent Skills Hub</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/caching/index.xml" rel="self" type="application/rss+xml"/><item><title>Cache Components</title><link>https://agentskill.wiki/en/skills/cache-components/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/cache-components/</guid><description>&lt;h1 id="nextjs-cache-components"&gt;Next.js Cache Components&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Caching on Agent Skills Hub</title><link>https://agentskill.wiki/tags/caching/</link><description>Recent content in Caching on Agent Skills Hub</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/caching/index.xml" rel="self" type="application/rss+xml"/><item><title>Cache Components</title><link>https://agentskill.wiki/skills/cache-components/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/cache-components/</guid><description>&lt;h1 id="nextjs-cache-components"&gt;Next.js Cache Components&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;Auto-activation&lt;/strong&gt;: This skill activates automatically in projects with &lt;code&gt;cacheComponents: true&lt;/code&gt; in next.config.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -14,7 +14,7 @@
 &lt;li&gt;Optimizing page performance&lt;/li&gt;
 &lt;li&gt;Reviewing existing component code&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Cache Components enable &lt;strong&gt;Partial Prerendering (PPR)&lt;/strong&gt; - mixing static HTML shells with dynamic streaming content for optimal performance.&lt;/p&gt;</description></item><item><title>Dotnet Backend Patterns</title><link>https://agentskill.wiki/en/skills/dotnet-backend-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/dotnet-backend-patterns/</guid><description>&lt;h1 id="net-backend-development-patterns"&gt;.NET Backend Development Patterns&lt;/h1&gt;
+&lt;p&gt;Cache Components enable &lt;strong&gt;Partial Prerendering (PPR)&lt;/strong&gt; - mixing static HTML shells with dynamic streaming content for optimal performance.&lt;/p&gt;</description></item><item><title>Dotnet Backend Patterns</title><link>https://agentskill.wiki/skills/dotnet-backend-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/dotnet-backend-patterns/</guid><description>&lt;h1 id="net-backend-development-patterns"&gt;.NET Backend Development Patterns&lt;/h1&gt;
 &lt;p&gt;Master C#/.NET patterns for building production-grade APIs, MCP servers, and enterprise backends with modern best practices (2024/2025).&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -779,7 +779,7 @@
 &lt;li&gt;&lt;strong&gt;assets/repository-template.cs&lt;/strong&gt;: Repository pattern implementation&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;references/ef-core-best-practices.md&lt;/strong&gt;: EF Core optimization guide&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;references/dapper-patterns.md&lt;/strong&gt;: Advanced Dapper usage patterns&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Nextjs 15</title><link>https://agentskill.wiki/en/skills/nextjs-15/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/nextjs-15/</guid><description>&lt;h2 id="app-router-file-conventions"&gt;App Router File Conventions&lt;/h2&gt;
+&lt;/ul&gt;</description></item><item><title>Nextjs 15</title><link>https://agentskill.wiki/skills/nextjs-15/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/nextjs-15/</guid><description>&lt;h2 id="app-router-file-conventions"&gt;App Router File Conventions&lt;/h2&gt;
 &lt;pre tabindex="0"&gt;&lt;code&gt;app/
 ├── layout.tsx # Root layout (required)
 ├── page.tsx # Home page (/)
@@ -884,7 +884,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;4&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;export&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;async&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;function&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;getSecretData() {&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;5&lt;/span&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;return&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;db&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;secrets&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;findMany&lt;/span&gt;();
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;6&lt;/span&gt;&lt;span&gt;}
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Nx Workspace Patterns</title><link>https://agentskill.wiki/en/skills/nx-workspace-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/nx-workspace-patterns/</guid><description>&lt;h1 id="nx-workspace-patterns"&gt;Nx Workspace Patterns&lt;/h1&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Nx Workspace Patterns</title><link>https://agentskill.wiki/skills/nx-workspace-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/nx-workspace-patterns/</guid><description>&lt;h1 id="nx-workspace-patterns"&gt;Nx Workspace Patterns&lt;/h1&gt;
 &lt;p&gt;Production patterns for Nx monorepo management.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -1326,7 +1326,7 @@
 &lt;li&gt;&lt;a href="https://nx.dev/getting-started/intro"&gt;Nx Documentation&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://nx.dev/core-features/enforce-module-boundaries"&gt;Module Boundaries&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://nx.app/"&gt;Nx Cloud&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Turborepo Caching</title><link>https://agentskill.wiki/en/skills/turborepo-caching/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/turborepo-caching/</guid><description>&lt;h1 id="turborepo-caching"&gt;Turborepo Caching&lt;/h1&gt;
+&lt;/ul&gt;</description></item><item><title>Turborepo Caching</title><link>https://agentskill.wiki/skills/turborepo-caching/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/turborepo-caching/</guid><description>&lt;h1 id="turborepo-caching"&gt;Turborepo Caching&lt;/h1&gt;
 &lt;p&gt;Production patterns for Turborepo build optimization.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;

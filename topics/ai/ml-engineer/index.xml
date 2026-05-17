@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AI/ML Engineer on Agent Skills Hub</title><link>https://agentskill.wiki/topics/ai/ml-engineer/</link><description>Recent content in AI/ML Engineer on Agent Skills Hub</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/topics/ai/ml-engineer/index.xml" rel="self" type="application/rss+xml"/><item><title>Guidance</title><link>https://agentskill.wiki/en/skills/guidance/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/guidance/</guid><description>&lt;h1 id="guidance-constrained-llm-generation"&gt;Guidance: Constrained LLM Generation&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>AI/ML Engineer on Agent Skills Hub</title><link>https://agentskill.wiki/topics/ai/ml-engineer/</link><description>Recent content in AI/ML Engineer on Agent Skills Hub</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/topics/ai/ml-engineer/index.xml" rel="self" type="application/rss+xml"/><item><title>Guidance</title><link>https://agentskill.wiki/skills/guidance/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/guidance/</guid><description>&lt;h1 id="guidance-constrained-llm-generation"&gt;Guidance: Constrained LLM Generation&lt;/h1&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;p&gt;Use Guidance when you need to:&lt;/p&gt;
 &lt;ul&gt;
@@ -45,7 +45,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;14&lt;/span&gt;&lt;span&gt; lm &lt;span style="color:#f92672"&gt;+=&lt;/span&gt; gen(max_tokens&lt;span style="color:#f92672"&gt;=&lt;/span&gt;&lt;span style="color:#ae81ff"&gt;20&lt;/span&gt;)
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="core-concepts"&gt;Core Concepts&lt;/h2&gt;
 &lt;h3 id="1-context-managers"&gt;1. Context Managers&lt;/h3&gt;
-&lt;p&gt;Guidance uses Pythonic context managers for chat-style interactions.&lt;/p&gt;</description></item><item><title>Reasoningbank Intelligence</title><link>https://agentskill.wiki/en/skills/reasoningbank-intelligence/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/reasoningbank-intelligence/</guid><description>&lt;h1 id="reasoningbank-intelligence"&gt;ReasoningBank Intelligence&lt;/h1&gt;
+&lt;p&gt;Guidance uses Pythonic context managers for chat-style interactions.&lt;/p&gt;</description></item><item><title>Reasoningbank Intelligence</title><link>https://agentskill.wiki/skills/reasoningbank-intelligence/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/reasoningbank-intelligence/</guid><description>&lt;h1 id="reasoningbank-intelligence"&gt;ReasoningBank Intelligence&lt;/h1&gt;
 &lt;h2 id="what-this-skill-does"&gt;What This Skill Does&lt;/h2&gt;
 &lt;p&gt;Implements ReasoningBank&amp;rsquo;s adaptive learning system for AI agents to learn from experience, recognize patterns, and optimize strategies over time. Enables meta-cognitive capabilities and continuous improvement.&lt;/p&gt;
 &lt;h2 id="prerequisites"&gt;Prerequisites&lt;/h2&gt;
@@ -192,7 +192,7 @@
 &lt;/ol&gt;
 &lt;h2 id="troubleshooting"&gt;Troubleshooting&lt;/h2&gt;
 &lt;h3 id="issue-poor-recommendations"&gt;Issue: Poor recommendations&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Solution&lt;/strong&gt;: Ensure sufficient training data (100+ experiences per task type)&lt;/p&gt;</description></item><item><title>Skill Share</title><link>https://agentskill.wiki/en/skills/skill-share/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/skill-share/</guid><description>&lt;h2 id="when-to-use-this-skill"&gt;When to use this skill&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Solution&lt;/strong&gt;: Ensure sufficient training data (100+ experiences per task type)&lt;/p&gt;</description></item><item><title>Skill Share</title><link>https://agentskill.wiki/skills/skill-share/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/skill-share/</guid><description>&lt;h2 id="when-to-use-this-skill"&gt;When to use this skill&lt;/h2&gt;
 &lt;p&gt;Use this skill when you need to:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Create new Claude skills&lt;/strong&gt; with proper structure and metadata&lt;/li&gt;
@@ -255,7 +255,7 @@
 4. Packages the skill as a zip file
 5. Posts to Slack: &amp;#34;New Skill Created: pdf-analyzer - Advanced PDF analysis and extraction capabilities&amp;#34;
 &lt;/code&gt;&lt;/pre&gt;&lt;h2 id="integration-with-rube"&gt;Integration with Rube&lt;/h2&gt;
-&lt;p&gt;This skill leverages Rube for:&lt;/p&gt;</description></item><item><title>Swarm Orchestration</title><link>https://agentskill.wiki/en/skills/swarm-orchestration/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/swarm-orchestration/</guid><description>&lt;h1 id="swarm-orchestration"&gt;Swarm Orchestration&lt;/h1&gt;
+&lt;p&gt;This skill leverages Rube for:&lt;/p&gt;</description></item><item><title>Swarm Orchestration</title><link>https://agentskill.wiki/skills/swarm-orchestration/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/swarm-orchestration/</guid><description>&lt;h1 id="swarm-orchestration"&gt;Swarm Orchestration&lt;/h1&gt;
 &lt;h2 id="what-this-skill-does"&gt;What This Skill Does&lt;/h2&gt;
 &lt;p&gt;Orchestrates multi-agent swarms using agentic-flow&amp;rsquo;s advanced coordination system. Supports mesh, hierarchical, and adaptive topologies with automatic task distribution, load balancing, and fault tolerance.&lt;/p&gt;
 &lt;h2 id="prerequisites"&gt;Prerequisites&lt;/h2&gt;

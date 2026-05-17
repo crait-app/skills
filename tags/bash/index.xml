@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Bash on Agent Skills Hub</title><link>https://agentskill.wiki/tags/bash/</link><description>Recent content in Bash on Agent Skills Hub</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/bash/index.xml" rel="self" type="application/rss+xml"/><item><title>Bash Defensive Patterns</title><link>https://agentskill.wiki/en/skills/bash-defensive-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/bash-defensive-patterns/</guid><description>&lt;h1 id="bash-defensive-patterns"&gt;Bash Defensive Patterns&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Bash on Agent Skills Hub</title><link>https://agentskill.wiki/tags/bash/</link><description>Recent content in Bash on Agent Skills Hub</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/bash/index.xml" rel="self" type="application/rss+xml"/><item><title>Bash Defensive Patterns</title><link>https://agentskill.wiki/skills/bash-defensive-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/bash-defensive-patterns/</guid><description>&lt;h1 id="bash-defensive-patterns"&gt;Bash Defensive Patterns&lt;/h1&gt;
 &lt;p&gt;Comprehensive guidance for writing production-ready Bash scripts using defensive programming techniques, error handling, and safety best practices to prevent common pitfalls and ensure reliability.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -13,7 +13,7 @@
 &lt;/ul&gt;
 &lt;h2 id="core-defensive-principles"&gt;Core Defensive Principles&lt;/h2&gt;
 &lt;h3 id="1-strict-mode"&gt;1. Strict Mode&lt;/h3&gt;
-&lt;p&gt;Enable bash strict mode at the start of every script to catch errors early.&lt;/p&gt;</description></item><item><title>Bats Testing Patterns</title><link>https://agentskill.wiki/en/skills/bats-testing-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/bats-testing-patterns/</guid><description>&lt;h1 id="bats-testing-patterns"&gt;Bats Testing Patterns&lt;/h1&gt;
+&lt;p&gt;Enable bash strict mode at the start of every script to catch errors early.&lt;/p&gt;</description></item><item><title>Bats Testing Patterns</title><link>https://agentskill.wiki/skills/bats-testing-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/bats-testing-patterns/</guid><description>&lt;h1 id="bats-testing-patterns"&gt;Bats Testing Patterns&lt;/h1&gt;
 &lt;p&gt;Comprehensive guidance for writing comprehensive unit tests for shell scripts using Bats (Bash Automated Testing System), including test patterns, fixtures, and best practices for production-grade shell testing.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -28,7 +28,7 @@
 &lt;/ul&gt;
 &lt;h2 id="bats-fundamentals"&gt;Bats Fundamentals&lt;/h2&gt;
 &lt;h3 id="what-is-bats"&gt;What is Bats?&lt;/h3&gt;
-&lt;p&gt;Bats (Bash Automated Testing System) is a TAP (Test Anything Protocol) compliant testing framework for shell scripts that provides:&lt;/p&gt;</description></item><item><title>Shellcheck Configuration</title><link>https://agentskill.wiki/en/skills/shellcheck-configuration/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/shellcheck-configuration/</guid><description>&lt;h1 id="shellcheck-configuration-and-static-analysis"&gt;ShellCheck Configuration and Static Analysis&lt;/h1&gt;
+&lt;p&gt;Bats (Bash Automated Testing System) is a TAP (Test Anything Protocol) compliant testing framework for shell scripts that provides:&lt;/p&gt;</description></item><item><title>Shellcheck Configuration</title><link>https://agentskill.wiki/skills/shellcheck-configuration/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/shellcheck-configuration/</guid><description>&lt;h1 id="shellcheck-configuration-and-static-analysis"&gt;ShellCheck Configuration and Static Analysis&lt;/h1&gt;
 &lt;p&gt;Comprehensive guidance for configuring and using ShellCheck to improve shell script quality, catch common pitfalls, and enforce best practices through static code analysis.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;

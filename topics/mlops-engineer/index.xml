@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MLOps Engineer on Agent Skills Hub</title><link>https://agentskill.wiki/topics/mlops-engineer/</link><description>Recent content in MLOps Engineer on Agent Skills Hub</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/topics/mlops-engineer/index.xml" rel="self" type="application/rss+xml"/><item><title>Airflow Dag Patterns</title><link>https://agentskill.wiki/en/skills/airflow-dag-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/airflow-dag-patterns/</guid><description>&lt;h1 id="apache-airflow-dag-patterns"&gt;Apache Airflow DAG Patterns&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>MLOps Engineer on Agent Skills Hub</title><link>https://agentskill.wiki/topics/mlops-engineer/</link><description>Recent content in MLOps Engineer on Agent Skills Hub</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/topics/mlops-engineer/index.xml" rel="self" type="application/rss+xml"/><item><title>Airflow Dag Patterns</title><link>https://agentskill.wiki/skills/airflow-dag-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/airflow-dag-patterns/</guid><description>&lt;h1 id="apache-airflow-dag-patterns"&gt;Apache Airflow DAG Patterns&lt;/h1&gt;
 &lt;p&gt;Production-ready patterns for Apache Airflow including DAG design, operators, sensors, testing, and deployment strategies.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -495,7 +495,7 @@
 &lt;li&gt;&lt;a href="https://airflow.apache.org/docs/"&gt;Airflow Documentation&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://docs.astronomer.io/learn"&gt;Astronomer Guides&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://airflow.apache.org/docs/apache-airflow/stable/tutorial/taskflow.html"&gt;TaskFlow API&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Langsmith Observability</title><link>https://agentskill.wiki/en/skills/langsmith-observability/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/langsmith-observability/</guid><description>&lt;h1 id="langsmith---llm-observability-platform"&gt;LangSmith - LLM Observability Platform&lt;/h1&gt;
+&lt;/ul&gt;</description></item><item><title>Langsmith Observability</title><link>https://agentskill.wiki/skills/langsmith-observability/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/langsmith-observability/</guid><description>&lt;h1 id="langsmith---llm-observability-platform"&gt;LangSmith - LLM Observability Platform&lt;/h1&gt;
 &lt;p&gt;Development platform for debugging, evaluating, and monitoring language models and AI applications.&lt;/p&gt;
 &lt;h2 id="when-to-use-langsmith"&gt;When to use LangSmith&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Use LangSmith when:&lt;/strong&gt;&lt;/p&gt;
@@ -515,7 +515,7 @@
 &lt;li&gt;&lt;strong&gt;Monitoring&lt;/strong&gt;: Track metrics, errors, and costs in production&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Integrations&lt;/strong&gt;: Works with OpenAI, Anthropic, LangChain, LlamaIndex&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Use alternatives instead:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Phoenix Observability</title><link>https://agentskill.wiki/en/skills/phoenix-observability/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/phoenix-observability/</guid><description>&lt;h1 id="phoenix---ai-observability-platform"&gt;Phoenix - AI Observability Platform&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Use alternatives instead:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Phoenix Observability</title><link>https://agentskill.wiki/skills/phoenix-observability/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/phoenix-observability/</guid><description>&lt;h1 id="phoenix---ai-observability-platform"&gt;Phoenix - AI Observability Platform&lt;/h1&gt;
 &lt;p&gt;Open-source AI observability and evaluation platform for LLM applications with tracing, evaluation, datasets, experiments, and real-time monitoring.&lt;/p&gt;
 &lt;h2 id="when-to-use-phoenix"&gt;When to use Phoenix&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Use Phoenix when:&lt;/strong&gt;&lt;/p&gt;
@@ -535,7 +535,7 @@
 &lt;li&gt;&lt;strong&gt;Playground&lt;/strong&gt;: Interactive prompt testing with multiple models&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Open-source&lt;/strong&gt;: Self-hosted with PostgreSQL or SQLite&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Use alternatives instead:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Tensorboard</title><link>https://agentskill.wiki/en/skills/tensorboard/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/tensorboard/</guid><description>&lt;h1 id="tensorboard-visualization-toolkit-for-ml"&gt;TensorBoard: Visualization Toolkit for ML&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Use alternatives instead:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Tensorboard</title><link>https://agentskill.wiki/skills/tensorboard/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/tensorboard/</guid><description>&lt;h1 id="tensorboard-visualization-toolkit-for-ml"&gt;TensorBoard: Visualization Toolkit for ML&lt;/h1&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;p&gt;Use TensorBoard when you need to:&lt;/p&gt;
 &lt;ul&gt;

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Prowler on Agent Skills Hub</title><link>https://agentskill.wiki/tags/prowler/</link><description>Recent content in Prowler on Agent Skills Hub</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/prowler/index.xml" rel="self" type="application/rss+xml"/><item><title>Prowler</title><link>https://agentskill.wiki/en/skills/prowler/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/prowler/</guid><description>&lt;h2 id="components"&gt;Components&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Prowler on Agent Skills Hub</title><link>https://agentskill.wiki/tags/prowler/</link><description>Recent content in Prowler on Agent Skills Hub</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/prowler/index.xml" rel="self" type="application/rss+xml"/><item><title>Prowler</title><link>https://agentskill.wiki/skills/prowler/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/prowler/</guid><description>&lt;h2 id="components"&gt;Components&lt;/h2&gt;
 &lt;table&gt;
  &lt;thead&gt;
  &lt;tr&gt;
@@ -50,7 +50,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;17&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Full Stack&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;18&lt;/span&gt;&lt;span&gt;docker-compose up -d
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="providers"&gt;Providers&lt;/h2&gt;
-&lt;p&gt;AWS, Azure, GCP, Kubernetes, GitHub, M365, OCI, AlibabaCloud, Cloudflare, MongoDB Atlas, NHN, LLM, IaC&lt;/p&gt;</description></item><item><title>Prowler Mcp</title><link>https://agentskill.wiki/en/skills/prowler-mcp/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/prowler-mcp/</guid><description>&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;p&gt;AWS, Azure, GCP, Kubernetes, GitHub, M365, OCI, AlibabaCloud, Cloudflare, MongoDB Atlas, NHN, LLM, IaC&lt;/p&gt;</description></item><item><title>Prowler Mcp</title><link>https://agentskill.wiki/skills/prowler-mcp/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/prowler-mcp/</guid><description>&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;The Prowler MCP Server uses three sub-servers with prefixed namespacing:&lt;/p&gt;
 &lt;table&gt;
  &lt;thead&gt;
@@ -106,7 +106,7 @@
 &lt;/ul&gt;
 &lt;hr&gt;
 &lt;h2 id="hubdocs-tools"&gt;Hub/Docs Tools&lt;/h2&gt;
-&lt;p&gt;Use &lt;code&gt;@mcp.tool()&lt;/code&gt; decorator directly—no BaseTool or models required.&lt;/p&gt;</description></item><item><title>Prowler Pr</title><link>https://agentskill.wiki/en/skills/prowler-pr/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/prowler-pr/</guid><description>&lt;h2 id="pr-creation-process"&gt;PR Creation Process&lt;/h2&gt;
+&lt;p&gt;Use &lt;code&gt;@mcp.tool()&lt;/code&gt; decorator directly—no BaseTool or models required.&lt;/p&gt;</description></item><item><title>Prowler Pr</title><link>https://agentskill.wiki/skills/prowler-pr/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/prowler-pr/</guid><description>&lt;h2 id="pr-creation-process"&gt;PR Creation Process&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;Analyze changes&lt;/strong&gt;: &lt;code&gt;git diff main...HEAD&lt;/code&gt; to understand ALL commits&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Determine affected components&lt;/strong&gt;: SDK, API, UI, MCP, Docs&lt;/li&gt;
@@ -219,7 +219,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;15&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Create draft PR&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;16&lt;/span&gt;&lt;span&gt;gh pr create --draft --title &lt;span style="color:#e6db74"&gt;&amp;#34;feat: description&amp;#34;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="title-conventions"&gt;Title Conventions&lt;/h2&gt;
-&lt;p&gt;Follow conventional commits:&lt;/p&gt;</description></item><item><title>Prowler Ui</title><link>https://agentskill.wiki/en/skills/prowler-ui/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/prowler-ui/</guid><description>&lt;h2 id="related-generic-skills"&gt;Related Generic Skills&lt;/h2&gt;
+&lt;p&gt;Follow conventional commits:&lt;/p&gt;</description></item><item><title>Prowler Ui</title><link>https://agentskill.wiki/skills/prowler-ui/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/prowler-ui/</guid><description>&lt;h2 id="related-generic-skills"&gt;Related Generic Skills&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;typescript&lt;/code&gt; - Const types, flat interfaces&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;react-19&lt;/code&gt; - No useMemo/useCallback, compiler&lt;/li&gt;

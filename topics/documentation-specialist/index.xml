@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Documentation Specialist on Agent Skills Hub</title><link>https://agentskill.wiki/topics/documentation-specialist/</link><description>Recent content in Documentation Specialist on Agent Skills Hub</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/topics/documentation-specialist/index.xml" rel="self" type="application/rss+xml"/><item><title>Architecture Decision Records</title><link>https://agentskill.wiki/en/skills/architecture-decision-records/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/architecture-decision-records/</guid><description>&lt;h1 id="architecture-decision-records"&gt;Architecture Decision Records&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Documentation Specialist on Agent Skills Hub</title><link>https://agentskill.wiki/topics/documentation-specialist/</link><description>Recent content in Documentation Specialist on Agent Skills Hub</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/topics/documentation-specialist/index.xml" rel="self" type="application/rss+xml"/><item><title>Architecture Decision Records</title><link>https://agentskill.wiki/skills/architecture-decision-records/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/architecture-decision-records/</guid><description>&lt;h1 id="architecture-decision-records"&gt;Architecture Decision Records&lt;/h1&gt;
 &lt;p&gt;Comprehensive patterns for creating, maintaining, and managing Architecture Decision Records (ADRs) that capture the context and rationale behind significant technical decisions.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -264,7 +264,7 @@
 OrderItemAdded { orderId, item, timestamp }
 OrderItemRemoved { orderId, itemId, timestamp }
 PaymentReceived { orderId, amount, paymentId, timestamp }
-OrderShipped { orderId, trackingNumber, timestamp }&lt;/p&gt;</description></item><item><title>Doc Coauthoring</title><link>https://agentskill.wiki/en/skills/doc-coauthoring/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/doc-coauthoring/</guid><description>&lt;h1 id="doc-co-authoring-workflow"&gt;Doc Co-Authoring Workflow&lt;/h1&gt;
+OrderShipped { orderId, trackingNumber, timestamp }&lt;/p&gt;</description></item><item><title>Doc Coauthoring</title><link>https://agentskill.wiki/skills/doc-coauthoring/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/doc-coauthoring/</guid><description>&lt;h1 id="doc-co-authoring-workflow"&gt;Doc Co-Authoring Workflow&lt;/h1&gt;
 &lt;p&gt;This skill provides a structured workflow for guiding users through collaborative document creation. Act as an active guide, walking users through three stages: Context Gathering, Refinement &amp;amp; Structure, and Reader Testing.&lt;/p&gt;
 &lt;h2 id="when-to-offer-this-workflow"&gt;When to Offer This Workflow&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Trigger conditions:&lt;/strong&gt;&lt;/p&gt;
@@ -274,7 +274,7 @@ OrderShipped { orderId, trackingNumber, timestamp }&lt;/p&gt;</description></ite
 &lt;li&gt;User seems to be starting a substantial writing task&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Initial offer:&lt;/strong&gt;
-Offer the user a structured workflow for co-authoring the document. Explain the three stages:&lt;/p&gt;</description></item><item><title>Markitdown</title><link>https://agentskill.wiki/en/skills/markitdown/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/markitdown/</guid><description>&lt;h1 id="markitdown---file-to-markdown-conversion"&gt;MarkItDown - File to Markdown Conversion&lt;/h1&gt;
+Offer the user a structured workflow for co-authoring the document. Explain the three stages:&lt;/p&gt;</description></item><item><title>Markitdown</title><link>https://agentskill.wiki/skills/markitdown/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/markitdown/</guid><description>&lt;h1 id="markitdown---file-to-markdown-conversion"&gt;MarkItDown - File to Markdown Conversion&lt;/h1&gt;
 &lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;MarkItDown is a Python tool developed by Microsoft for converting various file formats to Markdown. It&amp;rsquo;s particularly useful for converting documents into LLM-friendly text format, as Markdown is token-efficient and well-understood by modern language models.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Key Benefits&lt;/strong&gt;:&lt;/p&gt;
@@ -287,7 +287,7 @@ Offer the user a structured workflow for co-authoring the document. Explain the 
 &lt;li&gt;Speech transcription for audio files&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="visual-enhancement-with-scientific-schematics"&gt;Visual Enhancement with Scientific Schematics&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;When creating documents with this skill, always consider adding scientific diagrams and schematics to enhance visual communication.&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Material Component Doc</title><link>https://agentskill.wiki/en/skills/material-component-doc/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/material-component-doc/</guid><description>&lt;h1 id="flowgram-文档的组织结构"&gt;FlowGram 文档的组织结构&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;When creating documents with this skill, always consider adding scientific diagrams and schematics to enhance visual communication.&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Material Component Doc</title><link>https://agentskill.wiki/skills/material-component-doc/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/material-component-doc/</guid><description>&lt;h1 id="flowgram-文档的组织结构"&gt;FlowGram 文档的组织结构&lt;/h1&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;英文文档&lt;/strong&gt;: &lt;code&gt;apps/docs/src/en&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;中文文档&lt;/strong&gt;: &lt;code&gt;apps/docs/src/zh&lt;/code&gt;&lt;/li&gt;
@@ -333,7 +333,7 @@ Offer the user a structured workflow for co-authoring the document. Explain the 
 &lt;li&gt;英文：&lt;code&gt;apps/docs/src/en/materials/components/{物料名称}.mdx&lt;/code&gt;（翻译后）&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="6-质量检查"&gt;6. 质量检查&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;检查清单&lt;/strong&gt;：&lt;/p&gt;</description></item><item><title>Notion Knowledge Capture</title><link>https://agentskill.wiki/en/skills/notion-knowledge-capture/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/notion-knowledge-capture/</guid><description>&lt;h1 id="knowledge-capture"&gt;Knowledge Capture&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;检查清单&lt;/strong&gt;：&lt;/p&gt;</description></item><item><title>Notion Knowledge Capture</title><link>https://agentskill.wiki/skills/notion-knowledge-capture/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/notion-knowledge-capture/</guid><description>&lt;h1 id="knowledge-capture"&gt;Knowledge Capture&lt;/h1&gt;
 &lt;p&gt;Convert conversations and notes into structured, linkable Notion pages for easy reuse.&lt;/p&gt;
 &lt;h2 id="quick-start"&gt;Quick start&lt;/h2&gt;
 &lt;ol&gt;
@@ -362,7 +362,7 @@ Offer the user a structured workflow for co-authoring the document. Explain the 
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;After successful login, the user will have to restart codex. You should finish your answer and tell them so when they try again they can continue with Step 1.&lt;/p&gt;</description></item><item><title>Obsidian Markdown</title><link>https://agentskill.wiki/en/skills/obsidian-markdown/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/obsidian-markdown/</guid><description>&lt;h1 id="obsidian-flavored-markdown-skill"&gt;Obsidian Flavored Markdown Skill&lt;/h1&gt;
+&lt;p&gt;After successful login, the user will have to restart codex. You should finish your answer and tell them so when they try again they can continue with Step 1.&lt;/p&gt;</description></item><item><title>Obsidian Markdown</title><link>https://agentskill.wiki/skills/obsidian-markdown/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/obsidian-markdown/</guid><description>&lt;h1 id="obsidian-flavored-markdown-skill"&gt;Obsidian Flavored Markdown Skill&lt;/h1&gt;
 &lt;p&gt;This skill enables Claude Code to create and edit valid Obsidian Flavored Markdown, including all Obsidian-specific syntax extensions.&lt;/p&gt;
 &lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;Obsidian uses a combination of Markdown flavors:&lt;/p&gt;
@@ -437,7 +437,7 @@ Offer the user a structured workflow for co-authoring the document. Explain the 
  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;h3 id="escaping-formatting"&gt;Escaping Formatting&lt;/h3&gt;
-&lt;p&gt;Use backslash to escape special characters:&lt;/p&gt;</description></item><item><title>Skill Development</title><link>https://agentskill.wiki/en/skills/skill-development/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/skill-development/</guid><description>&lt;h1 id="skill-development-for-claude-code-plugins"&gt;Skill Development for Claude Code Plugins&lt;/h1&gt;
+&lt;p&gt;Use backslash to escape special characters:&lt;/p&gt;</description></item><item><title>Skill Development</title><link>https://agentskill.wiki/skills/skill-development/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/skill-development/</guid><description>&lt;h1 id="skill-development-for-claude-code-plugins"&gt;Skill Development for Claude Code Plugins&lt;/h1&gt;
 &lt;p&gt;This skill provides guidance for creating effective skills for Claude Code plugins.&lt;/p&gt;
 &lt;h2 id="about-skills"&gt;About Skills&lt;/h2&gt;
 &lt;p&gt;Skills are modular, self-contained packages that extend Claude&amp;rsquo;s capabilities by providing
@@ -452,7 +452,7 @@ equipped with procedural knowledge that no model can fully possess.&lt;/p&gt;
 &lt;li&gt;Bundled resources - Scripts, references, and assets for complex and repetitive tasks&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h3 id="anatomy-of-a-skill"&gt;Anatomy of a Skill&lt;/h3&gt;
-&lt;p&gt;Every skill consists of a required SKILL.md file and optional bundled resources:&lt;/p&gt;</description></item><item><title>Vscode Release Notes Writer</title><link>https://agentskill.wiki/en/skills/vscode-release-notes-writer/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/vscode-release-notes-writer/</guid><description>&lt;h1 id="visual-studio-code-release-note-writer-guidelines"&gt;Visual Studio Code Release Note Writer Guidelines&lt;/h1&gt;
+&lt;p&gt;Every skill consists of a required SKILL.md file and optional bundled resources:&lt;/p&gt;</description></item><item><title>Vscode Release Notes Writer</title><link>https://agentskill.wiki/skills/vscode-release-notes-writer/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/vscode-release-notes-writer/</guid><description>&lt;h1 id="visual-studio-code-release-note-writer-guidelines"&gt;Visual Studio Code Release Note Writer Guidelines&lt;/h1&gt;
 &lt;p&gt;This skill is designed to help you write release notes for Visual Studio Code Insiders and Stable releases. It provides structured guidelines and examples to ensure consistency and clarity in the release notes.&lt;/p&gt;
 &lt;p&gt;There are two main types of release notes you can generate using this skill:&lt;/p&gt;
 &lt;ol&gt;

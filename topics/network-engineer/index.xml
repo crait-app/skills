@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Network Engineer on Agent Skills Hub</title><link>https://agentskill.wiki/topics/network-engineer/</link><description>Recent content in Network Engineer on Agent Skills Hub</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/topics/network-engineer/index.xml" rel="self" type="application/rss+xml"/><item><title>Protocol Reverse Engineering</title><link>https://agentskill.wiki/en/skills/protocol-reverse-engineering/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/protocol-reverse-engineering/</guid><description>&lt;h1 id="protocol-reverse-engineering"&gt;Protocol Reverse Engineering&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Network Engineer on Agent Skills Hub</title><link>https://agentskill.wiki/topics/network-engineer/</link><description>Recent content in Network Engineer on Agent Skills Hub</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/topics/network-engineer/index.xml" rel="self" type="application/rss+xml"/><item><title>Protocol Reverse Engineering</title><link>https://agentskill.wiki/skills/protocol-reverse-engineering/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/protocol-reverse-engineering/</guid><description>&lt;h1 id="protocol-reverse-engineering"&gt;Protocol Reverse Engineering&lt;/h1&gt;
 &lt;p&gt;Comprehensive techniques for capturing, analyzing, and documenting network protocols for security research, interoperability, and debugging.&lt;/p&gt;
 &lt;h2 id="traffic-capture"&gt;Traffic Capture&lt;/h2&gt;
 &lt;h3 id="wireshark-capture"&gt;Wireshark Capture&lt;/h3&gt;
@@ -301,7 +301,7 @@ MongoDB - BSON documents with specific header
 |
 DATA/DATA
 |
-[CLOSED] &amp;lt;&amp;ndash;CLOSE&amp;ndash;+&lt;/p&gt;</description></item><item><title>Proxychains</title><link>https://agentskill.wiki/en/skills/proxychains/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/proxychains/</guid><description>&lt;h1 id="proxychains-network-proxy-skill"&gt;Proxychains Network Proxy Skill&lt;/h1&gt;
+[CLOSED] &amp;lt;&amp;ndash;CLOSE&amp;ndash;+&lt;/p&gt;</description></item><item><title>Proxychains</title><link>https://agentskill.wiki/skills/proxychains/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/proxychains/</guid><description>&lt;h1 id="proxychains-network-proxy-skill"&gt;Proxychains Network Proxy Skill&lt;/h1&gt;
 &lt;p&gt;&lt;strong&gt;自动使用代理解决网络问题&lt;/strong&gt; - 当遇到网络连接失败、超时或访问受限时，自动使用 proxychains4 强制走代理。&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;触发条件（自动应用）:&lt;/strong&gt;&lt;/p&gt;
@@ -327,7 +327,7 @@ DATA/DATA
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;4&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# ✅ 使用代理重试&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;5&lt;/span&gt;&lt;span&gt;proxychains4 curl https://github.com/user/repo
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="常见场景自动应用"&gt;常见场景自动应用&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;场景 1: Git 操作失败&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Rust Async Patterns</title><link>https://agentskill.wiki/en/skills/rust-async-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/rust-async-patterns/</guid><description>&lt;h1 id="rust-async-patterns"&gt;Rust Async Patterns&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;场景 1: Git 操作失败&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Rust Async Patterns</title><link>https://agentskill.wiki/skills/rust-async-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/rust-async-patterns/</guid><description>&lt;h1 id="rust-async-patterns"&gt;Rust Async Patterns&lt;/h1&gt;
 &lt;p&gt;Production patterns for async Rust programming with Tokio runtime, including tasks, channels, streams, and error handling.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -814,7 +814,7 @@ DATA/DATA
 &lt;li&gt;&lt;a href="https://tokio.rs/tokio/tutorial"&gt;Tokio Tutorial&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://rust-lang.github.io/async-book/"&gt;Async Book&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/tokio-rs/console"&gt;Tokio Console&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Simpy</title><link>https://agentskill.wiki/en/skills/simpy/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/simpy/</guid><description>&lt;h1 id="simpy---discrete-event-simulation"&gt;SimPy - Discrete-Event Simulation&lt;/h1&gt;
+&lt;/ul&gt;</description></item><item><title>Simpy</title><link>https://agentskill.wiki/skills/simpy/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/simpy/</guid><description>&lt;h1 id="simpy---discrete-event-simulation"&gt;SimPy - Discrete-Event Simulation&lt;/h1&gt;
 &lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;SimPy is a process-based discrete-event simulation framework based on standard Python. Use SimPy to model systems where entities (customers, vehicles, packets, etc.) interact with each other and compete for shared resources (servers, machines, bandwidth, etc.) over time.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Core capabilities:&lt;/strong&gt;&lt;/p&gt;

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Git-Commits on Agent Skills Hub</title><link>https://agentskill.wiki/zh/tags/git-commits/</link><description>Recent content in Git-Commits on Agent Skills Hub</description><generator>Hugo</generator><language>zh</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/zh/tags/git-commits/index.xml" rel="self" type="application/rss+xml"/><item><title>Generate Release Notes</title><link>https://agentskill.wiki/zh/skills/generate-release-notes/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/zh/skills/generate-release-notes/</guid><description>&lt;h1 id="generate-release-notes-for-bit"&gt;Generate Release Notes for Bit&lt;/h1&gt;
+&lt;p&gt;This skill helps generate release notes for Bit following the established patterns and guidelines.&lt;/p&gt;
+&lt;h2 id="important-intermediate-files"&gt;Important: Intermediate Files&lt;/h2&gt;
+&lt;p&gt;All intermediate steps must be saved to &lt;code&gt;releases-docs/temp-files/&lt;/code&gt; for review. This folder is gitignored.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Required intermediate files:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;raw-commits.md&lt;/code&gt; - Raw commit data from GitHub API&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;filtered-commits.md&lt;/code&gt; - Two sections: filtered out commits and kept commits&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="workflow"&gt;Workflow&lt;/h2&gt;
+&lt;p&gt;Follow these steps to generate release notes:&lt;/p&gt;
+&lt;h3 id="step-1-setup-temp-directory"&gt;Step 1: Setup Temp Directory&lt;/h3&gt;
+&lt;p&gt;First, ensure the temp directory exists:&lt;/p&gt;</description></item></channel></rss>

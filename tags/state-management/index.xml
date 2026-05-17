@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>State-Management on Agent Skills Hub</title><link>https://agentskill.wiki/tags/state-management/</link><description>Recent content in State-Management on Agent Skills Hub</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/state-management/index.xml" rel="self" type="application/rss+xml"/><item><title>Configured Agent</title><link>https://agentskill.wiki/en/skills/configured-agent/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/configured-agent/</guid><description>&lt;h1 id="plugin-settings-pattern-for-claude-code-plugins"&gt;Plugin Settings Pattern for Claude Code Plugins&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>State-Management on Agent Skills Hub</title><link>https://agentskill.wiki/tags/state-management/</link><description>Recent content in State-Management on Agent Skills Hub</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/state-management/index.xml" rel="self" type="application/rss+xml"/><item><title>Configured Agent</title><link>https://agentskill.wiki/skills/configured-agent/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/configured-agent/</guid><description>&lt;h1 id="plugin-settings-pattern-for-claude-code-plugins"&gt;Plugin Settings Pattern for Claude Code Plugins&lt;/h1&gt;
 &lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;Plugins can store user-configurable settings and state in &lt;code&gt;.claude/plugin-name.local.md&lt;/code&gt; files within the project directory. This pattern uses YAML frontmatter for structured configuration and markdown content for prompts or additional context.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Key characteristics:&lt;/strong&gt;&lt;/p&gt;
@@ -27,7 +27,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;14&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;-&lt;/span&gt; Prompts to feed back to Claude
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;15&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;-&lt;/span&gt; Documentation or notes
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="example-plugin-state-file"&gt;Example: Plugin State File&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;.claude/my-plugin.local.md:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Gpui Context</title><link>https://agentskill.wiki/en/skills/gpui-context/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/gpui-context/</guid><description>&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;.claude/my-plugin.local.md:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Gpui Context</title><link>https://agentskill.wiki/skills/gpui-context/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/gpui-context/</guid><description>&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;GPUI uses different context types for different scenarios:&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Context Types:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -147,7 +147,7 @@
 &lt;li&gt;Async contexts, best practices&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Gpui Entity</title><link>https://agentskill.wiki/en/skills/gpui-entity/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/gpui-entity/</guid><description>&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;/ul&gt;</description></item><item><title>Gpui Entity</title><link>https://agentskill.wiki/skills/gpui-entity/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/gpui-entity/</guid><description>&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;An &lt;code&gt;Entity&amp;lt;T&amp;gt;&lt;/code&gt; is a handle to state of type &lt;code&gt;T&lt;/code&gt;, providing safe access and updates.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Key Methods:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -273,7 +273,7 @@
 &lt;h3 id="implementation-guides"&gt;Implementation Guides&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Patterns&lt;/strong&gt;: See &lt;a href="references/patterns.md"&gt;patterns.md&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Gpui Global</title><link>https://agentskill.wiki/en/skills/gpui-global/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/gpui-global/</guid><description>&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Patterns&lt;/strong&gt;: See &lt;a href="references/patterns.md"&gt;patterns.md&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Gpui Global</title><link>https://agentskill.wiki/skills/gpui-global/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/gpui-global/</guid><description>&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;Global state in GPUI provides app-wide shared data accessible from any context.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Key Trait&lt;/strong&gt;: &lt;code&gt;Global&lt;/code&gt; - Implement on types to make them globally accessible&lt;/p&gt;
 &lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;
@@ -385,7 +385,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;6&lt;/span&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;7&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;impl&lt;/span&gt; Global &lt;span style="color:#66d9ef"&gt;for&lt;/span&gt; GlobalState {}
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="-immutable-by-default"&gt;✅ Immutable by Default&lt;/h3&gt;
-&lt;p&gt;Globals are read-only by default. Use interior mutability when needed:&lt;/p&gt;</description></item><item><title>React State Management</title><link>https://agentskill.wiki/en/skills/react-state-management/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/react-state-management/</guid><description>&lt;h1 id="react-state-management"&gt;React State Management&lt;/h1&gt;
+&lt;p&gt;Globals are read-only by default. Use interior mutability when needed:&lt;/p&gt;</description></item><item><title>React State Management</title><link>https://agentskill.wiki/skills/react-state-management/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/react-state-management/</guid><description>&lt;h1 id="react-state-management"&gt;React State Management&lt;/h1&gt;
 &lt;p&gt;Comprehensive guide to modern React state management patterns, from local component state to global stores and server state synchronization.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -802,7 +802,7 @@ Atomic/granular updates → Jotai
 &lt;li&gt;&lt;a href="https://github.com/pmndrs/zustand"&gt;Zustand GitHub&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://jotai.org/"&gt;Jotai Documentation&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://tanstack.com/query"&gt;TanStack Query&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Workflow Orchestration Patterns</title><link>https://agentskill.wiki/en/skills/workflow-orchestration-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/workflow-orchestration-patterns/</guid><description>&lt;h1 id="workflow-orchestration-patterns"&gt;Workflow Orchestration Patterns&lt;/h1&gt;
+&lt;/ul&gt;</description></item><item><title>Workflow Orchestration Patterns</title><link>https://agentskill.wiki/skills/workflow-orchestration-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/workflow-orchestration-patterns/</guid><description>&lt;h1 id="workflow-orchestration-patterns"&gt;Workflow Orchestration Patterns&lt;/h1&gt;
 &lt;p&gt;Master workflow orchestration architecture with Temporal, covering fundamental design decisions, resilience patterns, and best practices for building reliable distributed systems.&lt;/p&gt;
 &lt;h2 id="when-to-use-workflow-orchestration"&gt;When to Use Workflow Orchestration&lt;/h2&gt;
 &lt;h3 id="ideal-use-cases-source-docstemporalio"&gt;Ideal Use Cases (Source: docs.temporal.io)&lt;/h3&gt;
@@ -824,7 +824,7 @@ Atomic/granular updates → Jotai
 &lt;li&gt;Real-time streaming (use Kafka, event processors)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="critical-design-decision-workflows-vs-activities"&gt;Critical Design Decision: Workflows vs Activities&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;The Fundamental Rule&lt;/strong&gt; (Source: temporal.io/blog/workflow-engine-principles):&lt;/p&gt;</description></item><item><title>Zustand 5</title><link>https://agentskill.wiki/en/skills/zustand-5/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/zustand-5/</guid><description>&lt;h2 id="basic-store"&gt;Basic Store&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;The Fundamental Rule&lt;/strong&gt; (Source: temporal.io/blog/workflow-engine-principles):&lt;/p&gt;</description></item><item><title>Zustand 5</title><link>https://agentskill.wiki/skills/zustand-5/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/zustand-5/</guid><description>&lt;h2 id="basic-store"&gt;Basic Store&lt;/h2&gt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-typescript" data-lang="typescript"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;import&lt;/span&gt; { &lt;span style="color:#a6e22e"&gt;create&lt;/span&gt; } &lt;span style="color:#66d9ef"&gt;from&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;zustand&amp;#34;&lt;/span&gt;;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 2&lt;/span&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 3&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;interface&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;CounterStore&lt;/span&gt; {

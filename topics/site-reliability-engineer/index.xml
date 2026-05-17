@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Site Reliability Engineer on Agent Skills Hub</title><link>https://agentskill.wiki/topics/site-reliability-engineer/</link><description>Recent content in Site Reliability Engineer on Agent Skills Hub</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/topics/site-reliability-engineer/index.xml" rel="self" type="application/rss+xml"/><item><title>Bash Defensive Patterns</title><link>https://agentskill.wiki/en/skills/bash-defensive-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/bash-defensive-patterns/</guid><description>&lt;h1 id="bash-defensive-patterns"&gt;Bash Defensive Patterns&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Site Reliability Engineer on Agent Skills Hub</title><link>https://agentskill.wiki/topics/site-reliability-engineer/</link><description>Recent content in Site Reliability Engineer on Agent Skills Hub</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/topics/site-reliability-engineer/index.xml" rel="self" type="application/rss+xml"/><item><title>Bash Defensive Patterns</title><link>https://agentskill.wiki/skills/bash-defensive-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/bash-defensive-patterns/</guid><description>&lt;h1 id="bash-defensive-patterns"&gt;Bash Defensive Patterns&lt;/h1&gt;
 &lt;p&gt;Comprehensive guidance for writing production-ready Bash scripts using defensive programming techniques, error handling, and safety best practices to prevent common pitfalls and ensure reliability.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -13,7 +13,7 @@
 &lt;/ul&gt;
 &lt;h2 id="core-defensive-principles"&gt;Core Defensive Principles&lt;/h2&gt;
 &lt;h3 id="1-strict-mode"&gt;1. Strict Mode&lt;/h3&gt;
-&lt;p&gt;Enable bash strict mode at the start of every script to catch errors early.&lt;/p&gt;</description></item><item><title>Bats Testing Patterns</title><link>https://agentskill.wiki/en/skills/bats-testing-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/bats-testing-patterns/</guid><description>&lt;h1 id="bats-testing-patterns"&gt;Bats Testing Patterns&lt;/h1&gt;
+&lt;p&gt;Enable bash strict mode at the start of every script to catch errors early.&lt;/p&gt;</description></item><item><title>Bats Testing Patterns</title><link>https://agentskill.wiki/skills/bats-testing-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/bats-testing-patterns/</guid><description>&lt;h1 id="bats-testing-patterns"&gt;Bats Testing Patterns&lt;/h1&gt;
 &lt;p&gt;Comprehensive guidance for writing comprehensive unit tests for shell scripts using Bats (Bash Automated Testing System), including test patterns, fixtures, and best practices for production-grade shell testing.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -28,7 +28,7 @@
 &lt;/ul&gt;
 &lt;h2 id="bats-fundamentals"&gt;Bats Fundamentals&lt;/h2&gt;
 &lt;h3 id="what-is-bats"&gt;What is Bats?&lt;/h3&gt;
-&lt;p&gt;Bats (Bash Automated Testing System) is a TAP (Test Anything Protocol) compliant testing framework for shell scripts that provides:&lt;/p&gt;</description></item><item><title>Deployment Pipeline Design</title><link>https://agentskill.wiki/en/skills/deployment-pipeline-design/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/deployment-pipeline-design/</guid><description>&lt;h1 id="deployment-pipeline-design"&gt;Deployment Pipeline Design&lt;/h1&gt;
+&lt;p&gt;Bats (Bash Automated Testing System) is a TAP (Test Anything Protocol) compliant testing framework for shell scripts that provides:&lt;/p&gt;</description></item><item><title>Deployment Pipeline Design</title><link>https://agentskill.wiki/skills/deployment-pipeline-design/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/deployment-pipeline-design/</guid><description>&lt;h1 id="deployment-pipeline-design"&gt;Deployment Pipeline Design&lt;/h1&gt;
 &lt;p&gt;Architecture patterns for multi-stage CI/CD pipelines with approval gates and deployment strategies.&lt;/p&gt;
 &lt;h2 id="purpose"&gt;Purpose&lt;/h2&gt;
 &lt;p&gt;Design robust, secure deployment pipelines that balance speed with safety through proper stage organization and approval workflows.&lt;/p&gt;
@@ -100,7 +100,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;15&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;inputs&lt;/span&gt;:
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;16&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;notifyUsers&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;&amp;#34;team-leads@example.com&amp;#34;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;17&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;instructions&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;&amp;#34;Review staging metrics before approving&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Reference:&lt;/strong&gt; See &lt;code&gt;assets/approval-gate-template.yml&lt;/code&gt;&lt;/p&gt;</description></item><item><title>Distributed Tracing</title><link>https://agentskill.wiki/en/skills/distributed-tracing/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/distributed-tracing/</guid><description>&lt;h1 id="distributed-tracing"&gt;Distributed Tracing&lt;/h1&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Reference:&lt;/strong&gt; See &lt;code&gt;assets/approval-gate-template.yml&lt;/code&gt;&lt;/p&gt;</description></item><item><title>Distributed Tracing</title><link>https://agentskill.wiki/skills/distributed-tracing/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/distributed-tracing/</guid><description>&lt;h1 id="distributed-tracing"&gt;Distributed Tracing&lt;/h1&gt;
 &lt;p&gt;Implement distributed tracing with Jaeger and Tempo for request flow visibility across microservices.&lt;/p&gt;
 &lt;h2 id="purpose"&gt;Purpose&lt;/h2&gt;
 &lt;p&gt;Track requests across distributed systems to understand latency, dependencies, and failure points.&lt;/p&gt;
@@ -169,7 +169,7 @@ Span (api-gateway) [80ms]
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;13&lt;/span&gt;&lt;span&gt; - &lt;span style="color:#e6db74"&gt;&amp;#34;9411:9411&amp;#34;&lt;/span&gt; &lt;span style="color:#75715e"&gt;# Zipkin&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;14&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;environment&lt;/span&gt;:
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;15&lt;/span&gt;&lt;span&gt; - &lt;span style="color:#ae81ff"&gt;COLLECTOR_ZIPKIN_HOST_PORT=:9411&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Reference:&lt;/strong&gt; See &lt;code&gt;references/jaeger-setup.md&lt;/code&gt;&lt;/p&gt;</description></item><item><title>Error Handling Patterns</title><link>https://agentskill.wiki/en/skills/error-handling-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/error-handling-patterns/</guid><description>&lt;h1 id="error-handling-patterns"&gt;Error Handling Patterns&lt;/h1&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Reference:&lt;/strong&gt; See &lt;code&gt;references/jaeger-setup.md&lt;/code&gt;&lt;/p&gt;</description></item><item><title>Error Handling Patterns</title><link>https://agentskill.wiki/skills/error-handling-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/error-handling-patterns/</guid><description>&lt;h1 id="error-handling-patterns"&gt;Error Handling Patterns&lt;/h1&gt;
 &lt;p&gt;Build resilient applications with robust error handling strategies that gracefully handle failures and provide excellent debugging experiences.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -184,7 +184,7 @@ Span (api-gateway) [80ms]
 &lt;/ul&gt;
 &lt;h2 id="core-concepts"&gt;Core Concepts&lt;/h2&gt;
 &lt;h3 id="1-error-handling-philosophies"&gt;1. Error Handling Philosophies&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Exceptions vs Result Types:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Error Tracking</title><link>https://agentskill.wiki/en/skills/error-tracking/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/error-tracking/</guid><description>&lt;h1 id="your-project-sentry-integration-skill"&gt;your project Sentry Integration Skill&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Exceptions vs Result Types:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Error Tracking</title><link>https://agentskill.wiki/skills/error-tracking/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/error-tracking/</guid><description>&lt;h1 id="your-project-sentry-integration-skill"&gt;your project Sentry Integration Skill&lt;/h1&gt;
 &lt;h2 id="purpose"&gt;Purpose&lt;/h2&gt;
 &lt;p&gt;This skill enforces comprehensive Sentry error tracking and performance monitoring across all your project services following Sentry v8 patterns.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
@@ -197,13 +197,13 @@ Span (api-gateway) [80ms]
 &lt;li&gt;Handling workflow errors&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-critical-rule"&gt;🚨 CRITICAL RULE&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;ALL ERRORS MUST BE CAPTURED TO SENTRY&lt;/strong&gt; - No exceptions. Never use console.error alone.&lt;/p&gt;</description></item><item><title>Gh Fix Ci</title><link>https://agentskill.wiki/en/skills/gh-fix-ci/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/gh-fix-ci/</guid><description>&lt;h1 id="gh-pr-checks-plan-fix"&gt;Gh Pr Checks Plan Fix&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;ALL ERRORS MUST BE CAPTURED TO SENTRY&lt;/strong&gt; - No exceptions. Never use console.error alone.&lt;/p&gt;</description></item><item><title>Gh Fix Ci</title><link>https://agentskill.wiki/skills/gh-fix-ci/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/gh-fix-ci/</guid><description>&lt;h1 id="gh-pr-checks-plan-fix"&gt;Gh Pr Checks Plan Fix&lt;/h1&gt;
 &lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;Use gh to locate failing PR checks, fetch GitHub Actions logs for actionable failures, summarize the failure snippet, then propose a fix plan and implement after explicit approval.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Depends on the &lt;code&gt;plan&lt;/code&gt; skill for drafting and approving the fix plan.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Prereq: ensure &lt;code&gt;gh&lt;/code&gt; is authenticated (for example, run &lt;code&gt;gh auth login&lt;/code&gt; once), then run &lt;code&gt;gh auth status&lt;/code&gt; with escalated permissions (include workflow/repo scopes) so &lt;code&gt;gh&lt;/code&gt; commands succeed. If sandboxing blocks &lt;code&gt;gh auth status&lt;/code&gt;, rerun it with &lt;code&gt;sandbox_permissions=require_escalated&lt;/code&gt;.&lt;/p&gt;</description></item><item><title>Github Actions Templates</title><link>https://agentskill.wiki/en/skills/github-actions-templates/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/github-actions-templates/</guid><description>&lt;h1 id="github-actions-templates"&gt;GitHub Actions Templates&lt;/h1&gt;
+&lt;p&gt;Prereq: ensure &lt;code&gt;gh&lt;/code&gt; is authenticated (for example, run &lt;code&gt;gh auth login&lt;/code&gt; once), then run &lt;code&gt;gh auth status&lt;/code&gt; with escalated permissions (include workflow/repo scopes) so &lt;code&gt;gh&lt;/code&gt; commands succeed. If sandboxing blocks &lt;code&gt;gh auth status&lt;/code&gt;, rerun it with &lt;code&gt;sandbox_permissions=require_escalated&lt;/code&gt;.&lt;/p&gt;</description></item><item><title>Github Actions Templates</title><link>https://agentskill.wiki/skills/github-actions-templates/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/github-actions-templates/</guid><description>&lt;h1 id="github-actions-templates"&gt;GitHub Actions Templates&lt;/h1&gt;
 &lt;p&gt;Production-ready GitHub Actions workflow patterns for testing, building, and deploying applications.&lt;/p&gt;
 &lt;h2 id="purpose"&gt;Purpose&lt;/h2&gt;
 &lt;p&gt;Create efficient, secure GitHub Actions workflows for continuous integration and deployment across various tech stacks.&lt;/p&gt;
@@ -255,7 +255,7 @@ Span (api-gateway) [80ms]
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;36&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;uses&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;codecov/codecov-action@v3&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;37&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;with&lt;/span&gt;:
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;38&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;files&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;./coverage/lcov.info&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Reference:&lt;/strong&gt; See &lt;code&gt;assets/test-workflow.yml&lt;/code&gt;&lt;/p&gt;</description></item><item><title>Gitlab Ci Patterns</title><link>https://agentskill.wiki/en/skills/gitlab-ci-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/gitlab-ci-patterns/</guid><description>&lt;h1 id="gitlab-ci-patterns"&gt;GitLab CI Patterns&lt;/h1&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Reference:&lt;/strong&gt; See &lt;code&gt;assets/test-workflow.yml&lt;/code&gt;&lt;/p&gt;</description></item><item><title>Gitlab Ci Patterns</title><link>https://agentskill.wiki/skills/gitlab-ci-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/gitlab-ci-patterns/</guid><description>&lt;h1 id="gitlab-ci-patterns"&gt;GitLab CI Patterns&lt;/h1&gt;
 &lt;p&gt;Comprehensive GitLab CI/CD pipeline patterns for automated testing, building, and deployment.&lt;/p&gt;
 &lt;h2 id="purpose"&gt;Purpose&lt;/h2&gt;
 &lt;p&gt;Create efficient GitLab CI pipelines with proper stage organization, caching, and deployment strategies.&lt;/p&gt;
@@ -489,7 +489,7 @@ Span (api-gateway) [80ms]
 &lt;li&gt;&lt;code&gt;github-actions-templates&lt;/code&gt; - For GitHub Actions&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;deployment-pipeline-design&lt;/code&gt; - For architecture&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;secrets-management&lt;/code&gt; - For secrets handling&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Grafana Dashboards</title><link>https://agentskill.wiki/en/skills/grafana-dashboards/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/grafana-dashboards/</guid><description>&lt;h1 id="grafana-dashboards"&gt;Grafana Dashboards&lt;/h1&gt;
+&lt;/ul&gt;</description></item><item><title>Grafana Dashboards</title><link>https://agentskill.wiki/skills/grafana-dashboards/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/grafana-dashboards/</guid><description>&lt;h1 id="grafana-dashboards"&gt;Grafana Dashboards&lt;/h1&gt;
 &lt;p&gt;Create and manage production-ready Grafana dashboards for comprehensive system observability.&lt;/p&gt;
 &lt;h2 id="purpose"&gt;Purpose&lt;/h2&gt;
 &lt;p&gt;Design effective Grafana dashboards for monitoring applications, infrastructure, and business metrics.&lt;/p&gt;
@@ -577,7 +577,7 @@ Span (api-gateway) [80ms]
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;51&lt;/span&gt;&lt;span&gt; ]
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;52&lt;/span&gt;&lt;span&gt; }
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;53&lt;/span&gt;&lt;span&gt;}
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Reference:&lt;/strong&gt; See &lt;code&gt;assets/api-dashboard.json&lt;/code&gt;&lt;/p&gt;</description></item><item><title>Incident Runbook Templates</title><link>https://agentskill.wiki/en/skills/incident-runbook-templates/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/incident-runbook-templates/</guid><description>&lt;h1 id="incident-runbook-templates"&gt;Incident Runbook Templates&lt;/h1&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Reference:&lt;/strong&gt; See &lt;code&gt;assets/api-dashboard.json&lt;/code&gt;&lt;/p&gt;</description></item><item><title>Incident Runbook Templates</title><link>https://agentskill.wiki/skills/incident-runbook-templates/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/incident-runbook-templates/</guid><description>&lt;h1 id="incident-runbook-templates"&gt;Incident Runbook Templates&lt;/h1&gt;
 &lt;p&gt;Production-ready templates for incident response runbooks covering detection, triage, mitigation, resolution, and communication.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -989,7 +989,7 @@ AND query_start &amp;lt; now() - interval &amp;#39;10 minutes&amp;#39;;
 - [Google SRE Book - Incident Management](https://sre.google/sre-book/managing-incidents/)
 - [PagerDuty Incident Response](https://response.pagerduty.com/)
 - [Atlassian Incident Management](https://www.atlassian.com/incident-management)
-&lt;/code&gt;&lt;/pre&gt;</description></item><item><title>On Call Handoff Patterns</title><link>https://agentskill.wiki/en/skills/on-call-handoff-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/on-call-handoff-patterns/</guid><description>&lt;h1 id="on-call-handoff-patterns"&gt;On-Call Handoff Patterns&lt;/h1&gt;
+&lt;/code&gt;&lt;/pre&gt;</description></item><item><title>On Call Handoff Patterns</title><link>https://agentskill.wiki/skills/on-call-handoff-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/on-call-handoff-patterns/</guid><description>&lt;h1 id="on-call-handoff-patterns"&gt;On-Call Handoff Patterns&lt;/h1&gt;
 &lt;p&gt;Effective patterns for on-call shift transitions, ensuring continuity, context transfer, and reliable incident response across shifts.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -1442,7 +1442,7 @@ I&amp;#39;ll be available on Slack until 17:00 today.
 &lt;li&gt;&lt;a href="https://sre.google/sre-book/being-on-call/"&gt;Google SRE - Being On-Call&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.pagerduty.com/resources/learn/on-call-management/"&gt;PagerDuty On-Call Guide&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://increment.com/on-call/"&gt;Increment On-Call Issue&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Prowler Ci</title><link>https://agentskill.wiki/en/skills/prowler-ci/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/prowler-ci/</guid><description>&lt;h2 id="what-this-skill-covers"&gt;What this skill covers&lt;/h2&gt;
+&lt;/ul&gt;</description></item><item><title>Prowler Ci</title><link>https://agentskill.wiki/skills/prowler-ci/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/prowler-ci/</guid><description>&lt;h2 id="what-this-skill-covers"&gt;What this skill covers&lt;/h2&gt;
 &lt;p&gt;Use this skill whenever you are:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Reading or changing GitHub Actions workflows under &lt;code&gt;.github/workflows/&lt;/code&gt;&lt;/li&gt;
@@ -1470,7 +1470,7 @@ I&amp;#39;ll be available on Slack until 17:00 today.
 &lt;li&gt;If it&amp;rsquo;s secrets (TruffleHog): see section below.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id="trufflehog-secret-scanning"&gt;TruffleHog Secret Scanning&lt;/h2&gt;
-&lt;p&gt;TruffleHog scans for leaked secrets. Common false positives in test files:&lt;/p&gt;</description></item><item><title>Railway Deploy</title><link>https://agentskill.wiki/en/skills/railway-deploy/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/railway-deploy/</guid><description>&lt;h1 id="railway-deploy"&gt;Railway Deploy&lt;/h1&gt;
+&lt;p&gt;TruffleHog scans for leaked secrets. Common false positives in test files:&lt;/p&gt;</description></item><item><title>Railway Deploy</title><link>https://agentskill.wiki/skills/railway-deploy/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/railway-deploy/</guid><description>&lt;h1 id="railway-deploy"&gt;Railway Deploy&lt;/h1&gt;
 &lt;p&gt;Deploy code from the current directory to Railway using &lt;code&gt;railway up&lt;/code&gt;.&lt;/p&gt;
 &lt;h2 id="when-to-use"&gt;When to Use&lt;/h2&gt;
 &lt;ul&gt;
@@ -1484,7 +1484,7 @@ I&amp;#39;ll be available on Slack until 17:00 today.
 &lt;p&gt;Starts deploy and returns immediately. Use for most deploys.&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;railway up --detach
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="ci-mode"&gt;CI Mode&lt;/h3&gt;
-&lt;p&gt;Streams build logs until complete. Use when user wants to watch the build or needs to debug issues.&lt;/p&gt;</description></item><item><title>Railway Deployment</title><link>https://agentskill.wiki/en/skills/railway-deployment/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/railway-deployment/</guid><description>&lt;h1 id="railway-deployment-management"&gt;Railway Deployment Management&lt;/h1&gt;
+&lt;p&gt;Streams build logs until complete. Use when user wants to watch the build or needs to debug issues.&lt;/p&gt;</description></item><item><title>Railway Deployment</title><link>https://agentskill.wiki/skills/railway-deployment/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/railway-deployment/</guid><description>&lt;h1 id="railway-deployment-management"&gt;Railway Deployment Management&lt;/h1&gt;
 &lt;p&gt;Manage existing Railway deployments: list, view logs, redeploy, or remove.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Important:&lt;/strong&gt; &amp;ldquo;Remove deployment&amp;rdquo; (&lt;code&gt;railway down&lt;/code&gt;) stops the current deployment but keeps the service. To delete a service entirely, use the railway-environment skill with &lt;code&gt;isDeleted: true&lt;/code&gt;.&lt;/p&gt;
 &lt;h2 id="when-to-use"&gt;When to Use&lt;/h2&gt;
@@ -1496,7 +1496,7 @@ I&amp;#39;ll be available on Slack until 17:00 today.
 &lt;/ul&gt;
 &lt;h2 id="list-deployments"&gt;List Deployments&lt;/h2&gt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;railway deployment list --limit &lt;span style="color:#ae81ff"&gt;10&lt;/span&gt; --json
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Shows deployment IDs, statuses, and metadata. Use to find specific deployment IDs for logs or debugging.&lt;/p&gt;</description></item><item><title>Railway Domain</title><link>https://agentskill.wiki/en/skills/railway-domain/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/railway-domain/</guid><description>&lt;h1 id="railway-domain-management"&gt;Railway Domain Management&lt;/h1&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Shows deployment IDs, statuses, and metadata. Use to find specific deployment IDs for logs or debugging.&lt;/p&gt;</description></item><item><title>Railway Domain</title><link>https://agentskill.wiki/skills/railway-domain/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/railway-domain/</guid><description>&lt;h1 id="railway-domain-management"&gt;Railway Domain Management&lt;/h1&gt;
 &lt;p&gt;Add, view, or remove domains for Railway services.&lt;/p&gt;
 &lt;h2 id="when-to-use"&gt;When to Use&lt;/h2&gt;
 &lt;ul&gt;
@@ -1511,7 +1511,7 @@ I&amp;#39;ll be available on Slack until 17:00 today.
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;For a specific service:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;railway domain --json --service backend
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="response"&gt;Response&lt;/h3&gt;
-&lt;p&gt;Returns the generated domain URL. Service must have a deployment.&lt;/p&gt;</description></item><item><title>Railway Environment</title><link>https://agentskill.wiki/en/skills/railway-environment/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/railway-environment/</guid><description>&lt;h1 id="environment-configuration"&gt;Environment Configuration&lt;/h1&gt;
+&lt;p&gt;Returns the generated domain URL. Service must have a deployment.&lt;/p&gt;</description></item><item><title>Railway Environment</title><link>https://agentskill.wiki/skills/railway-environment/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/railway-environment/</guid><description>&lt;h1 id="environment-configuration"&gt;Environment Configuration&lt;/h1&gt;
 &lt;p&gt;Query, stage, and apply configuration changes for Railway environments.&lt;/p&gt;
 &lt;h2 id="shell-escaping"&gt;Shell Escaping&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;CRITICAL:&lt;/strong&gt; When running GraphQL queries via bash, you MUST wrap in heredoc to prevent shell escaping issues:&lt;/p&gt;
@@ -1536,7 +1536,7 @@ I&amp;#39;ll be available on Slack until 17:00 today.
 &lt;li&gt;Auto-fixing build errors detected in logs&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="create-environment"&gt;Create Environment&lt;/h2&gt;
-&lt;p&gt;Create a new environment in the linked project:&lt;/p&gt;</description></item><item><title>Railway Metrics</title><link>https://agentskill.wiki/en/skills/railway-metrics/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/railway-metrics/</guid><description>&lt;h1 id="railway-service-metrics"&gt;Railway Service Metrics&lt;/h1&gt;
+&lt;p&gt;Create a new environment in the linked project:&lt;/p&gt;</description></item><item><title>Railway Metrics</title><link>https://agentskill.wiki/skills/railway-metrics/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/railway-metrics/</guid><description>&lt;h1 id="railway-service-metrics"&gt;Railway Service Metrics&lt;/h1&gt;
 &lt;p&gt;Query resource usage metrics for Railway services.&lt;/p&gt;
 &lt;h2 id="when-to-use"&gt;When to Use&lt;/h2&gt;
 &lt;ul&gt;
@@ -1662,7 +1662,7 @@ I&amp;#39;ll be available on Slack until 17:00 today.
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;32&lt;/span&gt;&lt;span&gt; }
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;33&lt;/span&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="example-last-hour-cpu-and-memory"&gt;Example: Last Hour CPU and Memory&lt;/h2&gt;
-&lt;p&gt;Use heredoc to avoid shell escaping issues:&lt;/p&gt;</description></item><item><title>Railway Projects</title><link>https://agentskill.wiki/en/skills/railway-projects/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/railway-projects/</guid><description>&lt;h1 id="railway-project-management"&gt;Railway Project Management&lt;/h1&gt;
+&lt;p&gt;Use heredoc to avoid shell escaping issues:&lt;/p&gt;</description></item><item><title>Railway Projects</title><link>https://agentskill.wiki/skills/railway-projects/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/railway-projects/</guid><description>&lt;h1 id="railway-project-management"&gt;Railway Project Management&lt;/h1&gt;
 &lt;p&gt;List, switch, and configure Railway projects.&lt;/p&gt;
 &lt;h2 id="when-to-use"&gt;When to Use&lt;/h2&gt;
 &lt;ul&gt;
@@ -1676,7 +1676,7 @@ I&amp;#39;ll be available on Slack until 17:00 today.
 &lt;li&gt;User asks about project settings&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="list-projects"&gt;List Projects&lt;/h2&gt;
-&lt;p&gt;The &lt;code&gt;railway list --json&lt;/code&gt; output can be very large. Run in a subagent and return only essential fields:&lt;/p&gt;</description></item><item><title>Railway Service</title><link>https://agentskill.wiki/en/skills/railway-service/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/railway-service/</guid><description>&lt;h1 id="railway-service-management"&gt;Railway Service Management&lt;/h1&gt;
+&lt;p&gt;The &lt;code&gt;railway list --json&lt;/code&gt; output can be very large. Run in a subagent and return only essential fields:&lt;/p&gt;</description></item><item><title>Railway Service</title><link>https://agentskill.wiki/skills/railway-service/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/railway-service/</guid><description>&lt;h1 id="railway-service-management"&gt;Railway Service Management&lt;/h1&gt;
 &lt;p&gt;Check status, update properties, and advanced service creation.&lt;/p&gt;
 &lt;h2 id="when-to-use"&gt;When to Use&lt;/h2&gt;
 &lt;ul&gt;
@@ -1686,7 +1686,7 @@ I&amp;#39;ll be available on Slack until 17:00 today.
 &lt;li&gt;User wants to link a different service&lt;/li&gt;
 &lt;li&gt;User wants to deploy a Docker image as a new service (advanced)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; For creating services with local code (the common case), prefer the railway-new skill which handles project setup, scaffolding, and service creation together.&lt;/p&gt;</description></item><item><title>Railway Templates</title><link>https://agentskill.wiki/en/skills/railway-templates/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/railway-templates/</guid><description>&lt;h1 id="railway-templates"&gt;Railway Templates&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; For creating services with local code (the common case), prefer the railway-new skill which handles project setup, scaffolding, and service creation together.&lt;/p&gt;</description></item><item><title>Railway Templates</title><link>https://agentskill.wiki/skills/railway-templates/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/railway-templates/</guid><description>&lt;h1 id="railway-templates"&gt;Railway Templates&lt;/h1&gt;
 &lt;p&gt;Search and deploy services from Railway&amp;rsquo;s template marketplace.&lt;/p&gt;
 &lt;h2 id="when-to-use"&gt;When to Use&lt;/h2&gt;
 &lt;ul&gt;
@@ -1753,7 +1753,7 @@ I&amp;#39;ll be available on Slack until 17:00 today.
  &lt;/tr&gt;
  &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;For other templates, use the search query below.&lt;/p&gt;</description></item><item><title>Rule Identifier</title><link>https://agentskill.wiki/en/skills/rule-identifier/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/rule-identifier/</guid><description>&lt;h1 id="writing-hookify-rules"&gt;Writing Hookify Rules&lt;/h1&gt;
+&lt;p&gt;For other templates, use the search query below.&lt;/p&gt;</description></item><item><title>Rule Identifier</title><link>https://agentskill.wiki/skills/rule-identifier/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/rule-identifier/</guid><description>&lt;h1 id="writing-hookify-rules"&gt;Writing Hookify Rules&lt;/h1&gt;
 &lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;Hookify rules are markdown files with YAML frontmatter that define patterns to watch for and messages to show when those patterns match. Rules are stored in &lt;code&gt;.claude/hookify.{rule-name}.local.md&lt;/code&gt; files.&lt;/p&gt;
 &lt;h2 id="rule-file-format"&gt;Rule File Format&lt;/h2&gt;
@@ -1768,7 +1768,7 @@ I&amp;#39;ll be available on Slack until 17:00 today.
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;8&lt;/span&gt;&lt;span&gt;Message to show Claude when this rule triggers.
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;9&lt;/span&gt;&lt;span&gt;Can include markdown formatting, warnings, suggestions, etc.
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="frontmatter-fields"&gt;Frontmatter Fields&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;name&lt;/strong&gt; (required): Unique identifier for the rule&lt;/p&gt;</description></item><item><title>Secrets Management</title><link>https://agentskill.wiki/en/skills/secrets-management/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/secrets-management/</guid><description>&lt;h1 id="secrets-management"&gt;Secrets Management&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;name&lt;/strong&gt; (required): Unique identifier for the rule&lt;/p&gt;</description></item><item><title>Secrets Management</title><link>https://agentskill.wiki/skills/secrets-management/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/secrets-management/</guid><description>&lt;h1 id="secrets-management"&gt;Secrets Management&lt;/h1&gt;
 &lt;p&gt;Secure secrets management practices for CI/CD pipelines using Vault, AWS Secrets Manager, and other tools.&lt;/p&gt;
 &lt;h2 id="purpose"&gt;Purpose&lt;/h2&gt;
 &lt;p&gt;Implement secure secrets management in CI/CD pipelines without hardcoding sensitive information.&lt;/p&gt;
@@ -1861,7 +1861,7 @@ I&amp;#39;ll be available on Slack until 17:00 today.
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;10&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; API_KEY=$(vault kv get -field=key secret/api/credentials)
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;11&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; echo &amp;#34;Deploying with secrets...&amp;#34;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;12&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; # Use $DB_PASSWORD, $API_KEY&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Reference:&lt;/strong&gt; See &lt;code&gt;references/vault-setup.md&lt;/code&gt;&lt;/p&gt;</description></item><item><title>Senior Devops</title><link>https://agentskill.wiki/en/skills/senior-devops/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/senior-devops/</guid><description>&lt;h1 id="senior-devops"&gt;Senior Devops&lt;/h1&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Reference:&lt;/strong&gt; See &lt;code&gt;references/vault-setup.md&lt;/code&gt;&lt;/p&gt;</description></item><item><title>Senior Devops</title><link>https://agentskill.wiki/skills/senior-devops/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/senior-devops/</guid><description>&lt;h1 id="senior-devops"&gt;Senior Devops&lt;/h1&gt;
 &lt;p&gt;Complete toolkit for senior devops with modern tools and best practices.&lt;/p&gt;
 &lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;
 &lt;h3 id="main-capabilities"&gt;Main Capabilities&lt;/h3&gt;
@@ -1876,7 +1876,7 @@ I&amp;#39;ll be available on Slack until 17:00 today.
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;8&lt;/span&gt;&lt;span&gt;python scripts/deployment_manager.py &lt;span style="color:#f92672"&gt;[&lt;/span&gt;options&lt;span style="color:#f92672"&gt;]&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="core-capabilities"&gt;Core Capabilities&lt;/h2&gt;
 &lt;h3 id="1-pipeline-generator"&gt;1. Pipeline Generator&lt;/h3&gt;
-&lt;p&gt;Automated tool for pipeline generator tasks.&lt;/p&gt;</description></item><item><title>Senior Secops</title><link>https://agentskill.wiki/en/skills/senior-secops/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/senior-secops/</guid><description>&lt;h1 id="senior-secops"&gt;Senior Secops&lt;/h1&gt;
+&lt;p&gt;Automated tool for pipeline generator tasks.&lt;/p&gt;</description></item><item><title>Senior Secops</title><link>https://agentskill.wiki/skills/senior-secops/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/senior-secops/</guid><description>&lt;h1 id="senior-secops"&gt;Senior Secops&lt;/h1&gt;
 &lt;p&gt;Complete toolkit for senior secops with modern tools and best practices.&lt;/p&gt;
 &lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;
 &lt;h3 id="main-capabilities"&gt;Main Capabilities&lt;/h3&gt;
@@ -1891,7 +1891,7 @@ I&amp;#39;ll be available on Slack until 17:00 today.
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;8&lt;/span&gt;&lt;span&gt;python scripts/compliance_checker.py &lt;span style="color:#f92672"&gt;[&lt;/span&gt;options&lt;span style="color:#f92672"&gt;]&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="core-capabilities"&gt;Core Capabilities&lt;/h2&gt;
 &lt;h3 id="1-security-scanner"&gt;1. Security Scanner&lt;/h3&gt;
-&lt;p&gt;Automated tool for security scanner tasks.&lt;/p&gt;</description></item><item><title>Shellcheck Configuration</title><link>https://agentskill.wiki/en/skills/shellcheck-configuration/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/shellcheck-configuration/</guid><description>&lt;h1 id="shellcheck-configuration-and-static-analysis"&gt;ShellCheck Configuration and Static Analysis&lt;/h1&gt;
+&lt;p&gt;Automated tool for security scanner tasks.&lt;/p&gt;</description></item><item><title>Shellcheck Configuration</title><link>https://agentskill.wiki/skills/shellcheck-configuration/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/shellcheck-configuration/</guid><description>&lt;h1 id="shellcheck-configuration-and-static-analysis"&gt;ShellCheck Configuration and Static Analysis&lt;/h1&gt;
 &lt;p&gt;Comprehensive guidance for configuring and using ShellCheck to improve shell script quality, catch common pitfalls, and enforce best practices through static code analysis.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -1906,7 +1906,7 @@ I&amp;#39;ll be available on Slack until 17:00 today.
 &lt;/ul&gt;
 &lt;h2 id="shellcheck-fundamentals"&gt;ShellCheck Fundamentals&lt;/h2&gt;
 &lt;h3 id="what-is-shellcheck"&gt;What is ShellCheck?&lt;/h3&gt;
-&lt;p&gt;ShellCheck is a static analysis tool that analyzes shell scripts and detects problematic patterns. It supports:&lt;/p&gt;</description></item><item><title>Terraform Module Library</title><link>https://agentskill.wiki/en/skills/terraform-module-library/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/terraform-module-library/</guid><description>&lt;h1 id="terraform-module-library"&gt;Terraform Module Library&lt;/h1&gt;
+&lt;p&gt;ShellCheck is a static analysis tool that analyzes shell scripts and detects problematic patterns. It supports:&lt;/p&gt;</description></item><item><title>Terraform Module Library</title><link>https://agentskill.wiki/skills/terraform-module-library/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/terraform-module-library/</guid><description>&lt;h1 id="terraform-module-library"&gt;Terraform Module Library&lt;/h1&gt;
 &lt;p&gt;Production-ready Terraform module patterns for AWS, Azure, and GCP infrastructure.&lt;/p&gt;
 &lt;h2 id="purpose"&gt;Purpose&lt;/h2&gt;
 &lt;p&gt;Create reusable, well-tested Terraform modules for common cloud infrastructure patterns across multiple cloud providers.&lt;/p&gt;

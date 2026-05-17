@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Transcription on Agent Skills Hub</title><link>https://agentskill.wiki/zh/tags/transcription/</link><description>Recent content in Transcription on Agent Skills Hub</description><generator>Hugo</generator><language>zh</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/zh/tags/transcription/index.xml" rel="self" type="application/rss+xml"/><item><title>Markitdown</title><link>https://agentskill.wiki/zh/skills/markitdown/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/zh/skills/markitdown/</guid><description>&lt;h1 id="markitdown---file-to-markdown-conversion"&gt;MarkItDown - File to Markdown Conversion&lt;/h1&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;p&gt;MarkItDown is a Python tool developed by Microsoft for converting various file formats to Markdown. It&amp;rsquo;s particularly useful for converting documents into LLM-friendly text format, as Markdown is token-efficient and well-understood by modern language models.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Key Benefits&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Convert documents to clean, structured Markdown&lt;/li&gt;
+&lt;li&gt;Token-efficient format for LLM processing&lt;/li&gt;
+&lt;li&gt;Supports 15+ file formats&lt;/li&gt;
+&lt;li&gt;Optional AI-enhanced image descriptions&lt;/li&gt;
+&lt;li&gt;OCR for images and scanned documents&lt;/li&gt;
+&lt;li&gt;Speech transcription for audio files&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="visual-enhancement-with-scientific-schematics"&gt;Visual Enhancement with Scientific Schematics&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;When creating documents with this skill, always consider adding scientific diagrams and schematics to enhance visual communication.&lt;/strong&gt;&lt;/p&gt;</description></item></channel></rss>

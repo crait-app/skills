@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rest-Api on Agent Skills Hub</title><link>https://agentskill.wiki/tags/rest-api/</link><description>Recent content in Rest-Api on Agent Skills Hub</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/rest-api/index.xml" rel="self" type="application/rss+xml"/><item><title>Api Integration Specialist</title><link>https://agentskill.wiki/en/skills/api-integration-specialist/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/api-integration-specialist/</guid><description>&lt;h1 id="api-integration-specialist"&gt;API Integration Specialist&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rest-Api on Agent Skills Hub</title><link>https://agentskill.wiki/tags/rest-api/</link><description>Recent content in Rest-Api on Agent Skills Hub</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/rest-api/index.xml" rel="self" type="application/rss+xml"/><item><title>Api Integration Specialist</title><link>https://agentskill.wiki/skills/api-integration-specialist/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/api-integration-specialist/</guid><description>&lt;h1 id="api-integration-specialist"&gt;API Integration Specialist&lt;/h1&gt;
 &lt;p&gt;Expert guidance for integrating external APIs into applications with production-ready patterns, security best practices, and comprehensive error handling.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;p&gt;Use this skill when:&lt;/p&gt;
@@ -13,7 +13,7 @@
 &lt;/ul&gt;
 &lt;h2 id="core-integration-principles"&gt;Core Integration Principles&lt;/h2&gt;
 &lt;h3 id="1-authentication--security"&gt;1. Authentication &amp;amp; Security&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;API Key Management:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Fastapi Templates</title><link>https://agentskill.wiki/en/skills/fastapi-templates/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/fastapi-templates/</guid><description>&lt;h1 id="fastapi-project-templates"&gt;FastAPI Project Templates&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;API Key Management:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Fastapi Templates</title><link>https://agentskill.wiki/skills/fastapi-templates/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/fastapi-templates/</guid><description>&lt;h1 id="fastapi-project-templates"&gt;FastAPI Project Templates&lt;/h1&gt;
 &lt;p&gt;Production-ready FastAPI project structures with async patterns, dependency injection, middleware, and best practices for building high-performance APIs.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -53,7 +53,7 @@
 │ └── item_repository.py
 └── main.py # Application entry
 &lt;/code&gt;&lt;/pre&gt;&lt;h3 id="2-dependency-injection"&gt;2. Dependency Injection&lt;/h3&gt;
-&lt;p&gt;FastAPI&amp;rsquo;s built-in DI system using &lt;code&gt;Depends&lt;/code&gt;:&lt;/p&gt;</description></item><item><title>Nodejs Backend Patterns</title><link>https://agentskill.wiki/en/skills/nodejs-backend-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/nodejs-backend-patterns/</guid><description>&lt;h1 id="nodejs-backend-patterns"&gt;Node.js Backend Patterns&lt;/h1&gt;
+&lt;p&gt;FastAPI&amp;rsquo;s built-in DI system using &lt;code&gt;Depends&lt;/code&gt;:&lt;/p&gt;</description></item><item><title>Nodejs Backend Patterns</title><link>https://agentskill.wiki/skills/nodejs-backend-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/nodejs-backend-patterns/</guid><description>&lt;h1 id="nodejs-backend-patterns"&gt;Node.js Backend Patterns&lt;/h1&gt;
 &lt;p&gt;Comprehensive guidance for building scalable, maintainable, and production-ready Node.js backend applications with modern frameworks, architectural patterns, and best practices.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -68,7 +68,7 @@
 &lt;/ul&gt;
 &lt;h2 id="core-frameworks"&gt;Core Frameworks&lt;/h2&gt;
 &lt;h3 id="expressjs---minimalist-framework"&gt;Express.js - Minimalist Framework&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Basic Setup:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Senior Backend</title><link>https://agentskill.wiki/en/skills/senior-backend/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/senior-backend/</guid><description>&lt;h1 id="senior-backend"&gt;Senior Backend&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Basic Setup:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Senior Backend</title><link>https://agentskill.wiki/skills/senior-backend/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/senior-backend/</guid><description>&lt;h1 id="senior-backend"&gt;Senior Backend&lt;/h1&gt;
 &lt;p&gt;Complete toolkit for senior backend with modern tools and best practices.&lt;/p&gt;
 &lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;
 &lt;h3 id="main-capabilities"&gt;Main Capabilities&lt;/h3&gt;

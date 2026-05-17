@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Developer on Agent Skills Hub</title><link>https://agentskill.wiki/topics/developer/</link><description>Recent content in Developer on Agent Skills Hub</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/topics/developer/index.xml" rel="self" type="application/rss+xml"/><item><title>Autogpt Agents</title><link>https://agentskill.wiki/en/skills/autogpt-agents/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/autogpt-agents/</guid><description>&lt;h1 id="autogpt---autonomous-ai-agent-platform"&gt;AutoGPT - Autonomous AI Agent Platform&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Developer on Agent Skills Hub</title><link>https://agentskill.wiki/topics/developer/</link><description>Recent content in Developer on Agent Skills Hub</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/topics/developer/index.xml" rel="self" type="application/rss+xml"/><item><title>Autogpt Agents</title><link>https://agentskill.wiki/skills/autogpt-agents/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/autogpt-agents/</guid><description>&lt;h1 id="autogpt---autonomous-ai-agent-platform"&gt;AutoGPT - Autonomous AI Agent Platform&lt;/h1&gt;
 &lt;p&gt;Comprehensive platform for building, deploying, and managing continuous AI agents through a visual interface or development toolkit.&lt;/p&gt;
 &lt;h2 id="when-to-use-autogpt"&gt;When to use AutoGPT&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Use AutoGPT when:&lt;/strong&gt;&lt;/p&gt;
@@ -18,7 +18,7 @@
 &lt;li&gt;&lt;strong&gt;Forge Toolkit&lt;/strong&gt;: Developer tools for custom agent creation&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Benchmark System&lt;/strong&gt;: Standardized agent performance testing&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Use alternatives instead:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Connect Apps</title><link>https://agentskill.wiki/en/skills/connect-apps/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/connect-apps/</guid><description>&lt;h1 id="connect-apps"&gt;Connect Apps&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Use alternatives instead:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Connect Apps</title><link>https://agentskill.wiki/skills/connect-apps/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/connect-apps/</guid><description>&lt;h1 id="connect-apps"&gt;Connect Apps&lt;/h1&gt;
 &lt;p&gt;Connect Claude to 1000+ apps. Actually send emails, create issues, post messages - not just generate text about it.&lt;/p&gt;
 &lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;
 &lt;h3 id="step-1-install-the-plugin"&gt;Step 1: Install the Plugin&lt;/h3&gt;
@@ -34,7 +34,7 @@
 &lt;h3 id="step-3-try-it"&gt;Step 3: Try It!&lt;/h3&gt;
 &lt;p&gt;After setup, restart Claude Code and try:&lt;/p&gt;
 &lt;pre tabindex="0"&gt;&lt;code&gt;Send me a test email at YOUR_EMAIL@example.com
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;If it works, you&amp;rsquo;re connected!&lt;/p&gt;</description></item><item><title>Create Scratch</title><link>https://agentskill.wiki/en/skills/create-scratch/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/create-scratch/</guid><description>&lt;h2 id="what-i-do"&gt;What I do&lt;/h2&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;If it works, you&amp;rsquo;re connected!&lt;/p&gt;</description></item><item><title>Create Scratch</title><link>https://agentskill.wiki/skills/create-scratch/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/create-scratch/</guid><description>&lt;h2 id="what-i-do"&gt;What I do&lt;/h2&gt;
 &lt;p&gt;I help you create new scratch files in the &lt;code&gt;.agents/scratches/&lt;/code&gt; directory. Each scratch file gets:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;A unique three-word identifier (e.g., &lt;code&gt;calm-teal-cloud&lt;/code&gt;)&lt;/li&gt;
@@ -51,7 +51,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;4&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;goes here
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;5&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;HEREDOC&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="file-format"&gt;File format&lt;/h2&gt;
-&lt;p&gt;Files are created as: &lt;code&gt;{three-word-id}-{slug}.md&lt;/code&gt;&lt;/p&gt;</description></item><item><title>Docs Sync</title><link>https://agentskill.wiki/en/skills/docs-sync/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/docs-sync/</guid><description>&lt;h1 id="docs-sync"&gt;Docs Sync&lt;/h1&gt;
+&lt;p&gt;Files are created as: &lt;code&gt;{three-word-id}-{slug}.md&lt;/code&gt;&lt;/p&gt;</description></item><item><title>Docs Sync</title><link>https://agentskill.wiki/skills/docs-sync/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/docs-sync/</guid><description>&lt;h1 id="docs-sync"&gt;Docs Sync&lt;/h1&gt;
 &lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;Identify doc coverage gaps and inaccuracies by comparing main branch features and configuration options against the current docs structure, then propose targeted improvements.&lt;/p&gt;
 &lt;h2 id="workflow"&gt;Workflow&lt;/h2&gt;
@@ -66,7 +66,7 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Build a feature inventory from the selected scope&lt;/p&gt;</description></item><item><title>Docs Write</title><link>https://agentskill.wiki/en/skills/docs-write/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/docs-write/</guid><description>&lt;h1 id="documentation-writing-skill"&gt;Documentation Writing Skill&lt;/h1&gt;
+&lt;p&gt;Build a feature inventory from the selected scope&lt;/p&gt;</description></item><item><title>Docs Write</title><link>https://agentskill.wiki/skills/docs-write/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/docs-write/</guid><description>&lt;h1 id="documentation-writing-skill"&gt;Documentation Writing Skill&lt;/h1&gt;
 &lt;p&gt;@./../_shared/metabase-style-guide.md&lt;/p&gt;
 &lt;h2 id="when-writing-documentation"&gt;When writing documentation&lt;/h2&gt;
 &lt;h3 id="start-here"&gt;Start here&lt;/h3&gt;
@@ -82,7 +82,7 @@
 &lt;li&gt;Lead with what to do, then explain why&lt;/li&gt;
 &lt;li&gt;Use headings that state your point: &amp;ldquo;Set SAML before adding users&amp;rdquo; not &amp;ldquo;SAML configuration timing&amp;rdquo;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Edit:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Skill Share</title><link>https://agentskill.wiki/en/skills/skill-share/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/skill-share/</guid><description>&lt;h2 id="when-to-use-this-skill"&gt;When to use this skill&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Edit:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Skill Share</title><link>https://agentskill.wiki/skills/skill-share/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/skill-share/</guid><description>&lt;h2 id="when-to-use-this-skill"&gt;When to use this skill&lt;/h2&gt;
 &lt;p&gt;Use this skill when you need to:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Create new Claude skills&lt;/strong&gt; with proper structure and metadata&lt;/li&gt;
@@ -145,7 +145,7 @@
 4. Packages the skill as a zip file
 5. Posts to Slack: &amp;#34;New Skill Created: pdf-analyzer - Advanced PDF analysis and extraction capabilities&amp;#34;
 &lt;/code&gt;&lt;/pre&gt;&lt;h2 id="integration-with-rube"&gt;Integration with Rube&lt;/h2&gt;
-&lt;p&gt;This skill leverages Rube for:&lt;/p&gt;</description></item><item><title>Skill Sync</title><link>https://agentskill.wiki/en/skills/skill-sync/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/skill-sync/</guid><description>&lt;h2 id="purpose"&gt;Purpose&lt;/h2&gt;
+&lt;p&gt;This skill leverages Rube for:&lt;/p&gt;</description></item><item><title>Skill Sync</title><link>https://agentskill.wiki/skills/skill-sync/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/skill-sync/</guid><description>&lt;h2 id="purpose"&gt;Purpose&lt;/h2&gt;
 &lt;p&gt;Keeps AGENTS.md Auto-invoke sections in sync with skill metadata. When you create or modify a skill, run the sync script to automatically update all affected AGENTS.md files.&lt;/p&gt;
 &lt;h2 id="required-skill-metadata"&gt;Required Skill Metadata&lt;/h2&gt;
 &lt;p&gt;Each skill that should appear in Auto-invoke sections needs these fields in &lt;code&gt;metadata&lt;/code&gt;.&lt;/p&gt;
@@ -193,7 +193,7 @@
  &lt;/tr&gt;
  &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;Skills can have multiple scopes: &lt;code&gt;scope: [ui, api]&lt;/code&gt;&lt;/p&gt;</description></item><item><title>Write Issue</title><link>https://agentskill.wiki/en/skills/write-issue/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/write-issue/</guid><description>&lt;h1 id="writing-and-maintaining-github-issues"&gt;Writing and maintaining GitHub issues&lt;/h1&gt;
+&lt;p&gt;Skills can have multiple scopes: &lt;code&gt;scope: [ui, api]&lt;/code&gt;&lt;/p&gt;</description></item><item><title>Write Issue</title><link>https://agentskill.wiki/skills/write-issue/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/write-issue/</guid><description>&lt;h1 id="writing-and-maintaining-github-issues"&gt;Writing and maintaining GitHub issues&lt;/h1&gt;
 &lt;p&gt;Standards for issues in tldraw/tldraw.&lt;/p&gt;
 &lt;h2 id="title-standards"&gt;Title standards&lt;/h2&gt;
 &lt;ul&gt;

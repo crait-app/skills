@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>File-Organization on Agent Skills Hub</title><link>https://agentskill.wiki/zh/tags/file-organization/</link><description>Recent content in File-Organization on Agent Skills Hub</description><generator>Hugo</generator><language>zh</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/zh/tags/file-organization/index.xml" rel="self" type="application/rss+xml"/><item><title>Create Scratch</title><link>https://agentskill.wiki/zh/skills/create-scratch/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/zh/skills/create-scratch/</guid><description>&lt;h2 id="what-i-do"&gt;What I do&lt;/h2&gt;
+&lt;p&gt;I help you create new scratch files in the &lt;code&gt;.agents/scratches/&lt;/code&gt; directory. Each scratch file gets:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;A unique three-word identifier (e.g., &lt;code&gt;calm-teal-cloud&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;Frontmatter with the current date and formatted title&lt;/li&gt;
+&lt;li&gt;Content you provide&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="how-to-use"&gt;How to use&lt;/h2&gt;
+&lt;p&gt;Run the script with a slug and content:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;npx tsx scripts/create-scratch.ts &lt;span style="color:#e6db74"&gt;&amp;#34;note-name&amp;#34;&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;Scratch content here&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Or use heredoc for multi-line content:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;npx tsx scripts/create-scratch.ts &lt;span style="color:#e6db74"&gt;&amp;#34;note-name&amp;#34;&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;lt;&amp;lt; HEREDOC
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;2&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;Multi-line
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;3&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;scratch content
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;4&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;goes here
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;5&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;HEREDOC&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="file-format"&gt;File format&lt;/h2&gt;
+&lt;p&gt;Files are created as: &lt;code&gt;{three-word-id}-{slug}.md&lt;/code&gt;&lt;/p&gt;</description></item><item><title>File Organizer</title><link>https://agentskill.wiki/zh/skills/file-organizer/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/zh/skills/file-organizer/</guid><description>&lt;h1 id="file-organizer"&gt;File Organizer&lt;/h1&gt;
+&lt;p&gt;This skill acts as your personal organization assistant, helping you maintain a clean, logical file structure across your computer without the mental overhead of constant manual organization.&lt;/p&gt;
+&lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Your Downloads folder is a chaotic mess&lt;/li&gt;
+&lt;li&gt;You can&amp;rsquo;t find files because they&amp;rsquo;re scattered everywhere&lt;/li&gt;
+&lt;li&gt;You have duplicate files taking up space&lt;/li&gt;
+&lt;li&gt;Your folder structure doesn&amp;rsquo;t make sense anymore&lt;/li&gt;
+&lt;li&gt;You want to establish better organization habits&lt;/li&gt;
+&lt;li&gt;You&amp;rsquo;re starting a new project and need a good structure&lt;/li&gt;
+&lt;li&gt;You&amp;rsquo;re cleaning up before archiving old projects&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="what-this-skill-does"&gt;What This Skill Does&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Analyzes Current Structure&lt;/strong&gt;: Reviews your folders and files to understand what you have&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Finds Duplicates&lt;/strong&gt;: Identifies duplicate files across your system&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Suggests Organization&lt;/strong&gt;: Proposes logical folder structures based on your content&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Automates Cleanup&lt;/strong&gt;: Moves, renames, and organizes files with your approval&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Maintains Context&lt;/strong&gt;: Makes smart decisions based on file types, dates, and content&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Reduces Clutter&lt;/strong&gt;: Identifies old files you probably don&amp;rsquo;t need anymore&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="how-to-use"&gt;How to Use&lt;/h2&gt;
+&lt;h3 id="from-your-home-directory"&gt;From Your Home Directory&lt;/h3&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;cd ~
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Then run Claude Code and ask for help:&lt;/p&gt;</description></item></channel></rss>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Api on Agent Skills Hub</title><link>https://agentskill.wiki/tags/api/</link><description>Recent content in Api on Agent Skills Hub</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/api/index.xml" rel="self" type="application/rss+xml"/><item><title>Connect</title><link>https://agentskill.wiki/en/skills/connect/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/connect/</guid><description>&lt;h1 id="connect"&gt;Connect&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Api on Agent Skills Hub</title><link>https://agentskill.wiki/tags/api/</link><description>Recent content in Api on Agent Skills Hub</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/api/index.xml" rel="self" type="application/rss+xml"/><item><title>Connect</title><link>https://agentskill.wiki/skills/connect/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/connect/</guid><description>&lt;h1 id="connect"&gt;Connect&lt;/h1&gt;
 &lt;p&gt;Connect Claude to any app. Stop generating text about what you could do - actually do it.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;p&gt;Use this skill when you need Claude to:&lt;/p&gt;
@@ -36,7 +36,7 @@
  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;h2 id="supported-apps"&gt;Supported Apps&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;1000+ integrations&lt;/strong&gt; including:&lt;/p&gt;</description></item><item><title>N8N Workflow Patterns</title><link>https://agentskill.wiki/en/skills/n8n-workflow-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/n8n-workflow-patterns/</guid><description>&lt;h1 id="n8n-workflow-patterns"&gt;n8n Workflow Patterns&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;1000+ integrations&lt;/strong&gt; including:&lt;/p&gt;</description></item><item><title>N8N Workflow Patterns</title><link>https://agentskill.wiki/skills/n8n-workflow-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/n8n-workflow-patterns/</guid><description>&lt;h1 id="n8n-workflow-patterns"&gt;n8n Workflow Patterns&lt;/h1&gt;
 &lt;p&gt;Proven architectural patterns for building n8n workflows.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id="the-5-core-patterns"&gt;The 5 Core Patterns&lt;/h2&gt;
@@ -64,7 +64,7 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href="ai_agent_workflow.md"&gt;AI Agent Workflow&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Payload</title><link>https://agentskill.wiki/en/skills/payload/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/payload/</guid><description>&lt;h1 id="payload-cms-application-development"&gt;Payload CMS Application Development&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href="ai_agent_workflow.md"&gt;AI Agent Workflow&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Payload</title><link>https://agentskill.wiki/skills/payload/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/payload/</guid><description>&lt;h1 id="payload-cms-application-development"&gt;Payload CMS Application Development&lt;/h1&gt;
 &lt;p&gt;Payload is a Next.js native CMS with TypeScript-first architecture, providing admin panel, database management, REST/GraphQL APIs, authentication, and file storage.&lt;/p&gt;
 &lt;h2 id="quick-reference"&gt;Quick Reference&lt;/h2&gt;
 &lt;table&gt;

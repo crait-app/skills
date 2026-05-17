@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Development-Workflow on Agent Skills Hub</title><link>https://agentskill.wiki/tags/development-workflow/</link><description>Recent content in Development-Workflow on Agent Skills Hub</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/development-workflow/index.xml" rel="self" type="application/rss+xml"/><item><title>Clojure Write</title><link>https://agentskill.wiki/en/skills/clojure-write/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/clojure-write/</guid><description>&lt;h1 id="clojure-development-skill"&gt;Clojure Development Skill&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Development-Workflow on Agent Skills Hub</title><link>https://agentskill.wiki/tags/development-workflow/</link><description>Recent content in Development-Workflow on Agent Skills Hub</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/development-workflow/index.xml" rel="self" type="application/rss+xml"/><item><title>Clojure Write</title><link>https://agentskill.wiki/skills/clojure-write/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/clojure-write/</guid><description>&lt;h1 id="clojure-development-skill"&gt;Clojure Development Skill&lt;/h1&gt;
 &lt;h2 id="tool-preference"&gt;Tool Preference&lt;/h2&gt;
 &lt;p&gt;When &lt;code&gt;clojure-mcp&lt;/code&gt; tools are available (e.g., &lt;code&gt;clojure_eval&lt;/code&gt;, &lt;code&gt;clojure_edit&lt;/code&gt;), &lt;strong&gt;always use them&lt;/strong&gt;
 instead of shell commands like &lt;code&gt;./bin/mage -repl&lt;/code&gt;. The MCP tools provide:&lt;/p&gt;
@@ -74,7 +74,7 @@ Feel free to copy these REPL session trials into actual test cases using &lt;cod
 &lt;li&gt;End all files with a newline&lt;/li&gt;
 &lt;li&gt;When editing tabular code, where the columns line up, try to keep them aligned&lt;/li&gt;
 &lt;li&gt;Spaces on a line with nothing after it is not allowed&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Code Review Excellence</title><link>https://agentskill.wiki/en/skills/code-review-excellence/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/code-review-excellence/</guid><description>&lt;h1 id="code-review-excellence"&gt;Code Review Excellence&lt;/h1&gt;
+&lt;/ul&gt;</description></item><item><title>Code Review Excellence</title><link>https://agentskill.wiki/skills/code-review-excellence/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/code-review-excellence/</guid><description>&lt;h1 id="code-review-excellence"&gt;Code Review Excellence&lt;/h1&gt;
 &lt;p&gt;Transform code reviews from gatekeeping to knowledge sharing through constructive feedback, systematic analysis, and collaborative improvement.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -89,7 +89,7 @@ Feel free to copy these REPL session trials into actual test cases using &lt;cod
 &lt;/ul&gt;
 &lt;h2 id="core-principles"&gt;Core Principles&lt;/h2&gt;
 &lt;h3 id="1-the-review-mindset"&gt;1. The Review Mindset&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Goals of Code Review:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Commit Helper</title><link>https://agentskill.wiki/en/skills/commit-helper/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/commit-helper/</guid><description>&lt;h1 id="cockroachdb-commit-helper"&gt;CockroachDB Commit Helper&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Goals of Code Review:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Commit Helper</title><link>https://agentskill.wiki/skills/commit-helper/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/commit-helper/</guid><description>&lt;h1 id="cockroachdb-commit-helper"&gt;CockroachDB Commit Helper&lt;/h1&gt;
 &lt;p&gt;Help the user create properly formatted commit messages and release notes that follow CockroachDB conventions.&lt;/p&gt;
 &lt;h2 id="workflow"&gt;Workflow&lt;/h2&gt;
 &lt;ol&gt;
@@ -108,7 +108,7 @@ Feel free to copy these REPL session trials into actual test cases using &lt;cod
 &lt;li&gt;&lt;strong&gt;Create the commit&lt;/strong&gt; using the properly formatted message&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id="commit-message-structure"&gt;Commit Message Structure&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Basic Format:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Debug</title><link>https://agentskill.wiki/en/skills/debug/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/debug/</guid><description>&lt;h1 id="debug-mode"&gt;Debug Mode&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Basic Format:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Debug</title><link>https://agentskill.wiki/skills/debug/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/debug/</guid><description>&lt;h1 id="debug-mode"&gt;Debug Mode&lt;/h1&gt;
 &lt;p&gt;Fix bugs with &lt;strong&gt;runtime evidence&lt;/strong&gt;, not guesses.&lt;/p&gt;
 &lt;pre tabindex="0"&gt;&lt;code&gt;Don&amp;#39;t guess → Hypothesize → Instrument → Reproduce → Analyze → Fix → Verify
 &lt;/code&gt;&lt;/pre&gt;&lt;h2 id="when-to-use"&gt;When to Use&lt;/h2&gt;
@@ -119,7 +119,7 @@ Feel free to copy these REPL session trials into actual test cases using &lt;cod
 &lt;li&gt;&amp;ldquo;Add console.log and let me know the output&amp;rdquo;&lt;/li&gt;
 &lt;li&gt;&amp;ldquo;Click X, open Y, check if Z appears in console&amp;rdquo;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Example scenario that should trigger this skill:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Feature Design Assistant</title><link>https://agentskill.wiki/en/skills/feature-design-assistant/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/feature-design-assistant/</guid><description>&lt;h1 id="feature-design-assistant"&gt;Feature Design Assistant&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Example scenario that should trigger this skill:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Feature Design Assistant</title><link>https://agentskill.wiki/skills/feature-design-assistant/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/feature-design-assistant/</guid><description>&lt;h1 id="feature-design-assistant"&gt;Feature Design Assistant&lt;/h1&gt;
 &lt;p&gt;Help turn ideas into fully formed designs and specs through structured information gathering and collaborative validation.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Announce at start:&lt;/strong&gt; &amp;ldquo;I&amp;rsquo;m using the feature-design-assistant skill to design this feature.&amp;rdquo;&lt;/p&gt;
 &lt;h2 id="phase-1-context-discovery"&gt;Phase 1: Context Discovery&lt;/h2&gt;
@@ -131,7 +131,7 @@ Feel free to copy these REPL session trials into actual test cases using &lt;cod
 &lt;li&gt;Recent changes in relevant areas&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="phase-2-structured-information-gathering"&gt;Phase 2: Structured Information Gathering&lt;/h2&gt;
-&lt;p&gt;Use &lt;strong&gt;AskUserQuestion&lt;/strong&gt; to batch collect information efficiently. Each call can ask up to 4 questions.&lt;/p&gt;</description></item><item><title>Git Commit Helper</title><link>https://agentskill.wiki/en/skills/git-commit-helper/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/git-commit-helper/</guid><description>&lt;h1 id="git-commit-helper"&gt;Git Commit Helper&lt;/h1&gt;
+&lt;p&gt;Use &lt;strong&gt;AskUserQuestion&lt;/strong&gt; to batch collect information efficiently. Each call can ask up to 4 questions.&lt;/p&gt;</description></item><item><title>Git Commit Helper</title><link>https://agentskill.wiki/skills/git-commit-helper/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/git-commit-helper/</guid><description>&lt;h1 id="git-commit-helper"&gt;Git Commit Helper&lt;/h1&gt;
 &lt;h2 id="quick-start"&gt;Quick start&lt;/h2&gt;
 &lt;p&gt;Analyze staged changes and generate commit message:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# View staged changes&lt;/span&gt;
@@ -157,7 +157,7 @@ Feel free to copy these REPL session trials into actual test cases using &lt;cod
 &lt;li&gt;&lt;strong&gt;chore&lt;/strong&gt;: Maintenance tasks&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id="examples"&gt;Examples&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Feature commit:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Hooks Automation</title><link>https://agentskill.wiki/en/skills/hooks-automation/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/hooks-automation/</guid><description>&lt;h1 id="hooks-automation"&gt;Hooks Automation&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Feature commit:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Hooks Automation</title><link>https://agentskill.wiki/skills/hooks-automation/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/hooks-automation/</guid><description>&lt;h1 id="hooks-automation"&gt;Hooks Automation&lt;/h1&gt;
 &lt;p&gt;Intelligent automation system that coordinates, validates, and learns from Claude Code operations through hooks integrated with MCP tools and neural pattern training.&lt;/p&gt;
 &lt;h2 id="what-this-skill-does"&gt;What This Skill Does&lt;/h2&gt;
 &lt;p&gt;This skill provides a comprehensive hook system that automatically manages development operations, coordinates swarm agents, maintains session state, and continuously learns from coding patterns. It enables automated agent assignment, code formatting, performance tracking, and cross-session memory persistence.&lt;/p&gt;

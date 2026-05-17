@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Jwt on Agent Skills Hub</title><link>https://agentskill.wiki/zh/tags/jwt/</link><description>Recent content in Jwt on Agent Skills Hub</description><generator>Hugo</generator><language>zh</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/zh/tags/jwt/index.xml" rel="self" type="application/rss+xml"/><item><title>Auth Implementation Patterns</title><link>https://agentskill.wiki/zh/skills/auth-implementation-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/zh/skills/auth-implementation-patterns/</guid><description>&lt;h1 id="authentication--authorization-implementation-patterns"&gt;Authentication &amp;amp; Authorization Implementation Patterns&lt;/h1&gt;
+&lt;p&gt;Build secure, scalable authentication and authorization systems using industry-standard patterns and modern best practices.&lt;/p&gt;
+&lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Implementing user authentication systems&lt;/li&gt;
+&lt;li&gt;Securing REST or GraphQL APIs&lt;/li&gt;
+&lt;li&gt;Adding OAuth2/social login&lt;/li&gt;
+&lt;li&gt;Implementing role-based access control (RBAC)&lt;/li&gt;
+&lt;li&gt;Designing session management&lt;/li&gt;
+&lt;li&gt;Migrating authentication systems&lt;/li&gt;
+&lt;li&gt;Debugging auth issues&lt;/li&gt;
+&lt;li&gt;Implementing SSO or multi-tenancy&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="core-concepts"&gt;Core Concepts&lt;/h2&gt;
+&lt;h3 id="1-authentication-vs-authorization"&gt;1. Authentication vs Authorization&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Authentication (AuthN)&lt;/strong&gt;: Who are you?&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Verifying identity (username/password, OAuth, biometrics)&lt;/li&gt;
+&lt;li&gt;Issuing credentials (sessions, tokens)&lt;/li&gt;
+&lt;li&gt;Managing login/logout&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Authorization (AuthZ)&lt;/strong&gt;: What can you do?&lt;/p&gt;</description></item></channel></rss>

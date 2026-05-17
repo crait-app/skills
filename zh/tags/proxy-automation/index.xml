@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Proxy-Automation on Agent Skills Hub</title><link>https://agentskill.wiki/zh/tags/proxy-automation/</link><description>Recent content in Proxy-Automation on Agent Skills Hub</description><generator>Hugo</generator><language>zh</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/zh/tags/proxy-automation/index.xml" rel="self" type="application/rss+xml"/><item><title>Proxychains</title><link>https://agentskill.wiki/zh/skills/proxychains/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/zh/skills/proxychains/</guid><description>&lt;h1 id="proxychains-network-proxy-skill"&gt;Proxychains Network Proxy Skill&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;自动使用代理解决网络问题&lt;/strong&gt; - 当遇到网络连接失败、超时或访问受限时，自动使用 proxychains4 强制走代理。&lt;/p&gt;
+&lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;触发条件（自动应用）:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;❌ Connection timeout errors&lt;/li&gt;
+&lt;li&gt;❌ DNS resolution failures&lt;/li&gt;
+&lt;li&gt;❌ &amp;ldquo;Connection refused&amp;rdquo; errors&lt;/li&gt;
+&lt;li&gt;❌ HTTP 403/451 blocked access&lt;/li&gt;
+&lt;li&gt;❌ GitHub/PyPI/npm 等国外资源访问失败&lt;/li&gt;
+&lt;li&gt;❌ curl/wget/git/pip 等命令失败&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Claude 应该：&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;检测到网络错误后，自动在命令前添加 &lt;code&gt;proxychains4&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;使用默认代理配置：&lt;code&gt;http://127.0.0.1:9910&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;如果代理失败，提示用户检查代理服务状态&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="quick-reference"&gt;Quick Reference&lt;/h2&gt;
+&lt;h3 id="基本用法模式"&gt;基本用法模式&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# ❌ 原命令失败&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;2&lt;/span&gt;&lt;span&gt;curl https://github.com/user/repo
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;3&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;4&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# ✅ 使用代理重试&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;5&lt;/span&gt;&lt;span&gt;proxychains4 curl https://github.com/user/repo
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="常见场景自动应用"&gt;常见场景自动应用&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;场景 1: Git 操作失败&lt;/strong&gt;&lt;/p&gt;</description></item></channel></rss>

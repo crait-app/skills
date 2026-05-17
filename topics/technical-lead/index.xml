@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Technical Lead on Agent Skills Hub</title><link>https://agentskill.wiki/topics/technical-lead/</link><description>Recent content in Technical Lead on Agent Skills Hub</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/topics/technical-lead/index.xml" rel="self" type="application/rss+xml"/><item><title>Agent Builder</title><link>https://agentskill.wiki/en/skills/agent-builder/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/agent-builder/</guid><description>&lt;h1 id="agent-builder"&gt;Agent Builder&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Technical Lead on Agent Skills Hub</title><link>https://agentskill.wiki/topics/technical-lead/</link><description>Recent content in Technical Lead on Agent Skills Hub</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/topics/technical-lead/index.xml" rel="self" type="application/rss+xml"/><item><title>Agent Builder</title><link>https://agentskill.wiki/skills/agent-builder/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/agent-builder/</guid><description>&lt;h1 id="agent-builder"&gt;Agent Builder&lt;/h1&gt;
 &lt;p&gt;Build AI agents for any domain - customer service, research, operations, creative work, or specialized business processes.&lt;/p&gt;
 &lt;h2 id="the-core-philosophy"&gt;The Core Philosophy&lt;/h2&gt;
 &lt;blockquote&gt;
@@ -10,7 +10,7 @@
  Model decides: act or respond
  If act: execute capability, add result, continue
  If respond: return to user
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;That&amp;rsquo;s it.&lt;/strong&gt; The magic isn&amp;rsquo;t in the code - it&amp;rsquo;s in the model. Your code just provides the opportunity.&lt;/p&gt;</description></item><item><title>Agile Product Owner</title><link>https://agentskill.wiki/en/skills/agile-product-owner/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/agile-product-owner/</guid><description>&lt;h1 id="agile-product-owner"&gt;Agile Product Owner&lt;/h1&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;That&amp;rsquo;s it.&lt;/strong&gt; The magic isn&amp;rsquo;t in the code - it&amp;rsquo;s in the model. Your code just provides the opportunity.&lt;/p&gt;</description></item><item><title>Agile Product Owner</title><link>https://agentskill.wiki/skills/agile-product-owner/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/agile-product-owner/</guid><description>&lt;h1 id="agile-product-owner"&gt;Agile Product Owner&lt;/h1&gt;
 &lt;p&gt;Complete toolkit for Product Owners to excel at backlog management and sprint execution.&lt;/p&gt;
 &lt;h2 id="core-capabilities"&gt;Core Capabilities&lt;/h2&gt;
 &lt;ul&gt;
@@ -35,7 +35,7 @@
 &lt;li&gt;Automatic point estimation&lt;/li&gt;
 &lt;li&gt;Priority assignment&lt;/li&gt;
 &lt;li&gt;Sprint planning with capacity&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Angular Migration</title><link>https://agentskill.wiki/en/skills/angular-migration/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/angular-migration/</guid><description>&lt;h1 id="angular-migration"&gt;Angular Migration&lt;/h1&gt;
+&lt;/ul&gt;</description></item><item><title>Angular Migration</title><link>https://agentskill.wiki/skills/angular-migration/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/angular-migration/</guid><description>&lt;h1 id="angular-migration"&gt;Angular Migration&lt;/h1&gt;
 &lt;p&gt;Master AngularJS to Angular migration, including hybrid apps, component conversion, dependency injection changes, and routing migration.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -386,7 +386,7 @@ Phase 4: Cleanup (1-2 weeks)
 &lt;li&gt;Not handling scope properly&lt;/li&gt;
 &lt;li&gt;Mixing patterns (AngularJS + Angular)&lt;/li&gt;
 &lt;li&gt;Inadequate testing&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Claude Opus 4 5 Migration</title><link>https://agentskill.wiki/en/skills/claude-opus-4-5-migration/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/claude-opus-4-5-migration/</guid><description>&lt;h1 id="opus-45-migration-guide"&gt;Opus 4.5 Migration Guide&lt;/h1&gt;
+&lt;/ul&gt;</description></item><item><title>Claude Opus 4 5 Migration</title><link>https://agentskill.wiki/skills/claude-opus-4-5-migration/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/claude-opus-4-5-migration/</guid><description>&lt;h1 id="opus-45-migration-guide"&gt;Opus 4.5 Migration Guide&lt;/h1&gt;
 &lt;p&gt;One-shot migration from Sonnet 4.0, Sonnet 4.5, or Opus 4.1 to Opus 4.5.&lt;/p&gt;
 &lt;h2 id="migration-workflow"&gt;Migration Workflow&lt;/h2&gt;
 &lt;ol&gt;
@@ -398,7 +398,7 @@ Phase 4: Cleanup (1-2 weeks)
 &lt;li&gt;Tell the user: &amp;ldquo;If you encounter any issues with Opus 4.5, let me know and I can help adjust your prompts.&amp;rdquo;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id="model-string-updates"&gt;Model String Updates&lt;/h2&gt;
-&lt;p&gt;Identify which platform the codebase uses, then replace model strings accordingly.&lt;/p&gt;</description></item><item><title>Clojure Review</title><link>https://agentskill.wiki/en/skills/clojure-review/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/clojure-review/</guid><description>&lt;h1 id="clojure-code-review-skill"&gt;Clojure Code Review Skill&lt;/h1&gt;
+&lt;p&gt;Identify which platform the codebase uses, then replace model strings accordingly.&lt;/p&gt;</description></item><item><title>Clojure Review</title><link>https://agentskill.wiki/skills/clojure-review/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/clojure-review/</guid><description>&lt;h1 id="clojure-code-review-skill"&gt;Clojure Code Review Skill&lt;/h1&gt;
 &lt;p&gt;@./../_shared/clojure-style-guide.md
 @./../_shared/clojure-commands.md&lt;/p&gt;
 &lt;h2 id="review-guidelines"&gt;Review guidelines&lt;/h2&gt;
@@ -414,7 +414,7 @@ Phase 4: Cleanup (1-2 weeks)
 &lt;li&gt;Do not post comments confirming things &amp;ldquo;look good&amp;rdquo; or telling them they did something correctly&lt;/li&gt;
 &lt;li&gt;Only post comments about style violations or potential issues&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Example bad code review comments to avoid:&lt;/p&gt;</description></item><item><title>Cqrs Implementation</title><link>https://agentskill.wiki/en/skills/cqrs-implementation/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/cqrs-implementation/</guid><description>&lt;h1 id="cqrs-implementation"&gt;CQRS Implementation&lt;/h1&gt;
+&lt;p&gt;Example bad code review comments to avoid:&lt;/p&gt;</description></item><item><title>Cqrs Implementation</title><link>https://agentskill.wiki/skills/cqrs-implementation/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/cqrs-implementation/</guid><description>&lt;h1 id="cqrs-implementation"&gt;CQRS Implementation&lt;/h1&gt;
 &lt;p&gt;Comprehensive guide to implementing CQRS (Command Query Responsibility Segregation) patterns.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -958,7 +958,7 @@ Phase 4: Cleanup (1-2 weeks)
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://martinfowler.com/bliki/CQRS.html"&gt;CQRS Pattern&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://docs.microsoft.com/en-us/azure/architecture/patterns/cqrs"&gt;Microsoft CQRS Guidance&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Crewai Multi Agent</title><link>https://agentskill.wiki/en/skills/crewai-multi-agent/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/crewai-multi-agent/</guid><description>&lt;h1 id="crewai---multi-agent-orchestration-framework"&gt;CrewAI - Multi-Agent Orchestration Framework&lt;/h1&gt;
+&lt;/ul&gt;</description></item><item><title>Crewai Multi Agent</title><link>https://agentskill.wiki/skills/crewai-multi-agent/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/crewai-multi-agent/</guid><description>&lt;h1 id="crewai---multi-agent-orchestration-framework"&gt;CrewAI - Multi-Agent Orchestration Framework&lt;/h1&gt;
 &lt;p&gt;Build teams of autonomous AI agents that collaborate to solve complex tasks.&lt;/p&gt;
 &lt;h2 id="when-to-use-crewai"&gt;When to use CrewAI&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Use CrewAI when:&lt;/strong&gt;&lt;/p&gt;
@@ -979,7 +979,7 @@ Phase 4: Cleanup (1-2 weeks)
 &lt;li&gt;&lt;strong&gt;Memory&lt;/strong&gt;: Short-term, long-term, and entity memory&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Production-ready&lt;/strong&gt;: Tracing, enterprise features&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Use alternatives instead:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Email Composer</title><link>https://agentskill.wiki/en/skills/email-composer/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/email-composer/</guid><description>&lt;h1 id="email-composer"&gt;Email Composer&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Use alternatives instead:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Email Composer</title><link>https://agentskill.wiki/skills/email-composer/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/email-composer/</guid><description>&lt;h1 id="email-composer"&gt;Email Composer&lt;/h1&gt;
 &lt;h2 id="quick-start"&gt;Quick start&lt;/h2&gt;
 &lt;p&gt;Provide context and purpose, and I&amp;rsquo;ll draft an appropriate email.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;What I need:&lt;/strong&gt;&lt;/p&gt;
@@ -1136,17 +1136,17 @@ Best,
 &lt;li&gt;Direct call to action&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="subject-line-best-practices"&gt;Subject line best practices&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Good subject lines:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Flow Nexus Swarm</title><link>https://agentskill.wiki/en/skills/flow-nexus-swarm/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/flow-nexus-swarm/</guid><description>&lt;h1 id="flow-nexus-swarm--workflow-orchestration"&gt;Flow Nexus Swarm &amp;amp; Workflow Orchestration&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Good subject lines:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Flow Nexus Swarm</title><link>https://agentskill.wiki/skills/flow-nexus-swarm/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/flow-nexus-swarm/</guid><description>&lt;h1 id="flow-nexus-swarm--workflow-orchestration"&gt;Flow Nexus Swarm &amp;amp; Workflow Orchestration&lt;/h1&gt;
 &lt;p&gt;Deploy and manage cloud-based AI agent swarms with event-driven workflow automation, message queue processing, and intelligent agent coordination.&lt;/p&gt;
 &lt;h2 id="-table-of-contents"&gt;📋 Table of Contents&lt;/h2&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;a href="https://agentskill.wiki/en/skills/flow-nexus-swarm/#overview"&gt;Overview&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://agentskill.wiki/en/skills/flow-nexus-swarm/#swarm-management"&gt;Swarm Management&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://agentskill.wiki/en/skills/flow-nexus-swarm/#workflow-automation"&gt;Workflow Automation&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://agentskill.wiki/en/skills/flow-nexus-swarm/#agent-orchestration"&gt;Agent Orchestration&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://agentskill.wiki/en/skills/flow-nexus-swarm/#templates--patterns"&gt;Templates &amp;amp; Patterns&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://agentskill.wiki/en/skills/flow-nexus-swarm/#advanced-features"&gt;Advanced Features&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://agentskill.wiki/en/skills/flow-nexus-swarm/#best-practices"&gt;Best Practices&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://agentskill.wiki/skills/flow-nexus-swarm/#overview"&gt;Overview&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://agentskill.wiki/skills/flow-nexus-swarm/#swarm-management"&gt;Swarm Management&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://agentskill.wiki/skills/flow-nexus-swarm/#workflow-automation"&gt;Workflow Automation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://agentskill.wiki/skills/flow-nexus-swarm/#agent-orchestration"&gt;Agent Orchestration&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://agentskill.wiki/skills/flow-nexus-swarm/#templates--patterns"&gt;Templates &amp;amp; Patterns&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://agentskill.wiki/skills/flow-nexus-swarm/#advanced-features"&gt;Advanced Features&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://agentskill.wiki/skills/flow-nexus-swarm/#best-practices"&gt;Best Practices&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;Flow Nexus provides cloud-based orchestration for AI agent swarms with:&lt;/p&gt;
@@ -1160,7 +1160,7 @@ Best,
 &lt;/ul&gt;
 &lt;h2 id="swarm-management"&gt;Swarm Management&lt;/h2&gt;
 &lt;h3 id="initialize-swarm"&gt;Initialize Swarm&lt;/h3&gt;
-&lt;p&gt;Create a new swarm with specified topology and configuration:&lt;/p&gt;</description></item><item><title>Github Issues</title><link>https://agentskill.wiki/en/skills/github-issues/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/github-issues/</guid><description>&lt;h1 id="github-issues"&gt;GitHub Issues&lt;/h1&gt;
+&lt;p&gt;Create a new swarm with specified topology and configuration:&lt;/p&gt;</description></item><item><title>Github Issues</title><link>https://agentskill.wiki/skills/github-issues/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/github-issues/</guid><description>&lt;h1 id="github-issues"&gt;GitHub Issues&lt;/h1&gt;
 &lt;p&gt;Manage GitHub issues using the &lt;code&gt;@modelcontextprotocol/server-github&lt;/code&gt; MCP server.&lt;/p&gt;
 &lt;h2 id="available-mcp-tools"&gt;Available MCP Tools&lt;/h2&gt;
 &lt;table&gt;
@@ -1229,7 +1229,7 @@ milestone: milestone number (integer)
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id="body-structure"&gt;Body Structure&lt;/h3&gt;
-&lt;p&gt;Always use the templates in &lt;a href="references/templates.md"&gt;references/templates.md&lt;/a&gt;. Choose based on issue type:&lt;/p&gt;</description></item><item><title>Hosted Agents</title><link>https://agentskill.wiki/en/skills/hosted-agents/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/hosted-agents/</guid><description>&lt;h1 id="hosted-agent-infrastructure"&gt;Hosted Agent Infrastructure&lt;/h1&gt;
+&lt;p&gt;Always use the templates in &lt;a href="references/templates.md"&gt;references/templates.md&lt;/a&gt;. Choose based on issue type:&lt;/p&gt;</description></item><item><title>Hosted Agents</title><link>https://agentskill.wiki/skills/hosted-agents/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/hosted-agents/</guid><description>&lt;h1 id="hosted-agent-infrastructure"&gt;Hosted Agent Infrastructure&lt;/h1&gt;
 &lt;p&gt;Hosted agents run in remote sandboxed environments rather than on local machines. When designed well, they provide unlimited concurrency, consistent execution environments, and multiplayer collaboration. The critical insight is that session speed should be limited only by model provider time-to-first-token, with all infrastructure setup completed before the user starts their session.&lt;/p&gt;
 &lt;h2 id="when-to-activate"&gt;When to Activate&lt;/h2&gt;
 &lt;p&gt;Activate this skill when:&lt;/p&gt;
@@ -1242,7 +1242,7 @@ milestone: milestone number (integer)
 &lt;li&gt;Building systems where agents spawn sub-agents for parallel work&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="core-concepts"&gt;Core Concepts&lt;/h2&gt;
-&lt;p&gt;Hosted agents address the fundamental limitation of local agent execution: resource contention, environment inconsistency, and single-user constraints. By moving agent execution to remote sandboxed environments, teams gain unlimited concurrency, reproducible environments, and collaborative workflows.&lt;/p&gt;</description></item><item><title>Notion Spec To Implementation</title><link>https://agentskill.wiki/en/skills/notion-spec-to-implementation/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/notion-spec-to-implementation/</guid><description>&lt;h1 id="spec-to-implementation"&gt;Spec to Implementation&lt;/h1&gt;
+&lt;p&gt;Hosted agents address the fundamental limitation of local agent execution: resource contention, environment inconsistency, and single-user constraints. By moving agent execution to remote sandboxed environments, teams gain unlimited concurrency, reproducible environments, and collaborative workflows.&lt;/p&gt;</description></item><item><title>Notion Spec To Implementation</title><link>https://agentskill.wiki/skills/notion-spec-to-implementation/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/notion-spec-to-implementation/</guid><description>&lt;h1 id="spec-to-implementation"&gt;Spec to Implementation&lt;/h1&gt;
 &lt;p&gt;Convert a Notion spec into linked implementation plans, tasks, and ongoing status updates.&lt;/p&gt;
 &lt;h2 id="quick-start"&gt;Quick start&lt;/h2&gt;
 &lt;ol&gt;
@@ -1271,7 +1271,7 @@ milestone: milestone number (integer)
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;After successful login, the user will have to restart codex. You should finish your answer and tell them so when they try again they can continue with Step 1.&lt;/p&gt;</description></item><item><title>Planning With Files</title><link>https://agentskill.wiki/en/skills/planning-with-files/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/planning-with-files/</guid><description>&lt;h1 id="planning-with-files"&gt;Planning with Files&lt;/h1&gt;
+&lt;p&gt;After successful login, the user will have to restart codex. You should finish your answer and tell them so when they try again they can continue with Step 1.&lt;/p&gt;</description></item><item><title>Planning With Files</title><link>https://agentskill.wiki/skills/planning-with-files/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/planning-with-files/</guid><description>&lt;h1 id="planning-with-files"&gt;Planning with Files&lt;/h1&gt;
 &lt;p&gt;Work like Manus: Use persistent markdown files as your &amp;ldquo;working memory on disk.&amp;rdquo;&lt;/p&gt;
 &lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;
 &lt;p&gt;Before ANY complex task:&lt;/p&gt;
@@ -1315,7 +1315,7 @@ Loop 2: Research → save to notes.md → update task_plan.md
 Loop 3: Read notes.md → create deliverable → update task_plan.md
 Loop 4: Deliver final output
 &lt;/code&gt;&lt;/pre&gt;&lt;h3 id="the-loop-in-detail"&gt;The Loop in Detail&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Before each major action:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>React Modernization</title><link>https://agentskill.wiki/en/skills/react-modernization/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/react-modernization/</guid><description>&lt;h1 id="react-modernization"&gt;React Modernization&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Before each major action:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>React Modernization</title><link>https://agentskill.wiki/skills/react-modernization/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/react-modernization/</guid><description>&lt;h1 id="react-modernization"&gt;React Modernization&lt;/h1&gt;
 &lt;p&gt;Master React version upgrades, class to hooks migration, concurrent features adoption, and codemods for automated transformation.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -1329,7 +1329,7 @@ Loop 4: Deliver final output
 &lt;/ul&gt;
 &lt;h2 id="version-upgrade-path"&gt;Version Upgrade Path&lt;/h2&gt;
 &lt;h3 id="react-16--17--18"&gt;React 16 → 17 → 18&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Breaking Changes by Version:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Skill Sync</title><link>https://agentskill.wiki/en/skills/skill-sync/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/skill-sync/</guid><description>&lt;h2 id="purpose"&gt;Purpose&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Breaking Changes by Version:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Skill Sync</title><link>https://agentskill.wiki/skills/skill-sync/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/skill-sync/</guid><description>&lt;h2 id="purpose"&gt;Purpose&lt;/h2&gt;
 &lt;p&gt;Keeps AGENTS.md Auto-invoke sections in sync with skill metadata. When you create or modify a skill, run the sync script to automatically update all affected AGENTS.md files.&lt;/p&gt;
 &lt;h2 id="required-skill-metadata"&gt;Required Skill Metadata&lt;/h2&gt;
 &lt;p&gt;Each skill that should appear in Auto-invoke sections needs these fields in &lt;code&gt;metadata&lt;/code&gt;.&lt;/p&gt;
@@ -1377,7 +1377,7 @@ Loop 4: Deliver final output
  &lt;/tr&gt;
  &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;Skills can have multiple scopes: &lt;code&gt;scope: [ui, api]&lt;/code&gt;&lt;/p&gt;</description></item><item><title>Task Execution Engine</title><link>https://agentskill.wiki/en/skills/task-execution-engine/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/task-execution-engine/</guid><description>&lt;h1 id="feature-pipeline"&gt;Feature Pipeline&lt;/h1&gt;
+&lt;p&gt;Skills can have multiple scopes: &lt;code&gt;scope: [ui, api]&lt;/code&gt;&lt;/p&gt;</description></item><item><title>Task Execution Engine</title><link>https://agentskill.wiki/skills/task-execution-engine/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/task-execution-engine/</guid><description>&lt;h1 id="feature-pipeline"&gt;Feature Pipeline&lt;/h1&gt;
 &lt;p&gt;Execute implementation tasks directly from design documents. Tasks are managed as markdown checkboxes - no separate session files needed.&lt;/p&gt;
 &lt;h2 id="quick-reference"&gt;Quick Reference&lt;/h2&gt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Get next task&lt;/span&gt;
@@ -1392,7 +1392,7 @@ Loop 4: Deliver final output
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;10&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Show status&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;11&lt;/span&gt;&lt;span&gt;python3 scripts/task_manager.py status --file &amp;lt;design.md&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="task-format"&gt;Task Format&lt;/h2&gt;
-&lt;p&gt;Tasks are written as markdown checkboxes in the design document:&lt;/p&gt;</description></item><item><title>Unity Ecs Patterns</title><link>https://agentskill.wiki/en/skills/unity-ecs-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/unity-ecs-patterns/</guid><description>&lt;h1 id="unity-ecs-patterns"&gt;Unity ECS Patterns&lt;/h1&gt;
+&lt;p&gt;Tasks are written as markdown checkboxes in the design document:&lt;/p&gt;</description></item><item><title>Unity Ecs Patterns</title><link>https://agentskill.wiki/skills/unity-ecs-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/unity-ecs-patterns/</guid><description>&lt;h1 id="unity-ecs-patterns"&gt;Unity ECS Patterns&lt;/h1&gt;
 &lt;p&gt;Production patterns for Unity&amp;rsquo;s Data-Oriented Technology Stack (DOTS) including Entity Component System, Job System, and Burst Compiler.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -1997,7 +1997,7 @@ Chunk: Memory block for same-archetype entities
 &lt;li&gt;&lt;a href="https://docs.unity3d.com/Packages/com.unity.entities@latest"&gt;Unity DOTS Documentation&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/Unity-Technologies/EntityComponentSystemSamples"&gt;Unity DOTS Samples&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://docs.unity3d.com/Packages/com.unity.burst@latest"&gt;Burst User Guide&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Woocommerce Code Review</title><link>https://agentskill.wiki/en/skills/woocommerce-code-review/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/woocommerce-code-review/</guid><description>&lt;h1 id="woocommerce-code-review"&gt;WooCommerce Code Review&lt;/h1&gt;
+&lt;/ul&gt;</description></item><item><title>Woocommerce Code Review</title><link>https://agentskill.wiki/skills/woocommerce-code-review/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/woocommerce-code-review/</guid><description>&lt;h1 id="woocommerce-code-review"&gt;WooCommerce Code Review&lt;/h1&gt;
 &lt;p&gt;Review code changes against WooCommerce coding standards and conventions.&lt;/p&gt;
 &lt;h2 id="critical-violations-to-flag"&gt;Critical Violations to Flag&lt;/h2&gt;
 &lt;h3 id="backend-php-code"&gt;Backend PHP Code&lt;/h3&gt;

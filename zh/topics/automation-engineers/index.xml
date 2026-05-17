@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Automation Engineers on Agent Skills Hub</title><link>https://agentskill.wiki/zh/topics/automation-engineers/</link><description>Recent content in Automation Engineers on Agent Skills Hub</description><generator>Hugo</generator><language>zh</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/zh/topics/automation-engineers/index.xml" rel="self" type="application/rss+xml"/><item><title>Skill Creator</title><link>https://agentskill.wiki/zh/skills/skill-creator/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/zh/skills/skill-creator/</guid><description>&lt;h1 id="skill-creator"&gt;Skill Creator&lt;/h1&gt;
+&lt;p&gt;This skill provides guidance for creating effective skills.&lt;/p&gt;
+&lt;h2 id="about-skills"&gt;About Skills&lt;/h2&gt;
+&lt;p&gt;Skills are modular, self-contained packages that extend Claude&amp;rsquo;s capabilities by providing
+specialized knowledge, workflows, and tools. Think of them as &amp;ldquo;onboarding guides&amp;rdquo; for specific
+domains or tasks—they transform Claude from a general-purpose agent into a specialized agent
+equipped with procedural knowledge that no model can fully possess.&lt;/p&gt;
+&lt;h3 id="what-skills-provide"&gt;What Skills Provide&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Specialized workflows - Multi-step procedures for specific domains&lt;/li&gt;
+&lt;li&gt;Tool integrations - Instructions for working with specific file formats or APIs&lt;/li&gt;
+&lt;li&gt;Domain expertise - Company-specific knowledge, schemas, business logic&lt;/li&gt;
+&lt;li&gt;Bundled resources - Scripts, references, and assets for complex and repetitive tasks&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="core-principles"&gt;Core Principles&lt;/h2&gt;
+&lt;h3 id="concise-is-key"&gt;Concise is Key&lt;/h3&gt;
+&lt;p&gt;The context window is a public good. Skills share the context window with everything else Claude needs: system prompt, conversation history, other Skills&amp;rsquo; metadata, and the actual user request.&lt;/p&gt;</description></item></channel></rss>

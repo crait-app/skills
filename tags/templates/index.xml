@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Templates on Agent Skills Hub</title><link>https://agentskill.wiki/tags/templates/</link><description>Recent content in Templates on Agent Skills Hub</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/templates/index.xml" rel="self" type="application/rss+xml"/><item><title>Architecture Decision Records</title><link>https://agentskill.wiki/en/skills/architecture-decision-records/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/architecture-decision-records/</guid><description>&lt;h1 id="architecture-decision-records"&gt;Architecture Decision Records&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Templates on Agent Skills Hub</title><link>https://agentskill.wiki/tags/templates/</link><description>Recent content in Templates on Agent Skills Hub</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/templates/index.xml" rel="self" type="application/rss+xml"/><item><title>Architecture Decision Records</title><link>https://agentskill.wiki/skills/architecture-decision-records/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/architecture-decision-records/</guid><description>&lt;h1 id="architecture-decision-records"&gt;Architecture Decision Records&lt;/h1&gt;
 &lt;p&gt;Comprehensive patterns for creating, maintaining, and managing Architecture Decision Records (ADRs) that capture the context and rationale behind significant technical decisions.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -264,7 +264,7 @@
 OrderItemAdded { orderId, item, timestamp }
 OrderItemRemoved { orderId, itemId, timestamp }
 PaymentReceived { orderId, amount, paymentId, timestamp }
-OrderShipped { orderId, trackingNumber, timestamp }&lt;/p&gt;</description></item><item><title>Claude Skills</title><link>https://agentskill.wiki/en/skills/claude-skills/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/claude-skills/</guid><description>&lt;h1 id="claude-skills-meta-skill"&gt;Claude Skills Meta-Skill&lt;/h1&gt;
+OrderShipped { orderId, trackingNumber, timestamp }&lt;/p&gt;</description></item><item><title>Claude Skills</title><link>https://agentskill.wiki/skills/claude-skills/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/claude-skills/</guid><description>&lt;h1 id="claude-skills-meta-skill"&gt;Claude Skills Meta-Skill&lt;/h1&gt;
 &lt;p&gt;Turn scattered domain material into a Skill that is reusable, maintainable, and reliably activatable:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;SKILL.md&lt;/code&gt; as the entrypoint (triggers, constraints, patterns, examples)&lt;/li&gt;
@@ -282,7 +282,7 @@ OrderShipped { orderId, trackingNumber, timestamp }&lt;/p&gt;</description></ite
 &lt;li&gt;Add a quality gate and a validator&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="not-for--boundaries"&gt;Not For / Boundaries&lt;/h2&gt;
-&lt;p&gt;This meta-skill is NOT:&lt;/p&gt;</description></item><item><title>Email Composer</title><link>https://agentskill.wiki/en/skills/email-composer/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/email-composer/</guid><description>&lt;h1 id="email-composer"&gt;Email Composer&lt;/h1&gt;
+&lt;p&gt;This meta-skill is NOT:&lt;/p&gt;</description></item><item><title>Email Composer</title><link>https://agentskill.wiki/skills/email-composer/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/email-composer/</guid><description>&lt;h1 id="email-composer"&gt;Email Composer&lt;/h1&gt;
 &lt;h2 id="quick-start"&gt;Quick start&lt;/h2&gt;
 &lt;p&gt;Provide context and purpose, and I&amp;rsquo;ll draft an appropriate email.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;What I need:&lt;/strong&gt;&lt;/p&gt;
@@ -439,7 +439,7 @@ Best,
 &lt;li&gt;Direct call to action&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="subject-line-best-practices"&gt;Subject line best practices&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Good subject lines:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Github Issues</title><link>https://agentskill.wiki/en/skills/github-issues/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/github-issues/</guid><description>&lt;h1 id="github-issues"&gt;GitHub Issues&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Good subject lines:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Github Issues</title><link>https://agentskill.wiki/skills/github-issues/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/github-issues/</guid><description>&lt;h1 id="github-issues"&gt;GitHub Issues&lt;/h1&gt;
 &lt;p&gt;Manage GitHub issues using the &lt;code&gt;@modelcontextprotocol/server-github&lt;/code&gt; MCP server.&lt;/p&gt;
 &lt;h2 id="available-mcp-tools"&gt;Available MCP Tools&lt;/h2&gt;
 &lt;table&gt;
@@ -508,7 +508,7 @@ milestone: milestone number (integer)
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id="body-structure"&gt;Body Structure&lt;/h3&gt;
-&lt;p&gt;Always use the templates in &lt;a href="references/templates.md"&gt;references/templates.md&lt;/a&gt;. Choose based on issue type:&lt;/p&gt;</description></item><item><title>Railway Templates</title><link>https://agentskill.wiki/en/skills/railway-templates/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/railway-templates/</guid><description>&lt;h1 id="railway-templates"&gt;Railway Templates&lt;/h1&gt;
+&lt;p&gt;Always use the templates in &lt;a href="references/templates.md"&gt;references/templates.md&lt;/a&gt;. Choose based on issue type:&lt;/p&gt;</description></item><item><title>Railway Templates</title><link>https://agentskill.wiki/skills/railway-templates/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/railway-templates/</guid><description>&lt;h1 id="railway-templates"&gt;Railway Templates&lt;/h1&gt;
 &lt;p&gt;Search and deploy services from Railway&amp;rsquo;s template marketplace.&lt;/p&gt;
 &lt;h2 id="when-to-use"&gt;When to Use&lt;/h2&gt;
 &lt;ul&gt;
@@ -575,7 +575,7 @@ milestone: milestone number (integer)
  &lt;/tr&gt;
  &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;For other templates, use the search query below.&lt;/p&gt;</description></item><item><title>Skill Builder</title><link>https://agentskill.wiki/en/skills/skill-builder/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/skill-builder/</guid><description>&lt;h1 id="skill-builder"&gt;Skill Builder&lt;/h1&gt;
+&lt;p&gt;For other templates, use the search query below.&lt;/p&gt;</description></item><item><title>Skill Builder</title><link>https://agentskill.wiki/skills/skill-builder/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/skill-builder/</guid><description>&lt;h1 id="skill-builder"&gt;Skill Builder&lt;/h1&gt;
 &lt;h2 id="what-this-skill-does"&gt;What This Skill Does&lt;/h2&gt;
 &lt;p&gt;Creates production-ready Claude Code Skills with proper YAML frontmatter, progressive disclosure architecture, and complete file/folder structure. This skill guides you through building skills that Claude can autonomously discover and use across all surfaces (Claude.ai, Claude Code, SDK, API).&lt;/p&gt;
 &lt;h2 id="prerequisites"&gt;Prerequisites&lt;/h2&gt;
@@ -610,7 +610,7 @@ milestone: milestone number (integer)
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
 &lt;h2 id="complete-specification"&gt;Complete Specification&lt;/h2&gt;
 &lt;h3 id="-yaml-frontmatter-required"&gt;📋 YAML Frontmatter (REQUIRED)&lt;/h3&gt;
-&lt;p&gt;Every SKILL.md &lt;strong&gt;must&lt;/strong&gt; start with YAML frontmatter containing exactly two required fields:&lt;/p&gt;</description></item><item><title>Skill Creation Guide</title><link>https://agentskill.wiki/en/skills/skill-creation-guide/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/skill-creation-guide/</guid><description>&lt;h1 id="skill-creator"&gt;Skill Creator&lt;/h1&gt;
+&lt;p&gt;Every SKILL.md &lt;strong&gt;must&lt;/strong&gt; start with YAML frontmatter containing exactly two required fields:&lt;/p&gt;</description></item><item><title>Skill Creation Guide</title><link>https://agentskill.wiki/skills/skill-creation-guide/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/skill-creation-guide/</guid><description>&lt;h1 id="skill-creator"&gt;Skill Creator&lt;/h1&gt;
 &lt;p&gt;This skill provides guidance for creating effective skills.&lt;/p&gt;
 &lt;h2 id="about-skills"&gt;About Skills&lt;/h2&gt;
 &lt;p&gt;Skills are modular, self-contained packages that extend Claude&amp;rsquo;s capabilities by providing

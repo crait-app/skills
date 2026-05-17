@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Software Engineer on Agent Skills Hub</title><link>https://agentskill.wiki/topics/software-engineer/</link><description>Recent content in Software Engineer on Agent Skills Hub</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/topics/software-engineer/index.xml" rel="self" type="application/rss+xml"/><item><title>Code Review Excellence</title><link>https://agentskill.wiki/en/skills/code-review-excellence/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/code-review-excellence/</guid><description>&lt;h1 id="code-review-excellence"&gt;Code Review Excellence&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Software Engineer on Agent Skills Hub</title><link>https://agentskill.wiki/topics/software-engineer/</link><description>Recent content in Software Engineer on Agent Skills Hub</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/topics/software-engineer/index.xml" rel="self" type="application/rss+xml"/><item><title>Code Review Excellence</title><link>https://agentskill.wiki/skills/code-review-excellence/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/code-review-excellence/</guid><description>&lt;h1 id="code-review-excellence"&gt;Code Review Excellence&lt;/h1&gt;
 &lt;p&gt;Transform code reviews from gatekeeping to knowledge sharing through constructive feedback, systematic analysis, and collaborative improvement.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -13,7 +13,7 @@
 &lt;/ul&gt;
 &lt;h2 id="core-principles"&gt;Core Principles&lt;/h2&gt;
 &lt;h3 id="1-the-review-mindset"&gt;1. The Review Mindset&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Goals of Code Review:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Code Reviewer</title><link>https://agentskill.wiki/en/skills/code-reviewer/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/code-reviewer/</guid><description>&lt;h1 id="code-reviewer"&gt;Code Reviewer&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Goals of Code Review:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Code Reviewer</title><link>https://agentskill.wiki/skills/code-reviewer/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/code-reviewer/</guid><description>&lt;h1 id="code-reviewer"&gt;Code Reviewer&lt;/h1&gt;
 &lt;p&gt;Complete toolkit for code reviewer with modern tools and best practices.&lt;/p&gt;
 &lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;
 &lt;h3 id="main-capabilities"&gt;Main Capabilities&lt;/h3&gt;
@@ -28,7 +28,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;8&lt;/span&gt;&lt;span&gt;python scripts/review_report_generator.py &lt;span style="color:#f92672"&gt;[&lt;/span&gt;options&lt;span style="color:#f92672"&gt;]&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="core-capabilities"&gt;Core Capabilities&lt;/h2&gt;
 &lt;h3 id="1-pr-analyzer"&gt;1. Pr Analyzer&lt;/h3&gt;
-&lt;p&gt;Automated tool for pr analyzer tasks.&lt;/p&gt;</description></item><item><title>Debugging Strategies</title><link>https://agentskill.wiki/en/skills/debugging-strategies/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/debugging-strategies/</guid><description>&lt;h1 id="debugging-strategies"&gt;Debugging Strategies&lt;/h1&gt;
+&lt;p&gt;Automated tool for pr analyzer tasks.&lt;/p&gt;</description></item><item><title>Debugging Strategies</title><link>https://agentskill.wiki/skills/debugging-strategies/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/debugging-strategies/</guid><description>&lt;h1 id="debugging-strategies"&gt;Debugging Strategies&lt;/h1&gt;
 &lt;p&gt;Transform debugging from frustrating guesswork into systematic problem-solving with proven strategies, powerful tools, and methodical approaches.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -47,7 +47,7 @@
 &lt;strong&gt;2. Hypothesize&lt;/strong&gt;: What could be causing it?
 &lt;strong&gt;3. Experiment&lt;/strong&gt;: Test your hypothesis
 &lt;strong&gt;4. Analyze&lt;/strong&gt;: Did it prove/disprove your theory?
-&lt;strong&gt;5. Repeat&lt;/strong&gt;: Until you find the root cause&lt;/p&gt;</description></item><item><title>Deslop</title><link>https://agentskill.wiki/en/skills/deslop/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/deslop/</guid><description>&lt;h1 id="remove-ai-code-slop"&gt;Remove AI Code Slop&lt;/h1&gt;
+&lt;strong&gt;5. Repeat&lt;/strong&gt;: Until you find the root cause&lt;/p&gt;</description></item><item><title>Deslop</title><link>https://agentskill.wiki/skills/deslop/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/deslop/</guid><description>&lt;h1 id="remove-ai-code-slop"&gt;Remove AI Code Slop&lt;/h1&gt;
 &lt;p&gt;Check the diff against main and remove all AI-generated slop introduced in this branch.&lt;/p&gt;
 &lt;h2 id="what-to-remove"&gt;What to Remove&lt;/h2&gt;
 &lt;ul&gt;
@@ -63,7 +63,7 @@
 &lt;li&gt;Review each changed file for slop patterns&lt;/li&gt;
 &lt;li&gt;Remove identified slop while preserving legitimate changes&lt;/li&gt;
 &lt;li&gt;Report a 1-3 sentence summary of what was changed&lt;/li&gt;
-&lt;/ol&gt;</description></item><item><title>Documentation Lookup</title><link>https://agentskill.wiki/en/skills/documentation-lookup/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/documentation-lookup/</guid><description>&lt;p&gt;When the user asks about libraries, frameworks, or needs code examples, use Context7 to fetch current documentation instead of relying on training data.&lt;/p&gt;
+&lt;/ol&gt;</description></item><item><title>Documentation Lookup</title><link>https://agentskill.wiki/skills/documentation-lookup/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/documentation-lookup/</guid><description>&lt;p&gt;When the user asks about libraries, frameworks, or needs code examples, use Context7 to fetch current documentation instead of relying on training data.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;p&gt;Activate this skill when the user:&lt;/p&gt;
 &lt;ul&gt;
@@ -74,7 +74,7 @@
 &lt;/ul&gt;
 &lt;h2 id="how-to-fetch-documentation"&gt;How to Fetch Documentation&lt;/h2&gt;
 &lt;h3 id="step-1-resolve-the-library-id"&gt;Step 1: Resolve the Library ID&lt;/h3&gt;
-&lt;p&gt;Call &lt;code&gt;resolve-library-id&lt;/code&gt; with:&lt;/p&gt;</description></item><item><title>Error Handling Patterns</title><link>https://agentskill.wiki/en/skills/error-handling-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/error-handling-patterns/</guid><description>&lt;h1 id="error-handling-patterns"&gt;Error Handling Patterns&lt;/h1&gt;
+&lt;p&gt;Call &lt;code&gt;resolve-library-id&lt;/code&gt; with:&lt;/p&gt;</description></item><item><title>Error Handling Patterns</title><link>https://agentskill.wiki/skills/error-handling-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/error-handling-patterns/</guid><description>&lt;h1 id="error-handling-patterns"&gt;Error Handling Patterns&lt;/h1&gt;
 &lt;p&gt;Build resilient applications with robust error handling strategies that gracefully handle failures and provide excellent debugging experiences.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -89,7 +89,7 @@
 &lt;/ul&gt;
 &lt;h2 id="core-concepts"&gt;Core Concepts&lt;/h2&gt;
 &lt;h3 id="1-error-handling-philosophies"&gt;1. Error Handling Philosophies&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Exceptions vs Result Types:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Fetch Diff</title><link>https://agentskill.wiki/en/skills/fetch-diff/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/fetch-diff/</guid><description>&lt;h1 id="fetch-pr-diff"&gt;Fetch PR Diff&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Exceptions vs Result Types:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Fetch Diff</title><link>https://agentskill.wiki/skills/fetch-diff/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/fetch-diff/</guid><description>&lt;h1 id="fetch-pr-diff"&gt;Fetch PR Diff&lt;/h1&gt;
 &lt;p&gt;Fetches a pull request diff, filters out auto-generated files, and adds line numbers for easier review comment placement.&lt;/p&gt;
 &lt;h2 id="usage"&gt;Usage&lt;/h2&gt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;uv run skills fetch-diff &amp;lt;pr_url&amp;gt;
@@ -109,7 +109,7 @@ index abc123..def456 100644
  14 | +from new_module import NewClass
 14 15 |
 15 16 | def process_data(input_file: str) -&amp;gt; dict:
-&lt;/code&gt;&lt;/pre&gt;</description></item><item><title>Mcp Integration</title><link>https://agentskill.wiki/en/skills/mcp-integration/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/mcp-integration/</guid><description>&lt;h1 id="mcp-integration-for-claude-code-plugins"&gt;MCP Integration for Claude Code Plugins&lt;/h1&gt;
+&lt;/code&gt;&lt;/pre&gt;</description></item><item><title>Mcp Integration</title><link>https://agentskill.wiki/skills/mcp-integration/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/mcp-integration/</guid><description>&lt;h1 id="mcp-integration-for-claude-code-plugins"&gt;MCP Integration for Claude Code Plugins&lt;/h1&gt;
 &lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;Model Context Protocol (MCP) enables Claude Code plugins to integrate with external services and APIs by providing structured tool access. Use MCP integration to expose external service capabilities as tools within Claude Code.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Key capabilities:&lt;/strong&gt;&lt;/p&gt;
@@ -120,7 +120,7 @@ index abc123..def456 100644
 &lt;li&gt;Bundle MCP servers with plugins for automatic setup&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="mcp-server-configuration-methods"&gt;MCP Server Configuration Methods&lt;/h2&gt;
-&lt;p&gt;Plugins can bundle MCP servers in two ways:&lt;/p&gt;</description></item><item><title>Modern Javascript Patterns</title><link>https://agentskill.wiki/en/skills/modern-javascript-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/modern-javascript-patterns/</guid><description>&lt;h1 id="modern-javascript-patterns"&gt;Modern JavaScript Patterns&lt;/h1&gt;
+&lt;p&gt;Plugins can bundle MCP servers in two ways:&lt;/p&gt;</description></item><item><title>Modern Javascript Patterns</title><link>https://agentskill.wiki/skills/modern-javascript-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/modern-javascript-patterns/</guid><description>&lt;h1 id="modern-javascript-patterns"&gt;Modern JavaScript Patterns&lt;/h1&gt;
 &lt;p&gt;Comprehensive guide for mastering modern JavaScript (ES6+) features, functional programming patterns, and best practices for writing clean, maintainable, and performant code.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -135,7 +135,7 @@ index abc123..def456 100644
 &lt;/ul&gt;
 &lt;h2 id="es6-core-features"&gt;ES6+ Core Features&lt;/h2&gt;
 &lt;h3 id="1-arrow-functions"&gt;1. Arrow Functions&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Syntax and Use Cases:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Railway Deploy</title><link>https://agentskill.wiki/en/skills/railway-deploy/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/railway-deploy/</guid><description>&lt;h1 id="railway-deploy"&gt;Railway Deploy&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Syntax and Use Cases:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Railway Deploy</title><link>https://agentskill.wiki/skills/railway-deploy/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/railway-deploy/</guid><description>&lt;h1 id="railway-deploy"&gt;Railway Deploy&lt;/h1&gt;
 &lt;p&gt;Deploy code from the current directory to Railway using &lt;code&gt;railway up&lt;/code&gt;.&lt;/p&gt;
 &lt;h2 id="when-to-use"&gt;When to Use&lt;/h2&gt;
 &lt;ul&gt;
@@ -149,7 +149,7 @@ index abc123..def456 100644
 &lt;p&gt;Starts deploy and returns immediately. Use for most deploys.&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;railway up --detach
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="ci-mode"&gt;CI Mode&lt;/h3&gt;
-&lt;p&gt;Streams build logs until complete. Use when user wants to watch the build or needs to debug issues.&lt;/p&gt;</description></item><item><title>React Modernization</title><link>https://agentskill.wiki/en/skills/react-modernization/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/react-modernization/</guid><description>&lt;h1 id="react-modernization"&gt;React Modernization&lt;/h1&gt;
+&lt;p&gt;Streams build logs until complete. Use when user wants to watch the build or needs to debug issues.&lt;/p&gt;</description></item><item><title>React Modernization</title><link>https://agentskill.wiki/skills/react-modernization/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/react-modernization/</guid><description>&lt;h1 id="react-modernization"&gt;React Modernization&lt;/h1&gt;
 &lt;p&gt;Master React version upgrades, class to hooks migration, concurrent features adoption, and codemods for automated transformation.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -163,7 +163,7 @@ index abc123..def456 100644
 &lt;/ul&gt;
 &lt;h2 id="version-upgrade-path"&gt;Version Upgrade Path&lt;/h2&gt;
 &lt;h3 id="react-16--17--18"&gt;React 16 → 17 → 18&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Breaking Changes by Version:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Skill Writer</title><link>https://agentskill.wiki/en/skills/skill-writer/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/skill-writer/</guid><description>&lt;h1 id="skill-writer"&gt;Skill Writer&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Breaking Changes by Version:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Skill Writer</title><link>https://agentskill.wiki/skills/skill-writer/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/skill-writer/</guid><description>&lt;h1 id="skill-writer"&gt;Skill Writer&lt;/h1&gt;
 &lt;p&gt;This Skill helps you create well-structured Agent Skills for Claude Code that follow best practices and validation requirements.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to use this Skill&lt;/h2&gt;
 &lt;p&gt;Use this Skill when:&lt;/p&gt;
@@ -179,7 +179,7 @@ index abc123..def456 100644
 &lt;p&gt;First, understand what the Skill should do:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Ask clarifying questions&lt;/strong&gt;:&lt;/p&gt;</description></item><item><title>Swarm Orchestration</title><link>https://agentskill.wiki/en/skills/swarm-orchestration/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/swarm-orchestration/</guid><description>&lt;h1 id="swarm-orchestration"&gt;Swarm Orchestration&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Ask clarifying questions&lt;/strong&gt;:&lt;/p&gt;</description></item><item><title>Swarm Orchestration</title><link>https://agentskill.wiki/skills/swarm-orchestration/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/swarm-orchestration/</guid><description>&lt;h1 id="swarm-orchestration"&gt;Swarm Orchestration&lt;/h1&gt;
 &lt;h2 id="what-this-skill-does"&gt;What This Skill Does&lt;/h2&gt;
 &lt;p&gt;Orchestrates multi-agent swarms using agentic-flow&amp;rsquo;s advanced coordination system. Supports mesh, hierarchical, and adaptive topologies with automatic task distribution, load balancing, and fault tolerance.&lt;/p&gt;
 &lt;h2 id="prerequisites"&gt;Prerequisites&lt;/h2&gt;
@@ -297,7 +297,7 @@ index abc123..def456 100644
 &lt;/ol&gt;
 &lt;h2 id="troubleshooting"&gt;Troubleshooting&lt;/h2&gt;
 &lt;h3 id="issue-agents-not-coordinating"&gt;Issue: Agents not coordinating&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Solution&lt;/strong&gt;: Verify memory access and enable hooks&lt;/p&gt;</description></item><item><title>Typescript</title><link>https://agentskill.wiki/en/skills/typescript/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/typescript/</guid><description>&lt;h2 id="const-types-pattern-required"&gt;Const Types Pattern (REQUIRED)&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Solution&lt;/strong&gt;: Verify memory access and enable hooks&lt;/p&gt;</description></item><item><title>Typescript</title><link>https://agentskill.wiki/skills/typescript/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/typescript/</guid><description>&lt;h2 id="const-types-pattern-required"&gt;Const Types Pattern (REQUIRED)&lt;/h2&gt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-typescript" data-lang="typescript"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;// ✅ ALWAYS: Create const object first, then extract type
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 2&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;const&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;STATUS&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; {
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 3&lt;/span&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;ACTIVE&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;active&amp;#34;&lt;/span&gt;,
@@ -309,7 +309,7 @@ index abc123..def456 100644
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 9&lt;/span&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;10&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;// ❌ NEVER: Direct union types
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;11&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;Status&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;active&amp;#34;&lt;/span&gt; &lt;span style="color:#f92672"&gt;|&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;inactive&amp;#34;&lt;/span&gt; &lt;span style="color:#f92672"&gt;|&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;pending&amp;#34;&lt;/span&gt;;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Why?&lt;/strong&gt; Single source of truth, runtime values, autocomplete, easier refactoring.&lt;/p&gt;</description></item><item><title>Typescript Advanced Types</title><link>https://agentskill.wiki/en/skills/typescript-advanced-types/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/typescript-advanced-types/</guid><description>&lt;h1 id="typescript-advanced-types"&gt;TypeScript Advanced Types&lt;/h1&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Why?&lt;/strong&gt; Single source of truth, runtime values, autocomplete, easier refactoring.&lt;/p&gt;</description></item><item><title>Typescript Advanced Types</title><link>https://agentskill.wiki/skills/typescript-advanced-types/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/typescript-advanced-types/</guid><description>&lt;h1 id="typescript-advanced-types"&gt;TypeScript Advanced Types&lt;/h1&gt;
 &lt;p&gt;Comprehensive guidance for mastering TypeScript&amp;rsquo;s advanced type system including generics, conditional types, mapped types, template literal types, and utility types for building robust, type-safe applications.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -324,9 +324,9 @@ index abc123..def456 100644
 &lt;/ul&gt;
 &lt;h2 id="core-concepts"&gt;Core Concepts&lt;/h2&gt;
 &lt;h3 id="1-generics"&gt;1. Generics&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Purpose:&lt;/strong&gt; Create reusable, type-flexible components while maintaining type safety.&lt;/p&gt;</description></item><item><title>Typescript Write</title><link>https://agentskill.wiki/en/skills/typescript-write/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/typescript-write/</guid><description>&lt;h1 id="typescriptjavascript-development-skill"&gt;TypeScript/JavaScript Development Skill&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Purpose:&lt;/strong&gt; Create reusable, type-flexible components while maintaining type safety.&lt;/p&gt;</description></item><item><title>Typescript Write</title><link>https://agentskill.wiki/skills/typescript-write/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/typescript-write/</guid><description>&lt;h1 id="typescriptjavascript-development-skill"&gt;TypeScript/JavaScript Development Skill&lt;/h1&gt;
 &lt;p&gt;@./../_shared/development-workflow.md
-@./../_shared/typescript-commands.md&lt;/p&gt;</description></item><item><title>Uv Package Manager</title><link>https://agentskill.wiki/en/skills/uv-package-manager/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/uv-package-manager/</guid><description>&lt;h1 id="uv-package-manager"&gt;UV Package Manager&lt;/h1&gt;
+@./../_shared/typescript-commands.md&lt;/p&gt;</description></item><item><title>Uv Package Manager</title><link>https://agentskill.wiki/skills/uv-package-manager/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/uv-package-manager/</guid><description>&lt;h1 id="uv-package-manager"&gt;UV Package Manager&lt;/h1&gt;
 &lt;p&gt;Comprehensive guide to using uv, an extremely fast Python package installer and resolver written in Rust, for modern Python project management and dependency workflows.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -668,7 +668,7 @@ index abc123..def456 100644
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;18&lt;/span&gt;&lt;span&gt;&lt;span style="color:#960050;background-color:#1e0010"&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;19&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Run application&lt;/span&gt;&lt;span style="color:#960050;background-color:#1e0010"&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;20&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;CMD&lt;/span&gt; [&lt;span style="color:#e6db74"&gt;&amp;#34;uv&amp;#34;&lt;/span&gt;, &lt;span style="color:#e6db74"&gt;&amp;#34;run&amp;#34;&lt;/span&gt;, &lt;span style="color:#e6db74"&gt;&amp;#34;python&amp;#34;&lt;/span&gt;, &lt;span style="color:#e6db74"&gt;&amp;#34;app.py&amp;#34;&lt;/span&gt;]&lt;span style="color:#960050;background-color:#1e0010"&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Optimized multi-stage build:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Vscode Ext Localization</title><link>https://agentskill.wiki/en/skills/vscode-ext-localization/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/vscode-ext-localization/</guid><description>&lt;h1 id="vs-code-extension-localization"&gt;VS Code extension localization&lt;/h1&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Optimized multi-stage build:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Vscode Ext Localization</title><link>https://agentskill.wiki/skills/vscode-ext-localization/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/vscode-ext-localization/</guid><description>&lt;h1 id="vs-code-extension-localization"&gt;VS Code extension localization&lt;/h1&gt;
 &lt;p&gt;This skill helps you localize every aspect of VS Code extensions&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to use this skill&lt;/h2&gt;
 &lt;p&gt;Use this skill when you need to:&lt;/p&gt;

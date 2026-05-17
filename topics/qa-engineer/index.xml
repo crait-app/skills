@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>QA Engineer on Agent Skills Hub</title><link>https://agentskill.wiki/topics/qa-engineer/</link><description>Recent content in QA Engineer on Agent Skills Hub</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/topics/qa-engineer/index.xml" rel="self" type="application/rss+xml"/><item><title>Clojure Review</title><link>https://agentskill.wiki/en/skills/clojure-review/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/clojure-review/</guid><description>&lt;h1 id="clojure-code-review-skill"&gt;Clojure Code Review Skill&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>QA Engineer on Agent Skills Hub</title><link>https://agentskill.wiki/topics/qa-engineer/</link><description>Recent content in QA Engineer on Agent Skills Hub</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/topics/qa-engineer/index.xml" rel="self" type="application/rss+xml"/><item><title>Clojure Review</title><link>https://agentskill.wiki/skills/clojure-review/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/clojure-review/</guid><description>&lt;h1 id="clojure-code-review-skill"&gt;Clojure Code Review Skill&lt;/h1&gt;
 &lt;p&gt;@./../_shared/clojure-style-guide.md
 @./../_shared/clojure-commands.md&lt;/p&gt;
 &lt;h2 id="review-guidelines"&gt;Review guidelines&lt;/h2&gt;
@@ -14,7 +14,7 @@
 &lt;li&gt;Do not post comments confirming things &amp;ldquo;look good&amp;rdquo; or telling them they did something correctly&lt;/li&gt;
 &lt;li&gt;Only post comments about style violations or potential issues&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Example bad code review comments to avoid:&lt;/p&gt;</description></item><item><title>Debug</title><link>https://agentskill.wiki/en/skills/debug/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/debug/</guid><description>&lt;h1 id="debug-mode"&gt;Debug Mode&lt;/h1&gt;
+&lt;p&gt;Example bad code review comments to avoid:&lt;/p&gt;</description></item><item><title>Debug</title><link>https://agentskill.wiki/skills/debug/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/debug/</guid><description>&lt;h1 id="debug-mode"&gt;Debug Mode&lt;/h1&gt;
 &lt;p&gt;Fix bugs with &lt;strong&gt;runtime evidence&lt;/strong&gt;, not guesses.&lt;/p&gt;
 &lt;pre tabindex="0"&gt;&lt;code&gt;Don&amp;#39;t guess → Hypothesize → Instrument → Reproduce → Analyze → Fix → Verify
 &lt;/code&gt;&lt;/pre&gt;&lt;h2 id="when-to-use"&gt;When to Use&lt;/h2&gt;
@@ -25,7 +25,7 @@
 &lt;li&gt;&amp;ldquo;Add console.log and let me know the output&amp;rdquo;&lt;/li&gt;
 &lt;li&gt;&amp;ldquo;Click X, open Y, check if Z appears in console&amp;rdquo;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Example scenario that should trigger this skill:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Dispatching Parallel Agents</title><link>https://agentskill.wiki/en/skills/dispatching-parallel-agents/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/dispatching-parallel-agents/</guid><description>&lt;h1 id="dispatching-parallel-agents"&gt;Dispatching Parallel Agents&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Example scenario that should trigger this skill:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Dispatching Parallel Agents</title><link>https://agentskill.wiki/skills/dispatching-parallel-agents/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/dispatching-parallel-agents/</guid><description>&lt;h1 id="dispatching-parallel-agents"&gt;Dispatching Parallel Agents&lt;/h1&gt;
 &lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;When you have multiple unrelated failures (different test files, different subsystems, different bugs), investigating them sequentially wastes time. Each investigation is independent and can happen in parallel.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Core principle:&lt;/strong&gt; Dispatch one agent per independent problem domain. Let them work concurrently.&lt;/p&gt;
@@ -45,7 +45,7 @@
  &amp;#34;Can they work in parallel?&amp;#34; -&amp;gt; &amp;#34;Parallel dispatch&amp;#34; [label=&amp;#34;yes&amp;#34;];
  &amp;#34;Can they work in parallel?&amp;#34; -&amp;gt; &amp;#34;Sequential agents&amp;#34; [label=&amp;#34;no - shared state&amp;#34;];
 }
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Use when:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>E2E Testing Patterns</title><link>https://agentskill.wiki/en/skills/e2e-testing-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/e2e-testing-patterns/</guid><description>&lt;h1 id="e2e-testing-patterns"&gt;E2E Testing Patterns&lt;/h1&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Use when:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>E2E Testing Patterns</title><link>https://agentskill.wiki/skills/e2e-testing-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/e2e-testing-patterns/</guid><description>&lt;h1 id="e2e-testing-patterns"&gt;E2E Testing Patterns&lt;/h1&gt;
 &lt;p&gt;Build reliable, fast, and maintainable end-to-end test suites that provide confidence to ship code quickly and catch regressions before users do.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -60,7 +60,7 @@
 &lt;/ul&gt;
 &lt;h2 id="core-concepts"&gt;Core Concepts&lt;/h2&gt;
 &lt;h3 id="1-e2e-testing-fundamentals"&gt;1. E2E Testing Fundamentals&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;What to Test with E2E:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Error Resolver</title><link>https://agentskill.wiki/en/skills/error-resolver/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/error-resolver/</guid><description>&lt;h1 id="error-resolver"&gt;Error Resolver&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;What to Test with E2E:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Error Resolver</title><link>https://agentskill.wiki/skills/error-resolver/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/error-resolver/</guid><description>&lt;h1 id="error-resolver"&gt;Error Resolver&lt;/h1&gt;
 &lt;p&gt;A first-principle approach to diagnosing and resolving errors across all languages and frameworks.&lt;/p&gt;
 &lt;h2 id="core-philosophy"&gt;Core Philosophy&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;The 5-step Error Resolution Process:&lt;/strong&gt;&lt;/p&gt;
@@ -146,7 +146,7 @@
 &lt;/ul&gt;
 &lt;h2 id="analysis-workflow"&gt;Analysis Workflow&lt;/h2&gt;
 &lt;h3 id="step-1-classify"&gt;Step 1: Classify&lt;/h3&gt;
-&lt;p&gt;Identify the error category by examining:&lt;/p&gt;</description></item><item><title>Github Issues</title><link>https://agentskill.wiki/en/skills/github-issues/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/github-issues/</guid><description>&lt;h1 id="github-issues"&gt;GitHub Issues&lt;/h1&gt;
+&lt;p&gt;Identify the error category by examining:&lt;/p&gt;</description></item><item><title>Github Issues</title><link>https://agentskill.wiki/skills/github-issues/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/github-issues/</guid><description>&lt;h1 id="github-issues"&gt;GitHub Issues&lt;/h1&gt;
 &lt;p&gt;Manage GitHub issues using the &lt;code&gt;@modelcontextprotocol/server-github&lt;/code&gt; MCP server.&lt;/p&gt;
 &lt;h2 id="available-mcp-tools"&gt;Available MCP Tools&lt;/h2&gt;
 &lt;table&gt;
@@ -215,7 +215,7 @@ milestone: milestone number (integer)
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id="body-structure"&gt;Body Structure&lt;/h3&gt;
-&lt;p&gt;Always use the templates in &lt;a href="references/templates.md"&gt;references/templates.md&lt;/a&gt;. Choose based on issue type:&lt;/p&gt;</description></item><item><title>Pair Programming</title><link>https://agentskill.wiki/en/skills/pair-programming/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/pair-programming/</guid><description>&lt;h1 id="pair-programming"&gt;Pair Programming&lt;/h1&gt;
+&lt;p&gt;Always use the templates in &lt;a href="references/templates.md"&gt;references/templates.md&lt;/a&gt;. Choose based on issue type:&lt;/p&gt;</description></item><item><title>Pair Programming</title><link>https://agentskill.wiki/skills/pair-programming/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/pair-programming/</guid><description>&lt;h1 id="pair-programming"&gt;Pair Programming&lt;/h1&gt;
 &lt;p&gt;Collaborative AI pair programming with intelligent role management, real-time quality monitoring, and comprehensive development workflows.&lt;/p&gt;
 &lt;h2 id="what-this-skill-does"&gt;What This Skill Does&lt;/h2&gt;
 &lt;p&gt;This skill provides professional pair programming capabilities with AI assistance, supporting multiple collaboration modes, continuous verification, and integrated testing. It manages driver/navigator roles, performs real-time code review, tracks quality metrics, and ensures high standards through truth-score verification.&lt;/p&gt;
@@ -229,7 +229,7 @@ milestone: milestone number (integer)
 &lt;li&gt;&lt;strong&gt;Session Persistence&lt;/strong&gt;: Auto-save, recovery, export, and sharing&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="prerequisites"&gt;Prerequisites&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Required:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Pr Build Status</title><link>https://agentskill.wiki/en/skills/pr-build-status/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/pr-build-status/</guid><description>&lt;h1 id="pr-build-status-skill"&gt;PR Build Status Skill&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Required:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Pr Build Status</title><link>https://agentskill.wiki/skills/pr-build-status/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/pr-build-status/</guid><description>&lt;h1 id="pr-build-status-skill"&gt;PR Build Status Skill&lt;/h1&gt;
 &lt;p&gt;Retrieve Azure DevOps build information for GitHub Pull Requests, including Helix test logs.&lt;/p&gt;
 &lt;h2 id="tools-required"&gt;Tools Required&lt;/h2&gt;
 &lt;p&gt;This skill uses &lt;code&gt;bash&lt;/code&gt; together with &lt;code&gt;pwsh&lt;/code&gt; (PowerShell 7+) to run the PowerShell scripts. No file editing or other tools are required.&lt;/p&gt;
@@ -243,7 +243,7 @@ milestone: milestone number (integer)
 &lt;li&gt;&lt;strong&gt;User needs to debug why tests are failing on Helix infrastructure&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="scripts"&gt;Scripts&lt;/h2&gt;
-&lt;p&gt;All scripts are in &lt;code&gt;.github/skills/pr-build-status/scripts/&lt;/code&gt;&lt;/p&gt;</description></item><item><title>Rule Identifier</title><link>https://agentskill.wiki/en/skills/rule-identifier/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/rule-identifier/</guid><description>&lt;h1 id="writing-hookify-rules"&gt;Writing Hookify Rules&lt;/h1&gt;
+&lt;p&gt;All scripts are in &lt;code&gt;.github/skills/pr-build-status/scripts/&lt;/code&gt;&lt;/p&gt;</description></item><item><title>Rule Identifier</title><link>https://agentskill.wiki/skills/rule-identifier/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/rule-identifier/</guid><description>&lt;h1 id="writing-hookify-rules"&gt;Writing Hookify Rules&lt;/h1&gt;
 &lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;Hookify rules are markdown files with YAML frontmatter that define patterns to watch for and messages to show when those patterns match. Rules are stored in &lt;code&gt;.claude/hookify.{rule-name}.local.md&lt;/code&gt; files.&lt;/p&gt;
 &lt;h2 id="rule-file-format"&gt;Rule File Format&lt;/h2&gt;
@@ -258,7 +258,7 @@ milestone: milestone number (integer)
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;8&lt;/span&gt;&lt;span&gt;Message to show Claude when this rule triggers.
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;9&lt;/span&gt;&lt;span&gt;Can include markdown formatting, warnings, suggestions, etc.
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="frontmatter-fields"&gt;Frontmatter Fields&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;name&lt;/strong&gt; (required): Unique identifier for the rule&lt;/p&gt;</description></item><item><title>Screen Reader Testing</title><link>https://agentskill.wiki/en/skills/screen-reader-testing/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/screen-reader-testing/</guid><description>&lt;h1 id="screen-reader-testing"&gt;Screen Reader Testing&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;name&lt;/strong&gt; (required): Unique identifier for the rule&lt;/p&gt;</description></item><item><title>Screen Reader Testing</title><link>https://agentskill.wiki/skills/screen-reader-testing/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/screen-reader-testing/</guid><description>&lt;h1 id="screen-reader-testing"&gt;Screen Reader Testing&lt;/h1&gt;
 &lt;p&gt;Practical guide to testing web applications with screen readers for comprehensive accessibility validation.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -771,7 +771,7 @@ Reading Controls (swipe up then right):
 &lt;li&gt;&lt;a href="https://www.nvaccess.org/files/nvda/documentation/userGuide.html"&gt;NVDA User Guide&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://support.freedomscientific.com/Products/Blindness/JAWS"&gt;JAWS Documentation&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://webaim.org/projects/screenreadersurvey/"&gt;WebAIM Screen Reader Survey&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Senior Qa</title><link>https://agentskill.wiki/en/skills/senior-qa/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/senior-qa/</guid><description>&lt;h1 id="senior-qa"&gt;Senior Qa&lt;/h1&gt;
+&lt;/ul&gt;</description></item><item><title>Senior Qa</title><link>https://agentskill.wiki/skills/senior-qa/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/senior-qa/</guid><description>&lt;h1 id="senior-qa"&gt;Senior Qa&lt;/h1&gt;
 &lt;p&gt;Complete toolkit for senior qa with modern tools and best practices.&lt;/p&gt;
 &lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;
 &lt;h3 id="main-capabilities"&gt;Main Capabilities&lt;/h3&gt;
@@ -786,7 +786,7 @@ Reading Controls (swipe up then right):
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;8&lt;/span&gt;&lt;span&gt;python scripts/e2e_test_scaffolder.py &lt;span style="color:#f92672"&gt;[&lt;/span&gt;options&lt;span style="color:#f92672"&gt;]&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="core-capabilities"&gt;Core Capabilities&lt;/h2&gt;
 &lt;h3 id="1-test-suite-generator"&gt;1. Test Suite Generator&lt;/h3&gt;
-&lt;p&gt;Automated tool for test suite generator tasks.&lt;/p&gt;</description></item><item><title>Web Design Reviewer</title><link>https://agentskill.wiki/en/skills/web-design-reviewer/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/web-design-reviewer/</guid><description>&lt;h1 id="web-design-reviewer"&gt;Web Design Reviewer&lt;/h1&gt;
+&lt;p&gt;Automated tool for test suite generator tasks.&lt;/p&gt;</description></item><item><title>Web Design Reviewer</title><link>https://agentskill.wiki/skills/web-design-reviewer/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/web-design-reviewer/</guid><description>&lt;h1 id="web-design-reviewer"&gt;Web Design Reviewer&lt;/h1&gt;
 &lt;p&gt;This skill enables visual inspection and validation of website design quality, identifying and fixing issues at the source code level.&lt;/p&gt;
 &lt;h2 id="scope-of-application"&gt;Scope of Application&lt;/h2&gt;
 &lt;ul&gt;
@@ -808,7 +808,7 @@ Reading Controls (swipe up then right):
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Browser automation must be available&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Webapp Testing</title><link>https://agentskill.wiki/en/skills/webapp-testing/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/webapp-testing/</guid><description>&lt;h1 id="web-application-testing"&gt;Web Application Testing&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Browser automation must be available&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Webapp Testing</title><link>https://agentskill.wiki/skills/webapp-testing/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/webapp-testing/</guid><description>&lt;h1 id="web-application-testing"&gt;Web Application Testing&lt;/h1&gt;
 &lt;p&gt;To test local web applications, write native Python Playwright scripts.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Helper Scripts Available&lt;/strong&gt;:&lt;/p&gt;
 &lt;ul&gt;

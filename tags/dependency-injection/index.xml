@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dependency-Injection on Agent Skills Hub</title><link>https://agentskill.wiki/tags/dependency-injection/</link><description>Recent content in Dependency-Injection on Agent Skills Hub</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/dependency-injection/index.xml" rel="self" type="application/rss+xml"/><item><title>Angular Migration</title><link>https://agentskill.wiki/en/skills/angular-migration/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/angular-migration/</guid><description>&lt;h1 id="angular-migration"&gt;Angular Migration&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dependency-Injection on Agent Skills Hub</title><link>https://agentskill.wiki/tags/dependency-injection/</link><description>Recent content in Dependency-Injection on Agent Skills Hub</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/dependency-injection/index.xml" rel="self" type="application/rss+xml"/><item><title>Angular Migration</title><link>https://agentskill.wiki/skills/angular-migration/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/angular-migration/</guid><description>&lt;h1 id="angular-migration"&gt;Angular Migration&lt;/h1&gt;
 &lt;p&gt;Master AngularJS to Angular migration, including hybrid apps, component conversion, dependency injection changes, and routing migration.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -349,7 +349,7 @@ Phase 4: Cleanup (1-2 weeks)
 &lt;li&gt;Not handling scope properly&lt;/li&gt;
 &lt;li&gt;Mixing patterns (AngularJS + Angular)&lt;/li&gt;
 &lt;li&gt;Inadequate testing&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Dotnet Backend Patterns</title><link>https://agentskill.wiki/en/skills/dotnet-backend-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/dotnet-backend-patterns/</guid><description>&lt;h1 id="net-backend-development-patterns"&gt;.NET Backend Development Patterns&lt;/h1&gt;
+&lt;/ul&gt;</description></item><item><title>Dotnet Backend Patterns</title><link>https://agentskill.wiki/skills/dotnet-backend-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/dotnet-backend-patterns/</guid><description>&lt;h1 id="net-backend-development-patterns"&gt;.NET Backend Development Patterns&lt;/h1&gt;
 &lt;p&gt;Master C#/.NET patterns for building production-grade APIs, MCP servers, and enterprise backends with modern best practices (2024/2025).&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -1114,7 +1114,7 @@ Phase 4: Cleanup (1-2 weeks)
 &lt;li&gt;&lt;strong&gt;assets/repository-template.cs&lt;/strong&gt;: Repository pattern implementation&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;references/ef-core-best-practices.md&lt;/strong&gt;: EF Core optimization guide&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;references/dapper-patterns.md&lt;/strong&gt;: Advanced Dapper usage patterns&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Fastapi Templates</title><link>https://agentskill.wiki/en/skills/fastapi-templates/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/fastapi-templates/</guid><description>&lt;h1 id="fastapi-project-templates"&gt;FastAPI Project Templates&lt;/h1&gt;
+&lt;/ul&gt;</description></item><item><title>Fastapi Templates</title><link>https://agentskill.wiki/skills/fastapi-templates/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/fastapi-templates/</guid><description>&lt;h1 id="fastapi-project-templates"&gt;FastAPI Project Templates&lt;/h1&gt;
 &lt;p&gt;Production-ready FastAPI project structures with async patterns, dependency injection, middleware, and best practices for building high-performance APIs.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;

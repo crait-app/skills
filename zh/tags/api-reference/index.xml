@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Api-Reference on Agent Skills Hub</title><link>https://agentskill.wiki/zh/tags/api-reference/</link><description>Recent content in Api-Reference on Agent Skills Hub</description><generator>Hugo</generator><language>zh</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/zh/tags/api-reference/index.xml" rel="self" type="application/rss+xml"/><item><title>Documentation Lookup</title><link>https://agentskill.wiki/zh/skills/documentation-lookup/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/zh/skills/documentation-lookup/</guid><description>&lt;p&gt;When the user asks about libraries, frameworks, or needs code examples, use Context7 to fetch current documentation instead of relying on training data.&lt;/p&gt;
+&lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
+&lt;p&gt;Activate this skill when the user:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Asks setup or configuration questions (&amp;ldquo;How do I configure Next.js middleware?&amp;rdquo;)&lt;/li&gt;
+&lt;li&gt;Requests code involving libraries (&amp;ldquo;Write a Prisma query for&amp;hellip;&amp;rdquo;)&lt;/li&gt;
+&lt;li&gt;Needs API references (&amp;ldquo;What are the Supabase auth methods?&amp;rdquo;)&lt;/li&gt;
+&lt;li&gt;Mentions specific frameworks (React, Vue, Svelte, Express, Tailwind, etc.)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="how-to-fetch-documentation"&gt;How to Fetch Documentation&lt;/h2&gt;
+&lt;h3 id="step-1-resolve-the-library-id"&gt;Step 1: Resolve the Library ID&lt;/h3&gt;
+&lt;p&gt;Call &lt;code&gt;resolve-library-id&lt;/code&gt; with:&lt;/p&gt;</description></item></channel></rss>

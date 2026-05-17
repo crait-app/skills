@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Observability on Agent Skills Hub</title><link>https://agentskill.wiki/zh/tags/observability/</link><description>Recent content in Observability on Agent Skills Hub</description><generator>Hugo</generator><language>zh</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/zh/tags/observability/index.xml" rel="self" type="application/rss+xml"/><item><title>Distributed Tracing</title><link>https://agentskill.wiki/zh/skills/distributed-tracing/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/zh/skills/distributed-tracing/</guid><description>&lt;h1 id="distributed-tracing"&gt;Distributed Tracing&lt;/h1&gt;
+&lt;p&gt;Implement distributed tracing with Jaeger and Tempo for request flow visibility across microservices.&lt;/p&gt;
+&lt;h2 id="purpose"&gt;Purpose&lt;/h2&gt;
+&lt;p&gt;Track requests across distributed systems to understand latency, dependencies, and failure points.&lt;/p&gt;
+&lt;h2 id="when-to-use"&gt;When to Use&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Debug latency issues&lt;/li&gt;
+&lt;li&gt;Understand service dependencies&lt;/li&gt;
+&lt;li&gt;Identify bottlenecks&lt;/li&gt;
+&lt;li&gt;Trace error propagation&lt;/li&gt;
+&lt;li&gt;Analyze request paths&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="distributed-tracing-concepts"&gt;Distributed Tracing Concepts&lt;/h2&gt;
+&lt;h3 id="trace-structure"&gt;Trace Structure&lt;/h3&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;Trace (Request ID: abc123)
+ ↓
+Span (frontend) [100ms]
+ ↓
+Span (api-gateway) [80ms]
+ ├→ Span (auth-service) [10ms]
+ └→ Span (user-service) [60ms]
+ └→ Span (database) [40ms]
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id="key-components"&gt;Key Components&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Trace&lt;/strong&gt; - End-to-end request journey&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Span&lt;/strong&gt; - Single operation within a trace&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Context&lt;/strong&gt; - Metadata propagated between services&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tags&lt;/strong&gt; - Key-value pairs for filtering&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Logs&lt;/strong&gt; - Timestamped events within a span&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="jaeger-setup"&gt;Jaeger Setup&lt;/h2&gt;
+&lt;h3 id="kubernetes-deployment"&gt;Kubernetes Deployment&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Deploy Jaeger Operator&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 2&lt;/span&gt;&lt;span&gt;kubectl create namespace observability
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 3&lt;/span&gt;&lt;span&gt;kubectl create -f https://github.com/jaegertracing/jaeger-operator/releases/download/v1.51.0/jaeger-operator.yaml -n observability
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 4&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 5&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Deploy Jaeger instance&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 6&lt;/span&gt;&lt;span&gt;kubectl apply -f - &lt;span style="color:#e6db74"&gt;&amp;lt;&amp;lt;EOF
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 7&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;apiVersion: jaegertracing.io/v1
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 8&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;kind: Jaeger
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 9&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;metadata:
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;10&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; name: jaeger
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;11&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; namespace: observability
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;12&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;spec:
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;13&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; strategy: production
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;14&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; storage:
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;15&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; type: elasticsearch
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;16&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; options:
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;17&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; es:
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;18&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; server-urls: http://elasticsearch:9200
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;19&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; ingress:
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;20&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; enabled: true
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;21&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;EOF&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="docker-compose"&gt;Docker Compose&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-yaml" data-lang="yaml"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;version&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;&amp;#34;3.8&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 2&lt;/span&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;services&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 3&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;jaeger&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 4&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;image&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;jaegertracing/all-in-one:latest&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 5&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;ports&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 6&lt;/span&gt;&lt;span&gt; - &lt;span style="color:#e6db74"&gt;&amp;#34;5775:5775/udp&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 7&lt;/span&gt;&lt;span&gt; - &lt;span style="color:#e6db74"&gt;&amp;#34;6831:6831/udp&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 8&lt;/span&gt;&lt;span&gt; - &lt;span style="color:#e6db74"&gt;&amp;#34;6832:6832/udp&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 9&lt;/span&gt;&lt;span&gt; - &lt;span style="color:#e6db74"&gt;&amp;#34;5778:5778&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;10&lt;/span&gt;&lt;span&gt; - &lt;span style="color:#e6db74"&gt;&amp;#34;16686:16686&amp;#34;&lt;/span&gt; &lt;span style="color:#75715e"&gt;# UI&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;11&lt;/span&gt;&lt;span&gt; - &lt;span style="color:#e6db74"&gt;&amp;#34;14268:14268&amp;#34;&lt;/span&gt; &lt;span style="color:#75715e"&gt;# Collector&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;12&lt;/span&gt;&lt;span&gt; - &lt;span style="color:#e6db74"&gt;&amp;#34;14250:14250&amp;#34;&lt;/span&gt; &lt;span style="color:#75715e"&gt;# gRPC&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;13&lt;/span&gt;&lt;span&gt; - &lt;span style="color:#e6db74"&gt;&amp;#34;9411:9411&amp;#34;&lt;/span&gt; &lt;span style="color:#75715e"&gt;# Zipkin&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;14&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;environment&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;15&lt;/span&gt;&lt;span&gt; - &lt;span style="color:#ae81ff"&gt;COLLECTOR_ZIPKIN_HOST_PORT=:9411&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Reference:&lt;/strong&gt; See &lt;code&gt;references/jaeger-setup.md&lt;/code&gt;&lt;/p&gt;</description></item><item><title>Error Tracking</title><link>https://agentskill.wiki/zh/skills/error-tracking/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/zh/skills/error-tracking/</guid><description>&lt;h1 id="your-project-sentry-integration-skill"&gt;your project Sentry Integration Skill&lt;/h1&gt;
+&lt;h2 id="purpose"&gt;Purpose&lt;/h2&gt;
+&lt;p&gt;This skill enforces comprehensive Sentry error tracking and performance monitoring across all your project services following Sentry v8 patterns.&lt;/p&gt;
+&lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Adding error handling to any code&lt;/li&gt;
+&lt;li&gt;Creating new controllers or routes&lt;/li&gt;
+&lt;li&gt;Instrumenting cron jobs&lt;/li&gt;
+&lt;li&gt;Tracking database performance&lt;/li&gt;
+&lt;li&gt;Adding performance spans&lt;/li&gt;
+&lt;li&gt;Handling workflow errors&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-critical-rule"&gt;🚨 CRITICAL RULE&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;ALL ERRORS MUST BE CAPTURED TO SENTRY&lt;/strong&gt; - No exceptions. Never use console.error alone.&lt;/p&gt;</description></item><item><title>Grafana Dashboards</title><link>https://agentskill.wiki/zh/skills/grafana-dashboards/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/zh/skills/grafana-dashboards/</guid><description>&lt;h1 id="grafana-dashboards"&gt;Grafana Dashboards&lt;/h1&gt;
+&lt;p&gt;Create and manage production-ready Grafana dashboards for comprehensive system observability.&lt;/p&gt;
+&lt;h2 id="purpose"&gt;Purpose&lt;/h2&gt;
+&lt;p&gt;Design effective Grafana dashboards for monitoring applications, infrastructure, and business metrics.&lt;/p&gt;
+&lt;h2 id="when-to-use"&gt;When to Use&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Visualize Prometheus metrics&lt;/li&gt;
+&lt;li&gt;Create custom dashboards&lt;/li&gt;
+&lt;li&gt;Implement SLO dashboards&lt;/li&gt;
+&lt;li&gt;Monitor infrastructure&lt;/li&gt;
+&lt;li&gt;Track business KPIs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="dashboard-design-principles"&gt;Dashboard Design Principles&lt;/h2&gt;
+&lt;h3 id="1-hierarchy-of-information"&gt;1. Hierarchy of Information&lt;/h3&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;┌─────────────────────────────────────┐
+│ Critical Metrics (Big Numbers) │
+├─────────────────────────────────────┤
+│ Key Trends (Time Series) │
+├─────────────────────────────────────┤
+│ Detailed Metrics (Tables/Heatmaps) │
+└─────────────────────────────────────┘
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id="2-red-method-services"&gt;2. RED Method (Services)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Rate&lt;/strong&gt; - Requests per second&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Errors&lt;/strong&gt; - Error rate&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Duration&lt;/strong&gt; - Latency/response time&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="3-use-method-resources"&gt;3. USE Method (Resources)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Utilization&lt;/strong&gt; - % time resource is busy&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Saturation&lt;/strong&gt; - Queue length/wait time&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Errors&lt;/strong&gt; - Error count&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="dashboard-structure"&gt;Dashboard Structure&lt;/h2&gt;
+&lt;h3 id="api-monitoring-dashboard"&gt;API Monitoring Dashboard&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-json" data-lang="json"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 1&lt;/span&gt;&lt;span&gt;{
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 2&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;#34;dashboard&amp;#34;&lt;/span&gt;: {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 3&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;#34;title&amp;#34;&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;&amp;#34;API Monitoring&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 4&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;#34;tags&amp;#34;&lt;/span&gt;: [&lt;span style="color:#e6db74"&gt;&amp;#34;api&amp;#34;&lt;/span&gt;, &lt;span style="color:#e6db74"&gt;&amp;#34;production&amp;#34;&lt;/span&gt;],
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 5&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;#34;timezone&amp;#34;&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;&amp;#34;browser&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 6&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;#34;refresh&amp;#34;&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;&amp;#34;30s&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 7&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;#34;panels&amp;#34;&lt;/span&gt;: [
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 8&lt;/span&gt;&lt;span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 9&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;#34;title&amp;#34;&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;&amp;#34;Request Rate&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;10&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;#34;type&amp;#34;&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;&amp;#34;graph&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;11&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;#34;targets&amp;#34;&lt;/span&gt;: [
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;12&lt;/span&gt;&lt;span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;13&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;#34;expr&amp;#34;&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;&amp;#34;sum(rate(http_requests_total[5m])) by (service)&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;14&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;#34;legendFormat&amp;#34;&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;&amp;#34;{{service}}&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;15&lt;/span&gt;&lt;span&gt; }
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;16&lt;/span&gt;&lt;span&gt; ],
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;17&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;#34;gridPos&amp;#34;&lt;/span&gt;: { &lt;span style="color:#f92672"&gt;&amp;#34;x&amp;#34;&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;0&lt;/span&gt;, &lt;span style="color:#f92672"&gt;&amp;#34;y&amp;#34;&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;0&lt;/span&gt;, &lt;span style="color:#f92672"&gt;&amp;#34;w&amp;#34;&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;12&lt;/span&gt;, &lt;span style="color:#f92672"&gt;&amp;#34;h&amp;#34;&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;8&lt;/span&gt; }
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;18&lt;/span&gt;&lt;span&gt; },
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;19&lt;/span&gt;&lt;span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;20&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;#34;title&amp;#34;&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;&amp;#34;Error Rate %&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;21&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;#34;type&amp;#34;&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;&amp;#34;graph&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;22&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;#34;targets&amp;#34;&lt;/span&gt;: [
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;23&lt;/span&gt;&lt;span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;24&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;#34;expr&amp;#34;&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;&amp;#34;(sum(rate(http_requests_total{status=~\&amp;#34;5..\&amp;#34;}[5m])) / sum(rate(http_requests_total[5m]))) * 100&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;25&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;#34;legendFormat&amp;#34;&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;&amp;#34;Error Rate&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;26&lt;/span&gt;&lt;span&gt; }
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;27&lt;/span&gt;&lt;span&gt; ],
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;28&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;#34;alert&amp;#34;&lt;/span&gt;: {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;29&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;#34;conditions&amp;#34;&lt;/span&gt;: [
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;30&lt;/span&gt;&lt;span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;31&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;#34;evaluator&amp;#34;&lt;/span&gt;: { &lt;span style="color:#f92672"&gt;&amp;#34;params&amp;#34;&lt;/span&gt;: [&lt;span style="color:#ae81ff"&gt;5&lt;/span&gt;], &lt;span style="color:#f92672"&gt;&amp;#34;type&amp;#34;&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;&amp;#34;gt&amp;#34;&lt;/span&gt; },
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;32&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;#34;operator&amp;#34;&lt;/span&gt;: { &lt;span style="color:#f92672"&gt;&amp;#34;type&amp;#34;&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;&amp;#34;and&amp;#34;&lt;/span&gt; },
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;33&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;#34;query&amp;#34;&lt;/span&gt;: { &lt;span style="color:#f92672"&gt;&amp;#34;params&amp;#34;&lt;/span&gt;: [&lt;span style="color:#e6db74"&gt;&amp;#34;A&amp;#34;&lt;/span&gt;, &lt;span style="color:#e6db74"&gt;&amp;#34;5m&amp;#34;&lt;/span&gt;, &lt;span style="color:#e6db74"&gt;&amp;#34;now&amp;#34;&lt;/span&gt;] },
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;34&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;#34;type&amp;#34;&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;&amp;#34;query&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;35&lt;/span&gt;&lt;span&gt; }
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;36&lt;/span&gt;&lt;span&gt; ]
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;37&lt;/span&gt;&lt;span&gt; },
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;38&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;#34;gridPos&amp;#34;&lt;/span&gt;: { &lt;span style="color:#f92672"&gt;&amp;#34;x&amp;#34;&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;12&lt;/span&gt;, &lt;span style="color:#f92672"&gt;&amp;#34;y&amp;#34;&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;0&lt;/span&gt;, &lt;span style="color:#f92672"&gt;&amp;#34;w&amp;#34;&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;12&lt;/span&gt;, &lt;span style="color:#f92672"&gt;&amp;#34;h&amp;#34;&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;8&lt;/span&gt; }
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;39&lt;/span&gt;&lt;span&gt; },
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;40&lt;/span&gt;&lt;span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;41&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;#34;title&amp;#34;&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;&amp;#34;P95 Latency&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;42&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;#34;type&amp;#34;&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;&amp;#34;graph&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;43&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;#34;targets&amp;#34;&lt;/span&gt;: [
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;44&lt;/span&gt;&lt;span&gt; {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;45&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;#34;expr&amp;#34;&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;&amp;#34;histogram_quantile(0.95, sum(rate(http_request_duration_seconds_bucket[5m])) by (le, service))&amp;#34;&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;46&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;#34;legendFormat&amp;#34;&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;&amp;#34;{{service}}&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;47&lt;/span&gt;&lt;span&gt; }
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;48&lt;/span&gt;&lt;span&gt; ],
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;49&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;#34;gridPos&amp;#34;&lt;/span&gt;: { &lt;span style="color:#f92672"&gt;&amp;#34;x&amp;#34;&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;0&lt;/span&gt;, &lt;span style="color:#f92672"&gt;&amp;#34;y&amp;#34;&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;8&lt;/span&gt;, &lt;span style="color:#f92672"&gt;&amp;#34;w&amp;#34;&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;24&lt;/span&gt;, &lt;span style="color:#f92672"&gt;&amp;#34;h&amp;#34;&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;8&lt;/span&gt; }
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;50&lt;/span&gt;&lt;span&gt; }
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;51&lt;/span&gt;&lt;span&gt; ]
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;52&lt;/span&gt;&lt;span&gt; }
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;53&lt;/span&gt;&lt;span&gt;}
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Reference:&lt;/strong&gt; See &lt;code&gt;assets/api-dashboard.json&lt;/code&gt;&lt;/p&gt;</description></item><item><title>Langsmith Observability</title><link>https://agentskill.wiki/zh/skills/langsmith-observability/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/zh/skills/langsmith-observability/</guid><description>&lt;h1 id="langsmith---llm-observability-platform"&gt;LangSmith - LLM Observability Platform&lt;/h1&gt;
+&lt;p&gt;Development platform for debugging, evaluating, and monitoring language models and AI applications.&lt;/p&gt;
+&lt;h2 id="when-to-use-langsmith"&gt;When to use LangSmith&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Use LangSmith when:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Debugging LLM application issues (prompts, chains, agents)&lt;/li&gt;
+&lt;li&gt;Evaluating model outputs systematically against datasets&lt;/li&gt;
+&lt;li&gt;Monitoring production LLM systems&lt;/li&gt;
+&lt;li&gt;Building regression testing for AI features&lt;/li&gt;
+&lt;li&gt;Analyzing latency, token usage, and costs&lt;/li&gt;
+&lt;li&gt;Collaborating on prompt engineering&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Key features:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Tracing&lt;/strong&gt;: Capture inputs, outputs, latency for all LLM calls&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Evaluation&lt;/strong&gt;: Systematic testing with built-in and custom evaluators&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Datasets&lt;/strong&gt;: Create test sets from production traces or manually&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Monitoring&lt;/strong&gt;: Track metrics, errors, and costs in production&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Integrations&lt;/strong&gt;: Works with OpenAI, Anthropic, LangChain, LlamaIndex&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Use alternatives instead:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Phoenix Observability</title><link>https://agentskill.wiki/zh/skills/phoenix-observability/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/zh/skills/phoenix-observability/</guid><description>&lt;h1 id="phoenix---ai-observability-platform"&gt;Phoenix - AI Observability Platform&lt;/h1&gt;
+&lt;p&gt;Open-source AI observability and evaluation platform for LLM applications with tracing, evaluation, datasets, experiments, and real-time monitoring.&lt;/p&gt;
+&lt;h2 id="when-to-use-phoenix"&gt;When to use Phoenix&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Use Phoenix when:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Debugging LLM application issues with detailed traces&lt;/li&gt;
+&lt;li&gt;Running systematic evaluations on datasets&lt;/li&gt;
+&lt;li&gt;Monitoring production LLM systems in real-time&lt;/li&gt;
+&lt;li&gt;Building experiment pipelines for prompt/model comparison&lt;/li&gt;
+&lt;li&gt;Self-hosted observability without vendor lock-in&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Key features:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Tracing&lt;/strong&gt;: OpenTelemetry-based trace collection for any LLM framework&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Evaluation&lt;/strong&gt;: LLM-as-judge evaluators for quality assessment&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Datasets&lt;/strong&gt;: Versioned test sets for regression testing&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Experiments&lt;/strong&gt;: Compare prompts, models, and configurations&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Playground&lt;/strong&gt;: Interactive prompt testing with multiple models&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Open-source&lt;/strong&gt;: Self-hosted with PostgreSQL or SQLite&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Use alternatives instead:&lt;/strong&gt;&lt;/p&gt;</description></item></channel></rss>

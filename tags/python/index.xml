@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Python on Agent Skills Hub</title><link>https://agentskill.wiki/tags/python/</link><description>Recent content in Python on Agent Skills Hub</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/python/index.xml" rel="self" type="application/rss+xml"/><item><title>Async Python Patterns</title><link>https://agentskill.wiki/en/skills/async-python-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/async-python-patterns/</guid><description>&lt;h1 id="async-python-patterns"&gt;Async Python Patterns&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Python on Agent Skills Hub</title><link>https://agentskill.wiki/tags/python/</link><description>Recent content in Python on Agent Skills Hub</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/python/index.xml" rel="self" type="application/rss+xml"/><item><title>Async Python Patterns</title><link>https://agentskill.wiki/skills/async-python-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/async-python-patterns/</guid><description>&lt;h1 id="async-python-patterns"&gt;Async Python Patterns&lt;/h1&gt;
 &lt;p&gt;Comprehensive guidance for implementing asynchronous Python applications using asyncio, concurrent programming patterns, and async/await for building high-performance, non-blocking systems.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -13,7 +13,7 @@
 &lt;/ul&gt;
 &lt;h2 id="core-concepts"&gt;Core Concepts&lt;/h2&gt;
 &lt;h3 id="1-event-loop"&gt;1. Event Loop&lt;/h3&gt;
-&lt;p&gt;The event loop is the heart of asyncio, managing and scheduling asynchronous tasks.&lt;/p&gt;</description></item><item><title>Examples Auto Run</title><link>https://agentskill.wiki/en/skills/examples-auto-run/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/examples-auto-run/</guid><description>&lt;h1 id="examples-auto-run"&gt;examples-auto-run&lt;/h1&gt;
+&lt;p&gt;The event loop is the heart of asyncio, managing and scheduling asynchronous tasks.&lt;/p&gt;</description></item><item><title>Examples Auto Run</title><link>https://agentskill.wiki/skills/examples-auto-run/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/examples-auto-run/</guid><description>&lt;h1 id="examples-auto-run"&gt;examples-auto-run&lt;/h1&gt;
 &lt;h2 id="what-it-does"&gt;What it does&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Runs &lt;code&gt;uv run examples/run_examples.py&lt;/code&gt; with:
@@ -75,7 +75,7 @@
 &lt;li&gt;If &lt;code&gt;.tmp/examples-rerun.txt&lt;/code&gt; exists and is non-empty, invoking the skill with no args runs &lt;code&gt;rerun&lt;/code&gt; by default.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="behavioral-validation-codexllm-responsibility"&gt;Behavioral validation (Codex/LLM responsibility)&lt;/h2&gt;
-&lt;p&gt;The runner does not perform any automated behavioral validation. After every foreground &lt;code&gt;start&lt;/code&gt; or &lt;code&gt;rerun&lt;/code&gt;, &lt;strong&gt;Codex must manually validate&lt;/strong&gt; all exit-0 entries:&lt;/p&gt;</description></item><item><title>Fastapi Templates</title><link>https://agentskill.wiki/en/skills/fastapi-templates/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/fastapi-templates/</guid><description>&lt;h1 id="fastapi-project-templates"&gt;FastAPI Project Templates&lt;/h1&gt;
+&lt;p&gt;The runner does not perform any automated behavioral validation. After every foreground &lt;code&gt;start&lt;/code&gt; or &lt;code&gt;rerun&lt;/code&gt;, &lt;strong&gt;Codex must manually validate&lt;/strong&gt; all exit-0 entries:&lt;/p&gt;</description></item><item><title>Fastapi Templates</title><link>https://agentskill.wiki/skills/fastapi-templates/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/fastapi-templates/</guid><description>&lt;h1 id="fastapi-project-templates"&gt;FastAPI Project Templates&lt;/h1&gt;
 &lt;p&gt;Production-ready FastAPI project structures with async patterns, dependency injection, middleware, and best practices for building high-performance APIs.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -115,7 +115,7 @@
 │ └── item_repository.py
 └── main.py # Application entry
 &lt;/code&gt;&lt;/pre&gt;&lt;h3 id="2-dependency-injection"&gt;2. Dependency Injection&lt;/h3&gt;
-&lt;p&gt;FastAPI&amp;rsquo;s built-in DI system using &lt;code&gt;Depends&lt;/code&gt;:&lt;/p&gt;</description></item><item><title>Latchbio Integration</title><link>https://agentskill.wiki/en/skills/latchbio-integration/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/latchbio-integration/</guid><description>&lt;h1 id="latchbio-integration"&gt;LatchBio Integration&lt;/h1&gt;
+&lt;p&gt;FastAPI&amp;rsquo;s built-in DI system using &lt;code&gt;Depends&lt;/code&gt;:&lt;/p&gt;</description></item><item><title>Latchbio Integration</title><link>https://agentskill.wiki/skills/latchbio-integration/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/latchbio-integration/</guid><description>&lt;h1 id="latchbio-integration"&gt;LatchBio Integration&lt;/h1&gt;
 &lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;Latch is a Python framework for building and deploying bioinformatics workflows as serverless pipelines. Built on Flyte, create workflows with @workflow/@task decorators, manage cloud data with LatchFile/LatchDir, configure resources, and integrate Nextflow/Snakemake pipelines.&lt;/p&gt;
 &lt;h2 id="core-capabilities"&gt;Core Capabilities&lt;/h2&gt;
@@ -165,7 +165,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 9&lt;/span&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;10&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Register workflow to platform&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;11&lt;/span&gt;&lt;span&gt;latch register my-workflow
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Prerequisites:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Modal</title><link>https://agentskill.wiki/en/skills/modal/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/modal/</guid><description>&lt;h1 id="modal"&gt;Modal&lt;/h1&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Prerequisites:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Modal</title><link>https://agentskill.wiki/skills/modal/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/modal/</guid><description>&lt;h1 id="modal"&gt;Modal&lt;/h1&gt;
 &lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;Modal is a serverless platform for running Python code in the cloud with minimal configuration. Execute functions on powerful GPUs, scale automatically to thousands of containers, and pay only for compute used.&lt;/p&gt;
 &lt;p&gt;Modal is particularly suited for AI/ML workloads, high-performance batch processing, scheduled jobs, GPU inference, and serverless APIs. Sign up for free at &lt;a href="https://modal.com"&gt;https://modal.com&lt;/a&gt; and receive $30/month in credits.&lt;/p&gt;
@@ -180,7 +180,7 @@
 &lt;li&gt;Scientific computing requiring distributed compute or specialized hardware&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="authentication-and-setup"&gt;Authentication and Setup&lt;/h2&gt;
-&lt;p&gt;Modal requires authentication via API token.&lt;/p&gt;</description></item><item><title>N8N Code Python</title><link>https://agentskill.wiki/en/skills/n8n-code-python/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/n8n-code-python/</guid><description>&lt;h1 id="python-code-node-beta"&gt;Python Code Node (Beta)&lt;/h1&gt;
+&lt;p&gt;Modal requires authentication via API token.&lt;/p&gt;</description></item><item><title>N8N Code Python</title><link>https://agentskill.wiki/skills/n8n-code-python/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/n8n-code-python/</guid><description>&lt;h1 id="python-code-node-beta"&gt;Python Code Node (Beta)&lt;/h1&gt;
 &lt;p&gt;Expert guidance for writing Python code in n8n Code nodes.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id="-important-javascript-first"&gt;⚠️ Important: JavaScript First&lt;/h2&gt;
@@ -225,7 +225,7 @@
 &lt;/ol&gt;
 &lt;hr&gt;
 &lt;h2 id="mode-selection-guide"&gt;Mode Selection Guide&lt;/h2&gt;
-&lt;p&gt;Same as JavaScript - choose based on your use case:&lt;/p&gt;</description></item><item><title>Pdf</title><link>https://agentskill.wiki/en/skills/pdf/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/pdf/</guid><description>&lt;h1 id="pdf-processing-guide"&gt;PDF Processing Guide&lt;/h1&gt;
+&lt;p&gt;Same as JavaScript - choose based on your use case:&lt;/p&gt;</description></item><item><title>Pdf</title><link>https://agentskill.wiki/skills/pdf/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/pdf/</guid><description>&lt;h1 id="pdf-processing-guide"&gt;PDF Processing Guide&lt;/h1&gt;
 &lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;This guide covers essential PDF processing operations using Python libraries and command-line tools. For advanced features, JavaScript libraries, and detailed examples, see reference.md. If you need to fill out a PDF form, read forms.md and follow its instructions.&lt;/p&gt;
 &lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;
@@ -491,7 +491,7 @@
 &lt;li&gt;For JavaScript libraries (pdf-lib), see reference.md&lt;/li&gt;
 &lt;li&gt;If you need to fill out a PDF form, follow the instructions in forms.md&lt;/li&gt;
 &lt;li&gt;For troubleshooting guides, see reference.md&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Pdf Processing</title><link>https://agentskill.wiki/en/skills/pdf-processing/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/pdf-processing/</guid><description>&lt;h1 id="pdf-processing"&gt;PDF Processing&lt;/h1&gt;
+&lt;/ul&gt;</description></item><item><title>Pdf Processing</title><link>https://agentskill.wiki/skills/pdf-processing/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/pdf-processing/</guid><description>&lt;h1 id="pdf-processing"&gt;PDF Processing&lt;/h1&gt;
 &lt;h2 id="quick-start"&gt;Quick start&lt;/h2&gt;
 &lt;p&gt;Use pdfplumber to extract text from PDFs:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-python" data-lang="python"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;import&lt;/span&gt; pdfplumber
@@ -511,7 +511,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;8&lt;/span&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;for&lt;/span&gt; row &lt;span style="color:#f92672"&gt;in&lt;/span&gt; table:
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;9&lt;/span&gt;&lt;span&gt; print(row)
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="extracting-all-pages"&gt;Extracting all pages&lt;/h2&gt;
-&lt;p&gt;Process multi-page documents efficiently:&lt;/p&gt;</description></item><item><title>Pylabrobot</title><link>https://agentskill.wiki/en/skills/pylabrobot/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/pylabrobot/</guid><description>&lt;h1 id="pylabrobot"&gt;PyLabRobot&lt;/h1&gt;
+&lt;p&gt;Process multi-page documents efficiently:&lt;/p&gt;</description></item><item><title>Pylabrobot</title><link>https://agentskill.wiki/skills/pylabrobot/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/pylabrobot/</guid><description>&lt;h1 id="pylabrobot"&gt;PyLabRobot&lt;/h1&gt;
 &lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;PyLabRobot is a hardware-agnostic, pure Python Software Development Kit for automated and autonomous laboratories. Use this skill to control liquid handling robots, plate readers, pumps, heater shakers, incubators, centrifuges, and other laboratory automation equipment through a unified Python interface that works across platforms (Windows, macOS, Linux).&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
@@ -528,7 +528,7 @@
 &lt;li&gt;Working with laboratory automation in Python&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="core-capabilities"&gt;Core Capabilities&lt;/h2&gt;
-&lt;p&gt;PyLabRobot provides comprehensive laboratory automation through six main capability areas, each detailed in the references/ directory:&lt;/p&gt;</description></item><item><title>Python Performance Optimization</title><link>https://agentskill.wiki/en/skills/python-performance-optimization/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/python-performance-optimization/</guid><description>&lt;h1 id="python-performance-optimization"&gt;Python Performance Optimization&lt;/h1&gt;
+&lt;p&gt;PyLabRobot provides comprehensive laboratory automation through six main capability areas, each detailed in the references/ directory:&lt;/p&gt;</description></item><item><title>Python Performance Optimization</title><link>https://agentskill.wiki/skills/python-performance-optimization/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/python-performance-optimization/</guid><description>&lt;h1 id="python-performance-optimization"&gt;Python Performance Optimization&lt;/h1&gt;
 &lt;p&gt;Comprehensive guide to profiling, analyzing, and optimizing Python code for better performance, including CPU profiling, memory optimization, and implementation best practices.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -627,7 +627,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;35&lt;/span&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;36&lt;/span&gt;&lt;span&gt; &lt;span style="color:#75715e"&gt;# Save to file for later analysis&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;37&lt;/span&gt;&lt;span&gt; stats&lt;span style="color:#f92672"&gt;.&lt;/span&gt;dump_stats(&lt;span style="color:#e6db74"&gt;&amp;#34;profile_output.prof&amp;#34;&lt;/span&gt;)
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Command-line profiling:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Senior Backend</title><link>https://agentskill.wiki/en/skills/senior-backend/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/senior-backend/</guid><description>&lt;h1 id="senior-backend"&gt;Senior Backend&lt;/h1&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Command-line profiling:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Senior Backend</title><link>https://agentskill.wiki/skills/senior-backend/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/senior-backend/</guid><description>&lt;h1 id="senior-backend"&gt;Senior Backend&lt;/h1&gt;
 &lt;p&gt;Complete toolkit for senior backend with modern tools and best practices.&lt;/p&gt;
 &lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;
 &lt;h3 id="main-capabilities"&gt;Main Capabilities&lt;/h3&gt;
@@ -642,7 +642,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;8&lt;/span&gt;&lt;span&gt;python scripts/api_load_tester.py &lt;span style="color:#f92672"&gt;[&lt;/span&gt;options&lt;span style="color:#f92672"&gt;]&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="core-capabilities"&gt;Core Capabilities&lt;/h2&gt;
 &lt;h3 id="1-api-scaffolder"&gt;1. Api Scaffolder&lt;/h3&gt;
-&lt;p&gt;Automated tool for api scaffolder tasks.&lt;/p&gt;</description></item><item><title>Uv Package Manager</title><link>https://agentskill.wiki/en/skills/uv-package-manager/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/uv-package-manager/</guid><description>&lt;h1 id="uv-package-manager"&gt;UV Package Manager&lt;/h1&gt;
+&lt;p&gt;Automated tool for api scaffolder tasks.&lt;/p&gt;</description></item><item><title>Uv Package Manager</title><link>https://agentskill.wiki/skills/uv-package-manager/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/uv-package-manager/</guid><description>&lt;h1 id="uv-package-manager"&gt;UV Package Manager&lt;/h1&gt;
 &lt;p&gt;Comprehensive guide to using uv, an extremely fast Python package installer and resolver written in Rust, for modern Python project management and dependency workflows.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -984,7 +984,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;18&lt;/span&gt;&lt;span&gt;&lt;span style="color:#960050;background-color:#1e0010"&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;19&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Run application&lt;/span&gt;&lt;span style="color:#960050;background-color:#1e0010"&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;20&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;CMD&lt;/span&gt; [&lt;span style="color:#e6db74"&gt;&amp;#34;uv&amp;#34;&lt;/span&gt;, &lt;span style="color:#e6db74"&gt;&amp;#34;run&amp;#34;&lt;/span&gt;, &lt;span style="color:#e6db74"&gt;&amp;#34;python&amp;#34;&lt;/span&gt;, &lt;span style="color:#e6db74"&gt;&amp;#34;app.py&amp;#34;&lt;/span&gt;]&lt;span style="color:#960050;background-color:#1e0010"&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Optimized multi-stage build:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Wox Plugin Creator</title><link>https://agentskill.wiki/en/skills/wox-plugin-creator/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/wox-plugin-creator/</guid><description>&lt;h1 id="wox-plugin-creator"&gt;Wox Plugin Creator&lt;/h1&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Optimized multi-stage build:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Wox Plugin Creator</title><link>https://agentskill.wiki/skills/wox-plugin-creator/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/wox-plugin-creator/</guid><description>&lt;h1 id="wox-plugin-creator"&gt;Wox Plugin Creator&lt;/h1&gt;
 &lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Scaffold a Node.js plugin (clones template repo):
@@ -1023,7 +1023,7 @@
 &lt;li&gt;scripts: &lt;code&gt;scripts/scaffold_wox_plugin.py&lt;/code&gt;, &lt;code&gt;scripts/package_plugin.py&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;references: &lt;code&gt;references/plugin_overview.md&lt;/code&gt;, &lt;code&gt;references/scaffold_nodejs.md&lt;/code&gt;, &lt;code&gt;references/scaffold_python.md&lt;/code&gt;, &lt;code&gt;references/sdk_nodejs.md&lt;/code&gt;, &lt;code&gt;references/sdk_python.md&lt;/code&gt;, &lt;code&gt;references/plugin_json_schema.md&lt;/code&gt;, &lt;code&gt;references/plugin_i18n.md&lt;/code&gt;, &lt;code&gt;references/publishing.md&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;assets: &lt;code&gt;assets/script_plugin_templates/&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Python Code Analyzer</title><link>https://agentskill.wiki/en/skills/python-code-analyzer/</link><pubDate>Wed, 14 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/python-code-analyzer/</guid><description>&lt;h2 id="why-this-skill"&gt;Why This Skill?&lt;/h2&gt;
+&lt;/ul&gt;</description></item><item><title>Python Code Analyzer</title><link>https://agentskill.wiki/skills/python-code-analyzer/</link><pubDate>Wed, 14 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/python-code-analyzer/</guid><description>&lt;h2 id="why-this-skill"&gt;Why This Skill?&lt;/h2&gt;
 &lt;p&gt;Every Python developer faces the same challenges:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Hidden Bugs&lt;/strong&gt;: Subtle issues that pass tests but break in production&lt;/li&gt;
@@ -1058,53 +1058,4 @@
 &lt;/ul&gt;
 &lt;h2 id="advanced-capabilities"&gt;Advanced Capabilities&lt;/h2&gt;
 &lt;h3 id="custom-rule-configuration"&gt;Custom Rule Configuration&lt;/h3&gt;
-&lt;p&gt;Create &lt;code&gt;.python-analyzer.yml&lt;/code&gt; in your project root:&lt;/p&gt;</description></item><item><title>Python Code Analyzer</title><link>https://agentskill.wiki/skills/python-code-analyzer/</link><pubDate>Wed, 14 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/python-code-analyzer/</guid><description>&lt;h2 id="为什么选择这个-skill"&gt;为什么选择这个 Skill？&lt;/h2&gt;
-&lt;p&gt;每个 Python 开发者都面临同样的挑战：&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;隐藏的 Bug&lt;/strong&gt;：通过测试但在生产环境中崩溃的微妙问题&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;性能陷阱&lt;/strong&gt;：能运行但比应有速度慢 10 倍的代码&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;技术债务&lt;/strong&gt;：不断累积的复杂度，直到重构变得不可能&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;这个技能通过在编码时提供即时、可操作的反馈来解决这些问题。&lt;/p&gt;
-&lt;h2 id="核心功能"&gt;核心功能&lt;/h2&gt;
-&lt;h3 id="-静态分析"&gt;🔍 静态分析&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;检测常见 bug：未使用的变量、未定义的名称、导入错误&lt;/li&gt;
-&lt;li&gt;在反模式进入生产环境之前识别它们&lt;/li&gt;
-&lt;li&gt;突出显示潜在的运行时错误&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="-性能优化"&gt;⚡ 性能优化&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;发现 N+1 查询、低效循环和内存泄漏&lt;/li&gt;
-&lt;li&gt;建议更快的算法和数据结构&lt;/li&gt;
-&lt;li&gt;提供前后性能估算&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="-复杂度指标"&gt;📐 复杂度指标&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;计算圈复杂度和认知复杂度&lt;/li&gt;
-&lt;li&gt;识别过于复杂而难以维护的函数&lt;/li&gt;
-&lt;li&gt;推荐具体的重构策略&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="-样式与最佳实践"&gt;🎨 样式与最佳实践&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;强制执行 PEP 8 和团队特定约定&lt;/li&gt;
-&lt;li&gt;建议更 Pythonic 的编码方式&lt;/li&gt;
-&lt;li&gt;解释&lt;em&gt;为什么&lt;/em&gt;某些模式更好&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="高级功能"&gt;高级功能&lt;/h2&gt;
-&lt;h3 id="自定义规则配置"&gt;自定义规则配置&lt;/h3&gt;
-&lt;p&gt;在项目根目录创建 &lt;code&gt;.python-analyzer.yml&lt;/code&gt;：&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-yaml" data-lang="yaml"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;rules&lt;/span&gt;:
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 2&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;max_line_length&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;120&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 3&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;max_function_length&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;50&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 4&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;max_complexity&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;10&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 5&lt;/span&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 6&lt;/span&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;ignore_patterns&lt;/span&gt;:
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 7&lt;/span&gt;&lt;span&gt; - &lt;span style="color:#e6db74"&gt;&amp;#34;*/migrations/*&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 8&lt;/span&gt;&lt;span&gt; - &lt;span style="color:#e6db74"&gt;&amp;#34;*/tests/fixtures/*&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 9&lt;/span&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;10&lt;/span&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;custom_rules&lt;/span&gt;:
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;11&lt;/span&gt;&lt;span&gt; - &lt;span style="color:#ae81ff"&gt;no_print_statements &lt;/span&gt; &lt;span style="color:#75715e"&gt;# 标记生产代码中的 print()&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;12&lt;/span&gt;&lt;span&gt; - &lt;span style="color:#ae81ff"&gt;require_type_hints &lt;/span&gt; &lt;span style="color:#75715e"&gt;# 强制类型注解&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="cicd-集成"&gt;CI/CD 集成&lt;/h3&gt;
-&lt;p&gt;该技能自动集成到您的开发工作流中：&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;Create &lt;code&gt;.python-analyzer.yml&lt;/code&gt; in your project root:&lt;/p&gt;</description></item></channel></rss>

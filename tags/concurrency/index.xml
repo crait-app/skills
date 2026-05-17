@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Concurrency on Agent Skills Hub</title><link>https://agentskill.wiki/tags/concurrency/</link><description>Recent content in Concurrency on Agent Skills Hub</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/concurrency/index.xml" rel="self" type="application/rss+xml"/><item><title>Async Python Patterns</title><link>https://agentskill.wiki/en/skills/async-python-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/async-python-patterns/</guid><description>&lt;h1 id="async-python-patterns"&gt;Async Python Patterns&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Concurrency on Agent Skills Hub</title><link>https://agentskill.wiki/tags/concurrency/</link><description>Recent content in Concurrency on Agent Skills Hub</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/concurrency/index.xml" rel="self" type="application/rss+xml"/><item><title>Async Python Patterns</title><link>https://agentskill.wiki/skills/async-python-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/async-python-patterns/</guid><description>&lt;h1 id="async-python-patterns"&gt;Async Python Patterns&lt;/h1&gt;
 &lt;p&gt;Comprehensive guidance for implementing asynchronous Python applications using asyncio, concurrent programming patterns, and async/await for building high-performance, non-blocking systems.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -13,7 +13,7 @@
 &lt;/ul&gt;
 &lt;h2 id="core-concepts"&gt;Core Concepts&lt;/h2&gt;
 &lt;h3 id="1-event-loop"&gt;1. Event Loop&lt;/h3&gt;
-&lt;p&gt;The event loop is the heart of asyncio, managing and scheduling asynchronous tasks.&lt;/p&gt;</description></item><item><title>Go Concurrency Patterns</title><link>https://agentskill.wiki/en/skills/go-concurrency-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/go-concurrency-patterns/</guid><description>&lt;h1 id="go-concurrency-patterns"&gt;Go Concurrency Patterns&lt;/h1&gt;
+&lt;p&gt;The event loop is the heart of asyncio, managing and scheduling asynchronous tasks.&lt;/p&gt;</description></item><item><title>Go Concurrency Patterns</title><link>https://agentskill.wiki/skills/go-concurrency-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/go-concurrency-patterns/</guid><description>&lt;h1 id="go-concurrency-patterns"&gt;Go Concurrency Patterns&lt;/h1&gt;
 &lt;p&gt;Production patterns for Go concurrency including goroutines, channels, synchronization primitives, and context management.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -644,7 +644,7 @@ share memory by communicating.
 &lt;li&gt;&lt;a href="https://go.dev/blog/pipelines"&gt;Go Concurrency Patterns&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://go.dev/doc/effective_go#concurrency"&gt;Effective Go - Concurrency&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://gobyexample.com/goroutines"&gt;Go by Example - Goroutines&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Gpui Async</title><link>https://agentskill.wiki/en/skills/gpui-async/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/gpui-async/</guid><description>&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;/ul&gt;</description></item><item><title>Gpui Async</title><link>https://agentskill.wiki/skills/gpui-async/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/gpui-async/</guid><description>&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;GPUI provides integrated async runtime for foreground UI updates and background computation.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Key Concepts:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -741,7 +741,7 @@ share memory by communicating.
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;5&lt;/span&gt;&lt;span&gt; }
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;6&lt;/span&gt;&lt;span&gt;}).detach();
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="4-task-cancellation"&gt;4. Task Cancellation&lt;/h3&gt;
-&lt;p&gt;Tasks are automatically cancelled when dropped. Store in struct to keep alive.&lt;/p&gt;</description></item><item><title>Rust Async Patterns</title><link>https://agentskill.wiki/en/skills/rust-async-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/rust-async-patterns/</guid><description>&lt;h1 id="rust-async-patterns"&gt;Rust Async Patterns&lt;/h1&gt;
+&lt;p&gt;Tasks are automatically cancelled when dropped. Store in struct to keep alive.&lt;/p&gt;</description></item><item><title>Rust Async Patterns</title><link>https://agentskill.wiki/skills/rust-async-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/rust-async-patterns/</guid><description>&lt;h1 id="rust-async-patterns"&gt;Rust Async Patterns&lt;/h1&gt;
 &lt;p&gt;Production patterns for async Rust programming with Tokio runtime, including tasks, channels, streams, and error handling.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;

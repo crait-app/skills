@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Partial-Prerendering on Agent Skills Hub</title><link>https://agentskill.wiki/zh/tags/partial-prerendering/</link><description>Recent content in Partial-Prerendering on Agent Skills Hub</description><generator>Hugo</generator><language>zh</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/zh/tags/partial-prerendering/index.xml" rel="self" type="application/rss+xml"/><item><title>Cache Components</title><link>https://agentskill.wiki/zh/skills/cache-components/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/zh/skills/cache-components/</guid><description>&lt;h1 id="nextjs-cache-components"&gt;Next.js Cache Components&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;Auto-activation&lt;/strong&gt;: This skill activates automatically in projects with &lt;code&gt;cacheComponents: true&lt;/code&gt; in next.config.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id="project-detection"&gt;Project Detection&lt;/h2&gt;
+&lt;p&gt;When starting work in a Next.js project, check if Cache Components are enabled:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Check next.config.ts or next.config.js for cacheComponents&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;2&lt;/span&gt;&lt;span&gt;grep -r &lt;span style="color:#e6db74"&gt;&amp;#34;cacheComponents&amp;#34;&lt;/span&gt; next.config.* 2&amp;gt;/dev/null
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;If &lt;code&gt;cacheComponents: true&lt;/code&gt; is found, apply this skill&amp;rsquo;s patterns proactively when:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Writing React Server Components&lt;/li&gt;
+&lt;li&gt;Implementing data fetching&lt;/li&gt;
+&lt;li&gt;Creating Server Actions with mutations&lt;/li&gt;
+&lt;li&gt;Optimizing page performance&lt;/li&gt;
+&lt;li&gt;Reviewing existing component code&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Cache Components enable &lt;strong&gt;Partial Prerendering (PPR)&lt;/strong&gt; - mixing static HTML shells with dynamic streaming content for optimal performance.&lt;/p&gt;</description></item></channel></rss>

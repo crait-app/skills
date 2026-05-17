@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Evaluation on Agent Skills Hub</title><link>https://agentskill.wiki/tags/evaluation/</link><description>Recent content in Evaluation on Agent Skills Hub</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/evaluation/index.xml" rel="self" type="application/rss+xml"/><item><title>Evals Context</title><link>https://agentskill.wiki/en/skills/evals-context/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/evals-context/</guid><description>&lt;h1 id="evals-codebase-context"&gt;Evals Codebase Context&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Evaluation on Agent Skills Hub</title><link>https://agentskill.wiki/tags/evaluation/</link><description>Recent content in Evaluation on Agent Skills Hub</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/evaluation/index.xml" rel="self" type="application/rss+xml"/><item><title>Evals Context</title><link>https://agentskill.wiki/skills/evals-context/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/evals-context/</guid><description>&lt;h1 id="evals-codebase-context"&gt;Evals Codebase Context&lt;/h1&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;p&gt;Use this skill when the task involves:&lt;/p&gt;
 &lt;ul&gt;
@@ -16,7 +16,7 @@
 &lt;li&gt;Working on the main website pages that don&amp;rsquo;t involve evals&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="key-disambiguation-two-evals-locations"&gt;Key Disambiguation: Two &amp;ldquo;Evals&amp;rdquo; Locations&lt;/h2&gt;
-&lt;p&gt;This monorepo has &lt;strong&gt;two distinct evals-related locations&lt;/strong&gt; that can cause confusion:&lt;/p&gt;</description></item><item><title>Langsmith Observability</title><link>https://agentskill.wiki/en/skills/langsmith-observability/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/langsmith-observability/</guid><description>&lt;h1 id="langsmith---llm-observability-platform"&gt;LangSmith - LLM Observability Platform&lt;/h1&gt;
+&lt;p&gt;This monorepo has &lt;strong&gt;two distinct evals-related locations&lt;/strong&gt; that can cause confusion:&lt;/p&gt;</description></item><item><title>Langsmith Observability</title><link>https://agentskill.wiki/skills/langsmith-observability/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/langsmith-observability/</guid><description>&lt;h1 id="langsmith---llm-observability-platform"&gt;LangSmith - LLM Observability Platform&lt;/h1&gt;
 &lt;p&gt;Development platform for debugging, evaluating, and monitoring language models and AI applications.&lt;/p&gt;
 &lt;h2 id="when-to-use-langsmith"&gt;When to use LangSmith&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Use LangSmith when:&lt;/strong&gt;&lt;/p&gt;
@@ -36,7 +36,7 @@
 &lt;li&gt;&lt;strong&gt;Monitoring&lt;/strong&gt;: Track metrics, errors, and costs in production&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Integrations&lt;/strong&gt;: Works with OpenAI, Anthropic, LangChain, LlamaIndex&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Use alternatives instead:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Phoenix Observability</title><link>https://agentskill.wiki/en/skills/phoenix-observability/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/phoenix-observability/</guid><description>&lt;h1 id="phoenix---ai-observability-platform"&gt;Phoenix - AI Observability Platform&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Use alternatives instead:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Phoenix Observability</title><link>https://agentskill.wiki/skills/phoenix-observability/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/phoenix-observability/</guid><description>&lt;h1 id="phoenix---ai-observability-platform"&gt;Phoenix - AI Observability Platform&lt;/h1&gt;
 &lt;p&gt;Open-source AI observability and evaluation platform for LLM applications with tracing, evaluation, datasets, experiments, and real-time monitoring.&lt;/p&gt;
 &lt;h2 id="when-to-use-phoenix"&gt;When to use Phoenix&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Use Phoenix when:&lt;/strong&gt;&lt;/p&gt;

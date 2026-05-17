@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Performance Engineer on Agent Skills Hub</title><link>https://agentskill.wiki/topics/performance-engineer/</link><description>Recent content in Performance Engineer on Agent Skills Hub</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/topics/performance-engineer/index.xml" rel="self" type="application/rss+xml"/><item><title>Cache Components</title><link>https://agentskill.wiki/en/skills/cache-components/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/cache-components/</guid><description>&lt;h1 id="nextjs-cache-components"&gt;Next.js Cache Components&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Performance Engineer on Agent Skills Hub</title><link>https://agentskill.wiki/topics/performance-engineer/</link><description>Recent content in Performance Engineer on Agent Skills Hub</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/topics/performance-engineer/index.xml" rel="self" type="application/rss+xml"/><item><title>Cache Components</title><link>https://agentskill.wiki/skills/cache-components/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/cache-components/</guid><description>&lt;h1 id="nextjs-cache-components"&gt;Next.js Cache Components&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;Auto-activation&lt;/strong&gt;: This skill activates automatically in projects with &lt;code&gt;cacheComponents: true&lt;/code&gt; in next.config.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -14,7 +14,7 @@
 &lt;li&gt;Optimizing page performance&lt;/li&gt;
 &lt;li&gt;Reviewing existing component code&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Cache Components enable &lt;strong&gt;Partial Prerendering (PPR)&lt;/strong&gt; - mixing static HTML shells with dynamic streaming content for optimal performance.&lt;/p&gt;</description></item><item><title>Go Concurrency Patterns</title><link>https://agentskill.wiki/en/skills/go-concurrency-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/go-concurrency-patterns/</guid><description>&lt;h1 id="go-concurrency-patterns"&gt;Go Concurrency Patterns&lt;/h1&gt;
+&lt;p&gt;Cache Components enable &lt;strong&gt;Partial Prerendering (PPR)&lt;/strong&gt; - mixing static HTML shells with dynamic streaming content for optimal performance.&lt;/p&gt;</description></item><item><title>Go Concurrency Patterns</title><link>https://agentskill.wiki/skills/go-concurrency-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/go-concurrency-patterns/</guid><description>&lt;h1 id="go-concurrency-patterns"&gt;Go Concurrency Patterns&lt;/h1&gt;
 &lt;p&gt;Production patterns for Go concurrency including goroutines, channels, synchronization primitives, and context management.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -645,7 +645,7 @@ share memory by communicating.
 &lt;li&gt;&lt;a href="https://go.dev/blog/pipelines"&gt;Go Concurrency Patterns&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://go.dev/doc/effective_go#concurrency"&gt;Effective Go - Concurrency&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://gobyexample.com/goroutines"&gt;Go by Example - Goroutines&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Python Performance Optimization</title><link>https://agentskill.wiki/en/skills/python-performance-optimization/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/python-performance-optimization/</guid><description>&lt;h1 id="python-performance-optimization"&gt;Python Performance Optimization&lt;/h1&gt;
+&lt;/ul&gt;</description></item><item><title>Python Performance Optimization</title><link>https://agentskill.wiki/skills/python-performance-optimization/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/python-performance-optimization/</guid><description>&lt;h1 id="python-performance-optimization"&gt;Python Performance Optimization&lt;/h1&gt;
 &lt;p&gt;Comprehensive guide to profiling, analyzing, and optimizing Python code for better performance, including CPU profiling, memory optimization, and implementation best practices.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -744,7 +744,7 @@ share memory by communicating.
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;35&lt;/span&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;36&lt;/span&gt;&lt;span&gt; &lt;span style="color:#75715e"&gt;# Save to file for later analysis&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;37&lt;/span&gt;&lt;span&gt; stats&lt;span style="color:#f92672"&gt;.&lt;/span&gt;dump_stats(&lt;span style="color:#e6db74"&gt;&amp;#34;profile_output.prof&amp;#34;&lt;/span&gt;)
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Command-line profiling:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>React Best Practices</title><link>https://agentskill.wiki/en/skills/react-best-practices/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/react-best-practices/</guid><description>&lt;h1 id="react-best-practices---performance-optimization"&gt;React Best Practices - Performance Optimization&lt;/h1&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Command-line profiling:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>React Best Practices</title><link>https://agentskill.wiki/skills/react-best-practices/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/react-best-practices/</guid><description>&lt;h1 id="react-best-practices---performance-optimization"&gt;React Best Practices - Performance Optimization&lt;/h1&gt;
 &lt;p&gt;Comprehensive performance optimization guide for React and Next.js applications with 40+ rules organized by impact level. Designed to help developers eliminate performance bottlenecks and follow best practices.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to use this skill&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Use React Best Practices when:&lt;/strong&gt;&lt;/p&gt;
@@ -757,7 +757,7 @@ share memory by communicating.
 &lt;li&gt;Reducing bundle size&lt;/li&gt;
 &lt;li&gt;Eliminating request waterfalls&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Key areas covered:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Rust Async Patterns</title><link>https://agentskill.wiki/en/skills/rust-async-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/rust-async-patterns/</guid><description>&lt;h1 id="rust-async-patterns"&gt;Rust Async Patterns&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Key areas covered:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Rust Async Patterns</title><link>https://agentskill.wiki/skills/rust-async-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/rust-async-patterns/</guid><description>&lt;h1 id="rust-async-patterns"&gt;Rust Async Patterns&lt;/h1&gt;
 &lt;p&gt;Production patterns for async Rust programming with Tokio runtime, including tasks, channels, streams, and error handling.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -1244,7 +1244,7 @@ share memory by communicating.
 &lt;li&gt;&lt;a href="https://tokio.rs/tokio/tutorial"&gt;Tokio Tutorial&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://rust-lang.github.io/async-book/"&gt;Async Book&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/tokio-rs/console"&gt;Tokio Console&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Simpy</title><link>https://agentskill.wiki/en/skills/simpy/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/simpy/</guid><description>&lt;h1 id="simpy---discrete-event-simulation"&gt;SimPy - Discrete-Event Simulation&lt;/h1&gt;
+&lt;/ul&gt;</description></item><item><title>Simpy</title><link>https://agentskill.wiki/skills/simpy/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/simpy/</guid><description>&lt;h1 id="simpy---discrete-event-simulation"&gt;SimPy - Discrete-Event Simulation&lt;/h1&gt;
 &lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;SimPy is a process-based discrete-event simulation framework based on standard Python. Use SimPy to model systems where entities (customers, vehicles, packets, etc.) interact with each other and compete for shared resources (servers, machines, bandwidth, etc.) over time.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Core capabilities:&lt;/strong&gt;&lt;/p&gt;
@@ -1256,7 +1256,7 @@ share memory by communicating.
 &lt;li&gt;Comprehensive monitoring and data collection&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
-&lt;p&gt;Use the SimPy skill when:&lt;/p&gt;</description></item><item><title>Unity Ecs Patterns</title><link>https://agentskill.wiki/en/skills/unity-ecs-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/unity-ecs-patterns/</guid><description>&lt;h1 id="unity-ecs-patterns"&gt;Unity ECS Patterns&lt;/h1&gt;
+&lt;p&gt;Use the SimPy skill when:&lt;/p&gt;</description></item><item><title>Unity Ecs Patterns</title><link>https://agentskill.wiki/skills/unity-ecs-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/unity-ecs-patterns/</guid><description>&lt;h1 id="unity-ecs-patterns"&gt;Unity ECS Patterns&lt;/h1&gt;
 &lt;p&gt;Production patterns for Unity&amp;rsquo;s Data-Oriented Technology Stack (DOTS) including Entity Component System, Job System, and Burst Compiler.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;

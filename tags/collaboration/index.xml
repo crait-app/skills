@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Collaboration on Agent Skills Hub</title><link>https://agentskill.wiki/tags/collaboration/</link><description>Recent content in Collaboration on Agent Skills Hub</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/collaboration/index.xml" rel="self" type="application/rss+xml"/><item><title>Crewai Multi Agent</title><link>https://agentskill.wiki/en/skills/crewai-multi-agent/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/crewai-multi-agent/</guid><description>&lt;h1 id="crewai---multi-agent-orchestration-framework"&gt;CrewAI - Multi-Agent Orchestration Framework&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Collaboration on Agent Skills Hub</title><link>https://agentskill.wiki/tags/collaboration/</link><description>Recent content in Collaboration on Agent Skills Hub</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/collaboration/index.xml" rel="self" type="application/rss+xml"/><item><title>Crewai Multi Agent</title><link>https://agentskill.wiki/skills/crewai-multi-agent/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/crewai-multi-agent/</guid><description>&lt;h1 id="crewai---multi-agent-orchestration-framework"&gt;CrewAI - Multi-Agent Orchestration Framework&lt;/h1&gt;
 &lt;p&gt;Build teams of autonomous AI agents that collaborate to solve complex tasks.&lt;/p&gt;
 &lt;h2 id="when-to-use-crewai"&gt;When to use CrewAI&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Use CrewAI when:&lt;/strong&gt;&lt;/p&gt;
@@ -19,7 +19,7 @@
 &lt;li&gt;&lt;strong&gt;Memory&lt;/strong&gt;: Short-term, long-term, and entity memory&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Production-ready&lt;/strong&gt;: Tracing, enterprise features&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Use alternatives instead:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Doc Coauthoring</title><link>https://agentskill.wiki/en/skills/doc-coauthoring/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/doc-coauthoring/</guid><description>&lt;h1 id="doc-co-authoring-workflow"&gt;Doc Co-Authoring Workflow&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Use alternatives instead:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Doc Coauthoring</title><link>https://agentskill.wiki/skills/doc-coauthoring/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/doc-coauthoring/</guid><description>&lt;h1 id="doc-co-authoring-workflow"&gt;Doc Co-Authoring Workflow&lt;/h1&gt;
 &lt;p&gt;This skill provides a structured workflow for guiding users through collaborative document creation. Act as an active guide, walking users through three stages: Context Gathering, Refinement &amp;amp; Structure, and Reader Testing.&lt;/p&gt;
 &lt;h2 id="when-to-offer-this-workflow"&gt;When to Offer This Workflow&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Trigger conditions:&lt;/strong&gt;&lt;/p&gt;
@@ -29,7 +29,7 @@
 &lt;li&gt;User seems to be starting a substantial writing task&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Initial offer:&lt;/strong&gt;
-Offer the user a structured workflow for co-authoring the document. Explain the three stages:&lt;/p&gt;</description></item><item><title>Github Issues</title><link>https://agentskill.wiki/en/skills/github-issues/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/github-issues/</guid><description>&lt;h1 id="github-issues"&gt;GitHub Issues&lt;/h1&gt;
+Offer the user a structured workflow for co-authoring the document. Explain the three stages:&lt;/p&gt;</description></item><item><title>Github Issues</title><link>https://agentskill.wiki/skills/github-issues/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/github-issues/</guid><description>&lt;h1 id="github-issues"&gt;GitHub Issues&lt;/h1&gt;
 &lt;p&gt;Manage GitHub issues using the &lt;code&gt;@modelcontextprotocol/server-github&lt;/code&gt; MCP server.&lt;/p&gt;
 &lt;h2 id="available-mcp-tools"&gt;Available MCP Tools&lt;/h2&gt;
 &lt;table&gt;
@@ -98,7 +98,7 @@ milestone: milestone number (integer)
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id="body-structure"&gt;Body Structure&lt;/h3&gt;
-&lt;p&gt;Always use the templates in &lt;a href="references/templates.md"&gt;references/templates.md&lt;/a&gt;. Choose based on issue type:&lt;/p&gt;</description></item><item><title>Notion Meeting Intelligence</title><link>https://agentskill.wiki/en/skills/notion-meeting-intelligence/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/notion-meeting-intelligence/</guid><description>&lt;h1 id="meeting-intelligence"&gt;Meeting Intelligence&lt;/h1&gt;
+&lt;p&gt;Always use the templates in &lt;a href="references/templates.md"&gt;references/templates.md&lt;/a&gt;. Choose based on issue type:&lt;/p&gt;</description></item><item><title>Notion Meeting Intelligence</title><link>https://agentskill.wiki/skills/notion-meeting-intelligence/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/notion-meeting-intelligence/</guid><description>&lt;h1 id="meeting-intelligence"&gt;Meeting Intelligence&lt;/h1&gt;
 &lt;p&gt;Prep meetings by pulling Notion context, tailoring agendas/pre-reads, and enriching with Codex research.&lt;/p&gt;
 &lt;h2 id="quick-start"&gt;Quick start&lt;/h2&gt;
 &lt;ol&gt;
@@ -127,7 +127,7 @@ milestone: milestone number (integer)
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;After successful login, the user will have to restart codex. You should finish your answer and tell them so when they try again they can continue with Step 1.&lt;/p&gt;</description></item><item><title>Protocolsio Integration</title><link>https://agentskill.wiki/en/skills/protocolsio-integration/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/protocolsio-integration/</guid><description>&lt;h1 id="protocolsio-integration"&gt;Protocols.io Integration&lt;/h1&gt;
+&lt;p&gt;After successful login, the user will have to restart codex. You should finish your answer and tell them so when they try again they can continue with Step 1.&lt;/p&gt;</description></item><item><title>Protocolsio Integration</title><link>https://agentskill.wiki/skills/protocolsio-integration/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/protocolsio-integration/</guid><description>&lt;h1 id="protocolsio-integration"&gt;Protocols.io Integration&lt;/h1&gt;
 &lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;Protocols.io is a comprehensive platform for developing, sharing, and managing scientific protocols. This skill provides complete integration with the protocols.io API v3, enabling programmatic access to protocols, workspaces, discussions, file management, and collaboration features.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;

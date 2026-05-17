@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Styling on Agent Skills Hub</title><link>https://agentskill.wiki/tags/styling/</link><description>Recent content in Styling on Agent Skills Hub</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/styling/index.xml" rel="self" type="application/rss+xml"/><item><title>Brand Guidelines</title><link>https://agentskill.wiki/en/skills/brand-guidelines/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/brand-guidelines/</guid><description>&lt;h1 id="anthropic-brand-styling"&gt;Anthropic Brand Styling&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Styling on Agent Skills Hub</title><link>https://agentskill.wiki/tags/styling/</link><description>Recent content in Styling on Agent Skills Hub</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/styling/index.xml" rel="self" type="application/rss+xml"/><item><title>Brand Guidelines</title><link>https://agentskill.wiki/skills/brand-guidelines/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/brand-guidelines/</guid><description>&lt;h1 id="anthropic-brand-styling"&gt;Anthropic Brand Styling&lt;/h1&gt;
 &lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;To access Anthropic&amp;rsquo;s official brand identity and style resources, use this skill.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Keywords&lt;/strong&gt;: branding, corporate identity, visual identity, post-processing, styling, brand colors, typography, Anthropic brand, visual formatting, visual design&lt;/p&gt;
@@ -57,7 +57,7 @@
 &lt;li&gt;Uses RGB color values for precise brand matching&lt;/li&gt;
 &lt;li&gt;Applied via python-pptx&amp;rsquo;s RGBColor class&lt;/li&gt;
 &lt;li&gt;Maintains color fidelity across different systems&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Gpui Layout And Style</title><link>https://agentskill.wiki/en/skills/gpui-layout-and-style/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/gpui-layout-and-style/</guid><description>&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;/ul&gt;</description></item><item><title>Gpui Layout And Style</title><link>https://agentskill.wiki/skills/gpui-layout-and-style/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/gpui-layout-and-style/</guid><description>&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;GPUI provides CSS-like styling with Rust type safety.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Key Concepts:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -176,7 +176,7 @@
 &lt;li&gt;Theming, responsive design&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Tailwind 4</title><link>https://agentskill.wiki/en/skills/tailwind-4/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/tailwind-4/</guid><description>&lt;h2 id="styling-decision-tree"&gt;Styling Decision Tree&lt;/h2&gt;
+&lt;/ul&gt;</description></item><item><title>Tailwind 4</title><link>https://agentskill.wiki/skills/tailwind-4/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/tailwind-4/</guid><description>&lt;h2 id="styling-decision-tree"&gt;Styling Decision Tree&lt;/h2&gt;
 &lt;pre tabindex="0"&gt;&lt;code&gt;Tailwind class exists? → className=&amp;#34;...&amp;#34;
 Dynamic value? → style={{ width: `${x}%` }}
 Conditional styles? → cn(&amp;#34;base&amp;#34;, condition &amp;amp;&amp;amp; &amp;#34;variant&amp;#34;)
@@ -227,7 +227,7 @@ Library can&amp;#39;t use class?→ style prop with var() constants
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;4&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;// ✅ Just use className directly
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;5&lt;/span&gt;&lt;span&gt;&amp;lt;&lt;span style="color:#f92672"&gt;div&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;className&lt;/span&gt;&lt;span style="color:#f92672"&gt;=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;flex items-center gap-2&amp;#34;&lt;/span&gt; /&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="style-constants-for-chartslibraries"&gt;Style Constants for Charts/Libraries&lt;/h2&gt;
-&lt;p&gt;When libraries don&amp;rsquo;t accept className (like Recharts):&lt;/p&gt;</description></item><item><title>Theme Factory</title><link>https://agentskill.wiki/en/skills/theme-factory/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/theme-factory/</guid><description>&lt;h1 id="theme-factory-skill"&gt;Theme Factory Skill&lt;/h1&gt;
+&lt;p&gt;When libraries don&amp;rsquo;t accept className (like Recharts):&lt;/p&gt;</description></item><item><title>Theme Factory</title><link>https://agentskill.wiki/skills/theme-factory/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/theme-factory/</guid><description>&lt;h1 id="theme-factory-skill"&gt;Theme Factory Skill&lt;/h1&gt;
 &lt;p&gt;This skill provides a curated collection of professional font and color themes themes, each with carefully selected color palettes and font pairings. Once a theme is chosen, it can be applied to any artifact.&lt;/p&gt;
 &lt;h2 id="purpose"&gt;Purpose&lt;/h2&gt;
 &lt;p&gt;To apply consistent, professional styling to presentation slide decks, use this skill. Each theme includes:&lt;/p&gt;

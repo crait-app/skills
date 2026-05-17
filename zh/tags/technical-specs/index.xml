@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Technical-Specs on Agent Skills Hub</title><link>https://agentskill.wiki/zh/tags/technical-specs/</link><description>Recent content in Technical-Specs on Agent Skills Hub</description><generator>Hugo</generator><language>zh</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/zh/tags/technical-specs/index.xml" rel="self" type="application/rss+xml"/><item><title>Feature Design Assistant</title><link>https://agentskill.wiki/zh/skills/feature-design-assistant/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/zh/skills/feature-design-assistant/</guid><description>&lt;h1 id="feature-design-assistant"&gt;Feature Design Assistant&lt;/h1&gt;
+&lt;p&gt;Help turn ideas into fully formed designs and specs through structured information gathering and collaborative validation.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Announce at start:&lt;/strong&gt; &amp;ldquo;I&amp;rsquo;m using the feature-design-assistant skill to design this feature.&amp;rdquo;&lt;/p&gt;
+&lt;h2 id="phase-1-context-discovery"&gt;Phase 1: Context Discovery&lt;/h2&gt;
+&lt;p&gt;First, explore the codebase to understand:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Project structure and tech stack&lt;/li&gt;
+&lt;li&gt;Existing patterns and conventions&lt;/li&gt;
+&lt;li&gt;Related features or modules&lt;/li&gt;
+&lt;li&gt;Recent changes in relevant areas&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="phase-2-structured-information-gathering"&gt;Phase 2: Structured Information Gathering&lt;/h2&gt;
+&lt;p&gt;Use &lt;strong&gt;AskUserQuestion&lt;/strong&gt; to batch collect information efficiently. Each call can ask up to 4 questions.&lt;/p&gt;</description></item></channel></rss>

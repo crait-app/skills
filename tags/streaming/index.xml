@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Streaming on Agent Skills Hub</title><link>https://agentskill.wiki/tags/streaming/</link><description>Recent content in Streaming on Agent Skills Hub</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/streaming/index.xml" rel="self" type="application/rss+xml"/><item><title>Cache Components</title><link>https://agentskill.wiki/en/skills/cache-components/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/cache-components/</guid><description>&lt;h1 id="nextjs-cache-components"&gt;Next.js Cache Components&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Streaming on Agent Skills Hub</title><link>https://agentskill.wiki/tags/streaming/</link><description>Recent content in Streaming on Agent Skills Hub</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/streaming/index.xml" rel="self" type="application/rss+xml"/><item><title>Cache Components</title><link>https://agentskill.wiki/skills/cache-components/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/cache-components/</guid><description>&lt;h1 id="nextjs-cache-components"&gt;Next.js Cache Components&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;Auto-activation&lt;/strong&gt;: This skill activates automatically in projects with &lt;code&gt;cacheComponents: true&lt;/code&gt; in next.config.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -14,7 +14,7 @@
 &lt;li&gt;Optimizing page performance&lt;/li&gt;
 &lt;li&gt;Reviewing existing component code&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Cache Components enable &lt;strong&gt;Partial Prerendering (PPR)&lt;/strong&gt; - mixing static HTML shells with dynamic streaming content for optimal performance.&lt;/p&gt;</description></item><item><title>Component Search</title><link>https://agentskill.wiki/en/skills/component-search/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/component-search/</guid><description>&lt;h1 id="redpanda-connect-component-search"&gt;Redpanda Connect Component Search&lt;/h1&gt;
+&lt;p&gt;Cache Components enable &lt;strong&gt;Partial Prerendering (PPR)&lt;/strong&gt; - mixing static HTML shells with dynamic streaming content for optimal performance.&lt;/p&gt;</description></item><item><title>Component Search</title><link>https://agentskill.wiki/skills/component-search/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/component-search/</guid><description>&lt;h1 id="redpanda-connect-component-search"&gt;Redpanda Connect Component Search&lt;/h1&gt;
 &lt;p&gt;Help users discover the right Redpanda Connect components for their streaming pipeline needs.&lt;/p&gt;
 &lt;h2 id="objective"&gt;Objective&lt;/h2&gt;
 &lt;p&gt;Find and recommend the most relevant components that match the user&amp;rsquo;s natural language query.
@@ -23,7 +23,7 @@ Provide enough information for users to understand what each component does, how
 &lt;p&gt;This skill requires: &lt;code&gt;rpk&lt;/code&gt;, &lt;code&gt;rpk connect&lt;/code&gt;, &lt;code&gt;python3&lt;/code&gt;.
 See the &lt;a href="SETUP.md"&gt;SETUP&lt;/a&gt; for installation instructions.&lt;/p&gt;
 &lt;h2 id="component-categories"&gt;Component Categories&lt;/h2&gt;
-&lt;p&gt;Redpanda Connect has 8 types of components:&lt;/p&gt;</description></item><item><title>Event Store Design</title><link>https://agentskill.wiki/en/skills/event-store-design/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/event-store-design/</guid><description>&lt;h1 id="event-store-design"&gt;Event Store Design&lt;/h1&gt;
+&lt;p&gt;Redpanda Connect has 8 types of components:&lt;/p&gt;</description></item><item><title>Event Store Design</title><link>https://agentskill.wiki/skills/event-store-design/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/event-store-design/</guid><description>&lt;h1 id="event-store-design"&gt;Event Store Design&lt;/h1&gt;
 &lt;p&gt;Comprehensive guide to designing event stores for event-sourced applications.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -478,7 +478,7 @@ See the &lt;a href="SETUP.md"&gt;SETUP&lt;/a&gt; for installation instructions.&
 &lt;li&gt;&lt;a href="https://www.eventstore.com/"&gt;EventStoreDB&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://martendb.io/events/"&gt;Marten Events&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://docs.microsoft.com/en-us/azure/architecture/patterns/event-sourcing"&gt;Event Sourcing Pattern&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Nextjs App Router Patterns</title><link>https://agentskill.wiki/en/skills/nextjs-app-router-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/nextjs-app-router-patterns/</guid><description>&lt;h1 id="nextjs-app-router-patterns"&gt;Next.js App Router Patterns&lt;/h1&gt;
+&lt;/ul&gt;</description></item><item><title>Nextjs App Router Patterns</title><link>https://agentskill.wiki/skills/nextjs-app-router-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/nextjs-app-router-patterns/</guid><description>&lt;h1 id="nextjs-app-router-patterns"&gt;Next.js App Router Patterns&lt;/h1&gt;
 &lt;p&gt;Comprehensive patterns for Next.js 14+ App Router architecture, Server Components, and modern full-stack React development.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;

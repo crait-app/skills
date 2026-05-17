@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Orchestration on Agent Skills Hub</title><link>https://agentskill.wiki/tags/orchestration/</link><description>Recent content in Orchestration on Agent Skills Hub</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/orchestration/index.xml" rel="self" type="application/rss+xml"/><item><title>Crewai Multi Agent</title><link>https://agentskill.wiki/en/skills/crewai-multi-agent/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/crewai-multi-agent/</guid><description>&lt;h1 id="crewai---multi-agent-orchestration-framework"&gt;CrewAI - Multi-Agent Orchestration Framework&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Orchestration on Agent Skills Hub</title><link>https://agentskill.wiki/tags/orchestration/</link><description>Recent content in Orchestration on Agent Skills Hub</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/orchestration/index.xml" rel="self" type="application/rss+xml"/><item><title>Crewai Multi Agent</title><link>https://agentskill.wiki/skills/crewai-multi-agent/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/crewai-multi-agent/</guid><description>&lt;h1 id="crewai---multi-agent-orchestration-framework"&gt;CrewAI - Multi-Agent Orchestration Framework&lt;/h1&gt;
 &lt;p&gt;Build teams of autonomous AI agents that collaborate to solve complex tasks.&lt;/p&gt;
 &lt;h2 id="when-to-use-crewai"&gt;When to use CrewAI&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Use CrewAI when:&lt;/strong&gt;&lt;/p&gt;
@@ -19,7 +19,7 @@
 &lt;li&gt;&lt;strong&gt;Memory&lt;/strong&gt;: Short-term, long-term, and entity memory&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Production-ready&lt;/strong&gt;: Tracing, enterprise features&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Use alternatives instead:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Deployment Pipeline Design</title><link>https://agentskill.wiki/en/skills/deployment-pipeline-design/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/deployment-pipeline-design/</guid><description>&lt;h1 id="deployment-pipeline-design"&gt;Deployment Pipeline Design&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Use alternatives instead:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Deployment Pipeline Design</title><link>https://agentskill.wiki/skills/deployment-pipeline-design/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/deployment-pipeline-design/</guid><description>&lt;h1 id="deployment-pipeline-design"&gt;Deployment Pipeline Design&lt;/h1&gt;
 &lt;p&gt;Architecture patterns for multi-stage CI/CD pipelines with approval gates and deployment strategies.&lt;/p&gt;
 &lt;h2 id="purpose"&gt;Purpose&lt;/h2&gt;
 &lt;p&gt;Design robust, secure deployment pipelines that balance speed with safety through proper stage organization and approval workflows.&lt;/p&gt;
@@ -91,17 +91,17 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;15&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;inputs&lt;/span&gt;:
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;16&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;notifyUsers&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;&amp;#34;team-leads@example.com&amp;#34;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;17&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;instructions&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;&amp;#34;Review staging metrics before approving&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Reference:&lt;/strong&gt; See &lt;code&gt;assets/approval-gate-template.yml&lt;/code&gt;&lt;/p&gt;</description></item><item><title>Flow Nexus Swarm</title><link>https://agentskill.wiki/en/skills/flow-nexus-swarm/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/flow-nexus-swarm/</guid><description>&lt;h1 id="flow-nexus-swarm--workflow-orchestration"&gt;Flow Nexus Swarm &amp;amp; Workflow Orchestration&lt;/h1&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Reference:&lt;/strong&gt; See &lt;code&gt;assets/approval-gate-template.yml&lt;/code&gt;&lt;/p&gt;</description></item><item><title>Flow Nexus Swarm</title><link>https://agentskill.wiki/skills/flow-nexus-swarm/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/flow-nexus-swarm/</guid><description>&lt;h1 id="flow-nexus-swarm--workflow-orchestration"&gt;Flow Nexus Swarm &amp;amp; Workflow Orchestration&lt;/h1&gt;
 &lt;p&gt;Deploy and manage cloud-based AI agent swarms with event-driven workflow automation, message queue processing, and intelligent agent coordination.&lt;/p&gt;
 &lt;h2 id="-table-of-contents"&gt;📋 Table of Contents&lt;/h2&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;a href="https://agentskill.wiki/en/skills/flow-nexus-swarm/#overview"&gt;Overview&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://agentskill.wiki/en/skills/flow-nexus-swarm/#swarm-management"&gt;Swarm Management&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://agentskill.wiki/en/skills/flow-nexus-swarm/#workflow-automation"&gt;Workflow Automation&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://agentskill.wiki/en/skills/flow-nexus-swarm/#agent-orchestration"&gt;Agent Orchestration&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://agentskill.wiki/en/skills/flow-nexus-swarm/#templates--patterns"&gt;Templates &amp;amp; Patterns&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://agentskill.wiki/en/skills/flow-nexus-swarm/#advanced-features"&gt;Advanced Features&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://agentskill.wiki/en/skills/flow-nexus-swarm/#best-practices"&gt;Best Practices&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://agentskill.wiki/skills/flow-nexus-swarm/#overview"&gt;Overview&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://agentskill.wiki/skills/flow-nexus-swarm/#swarm-management"&gt;Swarm Management&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://agentskill.wiki/skills/flow-nexus-swarm/#workflow-automation"&gt;Workflow Automation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://agentskill.wiki/skills/flow-nexus-swarm/#agent-orchestration"&gt;Agent Orchestration&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://agentskill.wiki/skills/flow-nexus-swarm/#templates--patterns"&gt;Templates &amp;amp; Patterns&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://agentskill.wiki/skills/flow-nexus-swarm/#advanced-features"&gt;Advanced Features&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://agentskill.wiki/skills/flow-nexus-swarm/#best-practices"&gt;Best Practices&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;Flow Nexus provides cloud-based orchestration for AI agent swarms with:&lt;/p&gt;
@@ -115,7 +115,7 @@
 &lt;/ul&gt;
 &lt;h2 id="swarm-management"&gt;Swarm Management&lt;/h2&gt;
 &lt;h3 id="initialize-swarm"&gt;Initialize Swarm&lt;/h3&gt;
-&lt;p&gt;Create a new swarm with specified topology and configuration:&lt;/p&gt;</description></item><item><title>Swarm Advanced</title><link>https://agentskill.wiki/en/skills/swarm-advanced/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/swarm-advanced/</guid><description>&lt;h1 id="advanced-swarm-orchestration"&gt;Advanced Swarm Orchestration&lt;/h1&gt;
+&lt;p&gt;Create a new swarm with specified topology and configuration:&lt;/p&gt;</description></item><item><title>Swarm Advanced</title><link>https://agentskill.wiki/skills/swarm-advanced/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/swarm-advanced/</guid><description>&lt;h1 id="advanced-swarm-orchestration"&gt;Advanced Swarm Orchestration&lt;/h1&gt;
 &lt;p&gt;Master advanced swarm patterns for distributed research, development, and testing workflows. This skill covers comprehensive orchestration strategies using both MCP tools and CLI commands.&lt;/p&gt;
 &lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;
 &lt;h3 id="prerequisites"&gt;Prerequisites&lt;/h3&gt;
@@ -135,7 +135,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;8&lt;/span&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;mcp__claude&lt;/span&gt;&lt;span style="color:#f92672"&gt;-&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;flow__task_orchestrate&lt;/span&gt;({ &lt;span style="color:#a6e22e"&gt;task&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;...&amp;#34;&lt;/span&gt;, &lt;span style="color:#a6e22e"&gt;strategy&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;parallel&amp;#34;&lt;/span&gt; })
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="core-concepts"&gt;Core Concepts&lt;/h2&gt;
 &lt;h3 id="swarm-topologies"&gt;Swarm Topologies&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Mesh Topology&lt;/strong&gt; - Peer-to-peer communication, best for research and analysis&lt;/p&gt;</description></item><item><title>Swarm Orchestration</title><link>https://agentskill.wiki/en/skills/swarm-orchestration/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/swarm-orchestration/</guid><description>&lt;h1 id="swarm-orchestration"&gt;Swarm Orchestration&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Mesh Topology&lt;/strong&gt; - Peer-to-peer communication, best for research and analysis&lt;/p&gt;</description></item><item><title>Swarm Orchestration</title><link>https://agentskill.wiki/skills/swarm-orchestration/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/swarm-orchestration/</guid><description>&lt;h1 id="swarm-orchestration"&gt;Swarm Orchestration&lt;/h1&gt;
 &lt;h2 id="what-this-skill-does"&gt;What This Skill Does&lt;/h2&gt;
 &lt;p&gt;Orchestrates multi-agent swarms using agentic-flow&amp;rsquo;s advanced coordination system. Supports mesh, hierarchical, and adaptive topologies with automatic task distribution, load balancing, and fault tolerance.&lt;/p&gt;
 &lt;h2 id="prerequisites"&gt;Prerequisites&lt;/h2&gt;
@@ -253,7 +253,7 @@
 &lt;/ol&gt;
 &lt;h2 id="troubleshooting"&gt;Troubleshooting&lt;/h2&gt;
 &lt;h3 id="issue-agents-not-coordinating"&gt;Issue: Agents not coordinating&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Solution&lt;/strong&gt;: Verify memory access and enable hooks&lt;/p&gt;</description></item><item><title>Zapier Workflows</title><link>https://agentskill.wiki/en/skills/zapier-workflows/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/zapier-workflows/</guid><description>&lt;h1 id="zapier-workflows-skill"&gt;Zapier Workflows Skill&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Solution&lt;/strong&gt;: Verify memory access and enable hooks&lt;/p&gt;</description></item><item><title>Zapier Workflows</title><link>https://agentskill.wiki/skills/zapier-workflows/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/zapier-workflows/</guid><description>&lt;h1 id="zapier-workflows-skill"&gt;Zapier Workflows Skill&lt;/h1&gt;
 &lt;h2 id="the-problem-this-solves"&gt;The Problem This Solves&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Zapier MCP gives Claude access to 8,000+ individual tools&lt;/strong&gt; (every Zapier action), but there are critical limitations:&lt;/p&gt;
 &lt;p&gt;❌ &lt;strong&gt;No memory&lt;/strong&gt; - Claude doesn&amp;rsquo;t remember which tools YOU use or why

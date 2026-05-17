@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Error-Handling on Agent Skills Hub</title><link>https://agentskill.wiki/tags/error-handling/</link><description>Recent content in Error-Handling on Agent Skills Hub</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/error-handling/index.xml" rel="self" type="application/rss+xml"/><item><title>Api Integration Specialist</title><link>https://agentskill.wiki/en/skills/api-integration-specialist/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/api-integration-specialist/</guid><description>&lt;h1 id="api-integration-specialist"&gt;API Integration Specialist&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Error-Handling on Agent Skills Hub</title><link>https://agentskill.wiki/tags/error-handling/</link><description>Recent content in Error-Handling on Agent Skills Hub</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/error-handling/index.xml" rel="self" type="application/rss+xml"/><item><title>Api Integration Specialist</title><link>https://agentskill.wiki/skills/api-integration-specialist/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/api-integration-specialist/</guid><description>&lt;h1 id="api-integration-specialist"&gt;API Integration Specialist&lt;/h1&gt;
 &lt;p&gt;Expert guidance for integrating external APIs into applications with production-ready patterns, security best practices, and comprehensive error handling.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;p&gt;Use this skill when:&lt;/p&gt;
@@ -13,7 +13,7 @@
 &lt;/ul&gt;
 &lt;h2 id="core-integration-principles"&gt;Core Integration Principles&lt;/h2&gt;
 &lt;h3 id="1-authentication--security"&gt;1. Authentication &amp;amp; Security&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;API Key Management:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Bash Defensive Patterns</title><link>https://agentskill.wiki/en/skills/bash-defensive-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/bash-defensive-patterns/</guid><description>&lt;h1 id="bash-defensive-patterns"&gt;Bash Defensive Patterns&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;API Key Management:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Bash Defensive Patterns</title><link>https://agentskill.wiki/skills/bash-defensive-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/bash-defensive-patterns/</guid><description>&lt;h1 id="bash-defensive-patterns"&gt;Bash Defensive Patterns&lt;/h1&gt;
 &lt;p&gt;Comprehensive guidance for writing production-ready Bash scripts using defensive programming techniques, error handling, and safety best practices to prevent common pitfalls and ensure reliability.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -28,14 +28,14 @@
 &lt;/ul&gt;
 &lt;h2 id="core-defensive-principles"&gt;Core Defensive Principles&lt;/h2&gt;
 &lt;h3 id="1-strict-mode"&gt;1. Strict Mode&lt;/h3&gt;
-&lt;p&gt;Enable bash strict mode at the start of every script to catch errors early.&lt;/p&gt;</description></item><item><title>Byethrow</title><link>https://agentskill.wiki/en/skills/byethrow/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/byethrow/</guid><description>&lt;h2 id="about-byethrow"&gt;About byethrow&lt;/h2&gt;
+&lt;p&gt;Enable bash strict mode at the start of every script to catch errors early.&lt;/p&gt;</description></item><item><title>Byethrow</title><link>https://agentskill.wiki/skills/byethrow/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/byethrow/</guid><description>&lt;h2 id="about-byethrow"&gt;About byethrow&lt;/h2&gt;
 &lt;p&gt;&lt;code&gt;@praha/byethrow&lt;/code&gt; is a lightweight, tree-shakable Result type library for handling fallible operations in JavaScript and TypeScript.
 It provides a simple, consistent API for managing errors and results without throwing exceptions.&lt;/p&gt;
 &lt;p&gt;For detailed API references and usage examples, refer to the documentation in &lt;code&gt;node_modules/@praha/byethrow-docs/docs/**/*.md&lt;/code&gt;.&lt;/p&gt;
 &lt;h3 id="documentation-cli"&gt;Documentation CLI&lt;/h3&gt;
 &lt;p&gt;The byethrow documentation CLI provides commands to browse, search, and navigate documentation directly from your terminal.&lt;/p&gt;
 &lt;h4 id="list-command"&gt;&lt;code&gt;list&lt;/code&gt; command&lt;/h4&gt;
-&lt;p&gt;List all available documentation organized by sections.&lt;/p&gt;</description></item><item><title>Error Handling Patterns</title><link>https://agentskill.wiki/en/skills/error-handling-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/error-handling-patterns/</guid><description>&lt;h1 id="error-handling-patterns"&gt;Error Handling Patterns&lt;/h1&gt;
+&lt;p&gt;List all available documentation organized by sections.&lt;/p&gt;</description></item><item><title>Error Handling Patterns</title><link>https://agentskill.wiki/skills/error-handling-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/error-handling-patterns/</guid><description>&lt;h1 id="error-handling-patterns"&gt;Error Handling Patterns&lt;/h1&gt;
 &lt;p&gt;Build resilient applications with robust error handling strategies that gracefully handle failures and provide excellent debugging experiences.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -50,7 +50,7 @@ It provides a simple, consistent API for managing errors and results without thr
 &lt;/ul&gt;
 &lt;h2 id="core-concepts"&gt;Core Concepts&lt;/h2&gt;
 &lt;h3 id="1-error-handling-philosophies"&gt;1. Error Handling Philosophies&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Exceptions vs Result Types:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Zig System Calls</title><link>https://agentskill.wiki/en/skills/zig-system-calls/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/zig-system-calls/</guid><description>&lt;h1 id="system-calls--file-io-in-zig"&gt;System Calls &amp;amp; File I/O in Zig&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Exceptions vs Result Types:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Zig System Calls</title><link>https://agentskill.wiki/skills/zig-system-calls/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/zig-system-calls/</guid><description>&lt;h1 id="system-calls--file-io-in-zig"&gt;System Calls &amp;amp; File I/O in Zig&lt;/h1&gt;
 &lt;p&gt;Use &lt;code&gt;bun.sys&lt;/code&gt; instead of &lt;code&gt;std.fs&lt;/code&gt; or &lt;code&gt;std.posix&lt;/code&gt; for cross-platform syscalls with proper error handling.&lt;/p&gt;
 &lt;h2 id="bunsysfile-preferred"&gt;bun.sys.File (Preferred)&lt;/h2&gt;
 &lt;p&gt;For most file operations, use the &lt;code&gt;bun.sys.File&lt;/code&gt; wrapper:&lt;/p&gt;

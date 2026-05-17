@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Authentication on Agent Skills Hub</title><link>https://agentskill.wiki/tags/authentication/</link><description>Recent content in Authentication on Agent Skills Hub</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/authentication/index.xml" rel="self" type="application/rss+xml"/><item><title>Api Integration Specialist</title><link>https://agentskill.wiki/en/skills/api-integration-specialist/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/api-integration-specialist/</guid><description>&lt;h1 id="api-integration-specialist"&gt;API Integration Specialist&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Authentication on Agent Skills Hub</title><link>https://agentskill.wiki/tags/authentication/</link><description>Recent content in Authentication on Agent Skills Hub</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/authentication/index.xml" rel="self" type="application/rss+xml"/><item><title>Api Integration Specialist</title><link>https://agentskill.wiki/skills/api-integration-specialist/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/api-integration-specialist/</guid><description>&lt;h1 id="api-integration-specialist"&gt;API Integration Specialist&lt;/h1&gt;
 &lt;p&gt;Expert guidance for integrating external APIs into applications with production-ready patterns, security best practices, and comprehensive error handling.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;p&gt;Use this skill when:&lt;/p&gt;
@@ -13,7 +13,7 @@
 &lt;/ul&gt;
 &lt;h2 id="core-integration-principles"&gt;Core Integration Principles&lt;/h2&gt;
 &lt;h3 id="1-authentication--security"&gt;1. Authentication &amp;amp; Security&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;API Key Management:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Auth Implementation Patterns</title><link>https://agentskill.wiki/en/skills/auth-implementation-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/auth-implementation-patterns/</guid><description>&lt;h1 id="authentication--authorization-implementation-patterns"&gt;Authentication &amp;amp; Authorization Implementation Patterns&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;API Key Management:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Auth Implementation Patterns</title><link>https://agentskill.wiki/skills/auth-implementation-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/auth-implementation-patterns/</guid><description>&lt;h1 id="authentication--authorization-implementation-patterns"&gt;Authentication &amp;amp; Authorization Implementation Patterns&lt;/h1&gt;
 &lt;p&gt;Build secure, scalable authentication and authorization systems using industry-standard patterns and modern best practices.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -34,17 +34,17 @@
 &lt;li&gt;Issuing credentials (sessions, tokens)&lt;/li&gt;
 &lt;li&gt;Managing login/logout&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Authorization (AuthZ)&lt;/strong&gt;: What can you do?&lt;/p&gt;</description></item><item><title>Flow Nexus Platform</title><link>https://agentskill.wiki/en/skills/flow-nexus-platform/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/flow-nexus-platform/</guid><description>&lt;h1 id="flow-nexus-platform-management"&gt;Flow Nexus Platform Management&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Authorization (AuthZ)&lt;/strong&gt;: What can you do?&lt;/p&gt;</description></item><item><title>Flow Nexus Platform</title><link>https://agentskill.wiki/skills/flow-nexus-platform/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/flow-nexus-platform/</guid><description>&lt;h1 id="flow-nexus-platform-management"&gt;Flow Nexus Platform Management&lt;/h1&gt;
 &lt;p&gt;Comprehensive platform management for Flow Nexus - covering authentication, sandbox execution, app deployment, credit management, and coding challenges.&lt;/p&gt;
 &lt;h2 id="table-of-contents"&gt;Table of Contents&lt;/h2&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;a href="https://agentskill.wiki/en/skills/flow-nexus-platform/#authentication--user-management"&gt;Authentication &amp;amp; User Management&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://agentskill.wiki/en/skills/flow-nexus-platform/#sandbox-management"&gt;Sandbox Management&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://agentskill.wiki/en/skills/flow-nexus-platform/#app-store--deployment"&gt;App Store &amp;amp; Deployment&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://agentskill.wiki/en/skills/flow-nexus-platform/#payments--credits"&gt;Payments &amp;amp; Credits&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://agentskill.wiki/en/skills/flow-nexus-platform/#challenges--achievements"&gt;Challenges &amp;amp; Achievements&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://agentskill.wiki/en/skills/flow-nexus-platform/#storage--real-time"&gt;Storage &amp;amp; Real-time&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://agentskill.wiki/en/skills/flow-nexus-platform/#system-utilities"&gt;System Utilities&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://agentskill.wiki/skills/flow-nexus-platform/#authentication--user-management"&gt;Authentication &amp;amp; User Management&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://agentskill.wiki/skills/flow-nexus-platform/#sandbox-management"&gt;Sandbox Management&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://agentskill.wiki/skills/flow-nexus-platform/#app-store--deployment"&gt;App Store &amp;amp; Deployment&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://agentskill.wiki/skills/flow-nexus-platform/#payments--credits"&gt;Payments &amp;amp; Credits&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://agentskill.wiki/skills/flow-nexus-platform/#challenges--achievements"&gt;Challenges &amp;amp; Achievements&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://agentskill.wiki/skills/flow-nexus-platform/#storage--real-time"&gt;Storage &amp;amp; Real-time&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://agentskill.wiki/skills/flow-nexus-platform/#system-utilities"&gt;System Utilities&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;hr&gt;
 &lt;h2 id="authentication--user-management"&gt;Authentication &amp;amp; User Management&lt;/h2&gt;
@@ -56,7 +56,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;4&lt;/span&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;full_name&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;Your Name&amp;#34;&lt;/span&gt;,
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;5&lt;/span&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;username&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;unique_username&amp;#34;&lt;/span&gt; &lt;span style="color:#75715e"&gt;// optional
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;6&lt;/span&gt;&lt;span&gt;})
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Login&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Nodejs Backend Patterns</title><link>https://agentskill.wiki/en/skills/nodejs-backend-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/nodejs-backend-patterns/</guid><description>&lt;h1 id="nodejs-backend-patterns"&gt;Node.js Backend Patterns&lt;/h1&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Login&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Nodejs Backend Patterns</title><link>https://agentskill.wiki/skills/nodejs-backend-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/nodejs-backend-patterns/</guid><description>&lt;h1 id="nodejs-backend-patterns"&gt;Node.js Backend Patterns&lt;/h1&gt;
 &lt;p&gt;Comprehensive guidance for building scalable, maintainable, and production-ready Node.js backend applications with modern frameworks, architectural patterns, and best practices.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -71,7 +71,7 @@
 &lt;/ul&gt;
 &lt;h2 id="core-frameworks"&gt;Core Frameworks&lt;/h2&gt;
 &lt;h3 id="expressjs---minimalist-framework"&gt;Express.js - Minimalist Framework&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Basic Setup:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Payload</title><link>https://agentskill.wiki/en/skills/payload/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/payload/</guid><description>&lt;h1 id="payload-cms-application-development"&gt;Payload CMS Application Development&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Basic Setup:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Payload</title><link>https://agentskill.wiki/skills/payload/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/payload/</guid><description>&lt;h1 id="payload-cms-application-development"&gt;Payload CMS Application Development&lt;/h1&gt;
 &lt;p&gt;Payload is a Next.js native CMS with TypeScript-first architecture, providing admin panel, database management, REST/GraphQL APIs, authentication, and file storage.&lt;/p&gt;
 &lt;h2 id="quick-reference"&gt;Quick Reference&lt;/h2&gt;
 &lt;table&gt;

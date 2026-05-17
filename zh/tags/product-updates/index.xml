@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Product-Updates on Agent Skills Hub</title><link>https://agentskill.wiki/zh/tags/product-updates/</link><description>Recent content in Product-Updates on Agent Skills Hub</description><generator>Hugo</generator><language>zh</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/zh/tags/product-updates/index.xml" rel="self" type="application/rss+xml"/><item><title>Changelog Generator</title><link>https://agentskill.wiki/zh/skills/changelog-generator/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/zh/skills/changelog-generator/</guid><description>&lt;h1 id="changelog-generator"&gt;Changelog Generator&lt;/h1&gt;
+&lt;p&gt;This skill transforms technical git commits into polished, user-friendly changelogs that your customers and users will actually understand and appreciate.&lt;/p&gt;
+&lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Preparing release notes for a new version&lt;/li&gt;
+&lt;li&gt;Creating weekly or monthly product update summaries&lt;/li&gt;
+&lt;li&gt;Documenting changes for customers&lt;/li&gt;
+&lt;li&gt;Writing changelog entries for app store submissions&lt;/li&gt;
+&lt;li&gt;Generating update notifications&lt;/li&gt;
+&lt;li&gt;Creating internal release documentation&lt;/li&gt;
+&lt;li&gt;Maintaining a public changelog/product updates page&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="what-this-skill-does"&gt;What This Skill Does&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Scans Git History&lt;/strong&gt;: Analyzes commits from a specific time period or between versions&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Categorizes Changes&lt;/strong&gt;: Groups commits into logical categories (features, improvements, bug fixes, breaking changes, security)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Translates Technical → User-Friendly&lt;/strong&gt;: Converts developer commits into customer language&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Formats Professionally&lt;/strong&gt;: Creates clean, structured changelog entries&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Filters Noise&lt;/strong&gt;: Excludes internal commits (refactoring, tests, etc.)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Follows Best Practices&lt;/strong&gt;: Applies changelog guidelines and your brand voice&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="how-to-use"&gt;How to Use&lt;/h2&gt;
+&lt;h3 id="basic-usage"&gt;Basic Usage&lt;/h3&gt;
+&lt;p&gt;From your project repository:&lt;/p&gt;</description></item></channel></rss>

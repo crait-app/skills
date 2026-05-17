@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Triage on Agent Skills Hub</title><link>https://agentskill.wiki/zh/tags/triage/</link><description>Recent content in Triage on Agent Skills Hub</description><generator>Hugo</generator><language>zh</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/zh/tags/triage/index.xml" rel="self" type="application/rss+xml"/><item><title>Issue Triage</title><link>https://agentskill.wiki/zh/skills/issue-triage/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/zh/skills/issue-triage/</guid><description>&lt;h1 id="issue-triage-skill"&gt;Issue Triage Skill&lt;/h1&gt;
+&lt;p&gt;This skill helps triage open GitHub issues in the dotnet/maui repository by:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Initializing a session with current milestones and labels&lt;/li&gt;
+&lt;li&gt;Loading a batch of issues into memory&lt;/li&gt;
+&lt;li&gt;Presenting issues ONE AT A TIME for triage decisions&lt;/li&gt;
+&lt;li&gt;Suggesting milestones based on issue characteristics&lt;/li&gt;
+&lt;li&gt;Tracking progress through a triage session&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="prerequisites"&gt;Prerequisites&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;GitHub CLI (gh) must be installed and authenticated:&lt;/strong&gt;&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Install&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 2&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Windows:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 3&lt;/span&gt;&lt;span&gt;winget install --id GitHub.cli
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 4&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 5&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# macOS:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 6&lt;/span&gt;&lt;span&gt;brew install gh
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 7&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 8&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Linux:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 9&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# See https://cli.github.com/manual/installation&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;10&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;11&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Authenticate (required before first use)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;12&lt;/span&gt;&lt;span&gt;gh auth login
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The scripts will check for &lt;code&gt;gh&lt;/code&gt; and exit with installation instructions if not found.&lt;/p&gt;</description></item><item><title>Write Issue</title><link>https://agentskill.wiki/zh/skills/write-issue/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/zh/skills/write-issue/</guid><description>&lt;h1 id="writing-and-maintaining-github-issues"&gt;Writing and maintaining GitHub issues&lt;/h1&gt;
+&lt;p&gt;Standards for issues in tldraw/tldraw.&lt;/p&gt;
+&lt;h2 id="title-standards"&gt;Title standards&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Sentence case&lt;/strong&gt; - Capitalize only the first word and proper nouns&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;No type prefixes&lt;/strong&gt; - Use GitHub issue types, not &lt;code&gt;Bug:&lt;/code&gt;, &lt;code&gt;Feature:&lt;/code&gt;, &lt;code&gt;[Bug]&lt;/code&gt;, etc.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Imperative mood for enhancements&lt;/strong&gt; - &amp;ldquo;Add padding option&amp;rdquo; not &amp;ldquo;Adding padding option&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Descriptive for bugs&lt;/strong&gt; - Describe the symptom: &amp;ldquo;Arrow bindings break with rotated shapes&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Specific&lt;/strong&gt; - Readable without opening the issue body&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="good-titles"&gt;Good titles&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Arrow bindings break with rotated shapes&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Add padding option to zoomToFit method&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Pinch zoom resets selection on Safari&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="bad-titles"&gt;Bad titles&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;Bug: arrow bug&lt;/code&gt; (prefix, vague)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;[Feature] Add new feature&lt;/code&gt; (prefix, vague)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Not working&lt;/code&gt; (vague)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="title-cleanup-transformations"&gt;Title cleanup transformations&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Remove prefixes: &lt;code&gt;Bug: X&lt;/code&gt; → &lt;code&gt;X&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Fix capitalization: &lt;code&gt;Add Padding Option&lt;/code&gt; → &lt;code&gt;Add padding option&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Use imperative: &lt;code&gt;Adding feature X&lt;/code&gt; → &lt;code&gt;Add feature X&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Be specific: &lt;code&gt;Problem&lt;/code&gt; → &lt;code&gt;[Describe the actual problem]&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Translate non-English titles to English&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="issue-types"&gt;Issue types&lt;/h2&gt;
+&lt;p&gt;Set via the GitHub GraphQL API after creating the issue (the &lt;code&gt;--type&lt;/code&gt; flag is not reliably supported):&lt;/p&gt;</description></item></channel></rss>

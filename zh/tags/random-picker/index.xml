@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Random-Picker on Agent Skills Hub</title><link>https://agentskill.wiki/zh/tags/random-picker/</link><description>Recent content in Random-Picker on Agent Skills Hub</description><generator>Hugo</generator><language>zh</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/zh/tags/random-picker/index.xml" rel="self" type="application/rss+xml"/><item><title>Raffle Winner Picker</title><link>https://agentskill.wiki/zh/skills/raffle-winner-picker/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/zh/skills/raffle-winner-picker/</guid><description>&lt;h1 id="raffle-winner-picker"&gt;Raffle Winner Picker&lt;/h1&gt;
+&lt;p&gt;This skill randomly selects winners from lists, spreadsheets, or Google Sheets for giveaways and contests.&lt;/p&gt;
+&lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Running social media giveaways&lt;/li&gt;
+&lt;li&gt;Picking raffle winners at events&lt;/li&gt;
+&lt;li&gt;Randomly selecting participants for surveys or tests&lt;/li&gt;
+&lt;li&gt;Choosing winners from contest submissions&lt;/li&gt;
+&lt;li&gt;Fair distribution of limited spots or resources&lt;/li&gt;
+&lt;li&gt;Random team assignments&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="what-this-skill-does"&gt;What This Skill Does&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Random Selection&lt;/strong&gt;: Uses cryptographically random selection&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Multiple Sources&lt;/strong&gt;: Works with CSV, Excel, Google Sheets, or plain lists&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Multiple Winners&lt;/strong&gt;: Can pick one or multiple winners&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Duplicate Prevention&lt;/strong&gt;: Ensures the same person can&amp;rsquo;t win twice&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Transparent Results&lt;/strong&gt;: Shows the selection process clearly&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Winner Details&lt;/strong&gt;: Displays all relevant information about winners&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="how-to-use"&gt;How to Use&lt;/h2&gt;
+&lt;h3 id="from-google-sheets"&gt;From Google Sheets&lt;/h3&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;Pick a random row from this Google Sheet to select a winner 
+for a giveaway: [Sheet URL]
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id="from-local-file"&gt;From Local File&lt;/h3&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;Pick 3 random winners from entries.csv
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id="from-list"&gt;From List&lt;/h3&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;Pick a random winner from this list:
+- Alice (alice@email.com)
+- Bob (bob@email.com)
+- Carol (carol@email.com)
+...
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id="multiple-winners"&gt;Multiple Winners&lt;/h3&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;Pick 5 random winners from contest-entries.xlsx, 
+make sure no duplicates
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id="example"&gt;Example&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;User&lt;/strong&gt;: &amp;ldquo;Pick a random row from this Google Sheet to select a winner for a giveaway.&amp;rdquo;&lt;/p&gt;</description></item></channel></rss>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Nextjs on Agent Skills Hub</title><link>https://agentskill.wiki/tags/nextjs/</link><description>Recent content in Nextjs on Agent Skills Hub</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/nextjs/index.xml" rel="self" type="application/rss+xml"/><item><title>Cache Components</title><link>https://agentskill.wiki/en/skills/cache-components/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/cache-components/</guid><description>&lt;h1 id="nextjs-cache-components"&gt;Next.js Cache Components&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Nextjs on Agent Skills Hub</title><link>https://agentskill.wiki/tags/nextjs/</link><description>Recent content in Nextjs on Agent Skills Hub</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/nextjs/index.xml" rel="self" type="application/rss+xml"/><item><title>Cache Components</title><link>https://agentskill.wiki/skills/cache-components/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/cache-components/</guid><description>&lt;h1 id="nextjs-cache-components"&gt;Next.js Cache Components&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;Auto-activation&lt;/strong&gt;: This skill activates automatically in projects with &lt;code&gt;cacheComponents: true&lt;/code&gt; in next.config.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -14,7 +14,7 @@
 &lt;li&gt;Optimizing page performance&lt;/li&gt;
 &lt;li&gt;Reviewing existing component code&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Cache Components enable &lt;strong&gt;Partial Prerendering (PPR)&lt;/strong&gt; - mixing static HTML shells with dynamic streaming content for optimal performance.&lt;/p&gt;</description></item><item><title>Nextjs App Router Patterns</title><link>https://agentskill.wiki/en/skills/nextjs-app-router-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/nextjs-app-router-patterns/</guid><description>&lt;h1 id="nextjs-app-router-patterns"&gt;Next.js App Router Patterns&lt;/h1&gt;
+&lt;p&gt;Cache Components enable &lt;strong&gt;Partial Prerendering (PPR)&lt;/strong&gt; - mixing static HTML shells with dynamic streaming content for optimal performance.&lt;/p&gt;</description></item><item><title>Nextjs App Router Patterns</title><link>https://agentskill.wiki/skills/nextjs-app-router-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/nextjs-app-router-patterns/</guid><description>&lt;h1 id="nextjs-app-router-patterns"&gt;Next.js App Router Patterns&lt;/h1&gt;
 &lt;p&gt;Comprehensive patterns for Next.js 14+ App Router architecture, Server Components, and modern full-stack React development.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -529,7 +529,7 @@
 &lt;li&gt;&lt;a href="https://nextjs.org/docs/app"&gt;Next.js App Router Documentation&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/reactjs/rfcs/blob/main/text/0188-server-components.md"&gt;Server Components RFC&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://vercel.com/templates/next.js"&gt;Vercel Templates&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Payload</title><link>https://agentskill.wiki/en/skills/payload/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/payload/</guid><description>&lt;h1 id="payload-cms-application-development"&gt;Payload CMS Application Development&lt;/h1&gt;
+&lt;/ul&gt;</description></item><item><title>Payload</title><link>https://agentskill.wiki/skills/payload/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/payload/</guid><description>&lt;h1 id="payload-cms-application-development"&gt;Payload CMS Application Development&lt;/h1&gt;
 &lt;p&gt;Payload is a Next.js native CMS with TypeScript-first architecture, providing admin panel, database management, REST/GraphQL APIs, authentication, and file storage.&lt;/p&gt;
 &lt;h2 id="quick-reference"&gt;Quick Reference&lt;/h2&gt;
 &lt;table&gt;
@@ -727,7 +727,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;14&lt;/span&gt;&lt;span&gt; ],
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;15&lt;/span&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;timestamps&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;true&lt;/span&gt;,
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;16&lt;/span&gt;&lt;span&gt;}
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;For more collection patterns (auth, upload, drafts, live preview), see &lt;a href="reference/COLLECTIONS.md"&gt;COLLECTIONS.md&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Prowler Ui</title><link>https://agentskill.wiki/en/skills/prowler-ui/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/prowler-ui/</guid><description>&lt;h2 id="related-generic-skills"&gt;Related Generic Skills&lt;/h2&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;For more collection patterns (auth, upload, drafts, live preview), see &lt;a href="reference/COLLECTIONS.md"&gt;COLLECTIONS.md&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Prowler Ui</title><link>https://agentskill.wiki/skills/prowler-ui/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/prowler-ui/</guid><description>&lt;h2 id="related-generic-skills"&gt;Related Generic Skills&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;typescript&lt;/code&gt; - Const types, flat interfaces&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;react-19&lt;/code&gt; - No useMemo/useCallback, compiler&lt;/li&gt;
@@ -805,7 +805,7 @@ Recharts/library? → CHART_COLORS constant + var()
 ├── tests/ # Playwright E2E
 └── styles/ # Global CSS
 &lt;/code&gt;&lt;/pre&gt;&lt;h2 id="recharts-special-case"&gt;Recharts (Special Case)&lt;/h2&gt;
-&lt;p&gt;For Recharts props that don&amp;rsquo;t accept className:&lt;/p&gt;</description></item><item><title>React Best Practices</title><link>https://agentskill.wiki/en/skills/react-best-practices/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/react-best-practices/</guid><description>&lt;h1 id="react-best-practices---performance-optimization"&gt;React Best Practices - Performance Optimization&lt;/h1&gt;
+&lt;p&gt;For Recharts props that don&amp;rsquo;t accept className:&lt;/p&gt;</description></item><item><title>React Best Practices</title><link>https://agentskill.wiki/skills/react-best-practices/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/react-best-practices/</guid><description>&lt;h1 id="react-best-practices---performance-optimization"&gt;React Best Practices - Performance Optimization&lt;/h1&gt;
 &lt;p&gt;Comprehensive performance optimization guide for React and Next.js applications with 40+ rules organized by impact level. Designed to help developers eliminate performance bottlenecks and follow best practices.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to use this skill&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Use React Best Practices when:&lt;/strong&gt;&lt;/p&gt;
@@ -818,7 +818,7 @@ Recharts/library? → CHART_COLORS constant + var()
 &lt;li&gt;Reducing bundle size&lt;/li&gt;
 &lt;li&gt;Eliminating request waterfalls&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Key areas covered:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Senior Frontend</title><link>https://agentskill.wiki/en/skills/senior-frontend/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/senior-frontend/</guid><description>&lt;h1 id="senior-frontend"&gt;Senior Frontend&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Key areas covered:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Senior Frontend</title><link>https://agentskill.wiki/skills/senior-frontend/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/senior-frontend/</guid><description>&lt;h1 id="senior-frontend"&gt;Senior Frontend&lt;/h1&gt;
 &lt;p&gt;Complete toolkit for senior frontend with modern tools and best practices.&lt;/p&gt;
 &lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;
 &lt;h3 id="main-capabilities"&gt;Main Capabilities&lt;/h3&gt;
@@ -833,7 +833,7 @@ Recharts/library? → CHART_COLORS constant + var()
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;8&lt;/span&gt;&lt;span&gt;python scripts/frontend_scaffolder.py &lt;span style="color:#f92672"&gt;[&lt;/span&gt;options&lt;span style="color:#f92672"&gt;]&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="core-capabilities"&gt;Core Capabilities&lt;/h2&gt;
 &lt;h3 id="1-component-generator"&gt;1. Component Generator&lt;/h3&gt;
-&lt;p&gt;Automated tool for component generator tasks.&lt;/p&gt;</description></item><item><title>Senior Fullstack</title><link>https://agentskill.wiki/en/skills/senior-fullstack/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/senior-fullstack/</guid><description>&lt;h1 id="senior-fullstack"&gt;Senior Fullstack&lt;/h1&gt;
+&lt;p&gt;Automated tool for component generator tasks.&lt;/p&gt;</description></item><item><title>Senior Fullstack</title><link>https://agentskill.wiki/skills/senior-fullstack/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/senior-fullstack/</guid><description>&lt;h1 id="senior-fullstack"&gt;Senior Fullstack&lt;/h1&gt;
 &lt;p&gt;Complete toolkit for senior fullstack with modern tools and best practices.&lt;/p&gt;
 &lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;
 &lt;h3 id="main-capabilities"&gt;Main Capabilities&lt;/h3&gt;

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Leadership on Agent Skills Hub</title><link>https://agentskill.wiki/zh/tags/leadership/</link><description>Recent content in Leadership on Agent Skills Hub</description><generator>Hugo</generator><language>zh</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/zh/tags/leadership/index.xml" rel="self" type="application/rss+xml"/><item><title>Ceo Advisor</title><link>https://agentskill.wiki/zh/skills/ceo-advisor/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/zh/skills/ceo-advisor/</guid><description>&lt;h1 id="ceo-advisor"&gt;CEO Advisor&lt;/h1&gt;
+&lt;p&gt;Strategic frameworks and tools for chief executive leadership, organizational transformation, and stakeholder management.&lt;/p&gt;
+&lt;h2 id="keywords"&gt;Keywords&lt;/h2&gt;
+&lt;p&gt;CEO, chief executive officer, executive leadership, strategic planning, board governance, investor relations, board meetings, board presentations, financial modeling, strategic decisions, organizational culture, company culture, leadership development, stakeholder management, executive strategy, crisis management, organizational transformation, investor updates, strategic initiatives, company vision&lt;/p&gt;
+&lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;
+&lt;h3 id="for-strategic-planning"&gt;For Strategic Planning&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;python scripts/strategy_analyzer.py
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Analyzes strategic position and generates actionable recommendations.&lt;/p&gt;</description></item><item><title>Product Strategist</title><link>https://agentskill.wiki/zh/skills/product-strategist/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/zh/skills/product-strategist/</guid><description>&lt;h1 id="product-strategist"&gt;Product Strategist&lt;/h1&gt;
+&lt;p&gt;Strategic toolkit for Head of Product to drive vision, alignment, and organizational excellence.&lt;/p&gt;
+&lt;h2 id="core-capabilities"&gt;Core Capabilities&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;OKR cascade generation and alignment&lt;/li&gt;
+&lt;li&gt;Market and competitive analysis&lt;/li&gt;
+&lt;li&gt;Product vision and strategy frameworks&lt;/li&gt;
+&lt;li&gt;Team scaling and organizational design&lt;/li&gt;
+&lt;li&gt;Metrics and KPI definition&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="key-scripts"&gt;Key Scripts&lt;/h2&gt;
+&lt;h3 id="okr_cascade_generatorpy"&gt;okr_cascade_generator.py&lt;/h3&gt;
+&lt;p&gt;Automatically cascades company OKRs down to product and team levels with alignment tracking.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Usage&lt;/strong&gt;: &lt;code&gt;python scripts/okr_cascade_generator.py [strategy]&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Strategies: growth, retention, revenue, innovation, operational&lt;/li&gt;
+&lt;li&gt;Generates company → product → team OKR cascade&lt;/li&gt;
+&lt;li&gt;Calculates alignment scores&lt;/li&gt;
+&lt;li&gt;Tracks contribution percentages&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>

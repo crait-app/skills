@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Angular on Agent Skills Hub</title><link>https://agentskill.wiki/tags/angular/</link><description>Recent content in Angular on Agent Skills Hub</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/angular/index.xml" rel="self" type="application/rss+xml"/><item><title>Angular Migration</title><link>https://agentskill.wiki/en/skills/angular-migration/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/angular-migration/</guid><description>&lt;h1 id="angular-migration"&gt;Angular Migration&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Angular on Agent Skills Hub</title><link>https://agentskill.wiki/tags/angular/</link><description>Recent content in Angular on Agent Skills Hub</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/angular/index.xml" rel="self" type="application/rss+xml"/><item><title>Angular Migration</title><link>https://agentskill.wiki/skills/angular-migration/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/angular-migration/</guid><description>&lt;h1 id="angular-migration"&gt;Angular Migration&lt;/h1&gt;
 &lt;p&gt;Master AngularJS to Angular migration, including hybrid apps, component conversion, dependency injection changes, and routing migration.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -349,7 +349,7 @@ Phase 4: Cleanup (1-2 weeks)
 &lt;li&gt;Not handling scope properly&lt;/li&gt;
 &lt;li&gt;Mixing patterns (AngularJS + Angular)&lt;/li&gt;
 &lt;li&gt;Inadequate testing&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Angular Modernization</title><link>https://agentskill.wiki/en/skills/angular-modernization/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/angular-modernization/</guid><description>&lt;h1 id="angular-modernization"&gt;Angular Modernization&lt;/h1&gt;
+&lt;/ul&gt;</description></item><item><title>Angular Modernization</title><link>https://agentskill.wiki/skills/angular-modernization/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/angular-modernization/</guid><description>&lt;h1 id="angular-modernization"&gt;Angular Modernization&lt;/h1&gt;
 &lt;p&gt;Transforms legacy Angular components to modern architecture using a two-step approach:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;Automated migrations&lt;/strong&gt; - Angular CLI schematics for standalone, control flow, and signals&lt;/li&gt;
@@ -358,7 +358,7 @@ Phase 4: Cleanup (1-2 weeks)
 &lt;h2 id="workflow"&gt;Workflow&lt;/h2&gt;
 &lt;h3 id="step-1-run-angular-cli-migrations"&gt;Step 1: Run Angular CLI Migrations&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;⚠️ CRITICAL: ALWAYS use Angular CLI migrations when available. DO NOT manually migrate features that have CLI schematics.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;Angular provides automated schematics that handle edge cases, update tests, and ensure correctness. Manual migration should ONLY be used for patterns not covered by CLI tools.&lt;/p&gt;</description></item><item><title>Migrating To Vendure Dashboard</title><link>https://agentskill.wiki/en/skills/migrating-to-vendure-dashboard/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/migrating-to-vendure-dashboard/</guid><description>&lt;h1 id="vendure-dashboard-migration"&gt;Vendure Dashboard Migration&lt;/h1&gt;
+&lt;p&gt;Angular provides automated schematics that handle edge cases, update tests, and ensure correctness. Manual migration should ONLY be used for patterns not covered by CLI tools.&lt;/p&gt;</description></item><item><title>Migrating To Vendure Dashboard</title><link>https://agentskill.wiki/skills/migrating-to-vendure-dashboard/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/migrating-to-vendure-dashboard/</guid><description>&lt;h1 id="vendure-dashboard-migration"&gt;Vendure Dashboard Migration&lt;/h1&gt;
 &lt;h2 id="instructions"&gt;Instructions&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;If not explicitly stated by the user, find out which plugin they want to migrate.&lt;/li&gt;

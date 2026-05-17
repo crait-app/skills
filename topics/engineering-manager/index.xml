@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Engineering Manager on Agent Skills Hub</title><link>https://agentskill.wiki/topics/engineering-manager/</link><description>Recent content in Engineering Manager on Agent Skills Hub</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/topics/engineering-manager/index.xml" rel="self" type="application/rss+xml"/><item><title>Architecture Decision Records</title><link>https://agentskill.wiki/en/skills/architecture-decision-records/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/architecture-decision-records/</guid><description>&lt;h1 id="architecture-decision-records"&gt;Architecture Decision Records&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Engineering Manager on Agent Skills Hub</title><link>https://agentskill.wiki/topics/engineering-manager/</link><description>Recent content in Engineering Manager on Agent Skills Hub</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/topics/engineering-manager/index.xml" rel="self" type="application/rss+xml"/><item><title>Architecture Decision Records</title><link>https://agentskill.wiki/skills/architecture-decision-records/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/architecture-decision-records/</guid><description>&lt;h1 id="architecture-decision-records"&gt;Architecture Decision Records&lt;/h1&gt;
 &lt;p&gt;Comprehensive patterns for creating, maintaining, and managing Architecture Decision Records (ADRs) that capture the context and rationale behind significant technical decisions.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -264,7 +264,7 @@
 OrderItemAdded { orderId, item, timestamp }
 OrderItemRemoved { orderId, itemId, timestamp }
 PaymentReceived { orderId, amount, paymentId, timestamp }
-OrderShipped { orderId, trackingNumber, timestamp }&lt;/p&gt;</description></item><item><title>Code Review Excellence</title><link>https://agentskill.wiki/en/skills/code-review-excellence/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/code-review-excellence/</guid><description>&lt;h1 id="code-review-excellence"&gt;Code Review Excellence&lt;/h1&gt;
+OrderShipped { orderId, trackingNumber, timestamp }&lt;/p&gt;</description></item><item><title>Code Review Excellence</title><link>https://agentskill.wiki/skills/code-review-excellence/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/code-review-excellence/</guid><description>&lt;h1 id="code-review-excellence"&gt;Code Review Excellence&lt;/h1&gt;
 &lt;p&gt;Transform code reviews from gatekeeping to knowledge sharing through constructive feedback, systematic analysis, and collaborative improvement.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -279,14 +279,14 @@ OrderShipped { orderId, trackingNumber, timestamp }&lt;/p&gt;</description></ite
 &lt;/ul&gt;
 &lt;h2 id="core-principles"&gt;Core Principles&lt;/h2&gt;
 &lt;h3 id="1-the-review-mindset"&gt;1. The Review Mindset&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Goals of Code Review:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Cto Advisor</title><link>https://agentskill.wiki/en/skills/cto-advisor/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/cto-advisor/</guid><description>&lt;h1 id="cto-advisor"&gt;CTO Advisor&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Goals of Code Review:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Cto Advisor</title><link>https://agentskill.wiki/skills/cto-advisor/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/cto-advisor/</guid><description>&lt;h1 id="cto-advisor"&gt;CTO Advisor&lt;/h1&gt;
 &lt;p&gt;Strategic frameworks and tools for technology leadership, team scaling, and engineering excellence.&lt;/p&gt;
 &lt;h2 id="keywords"&gt;Keywords&lt;/h2&gt;
 &lt;p&gt;CTO, chief technology officer, technical leadership, tech debt, technical debt, engineering team, team scaling, architecture decisions, technology evaluation, engineering metrics, DORA metrics, ADR, architecture decision records, technology strategy, engineering leadership, engineering organization, team structure, hiring plan, technical strategy, vendor evaluation, technology selection&lt;/p&gt;
 &lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;
 &lt;h3 id="for-technical-debt-assessment"&gt;For Technical Debt Assessment&lt;/h3&gt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;python scripts/tech_debt_analyzer.py
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Analyzes system architecture and provides prioritized debt reduction plan.&lt;/p&gt;</description></item><item><title>Feature Design Assistant</title><link>https://agentskill.wiki/en/skills/feature-design-assistant/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/feature-design-assistant/</guid><description>&lt;h1 id="feature-design-assistant"&gt;Feature Design Assistant&lt;/h1&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Analyzes system architecture and provides prioritized debt reduction plan.&lt;/p&gt;</description></item><item><title>Feature Design Assistant</title><link>https://agentskill.wiki/skills/feature-design-assistant/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/feature-design-assistant/</guid><description>&lt;h1 id="feature-design-assistant"&gt;Feature Design Assistant&lt;/h1&gt;
 &lt;p&gt;Help turn ideas into fully formed designs and specs through structured information gathering and collaborative validation.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Announce at start:&lt;/strong&gt; &amp;ldquo;I&amp;rsquo;m using the feature-design-assistant skill to design this feature.&amp;rdquo;&lt;/p&gt;
 &lt;h2 id="phase-1-context-discovery"&gt;Phase 1: Context Discovery&lt;/h2&gt;
@@ -298,7 +298,7 @@ OrderShipped { orderId, trackingNumber, timestamp }&lt;/p&gt;</description></ite
 &lt;li&gt;Recent changes in relevant areas&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="phase-2-structured-information-gathering"&gt;Phase 2: Structured Information Gathering&lt;/h2&gt;
-&lt;p&gt;Use &lt;strong&gt;AskUserQuestion&lt;/strong&gt; to batch collect information efficiently. Each call can ask up to 4 questions.&lt;/p&gt;</description></item><item><title>Incident Runbook Templates</title><link>https://agentskill.wiki/en/skills/incident-runbook-templates/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/incident-runbook-templates/</guid><description>&lt;h1 id="incident-runbook-templates"&gt;Incident Runbook Templates&lt;/h1&gt;
+&lt;p&gt;Use &lt;strong&gt;AskUserQuestion&lt;/strong&gt; to batch collect information efficiently. Each call can ask up to 4 questions.&lt;/p&gt;</description></item><item><title>Incident Runbook Templates</title><link>https://agentskill.wiki/skills/incident-runbook-templates/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/incident-runbook-templates/</guid><description>&lt;h1 id="incident-runbook-templates"&gt;Incident Runbook Templates&lt;/h1&gt;
 &lt;p&gt;Production-ready templates for incident response runbooks covering detection, triage, mitigation, resolution, and communication.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -710,7 +710,7 @@ AND query_start &amp;lt; now() - interval &amp;#39;10 minutes&amp;#39;;
 - [Google SRE Book - Incident Management](https://sre.google/sre-book/managing-incidents/)
 - [PagerDuty Incident Response](https://response.pagerduty.com/)
 - [Atlassian Incident Management](https://www.atlassian.com/incident-management)
-&lt;/code&gt;&lt;/pre&gt;</description></item><item><title>Linear</title><link>https://agentskill.wiki/en/skills/linear/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/linear/</guid><description>&lt;h1 id="linear"&gt;Linear&lt;/h1&gt;
+&lt;/code&gt;&lt;/pre&gt;</description></item><item><title>Linear</title><link>https://agentskill.wiki/skills/linear/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/linear/</guid><description>&lt;h1 id="linear"&gt;Linear&lt;/h1&gt;
 &lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;This skill provides a structured workflow for managing issues, projects &amp;amp; team workflows in Linear. It ensures consistent integration with the Linear MCP server, which offers natural-language project management for issues, projects, documentation, and team collaboration.&lt;/p&gt;
 &lt;h2 id="prerequisites"&gt;Prerequisites&lt;/h2&gt;
@@ -719,7 +719,7 @@ AND query_start &amp;lt; now() - interval &amp;#39;10 minutes&amp;#39;;
 &lt;li&gt;Confirm access to the relevant Linear workspace, teams, and projects&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="required-workflow"&gt;Required Workflow&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Follow these steps in order. Do not skip steps.&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Notion Meeting Intelligence</title><link>https://agentskill.wiki/en/skills/notion-meeting-intelligence/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/notion-meeting-intelligence/</guid><description>&lt;h1 id="meeting-intelligence"&gt;Meeting Intelligence&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Follow these steps in order. Do not skip steps.&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Notion Meeting Intelligence</title><link>https://agentskill.wiki/skills/notion-meeting-intelligence/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/notion-meeting-intelligence/</guid><description>&lt;h1 id="meeting-intelligence"&gt;Meeting Intelligence&lt;/h1&gt;
 &lt;p&gt;Prep meetings by pulling Notion context, tailoring agendas/pre-reads, and enriching with Codex research.&lt;/p&gt;
 &lt;h2 id="quick-start"&gt;Quick start&lt;/h2&gt;
 &lt;ol&gt;
@@ -748,7 +748,7 @@ AND query_start &amp;lt; now() - interval &amp;#39;10 minutes&amp;#39;;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;After successful login, the user will have to restart codex. You should finish your answer and tell them so when they try again they can continue with Step 1.&lt;/p&gt;</description></item><item><title>Notion Spec To Implementation</title><link>https://agentskill.wiki/en/skills/notion-spec-to-implementation/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/notion-spec-to-implementation/</guid><description>&lt;h1 id="spec-to-implementation"&gt;Spec to Implementation&lt;/h1&gt;
+&lt;p&gt;After successful login, the user will have to restart codex. You should finish your answer and tell them so when they try again they can continue with Step 1.&lt;/p&gt;</description></item><item><title>Notion Spec To Implementation</title><link>https://agentskill.wiki/skills/notion-spec-to-implementation/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/notion-spec-to-implementation/</guid><description>&lt;h1 id="spec-to-implementation"&gt;Spec to Implementation&lt;/h1&gt;
 &lt;p&gt;Convert a Notion spec into linked implementation plans, tasks, and ongoing status updates.&lt;/p&gt;
 &lt;h2 id="quick-start"&gt;Quick start&lt;/h2&gt;
 &lt;ol&gt;
@@ -777,7 +777,7 @@ AND query_start &amp;lt; now() - interval &amp;#39;10 minutes&amp;#39;;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;After successful login, the user will have to restart codex. You should finish your answer and tell them so when they try again they can continue with Step 1.&lt;/p&gt;</description></item><item><title>On Call Handoff Patterns</title><link>https://agentskill.wiki/en/skills/on-call-handoff-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/on-call-handoff-patterns/</guid><description>&lt;h1 id="on-call-handoff-patterns"&gt;On-Call Handoff Patterns&lt;/h1&gt;
+&lt;p&gt;After successful login, the user will have to restart codex. You should finish your answer and tell them so when they try again they can continue with Step 1.&lt;/p&gt;</description></item><item><title>On Call Handoff Patterns</title><link>https://agentskill.wiki/skills/on-call-handoff-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/on-call-handoff-patterns/</guid><description>&lt;h1 id="on-call-handoff-patterns"&gt;On-Call Handoff Patterns&lt;/h1&gt;
 &lt;p&gt;Effective patterns for on-call shift transitions, ensuring continuity, context transfer, and reliable incident response across shifts.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -1230,7 +1230,7 @@ I&amp;#39;ll be available on Slack until 17:00 today.
 &lt;li&gt;&lt;a href="https://sre.google/sre-book/being-on-call/"&gt;Google SRE - Being On-Call&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.pagerduty.com/resources/learn/on-call-management/"&gt;PagerDuty On-Call Guide&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://increment.com/on-call/"&gt;Increment On-Call Issue&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Senior Architect</title><link>https://agentskill.wiki/en/skills/senior-architect/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/senior-architect/</guid><description>&lt;h1 id="senior-architect"&gt;Senior Architect&lt;/h1&gt;
+&lt;/ul&gt;</description></item><item><title>Senior Architect</title><link>https://agentskill.wiki/skills/senior-architect/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/senior-architect/</guid><description>&lt;h1 id="senior-architect"&gt;Senior Architect&lt;/h1&gt;
 &lt;p&gt;Complete toolkit for senior architect with modern tools and best practices.&lt;/p&gt;
 &lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;
 &lt;h3 id="main-capabilities"&gt;Main Capabilities&lt;/h3&gt;

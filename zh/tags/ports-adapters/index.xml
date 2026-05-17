@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ports-Adapters on Agent Skills Hub</title><link>https://agentskill.wiki/zh/tags/ports-adapters/</link><description>Recent content in Ports-Adapters on Agent Skills Hub</description><generator>Hugo</generator><language>zh</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/zh/tags/ports-adapters/index.xml" rel="self" type="application/rss+xml"/><item><title>Architecture Patterns</title><link>https://agentskill.wiki/zh/skills/architecture-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/zh/skills/architecture-patterns/</guid><description>&lt;h1 id="architecture-patterns"&gt;Architecture Patterns&lt;/h1&gt;
+&lt;p&gt;Master proven backend architecture patterns including Clean Architecture, Hexagonal Architecture, and Domain-Driven Design to build maintainable, testable, and scalable systems.&lt;/p&gt;
+&lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Designing new backend systems from scratch&lt;/li&gt;
+&lt;li&gt;Refactoring monolithic applications for better maintainability&lt;/li&gt;
+&lt;li&gt;Establishing architecture standards for your team&lt;/li&gt;
+&lt;li&gt;Migrating from tightly coupled to loosely coupled architectures&lt;/li&gt;
+&lt;li&gt;Implementing domain-driven design principles&lt;/li&gt;
+&lt;li&gt;Creating testable and mockable codebases&lt;/li&gt;
+&lt;li&gt;Planning microservices decomposition&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="core-concepts"&gt;Core Concepts&lt;/h2&gt;
+&lt;h3 id="1-clean-architecture-uncle-bob"&gt;1. Clean Architecture (Uncle Bob)&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Layers (dependency flows inward):&lt;/strong&gt;&lt;/p&gt;</description></item></channel></rss>

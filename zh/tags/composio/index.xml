@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Composio on Agent Skills Hub</title><link>https://agentskill.wiki/zh/tags/composio/</link><description>Recent content in Composio on Agent Skills Hub</description><generator>Hugo</generator><language>zh</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/zh/tags/composio/index.xml" rel="self" type="application/rss+xml"/><item><title>Connect</title><link>https://agentskill.wiki/zh/skills/connect/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/zh/skills/connect/</guid><description>&lt;h1 id="connect"&gt;Connect&lt;/h1&gt;
+&lt;p&gt;Connect Claude to any app. Stop generating text about what you could do - actually do it.&lt;/p&gt;
+&lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
+&lt;p&gt;Use this skill when you need Claude to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Send that email&lt;/strong&gt; instead of drafting it&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Create that issue&lt;/strong&gt; instead of describing it&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Post that message&lt;/strong&gt; instead of suggesting it&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Update that database&lt;/strong&gt; instead of explaining how&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="what-changes"&gt;What Changes&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Without Connect&lt;/th&gt;
+ &lt;th&gt;With Connect&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&amp;ldquo;Here&amp;rsquo;s a draft email&amp;hellip;&amp;rdquo;&lt;/td&gt;
+ &lt;td&gt;Sends the email&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&amp;ldquo;You should create an issue&amp;hellip;&amp;rdquo;&lt;/td&gt;
+ &lt;td&gt;Creates the issue&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&amp;ldquo;Post this to Slack&amp;hellip;&amp;rdquo;&lt;/td&gt;
+ &lt;td&gt;Posts it&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&amp;ldquo;Add this to Notion&amp;hellip;&amp;rdquo;&lt;/td&gt;
+ &lt;td&gt;Adds it&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id="supported-apps"&gt;Supported Apps&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;1000+ integrations&lt;/strong&gt; including:&lt;/p&gt;</description></item><item><title>Connect Apps</title><link>https://agentskill.wiki/zh/skills/connect-apps/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/zh/skills/connect-apps/</guid><description>&lt;h1 id="connect-apps"&gt;Connect Apps&lt;/h1&gt;
+&lt;p&gt;Connect Claude to 1000+ apps. Actually send emails, create issues, post messages - not just generate text about it.&lt;/p&gt;
+&lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;
+&lt;h3 id="step-1-install-the-plugin"&gt;Step 1: Install the Plugin&lt;/h3&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;/plugin install composio-toolrouter
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id="step-2-run-setup"&gt;Step 2: Run Setup&lt;/h3&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;/composio-toolrouter:setup
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;This will:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Ask for your free API key (get one at &lt;a href="https://platform.composio.dev/?utm_source=Github&amp;amp;utm_content=AwesomeSkills"&gt;platform.composio.dev&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;Configure Claude&amp;rsquo;s connection to 1000+ apps&lt;/li&gt;
+&lt;li&gt;Take about 60 seconds&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="step-3-try-it"&gt;Step 3: Try It!&lt;/h3&gt;
+&lt;p&gt;After setup, restart Claude Code and try:&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;Send me a test email at YOUR_EMAIL@example.com
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;If it works, you&amp;rsquo;re connected!&lt;/p&gt;</description></item></channel></rss>

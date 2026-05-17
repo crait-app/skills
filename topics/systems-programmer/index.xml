@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Systems Programmer on Agent Skills Hub</title><link>https://agentskill.wiki/topics/systems-programmer/</link><description>Recent content in Systems Programmer on Agent Skills Hub</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/topics/systems-programmer/index.xml" rel="self" type="application/rss+xml"/><item><title>Go Concurrency Patterns</title><link>https://agentskill.wiki/en/skills/go-concurrency-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/go-concurrency-patterns/</guid><description>&lt;h1 id="go-concurrency-patterns"&gt;Go Concurrency Patterns&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Systems Programmer on Agent Skills Hub</title><link>https://agentskill.wiki/topics/systems-programmer/</link><description>Recent content in Systems Programmer on Agent Skills Hub</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/topics/systems-programmer/index.xml" rel="self" type="application/rss+xml"/><item><title>Go Concurrency Patterns</title><link>https://agentskill.wiki/skills/go-concurrency-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/go-concurrency-patterns/</guid><description>&lt;h1 id="go-concurrency-patterns"&gt;Go Concurrency Patterns&lt;/h1&gt;
 &lt;p&gt;Production patterns for Go concurrency including goroutines, channels, synchronization primitives, and context management.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -629,7 +629,7 @@ share memory by communicating.
 &lt;li&gt;&lt;a href="https://go.dev/blog/pipelines"&gt;Go Concurrency Patterns&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://go.dev/doc/effective_go#concurrency"&gt;Effective Go - Concurrency&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://gobyexample.com/goroutines"&gt;Go by Example - Goroutines&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Gpui Async</title><link>https://agentskill.wiki/en/skills/gpui-async/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/gpui-async/</guid><description>&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;/ul&gt;</description></item><item><title>Gpui Async</title><link>https://agentskill.wiki/skills/gpui-async/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/gpui-async/</guid><description>&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;GPUI provides integrated async runtime for foreground UI updates and background computation.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Key Concepts:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -726,7 +726,7 @@ share memory by communicating.
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;5&lt;/span&gt;&lt;span&gt; }
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;6&lt;/span&gt;&lt;span&gt;}).detach();
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="4-task-cancellation"&gt;4. Task Cancellation&lt;/h3&gt;
-&lt;p&gt;Tasks are automatically cancelled when dropped. Store in struct to keep alive.&lt;/p&gt;</description></item><item><title>Gpui Context</title><link>https://agentskill.wiki/en/skills/gpui-context/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/gpui-context/</guid><description>&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Tasks are automatically cancelled when dropped. Store in struct to keep alive.&lt;/p&gt;</description></item><item><title>Gpui Context</title><link>https://agentskill.wiki/skills/gpui-context/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/gpui-context/</guid><description>&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;GPUI uses different context types for different scenarios:&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Context Types:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -846,7 +846,7 @@ share memory by communicating.
 &lt;li&gt;Async contexts, best practices&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Gpui Entity</title><link>https://agentskill.wiki/en/skills/gpui-entity/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/gpui-entity/</guid><description>&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;/ul&gt;</description></item><item><title>Gpui Entity</title><link>https://agentskill.wiki/skills/gpui-entity/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/gpui-entity/</guid><description>&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;An &lt;code&gt;Entity&amp;lt;T&amp;gt;&lt;/code&gt; is a handle to state of type &lt;code&gt;T&lt;/code&gt;, providing safe access and updates.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Key Methods:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -972,7 +972,7 @@ share memory by communicating.
 &lt;h3 id="implementation-guides"&gt;Implementation Guides&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Patterns&lt;/strong&gt;: See &lt;a href="references/patterns.md"&gt;patterns.md&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Rust Async Patterns</title><link>https://agentskill.wiki/en/skills/rust-async-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/rust-async-patterns/</guid><description>&lt;h1 id="rust-async-patterns"&gt;Rust Async Patterns&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Patterns&lt;/strong&gt;: See &lt;a href="references/patterns.md"&gt;patterns.md&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Rust Async Patterns</title><link>https://agentskill.wiki/skills/rust-async-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/rust-async-patterns/</guid><description>&lt;h1 id="rust-async-patterns"&gt;Rust Async Patterns&lt;/h1&gt;
 &lt;p&gt;Production patterns for async Rust programming with Tokio runtime, including tasks, channels, streams, and error handling.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -1459,7 +1459,7 @@ share memory by communicating.
 &lt;li&gt;&lt;a href="https://tokio.rs/tokio/tutorial"&gt;Tokio Tutorial&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://rust-lang.github.io/async-book/"&gt;Async Book&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/tokio-rs/console"&gt;Tokio Console&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Zig System Calls</title><link>https://agentskill.wiki/en/skills/zig-system-calls/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/zig-system-calls/</guid><description>&lt;h1 id="system-calls--file-io-in-zig"&gt;System Calls &amp;amp; File I/O in Zig&lt;/h1&gt;
+&lt;/ul&gt;</description></item><item><title>Zig System Calls</title><link>https://agentskill.wiki/skills/zig-system-calls/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/zig-system-calls/</guid><description>&lt;h1 id="system-calls--file-io-in-zig"&gt;System Calls &amp;amp; File I/O in Zig&lt;/h1&gt;
 &lt;p&gt;Use &lt;code&gt;bun.sys&lt;/code&gt; instead of &lt;code&gt;std.fs&lt;/code&gt; or &lt;code&gt;std.posix&lt;/code&gt; for cross-platform syscalls with proper error handling.&lt;/p&gt;
 &lt;h2 id="bunsysfile-preferred"&gt;bun.sys.File (Preferred)&lt;/h2&gt;
 &lt;p&gt;For most file operations, use the &lt;code&gt;bun.sys.File&lt;/code&gt; wrapper:&lt;/p&gt;

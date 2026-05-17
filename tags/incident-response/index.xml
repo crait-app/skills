@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Incident-Response on Agent Skills Hub</title><link>https://agentskill.wiki/tags/incident-response/</link><description>Recent content in Incident-Response on Agent Skills Hub</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/incident-response/index.xml" rel="self" type="application/rss+xml"/><item><title>Incident Runbook Templates</title><link>https://agentskill.wiki/en/skills/incident-runbook-templates/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/incident-runbook-templates/</guid><description>&lt;h1 id="incident-runbook-templates"&gt;Incident Runbook Templates&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Incident-Response on Agent Skills Hub</title><link>https://agentskill.wiki/tags/incident-response/</link><description>Recent content in Incident-Response on Agent Skills Hub</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/incident-response/index.xml" rel="self" type="application/rss+xml"/><item><title>Incident Runbook Templates</title><link>https://agentskill.wiki/skills/incident-runbook-templates/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/incident-runbook-templates/</guid><description>&lt;h1 id="incident-runbook-templates"&gt;Incident Runbook Templates&lt;/h1&gt;
 &lt;p&gt;Production-ready templates for incident response runbooks covering detection, triage, mitigation, resolution, and communication.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -410,7 +410,7 @@ AND query_start &amp;lt; now() - interval &amp;#39;10 minutes&amp;#39;;
 - [Google SRE Book - Incident Management](https://sre.google/sre-book/managing-incidents/)
 - [PagerDuty Incident Response](https://response.pagerduty.com/)
 - [Atlassian Incident Management](https://www.atlassian.com/incident-management)
-&lt;/code&gt;&lt;/pre&gt;</description></item><item><title>Memory Forensics</title><link>https://agentskill.wiki/en/skills/memory-forensics/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/memory-forensics/</guid><description>&lt;h1 id="memory-forensics"&gt;Memory Forensics&lt;/h1&gt;
+&lt;/code&gt;&lt;/pre&gt;</description></item><item><title>Memory Forensics</title><link>https://agentskill.wiki/skills/memory-forensics/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/memory-forensics/</guid><description>&lt;h1 id="memory-forensics"&gt;Memory Forensics&lt;/h1&gt;
 &lt;p&gt;Comprehensive techniques for acquiring, analyzing, and extracting artifacts from memory dumps for incident response and malware analysis.&lt;/p&gt;
 &lt;h2 id="memory-acquisition"&gt;Memory Acquisition&lt;/h2&gt;
 &lt;h3 id="live-acquisition-tools"&gt;Live Acquisition Tools&lt;/h3&gt;
@@ -780,7 +780,7 @@ rule Cobalt_Strike_Beacon
 &lt;li&gt;&lt;strong&gt;Symbol issues&lt;/strong&gt;: Ensure correct symbol files for OS version&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Smear&lt;/strong&gt;: Memory may change during acquisition&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Encryption&lt;/strong&gt;: Some data may be encrypted in memory&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>On Call Handoff Patterns</title><link>https://agentskill.wiki/en/skills/on-call-handoff-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/on-call-handoff-patterns/</guid><description>&lt;h1 id="on-call-handoff-patterns"&gt;On-Call Handoff Patterns&lt;/h1&gt;
+&lt;/ul&gt;</description></item><item><title>On Call Handoff Patterns</title><link>https://agentskill.wiki/skills/on-call-handoff-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/on-call-handoff-patterns/</guid><description>&lt;h1 id="on-call-handoff-patterns"&gt;On-Call Handoff Patterns&lt;/h1&gt;
 &lt;p&gt;Effective patterns for on-call shift transitions, ensuring continuity, context transfer, and reliable incident response across shifts.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;

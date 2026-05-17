@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ooxml on Agent Skills Hub</title><link>https://agentskill.wiki/zh/tags/ooxml/</link><description>Recent content in Ooxml on Agent Skills Hub</description><generator>Hugo</generator><language>zh</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/zh/tags/ooxml/index.xml" rel="self" type="application/rss+xml"/><item><title>Docx</title><link>https://agentskill.wiki/zh/skills/docx/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/zh/skills/docx/</guid><description>&lt;h1 id="docx-creation-editing-and-analysis"&gt;DOCX creation, editing, and analysis&lt;/h1&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;p&gt;A user may ask you to create, edit, or analyze the contents of a .docx file. A .docx file is essentially a ZIP archive containing XML files and other resources that you can read or edit. You have different tools and workflows available for different tasks.&lt;/p&gt;
+&lt;h2 id="workflow-decision-tree"&gt;Workflow Decision Tree&lt;/h2&gt;
+&lt;h3 id="readinganalyzing-content"&gt;Reading/Analyzing Content&lt;/h3&gt;
+&lt;p&gt;Use &amp;ldquo;Text extraction&amp;rdquo; or &amp;ldquo;Raw XML access&amp;rdquo; sections below&lt;/p&gt;
+&lt;h3 id="creating-new-document"&gt;Creating New Document&lt;/h3&gt;
+&lt;p&gt;Use &amp;ldquo;Creating a new Word document&amp;rdquo; workflow&lt;/p&gt;</description></item></channel></rss>

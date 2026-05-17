@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Database on Agent Skills Hub</title><link>https://agentskill.wiki/tags/database/</link><description>Recent content in Database on Agent Skills Hub</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/database/index.xml" rel="self" type="application/rss+xml"/><item><title>Clickhouse Query</title><link>https://agentskill.wiki/en/skills/clickhouse-query/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/clickhouse-query/</guid><description>&lt;h1 id="clickhouse-query-testing"&gt;ClickHouse Query Testing&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Database on Agent Skills Hub</title><link>https://agentskill.wiki/tags/database/</link><description>Recent content in Database on Agent Skills Hub</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/database/index.xml" rel="self" type="application/rss+xml"/><item><title>Clickhouse Query</title><link>https://agentskill.wiki/skills/clickhouse-query/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/clickhouse-query/</guid><description>&lt;h1 id="clickhouse-query-testing"&gt;ClickHouse Query Testing&lt;/h1&gt;
 &lt;p&gt;Use this skill to run ad-hoc ClickHouse queries for analytics, metrics analysis, and debugging.&lt;/p&gt;
 &lt;h2 id="running-queries"&gt;Running Queries&lt;/h2&gt;
 &lt;p&gt;Use the included query script:&lt;/p&gt;
@@ -63,7 +63,7 @@
 &lt;li&gt;&lt;strong&gt;Explicit permission required&lt;/strong&gt;: Before using &lt;code&gt;--writable&lt;/code&gt;, you MUST ask the user for permission&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id="when-to-use-writable"&gt;When to Use &amp;ndash;writable&lt;/h2&gt;
-&lt;p&gt;Only use the &lt;code&gt;--writable&lt;/code&gt; flag when:&lt;/p&gt;</description></item><item><title>N8N Workflow Patterns</title><link>https://agentskill.wiki/en/skills/n8n-workflow-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/n8n-workflow-patterns/</guid><description>&lt;h1 id="n8n-workflow-patterns"&gt;n8n Workflow Patterns&lt;/h1&gt;
+&lt;p&gt;Only use the &lt;code&gt;--writable&lt;/code&gt; flag when:&lt;/p&gt;</description></item><item><title>N8N Workflow Patterns</title><link>https://agentskill.wiki/skills/n8n-workflow-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/n8n-workflow-patterns/</guid><description>&lt;h1 id="n8n-workflow-patterns"&gt;n8n Workflow Patterns&lt;/h1&gt;
 &lt;p&gt;Proven architectural patterns for building n8n workflows.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id="the-5-core-patterns"&gt;The 5 Core Patterns&lt;/h2&gt;
@@ -91,12 +91,12 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href="ai_agent_workflow.md"&gt;AI Agent Workflow&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Obsidian Bases</title><link>https://agentskill.wiki/en/skills/obsidian-bases/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/obsidian-bases/</guid><description>&lt;h1 id="obsidian-bases-skill"&gt;Obsidian Bases Skill&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;&lt;a href="ai_agent_workflow.md"&gt;AI Agent Workflow&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Obsidian Bases</title><link>https://agentskill.wiki/skills/obsidian-bases/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/obsidian-bases/</guid><description>&lt;h1 id="obsidian-bases-skill"&gt;Obsidian Bases Skill&lt;/h1&gt;
 &lt;p&gt;This skill enables Claude Code to create and edit valid Obsidian Bases (&lt;code&gt;.base&lt;/code&gt; files) including views, filters, formulas, and all related configurations.&lt;/p&gt;
 &lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;Obsidian Bases are YAML-based files that define dynamic views of notes in an Obsidian vault. A Base file can contain multiple views, global filters, formulas, property configurations, and custom summaries.&lt;/p&gt;
 &lt;h2 id="file-format"&gt;File Format&lt;/h2&gt;
-&lt;p&gt;Base files use the &lt;code&gt;.base&lt;/code&gt; extension and contain valid YAML. They can also be embedded in Markdown code blocks.&lt;/p&gt;</description></item><item><title>Payload</title><link>https://agentskill.wiki/en/skills/payload/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/payload/</guid><description>&lt;h1 id="payload-cms-application-development"&gt;Payload CMS Application Development&lt;/h1&gt;
+&lt;p&gt;Base files use the &lt;code&gt;.base&lt;/code&gt; extension and contain valid YAML. They can also be embedded in Markdown code blocks.&lt;/p&gt;</description></item><item><title>Payload</title><link>https://agentskill.wiki/skills/payload/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/payload/</guid><description>&lt;h1 id="payload-cms-application-development"&gt;Payload CMS Application Development&lt;/h1&gt;
 &lt;p&gt;Payload is a Next.js native CMS with TypeScript-first architecture, providing admin panel, database management, REST/GraphQL APIs, authentication, and file storage.&lt;/p&gt;
 &lt;h2 id="quick-reference"&gt;Quick Reference&lt;/h2&gt;
 &lt;table&gt;
@@ -294,7 +294,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;14&lt;/span&gt;&lt;span&gt; ],
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;15&lt;/span&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;timestamps&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;true&lt;/span&gt;,
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;16&lt;/span&gt;&lt;span&gt;}
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;For more collection patterns (auth, upload, drafts, live preview), see &lt;a href="reference/COLLECTIONS.md"&gt;COLLECTIONS.md&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Railway Database</title><link>https://agentskill.wiki/en/skills/railway-database/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/railway-database/</guid><description>&lt;h1 id="railway-database"&gt;Railway Database&lt;/h1&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;For more collection patterns (auth, upload, drafts, live preview), see &lt;a href="reference/COLLECTIONS.md"&gt;COLLECTIONS.md&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Railway Database</title><link>https://agentskill.wiki/skills/railway-database/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/railway-database/</guid><description>&lt;h1 id="railway-database"&gt;Railway Database&lt;/h1&gt;
 &lt;p&gt;Add official Railway database services. These are maintained templates with pre-configured volumes, networking, and connection variables.&lt;/p&gt;
 &lt;p&gt;For non-database templates, see the &lt;code&gt;railway-templates&lt;/code&gt; skill.&lt;/p&gt;
 &lt;h2 id="when-to-use"&gt;When to Use&lt;/h2&gt;
@@ -306,7 +306,7 @@
 &lt;li&gt;User says &amp;ldquo;wire up the database&amp;rdquo;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="decision-flow"&gt;Decision Flow&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;ALWAYS check for existing databases FIRST before creating.&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Railway Templates</title><link>https://agentskill.wiki/en/skills/railway-templates/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/railway-templates/</guid><description>&lt;h1 id="railway-templates"&gt;Railway Templates&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;ALWAYS check for existing databases FIRST before creating.&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Railway Templates</title><link>https://agentskill.wiki/skills/railway-templates/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/railway-templates/</guid><description>&lt;h1 id="railway-templates"&gt;Railway Templates&lt;/h1&gt;
 &lt;p&gt;Search and deploy services from Railway&amp;rsquo;s template marketplace.&lt;/p&gt;
 &lt;h2 id="when-to-use"&gt;When to Use&lt;/h2&gt;
 &lt;ul&gt;
@@ -373,7 +373,7 @@
  &lt;/tr&gt;
  &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;For other templates, use the search query below.&lt;/p&gt;</description></item><item><title>Sql Optimization Patterns</title><link>https://agentskill.wiki/en/skills/sql-optimization-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/sql-optimization-patterns/</guid><description>&lt;h1 id="sql-optimization-patterns"&gt;SQL Optimization Patterns&lt;/h1&gt;
+&lt;p&gt;For other templates, use the search query below.&lt;/p&gt;</description></item><item><title>Sql Optimization Patterns</title><link>https://agentskill.wiki/skills/sql-optimization-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/sql-optimization-patterns/</guid><description>&lt;h1 id="sql-optimization-patterns"&gt;SQL Optimization Patterns&lt;/h1&gt;
 &lt;p&gt;Transform slow database queries into lightning-fast operations through systematic optimization, proper indexing, and query plan analysis.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;

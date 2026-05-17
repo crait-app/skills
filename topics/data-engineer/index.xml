@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Data Engineer on Agent Skills Hub</title><link>https://agentskill.wiki/topics/data-engineer/</link><description>Recent content in Data Engineer on Agent Skills Hub</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/topics/data-engineer/index.xml" rel="self" type="application/rss+xml"/><item><title>Airflow Dag Patterns</title><link>https://agentskill.wiki/en/skills/airflow-dag-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/airflow-dag-patterns/</guid><description>&lt;h1 id="apache-airflow-dag-patterns"&gt;Apache Airflow DAG Patterns&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Data Engineer on Agent Skills Hub</title><link>https://agentskill.wiki/topics/data-engineer/</link><description>Recent content in Data Engineer on Agent Skills Hub</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/topics/data-engineer/index.xml" rel="self" type="application/rss+xml"/><item><title>Airflow Dag Patterns</title><link>https://agentskill.wiki/skills/airflow-dag-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/airflow-dag-patterns/</guid><description>&lt;h1 id="apache-airflow-dag-patterns"&gt;Apache Airflow DAG Patterns&lt;/h1&gt;
 &lt;p&gt;Production-ready patterns for Apache Airflow including DAG design, operators, sensors, testing, and deployment strategies.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -495,7 +495,7 @@
 &lt;li&gt;&lt;a href="https://airflow.apache.org/docs/"&gt;Airflow Documentation&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://docs.astronomer.io/learn"&gt;Astronomer Guides&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://airflow.apache.org/docs/apache-airflow/stable/tutorial/taskflow.html"&gt;TaskFlow API&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Clickhouse Query</title><link>https://agentskill.wiki/en/skills/clickhouse-query/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/clickhouse-query/</guid><description>&lt;h1 id="clickhouse-query-testing"&gt;ClickHouse Query Testing&lt;/h1&gt;
+&lt;/ul&gt;</description></item><item><title>Clickhouse Query</title><link>https://agentskill.wiki/skills/clickhouse-query/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/clickhouse-query/</guid><description>&lt;h1 id="clickhouse-query-testing"&gt;ClickHouse Query Testing&lt;/h1&gt;
 &lt;p&gt;Use this skill to run ad-hoc ClickHouse queries for analytics, metrics analysis, and debugging.&lt;/p&gt;
 &lt;h2 id="running-queries"&gt;Running Queries&lt;/h2&gt;
 &lt;p&gt;Use the included query script:&lt;/p&gt;
@@ -560,7 +560,7 @@
 &lt;li&gt;&lt;strong&gt;Explicit permission required&lt;/strong&gt;: Before using &lt;code&gt;--writable&lt;/code&gt;, you MUST ask the user for permission&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id="when-to-use-writable"&gt;When to Use &amp;ndash;writable&lt;/h2&gt;
-&lt;p&gt;Only use the &lt;code&gt;--writable&lt;/code&gt; flag when:&lt;/p&gt;</description></item><item><title>Cocoindex</title><link>https://agentskill.wiki/en/skills/cocoindex/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/cocoindex/</guid><description>&lt;h1 id="cocoindex"&gt;CocoIndex&lt;/h1&gt;
+&lt;p&gt;Only use the &lt;code&gt;--writable&lt;/code&gt; flag when:&lt;/p&gt;</description></item><item><title>Cocoindex</title><link>https://agentskill.wiki/skills/cocoindex/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/cocoindex/</guid><description>&lt;h1 id="cocoindex"&gt;CocoIndex&lt;/h1&gt;
 &lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;CocoIndex is an ultra-performant real-time data transformation framework for AI with incremental processing. This skill enables building &lt;strong&gt;indexing flows&lt;/strong&gt; that extract data from sources, apply transformations (chunking, embedding, LLM extraction), and export to targets (vector databases, graph databases, relational databases).&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Core capabilities:&lt;/strong&gt;&lt;/p&gt;
@@ -569,7 +569,7 @@
 &lt;li&gt;&lt;strong&gt;Create custom functions&lt;/strong&gt; - Build reusable transformation logic&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Operate flows&lt;/strong&gt; - Run and manage flows using CLI or Python API&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;strong&gt;Key features:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Component Search</title><link>https://agentskill.wiki/en/skills/component-search/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/component-search/</guid><description>&lt;h1 id="redpanda-connect-component-search"&gt;Redpanda Connect Component Search&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Key features:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Component Search</title><link>https://agentskill.wiki/skills/component-search/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/component-search/</guid><description>&lt;h1 id="redpanda-connect-component-search"&gt;Redpanda Connect Component Search&lt;/h1&gt;
 &lt;p&gt;Help users discover the right Redpanda Connect components for their streaming pipeline needs.&lt;/p&gt;
 &lt;h2 id="objective"&gt;Objective&lt;/h2&gt;
 &lt;p&gt;Find and recommend the most relevant components that match the user&amp;rsquo;s natural language query.
@@ -578,7 +578,7 @@ Provide enough information for users to understand what each component does, how
 &lt;p&gt;This skill requires: &lt;code&gt;rpk&lt;/code&gt;, &lt;code&gt;rpk connect&lt;/code&gt;, &lt;code&gt;python3&lt;/code&gt;.
 See the &lt;a href="SETUP.md"&gt;SETUP&lt;/a&gt; for installation instructions.&lt;/p&gt;
 &lt;h2 id="component-categories"&gt;Component Categories&lt;/h2&gt;
-&lt;p&gt;Redpanda Connect has 8 types of components:&lt;/p&gt;</description></item><item><title>Dbt Transformation Patterns</title><link>https://agentskill.wiki/en/skills/dbt-transformation-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/dbt-transformation-patterns/</guid><description>&lt;h1 id="dbt-transformation-patterns"&gt;dbt Transformation Patterns&lt;/h1&gt;
+&lt;p&gt;Redpanda Connect has 8 types of components:&lt;/p&gt;</description></item><item><title>Dbt Transformation Patterns</title><link>https://agentskill.wiki/skills/dbt-transformation-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/dbt-transformation-patterns/</guid><description>&lt;h1 id="dbt-transformation-patterns"&gt;dbt Transformation Patterns&lt;/h1&gt;
 &lt;p&gt;Production-ready patterns for dbt (data build tool) including model organization, testing strategies, documentation, and incremental processing.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -1101,7 +1101,7 @@ models/
 &lt;li&gt;&lt;a href="https://docs.getdbt.com/guides/best-practices"&gt;dbt Best Practices&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://hub.getdbt.com/dbt-labs/dbt_utils/latest/"&gt;dbt-utils Package&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://discourse.getdbt.com/"&gt;dbt Discourse&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Guidance</title><link>https://agentskill.wiki/en/skills/guidance/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/guidance/</guid><description>&lt;h1 id="guidance-constrained-llm-generation"&gt;Guidance: Constrained LLM Generation&lt;/h1&gt;
+&lt;/ul&gt;</description></item><item><title>Guidance</title><link>https://agentskill.wiki/skills/guidance/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/guidance/</guid><description>&lt;h1 id="guidance-constrained-llm-generation"&gt;Guidance: Constrained LLM Generation&lt;/h1&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;p&gt;Use Guidance when you need to:&lt;/p&gt;
 &lt;ul&gt;
@@ -1148,7 +1148,7 @@ models/
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;14&lt;/span&gt;&lt;span&gt; lm &lt;span style="color:#f92672"&gt;+=&lt;/span&gt; gen(max_tokens&lt;span style="color:#f92672"&gt;=&lt;/span&gt;&lt;span style="color:#ae81ff"&gt;20&lt;/span&gt;)
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="core-concepts"&gt;Core Concepts&lt;/h2&gt;
 &lt;h3 id="1-context-managers"&gt;1. Context Managers&lt;/h3&gt;
-&lt;p&gt;Guidance uses Pythonic context managers for chat-style interactions.&lt;/p&gt;</description></item><item><title>N8N Code Javascript</title><link>https://agentskill.wiki/en/skills/n8n-code-javascript/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/n8n-code-javascript/</guid><description>&lt;h1 id="javascript-code-node"&gt;JavaScript Code Node&lt;/h1&gt;
+&lt;p&gt;Guidance uses Pythonic context managers for chat-style interactions.&lt;/p&gt;</description></item><item><title>N8N Code Javascript</title><link>https://agentskill.wiki/skills/n8n-code-javascript/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/n8n-code-javascript/</guid><description>&lt;h1 id="javascript-code-node"&gt;JavaScript Code Node&lt;/h1&gt;
 &lt;p&gt;Expert guidance for writing JavaScript code in n8n Code nodes.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;
@@ -1175,7 +1175,7 @@ models/
 &lt;/ol&gt;
 &lt;hr&gt;
 &lt;h2 id="mode-selection-guide"&gt;Mode Selection Guide&lt;/h2&gt;
-&lt;p&gt;The Code node offers two execution modes. Choose based on your use case:&lt;/p&gt;</description></item><item><title>Python Performance Optimization</title><link>https://agentskill.wiki/en/skills/python-performance-optimization/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/python-performance-optimization/</guid><description>&lt;h1 id="python-performance-optimization"&gt;Python Performance Optimization&lt;/h1&gt;
+&lt;p&gt;The Code node offers two execution modes. Choose based on your use case:&lt;/p&gt;</description></item><item><title>Python Performance Optimization</title><link>https://agentskill.wiki/skills/python-performance-optimization/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/python-performance-optimization/</guid><description>&lt;h1 id="python-performance-optimization"&gt;Python Performance Optimization&lt;/h1&gt;
 &lt;p&gt;Comprehensive guide to profiling, analyzing, and optimizing Python code for better performance, including CPU profiling, memory optimization, and implementation best practices.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -1274,7 +1274,7 @@ models/
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;35&lt;/span&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;36&lt;/span&gt;&lt;span&gt; &lt;span style="color:#75715e"&gt;# Save to file for later analysis&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;37&lt;/span&gt;&lt;span&gt; stats&lt;span style="color:#f92672"&gt;.&lt;/span&gt;dump_stats(&lt;span style="color:#e6db74"&gt;&amp;#34;profile_output.prof&amp;#34;&lt;/span&gt;)
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Command-line profiling:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Sql Optimization Patterns</title><link>https://agentskill.wiki/en/skills/sql-optimization-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/sql-optimization-patterns/</guid><description>&lt;h1 id="sql-optimization-patterns"&gt;SQL Optimization Patterns&lt;/h1&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Command-line profiling:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Sql Optimization Patterns</title><link>https://agentskill.wiki/skills/sql-optimization-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/sql-optimization-patterns/</guid><description>&lt;h1 id="sql-optimization-patterns"&gt;SQL Optimization Patterns&lt;/h1&gt;
 &lt;p&gt;Transform slow database queries into lightning-fast operations through systematic optimization, proper indexing, and query plan analysis.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -1289,7 +1289,7 @@ models/
 &lt;/ul&gt;
 &lt;h2 id="core-concepts"&gt;Core Concepts&lt;/h2&gt;
 &lt;h3 id="1-query-execution-plans-explain"&gt;1. Query Execution Plans (EXPLAIN)&lt;/h3&gt;
-&lt;p&gt;Understanding EXPLAIN output is fundamental to optimization.&lt;/p&gt;</description></item><item><title>Data Pipeline Builder</title><link>https://agentskill.wiki/en/skills/data-pipeline-builder/</link><pubDate>Wed, 14 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/data-pipeline-builder/</guid><description>&lt;h2 id="introduction"&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Understanding EXPLAIN output is fundamental to optimization.&lt;/p&gt;</description></item><item><title>Data Pipeline Builder</title><link>https://agentskill.wiki/skills/data-pipeline-builder/</link><pubDate>Wed, 14 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/data-pipeline-builder/</guid><description>&lt;h2 id="introduction"&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;Data Pipeline Builder allows you to quickly build robust data processing pipelines without writing lots of boilerplate code.&lt;/p&gt;
 &lt;h3 id="key-features"&gt;Key Features&lt;/h3&gt;
 &lt;ul&gt;

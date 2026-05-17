@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Debugging on Agent Skills Hub</title><link>https://agentskill.wiki/tags/debugging/</link><description>Recent content in Debugging on Agent Skills Hub</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/debugging/index.xml" rel="self" type="application/rss+xml"/><item><title>Agent Review</title><link>https://agentskill.wiki/en/skills/agent-review/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/agent-review/</guid><description>&lt;h1 id="agent-review"&gt;Agent Review&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Debugging on Agent Skills Hub</title><link>https://agentskill.wiki/tags/debugging/</link><description>Recent content in Debugging on Agent Skills Hub</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/debugging/index.xml" rel="self" type="application/rss+xml"/><item><title>Agent Review</title><link>https://agentskill.wiki/skills/agent-review/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/agent-review/</guid><description>&lt;h1 id="agent-review"&gt;Agent Review&lt;/h1&gt;
 &lt;p&gt;Get feedback from an external AI agent. Useful for code review, architecture decisions, or getting a second opinion.&lt;/p&gt;
 &lt;h2 id="running-commands"&gt;Running Commands&lt;/h2&gt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;echo &lt;span style="color:#e6db74"&gt;&amp;#34;code or prompt&amp;#34;&lt;/span&gt; | node .claude/skills/agent-review/query.mjs &lt;span style="color:#f92672"&gt;[&lt;/span&gt;options&lt;span style="color:#f92672"&gt;]&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;Your question&amp;#34;&lt;/span&gt;
@@ -99,7 +99,7 @@
  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;Anthropic models route through Claude Agent SDK (uses your Claude subscription).
-Other models route through OpenRouter API (requires &lt;code&gt;OPENROUTER_API_KEY&lt;/code&gt;).&lt;/p&gt;</description></item><item><title>Binary Analysis Patterns</title><link>https://agentskill.wiki/en/skills/binary-analysis-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/binary-analysis-patterns/</guid><description>&lt;h1 id="binary-analysis-patterns"&gt;Binary Analysis Patterns&lt;/h1&gt;
+Other models route through OpenRouter API (requires &lt;code&gt;OPENROUTER_API_KEY&lt;/code&gt;).&lt;/p&gt;</description></item><item><title>Binary Analysis Patterns</title><link>https://agentskill.wiki/skills/binary-analysis-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/binary-analysis-patterns/</guid><description>&lt;h1 id="binary-analysis-patterns"&gt;Binary Analysis Patterns&lt;/h1&gt;
 &lt;p&gt;Comprehensive patterns and techniques for analyzing compiled binaries, understanding assembly code, and reconstructing program logic.&lt;/p&gt;
 &lt;h2 id="disassembly-fundamentals"&gt;Disassembly Fundamentals&lt;/h2&gt;
 &lt;h3 id="x86-64-instruction-patterns"&gt;x86-64 Instruction Patterns&lt;/h3&gt;
@@ -122,7 +122,7 @@ Other models route through OpenRouter API (requires &lt;code&gt;OPENROUTER_API_K
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;16&lt;/span&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;leave&lt;/span&gt; &lt;span style="color:#75715e"&gt;; mov rsp, rbp; pop rbp
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;17&lt;/span&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;ret&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id="calling-conventions"&gt;Calling Conventions&lt;/h4&gt;
-&lt;p&gt;&lt;strong&gt;System V AMD64 (Linux, macOS)&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Clickhouse Query</title><link>https://agentskill.wiki/en/skills/clickhouse-query/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/clickhouse-query/</guid><description>&lt;h1 id="clickhouse-query-testing"&gt;ClickHouse Query Testing&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;System V AMD64 (Linux, macOS)&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Clickhouse Query</title><link>https://agentskill.wiki/skills/clickhouse-query/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/clickhouse-query/</guid><description>&lt;h1 id="clickhouse-query-testing"&gt;ClickHouse Query Testing&lt;/h1&gt;
 &lt;p&gt;Use this skill to run ad-hoc ClickHouse queries for analytics, metrics analysis, and debugging.&lt;/p&gt;
 &lt;h2 id="running-queries"&gt;Running Queries&lt;/h2&gt;
 &lt;p&gt;Use the included query script:&lt;/p&gt;
@@ -187,7 +187,7 @@ Other models route through OpenRouter API (requires &lt;code&gt;OPENROUTER_API_K
 &lt;li&gt;&lt;strong&gt;Explicit permission required&lt;/strong&gt;: Before using &lt;code&gt;--writable&lt;/code&gt;, you MUST ask the user for permission&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id="when-to-use-writable"&gt;When to Use &amp;ndash;writable&lt;/h2&gt;
-&lt;p&gt;Only use the &lt;code&gt;--writable&lt;/code&gt; flag when:&lt;/p&gt;</description></item><item><title>Debug</title><link>https://agentskill.wiki/en/skills/debug/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/debug/</guid><description>&lt;h1 id="debug-mode"&gt;Debug Mode&lt;/h1&gt;
+&lt;p&gt;Only use the &lt;code&gt;--writable&lt;/code&gt; flag when:&lt;/p&gt;</description></item><item><title>Debug</title><link>https://agentskill.wiki/skills/debug/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/debug/</guid><description>&lt;h1 id="debug-mode"&gt;Debug Mode&lt;/h1&gt;
 &lt;p&gt;Fix bugs with &lt;strong&gt;runtime evidence&lt;/strong&gt;, not guesses.&lt;/p&gt;
 &lt;pre tabindex="0"&gt;&lt;code&gt;Don&amp;#39;t guess → Hypothesize → Instrument → Reproduce → Analyze → Fix → Verify
 &lt;/code&gt;&lt;/pre&gt;&lt;h2 id="when-to-use"&gt;When to Use&lt;/h2&gt;
@@ -198,7 +198,7 @@ Other models route through OpenRouter API (requires &lt;code&gt;OPENROUTER_API_K
 &lt;li&gt;&amp;ldquo;Add console.log and let me know the output&amp;rdquo;&lt;/li&gt;
 &lt;li&gt;&amp;ldquo;Click X, open Y, check if Z appears in console&amp;rdquo;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Example scenario that should trigger this skill:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Debugging Strategies</title><link>https://agentskill.wiki/en/skills/debugging-strategies/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/debugging-strategies/</guid><description>&lt;h1 id="debugging-strategies"&gt;Debugging Strategies&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Example scenario that should trigger this skill:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Debugging Strategies</title><link>https://agentskill.wiki/skills/debugging-strategies/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/debugging-strategies/</guid><description>&lt;h1 id="debugging-strategies"&gt;Debugging Strategies&lt;/h1&gt;
 &lt;p&gt;Transform debugging from frustrating guesswork into systematic problem-solving with proven strategies, powerful tools, and methodical approaches.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -217,7 +217,7 @@ Other models route through OpenRouter API (requires &lt;code&gt;OPENROUTER_API_K
 &lt;strong&gt;2. Hypothesize&lt;/strong&gt;: What could be causing it?
 &lt;strong&gt;3. Experiment&lt;/strong&gt;: Test your hypothesis
 &lt;strong&gt;4. Analyze&lt;/strong&gt;: Did it prove/disprove your theory?
-&lt;strong&gt;5. Repeat&lt;/strong&gt;: Until you find the root cause&lt;/p&gt;</description></item><item><title>Dispatching Parallel Agents</title><link>https://agentskill.wiki/en/skills/dispatching-parallel-agents/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/dispatching-parallel-agents/</guid><description>&lt;h1 id="dispatching-parallel-agents"&gt;Dispatching Parallel Agents&lt;/h1&gt;
+&lt;strong&gt;5. Repeat&lt;/strong&gt;: Until you find the root cause&lt;/p&gt;</description></item><item><title>Dispatching Parallel Agents</title><link>https://agentskill.wiki/skills/dispatching-parallel-agents/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/dispatching-parallel-agents/</guid><description>&lt;h1 id="dispatching-parallel-agents"&gt;Dispatching Parallel Agents&lt;/h1&gt;
 &lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;When you have multiple unrelated failures (different test files, different subsystems, different bugs), investigating them sequentially wastes time. Each investigation is independent and can happen in parallel.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Core principle:&lt;/strong&gt; Dispatch one agent per independent problem domain. Let them work concurrently.&lt;/p&gt;
@@ -237,7 +237,7 @@ Other models route through OpenRouter API (requires &lt;code&gt;OPENROUTER_API_K
  &amp;#34;Can they work in parallel?&amp;#34; -&amp;gt; &amp;#34;Parallel dispatch&amp;#34; [label=&amp;#34;yes&amp;#34;];
  &amp;#34;Can they work in parallel?&amp;#34; -&amp;gt; &amp;#34;Sequential agents&amp;#34; [label=&amp;#34;no - shared state&amp;#34;];
 }
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Use when:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Distributed Tracing</title><link>https://agentskill.wiki/en/skills/distributed-tracing/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/distributed-tracing/</guid><description>&lt;h1 id="distributed-tracing"&gt;Distributed Tracing&lt;/h1&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Use when:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Distributed Tracing</title><link>https://agentskill.wiki/skills/distributed-tracing/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/distributed-tracing/</guid><description>&lt;h1 id="distributed-tracing"&gt;Distributed Tracing&lt;/h1&gt;
 &lt;p&gt;Implement distributed tracing with Jaeger and Tempo for request flow visibility across microservices.&lt;/p&gt;
 &lt;h2 id="purpose"&gt;Purpose&lt;/h2&gt;
 &lt;p&gt;Track requests across distributed systems to understand latency, dependencies, and failure points.&lt;/p&gt;
@@ -306,7 +306,7 @@ Span (api-gateway) [80ms]
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;13&lt;/span&gt;&lt;span&gt; - &lt;span style="color:#e6db74"&gt;&amp;#34;9411:9411&amp;#34;&lt;/span&gt; &lt;span style="color:#75715e"&gt;# Zipkin&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;14&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;environment&lt;/span&gt;:
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;15&lt;/span&gt;&lt;span&gt; - &lt;span style="color:#ae81ff"&gt;COLLECTOR_ZIPKIN_HOST_PORT=:9411&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Reference:&lt;/strong&gt; See &lt;code&gt;references/jaeger-setup.md&lt;/code&gt;&lt;/p&gt;</description></item><item><title>E2E Testing Patterns</title><link>https://agentskill.wiki/en/skills/e2e-testing-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/e2e-testing-patterns/</guid><description>&lt;h1 id="e2e-testing-patterns"&gt;E2E Testing Patterns&lt;/h1&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Reference:&lt;/strong&gt; See &lt;code&gt;references/jaeger-setup.md&lt;/code&gt;&lt;/p&gt;</description></item><item><title>E2E Testing Patterns</title><link>https://agentskill.wiki/skills/e2e-testing-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/e2e-testing-patterns/</guid><description>&lt;h1 id="e2e-testing-patterns"&gt;E2E Testing Patterns&lt;/h1&gt;
 &lt;p&gt;Build reliable, fast, and maintainable end-to-end test suites that provide confidence to ship code quickly and catch regressions before users do.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -321,7 +321,7 @@ Span (api-gateway) [80ms]
 &lt;/ul&gt;
 &lt;h2 id="core-concepts"&gt;Core Concepts&lt;/h2&gt;
 &lt;h3 id="1-e2e-testing-fundamentals"&gt;1. E2E Testing Fundamentals&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;What to Test with E2E:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Error Handling Patterns</title><link>https://agentskill.wiki/en/skills/error-handling-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/error-handling-patterns/</guid><description>&lt;h1 id="error-handling-patterns"&gt;Error Handling Patterns&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;What to Test with E2E:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Error Handling Patterns</title><link>https://agentskill.wiki/skills/error-handling-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/error-handling-patterns/</guid><description>&lt;h1 id="error-handling-patterns"&gt;Error Handling Patterns&lt;/h1&gt;
 &lt;p&gt;Build resilient applications with robust error handling strategies that gracefully handle failures and provide excellent debugging experiences.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -336,7 +336,7 @@ Span (api-gateway) [80ms]
 &lt;/ul&gt;
 &lt;h2 id="core-concepts"&gt;Core Concepts&lt;/h2&gt;
 &lt;h3 id="1-error-handling-philosophies"&gt;1. Error Handling Philosophies&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Exceptions vs Result Types:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Error Resolver</title><link>https://agentskill.wiki/en/skills/error-resolver/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/error-resolver/</guid><description>&lt;h1 id="error-resolver"&gt;Error Resolver&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Exceptions vs Result Types:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Error Resolver</title><link>https://agentskill.wiki/skills/error-resolver/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/error-resolver/</guid><description>&lt;h1 id="error-resolver"&gt;Error Resolver&lt;/h1&gt;
 &lt;p&gt;A first-principle approach to diagnosing and resolving errors across all languages and frameworks.&lt;/p&gt;
 &lt;h2 id="core-philosophy"&gt;Core Philosophy&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;The 5-step Error Resolution Process:&lt;/strong&gt;&lt;/p&gt;
@@ -422,7 +422,7 @@ Span (api-gateway) [80ms]
 &lt;/ul&gt;
 &lt;h2 id="analysis-workflow"&gt;Analysis Workflow&lt;/h2&gt;
 &lt;h3 id="step-1-classify"&gt;Step 1: Classify&lt;/h3&gt;
-&lt;p&gt;Identify the error category by examining:&lt;/p&gt;</description></item><item><title>Error Tracking</title><link>https://agentskill.wiki/en/skills/error-tracking/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/error-tracking/</guid><description>&lt;h1 id="your-project-sentry-integration-skill"&gt;your project Sentry Integration Skill&lt;/h1&gt;
+&lt;p&gt;Identify the error category by examining:&lt;/p&gt;</description></item><item><title>Error Tracking</title><link>https://agentskill.wiki/skills/error-tracking/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/error-tracking/</guid><description>&lt;h1 id="your-project-sentry-integration-skill"&gt;your project Sentry Integration Skill&lt;/h1&gt;
 &lt;h2 id="purpose"&gt;Purpose&lt;/h2&gt;
 &lt;p&gt;This skill enforces comprehensive Sentry error tracking and performance monitoring across all your project services following Sentry v8 patterns.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
@@ -435,7 +435,7 @@ Span (api-gateway) [80ms]
 &lt;li&gt;Handling workflow errors&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-critical-rule"&gt;🚨 CRITICAL RULE&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;ALL ERRORS MUST BE CAPTURED TO SENTRY&lt;/strong&gt; - No exceptions. Never use console.error alone.&lt;/p&gt;</description></item><item><title>Evals Context</title><link>https://agentskill.wiki/en/skills/evals-context/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/evals-context/</guid><description>&lt;h1 id="evals-codebase-context"&gt;Evals Codebase Context&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;ALL ERRORS MUST BE CAPTURED TO SENTRY&lt;/strong&gt; - No exceptions. Never use console.error alone.&lt;/p&gt;</description></item><item><title>Evals Context</title><link>https://agentskill.wiki/skills/evals-context/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/evals-context/</guid><description>&lt;h1 id="evals-codebase-context"&gt;Evals Codebase Context&lt;/h1&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;p&gt;Use this skill when the task involves:&lt;/p&gt;
 &lt;ul&gt;
@@ -453,13 +453,13 @@ Span (api-gateway) [80ms]
 &lt;li&gt;Working on the main website pages that don&amp;rsquo;t involve evals&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="key-disambiguation-two-evals-locations"&gt;Key Disambiguation: Two &amp;ldquo;Evals&amp;rdquo; Locations&lt;/h2&gt;
-&lt;p&gt;This monorepo has &lt;strong&gt;two distinct evals-related locations&lt;/strong&gt; that can cause confusion:&lt;/p&gt;</description></item><item><title>Gh Fix Ci</title><link>https://agentskill.wiki/en/skills/gh-fix-ci/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/gh-fix-ci/</guid><description>&lt;h1 id="gh-pr-checks-plan-fix"&gt;Gh Pr Checks Plan Fix&lt;/h1&gt;
+&lt;p&gt;This monorepo has &lt;strong&gt;two distinct evals-related locations&lt;/strong&gt; that can cause confusion:&lt;/p&gt;</description></item><item><title>Gh Fix Ci</title><link>https://agentskill.wiki/skills/gh-fix-ci/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/gh-fix-ci/</guid><description>&lt;h1 id="gh-pr-checks-plan-fix"&gt;Gh Pr Checks Plan Fix&lt;/h1&gt;
 &lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;Use gh to locate failing PR checks, fetch GitHub Actions logs for actionable failures, summarize the failure snippet, then propose a fix plan and implement after explicit approval.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Depends on the &lt;code&gt;plan&lt;/code&gt; skill for drafting and approving the fix plan.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Prereq: ensure &lt;code&gt;gh&lt;/code&gt; is authenticated (for example, run &lt;code&gt;gh auth login&lt;/code&gt; once), then run &lt;code&gt;gh auth status&lt;/code&gt; with escalated permissions (include workflow/repo scopes) so &lt;code&gt;gh&lt;/code&gt; commands succeed. If sandboxing blocks &lt;code&gt;gh auth status&lt;/code&gt;, rerun it with &lt;code&gt;sandbox_permissions=require_escalated&lt;/code&gt;.&lt;/p&gt;</description></item><item><title>Langsmith Observability</title><link>https://agentskill.wiki/en/skills/langsmith-observability/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/langsmith-observability/</guid><description>&lt;h1 id="langsmith---llm-observability-platform"&gt;LangSmith - LLM Observability Platform&lt;/h1&gt;
+&lt;p&gt;Prereq: ensure &lt;code&gt;gh&lt;/code&gt; is authenticated (for example, run &lt;code&gt;gh auth login&lt;/code&gt; once), then run &lt;code&gt;gh auth status&lt;/code&gt; with escalated permissions (include workflow/repo scopes) so &lt;code&gt;gh&lt;/code&gt; commands succeed. If sandboxing blocks &lt;code&gt;gh auth status&lt;/code&gt;, rerun it with &lt;code&gt;sandbox_permissions=require_escalated&lt;/code&gt;.&lt;/p&gt;</description></item><item><title>Langsmith Observability</title><link>https://agentskill.wiki/skills/langsmith-observability/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/langsmith-observability/</guid><description>&lt;h1 id="langsmith---llm-observability-platform"&gt;LangSmith - LLM Observability Platform&lt;/h1&gt;
 &lt;p&gt;Development platform for debugging, evaluating, and monitoring language models and AI applications.&lt;/p&gt;
 &lt;h2 id="when-to-use-langsmith"&gt;When to use LangSmith&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Use LangSmith when:&lt;/strong&gt;&lt;/p&gt;
@@ -479,7 +479,7 @@ Span (api-gateway) [80ms]
 &lt;li&gt;&lt;strong&gt;Monitoring&lt;/strong&gt;: Track metrics, errors, and costs in production&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Integrations&lt;/strong&gt;: Works with OpenAI, Anthropic, LangChain, LlamaIndex&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Use alternatives instead:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Memory Forensics</title><link>https://agentskill.wiki/en/skills/memory-forensics/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/memory-forensics/</guid><description>&lt;h1 id="memory-forensics"&gt;Memory Forensics&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Use alternatives instead:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Memory Forensics</title><link>https://agentskill.wiki/skills/memory-forensics/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/memory-forensics/</guid><description>&lt;h1 id="memory-forensics"&gt;Memory Forensics&lt;/h1&gt;
 &lt;p&gt;Comprehensive techniques for acquiring, analyzing, and extracting artifacts from memory dumps for incident response and malware analysis.&lt;/p&gt;
 &lt;h2 id="memory-acquisition"&gt;Memory Acquisition&lt;/h2&gt;
 &lt;h3 id="live-acquisition-tools"&gt;Live Acquisition Tools&lt;/h3&gt;
@@ -849,7 +849,7 @@ rule Cobalt_Strike_Beacon
 &lt;li&gt;&lt;strong&gt;Symbol issues&lt;/strong&gt;: Ensure correct symbol files for OS version&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Smear&lt;/strong&gt;: Memory may change during acquisition&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Encryption&lt;/strong&gt;: Some data may be encrypted in memory&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Pair Programming</title><link>https://agentskill.wiki/en/skills/pair-programming/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/pair-programming/</guid><description>&lt;h1 id="pair-programming"&gt;Pair Programming&lt;/h1&gt;
+&lt;/ul&gt;</description></item><item><title>Pair Programming</title><link>https://agentskill.wiki/skills/pair-programming/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/pair-programming/</guid><description>&lt;h1 id="pair-programming"&gt;Pair Programming&lt;/h1&gt;
 &lt;p&gt;Collaborative AI pair programming with intelligent role management, real-time quality monitoring, and comprehensive development workflows.&lt;/p&gt;
 &lt;h2 id="what-this-skill-does"&gt;What This Skill Does&lt;/h2&gt;
 &lt;p&gt;This skill provides professional pair programming capabilities with AI assistance, supporting multiple collaboration modes, continuous verification, and integrated testing. It manages driver/navigator roles, performs real-time code review, tracks quality metrics, and ensures high standards through truth-score verification.&lt;/p&gt;
@@ -863,7 +863,7 @@ rule Cobalt_Strike_Beacon
 &lt;li&gt;&lt;strong&gt;Session Persistence&lt;/strong&gt;: Auto-save, recovery, export, and sharing&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="prerequisites"&gt;Prerequisites&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Required:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Phoenix Observability</title><link>https://agentskill.wiki/en/skills/phoenix-observability/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/phoenix-observability/</guid><description>&lt;h1 id="phoenix---ai-observability-platform"&gt;Phoenix - AI Observability Platform&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Required:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Phoenix Observability</title><link>https://agentskill.wiki/skills/phoenix-observability/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/phoenix-observability/</guid><description>&lt;h1 id="phoenix---ai-observability-platform"&gt;Phoenix - AI Observability Platform&lt;/h1&gt;
 &lt;p&gt;Open-source AI observability and evaluation platform for LLM applications with tracing, evaluation, datasets, experiments, and real-time monitoring.&lt;/p&gt;
 &lt;h2 id="when-to-use-phoenix"&gt;When to use Phoenix&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Use Phoenix when:&lt;/strong&gt;&lt;/p&gt;
@@ -883,7 +883,7 @@ rule Cobalt_Strike_Beacon
 &lt;li&gt;&lt;strong&gt;Playground&lt;/strong&gt;: Interactive prompt testing with multiple models&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Open-source&lt;/strong&gt;: Self-hosted with PostgreSQL or SQLite&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Use alternatives instead:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Pr Build Status</title><link>https://agentskill.wiki/en/skills/pr-build-status/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/pr-build-status/</guid><description>&lt;h1 id="pr-build-status-skill"&gt;PR Build Status Skill&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Use alternatives instead:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Pr Build Status</title><link>https://agentskill.wiki/skills/pr-build-status/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/pr-build-status/</guid><description>&lt;h1 id="pr-build-status-skill"&gt;PR Build Status Skill&lt;/h1&gt;
 &lt;p&gt;Retrieve Azure DevOps build information for GitHub Pull Requests, including Helix test logs.&lt;/p&gt;
 &lt;h2 id="tools-required"&gt;Tools Required&lt;/h2&gt;
 &lt;p&gt;This skill uses &lt;code&gt;bash&lt;/code&gt; together with &lt;code&gt;pwsh&lt;/code&gt; (PowerShell 7+) to run the PowerShell scripts. No file editing or other tools are required.&lt;/p&gt;
@@ -897,7 +897,7 @@ rule Cobalt_Strike_Beacon
 &lt;li&gt;&lt;strong&gt;User needs to debug why tests are failing on Helix infrastructure&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="scripts"&gt;Scripts&lt;/h2&gt;
-&lt;p&gt;All scripts are in &lt;code&gt;.github/skills/pr-build-status/scripts/&lt;/code&gt;&lt;/p&gt;</description></item><item><title>Python Performance Optimization</title><link>https://agentskill.wiki/en/skills/python-performance-optimization/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/python-performance-optimization/</guid><description>&lt;h1 id="python-performance-optimization"&gt;Python Performance Optimization&lt;/h1&gt;
+&lt;p&gt;All scripts are in &lt;code&gt;.github/skills/pr-build-status/scripts/&lt;/code&gt;&lt;/p&gt;</description></item><item><title>Python Performance Optimization</title><link>https://agentskill.wiki/skills/python-performance-optimization/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/python-performance-optimization/</guid><description>&lt;h1 id="python-performance-optimization"&gt;Python Performance Optimization&lt;/h1&gt;
 &lt;p&gt;Comprehensive guide to profiling, analyzing, and optimizing Python code for better performance, including CPU profiling, memory optimization, and implementation best practices.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -996,7 +996,7 @@ rule Cobalt_Strike_Beacon
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;35&lt;/span&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;36&lt;/span&gt;&lt;span&gt; &lt;span style="color:#75715e"&gt;# Save to file for later analysis&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;37&lt;/span&gt;&lt;span&gt; stats&lt;span style="color:#f92672"&gt;.&lt;/span&gt;dump_stats(&lt;span style="color:#e6db74"&gt;&amp;#34;profile_output.prof&amp;#34;&lt;/span&gt;)
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Command-line profiling:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Railway Deployment</title><link>https://agentskill.wiki/en/skills/railway-deployment/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/railway-deployment/</guid><description>&lt;h1 id="railway-deployment-management"&gt;Railway Deployment Management&lt;/h1&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Command-line profiling:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Railway Deployment</title><link>https://agentskill.wiki/skills/railway-deployment/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/railway-deployment/</guid><description>&lt;h1 id="railway-deployment-management"&gt;Railway Deployment Management&lt;/h1&gt;
 &lt;p&gt;Manage existing Railway deployments: list, view logs, redeploy, or remove.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Important:&lt;/strong&gt; &amp;ldquo;Remove deployment&amp;rdquo; (&lt;code&gt;railway down&lt;/code&gt;) stops the current deployment but keeps the service. To delete a service entirely, use the railway-environment skill with &lt;code&gt;isDeleted: true&lt;/code&gt;.&lt;/p&gt;
 &lt;h2 id="when-to-use"&gt;When to Use&lt;/h2&gt;
@@ -1008,7 +1008,7 @@ rule Cobalt_Strike_Beacon
 &lt;/ul&gt;
 &lt;h2 id="list-deployments"&gt;List Deployments&lt;/h2&gt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;railway deployment list --limit &lt;span style="color:#ae81ff"&gt;10&lt;/span&gt; --json
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Shows deployment IDs, statuses, and metadata. Use to find specific deployment IDs for logs or debugging.&lt;/p&gt;</description></item><item><title>Railway Metrics</title><link>https://agentskill.wiki/en/skills/railway-metrics/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/railway-metrics/</guid><description>&lt;h1 id="railway-service-metrics"&gt;Railway Service Metrics&lt;/h1&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Shows deployment IDs, statuses, and metadata. Use to find specific deployment IDs for logs or debugging.&lt;/p&gt;</description></item><item><title>Railway Metrics</title><link>https://agentskill.wiki/skills/railway-metrics/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/railway-metrics/</guid><description>&lt;h1 id="railway-service-metrics"&gt;Railway Service Metrics&lt;/h1&gt;
 &lt;p&gt;Query resource usage metrics for Railway services.&lt;/p&gt;
 &lt;h2 id="when-to-use"&gt;When to Use&lt;/h2&gt;
 &lt;ul&gt;
@@ -1134,13 +1134,13 @@ rule Cobalt_Strike_Beacon
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;32&lt;/span&gt;&lt;span&gt; }
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;33&lt;/span&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="example-last-hour-cpu-and-memory"&gt;Example: Last Hour CPU and Memory&lt;/h2&gt;
-&lt;p&gt;Use heredoc to avoid shell escaping issues:&lt;/p&gt;</description></item><item><title>Webapp Testing</title><link>https://agentskill.wiki/en/skills/webapp-testing/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/webapp-testing/</guid><description>&lt;h1 id="web-application-testing"&gt;Web Application Testing&lt;/h1&gt;
+&lt;p&gt;Use heredoc to avoid shell escaping issues:&lt;/p&gt;</description></item><item><title>Webapp Testing</title><link>https://agentskill.wiki/skills/webapp-testing/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/webapp-testing/</guid><description>&lt;h1 id="web-application-testing"&gt;Web Application Testing&lt;/h1&gt;
 &lt;p&gt;To test local web applications, write native Python Playwright scripts.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Helper Scripts Available&lt;/strong&gt;:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;scripts/with_server.py&lt;/code&gt; - Manages server lifecycle (supports multiple servers)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Always run scripts with &lt;code&gt;--help&lt;/code&gt; first&lt;/strong&gt; to see usage. DO NOT read the source until you try running the script first and find that a customized solution is abslutely necessary. These scripts can be very large and thus pollute your context window. They exist to be called directly as black-box scripts rather than ingested into your context window.&lt;/p&gt;</description></item><item><title>ML Model Debugger</title><link>https://agentskill.wiki/en/skills/ml-model-debugger/</link><pubDate>Wed, 14 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/ml-model-debugger/</guid><description>&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Always run scripts with &lt;code&gt;--help&lt;/code&gt; first&lt;/strong&gt; to see usage. DO NOT read the source until you try running the script first and find that a customized solution is abslutely necessary. These scripts can be very large and thus pollute your context window. They exist to be called directly as black-box scripts rather than ingested into your context window.&lt;/p&gt;</description></item><item><title>ML Model Debugger</title><link>https://agentskill.wiki/skills/ml-model-debugger/</link><pubDate>Wed, 14 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/ml-model-debugger/</guid><description>&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;ML Model Debugger is a debugging tool designed specifically for machine learning engineers, helping you quickly locate and resolve various issues during model training and inference.&lt;/p&gt;
 &lt;h3 id="core-features"&gt;Core Features&lt;/h3&gt;
 &lt;ul&gt;

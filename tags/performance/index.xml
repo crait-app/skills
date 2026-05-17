@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Performance on Agent Skills Hub</title><link>https://agentskill.wiki/tags/performance/</link><description>Recent content in Performance on Agent Skills Hub</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/performance/index.xml" rel="self" type="application/rss+xml"/><item><title>Async Python Patterns</title><link>https://agentskill.wiki/en/skills/async-python-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/async-python-patterns/</guid><description>&lt;h1 id="async-python-patterns"&gt;Async Python Patterns&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Performance on Agent Skills Hub</title><link>https://agentskill.wiki/tags/performance/</link><description>Recent content in Performance on Agent Skills Hub</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/performance/index.xml" rel="self" type="application/rss+xml"/><item><title>Async Python Patterns</title><link>https://agentskill.wiki/skills/async-python-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/async-python-patterns/</guid><description>&lt;h1 id="async-python-patterns"&gt;Async Python Patterns&lt;/h1&gt;
 &lt;p&gt;Comprehensive guidance for implementing asynchronous Python applications using asyncio, concurrent programming patterns, and async/await for building high-performance, non-blocking systems.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -13,7 +13,7 @@
 &lt;/ul&gt;
 &lt;h2 id="core-concepts"&gt;Core Concepts&lt;/h2&gt;
 &lt;h3 id="1-event-loop"&gt;1. Event Loop&lt;/h3&gt;
-&lt;p&gt;The event loop is the heart of asyncio, managing and scheduling asynchronous tasks.&lt;/p&gt;</description></item><item><title>Cache Components</title><link>https://agentskill.wiki/en/skills/cache-components/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/cache-components/</guid><description>&lt;h1 id="nextjs-cache-components"&gt;Next.js Cache Components&lt;/h1&gt;
+&lt;p&gt;The event loop is the heart of asyncio, managing and scheduling asynchronous tasks.&lt;/p&gt;</description></item><item><title>Cache Components</title><link>https://agentskill.wiki/skills/cache-components/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/cache-components/</guid><description>&lt;h1 id="nextjs-cache-components"&gt;Next.js Cache Components&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;Auto-activation&lt;/strong&gt;: This skill activates automatically in projects with &lt;code&gt;cacheComponents: true&lt;/code&gt; in next.config.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -29,7 +29,7 @@
 &lt;li&gt;Optimizing page performance&lt;/li&gt;
 &lt;li&gt;Reviewing existing component code&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Cache Components enable &lt;strong&gt;Partial Prerendering (PPR)&lt;/strong&gt; - mixing static HTML shells with dynamic streaming content for optimal performance.&lt;/p&gt;</description></item><item><title>Debugging Strategies</title><link>https://agentskill.wiki/en/skills/debugging-strategies/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/debugging-strategies/</guid><description>&lt;h1 id="debugging-strategies"&gt;Debugging Strategies&lt;/h1&gt;
+&lt;p&gt;Cache Components enable &lt;strong&gt;Partial Prerendering (PPR)&lt;/strong&gt; - mixing static HTML shells with dynamic streaming content for optimal performance.&lt;/p&gt;</description></item><item><title>Debugging Strategies</title><link>https://agentskill.wiki/skills/debugging-strategies/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/debugging-strategies/</guid><description>&lt;h1 id="debugging-strategies"&gt;Debugging Strategies&lt;/h1&gt;
 &lt;p&gt;Transform debugging from frustrating guesswork into systematic problem-solving with proven strategies, powerful tools, and methodical approaches.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -48,7 +48,7 @@
 &lt;strong&gt;2. Hypothesize&lt;/strong&gt;: What could be causing it?
 &lt;strong&gt;3. Experiment&lt;/strong&gt;: Test your hypothesis
 &lt;strong&gt;4. Analyze&lt;/strong&gt;: Did it prove/disprove your theory?
-&lt;strong&gt;5. Repeat&lt;/strong&gt;: Until you find the root cause&lt;/p&gt;</description></item><item><title>Distributed Tracing</title><link>https://agentskill.wiki/en/skills/distributed-tracing/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/distributed-tracing/</guid><description>&lt;h1 id="distributed-tracing"&gt;Distributed Tracing&lt;/h1&gt;
+&lt;strong&gt;5. Repeat&lt;/strong&gt;: Until you find the root cause&lt;/p&gt;</description></item><item><title>Distributed Tracing</title><link>https://agentskill.wiki/skills/distributed-tracing/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/distributed-tracing/</guid><description>&lt;h1 id="distributed-tracing"&gt;Distributed Tracing&lt;/h1&gt;
 &lt;p&gt;Implement distributed tracing with Jaeger and Tempo for request flow visibility across microservices.&lt;/p&gt;
 &lt;h2 id="purpose"&gt;Purpose&lt;/h2&gt;
 &lt;p&gt;Track requests across distributed systems to understand latency, dependencies, and failure points.&lt;/p&gt;
@@ -117,7 +117,7 @@ Span (api-gateway) [80ms]
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;13&lt;/span&gt;&lt;span&gt; - &lt;span style="color:#e6db74"&gt;&amp;#34;9411:9411&amp;#34;&lt;/span&gt; &lt;span style="color:#75715e"&gt;# Zipkin&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;14&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;environment&lt;/span&gt;:
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;15&lt;/span&gt;&lt;span&gt; - &lt;span style="color:#ae81ff"&gt;COLLECTOR_ZIPKIN_HOST_PORT=:9411&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Reference:&lt;/strong&gt; See &lt;code&gt;references/jaeger-setup.md&lt;/code&gt;&lt;/p&gt;</description></item><item><title>Error Tracking</title><link>https://agentskill.wiki/en/skills/error-tracking/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/error-tracking/</guid><description>&lt;h1 id="your-project-sentry-integration-skill"&gt;your project Sentry Integration Skill&lt;/h1&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Reference:&lt;/strong&gt; See &lt;code&gt;references/jaeger-setup.md&lt;/code&gt;&lt;/p&gt;</description></item><item><title>Error Tracking</title><link>https://agentskill.wiki/skills/error-tracking/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/error-tracking/</guid><description>&lt;h1 id="your-project-sentry-integration-skill"&gt;your project Sentry Integration Skill&lt;/h1&gt;
 &lt;h2 id="purpose"&gt;Purpose&lt;/h2&gt;
 &lt;p&gt;This skill enforces comprehensive Sentry error tracking and performance monitoring across all your project services following Sentry v8 patterns.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
@@ -130,7 +130,7 @@ Span (api-gateway) [80ms]
 &lt;li&gt;Handling workflow errors&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-critical-rule"&gt;🚨 CRITICAL RULE&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;ALL ERRORS MUST BE CAPTURED TO SENTRY&lt;/strong&gt; - No exceptions. Never use console.error alone.&lt;/p&gt;</description></item><item><title>Frontend Dev Guidelines</title><link>https://agentskill.wiki/en/skills/frontend-dev-guidelines/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/frontend-dev-guidelines/</guid><description>&lt;h1 id="frontend-development-guidelines"&gt;Frontend Development Guidelines&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;ALL ERRORS MUST BE CAPTURED TO SENTRY&lt;/strong&gt; - No exceptions. Never use console.error alone.&lt;/p&gt;</description></item><item><title>Frontend Dev Guidelines</title><link>https://agentskill.wiki/skills/frontend-dev-guidelines/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/frontend-dev-guidelines/</guid><description>&lt;h1 id="frontend-development-guidelines"&gt;Frontend Development Guidelines&lt;/h1&gt;
 &lt;h2 id="purpose"&gt;Purpose&lt;/h2&gt;
 &lt;p&gt;Comprehensive guide for modern React development, emphasizing Suspense-based data fetching, lazy loading, proper file organization, and performance optimization.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
@@ -147,7 +147,7 @@ Span (api-gateway) [80ms]
 &lt;hr&gt;
 &lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;
 &lt;h3 id="new-component-checklist"&gt;New Component Checklist&lt;/h3&gt;
-&lt;p&gt;Creating a component? Follow this checklist:&lt;/p&gt;</description></item><item><title>Python Performance Optimization</title><link>https://agentskill.wiki/en/skills/python-performance-optimization/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/python-performance-optimization/</guid><description>&lt;h1 id="python-performance-optimization"&gt;Python Performance Optimization&lt;/h1&gt;
+&lt;p&gt;Creating a component? Follow this checklist:&lt;/p&gt;</description></item><item><title>Python Performance Optimization</title><link>https://agentskill.wiki/skills/python-performance-optimization/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/python-performance-optimization/</guid><description>&lt;h1 id="python-performance-optimization"&gt;Python Performance Optimization&lt;/h1&gt;
 &lt;p&gt;Comprehensive guide to profiling, analyzing, and optimizing Python code for better performance, including CPU profiling, memory optimization, and implementation best practices.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -246,7 +246,7 @@ Span (api-gateway) [80ms]
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;35&lt;/span&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;36&lt;/span&gt;&lt;span&gt; &lt;span style="color:#75715e"&gt;# Save to file for later analysis&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;37&lt;/span&gt;&lt;span&gt; stats&lt;span style="color:#f92672"&gt;.&lt;/span&gt;dump_stats(&lt;span style="color:#e6db74"&gt;&amp;#34;profile_output.prof&amp;#34;&lt;/span&gt;)
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Command-line profiling:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Railway Metrics</title><link>https://agentskill.wiki/en/skills/railway-metrics/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/railway-metrics/</guid><description>&lt;h1 id="railway-service-metrics"&gt;Railway Service Metrics&lt;/h1&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Command-line profiling:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Railway Metrics</title><link>https://agentskill.wiki/skills/railway-metrics/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/railway-metrics/</guid><description>&lt;h1 id="railway-service-metrics"&gt;Railway Service Metrics&lt;/h1&gt;
 &lt;p&gt;Query resource usage metrics for Railway services.&lt;/p&gt;
 &lt;h2 id="when-to-use"&gt;When to Use&lt;/h2&gt;
 &lt;ul&gt;
@@ -372,7 +372,7 @@ Span (api-gateway) [80ms]
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;32&lt;/span&gt;&lt;span&gt; }
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;33&lt;/span&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="example-last-hour-cpu-and-memory"&gt;Example: Last Hour CPU and Memory&lt;/h2&gt;
-&lt;p&gt;Use heredoc to avoid shell escaping issues:&lt;/p&gt;</description></item><item><title>React Best Practices</title><link>https://agentskill.wiki/en/skills/react-best-practices/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/react-best-practices/</guid><description>&lt;h1 id="react-best-practices---performance-optimization"&gt;React Best Practices - Performance Optimization&lt;/h1&gt;
+&lt;p&gt;Use heredoc to avoid shell escaping issues:&lt;/p&gt;</description></item><item><title>React Best Practices</title><link>https://agentskill.wiki/skills/react-best-practices/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/react-best-practices/</guid><description>&lt;h1 id="react-best-practices---performance-optimization"&gt;React Best Practices - Performance Optimization&lt;/h1&gt;
 &lt;p&gt;Comprehensive performance optimization guide for React and Next.js applications with 40+ rules organized by impact level. Designed to help developers eliminate performance bottlenecks and follow best practices.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to use this skill&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Use React Best Practices when:&lt;/strong&gt;&lt;/p&gt;
@@ -385,7 +385,7 @@ Span (api-gateway) [80ms]
 &lt;li&gt;Reducing bundle size&lt;/li&gt;
 &lt;li&gt;Eliminating request waterfalls&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Key areas covered:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>React Modernization</title><link>https://agentskill.wiki/en/skills/react-modernization/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/react-modernization/</guid><description>&lt;h1 id="react-modernization"&gt;React Modernization&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Key areas covered:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>React Modernization</title><link>https://agentskill.wiki/skills/react-modernization/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/react-modernization/</guid><description>&lt;h1 id="react-modernization"&gt;React Modernization&lt;/h1&gt;
 &lt;p&gt;Master React version upgrades, class to hooks migration, concurrent features adoption, and codemods for automated transformation.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -399,7 +399,7 @@ Span (api-gateway) [80ms]
 &lt;/ul&gt;
 &lt;h2 id="version-upgrade-path"&gt;Version Upgrade Path&lt;/h2&gt;
 &lt;h3 id="react-16--17--18"&gt;React 16 → 17 → 18&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Breaking Changes by Version:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Rust Async Patterns</title><link>https://agentskill.wiki/en/skills/rust-async-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/rust-async-patterns/</guid><description>&lt;h1 id="rust-async-patterns"&gt;Rust Async Patterns&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Breaking Changes by Version:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Rust Async Patterns</title><link>https://agentskill.wiki/skills/rust-async-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/rust-async-patterns/</guid><description>&lt;h1 id="rust-async-patterns"&gt;Rust Async Patterns&lt;/h1&gt;
 &lt;p&gt;Production patterns for async Rust programming with Tokio runtime, including tasks, channels, streams, and error handling.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -886,7 +886,7 @@ Span (api-gateway) [80ms]
 &lt;li&gt;&lt;a href="https://tokio.rs/tokio/tutorial"&gt;Tokio Tutorial&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://rust-lang.github.io/async-book/"&gt;Async Book&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/tokio-rs/console"&gt;Tokio Console&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Senior Frontend</title><link>https://agentskill.wiki/en/skills/senior-frontend/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/senior-frontend/</guid><description>&lt;h1 id="senior-frontend"&gt;Senior Frontend&lt;/h1&gt;
+&lt;/ul&gt;</description></item><item><title>Senior Frontend</title><link>https://agentskill.wiki/skills/senior-frontend/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/senior-frontend/</guid><description>&lt;h1 id="senior-frontend"&gt;Senior Frontend&lt;/h1&gt;
 &lt;p&gt;Complete toolkit for senior frontend with modern tools and best practices.&lt;/p&gt;
 &lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;
 &lt;h3 id="main-capabilities"&gt;Main Capabilities&lt;/h3&gt;
@@ -901,7 +901,7 @@ Span (api-gateway) [80ms]
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;8&lt;/span&gt;&lt;span&gt;python scripts/frontend_scaffolder.py &lt;span style="color:#f92672"&gt;[&lt;/span&gt;options&lt;span style="color:#f92672"&gt;]&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="core-capabilities"&gt;Core Capabilities&lt;/h2&gt;
 &lt;h3 id="1-component-generator"&gt;1. Component Generator&lt;/h3&gt;
-&lt;p&gt;Automated tool for component generator tasks.&lt;/p&gt;</description></item><item><title>Sql Optimization Patterns</title><link>https://agentskill.wiki/en/skills/sql-optimization-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/sql-optimization-patterns/</guid><description>&lt;h1 id="sql-optimization-patterns"&gt;SQL Optimization Patterns&lt;/h1&gt;
+&lt;p&gt;Automated tool for component generator tasks.&lt;/p&gt;</description></item><item><title>Sql Optimization Patterns</title><link>https://agentskill.wiki/skills/sql-optimization-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/sql-optimization-patterns/</guid><description>&lt;h1 id="sql-optimization-patterns"&gt;SQL Optimization Patterns&lt;/h1&gt;
 &lt;p&gt;Transform slow database queries into lightning-fast operations through systematic optimization, proper indexing, and query plan analysis.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -916,7 +916,7 @@ Span (api-gateway) [80ms]
 &lt;/ul&gt;
 &lt;h2 id="core-concepts"&gt;Core Concepts&lt;/h2&gt;
 &lt;h3 id="1-query-execution-plans-explain"&gt;1. Query Execution Plans (EXPLAIN)&lt;/h3&gt;
-&lt;p&gt;Understanding EXPLAIN output is fundamental to optimization.&lt;/p&gt;</description></item><item><title>Turborepo Caching</title><link>https://agentskill.wiki/en/skills/turborepo-caching/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/turborepo-caching/</guid><description>&lt;h1 id="turborepo-caching"&gt;Turborepo Caching&lt;/h1&gt;
+&lt;p&gt;Understanding EXPLAIN output is fundamental to optimization.&lt;/p&gt;</description></item><item><title>Turborepo Caching</title><link>https://agentskill.wiki/skills/turborepo-caching/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/turborepo-caching/</guid><description>&lt;h1 id="turborepo-caching"&gt;Turborepo Caching&lt;/h1&gt;
 &lt;p&gt;Production patterns for Turborepo build optimization.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -1258,7 +1258,7 @@ Span (api-gateway) [80ms]
 &lt;li&gt;&lt;a href="https://turbo.build/repo/docs"&gt;Turborepo Documentation&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://turbo.build/repo/docs/core-concepts/caching"&gt;Caching Guide&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://turbo.build/repo/docs/core-concepts/remote-caching"&gt;Remote Caching&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Unity Ecs Patterns</title><link>https://agentskill.wiki/en/skills/unity-ecs-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/unity-ecs-patterns/</guid><description>&lt;h1 id="unity-ecs-patterns"&gt;Unity ECS Patterns&lt;/h1&gt;
+&lt;/ul&gt;</description></item><item><title>Unity Ecs Patterns</title><link>https://agentskill.wiki/skills/unity-ecs-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/unity-ecs-patterns/</guid><description>&lt;h1 id="unity-ecs-patterns"&gt;Unity ECS Patterns&lt;/h1&gt;
 &lt;p&gt;Production patterns for Unity&amp;rsquo;s Data-Oriented Technology Stack (DOTS) including Entity Component System, Job System, and Burst Compiler.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -1863,7 +1863,7 @@ Chunk: Memory block for same-archetype entities
 &lt;li&gt;&lt;a href="https://docs.unity3d.com/Packages/com.unity.entities@latest"&gt;Unity DOTS Documentation&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/Unity-Technologies/EntityComponentSystemSamples"&gt;Unity DOTS Samples&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://docs.unity3d.com/Packages/com.unity.burst@latest"&gt;Burst User Guide&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Uv Package Manager</title><link>https://agentskill.wiki/en/skills/uv-package-manager/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/uv-package-manager/</guid><description>&lt;h1 id="uv-package-manager"&gt;UV Package Manager&lt;/h1&gt;
+&lt;/ul&gt;</description></item><item><title>Uv Package Manager</title><link>https://agentskill.wiki/skills/uv-package-manager/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/uv-package-manager/</guid><description>&lt;h1 id="uv-package-manager"&gt;UV Package Manager&lt;/h1&gt;
 &lt;p&gt;Comprehensive guide to using uv, an extremely fast Python package installer and resolver written in Rust, for modern Python project management and dependency workflows.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Conventional-Commits on Agent Skills Hub</title><link>https://agentskill.wiki/tags/conventional-commits/</link><description>Recent content in Conventional-Commits on Agent Skills Hub</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/conventional-commits/index.xml" rel="self" type="application/rss+xml"/><item><title>Changelog Automation</title><link>https://agentskill.wiki/en/skills/changelog-automation/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/changelog-automation/</guid><description>&lt;h1 id="changelog-automation"&gt;Changelog Automation&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Conventional-Commits on Agent Skills Hub</title><link>https://agentskill.wiki/tags/conventional-commits/</link><description>Recent content in Conventional-Commits on Agent Skills Hub</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/conventional-commits/index.xml" rel="self" type="application/rss+xml"/><item><title>Changelog Automation</title><link>https://agentskill.wiki/skills/changelog-automation/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/changelog-automation/</guid><description>&lt;h1 id="changelog-automation"&gt;Changelog Automation&lt;/h1&gt;
 &lt;p&gt;Patterns and tools for automating changelog generation, release notes, and version management following industry standards.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -562,7 +562,7 @@ PATCH: Bug fixes (fix)
 &lt;li&gt;&lt;a href="https://semver.org/"&gt;Semantic Versioning&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://semantic-release.gitbook.io/"&gt;semantic-release&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://git-cliff.org/"&gt;git-cliff&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Commit Helper</title><link>https://agentskill.wiki/en/skills/commit-helper/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/commit-helper/</guid><description>&lt;h1 id="cockroachdb-commit-helper"&gt;CockroachDB Commit Helper&lt;/h1&gt;
+&lt;/ul&gt;</description></item><item><title>Commit Helper</title><link>https://agentskill.wiki/skills/commit-helper/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/commit-helper/</guid><description>&lt;h1 id="cockroachdb-commit-helper"&gt;CockroachDB Commit Helper&lt;/h1&gt;
 &lt;p&gt;Help the user create properly formatted commit messages and release notes that follow CockroachDB conventions.&lt;/p&gt;
 &lt;h2 id="workflow"&gt;Workflow&lt;/h2&gt;
 &lt;ol&gt;
@@ -581,7 +581,7 @@ PATCH: Bug fixes (fix)
 &lt;li&gt;&lt;strong&gt;Create the commit&lt;/strong&gt; using the properly formatted message&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id="commit-message-structure"&gt;Commit Message Structure&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Basic Format:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Git Commit Helper</title><link>https://agentskill.wiki/en/skills/git-commit-helper/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/git-commit-helper/</guid><description>&lt;h1 id="git-commit-helper"&gt;Git Commit Helper&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Basic Format:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Git Commit Helper</title><link>https://agentskill.wiki/skills/git-commit-helper/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/git-commit-helper/</guid><description>&lt;h1 id="git-commit-helper"&gt;Git Commit Helper&lt;/h1&gt;
 &lt;h2 id="quick-start"&gt;Quick start&lt;/h2&gt;
 &lt;p&gt;Analyze staged changes and generate commit message:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# View staged changes&lt;/span&gt;
@@ -607,7 +607,7 @@ PATCH: Bug fixes (fix)
 &lt;li&gt;&lt;strong&gt;chore&lt;/strong&gt;: Maintenance tasks&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id="examples"&gt;Examples&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Feature commit:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Prowler Ci</title><link>https://agentskill.wiki/en/skills/prowler-ci/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/prowler-ci/</guid><description>&lt;h2 id="what-this-skill-covers"&gt;What this skill covers&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Feature commit:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Prowler Ci</title><link>https://agentskill.wiki/skills/prowler-ci/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/prowler-ci/</guid><description>&lt;h2 id="what-this-skill-covers"&gt;What this skill covers&lt;/h2&gt;
 &lt;p&gt;Use this skill whenever you are:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Reading or changing GitHub Actions workflows under &lt;code&gt;.github/workflows/&lt;/code&gt;&lt;/li&gt;
@@ -635,7 +635,7 @@ PATCH: Bug fixes (fix)
 &lt;li&gt;If it&amp;rsquo;s secrets (TruffleHog): see section below.&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id="trufflehog-secret-scanning"&gt;TruffleHog Secret Scanning&lt;/h2&gt;
-&lt;p&gt;TruffleHog scans for leaked secrets. Common false positives in test files:&lt;/p&gt;</description></item><item><title>Prowler Pr</title><link>https://agentskill.wiki/en/skills/prowler-pr/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/prowler-pr/</guid><description>&lt;h2 id="pr-creation-process"&gt;PR Creation Process&lt;/h2&gt;
+&lt;p&gt;TruffleHog scans for leaked secrets. Common false positives in test files:&lt;/p&gt;</description></item><item><title>Prowler Pr</title><link>https://agentskill.wiki/skills/prowler-pr/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/prowler-pr/</guid><description>&lt;h2 id="pr-creation-process"&gt;PR Creation Process&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;Analyze changes&lt;/strong&gt;: &lt;code&gt;git diff main...HEAD&lt;/code&gt; to understand ALL commits&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Determine affected components&lt;/strong&gt;: SDK, API, UI, MCP, Docs&lt;/li&gt;

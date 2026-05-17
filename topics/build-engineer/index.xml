@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Build Engineer on Agent Skills Hub</title><link>https://agentskill.wiki/topics/build-engineer/</link><description>Recent content in Build Engineer on Agent Skills Hub</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/topics/build-engineer/index.xml" rel="self" type="application/rss+xml"/><item><title>Changelog Automation</title><link>https://agentskill.wiki/en/skills/changelog-automation/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/changelog-automation/</guid><description>&lt;h1 id="changelog-automation"&gt;Changelog Automation&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Build Engineer on Agent Skills Hub</title><link>https://agentskill.wiki/topics/build-engineer/</link><description>Recent content in Build Engineer on Agent Skills Hub</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/topics/build-engineer/index.xml" rel="self" type="application/rss+xml"/><item><title>Changelog Automation</title><link>https://agentskill.wiki/skills/changelog-automation/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/changelog-automation/</guid><description>&lt;h1 id="changelog-automation"&gt;Changelog Automation&lt;/h1&gt;
 &lt;p&gt;Patterns and tools for automating changelog generation, release notes, and version management following industry standards.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -562,7 +562,7 @@ PATCH: Bug fixes (fix)
 &lt;li&gt;&lt;a href="https://semver.org/"&gt;Semantic Versioning&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://semantic-release.gitbook.io/"&gt;semantic-release&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://git-cliff.org/"&gt;git-cliff&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Nx Workspace Patterns</title><link>https://agentskill.wiki/en/skills/nx-workspace-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/nx-workspace-patterns/</guid><description>&lt;h1 id="nx-workspace-patterns"&gt;Nx Workspace Patterns&lt;/h1&gt;
+&lt;/ul&gt;</description></item><item><title>Nx Workspace Patterns</title><link>https://agentskill.wiki/skills/nx-workspace-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/nx-workspace-patterns/</guid><description>&lt;h1 id="nx-workspace-patterns"&gt;Nx Workspace Patterns&lt;/h1&gt;
 &lt;p&gt;Production patterns for Nx monorepo management.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -1004,7 +1004,7 @@ PATCH: Bug fixes (fix)
 &lt;li&gt;&lt;a href="https://nx.dev/getting-started/intro"&gt;Nx Documentation&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://nx.dev/core-features/enforce-module-boundaries"&gt;Module Boundaries&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://nx.app/"&gt;Nx Cloud&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Shellcheck Configuration</title><link>https://agentskill.wiki/en/skills/shellcheck-configuration/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/shellcheck-configuration/</guid><description>&lt;h1 id="shellcheck-configuration-and-static-analysis"&gt;ShellCheck Configuration and Static Analysis&lt;/h1&gt;
+&lt;/ul&gt;</description></item><item><title>Shellcheck Configuration</title><link>https://agentskill.wiki/skills/shellcheck-configuration/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/shellcheck-configuration/</guid><description>&lt;h1 id="shellcheck-configuration-and-static-analysis"&gt;ShellCheck Configuration and Static Analysis&lt;/h1&gt;
 &lt;p&gt;Comprehensive guidance for configuring and using ShellCheck to improve shell script quality, catch common pitfalls, and enforce best practices through static code analysis.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;

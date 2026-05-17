@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Arrow-Functions on Agent Skills Hub</title><link>https://agentskill.wiki/zh/tags/arrow-functions/</link><description>Recent content in Arrow-Functions on Agent Skills Hub</description><generator>Hugo</generator><language>zh</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/zh/tags/arrow-functions/index.xml" rel="self" type="application/rss+xml"/><item><title>Modern Javascript Patterns</title><link>https://agentskill.wiki/zh/skills/modern-javascript-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/zh/skills/modern-javascript-patterns/</guid><description>&lt;h1 id="modern-javascript-patterns"&gt;Modern JavaScript Patterns&lt;/h1&gt;
+&lt;p&gt;Comprehensive guide for mastering modern JavaScript (ES6+) features, functional programming patterns, and best practices for writing clean, maintainable, and performant code.&lt;/p&gt;
+&lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Refactoring legacy JavaScript to modern syntax&lt;/li&gt;
+&lt;li&gt;Implementing functional programming patterns&lt;/li&gt;
+&lt;li&gt;Optimizing JavaScript performance&lt;/li&gt;
+&lt;li&gt;Writing maintainable and readable code&lt;/li&gt;
+&lt;li&gt;Working with asynchronous operations&lt;/li&gt;
+&lt;li&gt;Building modern web applications&lt;/li&gt;
+&lt;li&gt;Migrating from callbacks to Promises/async-await&lt;/li&gt;
+&lt;li&gt;Implementing data transformation pipelines&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="es6-core-features"&gt;ES6+ Core Features&lt;/h2&gt;
+&lt;h3 id="1-arrow-functions"&gt;1. Arrow Functions&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Syntax and Use Cases:&lt;/strong&gt;&lt;/p&gt;</description></item></channel></rss>

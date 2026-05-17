@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Documentation on Agent Skills Hub</title><link>https://agentskill.wiki/tags/documentation/</link><description>Recent content in Documentation on Agent Skills Hub</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/documentation/index.xml" rel="self" type="application/rss+xml"/><item><title>Agent Memory</title><link>https://agentskill.wiki/en/skills/agent-memory/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/agent-memory/</guid><description>&lt;h1 id="agent-memory"&gt;Agent Memory&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Documentation on Agent Skills Hub</title><link>https://agentskill.wiki/tags/documentation/</link><description>Recent content in Documentation on Agent Skills Hub</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/documentation/index.xml" rel="self" type="application/rss+xml"/><item><title>Agent Memory</title><link>https://agentskill.wiki/skills/agent-memory/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/agent-memory/</guid><description>&lt;h1 id="agent-memory"&gt;Agent Memory&lt;/h1&gt;
 &lt;p&gt;A persistent memory space for storing knowledge that survives across conversations.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Location:&lt;/strong&gt; &lt;code&gt;.claude/skills/agent-memory/memories/&lt;/code&gt;&lt;/p&gt;
 &lt;h2 id="proactive-usage"&gt;Proactive Usage&lt;/h2&gt;
@@ -16,7 +16,7 @@
 &lt;li&gt;When working on a feature you&amp;rsquo;ve touched before&lt;/li&gt;
 &lt;li&gt;When resuming work after a conversation break&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Organize memories when needed:&lt;/p&gt;</description></item><item><title>Architecture Decision Records</title><link>https://agentskill.wiki/en/skills/architecture-decision-records/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/architecture-decision-records/</guid><description>&lt;h1 id="architecture-decision-records"&gt;Architecture Decision Records&lt;/h1&gt;
+&lt;p&gt;Organize memories when needed:&lt;/p&gt;</description></item><item><title>Architecture Decision Records</title><link>https://agentskill.wiki/skills/architecture-decision-records/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/architecture-decision-records/</guid><description>&lt;h1 id="architecture-decision-records"&gt;Architecture Decision Records&lt;/h1&gt;
 &lt;p&gt;Comprehensive patterns for creating, maintaining, and managing Architecture Decision Records (ADRs) that capture the context and rationale behind significant technical decisions.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -282,14 +282,14 @@
 OrderItemAdded { orderId, item, timestamp }
 OrderItemRemoved { orderId, itemId, timestamp }
 PaymentReceived { orderId, amount, paymentId, timestamp }
-OrderShipped { orderId, trackingNumber, timestamp }&lt;/p&gt;</description></item><item><title>Byethrow</title><link>https://agentskill.wiki/en/skills/byethrow/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/byethrow/</guid><description>&lt;h2 id="about-byethrow"&gt;About byethrow&lt;/h2&gt;
+OrderShipped { orderId, trackingNumber, timestamp }&lt;/p&gt;</description></item><item><title>Byethrow</title><link>https://agentskill.wiki/skills/byethrow/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/byethrow/</guid><description>&lt;h2 id="about-byethrow"&gt;About byethrow&lt;/h2&gt;
 &lt;p&gt;&lt;code&gt;@praha/byethrow&lt;/code&gt; is a lightweight, tree-shakable Result type library for handling fallible operations in JavaScript and TypeScript.
 It provides a simple, consistent API for managing errors and results without throwing exceptions.&lt;/p&gt;
 &lt;p&gt;For detailed API references and usage examples, refer to the documentation in &lt;code&gt;node_modules/@praha/byethrow-docs/docs/**/*.md&lt;/code&gt;.&lt;/p&gt;
 &lt;h3 id="documentation-cli"&gt;Documentation CLI&lt;/h3&gt;
 &lt;p&gt;The byethrow documentation CLI provides commands to browse, search, and navigate documentation directly from your terminal.&lt;/p&gt;
 &lt;h4 id="list-command"&gt;&lt;code&gt;list&lt;/code&gt; command&lt;/h4&gt;
-&lt;p&gt;List all available documentation organized by sections.&lt;/p&gt;</description></item><item><title>Changelog</title><link>https://agentskill.wiki/en/skills/changelog/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/changelog/</guid><description>&lt;h1 id="changelog-maintenance"&gt;Changelog Maintenance&lt;/h1&gt;
+&lt;p&gt;List all available documentation organized by sections.&lt;/p&gt;</description></item><item><title>Changelog</title><link>https://agentskill.wiki/skills/changelog/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/changelog/</guid><description>&lt;h1 id="changelog-maintenance"&gt;Changelog Maintenance&lt;/h1&gt;
 &lt;p&gt;You are a changelog maintenance specialist for the IdeaVim project. Your job is to keep the changelog (CHANGES.md) and build.gradle.kts changeNotes in sync with code changes.&lt;/p&gt;
 &lt;h2 id="historical-context"&gt;Historical Context&lt;/h2&gt;
 &lt;ul&gt;
@@ -326,7 +326,7 @@ It provides a simple, consistent API for managing errors and results without thr
 &lt;li&gt;Note the date of the last entry&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id="15-check-the-last-processed-commit-automated-workflow"&gt;1.5. Check the Last Processed Commit (Automated Workflow)&lt;/h3&gt;
-&lt;p&gt;When running via the GitHub Actions workflow, check if a last processed commit SHA is provided in the prompt.&lt;/p&gt;</description></item><item><title>Changelog Automation</title><link>https://agentskill.wiki/en/skills/changelog-automation/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/changelog-automation/</guid><description>&lt;h1 id="changelog-automation"&gt;Changelog Automation&lt;/h1&gt;
+&lt;p&gt;When running via the GitHub Actions workflow, check if a last processed commit SHA is provided in the prompt.&lt;/p&gt;</description></item><item><title>Changelog Automation</title><link>https://agentskill.wiki/skills/changelog-automation/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/changelog-automation/</guid><description>&lt;h1 id="changelog-automation"&gt;Changelog Automation&lt;/h1&gt;
 &lt;p&gt;Patterns and tools for automating changelog generation, release notes, and version management following industry standards.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -890,7 +890,7 @@ PATCH: Bug fixes (fix)
 &lt;li&gt;&lt;a href="https://semver.org/"&gt;Semantic Versioning&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://semantic-release.gitbook.io/"&gt;semantic-release&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://git-cliff.org/"&gt;git-cliff&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Changelog Generator</title><link>https://agentskill.wiki/en/skills/changelog-generator/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/changelog-generator/</guid><description>&lt;h1 id="changelog-generator"&gt;Changelog Generator&lt;/h1&gt;
+&lt;/ul&gt;</description></item><item><title>Changelog Generator</title><link>https://agentskill.wiki/skills/changelog-generator/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/changelog-generator/</guid><description>&lt;h1 id="changelog-generator"&gt;Changelog Generator&lt;/h1&gt;
 &lt;p&gt;This skill transforms technical git commits into polished, user-friendly changelogs that your customers and users will actually understand and appreciate.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -913,7 +913,7 @@ PATCH: Bug fixes (fix)
 &lt;/ol&gt;
 &lt;h2 id="how-to-use"&gt;How to Use&lt;/h2&gt;
 &lt;h3 id="basic-usage"&gt;Basic Usage&lt;/h3&gt;
-&lt;p&gt;From your project repository:&lt;/p&gt;</description></item><item><title>Claude Skills</title><link>https://agentskill.wiki/en/skills/claude-skills/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/claude-skills/</guid><description>&lt;h1 id="claude-skills-meta-skill"&gt;Claude Skills Meta-Skill&lt;/h1&gt;
+&lt;p&gt;From your project repository:&lt;/p&gt;</description></item><item><title>Claude Skills</title><link>https://agentskill.wiki/skills/claude-skills/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/claude-skills/</guid><description>&lt;h1 id="claude-skills-meta-skill"&gt;Claude Skills Meta-Skill&lt;/h1&gt;
 &lt;p&gt;Turn scattered domain material into a Skill that is reusable, maintainable, and reliably activatable:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;SKILL.md&lt;/code&gt; as the entrypoint (triggers, constraints, patterns, examples)&lt;/li&gt;
@@ -931,7 +931,7 @@ PATCH: Bug fixes (fix)
 &lt;li&gt;Add a quality gate and a validator&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="not-for--boundaries"&gt;Not For / Boundaries&lt;/h2&gt;
-&lt;p&gt;This meta-skill is NOT:&lt;/p&gt;</description></item><item><title>Clickup</title><link>https://agentskill.wiki/en/skills/clickup/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/clickup/</guid><description>&lt;h1 id="clickup"&gt;ClickUp&lt;/h1&gt;
+&lt;p&gt;This meta-skill is NOT:&lt;/p&gt;</description></item><item><title>Clickup</title><link>https://agentskill.wiki/skills/clickup/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/clickup/</guid><description>&lt;h1 id="clickup"&gt;ClickUp&lt;/h1&gt;
 &lt;p&gt;Interact with ClickUp tasks and documents via the API. Get task information, view comments, create tasks, manage assignments, post updates, and create/edit documents.&lt;/p&gt;
 &lt;h2 id="setup"&gt;Setup&lt;/h2&gt;
 &lt;ol&gt;
@@ -941,7 +941,7 @@ PATCH: Bug fixes (fix)
 &lt;/ol&gt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;cp .claude/skills/clickup/.env-example .claude/skills/clickup/.env
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;2&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Edit .env and add your token&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Team ID and User ID are auto-detected and cached on first use.&lt;/p&gt;</description></item><item><title>Cookbook Audit</title><link>https://agentskill.wiki/en/skills/cookbook-audit/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/cookbook-audit/</guid><description>&lt;h1 id="cookbook-audit"&gt;Cookbook Audit&lt;/h1&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Team ID and User ID are auto-detected and cached on first use.&lt;/p&gt;</description></item><item><title>Cookbook Audit</title><link>https://agentskill.wiki/skills/cookbook-audit/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/cookbook-audit/</guid><description>&lt;h1 id="cookbook-audit"&gt;Cookbook Audit&lt;/h1&gt;
 &lt;h2 id="instructions"&gt;Instructions&lt;/h2&gt;
 &lt;p&gt;Review the requested Cookbook notebook using the guidelines and rubrics in &lt;code&gt;style_guide.md&lt;/code&gt;. Provide a score based on scoring guidelines and recommendations on improving the cookbook.&lt;/p&gt;
 &lt;p&gt;The style guide provides detailed templates and examples for:&lt;/p&gt;
@@ -951,7 +951,7 @@ PATCH: Bug fixes (fix)
 &lt;li&gt;Core content structure&lt;/li&gt;
 &lt;li&gt;Conclusions that map back to learning objectives&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;IMPORTANT&lt;/strong&gt;: Always read &lt;code&gt;style_guide.md&lt;/code&gt; first before conducting an audit. The style guide contains the canonical templates and good/bad examples to reference.&lt;/p&gt;</description></item><item><title>Create Scratch</title><link>https://agentskill.wiki/en/skills/create-scratch/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/create-scratch/</guid><description>&lt;h2 id="what-i-do"&gt;What I do&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;IMPORTANT&lt;/strong&gt;: Always read &lt;code&gt;style_guide.md&lt;/code&gt; first before conducting an audit. The style guide contains the canonical templates and good/bad examples to reference.&lt;/p&gt;</description></item><item><title>Create Scratch</title><link>https://agentskill.wiki/skills/create-scratch/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/create-scratch/</guid><description>&lt;h2 id="what-i-do"&gt;What I do&lt;/h2&gt;
 &lt;p&gt;I help you create new scratch files in the &lt;code&gt;.agents/scratches/&lt;/code&gt; directory. Each scratch file gets:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;A unique three-word identifier (e.g., &lt;code&gt;calm-teal-cloud&lt;/code&gt;)&lt;/li&gt;
@@ -968,7 +968,7 @@ PATCH: Bug fixes (fix)
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;4&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;goes here
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;5&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;HEREDOC&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="file-format"&gt;File format&lt;/h2&gt;
-&lt;p&gt;Files are created as: &lt;code&gt;{three-word-id}-{slug}.md&lt;/code&gt;&lt;/p&gt;</description></item><item><title>Doc Coauthoring</title><link>https://agentskill.wiki/en/skills/doc-coauthoring/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/doc-coauthoring/</guid><description>&lt;h1 id="doc-co-authoring-workflow"&gt;Doc Co-Authoring Workflow&lt;/h1&gt;
+&lt;p&gt;Files are created as: &lt;code&gt;{three-word-id}-{slug}.md&lt;/code&gt;&lt;/p&gt;</description></item><item><title>Doc Coauthoring</title><link>https://agentskill.wiki/skills/doc-coauthoring/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/doc-coauthoring/</guid><description>&lt;h1 id="doc-co-authoring-workflow"&gt;Doc Co-Authoring Workflow&lt;/h1&gt;
 &lt;p&gt;This skill provides a structured workflow for guiding users through collaborative document creation. Act as an active guide, walking users through three stages: Context Gathering, Refinement &amp;amp; Structure, and Reader Testing.&lt;/p&gt;
 &lt;h2 id="when-to-offer-this-workflow"&gt;When to Offer This Workflow&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Trigger conditions:&lt;/strong&gt;&lt;/p&gt;
@@ -978,7 +978,7 @@ PATCH: Bug fixes (fix)
 &lt;li&gt;User seems to be starting a substantial writing task&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Initial offer:&lt;/strong&gt;
-Offer the user a structured workflow for co-authoring the document. Explain the three stages:&lt;/p&gt;</description></item><item><title>Doc Sync</title><link>https://agentskill.wiki/en/skills/doc-sync/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/doc-sync/</guid><description>&lt;h1 id="doc-sync-skill"&gt;Doc Sync Skill&lt;/h1&gt;
+Offer the user a structured workflow for co-authoring the document. Explain the three stages:&lt;/p&gt;</description></item><item><title>Doc Sync</title><link>https://agentskill.wiki/skills/doc-sync/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/doc-sync/</guid><description>&lt;h1 id="doc-sync-skill"&gt;Doc Sync Skill&lt;/h1&gt;
 &lt;p&gt;You are a documentation synchronization specialist for the IdeaVim project. Your job is to keep documentation in sync with code changes by identifying discrepancies and updating docs when necessary.&lt;/p&gt;
 &lt;h2 id="documentation-locations"&gt;Documentation Locations&lt;/h2&gt;
 &lt;p&gt;The IdeaVim project has documentation in these locations:&lt;/p&gt;
@@ -990,7 +990,7 @@ Offer the user a structured workflow for co-authoring the document. Explain the 
 &lt;h2 id="core-mindset"&gt;Core Mindset&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;CRITICAL:&lt;/strong&gt; After code changes, documentation is &lt;strong&gt;GUILTY until proven innocent&lt;/strong&gt;.&lt;/p&gt;
 &lt;p&gt;❌ &lt;strong&gt;WRONG APPROACH:&lt;/strong&gt; &amp;ldquo;Be conservative, only update if clearly wrong&amp;rdquo;
-✅ &lt;strong&gt;RIGHT APPROACH:&lt;/strong&gt; &amp;ldquo;Be aggressive finding issues, conservative making fixes&amp;rdquo;&lt;/p&gt;</description></item><item><title>Docs Review</title><link>https://agentskill.wiki/en/skills/docs-review/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/docs-review/</guid><description>&lt;h1 id="documentation-review-skill"&gt;Documentation Review Skill&lt;/h1&gt;
+✅ &lt;strong&gt;RIGHT APPROACH:&lt;/strong&gt; &amp;ldquo;Be aggressive finding issues, conservative making fixes&amp;rdquo;&lt;/p&gt;</description></item><item><title>Docs Review</title><link>https://agentskill.wiki/skills/docs-review/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/docs-review/</guid><description>&lt;h1 id="documentation-review-skill"&gt;Documentation Review Skill&lt;/h1&gt;
 &lt;p&gt;@./../_shared/metabase-style-guide.md&lt;/p&gt;
 &lt;h2 id="review-mode-detection"&gt;Review mode detection&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;IMPORTANT: Before starting the review, determine which mode to use:&lt;/strong&gt;&lt;/p&gt;
@@ -1003,7 +1003,7 @@ Offer the user a structured workflow for co-authoring the document. Explain the 
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Local review mode&lt;/strong&gt;: If the MCP tool is NOT available, output issues in the conversation&lt;/p&gt;</description></item><item><title>Docs Sync</title><link>https://agentskill.wiki/en/skills/docs-sync/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/docs-sync/</guid><description>&lt;h1 id="docs-sync"&gt;Docs Sync&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Local review mode&lt;/strong&gt;: If the MCP tool is NOT available, output issues in the conversation&lt;/p&gt;</description></item><item><title>Docs Sync</title><link>https://agentskill.wiki/skills/docs-sync/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/docs-sync/</guid><description>&lt;h1 id="docs-sync"&gt;Docs Sync&lt;/h1&gt;
 &lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;Identify doc coverage gaps and inaccuracies by comparing main branch features and configuration options against the current docs structure, then propose targeted improvements.&lt;/p&gt;
 &lt;h2 id="workflow"&gt;Workflow&lt;/h2&gt;
@@ -1018,7 +1018,7 @@ Offer the user a structured workflow for co-authoring the document. Explain the 
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Build a feature inventory from the selected scope&lt;/p&gt;</description></item><item><title>Docs Write</title><link>https://agentskill.wiki/en/skills/docs-write/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/docs-write/</guid><description>&lt;h1 id="documentation-writing-skill"&gt;Documentation Writing Skill&lt;/h1&gt;
+&lt;p&gt;Build a feature inventory from the selected scope&lt;/p&gt;</description></item><item><title>Docs Write</title><link>https://agentskill.wiki/skills/docs-write/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/docs-write/</guid><description>&lt;h1 id="documentation-writing-skill"&gt;Documentation Writing Skill&lt;/h1&gt;
 &lt;p&gt;@./../_shared/metabase-style-guide.md&lt;/p&gt;
 &lt;h2 id="when-writing-documentation"&gt;When writing documentation&lt;/h2&gt;
 &lt;h3 id="start-here"&gt;Start here&lt;/h3&gt;
@@ -1034,7 +1034,7 @@ Offer the user a structured workflow for co-authoring the document. Explain the 
 &lt;li&gt;Lead with what to do, then explain why&lt;/li&gt;
 &lt;li&gt;Use headings that state your point: &amp;ldquo;Set SAML before adding users&amp;rdquo; not &amp;ldquo;SAML configuration timing&amp;rdquo;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Edit:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Documentation Lookup</title><link>https://agentskill.wiki/en/skills/documentation-lookup/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/documentation-lookup/</guid><description>&lt;p&gt;When the user asks about libraries, frameworks, or needs code examples, use Context7 to fetch current documentation instead of relying on training data.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Edit:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Documentation Lookup</title><link>https://agentskill.wiki/skills/documentation-lookup/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/documentation-lookup/</guid><description>&lt;p&gt;When the user asks about libraries, frameworks, or needs code examples, use Context7 to fetch current documentation instead of relying on training data.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;p&gt;Activate this skill when the user:&lt;/p&gt;
 &lt;ul&gt;
@@ -1045,7 +1045,7 @@ Offer the user a structured workflow for co-authoring the document. Explain the 
 &lt;/ul&gt;
 &lt;h2 id="how-to-fetch-documentation"&gt;How to Fetch Documentation&lt;/h2&gt;
 &lt;h3 id="step-1-resolve-the-library-id"&gt;Step 1: Resolve the Library ID&lt;/h3&gt;
-&lt;p&gt;Call &lt;code&gt;resolve-library-id&lt;/code&gt; with:&lt;/p&gt;</description></item><item><title>Generate Release Notes</title><link>https://agentskill.wiki/en/skills/generate-release-notes/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/generate-release-notes/</guid><description>&lt;h1 id="generate-release-notes-for-bit"&gt;Generate Release Notes for Bit&lt;/h1&gt;
+&lt;p&gt;Call &lt;code&gt;resolve-library-id&lt;/code&gt; with:&lt;/p&gt;</description></item><item><title>Generate Release Notes</title><link>https://agentskill.wiki/skills/generate-release-notes/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/generate-release-notes/</guid><description>&lt;h1 id="generate-release-notes-for-bit"&gt;Generate Release Notes for Bit&lt;/h1&gt;
 &lt;p&gt;This skill helps generate release notes for Bit following the established patterns and guidelines.&lt;/p&gt;
 &lt;h2 id="important-intermediate-files"&gt;Important: Intermediate Files&lt;/h2&gt;
 &lt;p&gt;All intermediate steps must be saved to &lt;code&gt;releases-docs/temp-files/&lt;/code&gt; for review. This folder is gitignored.&lt;/p&gt;
@@ -1057,7 +1057,7 @@ Offer the user a structured workflow for co-authoring the document. Explain the 
 &lt;h2 id="workflow"&gt;Workflow&lt;/h2&gt;
 &lt;p&gt;Follow these steps to generate release notes:&lt;/p&gt;
 &lt;h3 id="step-1-setup-temp-directory"&gt;Step 1: Setup Temp Directory&lt;/h3&gt;
-&lt;p&gt;First, ensure the temp directory exists:&lt;/p&gt;</description></item><item><title>Internal Comms</title><link>https://agentskill.wiki/en/skills/internal-comms/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/internal-comms/</guid><description>&lt;h2 id="when-to-use-this-skill"&gt;When to use this skill&lt;/h2&gt;
+&lt;p&gt;First, ensure the temp directory exists:&lt;/p&gt;</description></item><item><title>Internal Comms</title><link>https://agentskill.wiki/skills/internal-comms/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/internal-comms/</guid><description>&lt;h2 id="when-to-use-this-skill"&gt;When to use this skill&lt;/h2&gt;
 &lt;p&gt;To write internal communications, use this skill for:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;3P updates (Progress, Plans, Problems)&lt;/li&gt;
@@ -1082,7 +1082,7 @@ Offer the user a structured workflow for co-authoring the document. Explain the 
 &lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Follow the specific instructions&lt;/strong&gt; in that file for formatting, tone, and content gathering&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;If the communication type doesn&amp;rsquo;t match any existing guideline, ask for clarification or more context about the desired format.&lt;/p&gt;</description></item><item><title>Notion Knowledge Capture</title><link>https://agentskill.wiki/en/skills/notion-knowledge-capture/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/notion-knowledge-capture/</guid><description>&lt;h1 id="knowledge-capture"&gt;Knowledge Capture&lt;/h1&gt;
+&lt;p&gt;If the communication type doesn&amp;rsquo;t match any existing guideline, ask for clarification or more context about the desired format.&lt;/p&gt;</description></item><item><title>Notion Knowledge Capture</title><link>https://agentskill.wiki/skills/notion-knowledge-capture/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/notion-knowledge-capture/</guid><description>&lt;h1 id="knowledge-capture"&gt;Knowledge Capture&lt;/h1&gt;
 &lt;p&gt;Convert conversations and notes into structured, linkable Notion pages for easy reuse.&lt;/p&gt;
 &lt;h2 id="quick-start"&gt;Quick start&lt;/h2&gt;
 &lt;ol&gt;
@@ -1111,7 +1111,7 @@ Offer the user a structured workflow for co-authoring the document. Explain the 
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;After successful login, the user will have to restart codex. You should finish your answer and tell them so when they try again they can continue with Step 1.&lt;/p&gt;</description></item><item><title>Notion Research Documentation</title><link>https://agentskill.wiki/en/skills/notion-research-documentation/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/notion-research-documentation/</guid><description>&lt;h1 id="research--documentation"&gt;Research &amp;amp; Documentation&lt;/h1&gt;
+&lt;p&gt;After successful login, the user will have to restart codex. You should finish your answer and tell them so when they try again they can continue with Step 1.&lt;/p&gt;</description></item><item><title>Notion Research Documentation</title><link>https://agentskill.wiki/skills/notion-research-documentation/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/notion-research-documentation/</guid><description>&lt;h1 id="research--documentation"&gt;Research &amp;amp; Documentation&lt;/h1&gt;
 &lt;p&gt;Pull relevant Notion pages, synthesize findings, and publish clear briefs or reports (with citations and links to sources).&lt;/p&gt;
 &lt;h2 id="quick-start"&gt;Quick start&lt;/h2&gt;
 &lt;ol&gt;
@@ -1140,7 +1140,7 @@ Offer the user a structured workflow for co-authoring the document. Explain the 
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;After successful login, the user will have to restart codex. You should finish your answer and tell them so when they try again they can continue with Step 1.&lt;/p&gt;</description></item><item><title>Obsidian Markdown</title><link>https://agentskill.wiki/en/skills/obsidian-markdown/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/obsidian-markdown/</guid><description>&lt;h1 id="obsidian-flavored-markdown-skill"&gt;Obsidian Flavored Markdown Skill&lt;/h1&gt;
+&lt;p&gt;After successful login, the user will have to restart codex. You should finish your answer and tell them so when they try again they can continue with Step 1.&lt;/p&gt;</description></item><item><title>Obsidian Markdown</title><link>https://agentskill.wiki/skills/obsidian-markdown/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/obsidian-markdown/</guid><description>&lt;h1 id="obsidian-flavored-markdown-skill"&gt;Obsidian Flavored Markdown Skill&lt;/h1&gt;
 &lt;p&gt;This skill enables Claude Code to create and edit valid Obsidian Flavored Markdown, including all Obsidian-specific syntax extensions.&lt;/p&gt;
 &lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;Obsidian uses a combination of Markdown flavors:&lt;/p&gt;
@@ -1215,7 +1215,7 @@ Offer the user a structured workflow for co-authoring the document. Explain the 
  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;h3 id="escaping-formatting"&gt;Escaping Formatting&lt;/h3&gt;
-&lt;p&gt;Use backslash to escape special characters:&lt;/p&gt;</description></item><item><title>On Call Handoff Patterns</title><link>https://agentskill.wiki/en/skills/on-call-handoff-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/on-call-handoff-patterns/</guid><description>&lt;h1 id="on-call-handoff-patterns"&gt;On-Call Handoff Patterns&lt;/h1&gt;
+&lt;p&gt;Use backslash to escape special characters:&lt;/p&gt;</description></item><item><title>On Call Handoff Patterns</title><link>https://agentskill.wiki/skills/on-call-handoff-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/on-call-handoff-patterns/</guid><description>&lt;h1 id="on-call-handoff-patterns"&gt;On-Call Handoff Patterns&lt;/h1&gt;
 &lt;p&gt;Effective patterns for on-call shift transitions, ensuring continuity, context transfer, and reliable incident response across shifts.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -1668,7 +1668,7 @@ I&amp;#39;ll be available on Slack until 17:00 today.
 &lt;li&gt;&lt;a href="https://sre.google/sre-book/being-on-call/"&gt;Google SRE - Being On-Call&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.pagerduty.com/resources/learn/on-call-management/"&gt;PagerDuty On-Call Guide&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://increment.com/on-call/"&gt;Increment On-Call Issue&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Planning With Files</title><link>https://agentskill.wiki/en/skills/planning-with-files/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/planning-with-files/</guid><description>&lt;h1 id="planning-with-files"&gt;Planning with Files&lt;/h1&gt;
+&lt;/ul&gt;</description></item><item><title>Planning With Files</title><link>https://agentskill.wiki/skills/planning-with-files/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/planning-with-files/</guid><description>&lt;h1 id="planning-with-files"&gt;Planning with Files&lt;/h1&gt;
 &lt;p&gt;Work like Manus: Use persistent markdown files as your &amp;ldquo;working memory on disk.&amp;rdquo;&lt;/p&gt;
 &lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;
 &lt;p&gt;Before ANY complex task:&lt;/p&gt;
@@ -1712,7 +1712,7 @@ Loop 2: Research → save to notes.md → update task_plan.md
 Loop 3: Read notes.md → create deliverable → update task_plan.md
 Loop 4: Deliver final output
 &lt;/code&gt;&lt;/pre&gt;&lt;h3 id="the-loop-in-detail"&gt;The Loop in Detail&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Before each major action:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Protocolsio Integration</title><link>https://agentskill.wiki/en/skills/protocolsio-integration/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/protocolsio-integration/</guid><description>&lt;h1 id="protocolsio-integration"&gt;Protocols.io Integration&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Before each major action:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Protocolsio Integration</title><link>https://agentskill.wiki/skills/protocolsio-integration/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/protocolsio-integration/</guid><description>&lt;h1 id="protocolsio-integration"&gt;Protocols.io Integration&lt;/h1&gt;
 &lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;Protocols.io is a comprehensive platform for developing, sharing, and managing scientific protocols. This skill provides complete integration with the protocols.io API v3, enabling programmatic access to protocols, workspaces, discussions, file management, and collaboration features.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
@@ -1730,7 +1730,7 @@ Loop 4: Deliver final output
 &lt;li&gt;&lt;strong&gt;Integration Projects&lt;/strong&gt;: Building tools that interact with protocols.io&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="core-capabilities"&gt;Core Capabilities&lt;/h2&gt;
-&lt;p&gt;This skill provides comprehensive guidance across five major capability areas:&lt;/p&gt;</description></item><item><title>Skill Builder</title><link>https://agentskill.wiki/en/skills/skill-builder/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/skill-builder/</guid><description>&lt;h1 id="skill-builder"&gt;Skill Builder&lt;/h1&gt;
+&lt;p&gt;This skill provides comprehensive guidance across five major capability areas:&lt;/p&gt;</description></item><item><title>Skill Builder</title><link>https://agentskill.wiki/skills/skill-builder/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/skill-builder/</guid><description>&lt;h1 id="skill-builder"&gt;Skill Builder&lt;/h1&gt;
 &lt;h2 id="what-this-skill-does"&gt;What This Skill Does&lt;/h2&gt;
 &lt;p&gt;Creates production-ready Claude Code Skills with proper YAML frontmatter, progressive disclosure architecture, and complete file/folder structure. This skill guides you through building skills that Claude can autonomously discover and use across all surfaces (Claude.ai, Claude Code, SDK, API).&lt;/p&gt;
 &lt;h2 id="prerequisites"&gt;Prerequisites&lt;/h2&gt;
@@ -1765,7 +1765,7 @@ Loop 4: Deliver final output
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
 &lt;h2 id="complete-specification"&gt;Complete Specification&lt;/h2&gt;
 &lt;h3 id="-yaml-frontmatter-required"&gt;📋 YAML Frontmatter (REQUIRED)&lt;/h3&gt;
-&lt;p&gt;Every SKILL.md &lt;strong&gt;must&lt;/strong&gt; start with YAML frontmatter containing exactly two required fields:&lt;/p&gt;</description></item><item><title>Skill Creation Guide</title><link>https://agentskill.wiki/en/skills/skill-creation-guide/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/skill-creation-guide/</guid><description>&lt;h1 id="skill-creator"&gt;Skill Creator&lt;/h1&gt;
+&lt;p&gt;Every SKILL.md &lt;strong&gt;must&lt;/strong&gt; start with YAML frontmatter containing exactly two required fields:&lt;/p&gt;</description></item><item><title>Skill Creation Guide</title><link>https://agentskill.wiki/skills/skill-creation-guide/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/skill-creation-guide/</guid><description>&lt;h1 id="skill-creator"&gt;Skill Creator&lt;/h1&gt;
 &lt;p&gt;This skill provides guidance for creating effective skills.&lt;/p&gt;
 &lt;h2 id="about-skills"&gt;About Skills&lt;/h2&gt;
 &lt;p&gt;Skills are modular, self-contained packages that extend Claude&amp;rsquo;s capabilities by providing
@@ -1781,7 +1781,7 @@ equipped with procedural knowledge that no model can fully possess.&lt;/p&gt;
 &lt;/ol&gt;
 &lt;h2 id="core-principles"&gt;Core Principles&lt;/h2&gt;
 &lt;h3 id="concise-is-key"&gt;Concise is Key&lt;/h3&gt;
-&lt;p&gt;The context window is a public good. Skills share the context window with everything else Claude needs: system prompt, conversation history, other Skills&amp;rsquo; metadata, and the actual user request.&lt;/p&gt;</description></item><item><title>Skill Creator</title><link>https://agentskill.wiki/en/skills/skill-creator/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/skill-creator/</guid><description>&lt;h1 id="skill-creator"&gt;Skill Creator&lt;/h1&gt;
+&lt;p&gt;The context window is a public good. Skills share the context window with everything else Claude needs: system prompt, conversation history, other Skills&amp;rsquo; metadata, and the actual user request.&lt;/p&gt;</description></item><item><title>Skill Creator</title><link>https://agentskill.wiki/skills/skill-creator/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/skill-creator/</guid><description>&lt;h1 id="skill-creator"&gt;Skill Creator&lt;/h1&gt;
 &lt;p&gt;This skill provides guidance for creating effective skills.&lt;/p&gt;
 &lt;h2 id="about-skills"&gt;About Skills&lt;/h2&gt;
 &lt;p&gt;Skills are modular, self-contained packages that extend Claude&amp;rsquo;s capabilities by providing
@@ -1797,7 +1797,7 @@ equipped with procedural knowledge that no model can fully possess.&lt;/p&gt;
 &lt;/ol&gt;
 &lt;h2 id="core-principles"&gt;Core Principles&lt;/h2&gt;
 &lt;h3 id="concise-is-key"&gt;Concise is Key&lt;/h3&gt;
-&lt;p&gt;The context window is a public good. Skills share the context window with everything else Claude needs: system prompt, conversation history, other Skills&amp;rsquo; metadata, and the actual user request.&lt;/p&gt;</description></item><item><title>Skill Development</title><link>https://agentskill.wiki/en/skills/skill-development/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/skill-development/</guid><description>&lt;h1 id="skill-development-for-claude-code-plugins"&gt;Skill Development for Claude Code Plugins&lt;/h1&gt;
+&lt;p&gt;The context window is a public good. Skills share the context window with everything else Claude needs: system prompt, conversation history, other Skills&amp;rsquo; metadata, and the actual user request.&lt;/p&gt;</description></item><item><title>Skill Development</title><link>https://agentskill.wiki/skills/skill-development/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/skill-development/</guid><description>&lt;h1 id="skill-development-for-claude-code-plugins"&gt;Skill Development for Claude Code Plugins&lt;/h1&gt;
 &lt;p&gt;This skill provides guidance for creating effective skills for Claude Code plugins.&lt;/p&gt;
 &lt;h2 id="about-skills"&gt;About Skills&lt;/h2&gt;
 &lt;p&gt;Skills are modular, self-contained packages that extend Claude&amp;rsquo;s capabilities by providing
@@ -1812,7 +1812,7 @@ equipped with procedural knowledge that no model can fully possess.&lt;/p&gt;
 &lt;li&gt;Bundled resources - Scripts, references, and assets for complex and repetitive tasks&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h3 id="anatomy-of-a-skill"&gt;Anatomy of a Skill&lt;/h3&gt;
-&lt;p&gt;Every skill consists of a required SKILL.md file and optional bundled resources:&lt;/p&gt;</description></item><item><title>Skill Sync</title><link>https://agentskill.wiki/en/skills/skill-sync/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/skill-sync/</guid><description>&lt;h2 id="purpose"&gt;Purpose&lt;/h2&gt;
+&lt;p&gt;Every skill consists of a required SKILL.md file and optional bundled resources:&lt;/p&gt;</description></item><item><title>Skill Sync</title><link>https://agentskill.wiki/skills/skill-sync/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/skill-sync/</guid><description>&lt;h2 id="purpose"&gt;Purpose&lt;/h2&gt;
 &lt;p&gt;Keeps AGENTS.md Auto-invoke sections in sync with skill metadata. When you create or modify a skill, run the sync script to automatically update all affected AGENTS.md files.&lt;/p&gt;
 &lt;h2 id="required-skill-metadata"&gt;Required Skill Metadata&lt;/h2&gt;
 &lt;p&gt;Each skill that should appear in Auto-invoke sections needs these fields in &lt;code&gt;metadata&lt;/code&gt;.&lt;/p&gt;
@@ -1860,7 +1860,7 @@ equipped with procedural knowledge that no model can fully possess.&lt;/p&gt;
  &lt;/tr&gt;
  &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;Skills can have multiple scopes: &lt;code&gt;scope: [ui, api]&lt;/code&gt;&lt;/p&gt;</description></item><item><title>Skill Writer</title><link>https://agentskill.wiki/en/skills/skill-writer/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/skill-writer/</guid><description>&lt;h1 id="skill-writer"&gt;Skill Writer&lt;/h1&gt;
+&lt;p&gt;Skills can have multiple scopes: &lt;code&gt;scope: [ui, api]&lt;/code&gt;&lt;/p&gt;</description></item><item><title>Skill Writer</title><link>https://agentskill.wiki/skills/skill-writer/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/skill-writer/</guid><description>&lt;h1 id="skill-writer"&gt;Skill Writer&lt;/h1&gt;
 &lt;p&gt;This Skill helps you create well-structured Agent Skills for Claude Code that follow best practices and validation requirements.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to use this Skill&lt;/h2&gt;
 &lt;p&gt;Use this Skill when:&lt;/p&gt;
@@ -1876,12 +1876,12 @@ equipped with procedural knowledge that no model can fully possess.&lt;/p&gt;
 &lt;p&gt;First, understand what the Skill should do:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Ask clarifying questions&lt;/strong&gt;:&lt;/p&gt;</description></item><item><title>Vscode Release Notes Writer</title><link>https://agentskill.wiki/en/skills/vscode-release-notes-writer/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/vscode-release-notes-writer/</guid><description>&lt;h1 id="visual-studio-code-release-note-writer-guidelines"&gt;Visual Studio Code Release Note Writer Guidelines&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Ask clarifying questions&lt;/strong&gt;:&lt;/p&gt;</description></item><item><title>Vscode Release Notes Writer</title><link>https://agentskill.wiki/skills/vscode-release-notes-writer/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/vscode-release-notes-writer/</guid><description>&lt;h1 id="visual-studio-code-release-note-writer-guidelines"&gt;Visual Studio Code Release Note Writer Guidelines&lt;/h1&gt;
 &lt;p&gt;This skill is designed to help you write release notes for Visual Studio Code Insiders and Stable releases. It provides structured guidelines and examples to ensure consistency and clarity in the release notes.&lt;/p&gt;
 &lt;p&gt;There are two main types of release notes you can generate using this skill:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Insiders Release Notes&lt;/strong&gt;: These notes cover the latest features and updates in the Insiders build of VS Code. They are updated frequently as new features are added. Their format includes sections grouped by the date of the updates. The content is generated based on closed GitHub issues and PRs for a specific milestone.&lt;/p&gt;</description></item><item><title>Woocommerce Markdown</title><link>https://agentskill.wiki/en/skills/woocommerce-markdown/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/woocommerce-markdown/</guid><description>&lt;h1 id="woocommerce-markdown-guidelines"&gt;WooCommerce Markdown Guidelines&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Insiders Release Notes&lt;/strong&gt;: These notes cover the latest features and updates in the Insiders build of VS Code. They are updated frequently as new features are added. Their format includes sections grouped by the date of the updates. The content is generated based on closed GitHub issues and PRs for a specific milestone.&lt;/p&gt;</description></item><item><title>Woocommerce Markdown</title><link>https://agentskill.wiki/skills/woocommerce-markdown/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/woocommerce-markdown/</guid><description>&lt;h1 id="woocommerce-markdown-guidelines"&gt;WooCommerce Markdown Guidelines&lt;/h1&gt;
 &lt;p&gt;This skill provides guidance for creating and editing markdown files in the WooCommerce project.&lt;/p&gt;
 &lt;h2 id="critical-rules"&gt;Critical Rules&lt;/h2&gt;
 &lt;ol&gt;
@@ -1891,7 +1891,7 @@ equipped with procedural knowledge that no model can fully possess.&lt;/p&gt;
 &lt;li&gt;&lt;strong&gt;Follow WooCommerce markdown standards&lt;/strong&gt; - See configuration rules below&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id="woocommerce-markdown-configuration"&gt;WooCommerce Markdown Configuration&lt;/h2&gt;
-&lt;p&gt;The project uses markdownlint with these specific rules (from &lt;code&gt;.markdownlint.json&lt;/code&gt;):&lt;/p&gt;</description></item><item><title>Write Docs</title><link>https://agentskill.wiki/en/skills/write-docs/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/write-docs/</guid><description>&lt;h1 id="write-browseros-documentation"&gt;Write BrowserOS Documentation&lt;/h1&gt;
+&lt;p&gt;The project uses markdownlint with these specific rules (from &lt;code&gt;.markdownlint.json&lt;/code&gt;):&lt;/p&gt;</description></item><item><title>Write Docs</title><link>https://agentskill.wiki/skills/write-docs/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/write-docs/</guid><description>&lt;h1 id="write-browseros-documentation"&gt;Write BrowserOS Documentation&lt;/h1&gt;
 &lt;p&gt;This skill helps write documentation for BrowserOS features. It follows a structured workflow to create high-quality, concise documentation pages.&lt;/p&gt;
 &lt;h2 id="workflow"&gt;Workflow&lt;/h2&gt;
 &lt;h3 id="step-1-understand-the-feature"&gt;Step 1: Understand the Feature&lt;/h3&gt;
@@ -1914,7 +1914,7 @@ equipped with procedural knowledge that no model can fully possess.&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;h3 id="step-2-gather-screenshots"&gt;Step 2: Gather Screenshots&lt;/h3&gt;
-&lt;p&gt;Ask the user to provide screenshots for the documentation:&lt;/p&gt;</description></item><item><title>Write Issue</title><link>https://agentskill.wiki/en/skills/write-issue/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/write-issue/</guid><description>&lt;h1 id="writing-and-maintaining-github-issues"&gt;Writing and maintaining GitHub issues&lt;/h1&gt;
+&lt;p&gt;Ask the user to provide screenshots for the documentation:&lt;/p&gt;</description></item><item><title>Write Issue</title><link>https://agentskill.wiki/skills/write-issue/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/write-issue/</guid><description>&lt;h1 id="writing-and-maintaining-github-issues"&gt;Writing and maintaining GitHub issues&lt;/h1&gt;
 &lt;p&gt;Standards for issues in tldraw/tldraw.&lt;/p&gt;
 &lt;h2 id="title-standards"&gt;Title standards&lt;/h2&gt;
 &lt;ul&gt;

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Security on Agent Skills Hub</title><link>https://agentskill.wiki/tags/security/</link><description>Recent content in Security on Agent Skills Hub</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/security/index.xml" rel="self" type="application/rss+xml"/><item><title>Auth Implementation Patterns</title><link>https://agentskill.wiki/en/skills/auth-implementation-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/auth-implementation-patterns/</guid><description>&lt;h1 id="authentication--authorization-implementation-patterns"&gt;Authentication &amp;amp; Authorization Implementation Patterns&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Security on Agent Skills Hub</title><link>https://agentskill.wiki/tags/security/</link><description>Recent content in Security on Agent Skills Hub</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/security/index.xml" rel="self" type="application/rss+xml"/><item><title>Auth Implementation Patterns</title><link>https://agentskill.wiki/skills/auth-implementation-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/auth-implementation-patterns/</guid><description>&lt;h1 id="authentication--authorization-implementation-patterns"&gt;Authentication &amp;amp; Authorization Implementation Patterns&lt;/h1&gt;
 &lt;p&gt;Build secure, scalable authentication and authorization systems using industry-standard patterns and modern best practices.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -19,7 +19,7 @@
 &lt;li&gt;Issuing credentials (sessions, tokens)&lt;/li&gt;
 &lt;li&gt;Managing login/logout&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Authorization (AuthZ)&lt;/strong&gt;: What can you do?&lt;/p&gt;</description></item><item><title>Find Bugs</title><link>https://agentskill.wiki/en/skills/find-bugs/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/find-bugs/</guid><description>&lt;h1 id="find-bugs"&gt;Find Bugs&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Authorization (AuthZ)&lt;/strong&gt;: What can you do?&lt;/p&gt;</description></item><item><title>Find Bugs</title><link>https://agentskill.wiki/skills/find-bugs/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/find-bugs/</guid><description>&lt;h1 id="find-bugs"&gt;Find Bugs&lt;/h1&gt;
 &lt;p&gt;Review changes on this branch for bugs, security vulnerabilities, and code quality issues.&lt;/p&gt;
 &lt;h2 id="phase-1-complete-input-gathering"&gt;Phase 1: Complete Input Gathering&lt;/h2&gt;
 &lt;ol&gt;
@@ -52,7 +52,7 @@
 &lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Business logic&lt;/strong&gt;: Edge cases, state machine violations, numeric overflow?&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="phase-4-verification"&gt;Phase 4: Verification&lt;/h2&gt;
-&lt;p&gt;For each potential issue:&lt;/p&gt;</description></item><item><title>Hook Development</title><link>https://agentskill.wiki/en/skills/hook-development/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/hook-development/</guid><description>&lt;h1 id="hook-development-for-claude-code-plugins"&gt;Hook Development for Claude Code Plugins&lt;/h1&gt;
+&lt;p&gt;For each potential issue:&lt;/p&gt;</description></item><item><title>Hook Development</title><link>https://agentskill.wiki/skills/hook-development/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/hook-development/</guid><description>&lt;h1 id="hook-development-for-claude-code-plugins"&gt;Hook Development for Claude Code Plugins&lt;/h1&gt;
 &lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;Hooks are event-driven automation scripts that execute in response to Claude Code events. Use hooks to validate operations, enforce policies, add context, and integrate external tools into workflows.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Key capabilities:&lt;/strong&gt;&lt;/p&gt;
@@ -65,7 +65,7 @@
 &lt;/ul&gt;
 &lt;h2 id="hook-types"&gt;Hook Types&lt;/h2&gt;
 &lt;h3 id="prompt-based-hooks-recommended"&gt;Prompt-Based Hooks (Recommended)&lt;/h3&gt;
-&lt;p&gt;Use LLM-driven decision making for context-aware validation:&lt;/p&gt;</description></item><item><title>Prowler Compliance Review</title><link>https://agentskill.wiki/en/skills/prowler-compliance-review/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/prowler-compliance-review/</guid><description>&lt;h2 id="when-to-use"&gt;When to Use&lt;/h2&gt;
+&lt;p&gt;Use LLM-driven decision making for context-aware validation:&lt;/p&gt;</description></item><item><title>Prowler Compliance Review</title><link>https://agentskill.wiki/skills/prowler-compliance-review/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/prowler-compliance-review/</guid><description>&lt;h2 id="when-to-use"&gt;When to Use&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Reviewing PRs that add new compliance frameworks&lt;/li&gt;
 &lt;li&gt;Reviewing PRs that modify existing compliance frameworks&lt;/li&gt;
@@ -149,7 +149,7 @@
  └── Yes → APPROVE
 &lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;
 &lt;h2 id="framework-structure-reference"&gt;Framework Structure Reference&lt;/h2&gt;
-&lt;p&gt;Compliance frameworks are JSON files in: &lt;code&gt;prowler/compliance/{provider}/{framework}.json&lt;/code&gt;&lt;/p&gt;</description></item><item><title>Secrets Management</title><link>https://agentskill.wiki/en/skills/secrets-management/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/secrets-management/</guid><description>&lt;h1 id="secrets-management"&gt;Secrets Management&lt;/h1&gt;
+&lt;p&gt;Compliance frameworks are JSON files in: &lt;code&gt;prowler/compliance/{provider}/{framework}.json&lt;/code&gt;&lt;/p&gt;</description></item><item><title>Secrets Management</title><link>https://agentskill.wiki/skills/secrets-management/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/secrets-management/</guid><description>&lt;h1 id="secrets-management"&gt;Secrets Management&lt;/h1&gt;
 &lt;p&gt;Secure secrets management practices for CI/CD pipelines using Vault, AWS Secrets Manager, and other tools.&lt;/p&gt;
 &lt;h2 id="purpose"&gt;Purpose&lt;/h2&gt;
 &lt;p&gt;Implement secure secrets management in CI/CD pipelines without hardcoding sensitive information.&lt;/p&gt;
@@ -242,14 +242,14 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;10&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; API_KEY=$(vault kv get -field=key secret/api/credentials)
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;11&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; echo &amp;#34;Deploying with secrets...&amp;#34;
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;12&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; # Use $DB_PASSWORD, $API_KEY&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Reference:&lt;/strong&gt; See &lt;code&gt;references/vault-setup.md&lt;/code&gt;&lt;/p&gt;</description></item><item><title>Security Compliance</title><link>https://agentskill.wiki/en/skills/security-compliance/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/security-compliance/</guid><description>&lt;h1 id="security--compliance-expert"&gt;Security &amp;amp; Compliance Expert&lt;/h1&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Reference:&lt;/strong&gt; See &lt;code&gt;references/vault-setup.md&lt;/code&gt;&lt;/p&gt;</description></item><item><title>Security Compliance</title><link>https://agentskill.wiki/skills/security-compliance/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/security-compliance/</guid><description>&lt;h1 id="security--compliance-expert"&gt;Security &amp;amp; Compliance Expert&lt;/h1&gt;
 &lt;h2 id="core-principles"&gt;Core Principles&lt;/h2&gt;
 &lt;h3 id="1-defense-in-depth"&gt;1. Defense in Depth&lt;/h3&gt;
 &lt;p&gt;Apply multiple layers of security controls so that if one fails, others provide protection. Never rely on a single security mechanism.&lt;/p&gt;
 &lt;h3 id="2-zero-trust-architecture"&gt;2. Zero Trust Architecture&lt;/h3&gt;
 &lt;p&gt;Never trust, always verify. Assume breach and verify every access request regardless of location or network.&lt;/p&gt;
 &lt;h3 id="3-least-privilege"&gt;3. Least Privilege&lt;/h3&gt;
-&lt;p&gt;Grant the minimum access necessary for users and systems to perform their functions. Regularly review and revoke unused permissions.&lt;/p&gt;</description></item><item><title>Senior Secops</title><link>https://agentskill.wiki/en/skills/senior-secops/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/senior-secops/</guid><description>&lt;h1 id="senior-secops"&gt;Senior Secops&lt;/h1&gt;
+&lt;p&gt;Grant the minimum access necessary for users and systems to perform their functions. Regularly review and revoke unused permissions.&lt;/p&gt;</description></item><item><title>Senior Secops</title><link>https://agentskill.wiki/skills/senior-secops/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/senior-secops/</guid><description>&lt;h1 id="senior-secops"&gt;Senior Secops&lt;/h1&gt;
 &lt;p&gt;Complete toolkit for senior secops with modern tools and best practices.&lt;/p&gt;
 &lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;
 &lt;h3 id="main-capabilities"&gt;Main Capabilities&lt;/h3&gt;

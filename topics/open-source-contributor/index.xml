@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Open Source Contributor on Agent Skills Hub</title><link>https://agentskill.wiki/topics/open-source-contributor/</link><description>Recent content in Open Source Contributor on Agent Skills Hub</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/topics/open-source-contributor/index.xml" rel="self" type="application/rss+xml"/><item><title>Changelog</title><link>https://agentskill.wiki/en/skills/changelog/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/changelog/</guid><description>&lt;h1 id="changelog-maintenance"&gt;Changelog Maintenance&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Open Source Contributor on Agent Skills Hub</title><link>https://agentskill.wiki/topics/open-source-contributor/</link><description>Recent content in Open Source Contributor on Agent Skills Hub</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/topics/open-source-contributor/index.xml" rel="self" type="application/rss+xml"/><item><title>Changelog</title><link>https://agentskill.wiki/skills/changelog/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/changelog/</guid><description>&lt;h1 id="changelog-maintenance"&gt;Changelog Maintenance&lt;/h1&gt;
 &lt;p&gt;You are a changelog maintenance specialist for the IdeaVim project. Your job is to keep the changelog (CHANGES.md) and build.gradle.kts changeNotes in sync with code changes.&lt;/p&gt;
 &lt;h2 id="historical-context"&gt;Historical Context&lt;/h2&gt;
 &lt;ul&gt;
@@ -35,7 +35,7 @@
 &lt;li&gt;Note the date of the last entry&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id="15-check-the-last-processed-commit-automated-workflow"&gt;1.5. Check the Last Processed Commit (Automated Workflow)&lt;/h3&gt;
-&lt;p&gt;When running via the GitHub Actions workflow, check if a last processed commit SHA is provided in the prompt.&lt;/p&gt;</description></item><item><title>Create Pull Request</title><link>https://agentskill.wiki/en/skills/create-pull-request/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/create-pull-request/</guid><description>&lt;h1 id="create-pull-request"&gt;Create Pull Request&lt;/h1&gt;
+&lt;p&gt;When running via the GitHub Actions workflow, check if a last processed commit SHA is provided in the prompt.&lt;/p&gt;</description></item><item><title>Create Pull Request</title><link>https://agentskill.wiki/skills/create-pull-request/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/create-pull-request/</guid><description>&lt;h1 id="create-pull-request"&gt;Create Pull Request&lt;/h1&gt;
 &lt;p&gt;This skill guides you through creating a well-structured GitHub pull request that follows project conventions and best practices.&lt;/p&gt;
 &lt;h2 id="prerequisites-check"&gt;Prerequisites Check&lt;/h2&gt;
 &lt;p&gt;Before proceeding, verify the following:&lt;/p&gt;
@@ -51,7 +51,7 @@
 &lt;/blockquote&gt;
 &lt;h3 id="2-check-if-authenticated-with-github"&gt;2. Check if authenticated with GitHub&lt;/h3&gt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;gh auth status
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;If not authenticated, guide the user to run &lt;code&gt;gh auth login&lt;/code&gt;.&lt;/p&gt;</description></item><item><title>Issue Triage</title><link>https://agentskill.wiki/en/skills/issue-triage/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/issue-triage/</guid><description>&lt;h1 id="issue-triage-skill"&gt;Issue Triage Skill&lt;/h1&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;If not authenticated, guide the user to run &lt;code&gt;gh auth login&lt;/code&gt;.&lt;/p&gt;</description></item><item><title>Issue Triage</title><link>https://agentskill.wiki/skills/issue-triage/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/issue-triage/</guid><description>&lt;h1 id="issue-triage-skill"&gt;Issue Triage Skill&lt;/h1&gt;
 &lt;p&gt;This skill helps triage open GitHub issues in the dotnet/maui repository by:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Initializing a session with current milestones and labels&lt;/li&gt;
@@ -74,7 +74,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;10&lt;/span&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;11&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Authenticate (required before first use)&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;12&lt;/span&gt;&lt;span&gt;gh auth login
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The scripts will check for &lt;code&gt;gh&lt;/code&gt; and exit with installation instructions if not found.&lt;/p&gt;</description></item><item><title>Pr Creator</title><link>https://agentskill.wiki/en/skills/pr-creator/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/pr-creator/</guid><description>&lt;h1 id="pull-request-creator"&gt;Pull Request Creator&lt;/h1&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The scripts will check for &lt;code&gt;gh&lt;/code&gt; and exit with installation instructions if not found.&lt;/p&gt;</description></item><item><title>Pr Creator</title><link>https://agentskill.wiki/skills/pr-creator/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/pr-creator/</guid><description>&lt;h1 id="pull-request-creator"&gt;Pull Request Creator&lt;/h1&gt;
 &lt;p&gt;This skill guides the creation of high-quality Pull Requests that adhere to the
 repository&amp;rsquo;s standards.&lt;/p&gt;
 &lt;h2 id="workflow"&gt;Workflow&lt;/h2&gt;
@@ -92,7 +92,7 @@ branch:
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Locate Template&lt;/strong&gt;: Search for a pull request template in the repository.&lt;/p&gt;</description></item><item><title>Prowler Pr</title><link>https://agentskill.wiki/en/skills/prowler-pr/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/prowler-pr/</guid><description>&lt;h2 id="pr-creation-process"&gt;PR Creation Process&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Locate Template&lt;/strong&gt;: Search for a pull request template in the repository.&lt;/p&gt;</description></item><item><title>Prowler Pr</title><link>https://agentskill.wiki/skills/prowler-pr/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/prowler-pr/</guid><description>&lt;h2 id="pr-creation-process"&gt;PR Creation Process&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;Analyze changes&lt;/strong&gt;: &lt;code&gt;git diff main...HEAD&lt;/code&gt; to understand ALL commits&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Determine affected components&lt;/strong&gt;: SDK, API, UI, MCP, Docs&lt;/li&gt;
@@ -205,7 +205,7 @@ branch:
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;15&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Create draft PR&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;16&lt;/span&gt;&lt;span&gt;gh pr create --draft --title &lt;span style="color:#e6db74"&gt;&amp;#34;feat: description&amp;#34;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="title-conventions"&gt;Title Conventions&lt;/h2&gt;
-&lt;p&gt;Follow conventional commits:&lt;/p&gt;</description></item><item><title>Woocommerce Markdown</title><link>https://agentskill.wiki/en/skills/woocommerce-markdown/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/woocommerce-markdown/</guid><description>&lt;h1 id="woocommerce-markdown-guidelines"&gt;WooCommerce Markdown Guidelines&lt;/h1&gt;
+&lt;p&gt;Follow conventional commits:&lt;/p&gt;</description></item><item><title>Woocommerce Markdown</title><link>https://agentskill.wiki/skills/woocommerce-markdown/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/woocommerce-markdown/</guid><description>&lt;h1 id="woocommerce-markdown-guidelines"&gt;WooCommerce Markdown Guidelines&lt;/h1&gt;
 &lt;p&gt;This skill provides guidance for creating and editing markdown files in the WooCommerce project.&lt;/p&gt;
 &lt;h2 id="critical-rules"&gt;Critical Rules&lt;/h2&gt;
 &lt;ol&gt;

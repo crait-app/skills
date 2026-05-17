@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Async on Agent Skills Hub</title><link>https://agentskill.wiki/tags/async/</link><description>Recent content in Async on Agent Skills Hub</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/async/index.xml" rel="self" type="application/rss+xml"/><item><title>Fastapi Templates</title><link>https://agentskill.wiki/en/skills/fastapi-templates/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/fastapi-templates/</guid><description>&lt;h1 id="fastapi-project-templates"&gt;FastAPI Project Templates&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Async on Agent Skills Hub</title><link>https://agentskill.wiki/tags/async/</link><description>Recent content in Async on Agent Skills Hub</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/async/index.xml" rel="self" type="application/rss+xml"/><item><title>Fastapi Templates</title><link>https://agentskill.wiki/skills/fastapi-templates/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/fastapi-templates/</guid><description>&lt;h1 id="fastapi-project-templates"&gt;FastAPI Project Templates&lt;/h1&gt;
 &lt;p&gt;Production-ready FastAPI project structures with async patterns, dependency injection, middleware, and best practices for building high-performance APIs.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -38,7 +38,7 @@
 │ └── item_repository.py
 └── main.py # Application entry
 &lt;/code&gt;&lt;/pre&gt;&lt;h3 id="2-dependency-injection"&gt;2. Dependency Injection&lt;/h3&gt;
-&lt;p&gt;FastAPI&amp;rsquo;s built-in DI system using &lt;code&gt;Depends&lt;/code&gt;:&lt;/p&gt;</description></item><item><title>Gpui Async</title><link>https://agentskill.wiki/en/skills/gpui-async/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/gpui-async/</guid><description>&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;p&gt;FastAPI&amp;rsquo;s built-in DI system using &lt;code&gt;Depends&lt;/code&gt;:&lt;/p&gt;</description></item><item><title>Gpui Async</title><link>https://agentskill.wiki/skills/gpui-async/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/gpui-async/</guid><description>&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;GPUI provides integrated async runtime for foreground UI updates and background computation.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Key Concepts:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -135,7 +135,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;5&lt;/span&gt;&lt;span&gt; }
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;6&lt;/span&gt;&lt;span&gt;}).detach();
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="4-task-cancellation"&gt;4. Task Cancellation&lt;/h3&gt;
-&lt;p&gt;Tasks are automatically cancelled when dropped. Store in struct to keep alive.&lt;/p&gt;</description></item><item><title>Gpui Context</title><link>https://agentskill.wiki/en/skills/gpui-context/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/gpui-context/</guid><description>&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Tasks are automatically cancelled when dropped. Store in struct to keep alive.&lt;/p&gt;</description></item><item><title>Gpui Context</title><link>https://agentskill.wiki/skills/gpui-context/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/gpui-context/</guid><description>&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;GPUI uses different context types for different scenarios:&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Context Types:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -255,7 +255,7 @@
 &lt;li&gt;Async contexts, best practices&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Gpui Entity</title><link>https://agentskill.wiki/en/skills/gpui-entity/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/gpui-entity/</guid><description>&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;/ul&gt;</description></item><item><title>Gpui Entity</title><link>https://agentskill.wiki/skills/gpui-entity/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/gpui-entity/</guid><description>&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;An &lt;code&gt;Entity&amp;lt;T&amp;gt;&lt;/code&gt; is a handle to state of type &lt;code&gt;T&lt;/code&gt;, providing safe access and updates.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Key Methods:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;

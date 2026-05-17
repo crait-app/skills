@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Shadcn-Ui on Agent Skills Hub</title><link>https://agentskill.wiki/tags/shadcn-ui/</link><description>Recent content in Shadcn-Ui on Agent Skills Hub</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/shadcn-ui/index.xml" rel="self" type="application/rss+xml"/><item><title>Artifacts Builder</title><link>https://agentskill.wiki/en/skills/artifacts-builder/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/artifacts-builder/</guid><description>&lt;h1 id="artifacts-builder"&gt;Artifacts Builder&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Shadcn-Ui on Agent Skills Hub</title><link>https://agentskill.wiki/tags/shadcn-ui/</link><description>Recent content in Shadcn-Ui on Agent Skills Hub</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/shadcn-ui/index.xml" rel="self" type="application/rss+xml"/><item><title>Artifacts Builder</title><link>https://agentskill.wiki/skills/artifacts-builder/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/artifacts-builder/</guid><description>&lt;h1 id="artifacts-builder"&gt;Artifacts Builder&lt;/h1&gt;
 &lt;p&gt;To build powerful frontend claude.ai artifacts, follow these steps:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Initialize the frontend repo using &lt;code&gt;scripts/init-artifact.sh&lt;/code&gt;&lt;/li&gt;
@@ -9,7 +9,7 @@
 &lt;/ol&gt;
 &lt;p&gt;&lt;strong&gt;Stack&lt;/strong&gt;: React 18 + TypeScript + Vite + Parcel (bundling) + Tailwind CSS + shadcn/ui&lt;/p&gt;
 &lt;h2 id="design--style-guidelines"&gt;Design &amp;amp; Style Guidelines&lt;/h2&gt;
-&lt;p&gt;VERY IMPORTANT: To avoid what is often referred to as &amp;ldquo;AI slop&amp;rdquo;, avoid using excessive centered layouts, purple gradients, uniform rounded corners, and Inter font.&lt;/p&gt;</description></item><item><title>Prowler Ui</title><link>https://agentskill.wiki/en/skills/prowler-ui/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/prowler-ui/</guid><description>&lt;h2 id="related-generic-skills"&gt;Related Generic Skills&lt;/h2&gt;
+&lt;p&gt;VERY IMPORTANT: To avoid what is often referred to as &amp;ldquo;AI slop&amp;rdquo;, avoid using excessive centered layouts, purple gradients, uniform rounded corners, and Inter font.&lt;/p&gt;</description></item><item><title>Prowler Ui</title><link>https://agentskill.wiki/skills/prowler-ui/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/prowler-ui/</guid><description>&lt;h2 id="related-generic-skills"&gt;Related Generic Skills&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;typescript&lt;/code&gt; - Const types, flat interfaces&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;react-19&lt;/code&gt; - No useMemo/useCallback, compiler&lt;/li&gt;
@@ -87,7 +87,7 @@ Recharts/library? → CHART_COLORS constant + var()
 ├── tests/ # Playwright E2E
 └── styles/ # Global CSS
 &lt;/code&gt;&lt;/pre&gt;&lt;h2 id="recharts-special-case"&gt;Recharts (Special Case)&lt;/h2&gt;
-&lt;p&gt;For Recharts props that don&amp;rsquo;t accept className:&lt;/p&gt;</description></item><item><title>Web Artifacts Builder</title><link>https://agentskill.wiki/en/skills/web-artifacts-builder/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/web-artifacts-builder/</guid><description>&lt;h1 id="web-artifacts-builder"&gt;Web Artifacts Builder&lt;/h1&gt;
+&lt;p&gt;For Recharts props that don&amp;rsquo;t accept className:&lt;/p&gt;</description></item><item><title>Web Artifacts Builder</title><link>https://agentskill.wiki/skills/web-artifacts-builder/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/web-artifacts-builder/</guid><description>&lt;h1 id="web-artifacts-builder"&gt;Web Artifacts Builder&lt;/h1&gt;
 &lt;p&gt;To build powerful frontend claude.ai artifacts, follow these steps:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Initialize the frontend repo using &lt;code&gt;scripts/init-artifact.sh&lt;/code&gt;&lt;/li&gt;

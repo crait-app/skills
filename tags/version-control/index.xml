@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Version-Control on Agent Skills Hub</title><link>https://agentskill.wiki/tags/version-control/</link><description>Recent content in Version-Control on Agent Skills Hub</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/version-control/index.xml" rel="self" type="application/rss+xml"/><item><title>Changelog</title><link>https://agentskill.wiki/en/skills/changelog/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/changelog/</guid><description>&lt;h1 id="changelog-maintenance"&gt;Changelog Maintenance&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Version-Control on Agent Skills Hub</title><link>https://agentskill.wiki/tags/version-control/</link><description>Recent content in Version-Control on Agent Skills Hub</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/version-control/index.xml" rel="self" type="application/rss+xml"/><item><title>Changelog</title><link>https://agentskill.wiki/skills/changelog/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/changelog/</guid><description>&lt;h1 id="changelog-maintenance"&gt;Changelog Maintenance&lt;/h1&gt;
 &lt;p&gt;You are a changelog maintenance specialist for the IdeaVim project. Your job is to keep the changelog (CHANGES.md) and build.gradle.kts changeNotes in sync with code changes.&lt;/p&gt;
 &lt;h2 id="historical-context"&gt;Historical Context&lt;/h2&gt;
 &lt;ul&gt;
@@ -35,7 +35,7 @@
 &lt;li&gt;Note the date of the last entry&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id="15-check-the-last-processed-commit-automated-workflow"&gt;1.5. Check the Last Processed Commit (Automated Workflow)&lt;/h3&gt;
-&lt;p&gt;When running via the GitHub Actions workflow, check if a last processed commit SHA is provided in the prompt.&lt;/p&gt;</description></item><item><title>Changelog Generator</title><link>https://agentskill.wiki/en/skills/changelog-generator/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/changelog-generator/</guid><description>&lt;h1 id="changelog-generator"&gt;Changelog Generator&lt;/h1&gt;
+&lt;p&gt;When running via the GitHub Actions workflow, check if a last processed commit SHA is provided in the prompt.&lt;/p&gt;</description></item><item><title>Changelog Generator</title><link>https://agentskill.wiki/skills/changelog-generator/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/changelog-generator/</guid><description>&lt;h1 id="changelog-generator"&gt;Changelog Generator&lt;/h1&gt;
 &lt;p&gt;This skill transforms technical git commits into polished, user-friendly changelogs that your customers and users will actually understand and appreciate.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -58,7 +58,7 @@
 &lt;/ol&gt;
 &lt;h2 id="how-to-use"&gt;How to Use&lt;/h2&gt;
 &lt;h3 id="basic-usage"&gt;Basic Usage&lt;/h3&gt;
-&lt;p&gt;From your project repository:&lt;/p&gt;</description></item><item><title>Commit Helper</title><link>https://agentskill.wiki/en/skills/commit-helper/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/commit-helper/</guid><description>&lt;h1 id="cockroachdb-commit-helper"&gt;CockroachDB Commit Helper&lt;/h1&gt;
+&lt;p&gt;From your project repository:&lt;/p&gt;</description></item><item><title>Commit Helper</title><link>https://agentskill.wiki/skills/commit-helper/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/commit-helper/</guid><description>&lt;h1 id="cockroachdb-commit-helper"&gt;CockroachDB Commit Helper&lt;/h1&gt;
 &lt;p&gt;Help the user create properly formatted commit messages and release notes that follow CockroachDB conventions.&lt;/p&gt;
 &lt;h2 id="workflow"&gt;Workflow&lt;/h2&gt;
 &lt;ol&gt;
@@ -77,7 +77,7 @@
 &lt;li&gt;&lt;strong&gt;Create the commit&lt;/strong&gt; using the properly formatted message&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id="commit-message-structure"&gt;Commit Message Structure&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Basic Format:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Git Commit Helper</title><link>https://agentskill.wiki/en/skills/git-commit-helper/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/git-commit-helper/</guid><description>&lt;h1 id="git-commit-helper"&gt;Git Commit Helper&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Basic Format:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Git Commit Helper</title><link>https://agentskill.wiki/skills/git-commit-helper/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/git-commit-helper/</guid><description>&lt;h1 id="git-commit-helper"&gt;Git Commit Helper&lt;/h1&gt;
 &lt;h2 id="quick-start"&gt;Quick start&lt;/h2&gt;
 &lt;p&gt;Analyze staged changes and generate commit message:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# View staged changes&lt;/span&gt;
@@ -103,7 +103,7 @@
 &lt;li&gt;&lt;strong&gt;chore&lt;/strong&gt;: Maintenance tasks&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id="examples"&gt;Examples&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Feature commit:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Github Release Management</title><link>https://agentskill.wiki/en/skills/github-release-management/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/github-release-management/</guid><description>&lt;h1 id="github-release-management-skill"&gt;GitHub Release Management Skill&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Feature commit:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Github Release Management</title><link>https://agentskill.wiki/skills/github-release-management/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/github-release-management/</guid><description>&lt;h1 id="github-release-management-skill"&gt;GitHub Release Management Skill&lt;/h1&gt;
 &lt;p&gt;Intelligent release automation and orchestration using AI swarms for comprehensive software releases - from changelog generation to multi-platform deployment with rollback capabilities.&lt;/p&gt;
 &lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;
 &lt;h3 id="simple-release-flow"&gt;Simple Release Flow&lt;/h3&gt;
@@ -285,7 +285,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;14&lt;/span&gt;&lt;span&gt; --to HEAD &lt;span style="color:#ae81ff"&gt;\
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;15&lt;/span&gt;&lt;span&gt; --categorize &lt;span style="color:#ae81ff"&gt;\
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;16&lt;/span&gt;&lt;span&gt; --add-migration-guide
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Capabilities:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Nuget Manager</title><link>https://agentskill.wiki/en/skills/nuget-manager/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/nuget-manager/</guid><description>&lt;h1 id="nuget-manager"&gt;NuGet Manager&lt;/h1&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Capabilities:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Nuget Manager</title><link>https://agentskill.wiki/skills/nuget-manager/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/nuget-manager/</guid><description>&lt;h1 id="nuget-manager"&gt;NuGet Manager&lt;/h1&gt;
 &lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;This skill ensures consistent and safe management of NuGet packages across .NET projects. It prioritizes using the &lt;code&gt;dotnet&lt;/code&gt; CLI to maintain project integrity and enforces a strict verification and restoration workflow for version updates.&lt;/p&gt;
 &lt;h2 id="prerequisites"&gt;Prerequisites&lt;/h2&gt;

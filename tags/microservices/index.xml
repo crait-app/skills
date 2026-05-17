@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Microservices on Agent Skills Hub</title><link>https://agentskill.wiki/tags/microservices/</link><description>Recent content in Microservices on Agent Skills Hub</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/microservices/index.xml" rel="self" type="application/rss+xml"/><item><title>Architecture Patterns</title><link>https://agentskill.wiki/en/skills/architecture-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/architecture-patterns/</guid><description>&lt;h1 id="architecture-patterns"&gt;Architecture Patterns&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Microservices on Agent Skills Hub</title><link>https://agentskill.wiki/tags/microservices/</link><description>Recent content in Microservices on Agent Skills Hub</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/microservices/index.xml" rel="self" type="application/rss+xml"/><item><title>Architecture Patterns</title><link>https://agentskill.wiki/skills/architecture-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/architecture-patterns/</guid><description>&lt;h1 id="architecture-patterns"&gt;Architecture Patterns&lt;/h1&gt;
 &lt;p&gt;Master proven backend architecture patterns including Clean Architecture, Hexagonal Architecture, and Domain-Driven Design to build maintainable, testable, and scalable systems.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -12,7 +12,7 @@
 &lt;/ul&gt;
 &lt;h2 id="core-concepts"&gt;Core Concepts&lt;/h2&gt;
 &lt;h3 id="1-clean-architecture-uncle-bob"&gt;1. Clean Architecture (Uncle Bob)&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Layers (dependency flows inward):&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Async Python Patterns</title><link>https://agentskill.wiki/en/skills/async-python-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/async-python-patterns/</guid><description>&lt;h1 id="async-python-patterns"&gt;Async Python Patterns&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Layers (dependency flows inward):&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Async Python Patterns</title><link>https://agentskill.wiki/skills/async-python-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/async-python-patterns/</guid><description>&lt;h1 id="async-python-patterns"&gt;Async Python Patterns&lt;/h1&gt;
 &lt;p&gt;Comprehensive guidance for implementing asynchronous Python applications using asyncio, concurrent programming patterns, and async/await for building high-performance, non-blocking systems.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -27,7 +27,7 @@
 &lt;/ul&gt;
 &lt;h2 id="core-concepts"&gt;Core Concepts&lt;/h2&gt;
 &lt;h3 id="1-event-loop"&gt;1. Event Loop&lt;/h3&gt;
-&lt;p&gt;The event loop is the heart of asyncio, managing and scheduling asynchronous tasks.&lt;/p&gt;</description></item><item><title>Backend Dev Guidelines</title><link>https://agentskill.wiki/en/skills/backend-dev-guidelines/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/backend-dev-guidelines/</guid><description>&lt;h1 id="backend-development-guidelines"&gt;Backend Development Guidelines&lt;/h1&gt;
+&lt;p&gt;The event loop is the heart of asyncio, managing and scheduling asynchronous tasks.&lt;/p&gt;</description></item><item><title>Backend Dev Guidelines</title><link>https://agentskill.wiki/skills/backend-dev-guidelines/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/backend-dev-guidelines/</guid><description>&lt;h1 id="backend-development-guidelines"&gt;Backend Development Guidelines&lt;/h1&gt;
 &lt;h2 id="purpose"&gt;Purpose&lt;/h2&gt;
 &lt;p&gt;Establish consistency and best practices across backend microservices (blog-api, auth-service, notifications-service) using modern Node.js/Express/TypeScript patterns.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
@@ -79,7 +79,7 @@ Services (business logic)
 Repositories (data access)
  ↓
 Database (Prisma)
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Key Principle:&lt;/strong&gt; Each layer has ONE responsibility.&lt;/p&gt;</description></item><item><title>Cqrs Implementation</title><link>https://agentskill.wiki/en/skills/cqrs-implementation/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/cqrs-implementation/</guid><description>&lt;h1 id="cqrs-implementation"&gt;CQRS Implementation&lt;/h1&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Key Principle:&lt;/strong&gt; Each layer has ONE responsibility.&lt;/p&gt;</description></item><item><title>Cqrs Implementation</title><link>https://agentskill.wiki/skills/cqrs-implementation/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/cqrs-implementation/</guid><description>&lt;h1 id="cqrs-implementation"&gt;CQRS Implementation&lt;/h1&gt;
 &lt;p&gt;Comprehensive guide to implementing CQRS (Command Query Responsibility Segregation) patterns.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -623,7 +623,7 @@ Database (Prisma)
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://martinfowler.com/bliki/CQRS.html"&gt;CQRS Pattern&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://docs.microsoft.com/en-us/azure/architecture/patterns/cqrs"&gt;Microsoft CQRS Guidance&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Distributed Tracing</title><link>https://agentskill.wiki/en/skills/distributed-tracing/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/distributed-tracing/</guid><description>&lt;h1 id="distributed-tracing"&gt;Distributed Tracing&lt;/h1&gt;
+&lt;/ul&gt;</description></item><item><title>Distributed Tracing</title><link>https://agentskill.wiki/skills/distributed-tracing/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/distributed-tracing/</guid><description>&lt;h1 id="distributed-tracing"&gt;Distributed Tracing&lt;/h1&gt;
 &lt;p&gt;Implement distributed tracing with Jaeger and Tempo for request flow visibility across microservices.&lt;/p&gt;
 &lt;h2 id="purpose"&gt;Purpose&lt;/h2&gt;
 &lt;p&gt;Track requests across distributed systems to understand latency, dependencies, and failure points.&lt;/p&gt;
@@ -692,7 +692,7 @@ Span (api-gateway) [80ms]
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;13&lt;/span&gt;&lt;span&gt; - &lt;span style="color:#e6db74"&gt;&amp;#34;9411:9411&amp;#34;&lt;/span&gt; &lt;span style="color:#75715e"&gt;# Zipkin&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;14&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;environment&lt;/span&gt;:
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;15&lt;/span&gt;&lt;span&gt; - &lt;span style="color:#ae81ff"&gt;COLLECTOR_ZIPKIN_HOST_PORT=:9411&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Reference:&lt;/strong&gt; See &lt;code&gt;references/jaeger-setup.md&lt;/code&gt;&lt;/p&gt;</description></item><item><title>Error Tracking</title><link>https://agentskill.wiki/en/skills/error-tracking/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/error-tracking/</guid><description>&lt;h1 id="your-project-sentry-integration-skill"&gt;your project Sentry Integration Skill&lt;/h1&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Reference:&lt;/strong&gt; See &lt;code&gt;references/jaeger-setup.md&lt;/code&gt;&lt;/p&gt;</description></item><item><title>Error Tracking</title><link>https://agentskill.wiki/skills/error-tracking/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/error-tracking/</guid><description>&lt;h1 id="your-project-sentry-integration-skill"&gt;your project Sentry Integration Skill&lt;/h1&gt;
 &lt;h2 id="purpose"&gt;Purpose&lt;/h2&gt;
 &lt;p&gt;This skill enforces comprehensive Sentry error tracking and performance monitoring across all your project services following Sentry v8 patterns.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
@@ -705,7 +705,7 @@ Span (api-gateway) [80ms]
 &lt;li&gt;Handling workflow errors&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="-critical-rule"&gt;🚨 CRITICAL RULE&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;ALL ERRORS MUST BE CAPTURED TO SENTRY&lt;/strong&gt; - No exceptions. Never use console.error alone.&lt;/p&gt;</description></item><item><title>Fastapi Templates</title><link>https://agentskill.wiki/en/skills/fastapi-templates/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/fastapi-templates/</guid><description>&lt;h1 id="fastapi-project-templates"&gt;FastAPI Project Templates&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;ALL ERRORS MUST BE CAPTURED TO SENTRY&lt;/strong&gt; - No exceptions. Never use console.error alone.&lt;/p&gt;</description></item><item><title>Fastapi Templates</title><link>https://agentskill.wiki/skills/fastapi-templates/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/fastapi-templates/</guid><description>&lt;h1 id="fastapi-project-templates"&gt;FastAPI Project Templates&lt;/h1&gt;
 &lt;p&gt;Production-ready FastAPI project structures with async patterns, dependency injection, middleware, and best practices for building high-performance APIs.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -745,7 +745,7 @@ Span (api-gateway) [80ms]
 │ └── item_repository.py
 └── main.py # Application entry
 &lt;/code&gt;&lt;/pre&gt;&lt;h3 id="2-dependency-injection"&gt;2. Dependency Injection&lt;/h3&gt;
-&lt;p&gt;FastAPI&amp;rsquo;s built-in DI system using &lt;code&gt;Depends&lt;/code&gt;:&lt;/p&gt;</description></item><item><title>Microservices Patterns</title><link>https://agentskill.wiki/en/skills/microservices-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/microservices-patterns/</guid><description>&lt;h1 id="microservices-patterns"&gt;Microservices Patterns&lt;/h1&gt;
+&lt;p&gt;FastAPI&amp;rsquo;s built-in DI system using &lt;code&gt;Depends&lt;/code&gt;:&lt;/p&gt;</description></item><item><title>Microservices Patterns</title><link>https://agentskill.wiki/skills/microservices-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/microservices-patterns/</guid><description>&lt;h1 id="microservices-patterns"&gt;Microservices Patterns&lt;/h1&gt;
 &lt;p&gt;Master microservices architecture patterns including service boundaries, inter-service communication, data management, and resilience patterns for building distributed systems.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -765,7 +765,7 @@ Span (api-gateway) [80ms]
 &lt;li&gt;Each service owns its domain&lt;/li&gt;
 &lt;li&gt;Example: OrderService, PaymentService, InventoryService&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;By Subdomain (DDD)&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Nodejs Backend Patterns</title><link>https://agentskill.wiki/en/skills/nodejs-backend-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/nodejs-backend-patterns/</guid><description>&lt;h1 id="nodejs-backend-patterns"&gt;Node.js Backend Patterns&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;By Subdomain (DDD)&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Nodejs Backend Patterns</title><link>https://agentskill.wiki/skills/nodejs-backend-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/nodejs-backend-patterns/</guid><description>&lt;h1 id="nodejs-backend-patterns"&gt;Node.js Backend Patterns&lt;/h1&gt;
 &lt;p&gt;Comprehensive guidance for building scalable, maintainable, and production-ready Node.js backend applications with modern frameworks, architectural patterns, and best practices.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -780,7 +780,7 @@ Span (api-gateway) [80ms]
 &lt;/ul&gt;
 &lt;h2 id="core-frameworks"&gt;Core Frameworks&lt;/h2&gt;
 &lt;h3 id="expressjs---minimalist-framework"&gt;Express.js - Minimalist Framework&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Basic Setup:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Saga Orchestration</title><link>https://agentskill.wiki/en/skills/saga-orchestration/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/saga-orchestration/</guid><description>&lt;h1 id="saga-orchestration"&gt;Saga Orchestration&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Basic Setup:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Saga Orchestration</title><link>https://agentskill.wiki/skills/saga-orchestration/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/saga-orchestration/</guid><description>&lt;h1 id="saga-orchestration"&gt;Saga Orchestration&lt;/h1&gt;
 &lt;p&gt;Patterns for managing distributed transactions and long-running business processes.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -1255,7 +1255,7 @@ Span (api-gateway) [80ms]
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://microservices.io/patterns/data/saga.html"&gt;Saga Pattern&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://dataintensive.net/"&gt;Designing Data-Intensive Applications&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Senior Architect</title><link>https://agentskill.wiki/en/skills/senior-architect/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/senior-architect/</guid><description>&lt;h1 id="senior-architect"&gt;Senior Architect&lt;/h1&gt;
+&lt;/ul&gt;</description></item><item><title>Senior Architect</title><link>https://agentskill.wiki/skills/senior-architect/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/senior-architect/</guid><description>&lt;h1 id="senior-architect"&gt;Senior Architect&lt;/h1&gt;
 &lt;p&gt;Complete toolkit for senior architect with modern tools and best practices.&lt;/p&gt;
 &lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;
 &lt;h3 id="main-capabilities"&gt;Main Capabilities&lt;/h3&gt;
@@ -1270,7 +1270,7 @@ Span (api-gateway) [80ms]
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;8&lt;/span&gt;&lt;span&gt;python scripts/dependency_analyzer.py &lt;span style="color:#f92672"&gt;[&lt;/span&gt;options&lt;span style="color:#f92672"&gt;]&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="core-capabilities"&gt;Core Capabilities&lt;/h2&gt;
 &lt;h3 id="1-architecture-diagram-generator"&gt;1. Architecture Diagram Generator&lt;/h3&gt;
-&lt;p&gt;Automated tool for architecture diagram generator tasks.&lt;/p&gt;</description></item><item><title>Workflow Orchestration Patterns</title><link>https://agentskill.wiki/en/skills/workflow-orchestration-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/workflow-orchestration-patterns/</guid><description>&lt;h1 id="workflow-orchestration-patterns"&gt;Workflow Orchestration Patterns&lt;/h1&gt;
+&lt;p&gt;Automated tool for architecture diagram generator tasks.&lt;/p&gt;</description></item><item><title>Workflow Orchestration Patterns</title><link>https://agentskill.wiki/skills/workflow-orchestration-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/workflow-orchestration-patterns/</guid><description>&lt;h1 id="workflow-orchestration-patterns"&gt;Workflow Orchestration Patterns&lt;/h1&gt;
 &lt;p&gt;Master workflow orchestration architecture with Temporal, covering fundamental design decisions, resilience patterns, and best practices for building reliable distributed systems.&lt;/p&gt;
 &lt;h2 id="when-to-use-workflow-orchestration"&gt;When to Use Workflow Orchestration&lt;/h2&gt;
 &lt;h3 id="ideal-use-cases-source-docstemporalio"&gt;Ideal Use Cases (Source: docs.temporal.io)&lt;/h3&gt;

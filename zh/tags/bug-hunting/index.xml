@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Bug-Hunting on Agent Skills Hub</title><link>https://agentskill.wiki/zh/tags/bug-hunting/</link><description>Recent content in Bug-Hunting on Agent Skills Hub</description><generator>Hugo</generator><language>zh</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/zh/tags/bug-hunting/index.xml" rel="self" type="application/rss+xml"/><item><title>Debugging Strategies</title><link>https://agentskill.wiki/zh/skills/debugging-strategies/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/zh/skills/debugging-strategies/</guid><description>&lt;h1 id="debugging-strategies"&gt;Debugging Strategies&lt;/h1&gt;
+&lt;p&gt;Transform debugging from frustrating guesswork into systematic problem-solving with proven strategies, powerful tools, and methodical approaches.&lt;/p&gt;
+&lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Tracking down elusive bugs&lt;/li&gt;
+&lt;li&gt;Investigating performance issues&lt;/li&gt;
+&lt;li&gt;Understanding unfamiliar codebases&lt;/li&gt;
+&lt;li&gt;Debugging production issues&lt;/li&gt;
+&lt;li&gt;Analyzing crash dumps and stack traces&lt;/li&gt;
+&lt;li&gt;Profiling application performance&lt;/li&gt;
+&lt;li&gt;Investigating memory leaks&lt;/li&gt;
+&lt;li&gt;Debugging distributed systems&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="core-principles"&gt;Core Principles&lt;/h2&gt;
+&lt;h3 id="1-the-scientific-method"&gt;1. The Scientific Method&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;1. Observe&lt;/strong&gt;: What&amp;rsquo;s the actual behavior?
+&lt;strong&gt;2. Hypothesize&lt;/strong&gt;: What could be causing it?
+&lt;strong&gt;3. Experiment&lt;/strong&gt;: Test your hypothesis
+&lt;strong&gt;4. Analyze&lt;/strong&gt;: Did it prove/disprove your theory?
+&lt;strong&gt;5. Repeat&lt;/strong&gt;: Until you find the root cause&lt;/p&gt;</description></item></channel></rss>

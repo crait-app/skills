@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Github on Agent Skills Hub</title><link>https://agentskill.wiki/tags/github/</link><description>Recent content in Github on Agent Skills Hub</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/github/index.xml" rel="self" type="application/rss+xml"/><item><title>Create Pull Request</title><link>https://agentskill.wiki/en/skills/create-pull-request/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/create-pull-request/</guid><description>&lt;h1 id="create-pull-request"&gt;Create Pull Request&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Github on Agent Skills Hub</title><link>https://agentskill.wiki/tags/github/</link><description>Recent content in Github on Agent Skills Hub</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/github/index.xml" rel="self" type="application/rss+xml"/><item><title>Create Pull Request</title><link>https://agentskill.wiki/skills/create-pull-request/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/create-pull-request/</guid><description>&lt;h1 id="create-pull-request"&gt;Create Pull Request&lt;/h1&gt;
 &lt;p&gt;This skill guides you through creating a well-structured GitHub pull request that follows project conventions and best practices.&lt;/p&gt;
 &lt;h2 id="prerequisites-check"&gt;Prerequisites Check&lt;/h2&gt;
 &lt;p&gt;Before proceeding, verify the following:&lt;/p&gt;
@@ -14,7 +14,7 @@
 &lt;/blockquote&gt;
 &lt;h3 id="2-check-if-authenticated-with-github"&gt;2. Check if authenticated with GitHub&lt;/h3&gt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;gh auth status
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;If not authenticated, guide the user to run &lt;code&gt;gh auth login&lt;/code&gt;.&lt;/p&gt;</description></item><item><title>Fetch Diff</title><link>https://agentskill.wiki/en/skills/fetch-diff/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/fetch-diff/</guid><description>&lt;h1 id="fetch-pr-diff"&gt;Fetch PR Diff&lt;/h1&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;If not authenticated, guide the user to run &lt;code&gt;gh auth login&lt;/code&gt;.&lt;/p&gt;</description></item><item><title>Fetch Diff</title><link>https://agentskill.wiki/skills/fetch-diff/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/fetch-diff/</guid><description>&lt;h1 id="fetch-pr-diff"&gt;Fetch PR Diff&lt;/h1&gt;
 &lt;p&gt;Fetches a pull request diff, filters out auto-generated files, and adds line numbers for easier review comment placement.&lt;/p&gt;
 &lt;h2 id="usage"&gt;Usage&lt;/h2&gt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;uv run skills fetch-diff &amp;lt;pr_url&amp;gt;
@@ -34,7 +34,7 @@ index abc123..def456 100644
  14 | +from new_module import NewClass
 14 15 |
 15 16 | def process_data(input_file: str) -&amp;gt; dict:
-&lt;/code&gt;&lt;/pre&gt;</description></item><item><title>Generate Release Notes</title><link>https://agentskill.wiki/en/skills/generate-release-notes/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/generate-release-notes/</guid><description>&lt;h1 id="generate-release-notes-for-bit"&gt;Generate Release Notes for Bit&lt;/h1&gt;
+&lt;/code&gt;&lt;/pre&gt;</description></item><item><title>Generate Release Notes</title><link>https://agentskill.wiki/skills/generate-release-notes/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/generate-release-notes/</guid><description>&lt;h1 id="generate-release-notes-for-bit"&gt;Generate Release Notes for Bit&lt;/h1&gt;
 &lt;p&gt;This skill helps generate release notes for Bit following the established patterns and guidelines.&lt;/p&gt;
 &lt;h2 id="important-intermediate-files"&gt;Important: Intermediate Files&lt;/h2&gt;
 &lt;p&gt;All intermediate steps must be saved to &lt;code&gt;releases-docs/temp-files/&lt;/code&gt; for review. This folder is gitignored.&lt;/p&gt;
@@ -46,7 +46,7 @@ index abc123..def456 100644
 &lt;h2 id="workflow"&gt;Workflow&lt;/h2&gt;
 &lt;p&gt;Follow these steps to generate release notes:&lt;/p&gt;
 &lt;h3 id="step-1-setup-temp-directory"&gt;Step 1: Setup Temp Directory&lt;/h3&gt;
-&lt;p&gt;First, ensure the temp directory exists:&lt;/p&gt;</description></item><item><title>Github Issues</title><link>https://agentskill.wiki/en/skills/github-issues/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/github-issues/</guid><description>&lt;h1 id="github-issues"&gt;GitHub Issues&lt;/h1&gt;
+&lt;p&gt;First, ensure the temp directory exists:&lt;/p&gt;</description></item><item><title>Github Issues</title><link>https://agentskill.wiki/skills/github-issues/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/github-issues/</guid><description>&lt;h1 id="github-issues"&gt;GitHub Issues&lt;/h1&gt;
 &lt;p&gt;Manage GitHub issues using the &lt;code&gt;@modelcontextprotocol/server-github&lt;/code&gt; MCP server.&lt;/p&gt;
 &lt;h2 id="available-mcp-tools"&gt;Available MCP Tools&lt;/h2&gt;
 &lt;table&gt;
@@ -115,7 +115,7 @@ milestone: milestone number (integer)
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id="body-structure"&gt;Body Structure&lt;/h3&gt;
-&lt;p&gt;Always use the templates in &lt;a href="references/templates.md"&gt;references/templates.md&lt;/a&gt;. Choose based on issue type:&lt;/p&gt;</description></item><item><title>Github Multi Repo</title><link>https://agentskill.wiki/en/skills/github-multi-repo/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/github-multi-repo/</guid><description>&lt;h1 id="github-multi-repository-coordination-skill"&gt;GitHub Multi-Repository Coordination Skill&lt;/h1&gt;
+&lt;p&gt;Always use the templates in &lt;a href="references/templates.md"&gt;references/templates.md&lt;/a&gt;. Choose based on issue type:&lt;/p&gt;</description></item><item><title>Github Multi Repo</title><link>https://agentskill.wiki/skills/github-multi-repo/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/github-multi-repo/</guid><description>&lt;h1 id="github-multi-repository-coordination-skill"&gt;GitHub Multi-Repository Coordination Skill&lt;/h1&gt;
 &lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;Advanced multi-repository coordination system that combines swarm intelligence, package synchronization, and repository architecture optimization. This skill enables organization-wide automation, cross-project collaboration, and scalable repository management.&lt;/p&gt;
 &lt;h2 id="core-capabilities"&gt;Core Capabilities&lt;/h2&gt;
@@ -126,7 +126,7 @@ milestone: milestone number (integer)
 &lt;h3 id="-repository-architecture"&gt;🏗️ Repository Architecture&lt;/h3&gt;
 &lt;p&gt;Structure optimization and template management for scalable projects.&lt;/p&gt;
 &lt;h3 id="-integration-management"&gt;🔗 Integration Management&lt;/h3&gt;
-&lt;p&gt;Cross-package integration testing and deployment coordination.&lt;/p&gt;</description></item><item><title>GitHub Project Management</title><link>https://agentskill.wiki/en/skills/github-project-management/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/github-project-management/</guid><description>&lt;h1 id="github-project-management"&gt;GitHub Project Management&lt;/h1&gt;
+&lt;p&gt;Cross-package integration testing and deployment coordination.&lt;/p&gt;</description></item><item><title>GitHub Project Management</title><link>https://agentskill.wiki/skills/github-project-management/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/github-project-management/</guid><description>&lt;h1 id="github-project-management"&gt;GitHub Project Management&lt;/h1&gt;
 &lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;A comprehensive skill for managing GitHub projects using AI swarm coordination. This skill combines intelligent issue management, automated project board synchronization, and swarm-based coordination for efficient project delivery.&lt;/p&gt;
 &lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;
@@ -228,7 +228,7 @@ milestone: milestone number (integer)
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;18&lt;/span&gt;&lt;span&gt; gh issue edit $num --add-label &lt;span style="color:#e6db74"&gt;&amp;#34;swarm-processing&amp;#34;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;19&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;done&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id="issue-comment-commands"&gt;Issue Comment Commands&lt;/h4&gt;
-&lt;p&gt;Execute swarm operations via issue comments:&lt;/p&gt;</description></item><item><title>Github Release Management</title><link>https://agentskill.wiki/en/skills/github-release-management/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/github-release-management/</guid><description>&lt;h1 id="github-release-management-skill"&gt;GitHub Release Management Skill&lt;/h1&gt;
+&lt;p&gt;Execute swarm operations via issue comments:&lt;/p&gt;</description></item><item><title>Github Release Management</title><link>https://agentskill.wiki/skills/github-release-management/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/github-release-management/</guid><description>&lt;h1 id="github-release-management-skill"&gt;GitHub Release Management Skill&lt;/h1&gt;
 &lt;p&gt;Intelligent release automation and orchestration using AI swarms for comprehensive software releases - from changelog generation to multi-platform deployment with rollback capabilities.&lt;/p&gt;
 &lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;
 &lt;h3 id="simple-release-flow"&gt;Simple Release Flow&lt;/h3&gt;
@@ -410,7 +410,7 @@ milestone: milestone number (integer)
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;14&lt;/span&gt;&lt;span&gt; --to HEAD &lt;span style="color:#ae81ff"&gt;\
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;15&lt;/span&gt;&lt;span&gt; --categorize &lt;span style="color:#ae81ff"&gt;\
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;16&lt;/span&gt;&lt;span&gt; --add-migration-guide
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Capabilities:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Issue Triage</title><link>https://agentskill.wiki/en/skills/issue-triage/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/issue-triage/</guid><description>&lt;h1 id="issue-triage-skill"&gt;Issue Triage Skill&lt;/h1&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Capabilities:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Issue Triage</title><link>https://agentskill.wiki/skills/issue-triage/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/issue-triage/</guid><description>&lt;h1 id="issue-triage-skill"&gt;Issue Triage Skill&lt;/h1&gt;
 &lt;p&gt;This skill helps triage open GitHub issues in the dotnet/maui repository by:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Initializing a session with current milestones and labels&lt;/li&gt;
@@ -433,7 +433,7 @@ milestone: milestone number (integer)
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;10&lt;/span&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;11&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Authenticate (required before first use)&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;12&lt;/span&gt;&lt;span&gt;gh auth login
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The scripts will check for &lt;code&gt;gh&lt;/code&gt; and exit with installation instructions if not found.&lt;/p&gt;</description></item><item><title>Pr Build Status</title><link>https://agentskill.wiki/en/skills/pr-build-status/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/pr-build-status/</guid><description>&lt;h1 id="pr-build-status-skill"&gt;PR Build Status Skill&lt;/h1&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The scripts will check for &lt;code&gt;gh&lt;/code&gt; and exit with installation instructions if not found.&lt;/p&gt;</description></item><item><title>Pr Build Status</title><link>https://agentskill.wiki/skills/pr-build-status/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/pr-build-status/</guid><description>&lt;h1 id="pr-build-status-skill"&gt;PR Build Status Skill&lt;/h1&gt;
 &lt;p&gt;Retrieve Azure DevOps build information for GitHub Pull Requests, including Helix test logs.&lt;/p&gt;
 &lt;h2 id="tools-required"&gt;Tools Required&lt;/h2&gt;
 &lt;p&gt;This skill uses &lt;code&gt;bash&lt;/code&gt; together with &lt;code&gt;pwsh&lt;/code&gt; (PowerShell 7+) to run the PowerShell scripts. No file editing or other tools are required.&lt;/p&gt;
@@ -447,7 +447,7 @@ milestone: milestone number (integer)
 &lt;li&gt;&lt;strong&gt;User needs to debug why tests are failing on Helix infrastructure&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="scripts"&gt;Scripts&lt;/h2&gt;
-&lt;p&gt;All scripts are in &lt;code&gt;.github/skills/pr-build-status/scripts/&lt;/code&gt;&lt;/p&gt;</description></item><item><title>Pr Creator</title><link>https://agentskill.wiki/en/skills/pr-creator/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/pr-creator/</guid><description>&lt;h1 id="pull-request-creator"&gt;Pull Request Creator&lt;/h1&gt;
+&lt;p&gt;All scripts are in &lt;code&gt;.github/skills/pr-build-status/scripts/&lt;/code&gt;&lt;/p&gt;</description></item><item><title>Pr Creator</title><link>https://agentskill.wiki/skills/pr-creator/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/pr-creator/</guid><description>&lt;h1 id="pull-request-creator"&gt;Pull Request Creator&lt;/h1&gt;
 &lt;p&gt;This skill guides the creation of high-quality Pull Requests that adhere to the
 repository&amp;rsquo;s standards.&lt;/p&gt;
 &lt;h2 id="workflow"&gt;Workflow&lt;/h2&gt;
@@ -465,7 +465,7 @@ branch:
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Locate Template&lt;/strong&gt;: Search for a pull request template in the repository.&lt;/p&gt;</description></item><item><title>Prowler Pr</title><link>https://agentskill.wiki/en/skills/prowler-pr/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/prowler-pr/</guid><description>&lt;h2 id="pr-creation-process"&gt;PR Creation Process&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Locate Template&lt;/strong&gt;: Search for a pull request template in the repository.&lt;/p&gt;</description></item><item><title>Prowler Pr</title><link>https://agentskill.wiki/skills/prowler-pr/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/prowler-pr/</guid><description>&lt;h2 id="pr-creation-process"&gt;PR Creation Process&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;Analyze changes&lt;/strong&gt;: &lt;code&gt;git diff main...HEAD&lt;/code&gt; to understand ALL commits&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Determine affected components&lt;/strong&gt;: SDK, API, UI, MCP, Docs&lt;/li&gt;
@@ -578,12 +578,12 @@ branch:
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;15&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Create draft PR&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;16&lt;/span&gt;&lt;span&gt;gh pr create --draft --title &lt;span style="color:#e6db74"&gt;&amp;#34;feat: description&amp;#34;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="title-conventions"&gt;Title Conventions&lt;/h2&gt;
-&lt;p&gt;Follow conventional commits:&lt;/p&gt;</description></item><item><title>Vscode Release Notes Writer</title><link>https://agentskill.wiki/en/skills/vscode-release-notes-writer/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/vscode-release-notes-writer/</guid><description>&lt;h1 id="visual-studio-code-release-note-writer-guidelines"&gt;Visual Studio Code Release Note Writer Guidelines&lt;/h1&gt;
+&lt;p&gt;Follow conventional commits:&lt;/p&gt;</description></item><item><title>Vscode Release Notes Writer</title><link>https://agentskill.wiki/skills/vscode-release-notes-writer/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/vscode-release-notes-writer/</guid><description>&lt;h1 id="visual-studio-code-release-note-writer-guidelines"&gt;Visual Studio Code Release Note Writer Guidelines&lt;/h1&gt;
 &lt;p&gt;This skill is designed to help you write release notes for Visual Studio Code Insiders and Stable releases. It provides structured guidelines and examples to ensure consistency and clarity in the release notes.&lt;/p&gt;
 &lt;p&gt;There are two main types of release notes you can generate using this skill:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Insiders Release Notes&lt;/strong&gt;: These notes cover the latest features and updates in the Insiders build of VS Code. They are updated frequently as new features are added. Their format includes sections grouped by the date of the updates. The content is generated based on closed GitHub issues and PRs for a specific milestone.&lt;/p&gt;</description></item><item><title>Write Issue</title><link>https://agentskill.wiki/en/skills/write-issue/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/write-issue/</guid><description>&lt;h1 id="writing-and-maintaining-github-issues"&gt;Writing and maintaining GitHub issues&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Insiders Release Notes&lt;/strong&gt;: These notes cover the latest features and updates in the Insiders build of VS Code. They are updated frequently as new features are added. Their format includes sections grouped by the date of the updates. The content is generated based on closed GitHub issues and PRs for a specific milestone.&lt;/p&gt;</description></item><item><title>Write Issue</title><link>https://agentskill.wiki/skills/write-issue/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/write-issue/</guid><description>&lt;h1 id="writing-and-maintaining-github-issues"&gt;Writing and maintaining GitHub issues&lt;/h1&gt;
 &lt;p&gt;Standards for issues in tldraw/tldraw.&lt;/p&gt;
 &lt;h2 id="title-standards"&gt;Title standards&lt;/h2&gt;
 &lt;ul&gt;

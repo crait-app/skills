@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Documentation Manager on Agent Skills Hub</title><link>https://agentskill.wiki/topics/documentation-manager/</link><description>Recent content in Documentation Manager on Agent Skills Hub</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/topics/documentation-manager/index.xml" rel="self" type="application/rss+xml"/><item><title>Cookbook Audit</title><link>https://agentskill.wiki/en/skills/cookbook-audit/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/cookbook-audit/</guid><description>&lt;h1 id="cookbook-audit"&gt;Cookbook Audit&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Documentation Manager on Agent Skills Hub</title><link>https://agentskill.wiki/topics/documentation-manager/</link><description>Recent content in Documentation Manager on Agent Skills Hub</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/topics/documentation-manager/index.xml" rel="self" type="application/rss+xml"/><item><title>Cookbook Audit</title><link>https://agentskill.wiki/skills/cookbook-audit/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/cookbook-audit/</guid><description>&lt;h1 id="cookbook-audit"&gt;Cookbook Audit&lt;/h1&gt;
 &lt;h2 id="instructions"&gt;Instructions&lt;/h2&gt;
 &lt;p&gt;Review the requested Cookbook notebook using the guidelines and rubrics in &lt;code&gt;style_guide.md&lt;/code&gt;. Provide a score based on scoring guidelines and recommendations on improving the cookbook.&lt;/p&gt;
 &lt;p&gt;The style guide provides detailed templates and examples for:&lt;/p&gt;
@@ -8,7 +8,7 @@
 &lt;li&gt;Core content structure&lt;/li&gt;
 &lt;li&gt;Conclusions that map back to learning objectives&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;IMPORTANT&lt;/strong&gt;: Always read &lt;code&gt;style_guide.md&lt;/code&gt; first before conducting an audit. The style guide contains the canonical templates and good/bad examples to reference.&lt;/p&gt;</description></item><item><title>Docs Review</title><link>https://agentskill.wiki/en/skills/docs-review/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/docs-review/</guid><description>&lt;h1 id="documentation-review-skill"&gt;Documentation Review Skill&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;IMPORTANT&lt;/strong&gt;: Always read &lt;code&gt;style_guide.md&lt;/code&gt; first before conducting an audit. The style guide contains the canonical templates and good/bad examples to reference.&lt;/p&gt;</description></item><item><title>Docs Review</title><link>https://agentskill.wiki/skills/docs-review/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/docs-review/</guid><description>&lt;h1 id="documentation-review-skill"&gt;Documentation Review Skill&lt;/h1&gt;
 &lt;p&gt;@./../_shared/metabase-style-guide.md&lt;/p&gt;
 &lt;h2 id="review-mode-detection"&gt;Review mode detection&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;IMPORTANT: Before starting the review, determine which mode to use:&lt;/strong&gt;&lt;/p&gt;
@@ -21,7 +21,7 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Local review mode&lt;/strong&gt;: If the MCP tool is NOT available, output issues in the conversation&lt;/p&gt;</description></item><item><title>Docs Sync</title><link>https://agentskill.wiki/en/skills/docs-sync/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/docs-sync/</guid><description>&lt;h1 id="docs-sync"&gt;Docs Sync&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Local review mode&lt;/strong&gt;: If the MCP tool is NOT available, output issues in the conversation&lt;/p&gt;</description></item><item><title>Docs Sync</title><link>https://agentskill.wiki/skills/docs-sync/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/docs-sync/</guid><description>&lt;h1 id="docs-sync"&gt;Docs Sync&lt;/h1&gt;
 &lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;Identify doc coverage gaps and inaccuracies by comparing main branch features and configuration options against the current docs structure, then propose targeted improvements.&lt;/p&gt;
 &lt;h2 id="workflow"&gt;Workflow&lt;/h2&gt;
@@ -36,7 +36,7 @@
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;Build a feature inventory from the selected scope&lt;/p&gt;</description></item><item><title>Docs Write</title><link>https://agentskill.wiki/en/skills/docs-write/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/docs-write/</guid><description>&lt;h1 id="documentation-writing-skill"&gt;Documentation Writing Skill&lt;/h1&gt;
+&lt;p&gt;Build a feature inventory from the selected scope&lt;/p&gt;</description></item><item><title>Docs Write</title><link>https://agentskill.wiki/skills/docs-write/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/docs-write/</guid><description>&lt;h1 id="documentation-writing-skill"&gt;Documentation Writing Skill&lt;/h1&gt;
 &lt;p&gt;@./../_shared/metabase-style-guide.md&lt;/p&gt;
 &lt;h2 id="when-writing-documentation"&gt;When writing documentation&lt;/h2&gt;
 &lt;h3 id="start-here"&gt;Start here&lt;/h3&gt;

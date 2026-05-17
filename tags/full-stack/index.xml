@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Full-Stack on Agent Skills Hub</title><link>https://agentskill.wiki/tags/full-stack/</link><description>Recent content in Full-Stack on Agent Skills Hub</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/full-stack/index.xml" rel="self" type="application/rss+xml"/><item><title>Cache Components</title><link>https://agentskill.wiki/en/skills/cache-components/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/cache-components/</guid><description>&lt;h1 id="nextjs-cache-components"&gt;Next.js Cache Components&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Full-Stack on Agent Skills Hub</title><link>https://agentskill.wiki/tags/full-stack/</link><description>Recent content in Full-Stack on Agent Skills Hub</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/full-stack/index.xml" rel="self" type="application/rss+xml"/><item><title>Cache Components</title><link>https://agentskill.wiki/skills/cache-components/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/cache-components/</guid><description>&lt;h1 id="nextjs-cache-components"&gt;Next.js Cache Components&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;Auto-activation&lt;/strong&gt;: This skill activates automatically in projects with &lt;code&gt;cacheComponents: true&lt;/code&gt; in next.config.&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -14,7 +14,7 @@
 &lt;li&gt;Optimizing page performance&lt;/li&gt;
 &lt;li&gt;Reviewing existing component code&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Cache Components enable &lt;strong&gt;Partial Prerendering (PPR)&lt;/strong&gt; - mixing static HTML shells with dynamic streaming content for optimal performance.&lt;/p&gt;</description></item><item><title>Dashboard Create Screen</title><link>https://agentskill.wiki/en/skills/dashboard-create-screen/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/dashboard-create-screen/</guid><description>&lt;h1 id="dashboard-create-screen-skill"&gt;Dashboard Create Screen Skill&lt;/h1&gt;
+&lt;p&gt;Cache Components enable &lt;strong&gt;Partial Prerendering (PPR)&lt;/strong&gt; - mixing static HTML shells with dynamic streaming content for optimal performance.&lt;/p&gt;</description></item><item><title>Dashboard Create Screen</title><link>https://agentskill.wiki/skills/dashboard-create-screen/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/dashboard-create-screen/</guid><description>&lt;h1 id="dashboard-create-screen-skill"&gt;Dashboard Create Screen Skill&lt;/h1&gt;
 &lt;p&gt;Creates new screens in &lt;code&gt;client/dashboard&lt;/code&gt; with automatic route discovery and registration.&lt;/p&gt;
 &lt;h2 id="step-1-discover-available-routes"&gt;Step 1: Discover Available Routes&lt;/h2&gt;
 &lt;p&gt;First, find all router files and extract available routes.&lt;/p&gt;
@@ -30,7 +30,7 @@ client/dashboard/app/router/*.ts
 &lt;pre tabindex="0"&gt;&lt;code class="language-regex" data-lang="regex"&gt;getParentRoute:\s*\(\)\s*=&amp;gt;\s*(\w+Route)
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Extract path segments:&lt;/strong&gt;&lt;/p&gt;
 &lt;pre tabindex="0"&gt;&lt;code class="language-regex" data-lang="regex"&gt;path:\s*[&amp;#39;&amp;#34;]([^&amp;#39;&amp;#34;]+)[&amp;#39;&amp;#34;]
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Extract component import paths:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Nextjs 15</title><link>https://agentskill.wiki/en/skills/nextjs-15/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/nextjs-15/</guid><description>&lt;h2 id="app-router-file-conventions"&gt;App Router File Conventions&lt;/h2&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Extract component import paths:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Nextjs 15</title><link>https://agentskill.wiki/skills/nextjs-15/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/nextjs-15/</guid><description>&lt;h2 id="app-router-file-conventions"&gt;App Router File Conventions&lt;/h2&gt;
 &lt;pre tabindex="0"&gt;&lt;code&gt;app/
 ├── layout.tsx # Root layout (required)
 ├── page.tsx # Home page (/)
@@ -135,7 +135,7 @@ client/dashboard/app/router/*.ts
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;4&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;export&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;async&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;function&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;getSecretData() {&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;5&lt;/span&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;return&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;db&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;secrets&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;findMany&lt;/span&gt;();
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;6&lt;/span&gt;&lt;span&gt;}
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Nextjs App Router Patterns</title><link>https://agentskill.wiki/en/skills/nextjs-app-router-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/nextjs-app-router-patterns/</guid><description>&lt;h1 id="nextjs-app-router-patterns"&gt;Next.js App Router Patterns&lt;/h1&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Nextjs App Router Patterns</title><link>https://agentskill.wiki/skills/nextjs-app-router-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/nextjs-app-router-patterns/</guid><description>&lt;h1 id="nextjs-app-router-patterns"&gt;Next.js App Router Patterns&lt;/h1&gt;
 &lt;p&gt;Comprehensive patterns for Next.js 14+ App Router architecture, Server Components, and modern full-stack React development.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -650,7 +650,7 @@ client/dashboard/app/router/*.ts
 &lt;li&gt;&lt;a href="https://nextjs.org/docs/app"&gt;Next.js App Router Documentation&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://github.com/reactjs/rfcs/blob/main/text/0188-server-components.md"&gt;Server Components RFC&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://vercel.com/templates/next.js"&gt;Vercel Templates&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Senior Architect</title><link>https://agentskill.wiki/en/skills/senior-architect/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/senior-architect/</guid><description>&lt;h1 id="senior-architect"&gt;Senior Architect&lt;/h1&gt;
+&lt;/ul&gt;</description></item><item><title>Senior Architect</title><link>https://agentskill.wiki/skills/senior-architect/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/senior-architect/</guid><description>&lt;h1 id="senior-architect"&gt;Senior Architect&lt;/h1&gt;
 &lt;p&gt;Complete toolkit for senior architect with modern tools and best practices.&lt;/p&gt;
 &lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;
 &lt;h3 id="main-capabilities"&gt;Main Capabilities&lt;/h3&gt;

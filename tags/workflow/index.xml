@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Workflow on Agent Skills Hub</title><link>https://agentskill.wiki/tags/workflow/</link><description>Recent content in Workflow on Agent Skills Hub</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/workflow/index.xml" rel="self" type="application/rss+xml"/><item><title>Agent Memory</title><link>https://agentskill.wiki/en/skills/agent-memory/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/agent-memory/</guid><description>&lt;h1 id="agent-memory"&gt;Agent Memory&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Workflow on Agent Skills Hub</title><link>https://agentskill.wiki/tags/workflow/</link><description>Recent content in Workflow on Agent Skills Hub</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/workflow/index.xml" rel="self" type="application/rss+xml"/><item><title>Agent Memory</title><link>https://agentskill.wiki/skills/agent-memory/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/agent-memory/</guid><description>&lt;h1 id="agent-memory"&gt;Agent Memory&lt;/h1&gt;
 &lt;p&gt;A persistent memory space for storing knowledge that survives across conversations.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Location:&lt;/strong&gt; &lt;code&gt;.claude/skills/agent-memory/memories/&lt;/code&gt;&lt;/p&gt;
 &lt;h2 id="proactive-usage"&gt;Proactive Usage&lt;/h2&gt;
@@ -16,7 +16,7 @@
 &lt;li&gt;When working on a feature you&amp;rsquo;ve touched before&lt;/li&gt;
 &lt;li&gt;When resuming work after a conversation break&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Organize memories when needed:&lt;/p&gt;</description></item><item><title>Command Development</title><link>https://agentskill.wiki/en/skills/command-development/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/command-development/</guid><description>&lt;h1 id="command-development-for-claude-code"&gt;Command Development for Claude Code&lt;/h1&gt;
+&lt;p&gt;Organize memories when needed:&lt;/p&gt;</description></item><item><title>Command Development</title><link>https://agentskill.wiki/skills/command-development/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/command-development/</guid><description>&lt;h1 id="command-development-for-claude-code"&gt;Command Development for Claude Code&lt;/h1&gt;
 &lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;Slash commands are frequently-used prompts defined as Markdown files that Claude executes during interactive sessions. Understanding command structure, frontmatter options, and dynamic features enables creating powerful, reusable workflows.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Key concepts:&lt;/strong&gt;&lt;/p&gt;
@@ -29,7 +29,7 @@
 &lt;/ul&gt;
 &lt;h2 id="command-basics"&gt;Command Basics&lt;/h2&gt;
 &lt;h3 id="what-is-a-slash-command"&gt;What is a Slash Command?&lt;/h3&gt;
-&lt;p&gt;A slash command is a Markdown file containing a prompt that Claude executes when invoked. Commands provide:&lt;/p&gt;</description></item><item><title>Connect</title><link>https://agentskill.wiki/en/skills/connect/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/connect/</guid><description>&lt;h1 id="connect"&gt;Connect&lt;/h1&gt;
+&lt;p&gt;A slash command is a Markdown file containing a prompt that Claude executes when invoked. Commands provide:&lt;/p&gt;</description></item><item><title>Connect</title><link>https://agentskill.wiki/skills/connect/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/connect/</guid><description>&lt;h1 id="connect"&gt;Connect&lt;/h1&gt;
 &lt;p&gt;Connect Claude to any app. Stop generating text about what you could do - actually do it.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;p&gt;Use this skill when you need Claude to:&lt;/p&gt;
@@ -67,7 +67,7 @@
  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;h2 id="supported-apps"&gt;Supported Apps&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;1000+ integrations&lt;/strong&gt; including:&lt;/p&gt;</description></item><item><title>Connect Apps</title><link>https://agentskill.wiki/en/skills/connect-apps/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/connect-apps/</guid><description>&lt;h1 id="connect-apps"&gt;Connect Apps&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;1000+ integrations&lt;/strong&gt; including:&lt;/p&gt;</description></item><item><title>Connect Apps</title><link>https://agentskill.wiki/skills/connect-apps/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/connect-apps/</guid><description>&lt;h1 id="connect-apps"&gt;Connect Apps&lt;/h1&gt;
 &lt;p&gt;Connect Claude to 1000+ apps. Actually send emails, create issues, post messages - not just generate text about it.&lt;/p&gt;
 &lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;
 &lt;h3 id="step-1-install-the-plugin"&gt;Step 1: Install the Plugin&lt;/h3&gt;
@@ -83,13 +83,13 @@
 &lt;h3 id="step-3-try-it"&gt;Step 3: Try It!&lt;/h3&gt;
 &lt;p&gt;After setup, restart Claude Code and try:&lt;/p&gt;
 &lt;pre tabindex="0"&gt;&lt;code&gt;Send me a test email at YOUR_EMAIL@example.com
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;If it works, you&amp;rsquo;re connected!&lt;/p&gt;</description></item><item><title>Copilot</title><link>https://agentskill.wiki/en/skills/copilot/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/copilot/</guid><description>&lt;h2 id="examples"&gt;Examples&lt;/h2&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;If it works, you&amp;rsquo;re connected!&lt;/p&gt;</description></item><item><title>Copilot</title><link>https://agentskill.wiki/skills/copilot/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/copilot/</guid><description>&lt;h2 id="examples"&gt;Examples&lt;/h2&gt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Create a task with an inline description&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;2&lt;/span&gt;&lt;span&gt;gh agent-task create &lt;span style="color:#e6db74"&gt;&amp;#34;&amp;lt;task description&amp;gt;&amp;#34;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;3&lt;/span&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;4&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Create a task from a markdown file&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;5&lt;/span&gt;&lt;span&gt;gh agent-task create -F task-desc.md
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Create Pull Request</title><link>https://agentskill.wiki/en/skills/create-pull-request/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/create-pull-request/</guid><description>&lt;h1 id="create-pull-request"&gt;Create Pull Request&lt;/h1&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Create Pull Request</title><link>https://agentskill.wiki/skills/create-pull-request/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/create-pull-request/</guid><description>&lt;h1 id="create-pull-request"&gt;Create Pull Request&lt;/h1&gt;
 &lt;p&gt;This skill guides you through creating a well-structured GitHub pull request that follows project conventions and best practices.&lt;/p&gt;
 &lt;h2 id="prerequisites-check"&gt;Prerequisites Check&lt;/h2&gt;
 &lt;p&gt;Before proceeding, verify the following:&lt;/p&gt;
@@ -105,7 +105,7 @@
 &lt;/blockquote&gt;
 &lt;h3 id="2-check-if-authenticated-with-github"&gt;2. Check if authenticated with GitHub&lt;/h3&gt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;gh auth status
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;If not authenticated, guide the user to run &lt;code&gt;gh auth login&lt;/code&gt;.&lt;/p&gt;</description></item><item><title>Create Scratch</title><link>https://agentskill.wiki/en/skills/create-scratch/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/create-scratch/</guid><description>&lt;h2 id="what-i-do"&gt;What I do&lt;/h2&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;If not authenticated, guide the user to run &lt;code&gt;gh auth login&lt;/code&gt;.&lt;/p&gt;</description></item><item><title>Create Scratch</title><link>https://agentskill.wiki/skills/create-scratch/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/create-scratch/</guid><description>&lt;h2 id="what-i-do"&gt;What I do&lt;/h2&gt;
 &lt;p&gt;I help you create new scratch files in the &lt;code&gt;.agents/scratches/&lt;/code&gt; directory. Each scratch file gets:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;A unique three-word identifier (e.g., &lt;code&gt;calm-teal-cloud&lt;/code&gt;)&lt;/li&gt;
@@ -122,7 +122,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;4&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;goes here
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;5&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;HEREDOC&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="file-format"&gt;File format&lt;/h2&gt;
-&lt;p&gt;Files are created as: &lt;code&gt;{three-word-id}-{slug}.md&lt;/code&gt;&lt;/p&gt;</description></item><item><title>Doc Coauthoring</title><link>https://agentskill.wiki/en/skills/doc-coauthoring/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/doc-coauthoring/</guid><description>&lt;h1 id="doc-co-authoring-workflow"&gt;Doc Co-Authoring Workflow&lt;/h1&gt;
+&lt;p&gt;Files are created as: &lt;code&gt;{three-word-id}-{slug}.md&lt;/code&gt;&lt;/p&gt;</description></item><item><title>Doc Coauthoring</title><link>https://agentskill.wiki/skills/doc-coauthoring/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/doc-coauthoring/</guid><description>&lt;h1 id="doc-co-authoring-workflow"&gt;Doc Co-Authoring Workflow&lt;/h1&gt;
 &lt;p&gt;This skill provides a structured workflow for guiding users through collaborative document creation. Act as an active guide, walking users through three stages: Context Gathering, Refinement &amp;amp; Structure, and Reader Testing.&lt;/p&gt;
 &lt;h2 id="when-to-offer-this-workflow"&gt;When to Offer This Workflow&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Trigger conditions:&lt;/strong&gt;&lt;/p&gt;
@@ -132,17 +132,17 @@
 &lt;li&gt;User seems to be starting a substantial writing task&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Initial offer:&lt;/strong&gt;
-Offer the user a structured workflow for co-authoring the document. Explain the three stages:&lt;/p&gt;</description></item><item><title>Flow Nexus Swarm</title><link>https://agentskill.wiki/en/skills/flow-nexus-swarm/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/flow-nexus-swarm/</guid><description>&lt;h1 id="flow-nexus-swarm--workflow-orchestration"&gt;Flow Nexus Swarm &amp;amp; Workflow Orchestration&lt;/h1&gt;
+Offer the user a structured workflow for co-authoring the document. Explain the three stages:&lt;/p&gt;</description></item><item><title>Flow Nexus Swarm</title><link>https://agentskill.wiki/skills/flow-nexus-swarm/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/flow-nexus-swarm/</guid><description>&lt;h1 id="flow-nexus-swarm--workflow-orchestration"&gt;Flow Nexus Swarm &amp;amp; Workflow Orchestration&lt;/h1&gt;
 &lt;p&gt;Deploy and manage cloud-based AI agent swarms with event-driven workflow automation, message queue processing, and intelligent agent coordination.&lt;/p&gt;
 &lt;h2 id="-table-of-contents"&gt;📋 Table of Contents&lt;/h2&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;a href="https://agentskill.wiki/en/skills/flow-nexus-swarm/#overview"&gt;Overview&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://agentskill.wiki/en/skills/flow-nexus-swarm/#swarm-management"&gt;Swarm Management&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://agentskill.wiki/en/skills/flow-nexus-swarm/#workflow-automation"&gt;Workflow Automation&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://agentskill.wiki/en/skills/flow-nexus-swarm/#agent-orchestration"&gt;Agent Orchestration&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://agentskill.wiki/en/skills/flow-nexus-swarm/#templates--patterns"&gt;Templates &amp;amp; Patterns&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://agentskill.wiki/en/skills/flow-nexus-swarm/#advanced-features"&gt;Advanced Features&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://agentskill.wiki/en/skills/flow-nexus-swarm/#best-practices"&gt;Best Practices&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://agentskill.wiki/skills/flow-nexus-swarm/#overview"&gt;Overview&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://agentskill.wiki/skills/flow-nexus-swarm/#swarm-management"&gt;Swarm Management&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://agentskill.wiki/skills/flow-nexus-swarm/#workflow-automation"&gt;Workflow Automation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://agentskill.wiki/skills/flow-nexus-swarm/#agent-orchestration"&gt;Agent Orchestration&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://agentskill.wiki/skills/flow-nexus-swarm/#templates--patterns"&gt;Templates &amp;amp; Patterns&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://agentskill.wiki/skills/flow-nexus-swarm/#advanced-features"&gt;Advanced Features&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://agentskill.wiki/skills/flow-nexus-swarm/#best-practices"&gt;Best Practices&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;Flow Nexus provides cloud-based orchestration for AI agent swarms with:&lt;/p&gt;
@@ -156,13 +156,13 @@ Offer the user a structured workflow for co-authoring the document. Explain the 
 &lt;/ul&gt;
 &lt;h2 id="swarm-management"&gt;Swarm Management&lt;/h2&gt;
 &lt;h3 id="initialize-swarm"&gt;Initialize Swarm&lt;/h3&gt;
-&lt;p&gt;Create a new swarm with specified topology and configuration:&lt;/p&gt;</description></item><item><title>Gh Fix Ci</title><link>https://agentskill.wiki/en/skills/gh-fix-ci/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/gh-fix-ci/</guid><description>&lt;h1 id="gh-pr-checks-plan-fix"&gt;Gh Pr Checks Plan Fix&lt;/h1&gt;
+&lt;p&gt;Create a new swarm with specified topology and configuration:&lt;/p&gt;</description></item><item><title>Gh Fix Ci</title><link>https://agentskill.wiki/skills/gh-fix-ci/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/gh-fix-ci/</guid><description>&lt;h1 id="gh-pr-checks-plan-fix"&gt;Gh Pr Checks Plan Fix&lt;/h1&gt;
 &lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;Use gh to locate failing PR checks, fetch GitHub Actions logs for actionable failures, summarize the failure snippet, then propose a fix plan and implement after explicit approval.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Depends on the &lt;code&gt;plan&lt;/code&gt; skill for drafting and approving the fix plan.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Prereq: ensure &lt;code&gt;gh&lt;/code&gt; is authenticated (for example, run &lt;code&gt;gh auth login&lt;/code&gt; once), then run &lt;code&gt;gh auth status&lt;/code&gt; with escalated permissions (include workflow/repo scopes) so &lt;code&gt;gh&lt;/code&gt; commands succeed. If sandboxing blocks &lt;code&gt;gh auth status&lt;/code&gt;, rerun it with &lt;code&gt;sandbox_permissions=require_escalated&lt;/code&gt;.&lt;/p&gt;</description></item><item><title>Github Issues</title><link>https://agentskill.wiki/en/skills/github-issues/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/github-issues/</guid><description>&lt;h1 id="github-issues"&gt;GitHub Issues&lt;/h1&gt;
+&lt;p&gt;Prereq: ensure &lt;code&gt;gh&lt;/code&gt; is authenticated (for example, run &lt;code&gt;gh auth login&lt;/code&gt; once), then run &lt;code&gt;gh auth status&lt;/code&gt; with escalated permissions (include workflow/repo scopes) so &lt;code&gt;gh&lt;/code&gt; commands succeed. If sandboxing blocks &lt;code&gt;gh auth status&lt;/code&gt;, rerun it with &lt;code&gt;sandbox_permissions=require_escalated&lt;/code&gt;.&lt;/p&gt;</description></item><item><title>Github Issues</title><link>https://agentskill.wiki/skills/github-issues/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/github-issues/</guid><description>&lt;h1 id="github-issues"&gt;GitHub Issues&lt;/h1&gt;
 &lt;p&gt;Manage GitHub issues using the &lt;code&gt;@modelcontextprotocol/server-github&lt;/code&gt; MCP server.&lt;/p&gt;
 &lt;h2 id="available-mcp-tools"&gt;Available MCP Tools&lt;/h2&gt;
 &lt;table&gt;
@@ -231,7 +231,7 @@ milestone: milestone number (integer)
 &lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id="body-structure"&gt;Body Structure&lt;/h3&gt;
-&lt;p&gt;Always use the templates in &lt;a href="references/templates.md"&gt;references/templates.md&lt;/a&gt;. Choose based on issue type:&lt;/p&gt;</description></item><item><title>Hook Development</title><link>https://agentskill.wiki/en/skills/hook-development/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/hook-development/</guid><description>&lt;h1 id="hook-development-for-claude-code-plugins"&gt;Hook Development for Claude Code Plugins&lt;/h1&gt;
+&lt;p&gt;Always use the templates in &lt;a href="references/templates.md"&gt;references/templates.md&lt;/a&gt;. Choose based on issue type:&lt;/p&gt;</description></item><item><title>Hook Development</title><link>https://agentskill.wiki/skills/hook-development/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/hook-development/</guid><description>&lt;h1 id="hook-development-for-claude-code-plugins"&gt;Hook Development for Claude Code Plugins&lt;/h1&gt;
 &lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;Hooks are event-driven automation scripts that execute in response to Claude Code events. Use hooks to validate operations, enforce policies, add context, and integrate external tools into workflows.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Key capabilities:&lt;/strong&gt;&lt;/p&gt;
@@ -244,7 +244,7 @@ milestone: milestone number (integer)
 &lt;/ul&gt;
 &lt;h2 id="hook-types"&gt;Hook Types&lt;/h2&gt;
 &lt;h3 id="prompt-based-hooks-recommended"&gt;Prompt-Based Hooks (Recommended)&lt;/h3&gt;
-&lt;p&gt;Use LLM-driven decision making for context-aware validation:&lt;/p&gt;</description></item><item><title>Issue Triage</title><link>https://agentskill.wiki/en/skills/issue-triage/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/issue-triage/</guid><description>&lt;h1 id="issue-triage-skill"&gt;Issue Triage Skill&lt;/h1&gt;
+&lt;p&gt;Use LLM-driven decision making for context-aware validation:&lt;/p&gt;</description></item><item><title>Issue Triage</title><link>https://agentskill.wiki/skills/issue-triage/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/issue-triage/</guid><description>&lt;h1 id="issue-triage-skill"&gt;Issue Triage Skill&lt;/h1&gt;
 &lt;p&gt;This skill helps triage open GitHub issues in the dotnet/maui repository by:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;Initializing a session with current milestones and labels&lt;/li&gt;
@@ -267,7 +267,7 @@ milestone: milestone number (integer)
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;10&lt;/span&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;11&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Authenticate (required before first use)&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;12&lt;/span&gt;&lt;span&gt;gh auth login
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The scripts will check for &lt;code&gt;gh&lt;/code&gt; and exit with installation instructions if not found.&lt;/p&gt;</description></item><item><title>Latchbio Integration</title><link>https://agentskill.wiki/en/skills/latchbio-integration/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/latchbio-integration/</guid><description>&lt;h1 id="latchbio-integration"&gt;LatchBio Integration&lt;/h1&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The scripts will check for &lt;code&gt;gh&lt;/code&gt; and exit with installation instructions if not found.&lt;/p&gt;</description></item><item><title>Latchbio Integration</title><link>https://agentskill.wiki/skills/latchbio-integration/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/latchbio-integration/</guid><description>&lt;h1 id="latchbio-integration"&gt;LatchBio Integration&lt;/h1&gt;
 &lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;Latch is a Python framework for building and deploying bioinformatics workflows as serverless pipelines. Built on Flyte, create workflows with @workflow/@task decorators, manage cloud data with LatchFile/LatchDir, configure resources, and integrate Nextflow/Snakemake pipelines.&lt;/p&gt;
 &lt;h2 id="core-capabilities"&gt;Core Capabilities&lt;/h2&gt;
@@ -317,7 +317,7 @@ milestone: milestone number (integer)
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 9&lt;/span&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;10&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Register workflow to platform&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;11&lt;/span&gt;&lt;span&gt;latch register my-workflow
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Prerequisites:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Planning With Files</title><link>https://agentskill.wiki/en/skills/planning-with-files/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/planning-with-files/</guid><description>&lt;h1 id="planning-with-files"&gt;Planning with Files&lt;/h1&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Prerequisites:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Planning With Files</title><link>https://agentskill.wiki/skills/planning-with-files/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/planning-with-files/</guid><description>&lt;h1 id="planning-with-files"&gt;Planning with Files&lt;/h1&gt;
 &lt;p&gt;Work like Manus: Use persistent markdown files as your &amp;ldquo;working memory on disk.&amp;rdquo;&lt;/p&gt;
 &lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;
 &lt;p&gt;Before ANY complex task:&lt;/p&gt;
@@ -361,7 +361,7 @@ Loop 2: Research → save to notes.md → update task_plan.md
 Loop 3: Read notes.md → create deliverable → update task_plan.md
 Loop 4: Deliver final output
 &lt;/code&gt;&lt;/pre&gt;&lt;h3 id="the-loop-in-detail"&gt;The Loop in Detail&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Before each major action:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Pr Creator</title><link>https://agentskill.wiki/en/skills/pr-creator/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/pr-creator/</guid><description>&lt;h1 id="pull-request-creator"&gt;Pull Request Creator&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Before each major action:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Pr Creator</title><link>https://agentskill.wiki/skills/pr-creator/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/pr-creator/</guid><description>&lt;h1 id="pull-request-creator"&gt;Pull Request Creator&lt;/h1&gt;
 &lt;p&gt;This skill guides the creation of high-quality Pull Requests that adhere to the
 repository&amp;rsquo;s standards.&lt;/p&gt;
 &lt;h2 id="workflow"&gt;Workflow&lt;/h2&gt;
@@ -379,7 +379,7 @@ branch:
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Locate Template&lt;/strong&gt;: Search for a pull request template in the repository.&lt;/p&gt;</description></item><item><title>Prowler Pr</title><link>https://agentskill.wiki/en/skills/prowler-pr/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/prowler-pr/</guid><description>&lt;h2 id="pr-creation-process"&gt;PR Creation Process&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Locate Template&lt;/strong&gt;: Search for a pull request template in the repository.&lt;/p&gt;</description></item><item><title>Prowler Pr</title><link>https://agentskill.wiki/skills/prowler-pr/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/prowler-pr/</guid><description>&lt;h2 id="pr-creation-process"&gt;PR Creation Process&lt;/h2&gt;
 &lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;Analyze changes&lt;/strong&gt;: &lt;code&gt;git diff main...HEAD&lt;/code&gt; to understand ALL commits&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Determine affected components&lt;/strong&gt;: SDK, API, UI, MCP, Docs&lt;/li&gt;
@@ -492,7 +492,7 @@ branch:
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;15&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Create draft PR&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;16&lt;/span&gt;&lt;span&gt;gh pr create --draft --title &lt;span style="color:#e6db74"&gt;&amp;#34;feat: description&amp;#34;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="title-conventions"&gt;Title Conventions&lt;/h2&gt;
-&lt;p&gt;Follow conventional commits:&lt;/p&gt;</description></item><item><title>Rule Identifier</title><link>https://agentskill.wiki/en/skills/rule-identifier/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/rule-identifier/</guid><description>&lt;h1 id="writing-hookify-rules"&gt;Writing Hookify Rules&lt;/h1&gt;
+&lt;p&gt;Follow conventional commits:&lt;/p&gt;</description></item><item><title>Rule Identifier</title><link>https://agentskill.wiki/skills/rule-identifier/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/rule-identifier/</guid><description>&lt;h1 id="writing-hookify-rules"&gt;Writing Hookify Rules&lt;/h1&gt;
 &lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;Hookify rules are markdown files with YAML frontmatter that define patterns to watch for and messages to show when those patterns match. Rules are stored in &lt;code&gt;.claude/hookify.{rule-name}.local.md&lt;/code&gt; files.&lt;/p&gt;
 &lt;h2 id="rule-file-format"&gt;Rule File Format&lt;/h2&gt;
@@ -507,7 +507,7 @@ branch:
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;8&lt;/span&gt;&lt;span&gt;Message to show Claude when this rule triggers.
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;9&lt;/span&gt;&lt;span&gt;Can include markdown formatting, warnings, suggestions, etc.
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="frontmatter-fields"&gt;Frontmatter Fields&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;name&lt;/strong&gt; (required): Unique identifier for the rule&lt;/p&gt;</description></item><item><title>Skill Share</title><link>https://agentskill.wiki/en/skills/skill-share/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/skill-share/</guid><description>&lt;h2 id="when-to-use-this-skill"&gt;When to use this skill&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;name&lt;/strong&gt; (required): Unique identifier for the rule&lt;/p&gt;</description></item><item><title>Skill Share</title><link>https://agentskill.wiki/skills/skill-share/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/skill-share/</guid><description>&lt;h2 id="when-to-use-this-skill"&gt;When to use this skill&lt;/h2&gt;
 &lt;p&gt;Use this skill when you need to:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Create new Claude skills&lt;/strong&gt; with proper structure and metadata&lt;/li&gt;

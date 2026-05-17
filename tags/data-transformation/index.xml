@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Data-Transformation on Agent Skills Hub</title><link>https://agentskill.wiki/tags/data-transformation/</link><description>Recent content in Data-Transformation on Agent Skills Hub</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/data-transformation/index.xml" rel="self" type="application/rss+xml"/><item><title>Cocoindex</title><link>https://agentskill.wiki/en/skills/cocoindex/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/cocoindex/</guid><description>&lt;h1 id="cocoindex"&gt;CocoIndex&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Data-Transformation on Agent Skills Hub</title><link>https://agentskill.wiki/tags/data-transformation/</link><description>Recent content in Data-Transformation on Agent Skills Hub</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/data-transformation/index.xml" rel="self" type="application/rss+xml"/><item><title>Cocoindex</title><link>https://agentskill.wiki/skills/cocoindex/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/cocoindex/</guid><description>&lt;h1 id="cocoindex"&gt;CocoIndex&lt;/h1&gt;
 &lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;CocoIndex is an ultra-performant real-time data transformation framework for AI with incremental processing. This skill enables building &lt;strong&gt;indexing flows&lt;/strong&gt; that extract data from sources, apply transformations (chunking, embedding, LLM extraction), and export to targets (vector databases, graph databases, relational databases).&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Core capabilities:&lt;/strong&gt;&lt;/p&gt;
@@ -7,7 +7,7 @@
 &lt;li&gt;&lt;strong&gt;Create custom functions&lt;/strong&gt; - Build reusable transformation logic&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Operate flows&lt;/strong&gt; - Run and manage flows using CLI or Python API&lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;&lt;strong&gt;Key features:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Dbt Transformation Patterns</title><link>https://agentskill.wiki/en/skills/dbt-transformation-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/dbt-transformation-patterns/</guid><description>&lt;h1 id="dbt-transformation-patterns"&gt;dbt Transformation Patterns&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Key features:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Dbt Transformation Patterns</title><link>https://agentskill.wiki/skills/dbt-transformation-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/dbt-transformation-patterns/</guid><description>&lt;h1 id="dbt-transformation-patterns"&gt;dbt Transformation Patterns&lt;/h1&gt;
 &lt;p&gt;Production-ready patterns for dbt (data build tool) including model organization, testing strategies, documentation, and incremental processing.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -530,7 +530,7 @@ models/
 &lt;li&gt;&lt;a href="https://docs.getdbt.com/guides/best-practices"&gt;dbt Best Practices&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://hub.getdbt.com/dbt-labs/dbt_utils/latest/"&gt;dbt-utils Package&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://discourse.getdbt.com/"&gt;dbt Discourse&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>N8N Code Javascript</title><link>https://agentskill.wiki/en/skills/n8n-code-javascript/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/n8n-code-javascript/</guid><description>&lt;h1 id="javascript-code-node"&gt;JavaScript Code Node&lt;/h1&gt;
+&lt;/ul&gt;</description></item><item><title>N8N Code Javascript</title><link>https://agentskill.wiki/skills/n8n-code-javascript/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/n8n-code-javascript/</guid><description>&lt;h1 id="javascript-code-node"&gt;JavaScript Code Node&lt;/h1&gt;
 &lt;p&gt;Expert guidance for writing JavaScript code in n8n Code nodes.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;
@@ -557,7 +557,7 @@ models/
 &lt;/ol&gt;
 &lt;hr&gt;
 &lt;h2 id="mode-selection-guide"&gt;Mode Selection Guide&lt;/h2&gt;
-&lt;p&gt;The Code node offers two execution modes. Choose based on your use case:&lt;/p&gt;</description></item><item><title>N8N Code Python</title><link>https://agentskill.wiki/en/skills/n8n-code-python/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/n8n-code-python/</guid><description>&lt;h1 id="python-code-node-beta"&gt;Python Code Node (Beta)&lt;/h1&gt;
+&lt;p&gt;The Code node offers two execution modes. Choose based on your use case:&lt;/p&gt;</description></item><item><title>N8N Code Python</title><link>https://agentskill.wiki/skills/n8n-code-python/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/n8n-code-python/</guid><description>&lt;h1 id="python-code-node-beta"&gt;Python Code Node (Beta)&lt;/h1&gt;
 &lt;p&gt;Expert guidance for writing Python code in n8n Code nodes.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id="-important-javascript-first"&gt;⚠️ Important: JavaScript First&lt;/h2&gt;

@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Markdown on Agent Skills Hub</title><link>https://agentskill.wiki/zh/tags/markdown/</link><description>Recent content in Markdown on Agent Skills Hub</description><generator>Hugo</generator><language>zh</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/zh/tags/markdown/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs Review</title><link>https://agentskill.wiki/zh/skills/docs-review/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/zh/skills/docs-review/</guid><description>&lt;h1 id="documentation-review-skill"&gt;Documentation Review Skill&lt;/h1&gt;
+&lt;p&gt;@./../_shared/metabase-style-guide.md&lt;/p&gt;
+&lt;h2 id="review-mode-detection"&gt;Review mode detection&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;IMPORTANT: Before starting the review, determine which mode to use:&lt;/strong&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;PR review mode&lt;/strong&gt;: If the &lt;code&gt;mcp__github__create_pending_pull_request_review&lt;/code&gt; tool is available, you are reviewing a GitHub PR&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Use the pending review workflow to post all issues as one cohesive review&lt;/li&gt;
+&lt;li&gt;Follow the workflow steps in &amp;ldquo;PR review mode format&amp;rdquo; below&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Local review mode&lt;/strong&gt;: If the MCP tool is NOT available, output issues in the conversation&lt;/p&gt;</description></item><item><title>Docs Write</title><link>https://agentskill.wiki/zh/skills/docs-write/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/zh/skills/docs-write/</guid><description>&lt;h1 id="documentation-writing-skill"&gt;Documentation Writing Skill&lt;/h1&gt;
+&lt;p&gt;@./../_shared/metabase-style-guide.md&lt;/p&gt;
+&lt;h2 id="when-writing-documentation"&gt;When writing documentation&lt;/h2&gt;
+&lt;h3 id="start-here"&gt;Start here&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Who is this for?&lt;/strong&gt; Match complexity to audience. Don&amp;rsquo;t oversimplify hard things or overcomplicate simple ones.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;What do they need?&lt;/strong&gt; Get them to the answer fast. Nobody wants to be in docs longer than necessary.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;What did you struggle with?&lt;/strong&gt; Those common questions you had when learning? Answer them (without literally including the question).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id="writing-process"&gt;Writing process&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Draft:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Write out the steps/explanation as you&amp;rsquo;d tell a colleague&lt;/li&gt;
+&lt;li&gt;Lead with what to do, then explain why&lt;/li&gt;
+&lt;li&gt;Use headings that state your point: &amp;ldquo;Set SAML before adding users&amp;rdquo; not &amp;ldquo;SAML configuration timing&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Edit:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Markitdown</title><link>https://agentskill.wiki/zh/skills/markitdown/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/zh/skills/markitdown/</guid><description>&lt;h1 id="markitdown---file-to-markdown-conversion"&gt;MarkItDown - File to Markdown Conversion&lt;/h1&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;p&gt;MarkItDown is a Python tool developed by Microsoft for converting various file formats to Markdown. It&amp;rsquo;s particularly useful for converting documents into LLM-friendly text format, as Markdown is token-efficient and well-understood by modern language models.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Key Benefits&lt;/strong&gt;:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Convert documents to clean, structured Markdown&lt;/li&gt;
+&lt;li&gt;Token-efficient format for LLM processing&lt;/li&gt;
+&lt;li&gt;Supports 15+ file formats&lt;/li&gt;
+&lt;li&gt;Optional AI-enhanced image descriptions&lt;/li&gt;
+&lt;li&gt;OCR for images and scanned documents&lt;/li&gt;
+&lt;li&gt;Speech transcription for audio files&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="visual-enhancement-with-scientific-schematics"&gt;Visual Enhancement with Scientific Schematics&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;When creating documents with this skill, always consider adding scientific diagrams and schematics to enhance visual communication.&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Obsidian Markdown</title><link>https://agentskill.wiki/zh/skills/obsidian-markdown/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/zh/skills/obsidian-markdown/</guid><description>&lt;h1 id="obsidian-flavored-markdown-skill"&gt;Obsidian Flavored Markdown Skill&lt;/h1&gt;
+&lt;p&gt;This skill enables Claude Code to create and edit valid Obsidian Flavored Markdown, including all Obsidian-specific syntax extensions.&lt;/p&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Obsidian uses a combination of Markdown flavors:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://commonmark.org/"&gt;CommonMark&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://github.github.com/gfm/"&gt;GitHub Flavored Markdown&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://www.latex-project.org/"&gt;LaTeX&lt;/a&gt; for math&lt;/li&gt;
+&lt;li&gt;Obsidian-specific extensions (wikilinks, callouts, embeds, etc.)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="basic-formatting"&gt;Basic Formatting&lt;/h2&gt;
+&lt;h3 id="paragraphs-and-line-breaks"&gt;Paragraphs and Line Breaks&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-markdown" data-lang="markdown"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;This is a paragraph.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;2&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;3&lt;/span&gt;&lt;span&gt;This is another paragraph (blank line between creates separate paragraphs).
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;4&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;5&lt;/span&gt;&lt;span&gt;For a line break within a paragraph, add two spaces at the end 
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;6&lt;/span&gt;&lt;span&gt;or use Shift+Enter.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="headings"&gt;Headings&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-markdown" data-lang="markdown"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;# Heading 1
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;2&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;## Heading 2
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;3&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;### Heading 3
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;4&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;#### Heading 4
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;5&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;##### Heading 5
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;6&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;###### Heading 6
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="text-formatting"&gt;Text Formatting&lt;/h3&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Style&lt;/th&gt;
+ &lt;th&gt;Syntax&lt;/th&gt;
+ &lt;th&gt;Example&lt;/th&gt;
+ &lt;th&gt;Output&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Bold&lt;/td&gt;
+ &lt;td&gt;&lt;code&gt;**text**&lt;/code&gt; or &lt;code&gt;__text__&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;code&gt;**Bold**&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;strong&gt;Bold&lt;/strong&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Italic&lt;/td&gt;
+ &lt;td&gt;&lt;code&gt;*text*&lt;/code&gt; or &lt;code&gt;_text_&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;code&gt;*Italic*&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;em&gt;Italic&lt;/em&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Bold + Italic&lt;/td&gt;
+ &lt;td&gt;&lt;code&gt;***text***&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;code&gt;***Both***&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;em&gt;&lt;strong&gt;Both&lt;/strong&gt;&lt;/em&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Strikethrough&lt;/td&gt;
+ &lt;td&gt;&lt;code&gt;~~text~~&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;code&gt;~~Striked~~&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;del&gt;Striked&lt;/del&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Highlight&lt;/td&gt;
+ &lt;td&gt;&lt;code&gt;==text==&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;code&gt;==Highlighted==&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;==Highlighted==&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Inline code&lt;/td&gt;
+ &lt;td&gt;&lt;code&gt;`code`&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;code&gt;`code`&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;&lt;code&gt;code&lt;/code&gt;&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id="escaping-formatting"&gt;Escaping Formatting&lt;/h3&gt;
+&lt;p&gt;Use backslash to escape special characters:&lt;/p&gt;</description></item><item><title>Planning With Files</title><link>https://agentskill.wiki/zh/skills/planning-with-files/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/zh/skills/planning-with-files/</guid><description>&lt;h1 id="planning-with-files"&gt;Planning with Files&lt;/h1&gt;
+&lt;p&gt;Work like Manus: Use persistent markdown files as your &amp;ldquo;working memory on disk.&amp;rdquo;&lt;/p&gt;
+&lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;
+&lt;p&gt;Before ANY complex task:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Create &lt;code&gt;task_plan.md&lt;/code&gt;&lt;/strong&gt; in the working directory&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Define phases&lt;/strong&gt; with checkboxes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Update after each phase&lt;/strong&gt; - mark [x] and change status&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Read before deciding&lt;/strong&gt; - refresh goals in attention window&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="the-3-file-pattern"&gt;The 3-File Pattern&lt;/h2&gt;
+&lt;p&gt;For every non-trivial task, create THREE files:&lt;/p&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;File&lt;/th&gt;
+ &lt;th&gt;Purpose&lt;/th&gt;
+ &lt;th&gt;When to Update&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;code&gt;task_plan.md&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;Track phases and progress&lt;/td&gt;
+ &lt;td&gt;After each phase&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;code&gt;notes.md&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;Store findings and research&lt;/td&gt;
+ &lt;td&gt;During research&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;code&gt;[deliverable].md&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;Final output&lt;/td&gt;
+ &lt;td&gt;At completion&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id="core-workflow"&gt;Core Workflow&lt;/h2&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;Loop 1: Create task_plan.md with goal and phases
+Loop 2: Research → save to notes.md → update task_plan.md
+Loop 3: Read notes.md → create deliverable → update task_plan.md
+Loop 4: Deliver final output
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id="the-loop-in-detail"&gt;The Loop in Detail&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Before each major action:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Skill Builder</title><link>https://agentskill.wiki/zh/skills/skill-builder/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/zh/skills/skill-builder/</guid><description>&lt;h1 id="skill-builder"&gt;Skill Builder&lt;/h1&gt;
+&lt;h2 id="what-this-skill-does"&gt;What This Skill Does&lt;/h2&gt;
+&lt;p&gt;Creates production-ready Claude Code Skills with proper YAML frontmatter, progressive disclosure architecture, and complete file/folder structure. This skill guides you through building skills that Claude can autonomously discover and use across all surfaces (Claude.ai, Claude Code, SDK, API).&lt;/p&gt;
+&lt;h2 id="prerequisites"&gt;Prerequisites&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Claude Code 2.0+ or Claude.ai with Skills support&lt;/li&gt;
+&lt;li&gt;Basic understanding of Markdown and YAML&lt;/li&gt;
+&lt;li&gt;Text editor or IDE&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;
+&lt;h3 id="creating-your-first-skill"&gt;Creating Your First Skill&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# 1. Create skill directory (MUST be at top level, NOT in subdirectories!)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 2&lt;/span&gt;&lt;span&gt;mkdir -p ~/.claude/skills/my-first-skill
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 3&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 4&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# 2. Create SKILL.md with proper format&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 5&lt;/span&gt;&lt;span&gt;cat &amp;gt; ~/.claude/skills/my-first-skill/SKILL.md &lt;span style="color:#e6db74"&gt;&amp;lt;&amp;lt; &amp;#39;EOF&amp;#39;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 6&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;---
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 7&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;name: &amp;#34;My First Skill&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 8&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;description: &amp;#34;Brief description of what this skill does and when Claude should use it. Maximum 1024 characters.&amp;#34;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 9&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;---
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;10&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;11&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;# My First Skill
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;12&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;13&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;## What This Skill Does
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;14&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;[Your instructions here]
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;15&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;16&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;## Quick Start
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;17&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;[Basic usage]
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;18&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;EOF&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;19&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;20&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# 3. Verify skill is detected&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;21&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Restart Claude Code or refresh Claude.ai&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h2 id="complete-specification"&gt;Complete Specification&lt;/h2&gt;
+&lt;h3 id="-yaml-frontmatter-required"&gt;📋 YAML Frontmatter (REQUIRED)&lt;/h3&gt;
+&lt;p&gt;Every SKILL.md &lt;strong&gt;must&lt;/strong&gt; start with YAML frontmatter containing exactly two required fields:&lt;/p&gt;</description></item><item><title>Skill Writer</title><link>https://agentskill.wiki/zh/skills/skill-writer/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/zh/skills/skill-writer/</guid><description>&lt;h1 id="skill-writer"&gt;Skill Writer&lt;/h1&gt;
+&lt;p&gt;This Skill helps you create well-structured Agent Skills for Claude Code that follow best practices and validation requirements.&lt;/p&gt;
+&lt;h2 id="when-to-use-this-skill"&gt;When to use this Skill&lt;/h2&gt;
+&lt;p&gt;Use this Skill when:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Creating a new Agent Skill&lt;/li&gt;
+&lt;li&gt;Writing or updating SKILL.md files&lt;/li&gt;
+&lt;li&gt;Designing skill structure and frontmatter&lt;/li&gt;
+&lt;li&gt;Troubleshooting skill discovery issues&lt;/li&gt;
+&lt;li&gt;Converting existing prompts or workflows into Skills&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="instructions"&gt;Instructions&lt;/h2&gt;
+&lt;h3 id="step-1-determine-skill-scope"&gt;Step 1: Determine Skill scope&lt;/h3&gt;
+&lt;p&gt;First, understand what the Skill should do:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Ask clarifying questions&lt;/strong&gt;:&lt;/p&gt;</description></item><item><title>Task Execution Engine</title><link>https://agentskill.wiki/zh/skills/task-execution-engine/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/zh/skills/task-execution-engine/</guid><description>&lt;h1 id="feature-pipeline"&gt;Feature Pipeline&lt;/h1&gt;
+&lt;p&gt;Execute implementation tasks directly from design documents. Tasks are managed as markdown checkboxes - no separate session files needed.&lt;/p&gt;
+&lt;h2 id="quick-reference"&gt;Quick Reference&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Get next task&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 2&lt;/span&gt;&lt;span&gt;python3 scripts/task_manager.py next --file &amp;lt;design.md&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 3&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 4&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Mark task completed&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 5&lt;/span&gt;&lt;span&gt;python3 scripts/task_manager.py &lt;span style="color:#66d9ef"&gt;done&lt;/span&gt; --file &amp;lt;design.md&amp;gt; --task &lt;span style="color:#e6db74"&gt;&amp;#34;Task Title&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 6&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 7&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Mark task failed&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 8&lt;/span&gt;&lt;span&gt;python3 scripts/task_manager.py fail --file &amp;lt;design.md&amp;gt; --task &lt;span style="color:#e6db74"&gt;&amp;#34;Task Title&amp;#34;&lt;/span&gt; --reason &lt;span style="color:#e6db74"&gt;&amp;#34;...&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 9&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;10&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Show status&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;11&lt;/span&gt;&lt;span&gt;python3 scripts/task_manager.py status --file &amp;lt;design.md&amp;gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="task-format"&gt;Task Format&lt;/h2&gt;
+&lt;p&gt;Tasks are written as markdown checkboxes in the design document:&lt;/p&gt;</description></item><item><title>Woocommerce Markdown</title><link>https://agentskill.wiki/zh/skills/woocommerce-markdown/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/zh/skills/woocommerce-markdown/</guid><description>&lt;h1 id="woocommerce-markdown-guidelines"&gt;WooCommerce Markdown Guidelines&lt;/h1&gt;
+&lt;p&gt;This skill provides guidance for creating and editing markdown files in the WooCommerce project.&lt;/p&gt;
+&lt;h2 id="critical-rules"&gt;Critical Rules&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Always lint after changes&lt;/strong&gt; - Run &lt;code&gt;markdownlint --fix&lt;/code&gt; then &lt;code&gt;markdownlint&lt;/code&gt; to verify&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Run from repository root&lt;/strong&gt; - Ensures &lt;code&gt;.markdownlint.json&lt;/code&gt; config is loaded&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Use UTF-8 encoding&lt;/strong&gt; - Especially for directory trees and special characters&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Follow WooCommerce markdown standards&lt;/strong&gt; - See configuration rules below&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="woocommerce-markdown-configuration"&gt;WooCommerce Markdown Configuration&lt;/h2&gt;
+&lt;p&gt;The project uses markdownlint with these specific rules (from &lt;code&gt;.markdownlint.json&lt;/code&gt;):&lt;/p&gt;</description></item></channel></rss>

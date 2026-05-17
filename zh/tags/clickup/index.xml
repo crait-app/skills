@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Clickup on Agent Skills Hub</title><link>https://agentskill.wiki/zh/tags/clickup/</link><description>Recent content in Clickup on Agent Skills Hub</description><generator>Hugo</generator><language>zh</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/zh/tags/clickup/index.xml" rel="self" type="application/rss+xml"/><item><title>Clickup</title><link>https://agentskill.wiki/zh/skills/clickup/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/zh/skills/clickup/</guid><description>&lt;h1 id="clickup"&gt;ClickUp&lt;/h1&gt;
+&lt;p&gt;Interact with ClickUp tasks and documents via the API. Get task information, view comments, create tasks, manage assignments, post updates, and create/edit documents.&lt;/p&gt;
+&lt;h2 id="setup"&gt;Setup&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Copy &lt;code&gt;.env-example&lt;/code&gt; to &lt;code&gt;.env&lt;/code&gt; in this skill directory&lt;/li&gt;
+&lt;li&gt;Add your ClickUp Personal API Token (starts with &lt;code&gt;pk_&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;Generate token at: ClickUp Settings &amp;gt; Apps &amp;gt; API Token&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;cp .claude/skills/clickup/.env-example .claude/skills/clickup/.env
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;2&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Edit .env and add your token&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Team ID and User ID are auto-detected and cached on first use.&lt;/p&gt;</description></item></channel></rss>

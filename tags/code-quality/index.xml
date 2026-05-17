@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Code Quality on Agent Skills Hub</title><link>https://agentskill.wiki/tags/code-quality/</link><description>Recent content in Code Quality on Agent Skills Hub</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/code-quality/index.xml" rel="self" type="application/rss+xml"/><item><title>Clojure Write</title><link>https://agentskill.wiki/en/skills/clojure-write/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/clojure-write/</guid><description>&lt;h1 id="clojure-development-skill"&gt;Clojure Development Skill&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Code Quality on Agent Skills Hub</title><link>https://agentskill.wiki/tags/code-quality/</link><description>Recent content in Code Quality on Agent Skills Hub</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/code-quality/index.xml" rel="self" type="application/rss+xml"/><item><title>Clojure Write</title><link>https://agentskill.wiki/skills/clojure-write/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/clojure-write/</guid><description>&lt;h1 id="clojure-development-skill"&gt;Clojure Development Skill&lt;/h1&gt;
 &lt;h2 id="tool-preference"&gt;Tool Preference&lt;/h2&gt;
 &lt;p&gt;When &lt;code&gt;clojure-mcp&lt;/code&gt; tools are available (e.g., &lt;code&gt;clojure_eval&lt;/code&gt;, &lt;code&gt;clojure_edit&lt;/code&gt;), &lt;strong&gt;always use them&lt;/strong&gt;
 instead of shell commands like &lt;code&gt;./bin/mage -repl&lt;/code&gt;. The MCP tools provide:&lt;/p&gt;
@@ -74,7 +74,7 @@ Feel free to copy these REPL session trials into actual test cases using &lt;cod
 &lt;li&gt;End all files with a newline&lt;/li&gt;
 &lt;li&gt;When editing tabular code, where the columns line up, try to keep them aligned&lt;/li&gt;
 &lt;li&gt;Spaces on a line with nothing after it is not allowed&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Commit Helper</title><link>https://agentskill.wiki/en/skills/commit-helper/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/commit-helper/</guid><description>&lt;h1 id="cockroachdb-commit-helper"&gt;CockroachDB Commit Helper&lt;/h1&gt;
+&lt;/ul&gt;</description></item><item><title>Commit Helper</title><link>https://agentskill.wiki/skills/commit-helper/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/commit-helper/</guid><description>&lt;h1 id="cockroachdb-commit-helper"&gt;CockroachDB Commit Helper&lt;/h1&gt;
 &lt;p&gt;Help the user create properly formatted commit messages and release notes that follow CockroachDB conventions.&lt;/p&gt;
 &lt;h2 id="workflow"&gt;Workflow&lt;/h2&gt;
 &lt;ol&gt;
@@ -93,7 +93,7 @@ Feel free to copy these REPL session trials into actual test cases using &lt;cod
 &lt;li&gt;&lt;strong&gt;Create the commit&lt;/strong&gt; using the properly formatted message&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h2 id="commit-message-structure"&gt;Commit Message Structure&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Basic Format:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Deslop</title><link>https://agentskill.wiki/en/skills/deslop/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/deslop/</guid><description>&lt;h1 id="remove-ai-code-slop"&gt;Remove AI Code Slop&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Basic Format:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Deslop</title><link>https://agentskill.wiki/skills/deslop/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/deslop/</guid><description>&lt;h1 id="remove-ai-code-slop"&gt;Remove AI Code Slop&lt;/h1&gt;
 &lt;p&gt;Check the diff against main and remove all AI-generated slop introduced in this branch.&lt;/p&gt;
 &lt;h2 id="what-to-remove"&gt;What to Remove&lt;/h2&gt;
 &lt;ul&gt;
@@ -109,7 +109,7 @@ Feel free to copy these REPL session trials into actual test cases using &lt;cod
 &lt;li&gt;Review each changed file for slop patterns&lt;/li&gt;
 &lt;li&gt;Remove identified slop while preserving legitimate changes&lt;/li&gt;
 &lt;li&gt;Report a 1-3 sentence summary of what was changed&lt;/li&gt;
-&lt;/ol&gt;</description></item><item><title>Move Code Quality</title><link>https://agentskill.wiki/en/skills/move-code-quality/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/move-code-quality/</guid><description>&lt;h1 id="move-code-quality-checker"&gt;Move Code Quality Checker&lt;/h1&gt;
+&lt;/ol&gt;</description></item><item><title>Move Code Quality</title><link>https://agentskill.wiki/skills/move-code-quality/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/move-code-quality/</guid><description>&lt;h1 id="move-code-quality-checker"&gt;Move Code Quality Checker&lt;/h1&gt;
 &lt;p&gt;You are an expert Move language code reviewer with deep knowledge of the Move Book Code Quality Checklist. Your role is to analyze Move packages and provide specific, actionable feedback based on modern Move 2024 Edition best practices.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;p&gt;Activate this skill when:&lt;/p&gt;
@@ -123,7 +123,7 @@ Feel free to copy these REPL session trials into actual test cases using &lt;cod
 &lt;h3 id="phase-1-discovery"&gt;Phase 1: Discovery&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Detect Move project structure&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Rule Identifier</title><link>https://agentskill.wiki/en/skills/rule-identifier/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/rule-identifier/</guid><description>&lt;h1 id="writing-hookify-rules"&gt;Writing Hookify Rules&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Detect Move project structure&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Rule Identifier</title><link>https://agentskill.wiki/skills/rule-identifier/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/rule-identifier/</guid><description>&lt;h1 id="writing-hookify-rules"&gt;Writing Hookify Rules&lt;/h1&gt;
 &lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;Hookify rules are markdown files with YAML frontmatter that define patterns to watch for and messages to show when those patterns match. Rules are stored in &lt;code&gt;.claude/hookify.{rule-name}.local.md&lt;/code&gt; files.&lt;/p&gt;
 &lt;h2 id="rule-file-format"&gt;Rule File Format&lt;/h2&gt;
@@ -138,7 +138,7 @@ Feel free to copy these REPL session trials into actual test cases using &lt;cod
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;8&lt;/span&gt;&lt;span&gt;Message to show Claude when this rule triggers.
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;9&lt;/span&gt;&lt;span&gt;Can include markdown formatting, warnings, suggestions, etc.
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="frontmatter-fields"&gt;Frontmatter Fields&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;name&lt;/strong&gt; (required): Unique identifier for the rule&lt;/p&gt;</description></item><item><title>Shellcheck Configuration</title><link>https://agentskill.wiki/en/skills/shellcheck-configuration/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/shellcheck-configuration/</guid><description>&lt;h1 id="shellcheck-configuration-and-static-analysis"&gt;ShellCheck Configuration and Static Analysis&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;name&lt;/strong&gt; (required): Unique identifier for the rule&lt;/p&gt;</description></item><item><title>Shellcheck Configuration</title><link>https://agentskill.wiki/skills/shellcheck-configuration/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/shellcheck-configuration/</guid><description>&lt;h1 id="shellcheck-configuration-and-static-analysis"&gt;ShellCheck Configuration and Static Analysis&lt;/h1&gt;
 &lt;p&gt;Comprehensive guidance for configuring and using ShellCheck to improve shell script quality, catch common pitfalls, and enforce best practices through static code analysis.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -153,7 +153,7 @@ Feel free to copy these REPL session trials into actual test cases using &lt;cod
 &lt;/ul&gt;
 &lt;h2 id="shellcheck-fundamentals"&gt;ShellCheck Fundamentals&lt;/h2&gt;
 &lt;h3 id="what-is-shellcheck"&gt;What is ShellCheck?&lt;/h3&gt;
-&lt;p&gt;ShellCheck is a static analysis tool that analyzes shell scripts and detects problematic patterns. It supports:&lt;/p&gt;</description></item><item><title>Test Driven Development</title><link>https://agentskill.wiki/en/skills/test-driven-development/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/test-driven-development/</guid><description>&lt;h1 id="test-driven-development-tdd"&gt;Test-Driven Development (TDD)&lt;/h1&gt;
+&lt;p&gt;ShellCheck is a static analysis tool that analyzes shell scripts and detects problematic patterns. It supports:&lt;/p&gt;</description></item><item><title>Test Driven Development</title><link>https://agentskill.wiki/skills/test-driven-development/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/test-driven-development/</guid><description>&lt;h1 id="test-driven-development-tdd"&gt;Test-Driven Development (TDD)&lt;/h1&gt;
 &lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;Write the test first. Watch it fail. Write minimal code to pass.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Core principle:&lt;/strong&gt; If you didn&amp;rsquo;t watch the test fail, you don&amp;rsquo;t know if it tests the right thing.&lt;/p&gt;
@@ -172,7 +172,7 @@ Feel free to copy these REPL session trials into actual test cases using &lt;cod
 &lt;li&gt;Generated code&lt;/li&gt;
 &lt;li&gt;Configuration files&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Thinking &amp;ldquo;skip TDD just this once&amp;rdquo;? Stop. That&amp;rsquo;s rationalization.&lt;/p&gt;</description></item><item><title>Typescript Review</title><link>https://agentskill.wiki/en/skills/typescript-review/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/typescript-review/</guid><description>&lt;h1 id="typescriptjavascript-code-review-skill"&gt;TypeScript/JavaScript Code Review Skill&lt;/h1&gt;
+&lt;p&gt;Thinking &amp;ldquo;skip TDD just this once&amp;rdquo;? Stop. That&amp;rsquo;s rationalization.&lt;/p&gt;</description></item><item><title>Typescript Review</title><link>https://agentskill.wiki/skills/typescript-review/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/typescript-review/</guid><description>&lt;h1 id="typescriptjavascript-code-review-skill"&gt;TypeScript/JavaScript Code Review Skill&lt;/h1&gt;
 &lt;p&gt;@./../_shared/typescript-commands.md&lt;/p&gt;
 &lt;h2 id="code-review-guidelines"&gt;Code Review Guidelines&lt;/h2&gt;
 &lt;p&gt;Review pull requests with a focus on:&lt;/p&gt;
@@ -182,9 +182,9 @@ Feel free to copy these REPL session trials into actual test cases using &lt;cod
 &lt;li&gt;Clear and correct JSDoc comments&lt;/li&gt;
 &lt;li&gt;Type safety and proper TypeScript usage&lt;/li&gt;
 &lt;li&gt;React best practices (when applicable)&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Typescript Write</title><link>https://agentskill.wiki/en/skills/typescript-write/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/typescript-write/</guid><description>&lt;h1 id="typescriptjavascript-development-skill"&gt;TypeScript/JavaScript Development Skill&lt;/h1&gt;
+&lt;/ul&gt;</description></item><item><title>Typescript Write</title><link>https://agentskill.wiki/skills/typescript-write/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/typescript-write/</guid><description>&lt;h1 id="typescriptjavascript-development-skill"&gt;TypeScript/JavaScript Development Skill&lt;/h1&gt;
 &lt;p&gt;@./../_shared/development-workflow.md
-@./../_shared/typescript-commands.md&lt;/p&gt;</description></item><item><title>Python Code Analyzer</title><link>https://agentskill.wiki/en/skills/python-code-analyzer/</link><pubDate>Wed, 14 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/python-code-analyzer/</guid><description>&lt;h2 id="why-this-skill"&gt;Why This Skill?&lt;/h2&gt;
+@./../_shared/typescript-commands.md&lt;/p&gt;</description></item><item><title>Python Code Analyzer</title><link>https://agentskill.wiki/skills/python-code-analyzer/</link><pubDate>Wed, 14 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/python-code-analyzer/</guid><description>&lt;h2 id="why-this-skill"&gt;Why This Skill?&lt;/h2&gt;
 &lt;p&gt;Every Python developer faces the same challenges:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Hidden Bugs&lt;/strong&gt;: Subtle issues that pass tests but break in production&lt;/li&gt;

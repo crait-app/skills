@@ -1,0 +1,429 @@
+<!doctype html><html lang=zh><head><meta charset=UTF-8><meta name=viewport content="width=device-width,initial-scale=1"><meta http-equiv=X-UA-Compatible content="ie=edge"><meta name=description content="Guides security professionals in implementing defense-in-depth security architectures, achieving compliance with industry frameworks (SOC2, ISO27001, GDPR, HIPAA), conducting threat modeling and risk assessments, managing security operations and incident response, and embedding security throughout the SDLC."><meta name=keywords content="agent,skills,AI,人工智能,automation"><meta name=author content="Agent Skills Hub"><meta property="og:title" content="Security Compliance | Agent Skills Hub"><meta property="og:description" content="Guides security professionals in implementing defense-in-depth security architectures, achieving compliance with industry frameworks (SOC2, ISO27001, GDPR, HIPAA), conducting threat modeling and risk assessments, managing security operations and incident response, and embedding security throughout the SDLC."><meta property="og:type" content="article"><meta property="og:url" content="https://agentskill.wiki/zh/skills/security-compliance/"><meta property="og:image" content="https://agentskill.wiki/images/og-image.jpg"><meta property="og:site_name" content="Agent Skills Hub"><meta name=twitter:card content="summary_large_image"><meta name=twitter:title content="Security Compliance | Agent Skills Hub"><meta name=twitter:description content="Guides security professionals in implementing defense-in-depth security architectures, achieving compliance with industry frameworks (SOC2, ISO27001, GDPR, HIPAA), conducting threat modeling and risk assessments, managing security operations and incident response, and embedding security throughout the SDLC."><meta name=twitter:image content="https://agentskill.wiki/images/og-image.jpg"><link rel=canonical href=https://agentskill.wiki/zh/skills/security-compliance/><link rel=alternate hreflang=en href=https://agentskill.wiki/skills/security-compliance/><link rel=alternate hreflang=zh href=https://agentskill.wiki/zh/skills/security-compliance/><link rel=icon type=image/x-icon href=/favicon.ico><link rel=apple-touch-icon sizes=180x180 href=/apple-touch-icon.png><title>Agent Skills Hub</title><link rel=stylesheet href=/css/main.min.8558c1c14b5e84f2c3612f7e8c6b0fe1486d1f42247b6dc7cdbda8f54a5c8a50.css integrity="sha256-hVjBwUtehPLDYS9+jGsP4UhtH0Ike23Hzb2o9UpcilA="><script>(function(){const e=localStorage.getItem("theme")||"dark";document.documentElement.setAttribute("data-theme",e)})()</script><script defer src=https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js></script><script async src="https://www.googletagmanager.com/gtag/js?id=G-ML4SBEB15K"></script><script>var doNotTrack=!1,dnt=navigator.doNotTrack||window.doNotTrack||navigator.msDoNotTrack,doNotTrack=dnt=="1"||dnt=="yes";if(!doNotTrack){window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag("js",new Date),gtag("config","G-ML4SBEB15K")}</script></head><body class="antialiased min-h-screen flex flex-col" x-data="{ theme: localStorage.getItem('theme') || 'dark' }" x-init="document.documentElement.setAttribute('data-theme', theme)"><header class="sticky top-0 z-50 backdrop-blur-md border-b-2 transition-colors duration-300" style="background-color:color-mix(in srgb,var(--bg-primary) 95%,transparent);border-color:var(--gray-800)" x-data="{ mobileMenuOpen: false }"><nav class=container-custom><div class="flex items-center justify-between h-20"><div class=flex-shrink-0><a href=/zh/ class="flex items-center space-x-3 group"><div class="w-10 h-10 border-2 border-[var(--neon-cyan)] flex items-center justify-center group-hover:border-[var(--neon-pink)] transition-colors"><span class="text-[var(--neon-cyan)] font-bold text-lg group-hover:text-[var(--neon-pink)] transition-colors">A</span></div><span class="text-2xl font-bold gradient-text">Agent Skills</span></a></div><div class="hidden lg:flex lg:items-center lg:space-x-2"><a href=/zh/ class=nav-link>首页
+</a><a href=/zh/topics/ class=nav-link>精选主题
+</a><a href=/zh/skills/ class=nav-link>所有 Skills
+</a><a href=/zh/#pricing class=nav-link>价格
+</a><a href=/zh/#contact class=nav-link>联系我们</a></div><div class="flex items-center space-x-6" style=position:relative><button @click=toggleTheme() class="theme-toggle hidden md:flex" aria-label="Toggle theme" x-data=themeToggle()>
+<svg x-show="theme === 'dark'" class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364-.707-.707M6.343 6.343l-.707-.707m12.728.0-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z"/></svg>
+<svg x-show="theme === 'light'" class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" style="display:none"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003.0 0012 21a9.003 9.003.0 008.354-5.646z"/></svg></button><div class="relative ml-auto" x-data="{ langOpen: false, dropdownStyle: { top: '0px', right: '0px' } }" @click.away="langOpen = false"><button @click="langOpen = !langOpen; $nextTick(() => {
+            const rect = $el.getBoundingClientRect();
+            dropdownStyle = {
+              top: `${rect.top + rect.height + 8}px`,
+              right: `${window.innerWidth - rect.right}px`
+            };
+          })" class="flex items-center space-x-2 text-sm hover:text-[var(--neon-cyan)] transition-colors font-mono uppercase tracking-wider" style=color:var(--text-tertiary) type=button>
+<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5h12M9 3v2m1.048 9.5A18.022 18.022.0 016.412 9m6.088 9h7M11 21l5-10 5 10M12.751 5C11.783 10.77 8.07 15.61 3 18.129"/></svg>
+<span>简体中文</span></button><div x-show=langOpen x-transition:enter="transition ease-out duration-200" x-transition:enter-start="transform opacity-0 scale-95" x-transition:enter-end="transform opacity-100 scale-100" x-transition:leave="transition ease-in duration-150" x-transition:leave-start="transform opacity-100 scale-100" x-transition:leave-end="transform opacity-0 scale-95" class="fixed z-[9999] w-40 border-2 clip-corner overflow-hidden transition-colors" style=background-color:var(--bg-secondary);border-color:var(--gray-700) :style=dropdownStyle x-cloak><a href=/skills/security-compliance/ class="block px-4 py-3 text-sm text-right hover:text-[var(--neon-cyan)] transition-colors font-mono uppercase tracking-wider" style=color:var(--text-secondary) onmouseenter='this.style.backgroundColor="var(--bg-tertiary)"' onmouseleave='this.style.backgroundColor="transparent"'>English</a></div></div><button @click="mobileMenuOpen = !mobileMenuOpen" class="lg:hidden inline-flex items-center justify-center w-10 h-10 border-2 hover:border-[var(--neon-cyan)] hover:text-[var(--neon-cyan)] transition-colors" style=border-color:var(--gray-700);color:var(--text-tertiary)>
+<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path x-show="!mobileMenuOpen" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/><path x-show="mobileMenuOpen" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18 18 6M6 6l12 12" style="display:none"/></svg></button></div></div><div x-show=mobileMenuOpen x-transition:enter="transition ease-out duration-200" x-transition:enter-start="opacity-0 -translate-y-4" x-transition:enter-end="opacity-100 translate-y-0" x-transition:leave="transition ease-in duration-150" x-transition:leave-start="opacity-100 translate-y-0" x-transition:leave-end="opacity-0 -translate-y-4" class="lg:hidden border-t-2 py-6 backdrop-blur-sm transition-colors" style="display:none;border-color:var(--gray-800);background-color:color-mix(in srgb,var(--bg-secondary) 50%,transparent)"><div class="flex flex-col space-y-1"><a href=/zh/ class="nav-link text-base py-3">首页
+</a><a href=/zh/topics/ class="nav-link text-base py-3">精选主题
+</a><a href=/zh/skills/ class="nav-link text-base py-3">所有 Skills
+</a><a href=/zh/#pricing class="nav-link text-base py-3">价格
+</a><a href=/zh/#contact class="nav-link text-base py-3">联系我们</a></div></div></nav></header><main class=flex-1><div class="section transition-colors" style=background-color:var(--bg-primary)><div class=container-custom><div class="max-w-7xl mx-auto"><nav class="mb-6 text-sm font-mono"><ol class="flex items-center space-x-2" style=color:var(--text-tertiary)><li><a href=/zh/ class="hover:text-[var(--neon-cyan)] transition-colors">首页</a></li><li><span>/</span></li><li><a href=/zh/skills class="hover:text-[var(--neon-cyan)] transition-colors">所有 Skills</a></li><li><span>/</span></li><li class=font-medium style=color:var(--text-primary)>Security Compliance</li></ol></nav><div class=mb-8><h1 class="text-4xl md:text-6xl font-bold mb-4">Security Compliance</h1><div class=mb-8><p class="text-3xl md:text-4xl font-bold gradient-text mb-4">Architect secure systems and achieve compliance across industry frameworks</p><p class=text-lg style=color:var(--text-tertiary)>✨ The solution you've been looking for</p></div><div class="flex flex-wrap gap-4 mb-8"><div class="group relative"><span class="px-4 py-2 text-sm font-bold font-mono uppercase border-2 transition-all duration-300 hover:shadow-lg hover:scale-105" style=background-color:var(--neon-green);color:var(--bg-primary);border-color:var(--neon-green)><svg class="w-5 h-5 inline-block mr-2" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414.0l4-4z" clip-rule="evenodd"/></svg>
+Verified</span><div class="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 px-3 py-1 text-xs font-mono bg-gray-900 text-white rounded opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap">Tested and verified by our team</div></div></div><div class="flex flex-wrap items-center gap-8 mb-8"><div class="flex items-center space-x-2" style=color:var(--text-secondary)><svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M9.049 2.927c.3-.921 1.603-.921 1.902.0l1.07 3.292a1 1 0 00.95.69h3.462c.969.0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175.0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/></svg>
+<span><strong>16036</strong></span></div></div><p class="text-xl mb-6" style=color:var(--text-secondary)>Guides security professionals in implementing defense-in-depth security architectures, achieving compliance with industry frameworks (SOC2, ISO27001, GDPR, HIPAA), conducting threat modeling and risk assessments, managing security operations and incident response, and embedding security throughout the SDLC.</p><div class="flex flex-wrap gap-2 mb-6"><span class=badge-primary>security</span>
+<span class=badge-primary>compliance</span>
+<span class=badge-primary>risk-assessment</span>
+<span class=badge-primary>threat-modeling</span>
+<span class=badge-primary>soc2</span>
+<span class=badge-primary>iso27001</span>
+<span class=badge-primary>gdpr</span>
+<span class=badge-primary>hipaa</span></div><div class="flex flex-wrap gap-4"><a href=https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/development/security-compliance target=_blank rel="noopener noreferrer" class=btn-primary><svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483.0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951.0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65.0.0.84-.27 2.75 1.026A9.564 9.564.0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688.0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855.0 1.338-.012 2.419-.012 2.747.0.268.18.58.688.482A10.019 10.019.0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd"/></svg>
+</a><button onclick='navigator.clipboard.writeText("claude-code skill install security-compliance")' class=btn-secondary>
+<svg class="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"/></svg>
+Copy Install Command</button></div></div><div class=mb-16><div class="text-center mb-8"><h2 class="text-4xl font-bold mb-4 gradient-text"><svg class="w-10 h-10 inline-block mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 10l4.553-2.276A1 1 0 0121 8.618v6.764a1 1 0 01-1.447.894L15 14M5 18h8a2 2 0 002-2V8a2 2 0 00-2-2H5A2 2 0 003 8v8a2 2 0 002 2z"/></svg>
+See It In Action</h2><p class=text-xl style=color:var(--text-secondary)>Interactive preview & real-world examples</p></div><div class="grid grid-cols-1 lg:grid-cols-2 gap-8"><div class=space-y-4><div class="card p-0 overflow-hidden"><div class="absolute top-4 right-4 z-10"><span class="px-3 py-1 text-xs font-bold font-mono uppercase border-2" style=background-color:var(--neon-pink);color:var(--bg-primary);border-color:var(--neon-pink)>Live Demo</span></div><img src="https://trae-api-cn.mchost.guru/api/ide/v1/text_to_image?prompt=AI%20agent%20skill%20demonstration%20with%20neon%20cyan%20and%20purple%20glow%2C%20modern%20tech%20interface%2C%20animated%20digital%20workflow%2C%20dark%20background&image_size=landscape_16_9" alt="Skill Demo Animation" class="w-full h-auto"></div></div><div class="card p-6 font-mono text-sm"><div class="flex items-center mb-6"><div class="w-12 h-12 rounded-full flex items-center justify-center mr-3" style=background-color:var(--neon-cyan);color:var(--bg-primary)><svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20"><path d="M2 5a2 2 0 012-2h7a2 2 0 012 2v4a2 2 0 01-2 2H9l-3 3v-3H4A2 2 0 012 9V5z"/><path d="M15 7v2a4 4 0 01-4 4H9.828l-1.766 1.767c.28.149.599.233.938.233h2l3 3v-3h2a2 2 0 002-2V9a2 2 0 00-2-2h-1z"/></svg></div><div><h3 class="font-semibold text-lg" style=color:var(--neon-cyan)>AI Conversation Simulator</h3><p class=text-xs style=color:var(--text-tertiary)>See how users interact with this skill</p></div></div><div class=space-y-6><div class=space-y-3><div class="flex items-start space-x-3"><div class="w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0" style=background-color:var(--neon-purple);color:var(--bg-primary)><svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M10 9a3 3 0 100-6 3 3 0 000 6zm-7 9a7 7 0 1114 0H3z" clip-rule="evenodd"/></svg></div><div class=flex-1><div class="p-4 rounded-lg border-2 transition-all hover:shadow-lg" style=background-color:var(--bg-secondary);border-color:var(--neon-purple)><p class="text-xs uppercase font-bold mb-2" style=color:var(--neon-purple)>User Prompt</p><p style=color:var(--text-primary)>We need to achieve SOC2 Type II compliance for our SaaS platform. Can you help me create a 6-month roadmap with all necessary controls and evidence collection requirements?</p></div></div></div><div class="flex items-start space-x-3 pl-11"><div class="w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0" style=background-color:var(--neon-yellow);color:var(--bg-primary)><svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clip-rule="evenodd"/></svg></div><div class=flex-1><div class="p-4 rounded-lg border-2 transition-all hover:shadow-lg" style=background-color:var(--bg-tertiary);border-color:var(--neon-yellow)><p class="text-xs uppercase font-bold mb-2" style=color:var(--neon-yellow)>Skill Processing</p><p style=color:var(--text-secondary)>Analyzing request...</p></div></div></div><div class="flex items-start space-x-3"><div class="w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0" style=background-color:var(--neon-cyan);color:var(--bg-primary)><svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20"><path d="M2 5a2 2 0 012-2h7a2 2 0 012 2v4a2 2 0 01-2 2H9l-3 3v-3H4A2 2 0 012 9V5z"/><path d="M15 7v2a4 4 0 01-4 4H9.828l-1.766 1.767c.28.149.599.233.938.233h2l3 3v-3h2a2 2 0 002-2V9a2 2 0 00-2-2h-1z"/></svg></div><div class=flex-1><div class="p-4 rounded-lg border-2 transition-all hover:shadow-lg" style=background-color:var(--bg-secondary);border-color:var(--neon-cyan)><p class="text-xs uppercase font-bold mb-2" style=color:var(--neon-cyan)>Agent Response</p><p style=color:var(--text-primary)>Comprehensive SOC2 implementation plan with timelines, control mappings, evidence collection procedures, and audit preparation checklist</p></div></div></div></div></div></div></div></div><div class=mb-16><div class="text-center mb-8"><h2 class="text-4xl font-bold mb-4 gradient-text"><svg class="w-10 h-10 inline-block mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"/></svg>
+Quick Start (3 Steps)</h2><p class=text-xl style=color:var(--text-secondary)>Get up and running in minutes</p></div><div class="grid grid-cols-1 md:grid-cols-3 gap-8"><div class="card p-8 group hover:shadow-2xl transition-all duration-300"><div class="flex items-center mb-6"><div class="w-12 h-12 rounded-full flex items-center justify-center text-2xl font-bold mr-4 transition-transform group-hover:scale-110" style=background-color:var(--neon-cyan);color:var(--bg-primary)>1</div><h3 class="text-2xl font-semibold">Install</h3></div><p class="mb-6 text-base" style=color:var(--text-tertiary)>claude-code skill install security-compliance</p><div class=relative><div class="absolute top-2 right-2"><button onclick='navigator.clipboard.writeText("claude-code skill install security-compliance")' class="p-2 rounded transition-colors hover:bg-[var(--bg-tertiary)]" style=color:var(--neon-cyan)>
+<svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"/></svg></button></div><div class="border-2 p-4 font-mono text-sm overflow-x-auto transition-colors" style=background-color:var(--bg-secondary);border-color:var(--gray-700);color:var(--text-primary)><pre><code>claude-code skill install security-compliance</code></pre></div></div></div><div class="card p-8 group hover:shadow-2xl transition-all duration-300"><div class="flex items-center mb-6"><div class="w-12 h-12 rounded-full flex items-center justify-center text-2xl font-bold mr-4 transition-transform group-hover:scale-110" style=background-color:var(--neon-pink);color:var(--bg-primary)>2</div><h3 class="text-2xl font-semibold">Config</h3></div><div class=text-base style=color:var(--text-tertiary)></div></div><div class="card p-8 group hover:shadow-2xl transition-all duration-300"><div class="flex items-center mb-6"><div class="w-12 h-12 rounded-full flex items-center justify-center text-2xl font-bold mr-4 transition-transform group-hover:scale-110" style=background-color:var(--neon-green);color:var(--bg-primary)>3</div><h3 class="text-2xl font-semibold">First Trigger</h3></div><p class="mb-6 text-base" style=color:var(--text-tertiary)></p><div class=relative><div class="absolute top-2 right-2"><button onclick='navigator.clipboard.writeText("@security-compliance help")' class="p-2 rounded transition-colors hover:bg-[var(--bg-tertiary)]" style=color:var(--neon-green)>
+<svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"/></svg></button></div><div class="border-2 p-4 font-mono text-sm overflow-x-auto transition-colors" style=background-color:var(--bg-secondary);border-color:var(--gray-700);color:var(--text-primary)><pre><code>@security-compliance help</code></pre></div></div></div></div></div><div class="grid grid-cols-1 lg:grid-cols-3 gap-8"><div class="lg:col-span-2 space-y-12"><div><h2 class="text-3xl font-bold mb-6">Commands</h2><div class=overflow-x-auto><table class="w-full border-2 transition-colors" style=border-color:var(--gray-700)><thead style=background-color:var(--bg-tertiary)><tr><th class="px-4 py-3 text-left font-mono text-sm font-bold" style="border-bottom:2px solid var(--gray-700)">Command</th><th class="px-4 py-3 text-left font-mono text-sm font-bold" style="border-bottom:2px solid var(--gray-700)">Description</th><th class="px-4 py-3 text-left font-mono text-sm font-bold" style="border-bottom:2px solid var(--gray-700)">Required Args</th></tr></thead><tbody class="font-mono text-sm"><tr class="transition-colors hover:bg-[var(--bg-tertiary)]"><td class="px-4 py-3" style="border-bottom:1px solid var(--gray-800);color:var(--neon-cyan)">@security-compliance soc2-compliance-implementation</td><td class="px-4 py-3" style="border-bottom:1px solid var(--gray-800);color:var(--text-secondary)">Guide through complete SOC2 Type II audit preparation and implementation</td><td class="px-4 py-3" style="border-bottom:1px solid var(--gray-800);color:var(--text-tertiary)">None</td></tr><tr class="transition-colors hover:bg-[var(--bg-tertiary)]"><td class="px-4 py-3" style="border-bottom:1px solid var(--gray-800);color:var(--neon-cyan)">@security-compliance zero-trust-architecture-design</td><td class="px-4 py-3" style="border-bottom:1px solid var(--gray-800);color:var(--text-secondary)">Design defense-in-depth security architecture with zero trust principles</td><td class="px-4 py-3" style="border-bottom:1px solid var(--gray-800);color:var(--text-tertiary)">None</td></tr><tr class="transition-colors hover:bg-[var(--bg-tertiary)]"><td class="px-4 py-3" style="border-bottom:1px solid var(--gray-800);color:var(--neon-cyan)">@security-compliance security-incident-response</td><td class="px-4 py-3" style="border-bottom:1px solid var(--gray-800);color:var(--text-secondary)">Develop comprehensive incident response capabilities and playbooks</td><td class="px-4 py-3" style="border-bottom:1px solid var(--gray-800);color:var(--text-tertiary)">None</td></tr></tbody></table></div></div><div><h2 class="text-3xl font-bold mb-6">Typical Use Cases</h2><div class=space-y-4><div class="card p-6"><h3 class="text-xl font-semibold mb-3">SOC2 Compliance Implementation</h3><p class=mb-4 style=color:var(--text-secondary)>Guide through complete SOC2 Type II audit preparation and implementation</p></div><div class="card p-6"><h3 class="text-xl font-semibold mb-3">Zero Trust Architecture Design</h3><p class=mb-4 style=color:var(--text-secondary)>Design defense-in-depth security architecture with zero trust principles</p></div><div class="card p-6"><h3 class="text-xl font-semibold mb-3">Security Incident Response</h3><p class=mb-4 style=color:var(--text-secondary)>Develop comprehensive incident response capabilities and playbooks</p></div></div></div><div><h2 class="text-3xl font-bold mb-6">Overview</h2><div class="prose max-w-none" style=color:var(--text-secondary)><h1 id=security--compliance-expert>Security & Compliance Expert</h1><h2 id=core-principles>Core Principles</h2><h3 id=1-defense-in-depth>1. Defense in Depth</h3><p>Apply multiple layers of security controls so that if one fails, others provide protection. Never rely on a single security mechanism.</p><h3 id=2-zero-trust-architecture>2. Zero Trust Architecture</h3><p>Never trust, always verify. Assume breach and verify every access request regardless of location or network.</p><h3 id=3-least-privilege>3. Least Privilege</h3><p>Grant the minimum access necessary for users and systems to perform their functions. Regularly review and revoke unused permissions.</p><h3 id=4-security-by-design>4. Security by Design</h3><p>Integrate security requirements from the earliest stages of system design, not as an afterthought.</p><h3 id=5-continuous-monitoring>5. Continuous Monitoring</h3><p>Implement ongoing monitoring and alerting to detect anomalies and security events in real-time.</p><h3 id=6-risk-based-approach>6. Risk-Based Approach</h3><p>Prioritize security efforts based on risk assessment, focusing resources on the most critical assets and likely threats.</p><h3 id=7-compliance-as-foundation>7. Compliance as Foundation</h3><p>Use compliance frameworks as a baseline, but go beyond minimum requirements to achieve actual security.</p><h3 id=8-incident-readiness>8. Incident Readiness</h3><p>Prepare for security incidents through planning, testing, and regular tabletop exercises. Assume compromise will occur.</p><hr><h2 id=security--compliance-lifecycle>Security & Compliance Lifecycle</h2><h3 id=phase-1-assess--plan>Phase 1: Assess & Plan</h3><p><strong>Objective</strong>: Understand current security posture and compliance requirements</p><p><strong>Activities</strong>:</p><ul><li>Conduct security assessments and gap analysis</li><li>Identify compliance requirements (SOC2, ISO27001, GDPR, HIPAA, PCI-DSS)</li><li>Perform risk assessments and threat modeling</li><li>Define security policies and standards</li><li>Establish security governance structure</li><li>Create security roadmap with prioritized initiatives</li></ul><p><strong>Deliverables</strong>:</p><ul><li>Risk register with prioritized risks</li><li>Compliance gap analysis report</li><li>Security architecture documentation</li><li>Security policies and procedures</li><li>Security roadmap and budget</li></ul><h3 id=phase-2-design--architect>Phase 2: Design & Architect</h3><p><strong>Objective</strong>: Design secure systems and architectures</p><p><strong>Activities</strong>:</p><ul><li>Design defense-in-depth architectures</li><li>Implement Zero Trust network architecture</li><li>Design identity and access management (IAM) systems</li><li>Architect data protection and encryption solutions</li><li>Design secure CI/CD pipelines</li><li>Create threat models for applications and systems</li><li>Define security controls and compensating controls</li></ul><p><strong>Deliverables</strong>:</p><ul><li>Security architecture diagrams</li><li>Threat models (STRIDE, PASTA, or attack trees)</li><li>Data flow diagrams with security boundaries</li><li>Encryption and key management design</li><li>IAM design with RBAC/ABAC models</li><li>Security control matrix</li></ul><h3 id=phase-3-implement--harden>Phase 3: Implement & Harden</h3><p><strong>Objective</strong>: Deploy security controls and harden systems</p><p><strong>Activities</strong>:</p><ul><li>Implement security controls (preventive, detective, corrective)</li><li>Configure security tools (SIEM, EDR, CASB, WAF, IDS/IPS)</li><li>Harden operating systems and applications</li><li>Implement encryption at rest and in transit</li><li>Deploy multi-factor authentication (MFA)</li><li>Configure logging and monitoring</li><li>Implement data loss prevention (DLP)</li><li>Set up vulnerability management program</li></ul><p><strong>Deliverables</strong>:</p><ul><li>Hardening baselines and configuration standards</li><li>Deployed security tools and controls</li><li>Encryption implementation</li><li>MFA deployment</li><li>Security monitoring dashboards</li><li>Vulnerability management procedures</li></ul><h3 id=phase-4-monitor--detect>Phase 4: Monitor & Detect</h3><p><strong>Objective</strong>: Continuously monitor for threats and anomalies</p><p><strong>Activities</strong>:</p><ul><li>Monitor security logs and events (SIEM)</li><li>Analyze security alerts and anomalies</li><li>Conduct threat hunting</li><li>Perform vulnerability scanning and penetration testing</li><li>Monitor compliance controls</li><li>Track security metrics and KPIs</li><li>Review access logs and privileged account activity</li><li>Analyze threat intelligence feeds</li></ul><p><strong>Deliverables</strong>:</p><ul><li>Security operations center (SOC) runbooks</li><li>Alert triage and escalation procedures</li><li>Threat hunting playbooks</li><li>Vulnerability scan reports</li><li>Penetration test reports</li><li>Security metrics dashboard</li><li>Compliance monitoring reports</li></ul><h3 id=phase-5-respond--recover>Phase 5: Respond & Recover</h3><p><strong>Objective</strong>: Respond to security incidents and recover operations</p><p><strong>Activities</strong>:</p><ul><li>Execute incident response plan</li><li>Contain and eradicate threats</li><li>Perform forensic analysis</li><li>Recover affected systems</li><li>Conduct post-incident reviews</li><li>Update security controls based on lessons learned</li><li>Report incidents to stakeholders and regulators</li><li>Improve detection rules and response procedures</li></ul><p><strong>Deliverables</strong>:</p><ul><li>Incident response reports</li><li>Forensic analysis findings</li><li>Root cause analysis</li><li>Remediation plans</li><li>Updated incident response playbooks</li><li>Regulatory breach notifications (if required)</li><li>Post-incident review and recommendations</li></ul><h3 id=phase-6-audit--improve>Phase 6: Audit & Improve</h3><p><strong>Objective</strong>: Validate compliance and continuously improve security</p><p><strong>Activities</strong>:</p><ul><li>Conduct internal audits</li><li>Prepare for external audits (SOC2, ISO27001)</li><li>Perform compliance assessments</li><li>Review and update security policies</li><li>Conduct security training and awareness programs</li><li>Perform tabletop exercises and disaster recovery drills</li><li>Update risk assessments</li><li>Implement security improvements</li></ul><p><strong>Deliverables</strong>:</p><ul><li>Audit reports (internal and external)</li><li>SOC2 Type II report</li><li>ISO27001 certification</li><li>Compliance attestations</li><li>Updated policies and procedures</li><li>Training completion metrics</li><li>Tabletop exercise results</li><li>Continuous improvement plan</li></ul><hr><h2 id=decision-frameworks>Decision Frameworks</h2><h3 id=1-risk-assessment-framework>1. Risk Assessment Framework</h3><p><strong>When to use</strong>: Evaluating security risks and prioritizing mitigation efforts</p><p><strong>Process</strong>:</p><pre tabindex=0><code>1. Identify Assets
+   - What systems, data, and services need protection?
+   - What is the business value of each asset?
+   - Who are the asset owners?
+
+2. Identify Threats
+   - What threat actors might target these assets? (nation-state, cybercriminals, insiders)
+   - What are their motivations? (financial gain, espionage, disruption)
+   - What are current threat trends?
+
+3. Identify Vulnerabilities
+   - What weaknesses exist in systems or processes?
+   - What security controls are missing or ineffective?
+   - What are known CVEs affecting your systems?
+
+4. Calculate Risk
+   Risk = Likelihood × Impact
+
+   Likelihood scale (1-5):
+   1 = Rare (&lt; 5% chance in 1 year)
+   2 = Unlikely (5-25%)
+   3 = Possible (25-50%)
+   4 = Likely (50-75%)
+   5 = Almost Certain (&gt; 75%)
+
+   Impact scale (1-5):
+   1 = Minimal (&lt; $10K loss, no data breach)
+   2 = Minor ($10K-$100K, limited data exposure)
+   3 = Moderate ($100K-$1M, significant data breach)
+   4 = Major ($1M-$10M, extensive data breach, regulatory fines)
+   5 = Catastrophic (&gt; $10M, business-threatening)
+
+   Risk Score = Likelihood × Impact (max 25)
+
+5. Prioritize Risks
+   - Critical: Risk score 15-25 (immediate action)
+   - High: Risk score 10-14 (action within 30 days)
+   - Medium: Risk score 5-9 (action within 90 days)
+   - Low: Risk score 1-4 (monitor and accept)
+
+6. Determine Risk Response
+   - Mitigate: Implement controls to reduce risk
+   - Accept: Document acceptance if risk is within tolerance
+   - Transfer: Use insurance or third-party services
+   - Avoid: Eliminate the activity that creates risk
+</code></pre><p><strong>Output</strong>: Risk register with prioritized risks and mitigation plans</p><h3 id=2-security-control-selection>2. Security Control Selection</h3><p><strong>When to use</strong>: Choosing appropriate security controls for identified risks</p><p><strong>Framework</strong>: Use NIST CSF categories or CIS Controls</p><pre tabindex=0><code>NIST CSF Functions:
+1. Identify (ID)
+   - Asset Management
+   - Risk Assessment
+   - Governance
+
+2. Protect (PR)
+   - Access Control
+   - Data Security
+   - Protective Technology
+
+3. Detect (DE)
+   - Anomalies and Events
+   - Security Monitoring
+   - Detection Processes
+
+4. Respond (RS)
+   - Response Planning
+   - Communications
+   - Analysis and Mitigation
+
+5. Recover (RC)
+   - Recovery Planning
+   - Improvements
+   - Communications
+
+Control Types:
+- Preventive: Stop incidents before they occur (MFA, firewalls, encryption)
+- Detective: Identify incidents when they occur (SIEM, IDS, log monitoring)
+- Corrective: Fix issues after detection (patching, incident response)
+- Deterrent: Discourage attackers (security policies, warnings)
+- Compensating: Alternative controls when primary controls aren&#39;t feasible
+
+Selection Criteria:
+1. Does it address the identified risk?
+2. Is it cost-effective? (Control cost &lt; Risk value)
+3. Is it technically feasible?
+4. Does it meet compliance requirements?
+5. Can we maintain and monitor it?
+</code></pre><h3 id=3-compliance-framework-selection>3. Compliance Framework Selection</h3><p><strong>When to use</strong>: Determining which compliance frameworks to implement</p><p><strong>Decision Tree</strong>:</p><pre tabindex=0><code>What type of organization are you?
+
+├─ SaaS/Cloud Service Provider
+│  ├─ Selling to enterprises? → SOC2 Type II (required)
+│  ├─ International customers? → ISO27001 (strongly recommended)
+│  ├─ Handling health data? → HIPAA + HITRUST
+│  └─ Handling payment cards? → PCI-DSS
+
+├─ Healthcare Provider/Payer
+│  ├─ U.S.-based → HIPAA (required)
+│  ├─ International → HIPAA + GDPR
+│  └─ Plus: HITRUST for comprehensive framework
+
+├─ Financial Services
+│  ├─ U.S. banks → GLBA, SOX (if public)
+│  ├─ Payment processing → PCI-DSS (required)
+│  ├─ International → ISO27001, local regulations
+│  └─ Plus: NIST CSF for framework
+
+├─ E-commerce/Retail
+│  ├─ Accept credit cards → PCI-DSS (required)
+│  ├─ EU customers → GDPR (required)
+│  ├─ California customers → CCPA
+│  └─ B2B sales → SOC2 Type II
+
+└─ General Enterprise
+   ├─ Selling to enterprises → SOC2 Type II
+   ├─ Want broad recognition → ISO27001
+   ├─ Government contracts → FedRAMP, NIST 800-53
+   └─ Industry-specific → Check sector regulations
+
+Multi-Framework Strategy:
+- Start with: SOC2 or ISO27001 (choose one as foundation)
+- Add: Data privacy regulations (GDPR, CCPA) as needed
+- Layer on: Industry-specific requirements
+</code></pre><h3 id=4-incident-severity-classification>4. Incident Severity Classification</h3><p><strong>When to use</strong>: Triaging and responding to security incidents</p><p><strong>Severity Levels</strong>:</p><pre tabindex=0><code>P0 - Critical (Immediate Response)
+- Active breach with data exfiltration occurring
+- Ransomware encryption in progress
+- Complete system outage of critical services
+- Unauthorized access to production databases
+- Response: Engage CIRT immediately, executive notification, 24/7 effort
+
+P1 - High (Response within 1 hour)
+- Confirmed malware on critical systems
+- Attempted unauthorized access to sensitive data
+- DDoS attack affecting availability
+- Significant vulnerability with active exploits
+- Response: Engage CIRT, manager notification, work until contained
+
+P2 - Medium (Response within 4 hours)
+- Malware on non-critical systems
+- Suspicious account activity
+- Policy violations with security impact
+- Vulnerability requiring patching
+- Response: Security team investigation, business hours
+
+P3 - Low (Response within 24 hours)
+- Failed login attempts (below threshold)
+- Minor policy violations
+- Informational security events
+- Response: Standard queue, document findings
+
+Classification Factors:
+1. Data confidentiality impact (PHI, PII, financial, IP)
+2. System availability impact (revenue, operations)
+3. Data integrity impact (corruption, unauthorized changes)
+4. Number of affected systems/users
+5. Regulatory reporting requirements
+</code></pre><h3 id=5-vulnerability-prioritization>5. Vulnerability Prioritization</h3><p><strong>When to use</strong>: Prioritizing vulnerability remediation</p><p><strong>Framework</strong>: Enhanced CVSS with business context</p><pre tabindex=0><code>Base CVSS Score × Business Context Multiplier = Priority Score
+
+CVSS Severity Ranges:
+- Critical: 9.0-10.0
+- High: 7.0-8.9
+- Medium: 4.0-6.9
+- Low: 0.1-3.9
+
+Business Context Multipliers:
+- Internet-facing production system: 2.0×
+- Internal production system: 1.5×
+- Systems with sensitive data: 1.5×
+- Development/test environment: 0.5×
+- Active exploit in the wild: 2.0×
+- Compensating controls in place: 0.7×
+
+Priority Levels:
+- P0 (Critical): Score ≥ 14 → Patch within 24-48 hours
+- P1 (High): Score 10-13.9 → Patch within 7 days
+- P2 (Medium): Score 6-9.9 → Patch within 30 days
+- P3 (Low): Score &lt; 6 → Patch within 90 days or accept risk
+
+Additional Considerations:
+- Can the system be isolated/segmented?
+- Are there effective detective controls?
+- What is the patching complexity/risk?
+- Is there a vendor patch available?
+</code></pre><h3 id=6-third-party-risk-assessment>6. Third-Party Risk Assessment</h3><p><strong>When to use</strong>: Evaluating security risks of vendors and partners</p><p><strong>Assessment Framework</strong>:</p><pre tabindex=0><code>1. Categorize Vendor Risk Level
+
+Low Risk (Minimal assessment):
+- No access to systems or data
+- Limited integration
+- Non-critical service
+→ Simple questionnaire
+
+Medium Risk (Standard assessment):
+- Limited system access
+- Non-sensitive data access
+- Important but not critical service
+→ Security questionnaire + evidence review
+
+High Risk (Comprehensive assessment):
+- Production system access
+- Sensitive data processing
+- Critical service dependency
+→ Full assessment + audit reports + pen test
+
+Critical Risk (Extensive assessment):
+- Full production access
+- PHI/PII processing
+- Business-critical dependency
+→ On-site audit + continuous monitoring + SLA
+
+2. Assessment Components
+
+For Medium/High/Critical vendors:
+□ Security questionnaire (SIG, CAIQ, or custom)
+□ Compliance certifications (SOC2, ISO27001)
+□ Insurance certificates (cyber liability)
+□ Security policies and procedures
+□ Incident response plan
+□ Disaster recovery/business continuity plan
+□ Data processing agreement (DPA)
+□ Penetration test results (for high/critical)
+□ Right to audit clause in contract
+
+3. Ongoing Monitoring
+
+- Annual reassessment
+- Monitor for breaches/incidents
+- Review security updates and patches
+- Track compliance certification renewals
+- Conduct periodic audits (for critical vendors)
+
+4. Vendor Risk Score
+
+Calculate score (0-100):
+- Security maturity: 40 points
+- Compliance certifications: 20 points
+- Incident history: 15 points
+- Financial stability: 15 points
+- References and reputation: 10 points
+
+Action based on score:
+- 80-100: Approved
+- 60-79: Approved with conditions
+- 40-59: Requires remediation plan
+- &lt; 40: Do not engage
+</code></pre><hr><h2 id=key-security-frameworks--standards>Key Security Frameworks & Standards</h2><h3 id=nist-cybersecurity-framework-csf>NIST Cybersecurity Framework (CSF)</h3><ul><li><strong>Purpose</strong>: Risk-based framework for improving cybersecurity</li><li><strong>Structure</strong>: 5 Functions, 23 Categories, 108 Subcategories</li><li><strong>Best for</strong>: General organizations, government contractors</li><li><strong>Maturity model</strong>: Tier 1 (Partial) to Tier 4 (Adaptive)</li></ul><h3 id=cis-critical-security-controls>CIS Critical Security Controls</h3><ul><li><strong>Purpose</strong>: Prioritized set of actions for cyber defense</li><li><strong>Structure</strong>: 18 Controls with Implementation Groups (IG1, IG2, IG3)</li><li><strong>Best for</strong>: Practical implementation guidance</li><li><strong>Focus</strong>: Defense against common attack patterns</li></ul><h3 id=isoiec-27001>ISO/IEC 27001</h3><ul><li><strong>Purpose</strong>: International standard for information security management</li><li><strong>Structure</strong>: 14 domains, 114 controls (Annex A)</li><li><strong>Best for</strong>: International recognition, formal certification</li><li><strong>Requirements</strong>: ISMS (Information Security Management System)</li></ul><h3 id=soc-2-type-ii>SOC 2 Type II</h3><ul><li><strong>Purpose</strong>: Service organization controls for security and availability</li><li><strong>Structure</strong>: Trust Service Criteria (Security, Availability, Confidentiality, Processing Integrity, Privacy)</li><li><strong>Best for</strong>: SaaS companies, cloud service providers</li><li><strong>Audit</strong>: 3-12 month observation period</li></ul><h3 id=nist-800-53>NIST 800-53</h3><ul><li><strong>Purpose</strong>: Security controls for federal systems</li><li><strong>Structure</strong>: 20 families, 1000+ controls</li><li><strong>Best for</strong>: Government contractors, FedRAMP</li><li><strong>Baselines</strong>: Low, Moderate, High impact systems</li></ul><h3 id=gdpr-general-data-protection-regulation>GDPR (General Data Protection Regulation)</h3><ul><li><strong>Purpose</strong>: EU data privacy regulation</li><li><strong>Scope</strong>: Any organization processing EU residents&rsquo; data</li><li><strong>Requirements</strong>: Lawful basis, consent, data subject rights, breach notification</li><li><strong>Penalties</strong>: Up to 4% of global revenue or €20M</li></ul><h3 id=hipaa-health-insurance-portability-and-accountability-act>HIPAA (Health Insurance Portability and Accountability Act)</h3><ul><li><strong>Purpose</strong>: Protect health information (PHI)</li><li><strong>Scope</strong>: Healthcare providers, payers, business associates</li><li><strong>Requirements</strong>: Administrative, Physical, Technical safeguards</li><li><strong>Penalties</strong>: $100-$50,000 per violation, criminal charges possible</li></ul><h3 id=pci-dss-payment-card-industry-data-security-standard>PCI-DSS (Payment Card Industry Data Security Standard)</h3><ul><li><strong>Purpose</strong>: Protect cardholder data</li><li><strong>Structure</strong>: 12 requirements, 6 control objectives</li><li><strong>Scope</strong>: Any organization storing, processing, or transmitting card data</li><li><strong>Levels</strong>: Based on transaction volume (Level 1-4)</li></ul><hr><h2 id=core-security-domains>Core Security Domains</h2><h3 id=1-identity--access-management-iam>1. Identity & Access Management (IAM)</h3><ul><li>Authentication mechanisms (MFA, SSO, passwordless)</li><li>Authorization models (RBAC, ABAC, ReBAC)</li><li>Privileged access management (PAM)</li><li>Identity governance and administration (IGA)</li><li>Directory services (Active Directory, LDAP, Okta, Auth0)</li></ul><h3 id=2-network-security>2. Network Security</h3><ul><li>Network segmentation and micro-segmentation</li><li>Firewalls (next-gen, WAF, application-layer)</li><li>Intrusion detection/prevention (IDS/IPS)</li><li>VPN and secure remote access</li><li>Zero Trust network architecture (ZTNA)</li><li>DDoS protection</li></ul><h3 id=3-data-security>3. Data Security</h3><ul><li>Encryption at rest and in transit (AES-256, TLS 1.3)</li><li>Key management (KMS, HSM)</li><li>Data classification and labeling</li><li>Data loss prevention (DLP)</li><li>Database security (encryption, masking, tokenization)</li><li>Secrets management (Vault, AWS Secrets Manager)</li></ul><h3 id=4-application-security>4. Application Security</h3><ul><li>Secure SDLC and DevSecOps</li><li>SAST (Static Application Security Testing)</li><li>DAST (Dynamic Application Security Testing)</li><li>SCA (Software Composition Analysis)</li><li>Secure code review</li><li>OWASP Top 10 mitigation</li></ul><h3 id=5-cloud-security>5. Cloud Security</h3><ul><li>Cloud security posture management (CSPM)</li><li>Cloud access security broker (CASB)</li><li>Container security (image scanning, runtime protection)</li><li>Serverless security</li><li>Infrastructure as Code (IaC) security scanning</li><li>Multi-cloud security architecture</li></ul><h3 id=6-endpoint-security>6. Endpoint Security</h3><ul><li>Endpoint detection and response (EDR)</li><li>Antivirus and anti-malware</li><li>Host-based firewalls</li><li>Device encryption (BitLocker, FileVault)</li><li>Mobile device management (MDM)</li><li>Patch management</li></ul><h3 id=7-security-operations>7. Security Operations</h3><ul><li>Security Information and Event Management (SIEM)</li><li>Security Orchestration, Automation, and Response (SOAR)</li><li>Threat intelligence platforms (TIP)</li><li>Threat hunting</li><li>Vulnerability management</li><li>Penetration testing and red teaming</li></ul><h3 id=8-incident-response>8. Incident Response</h3><ul><li>Incident response plan and playbooks</li><li>Computer forensics and investigation</li><li>Malware analysis</li><li>Threat containment and eradication</li><li>Post-incident review and lessons learned</li><li>Regulatory breach notification</li></ul><h3 id=9-governance-risk--compliance-grc>9. Governance, Risk & Compliance (GRC)</h3><ul><li>Security policies and procedures</li><li>Risk assessment and management</li><li>Compliance management and auditing</li><li>Security awareness training</li><li>Vendor risk management</li><li>Business continuity and disaster recovery</li></ul><hr><h2 id=security-metrics--kpis>Security Metrics & KPIs</h2><h3 id=risk--compliance-metrics>Risk & Compliance Metrics</h3><ul><li>Number of critical/high risks open</li><li>Risk remediation time (mean time to remediate)</li><li>Compliance audit findings (open/closed)</li><li>Compliance control effectiveness rate</li><li>Policy acknowledgment completion rate</li><li>Training completion rate</li></ul><h3 id=vulnerability-management-metrics>Vulnerability Management Metrics</h3><ul><li>Mean time to detect (MTTD) vulnerabilities</li><li>Mean time to patch (MTTP)</li><li>Vulnerability backlog (total open, by severity)</li><li>Patch compliance rate (% systems patched within SLA)</li><li>Vulnerability recurrence rate</li></ul><h3 id=incident-response-metrics>Incident Response Metrics</h3><ul><li>Mean time to detect (MTTD) incidents</li><li>Mean time to respond (MTTR)</li><li>Mean time to contain (MTTC)</li><li>Mean time to recover (MTTR)</li><li>Number of incidents by severity</li><li>Incident recurrence rate</li><li>False positive rate</li></ul><h3 id=security-operations-metrics>Security Operations Metrics</h3><ul><li>SIEM alert volume (total, by severity)</li><li>Alert triage time</li><li>Alert false positive rate</li><li>Security tool coverage (% assets monitored)</li><li>Threat hunting coverage (% environment reviewed)</li><li>Penetration test findings</li></ul><h3 id=access-management-metrics>Access Management Metrics</h3><ul><li>MFA adoption rate</li><li>Privileged account review completion rate</li><li>Access certification completion rate</li><li>Orphaned account count</li><li>Password policy compliance rate</li><li>Failed login attempt rate</li></ul><h3 id=awareness--culture-metrics>Awareness & Culture Metrics</h3><ul><li>Phishing simulation click rate</li><li>Security training completion rate</li><li>Security awareness quiz scores</li><li>Security policy violations</li><li>Security-related helpdesk tickets</li></ul><hr><h2 id=security-tools-ecosystem>Security Tools Ecosystem</h2><h3 id=siem-security-information--event-management>SIEM (Security Information & Event Management)</h3><ul><li>Splunk Enterprise Security</li><li>IBM QRadar</li><li>Microsoft Sentinel</li><li>Elastic Security</li><li>Sumo Logic</li></ul><h3 id=edrxdr-endpointextended-detection--response>EDR/XDR (Endpoint/Extended Detection & Response)</h3><ul><li>CrowdStrike Falcon</li><li>SentinelOne</li><li>Microsoft Defender for Endpoint</li><li>Palo Alto Cortex XDR</li><li>Carbon Black</li></ul><h3 id=vulnerability-management>Vulnerability Management</h3><ul><li>Tenable Nessus/Tenable.io</li><li>Qualys VMDR</li><li>Rapid7 InsightVM</li><li>Greenbone OpenVAS (open source)</li></ul><h3 id=cloud-security>Cloud Security</h3><ul><li>Wiz</li><li>Prisma Cloud (Palo Alto)</li><li>Lacework</li><li>Orca Security</li><li>AWS Security Hub / Azure Security Center / GCP Security Command Center</li></ul><h3 id=sastdast>SAST/DAST</h3><ul><li>Snyk</li><li>Veracode</li><li>Checkmarx</li><li>SonarQube</li><li>OWASP ZAP (open source)</li></ul><h3 id=container-security>Container Security</h3><ul><li>Aqua Security</li><li>Sysdig Secure</li><li>Prisma Cloud Compute</li><li>Trivy (open source)</li></ul><h3 id=secrets-management>Secrets Management</h3><ul><li>HashiCorp Vault</li><li>AWS Secrets Manager</li><li>Azure Key Vault</li><li>CyberArk</li></ul><h3 id=identity--access>Identity & Access</h3><ul><li>Okta</li><li>Auth0</li><li>Azure AD / Entra ID</li><li>Ping Identity</li><li>CyberArk (PAM)</li></ul><hr><h2 id=common-security-workflows>Common Security Workflows</h2><h3 id=1-security-incident-response-workflow>1. Security Incident Response Workflow</h3><pre tabindex=0><code>1. Detection &amp; Alert
+   ↓
+2. Triage &amp; Classification
+   - Determine severity (P0-P3)
+   - Assign to responder
+   ↓
+3. Investigation
+   - Gather evidence
+   - Analyze logs (SIEM)
+   - Determine scope
+   ↓
+4. Containment
+   - Isolate affected systems
+   - Block malicious IPs/domains
+   - Disable compromised accounts
+   ↓
+5. Eradication
+   - Remove malware
+   - Close vulnerabilities
+   - Patch systems
+   ↓
+6. Recovery
+   - Restore from backups
+   - Verify system integrity
+   - Return to production
+   ↓
+7. Post-Incident Review
+   - Document timeline
+   - Root cause analysis
+   - Update playbooks
+   - Implement improvements
+   ↓
+8. Reporting
+   - Executive summary
+   - Regulatory notification (if required)
+   - Stakeholder communication
+</code></pre><h3 id=2-vulnerability-management-workflow>2. Vulnerability Management Workflow</h3><pre tabindex=0><code>1. Asset Discovery
+   - Scan network for assets
+   - Maintain asset inventory
+   ↓
+2. Vulnerability Scanning
+   - Authenticated scans
+   - Unauthenticated scans
+   - Agent-based monitoring
+   ↓
+3. Assessment &amp; Validation
+   - Validate findings
+   - Remove false positives
+   - Add business context
+   ↓
+4. Prioritization
+   - Apply CVSS + context
+   - Assign severity (P0-P3)
+   - Create remediation tickets
+   ↓
+5. Remediation
+   - Patch systems
+   - Apply compensating controls
+   - Update configurations
+   ↓
+6. Verification
+   - Rescan to confirm fix
+   - Update vulnerability status
+   ↓
+7. Reporting
+   - Metrics dashboard
+   - Executive reports
+   - Trend analysis
+</code></pre><h3 id=3-access-review-workflow>3. Access Review Workflow</h3><pre tabindex=0><code>1. Schedule Review (Quarterly)
+   ↓
+2. Generate Access Reports
+   - User access by role
+   - Privileged accounts
+   - Service accounts
+   - Orphaned accounts
+   ↓
+3. Distribute to Managers
+   - Each manager reviews their team
+   - Certify appropriate access
+   ↓
+4. Review &amp; Certify
+   - Approve legitimate access
+   - Flag inappropriate access
+   - Identify orphaned accounts
+   ↓
+5. Remediation
+   - Revoke unapproved access
+   - Disable orphaned accounts
+   - Update RBAC assignments
+   ↓
+6. Document &amp; Report
+   - Certification completion rate
+   - Access changes made
+   - Compliance evidence
+</code></pre><h3 id=4-soc2-audit-preparation-workflow>4. SOC2 Audit Preparation Workflow</h3><pre tabindex=0><code>1. Scoping (3-4 months before)
+   - Define in-scope systems
+   - Select Trust Service Criteria
+   - Engage auditor
+   ↓
+2. Gap Assessment (2-3 months before)
+   - Map controls to requirements
+   - Identify control gaps
+   - Create remediation plan
+   ↓
+3. Readiness (1-2 months before)
+   - Implement missing controls
+   - Document policies/procedures
+   - Conduct mock audit
+   ↓
+4. Evidence Collection (Ongoing)
+   - Automate evidence gathering
+   - Organize evidence repository
+   - Prepare control narratives
+   ↓
+5. Audit Kickoff
+   - Provide evidence to auditor
+   - Respond to requests
+   - Schedule interviews
+   ↓
+6. Fieldwork (4-6 weeks)
+   - Auditor tests controls
+   - Provide additional evidence
+   - Address findings
+   ↓
+7. Report Issuance
+   - Review draft report
+   - Address any exceptions
+   - Receive final SOC2 report
+   ↓
+8. Continuous Monitoring
+   - Monitor control effectiveness
+   - Prepare for next audit cycle
+</code></pre><hr><h2 id=best-practices>Best Practices</h2><h3 id=security-architecture>Security Architecture</h3><ul><li>Design with security in mind from the start (shift-left)</li><li>Apply defense in depth with multiple security layers</li><li>Implement Zero Trust: verify explicitly, use least privilege, assume breach</li><li>Segment networks and limit lateral movement</li><li>Encrypt data at rest and in transit</li><li>Use secure defaults and fail securely</li></ul><h3 id=access-control>Access Control</h3><ul><li>Enforce multi-factor authentication (MFA) everywhere</li><li>Implement least privilege access</li><li>Use just-in-time (JIT) privileged access</li><li>Regularly review and certify access</li><li>Disable accounts promptly on termination</li><li>Avoid shared accounts and service account abuse</li></ul><h3 id=security-operations>Security Operations</h3><ul><li>Centralize logging with SIEM</li><li>Automate detection and response where possible</li><li>Maintain an incident response plan and test it</li><li>Conduct regular threat hunting exercises</li><li>Keep vulnerability remediation SLAs aggressive</li><li>Practice incident response through tabletop exercises</li></ul><h3 id=application-security>Application Security</h3><ul><li>Integrate security into CI/CD (DevSecOps)</li><li>Scan code for vulnerabilities (SAST, DAST, SCA)</li><li>Follow OWASP Top 10 guidelines</li><li>Conduct security code reviews for critical changes</li><li>Implement secure API design (authentication, rate limiting, input validation)</li><li>Use security headers (CSP, HSTS, X-Frame-Options)</li></ul><h3 id=cloud-security-1>Cloud Security</h3><ul><li>Use infrastructure as code (IaC) with security scanning</li><li>Enable cloud-native security services (GuardDuty, Security Hub)</li><li>Implement CSPM to monitor misconfigurations</li><li>Use cloud-native encryption and key management</li><li>Apply least privilege IAM policies</li><li>Monitor for shadow IT and unauthorized resources</li></ul><h3 id=compliance>Compliance</h3><ul><li>Treat compliance as a continuous process, not one-time</li><li>Map controls to multiple frameworks for efficiency</li><li>Automate evidence collection where possible</li><li>Maintain a compliance calendar for deadlines</li><li>Document everything (if it&rsquo;s not documented, it doesn&rsquo;t exist)</li><li>Conduct internal audits before external audits</li></ul><h3 id=security-culture>Security Culture</h3><ul><li>Make security everyone&rsquo;s responsibility</li><li>Conduct regular security awareness training</li><li>Run phishing simulations to test awareness</li><li>Reward security-conscious behavior</li><li>Create clear, accessible security policies</li><li>Foster a culture where reporting security concerns is encouraged</li></ul><hr><h2 id=integration-with-other-disciplines>Integration with Other Disciplines</h2><h3 id=with-devops平台工程师ing>With DevOps/平台工程师ing</h3><ul><li>Integrate security scanning into CI/CD pipelines</li><li>Automate security testing and compliance checks</li><li>Implement Infrastructure as Code (IaC) security</li><li>Use container scanning and runtime protection</li><li>Coordinate on incident response for production issues</li></ul><h3 id=with-enterprise-architecture>With Enterprise Architecture</h3><ul><li>Align security architecture with enterprise architecture</li><li>Participate in architecture review boards</li><li>Ensure security requirements in architecture standards</li><li>Design secure integration patterns</li><li>Define security reference architectures</li></ul><h3 id=with-it-operations>With IT Operations</h3><ul><li>Coordinate on patch management and change control</li><li>Collaborate on monitoring and alerting</li><li>Joint incident response for security and operational incidents</li><li>Align on backup and disaster recovery procedures</li><li>Coordinate access management and privileged access</li></ul><h3 id=with-product-management>With Product Management</h3><ul><li>Provide security requirements for new features</li><li>Participate in threat modeling for new products</li><li>Balance security with user experience</li><li>Advise on privacy and compliance implications</li><li>Support security as a product differentiator</li></ul><h3 id=with-legalprivacy>With Legal/Privacy</h3><ul><li>Coordinate on data privacy regulations (GDPR, CCPA)</li><li>Collaborate on breach notification requirements</li><li>Review vendor contracts for security terms</li><li>Support privacy impact assessments</li><li>Align on data retention and deletion policies</li></ul><hr><h2 id=when-to-engage-security--compliance>When to Engage Security & Compliance</h2><h3 id=required-engagement>Required Engagement</h3><ul><li>New system or application design</li><li>Architecture changes affecting security boundaries</li><li>Regulatory compliance initiatives</li><li>Security incidents</li><li>Vendor risk assessments</li><li>Pre-production security reviews</li><li>Audit preparation</li><li>Data breach or suspected breach</li></ul><h3 id=recommended-engagement>Recommended Engagement</h3><ul><li>Major feature releases</li><li>Cloud migrations</li><li>M&amp;A due diligence</li><li>Infrastructure changes</li><li>New third-party integrations</li><li>Significant process changes</li><li>Security tool selection</li><li>Policy updates</li></ul><h3 id=continuous-collaboration>Continuous Collaboration</h3><ul><li>Security review of pull requests (for critical systems)</li><li>Vulnerability remediation prioritization</li><li>Security awareness and training</li><li>Threat intelligence sharing</li><li>Risk assessment updates</li><li>Compliance monitoring</li></ul></div></div><div><div class="text-center mb-8"><h2 class="text-3xl font-bold mb-4">What Users Are Saying</h2><p class=text-lg style=color:var(--text-secondary)>Real feedback from the community</p></div><div class=space-y-6></div></div></div><div class=lg:col-span-1><div class="sticky top-24 space-y-6"><div class="card p-6"><h3 class="font-semibold mb-6 text-xl flex items-center"><svg class="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7A2 2 0 005 7v10a2 2 0 002 2zM9 9h6v6H9V9z"/></svg>
+Environment Matrix</h3><div class=mb-6><h4 class="font-semibold mb-3 text-sm uppercase tracking-wider" style=color:var(--neon-cyan)>Dependencies</h4><div class="space-y-2 text-sm font-mono"><div class="p-2 rounded border-l-4" style=background-color:var(--bg-secondary);border-color:var(--neon-green);color:var(--text-secondary)>Security tools integration (SIEM, EDR, vulnerability scanners)</div><div class="p-2 rounded border-l-4" style=background-color:var(--bg-secondary);border-color:var(--neon-green);color:var(--text-secondary)>Cloud platform access (AWS, Azure, GCP for security services)</div><div class="p-2 rounded border-l-4" style=background-color:var(--bg-secondary);border-color:var(--neon-green);color:var(--text-secondary)>Compliance framework knowledge bases</div></div></div><div class=mb-6><h4 class="font-semibold mb-3 text-sm uppercase tracking-wider" style=color:var(--neon-cyan)>Framework Support</h4><div class="flex flex-wrap gap-2"><span class="px-3 py-1.5 text-xs font-medium rounded-full" style=background-color:rgba(168,85,247,.15);color:var(--neon-purple)>NIST Cybersecurity Framework ✓ (recommended)
+</span><span class="px-3 py-1.5 text-xs font-medium rounded-full" style=background-color:rgba(168,85,247,.15);color:var(--neon-purple)>CIS Critical Security Controls ✓
+</span><span class="px-3 py-1.5 text-xs font-medium rounded-full" style=background-color:rgba(168,85,247,.15);color:var(--neon-purple)>ISO/IEC 27001 ✓
+</span><span class="px-3 py-1.5 text-xs font-medium rounded-full" style=background-color:rgba(168,85,247,.15);color:var(--neon-purple)>SOC 2 Type I/II ✓
+</span><span class="px-3 py-1.5 text-xs font-medium rounded-full" style=background-color:rgba(168,85,247,.15);color:var(--neon-purple)>NIST 800-53 ✓
+</span><span class="px-3 py-1.5 text-xs font-medium rounded-full" style=background-color:rgba(168,85,247,.15);color:var(--neon-purple)>GDPR ✓
+</span><span class="px-3 py-1.5 text-xs font-medium rounded-full" style=background-color:rgba(168,85,247,.15);color:var(--neon-purple)>HIPAA ✓
+</span><span class="px-3 py-1.5 text-xs font-medium rounded-full" style=background-color:rgba(168,85,247,.15);color:var(--neon-purple)>PCI-DSS ✓</span></div></div><div class=mb-6><h4 class="font-semibold mb-3 text-sm uppercase tracking-wider" style=color:var(--neon-cyan)>Context Window</h4><div class="p-4 rounded-lg" style=background-color:rgba(250,204,21,.1)><div class="flex flex-col space-y-2"><div class="flex items-center justify-between"><span class="text-sm font-medium" style=color:var(--text-secondary)>Token Usage</span>
+<span class="text-lg font-bold" style=color:var(--neon-yellow)>~5K-15K tokens for comprehensive security assessments and architecture designs</span></div><div class="w-full h-2 rounded-full" style=background-color:rgba(250,204,21,.2)><div class="h-full rounded-full" style=width:60%;background-color:var(--neon-yellow)></div></div></div></div></div></div><div class="card p-6"><h3 class="font-semibold mb-4 text-xl flex items-center"><svg class="w-6 h-6 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7A4 4 0 008 7v4h8z"/></svg>
+Security & Privacy</h3><dl class="space-y-4 text-sm"></dl></div><div class="card p-6"><h3 class="font-semibold mb-4 text-xl"></h3><dl class="space-y-3 text-sm font-mono"><div><dt style=color:var(--text-tertiary)>作者</dt><dd class="font-medium mt-1" style=color:var(--text-primary)>davila7</dd></div><div><dt style=color:var(--text-tertiary)></dt><dd class="font-medium mt-1" style=color:var(--text-primary)>2026-01-30</dd></div><div><dt style=color:var(--text-tertiary)></dt><dd class="font-medium mt-1" style=color:var(--text-primary)>architecture-patterns</dd></div></dl></div></div></div></div><div class="mt-12 pt-12 border-t transition-colors" style=border-color:var(--gray-800)><h2 class="text-3xl font-bold mb-6"></h2><div class="grid grid-cols-1 md:grid-cols-3 gap-6"><a href=/zh/skills/prowler-compliance-review/ class="skill-card group"><h3 class="text-lg font-semibold mb-2 group-hover:text-[var(--neon-cyan)] transition-colors">Prowler Compliance Review</h3><p class="text-sm mb-3" style=color:var(--text-tertiary)>Reviews Pull Requests that add or modify compliance frameworks. Trigger: When reviewing PRs with …</p><span class="text-sm font-medium font-mono" style=color:var(--neon-cyan)>查看详情 →
+</span></a><a href=/zh/skills/senior-secops/ class="skill-card group"><h3 class="text-lg font-semibold mb-2 group-hover:text-[var(--neon-cyan)] transition-colors">Senior Secops</h3><p class="text-sm mb-3" style=color:var(--text-tertiary)>Comprehensive SecOps skill for application security, vulnerability management, compliance, and …</p><span class="text-sm font-medium font-mono" style=color:var(--neon-cyan)>查看详情 →
+</span></a><a href=/zh/skills/auth-implementation-patterns/ class="skill-card group"><h3 class="text-lg font-semibold mb-2 group-hover:text-[var(--neon-cyan)] transition-colors">Auth Implementation Patterns</h3><p class="text-sm mb-3" style=color:var(--text-tertiary)>Master authentication and authorization patterns including JWT, OAuth2, session management, and RBAC …</p><span class="text-sm font-medium font-mono" style=color:var(--neon-cyan)>查看详情 →</span></a></div></div></div></div></div></main><footer class="border-t-2 relative overflow-hidden transition-colors duration-300" style=background-color:var(--bg-secondary);border-color:var(--gray-800)><div class="absolute inset-0 opacity-5"><div class="absolute inset-0" style="background-image:linear-gradient(var(--neon-cyan) 1px,transparent 1px),linear-gradient(90deg,var(--neon-cyan) 1px,transparent 1px);background-size:40px 40px"></div></div><div class="container-custom py-12 relative z-10"><div class="grid grid-cols-1 md:grid-cols-4 gap-12"><div class="col-span-1 md:col-span-2"><div class="flex items-center space-x-3 mb-6 group"><div class="w-8 h-8 border-2 border-[var(--neon-cyan)] flex items-center justify-center"><span class="text-[var(--neon-cyan)] font-bold">A</span></div><span class="text-xl font-bold gradient-text">Agent Skills</span></div><p class="text-sm mb-6 max-w-md leading-relaxed" style=color:var(--text-tertiary)>发现和分享最优质的 Agent Skills，让 AI 更好地为你服务。</p><div class="flex space-x-4"></div></div><div><h3 class="text-xs font-bold text-[var(--neon-cyan)] uppercase tracking-widest mb-6 font-mono">快速链接</h3><ul class=space-y-3><li><a href=/zh/ class="hover:text-[var(--neon-cyan)] text-sm transition-colors inline-flex items-center group" style=color:var(--text-tertiary)><span class="w-0 group-hover:w-2 h-0.5 bg-[var(--neon-cyan)] mr-0 group-hover:mr-2 transition-all duration-300"></span>
+首页</a></li><li><a href=/zh/topics/ class="hover:text-[var(--neon-cyan)] text-sm transition-colors inline-flex items-center group" style=color:var(--text-tertiary)><span class="w-0 group-hover:w-2 h-0.5 bg-[var(--neon-cyan)] mr-0 group-hover:mr-2 transition-all duration-300"></span>
+精选主题</a></li><li><a href=/zh/skills/ class="hover:text-[var(--neon-cyan)] text-sm transition-colors inline-flex items-center group" style=color:var(--text-tertiary)><span class="w-0 group-hover:w-2 h-0.5 bg-[var(--neon-cyan)] mr-0 group-hover:mr-2 transition-all duration-300"></span>
+所有 Skills</a></li><li><a href=/zh/#pricing class="hover:text-[var(--neon-cyan)] text-sm transition-colors inline-flex items-center group" style=color:var(--text-tertiary)><span class="w-0 group-hover:w-2 h-0.5 bg-[var(--neon-cyan)] mr-0 group-hover:mr-2 transition-all duration-300"></span>
+价格</a></li><li><a href=/zh/#contact class="hover:text-[var(--neon-cyan)] text-sm transition-colors inline-flex items-center group" style=color:var(--text-tertiary)><span class="w-0 group-hover:w-2 h-0.5 bg-[var(--neon-cyan)] mr-0 group-hover:mr-2 transition-all duration-300"></span>
+联系我们</a></li></ul></div><div><h3 class="text-xs font-bold text-[var(--neon-pink)] uppercase tracking-widest mb-6 font-mono">资源</h3><ul class=space-y-3><li><a href=https://claude.ai/claude-code target=_blank rel="noopener noreferrer" class="hover:text-[var(--neon-pink)] text-sm transition-colors inline-flex items-center group" style=color:var(--text-tertiary)><span class="w-0 group-hover:w-2 h-0.5 bg-[var(--neon-pink)] mr-0 group-hover:mr-2 transition-all duration-300"></span>
+Claude Code 文档</a></li><li><a href=https://anthropic.com target=_blank rel="noopener noreferrer" class="hover:text-[var(--neon-pink)] text-sm transition-colors inline-flex items-center group" style=color:var(--text-tertiary)><span class="w-0 group-hover:w-2 h-0.5 bg-[var(--neon-pink)] mr-0 group-hover:mr-2 transition-all duration-300"></span>
+Anthropic</a></li><li><a href=mailto:contact@agent-skills.example.com class="hover:text-[var(--neon-pink)] text-sm transition-colors inline-flex items-center group" style=color:var(--text-tertiary)><span class="w-0 group-hover:w-2 h-0.5 bg-[var(--neon-pink)] mr-0 group-hover:mr-2 transition-all duration-300"></span>
+支持</a></li></ul></div></div><div class="border-t-2 mt-8 pt-6 transition-colors" style=border-color:var(--gray-800)><div class="flex flex-col md:flex-row items-center justify-between gap-4"><p class="text-sm font-mono" style=color:var(--text-tertiary)>&copy; 2026 Agent Skills Hub. 保留所有权利.</p><div class="flex items-center gap-2 text-xs font-mono" style=color:var(--gray-700)><span class="w-2 h-2 bg-[var(--neon-green)] animate-pulse"></span>
+<span>SYSTEM ONLINE</span></div></div></div></div></footer><script>function themeToggle(){return{theme:localStorage.getItem("theme")||"dark",toggleTheme(){this.theme=this.theme==="dark"?"light":"dark",localStorage.setItem("theme",this.theme),document.documentElement.setAttribute("data-theme",this.theme);const e=document.querySelector("[x-data]");e&&e.__x&&(e.__x.$data.theme=this.theme)}}}</script><script>document.addEventListener("DOMContentLoaded",function(){const e=new IntersectionObserver(e=>{e.forEach(e=>{e.isIntersecting&&(e.target.style.animationPlayState="running")})},{threshold:.1});document.querySelectorAll(".stagger-fade-in").forEach(t=>{t.style.animationPlayState="paused",e.observe(t)}),window.addEventListener("scroll",()=>{const e=window.pageYOffset,t=document.querySelectorAll('[class*="absolute"]:not(footer *):not([x-show])');t.forEach((t,n)=>{const s=.5+n%3*.2;t.style.transform=`translateY(${e*s}px)`})})})</script></body></html>

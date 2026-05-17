@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Software-Architecture on Agent Skills Hub</title><link>https://agentskill.wiki/tags/software-architecture/</link><description>Recent content in Software-Architecture on Agent Skills Hub</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/software-architecture/index.xml" rel="self" type="application/rss+xml"/><item><title>Api Design Principles</title><link>https://agentskill.wiki/en/skills/api-design-principles/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/api-design-principles/</guid><description>&lt;h1 id="api-design-principles"&gt;API Design Principles&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Software-Architecture on Agent Skills Hub</title><link>https://agentskill.wiki/tags/software-architecture/</link><description>Recent content in Software-Architecture on Agent Skills Hub</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/software-architecture/index.xml" rel="self" type="application/rss+xml"/><item><title>Api Design Principles</title><link>https://agentskill.wiki/skills/api-design-principles/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/api-design-principles/</guid><description>&lt;h1 id="api-design-principles"&gt;API Design Principles&lt;/h1&gt;
 &lt;p&gt;Master REST and GraphQL API design principles to build intuitive, scalable, and maintainable APIs that delight developers and stand the test of time.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -12,7 +12,7 @@
 &lt;/ul&gt;
 &lt;h2 id="core-concepts"&gt;Core Concepts&lt;/h2&gt;
 &lt;h3 id="1-restful-design-principles"&gt;1. RESTful Design Principles&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Resource-Oriented Architecture&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Architecture Patterns</title><link>https://agentskill.wiki/en/skills/architecture-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/architecture-patterns/</guid><description>&lt;h1 id="architecture-patterns"&gt;Architecture Patterns&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Resource-Oriented Architecture&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Architecture Patterns</title><link>https://agentskill.wiki/skills/architecture-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/architecture-patterns/</guid><description>&lt;h1 id="architecture-patterns"&gt;Architecture Patterns&lt;/h1&gt;
 &lt;p&gt;Master proven backend architecture patterns including Clean Architecture, Hexagonal Architecture, and Domain-Driven Design to build maintainable, testable, and scalable systems.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -26,7 +26,7 @@
 &lt;/ul&gt;
 &lt;h2 id="core-concepts"&gt;Core Concepts&lt;/h2&gt;
 &lt;h3 id="1-clean-architecture-uncle-bob"&gt;1. Clean Architecture (Uncle Bob)&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Layers (dependency flows inward):&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Feature Design Assistant</title><link>https://agentskill.wiki/en/skills/feature-design-assistant/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/feature-design-assistant/</guid><description>&lt;h1 id="feature-design-assistant"&gt;Feature Design Assistant&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Layers (dependency flows inward):&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Feature Design Assistant</title><link>https://agentskill.wiki/skills/feature-design-assistant/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/feature-design-assistant/</guid><description>&lt;h1 id="feature-design-assistant"&gt;Feature Design Assistant&lt;/h1&gt;
 &lt;p&gt;Help turn ideas into fully formed designs and specs through structured information gathering and collaborative validation.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Announce at start:&lt;/strong&gt; &amp;ldquo;I&amp;rsquo;m using the feature-design-assistant skill to design this feature.&amp;rdquo;&lt;/p&gt;
 &lt;h2 id="phase-1-context-discovery"&gt;Phase 1: Context Discovery&lt;/h2&gt;
@@ -38,7 +38,7 @@
 &lt;li&gt;Recent changes in relevant areas&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="phase-2-structured-information-gathering"&gt;Phase 2: Structured Information Gathering&lt;/h2&gt;
-&lt;p&gt;Use &lt;strong&gt;AskUserQuestion&lt;/strong&gt; to batch collect information efficiently. Each call can ask up to 4 questions.&lt;/p&gt;</description></item><item><title>Senior Architect</title><link>https://agentskill.wiki/en/skills/senior-architect/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/senior-architect/</guid><description>&lt;h1 id="senior-architect"&gt;Senior Architect&lt;/h1&gt;
+&lt;p&gt;Use &lt;strong&gt;AskUserQuestion&lt;/strong&gt; to batch collect information efficiently. Each call can ask up to 4 questions.&lt;/p&gt;</description></item><item><title>Senior Architect</title><link>https://agentskill.wiki/skills/senior-architect/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/senior-architect/</guid><description>&lt;h1 id="senior-architect"&gt;Senior Architect&lt;/h1&gt;
 &lt;p&gt;Complete toolkit for senior architect with modern tools and best practices.&lt;/p&gt;
 &lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;
 &lt;h3 id="main-capabilities"&gt;Main Capabilities&lt;/h3&gt;

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Scaffolding on Agent Skills Hub</title><link>https://agentskill.wiki/tags/scaffolding/</link><description>Recent content in Scaffolding on Agent Skills Hub</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/scaffolding/index.xml" rel="self" type="application/rss+xml"/><item><title>Command Name</title><link>https://agentskill.wiki/en/skills/command-name/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/command-name/</guid><description>&lt;h1 id="plugin-structure-for-claude-code"&gt;Plugin Structure for Claude Code&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Scaffolding on Agent Skills Hub</title><link>https://agentskill.wiki/tags/scaffolding/</link><description>Recent content in Scaffolding on Agent Skills Hub</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/scaffolding/index.xml" rel="self" type="application/rss+xml"/><item><title>Command Name</title><link>https://agentskill.wiki/skills/command-name/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/command-name/</guid><description>&lt;h1 id="plugin-structure-for-claude-code"&gt;Plugin Structure for Claude Code&lt;/h1&gt;
 &lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;Claude Code plugins follow a standardized directory structure with automatic component discovery. Understanding this structure enables creating well-organized, maintainable plugins that integrate seamlessly with Claude Code.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Key concepts:&lt;/strong&gt;&lt;/p&gt;
@@ -10,7 +10,7 @@
 &lt;li&gt;Explicit vs. auto-discovered component loading&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="directory-structure"&gt;Directory Structure&lt;/h2&gt;
-&lt;p&gt;Every Claude Code plugin follows this organizational pattern:&lt;/p&gt;</description></item><item><title>Railway New</title><link>https://agentskill.wiki/en/skills/railway-new/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/railway-new/</guid><description>&lt;h1 id="new-project--service--database"&gt;New Project / Service / Database&lt;/h1&gt;
+&lt;p&gt;Every Claude Code plugin follows this organizational pattern:&lt;/p&gt;</description></item><item><title>Railway New</title><link>https://agentskill.wiki/skills/railway-new/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/railway-new/</guid><description>&lt;h1 id="new-project--service--database"&gt;New Project / Service / Database&lt;/h1&gt;
 &lt;p&gt;Create Railway projects, services, and databases with proper configuration.&lt;/p&gt;
 &lt;h2 id="when-to-use"&gt;When to Use&lt;/h2&gt;
 &lt;ul&gt;
@@ -26,7 +26,7 @@
 &lt;li&gt;Setting up code + Railway service together&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="prerequisites"&gt;Prerequisites&lt;/h2&gt;
-&lt;p&gt;Check CLI installed:&lt;/p&gt;</description></item><item><title>Run Nx Generator</title><link>https://agentskill.wiki/en/skills/run-nx-generator/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/run-nx-generator/</guid><description>&lt;h1 id="run-nx-generator"&gt;Run Nx Generator&lt;/h1&gt;
+&lt;p&gt;Check CLI installed:&lt;/p&gt;</description></item><item><title>Run Nx Generator</title><link>https://agentskill.wiki/skills/run-nx-generator/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/run-nx-generator/</guid><description>&lt;h1 id="run-nx-generator"&gt;Run Nx Generator&lt;/h1&gt;
 &lt;p&gt;This skill helps you execute Nx generators efficiently, with special focus on workspace-plugin generators from your internal tooling.&lt;/p&gt;
 &lt;h2 id="generator-priority-list"&gt;Generator Priority List&lt;/h2&gt;
 &lt;p&gt;Use the &lt;code&gt;mcp__nx-mcp__nx_generator_schema&lt;/code&gt; tool to get more information about how to use the generator&lt;/p&gt;
@@ -34,7 +34,7 @@
 &lt;h3 id="-workspace-plugin-generators-high-priority"&gt;🔥 Workspace-Plugin Generators (High Priority)&lt;/h3&gt;
 &lt;p&gt;These are your custom internal tools in &lt;code&gt;tools/workspace-plugin/&lt;/code&gt;&lt;/p&gt;
 &lt;h3 id="-core-nx-generators-standard"&gt;📦 Core Nx Generators (Standard)&lt;/h3&gt;
-&lt;p&gt;Only use these if workspace-plugin generators don&amp;rsquo;t fit:&lt;/p&gt;</description></item><item><title>Senior Fullstack</title><link>https://agentskill.wiki/en/skills/senior-fullstack/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/senior-fullstack/</guid><description>&lt;h1 id="senior-fullstack"&gt;Senior Fullstack&lt;/h1&gt;
+&lt;p&gt;Only use these if workspace-plugin generators don&amp;rsquo;t fit:&lt;/p&gt;</description></item><item><title>Senior Fullstack</title><link>https://agentskill.wiki/skills/senior-fullstack/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/senior-fullstack/</guid><description>&lt;h1 id="senior-fullstack"&gt;Senior Fullstack&lt;/h1&gt;
 &lt;p&gt;Complete toolkit for senior fullstack with modern tools and best practices.&lt;/p&gt;
 &lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;
 &lt;h3 id="main-capabilities"&gt;Main Capabilities&lt;/h3&gt;
@@ -49,7 +49,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;8&lt;/span&gt;&lt;span&gt;python scripts/code_quality_analyzer.py &lt;span style="color:#f92672"&gt;[&lt;/span&gt;options&lt;span style="color:#f92672"&gt;]&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="core-capabilities"&gt;Core Capabilities&lt;/h2&gt;
 &lt;h3 id="1-fullstack-scaffolder"&gt;1. Fullstack Scaffolder&lt;/h3&gt;
-&lt;p&gt;Automated tool for fullstack scaffolder tasks.&lt;/p&gt;</description></item><item><title>Wox Plugin Creator</title><link>https://agentskill.wiki/en/skills/wox-plugin-creator/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/wox-plugin-creator/</guid><description>&lt;h1 id="wox-plugin-creator"&gt;Wox Plugin Creator&lt;/h1&gt;
+&lt;p&gt;Automated tool for fullstack scaffolder tasks.&lt;/p&gt;</description></item><item><title>Wox Plugin Creator</title><link>https://agentskill.wiki/skills/wox-plugin-creator/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/wox-plugin-creator/</guid><description>&lt;h1 id="wox-plugin-creator"&gt;Wox Plugin Creator&lt;/h1&gt;
 &lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Scaffold a Node.js plugin (clones template repo):

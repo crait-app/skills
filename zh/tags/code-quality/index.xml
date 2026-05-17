@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Code Quality on Agent Skills Hub</title><link>https://agentskill.wiki/zh/tags/code-quality/</link><description>Recent content in Code Quality on Agent Skills Hub</description><generator>Hugo</generator><language>zh</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/zh/tags/code-quality/index.xml" rel="self" type="application/rss+xml"/><item><title>Clojure Write</title><link>https://agentskill.wiki/zh/skills/clojure-write/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/zh/skills/clojure-write/</guid><description>&lt;h1 id="clojure-development-skill"&gt;Clojure Development Skill&lt;/h1&gt;
+&lt;h2 id="tool-preference"&gt;Tool Preference&lt;/h2&gt;
+&lt;p&gt;When &lt;code&gt;clojure-mcp&lt;/code&gt; tools are available (e.g., &lt;code&gt;clojure_eval&lt;/code&gt;, &lt;code&gt;clojure_edit&lt;/code&gt;), &lt;strong&gt;always use them&lt;/strong&gt;
+instead of shell commands like &lt;code&gt;./bin/mage -repl&lt;/code&gt;. The MCP tools provide:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Direct REPL integration without shell escaping issues&lt;/li&gt;
+&lt;li&gt;Better error messages and feedback&lt;/li&gt;
+&lt;li&gt;Structural Clojure editing that prevents syntax errors&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Only fall back to &lt;code&gt;./bin/mage&lt;/code&gt; commands when clojure-mcp is not available.&lt;/p&gt;
+&lt;p&gt;@./../_shared/development-workflow.md
+@./../_shared/clojure-style-guide.md
+@./../_shared/clojure-commands.md&lt;/p&gt;
+&lt;h2 id="repl-driven-development-workflow"&gt;REPL-Driven Development Workflow&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Start with small, fundamental functions:&lt;/li&gt;
+&lt;li&gt;Identify the core features or functionalities required for your task.&lt;/li&gt;
+&lt;li&gt;Break each feature down into the smallest, most basic functions that can be developed and tested independently.&lt;/li&gt;
+&lt;li&gt;Write and test in the REPL:
+&lt;ul&gt;
+&lt;li&gt;Write the code for each small function directly in the REPL (Read-Eval-Print Loop).&lt;/li&gt;
+&lt;li&gt;Test it thoroughly with a variety of inputs, including typical use cases and relevant edge cases, to ensure it
+behaves as expected.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Integrate into source code:
+&lt;ul&gt;
+&lt;li&gt;Once a function works correctly in the REPL, move it from the REPL environment into your source code files (e.g.,
+within appropriate namespaces).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Gradually increase complexity:
+&lt;ul&gt;
+&lt;li&gt;Build upon tested, basic functions to create more complex functions or components.&lt;/li&gt;
+&lt;li&gt;Compose smaller functions together, testing each new composition in the REPL to verify correctness step by step.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Ensure dependency testing:
+&lt;ul&gt;
+&lt;li&gt;Make sure every function is fully tested in the REPL before it is depended upon by other functions.&lt;/li&gt;
+&lt;li&gt;This ensures that each layer of your application is reliable before you build on it.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Use the REPL fully:
+&lt;ul&gt;
+&lt;li&gt;Use the REPL as your primary tool to experiment with different approaches, iterate quickly, and get immediate
+feedback on your code.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Follow functional programming principles:
+&lt;ul&gt;
+&lt;li&gt;Keep functions small, focused, and composable.&lt;/li&gt;
+&lt;li&gt;Use Clojure&amp;rsquo;s functional programming features—like immutability, higher-order functions, and the standard
+library—to write concise, effective code.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="how-to-evaluate-code"&gt;How to Evaluate Code&lt;/h2&gt;
+&lt;h3 id="bottom-up-dev-loop"&gt;Bottom-up Dev Loop&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Write code into a file.&lt;/li&gt;
+&lt;li&gt;Evaluate the file&amp;rsquo;s namespace and make sure it loads correctly with:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;./bin/mage -repl --namespace metabase.app-db.connection
+&lt;/code&gt;&lt;/pre&gt;&lt;ol start="3"&gt;
+&lt;li&gt;Call functions in the namespace with test inputs, and observe that the outputs are correct
+Feel free to copy these REPL session trials into actual test cases using &lt;code&gt;deftest&lt;/code&gt; and &lt;code&gt;is&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Once you know these functions are good, return to 1, and compose them into the task that you need to build.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="critical-rules-for-editing"&gt;Critical Rules for Editing&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Be careful with parentheses counts when editing Clojure code&lt;/li&gt;
+&lt;li&gt;After EVERY change to Clojure code, verify readability with &lt;code&gt;-check-readable&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;End all files with a newline&lt;/li&gt;
+&lt;li&gt;When editing tabular code, where the columns line up, try to keep them aligned&lt;/li&gt;
+&lt;li&gt;Spaces on a line with nothing after it is not allowed&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Commit Helper</title><link>https://agentskill.wiki/zh/skills/commit-helper/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/zh/skills/commit-helper/</guid><description>&lt;h1 id="cockroachdb-commit-helper"&gt;CockroachDB Commit Helper&lt;/h1&gt;
+&lt;p&gt;Help the user create properly formatted commit messages and release notes that follow CockroachDB conventions.&lt;/p&gt;
+&lt;h2 id="workflow"&gt;Workflow&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Analyze the changes&lt;/strong&gt;: Run &lt;code&gt;git diff --staged&lt;/code&gt; or &lt;code&gt;git diff&lt;/code&gt; to understand what was modified&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Determine the package prefix&lt;/strong&gt;: Identify the primary package affected&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ask the user&lt;/strong&gt; for:
+&lt;ul&gt;
+&lt;li&gt;Issue/epic number if not already known&lt;/li&gt;
+&lt;li&gt;Whether release notes are needed and what category fits best&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Write the subject line&lt;/strong&gt;: Imperative mood, no period, under 72 characters&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Write the body&lt;/strong&gt;: Explain the before/after, why the change was needed&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Add issue references&lt;/strong&gt;: Include Resolves/Epic as appropriate&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Write the release note&lt;/strong&gt;: Clear, user-focused description of the change&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Create the commit&lt;/strong&gt; using the properly formatted message&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="commit-message-structure"&gt;Commit Message Structure&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Basic Format:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Deslop</title><link>https://agentskill.wiki/zh/skills/deslop/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/zh/skills/deslop/</guid><description>&lt;h1 id="remove-ai-code-slop"&gt;Remove AI Code Slop&lt;/h1&gt;
+&lt;p&gt;Check the diff against main and remove all AI-generated slop introduced in this branch.&lt;/p&gt;
+&lt;h2 id="what-to-remove"&gt;What to Remove&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Extra comments that a human wouldn&amp;rsquo;t add or are inconsistent with the rest of the file&lt;/li&gt;
+&lt;li&gt;Extra defensive checks or try/catch blocks that are abnormal for that area of the codebase (especially if called by trusted/validated codepaths)&lt;/li&gt;
+&lt;li&gt;Casts to &lt;code&gt;any&lt;/code&gt; to get around type issues&lt;/li&gt;
+&lt;li&gt;Inline imports in Python (move to top of file with other imports)&lt;/li&gt;
+&lt;li&gt;Any other style that is inconsistent with the file&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="process"&gt;Process&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Get the diff against main: &lt;code&gt;git diff main...HEAD&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Review each changed file for slop patterns&lt;/li&gt;
+&lt;li&gt;Remove identified slop while preserving legitimate changes&lt;/li&gt;
+&lt;li&gt;Report a 1-3 sentence summary of what was changed&lt;/li&gt;
+&lt;/ol&gt;</description></item><item><title>Move Code Quality</title><link>https://agentskill.wiki/zh/skills/move-code-quality/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/zh/skills/move-code-quality/</guid><description>&lt;h1 id="move-code-quality-checker"&gt;Move Code Quality Checker&lt;/h1&gt;
+&lt;p&gt;You are an expert Move language code reviewer with deep knowledge of the Move Book Code Quality Checklist. Your role is to analyze Move packages and provide specific, actionable feedback based on modern Move 2024 Edition best practices.&lt;/p&gt;
+&lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
+&lt;p&gt;Activate this skill when:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;User asks to &amp;ldquo;check Move code quality&amp;rdquo;, &amp;ldquo;review Move code&amp;rdquo;, or &amp;ldquo;analyze Move package&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;User mentions Move 2024 Edition compliance&lt;/li&gt;
+&lt;li&gt;Working in a directory containing &lt;code&gt;.move&lt;/code&gt; files or &lt;code&gt;Move.toml&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;User asks to review code against the Move checklist&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="analysis-workflow"&gt;Analysis Workflow&lt;/h2&gt;
+&lt;h3 id="phase-1-discovery"&gt;Phase 1: Discovery&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;strong&gt;Detect Move project structure&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Rule Identifier</title><link>https://agentskill.wiki/zh/skills/rule-identifier/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/zh/skills/rule-identifier/</guid><description>&lt;h1 id="writing-hookify-rules"&gt;Writing Hookify Rules&lt;/h1&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Hookify rules are markdown files with YAML frontmatter that define patterns to watch for and messages to show when those patterns match. Rules are stored in &lt;code&gt;.claude/hookify.{rule-name}.local.md&lt;/code&gt; files.&lt;/p&gt;
+&lt;h2 id="rule-file-format"&gt;Rule File Format&lt;/h2&gt;
+&lt;h3 id="basic-structure"&gt;Basic Structure&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-markdown" data-lang="markdown"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;---
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;2&lt;/span&gt;&lt;span&gt;name: rule-identifier
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;3&lt;/span&gt;&lt;span&gt;enabled: true
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;4&lt;/span&gt;&lt;span&gt;event: bash|file|stop|prompt|all
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;5&lt;/span&gt;&lt;span&gt;pattern: regex-pattern-here
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;6&lt;/span&gt;&lt;span&gt;---
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;7&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;8&lt;/span&gt;&lt;span&gt;Message to show Claude when this rule triggers.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;9&lt;/span&gt;&lt;span&gt;Can include markdown formatting, warnings, suggestions, etc.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="frontmatter-fields"&gt;Frontmatter Fields&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;name&lt;/strong&gt; (required): Unique identifier for the rule&lt;/p&gt;</description></item><item><title>Shellcheck Configuration</title><link>https://agentskill.wiki/zh/skills/shellcheck-configuration/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/zh/skills/shellcheck-configuration/</guid><description>&lt;h1 id="shellcheck-configuration-and-static-analysis"&gt;ShellCheck Configuration and Static Analysis&lt;/h1&gt;
+&lt;p&gt;Comprehensive guidance for configuring and using ShellCheck to improve shell script quality, catch common pitfalls, and enforce best practices through static code analysis.&lt;/p&gt;
+&lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Setting up linting for shell scripts in CI/CD pipelines&lt;/li&gt;
+&lt;li&gt;Analyzing existing shell scripts for issues&lt;/li&gt;
+&lt;li&gt;Understanding ShellCheck error codes and warnings&lt;/li&gt;
+&lt;li&gt;Configuring ShellCheck for specific project requirements&lt;/li&gt;
+&lt;li&gt;Integrating ShellCheck into development workflows&lt;/li&gt;
+&lt;li&gt;Suppressing false positives and configuring rule sets&lt;/li&gt;
+&lt;li&gt;Enforcing consistent code quality standards&lt;/li&gt;
+&lt;li&gt;Migrating scripts to meet quality gates&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="shellcheck-fundamentals"&gt;ShellCheck Fundamentals&lt;/h2&gt;
+&lt;h3 id="what-is-shellcheck"&gt;What is ShellCheck?&lt;/h3&gt;
+&lt;p&gt;ShellCheck is a static analysis tool that analyzes shell scripts and detects problematic patterns. It supports:&lt;/p&gt;</description></item><item><title>Test Driven Development</title><link>https://agentskill.wiki/zh/skills/test-driven-development/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/zh/skills/test-driven-development/</guid><description>&lt;h1 id="test-driven-development-tdd"&gt;Test-Driven Development (TDD)&lt;/h1&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Write the test first. Watch it fail. Write minimal code to pass.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Core principle:&lt;/strong&gt; If you didn&amp;rsquo;t watch the test fail, you don&amp;rsquo;t know if it tests the right thing.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Violating the letter of the rules is violating the spirit of the rules.&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id="when-to-use"&gt;When to Use&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Always:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;New features&lt;/li&gt;
+&lt;li&gt;Bug fixes&lt;/li&gt;
+&lt;li&gt;Refactoring&lt;/li&gt;
+&lt;li&gt;Behavior changes&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Exceptions (ask your human partner):&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Throwaway prototypes&lt;/li&gt;
+&lt;li&gt;Generated code&lt;/li&gt;
+&lt;li&gt;Configuration files&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Thinking &amp;ldquo;skip TDD just this once&amp;rdquo;? Stop. That&amp;rsquo;s rationalization.&lt;/p&gt;</description></item><item><title>Typescript Review</title><link>https://agentskill.wiki/zh/skills/typescript-review/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/zh/skills/typescript-review/</guid><description>&lt;h1 id="typescriptjavascript-code-review-skill"&gt;TypeScript/JavaScript Code Review Skill&lt;/h1&gt;
+&lt;p&gt;@./../_shared/typescript-commands.md&lt;/p&gt;
+&lt;h2 id="code-review-guidelines"&gt;Code Review Guidelines&lt;/h2&gt;
+&lt;p&gt;Review pull requests with a focus on:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Compliance with project coding standards and conventions&lt;/li&gt;
+&lt;li&gt;Code quality and best practices&lt;/li&gt;
+&lt;li&gt;Clear and correct JSDoc comments&lt;/li&gt;
+&lt;li&gt;Type safety and proper TypeScript usage&lt;/li&gt;
+&lt;li&gt;React best practices (when applicable)&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>Typescript Write</title><link>https://agentskill.wiki/zh/skills/typescript-write/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/zh/skills/typescript-write/</guid><description>&lt;h1 id="typescriptjavascript-development-skill"&gt;TypeScript/JavaScript Development Skill&lt;/h1&gt;
+&lt;p&gt;@./../_shared/development-workflow.md
+@./../_shared/typescript-commands.md&lt;/p&gt;</description></item><item><title>Python Code Analyzer</title><link>https://agentskill.wiki/zh/skills/python-code-analyzer/</link><pubDate>Wed, 14 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/zh/skills/python-code-analyzer/</guid><description>&lt;h2 id="why-this-skill"&gt;Why This Skill?&lt;/h2&gt;
+&lt;p&gt;Every Python developer faces the same challenges:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Hidden Bugs&lt;/strong&gt;: Subtle issues that pass tests but break in production&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Performance Pitfalls&lt;/strong&gt;: Code that works but runs 10x slower than it should&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Code Debt&lt;/strong&gt;: Complexity that accumulates until refactoring becomes impossible&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;This skill solves these problems by providing instant, actionable feedback as you code.&lt;/p&gt;
+&lt;h2 id="core-features"&gt;Core Features&lt;/h2&gt;
+&lt;h3 id="-static-analysis"&gt;🔍 Static Analysis&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Detects common bugs: unused variables, undefined names, import errors&lt;/li&gt;
+&lt;li&gt;Identifies anti-patterns before they reach production&lt;/li&gt;
+&lt;li&gt;Highlights potential runtime errors&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="-performance-optimization"&gt;⚡ Performance Optimization&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Spots N+1 queries, inefficient loops, and memory leaks&lt;/li&gt;
+&lt;li&gt;Suggests faster algorithms and data structures&lt;/li&gt;
+&lt;li&gt;Provides before/after performance estimates&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="-complexity-metrics"&gt;📐 Complexity Metrics&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Calculates cyclomatic and cognitive complexity&lt;/li&gt;
+&lt;li&gt;Identifies functions that are too complex to maintain&lt;/li&gt;
+&lt;li&gt;Recommends specific refactoring strategies&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="-style--best-practices"&gt;🎨 Style &amp;amp; Best Practices&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Enforces PEP 8 and team-specific conventions&lt;/li&gt;
+&lt;li&gt;Suggests more Pythonic ways to write code&lt;/li&gt;
+&lt;li&gt;Explains &lt;em&gt;why&lt;/em&gt; certain patterns are better&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="advanced-capabilities"&gt;Advanced Capabilities&lt;/h2&gt;
+&lt;h3 id="custom-rule-configuration"&gt;Custom Rule Configuration&lt;/h3&gt;
+&lt;p&gt;Create &lt;code&gt;.python-analyzer.yml&lt;/code&gt; in your project root:&lt;/p&gt;</description></item></channel></rss>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>System Designer on Agent Skills Hub</title><link>https://agentskill.wiki/topics/system-designer/</link><description>Recent content in System Designer on Agent Skills Hub</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/topics/system-designer/index.xml" rel="self" type="application/rss+xml"/><item><title>Architecture Patterns</title><link>https://agentskill.wiki/en/skills/architecture-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/architecture-patterns/</guid><description>&lt;h1 id="architecture-patterns"&gt;Architecture Patterns&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>System Designer on Agent Skills Hub</title><link>https://agentskill.wiki/topics/system-designer/</link><description>Recent content in System Designer on Agent Skills Hub</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/topics/system-designer/index.xml" rel="self" type="application/rss+xml"/><item><title>Architecture Patterns</title><link>https://agentskill.wiki/skills/architecture-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/architecture-patterns/</guid><description>&lt;h1 id="architecture-patterns"&gt;Architecture Patterns&lt;/h1&gt;
 &lt;p&gt;Master proven backend architecture patterns including Clean Architecture, Hexagonal Architecture, and Domain-Driven Design to build maintainable, testable, and scalable systems.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -12,7 +12,7 @@
 &lt;/ul&gt;
 &lt;h2 id="core-concepts"&gt;Core Concepts&lt;/h2&gt;
 &lt;h3 id="1-clean-architecture-uncle-bob"&gt;1. Clean Architecture (Uncle Bob)&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Layers (dependency flows inward):&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Cqrs Implementation</title><link>https://agentskill.wiki/en/skills/cqrs-implementation/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/cqrs-implementation/</guid><description>&lt;h1 id="cqrs-implementation"&gt;CQRS Implementation&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Layers (dependency flows inward):&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Cqrs Implementation</title><link>https://agentskill.wiki/skills/cqrs-implementation/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/cqrs-implementation/</guid><description>&lt;h1 id="cqrs-implementation"&gt;CQRS Implementation&lt;/h1&gt;
 &lt;p&gt;Comprehensive guide to implementing CQRS (Command Query Responsibility Segregation) patterns.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -556,7 +556,7 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://martinfowler.com/bliki/CQRS.html"&gt;CQRS Pattern&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://docs.microsoft.com/en-us/azure/architecture/patterns/cqrs"&gt;Microsoft CQRS Guidance&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Event Store Design</title><link>https://agentskill.wiki/en/skills/event-store-design/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/event-store-design/</guid><description>&lt;h1 id="event-store-design"&gt;Event Store Design&lt;/h1&gt;
+&lt;/ul&gt;</description></item><item><title>Event Store Design</title><link>https://agentskill.wiki/skills/event-store-design/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/event-store-design/</guid><description>&lt;h1 id="event-store-design"&gt;Event Store Design&lt;/h1&gt;
 &lt;p&gt;Comprehensive guide to designing event stores for event-sourced applications.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -1011,7 +1011,7 @@
 &lt;li&gt;&lt;a href="https://www.eventstore.com/"&gt;EventStoreDB&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://martendb.io/events/"&gt;Marten Events&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://docs.microsoft.com/en-us/azure/architecture/patterns/event-sourcing"&gt;Event Sourcing Pattern&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Microservices Patterns</title><link>https://agentskill.wiki/en/skills/microservices-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/microservices-patterns/</guid><description>&lt;h1 id="microservices-patterns"&gt;Microservices Patterns&lt;/h1&gt;
+&lt;/ul&gt;</description></item><item><title>Microservices Patterns</title><link>https://agentskill.wiki/skills/microservices-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/microservices-patterns/</guid><description>&lt;h1 id="microservices-patterns"&gt;Microservices Patterns&lt;/h1&gt;
 &lt;p&gt;Master microservices architecture patterns including service boundaries, inter-service communication, data management, and resilience patterns for building distributed systems.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -1031,7 +1031,7 @@
 &lt;li&gt;Each service owns its domain&lt;/li&gt;
 &lt;li&gt;Example: OrderService, PaymentService, InventoryService&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;By Subdomain (DDD)&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Reasoningbank Intelligence</title><link>https://agentskill.wiki/en/skills/reasoningbank-intelligence/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/reasoningbank-intelligence/</guid><description>&lt;h1 id="reasoningbank-intelligence"&gt;ReasoningBank Intelligence&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;By Subdomain (DDD)&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Reasoningbank Intelligence</title><link>https://agentskill.wiki/skills/reasoningbank-intelligence/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/reasoningbank-intelligence/</guid><description>&lt;h1 id="reasoningbank-intelligence"&gt;ReasoningBank Intelligence&lt;/h1&gt;
 &lt;h2 id="what-this-skill-does"&gt;What This Skill Does&lt;/h2&gt;
 &lt;p&gt;Implements ReasoningBank&amp;rsquo;s adaptive learning system for AI agents to learn from experience, recognize patterns, and optimize strategies over time. Enables meta-cognitive capabilities and continuous improvement.&lt;/p&gt;
 &lt;h2 id="prerequisites"&gt;Prerequisites&lt;/h2&gt;
@@ -1178,7 +1178,7 @@
 &lt;/ol&gt;
 &lt;h2 id="troubleshooting"&gt;Troubleshooting&lt;/h2&gt;
 &lt;h3 id="issue-poor-recommendations"&gt;Issue: Poor recommendations&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Solution&lt;/strong&gt;: Ensure sufficient training data (100+ experiences per task type)&lt;/p&gt;</description></item><item><title>Saga Orchestration</title><link>https://agentskill.wiki/en/skills/saga-orchestration/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/saga-orchestration/</guid><description>&lt;h1 id="saga-orchestration"&gt;Saga Orchestration&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Solution&lt;/strong&gt;: Ensure sufficient training data (100+ experiences per task type)&lt;/p&gt;</description></item><item><title>Saga Orchestration</title><link>https://agentskill.wiki/skills/saga-orchestration/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/saga-orchestration/</guid><description>&lt;h1 id="saga-orchestration"&gt;Saga Orchestration&lt;/h1&gt;
 &lt;p&gt;Patterns for managing distributed transactions and long-running business processes.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;

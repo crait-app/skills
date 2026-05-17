@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Event-Sourcing on Agent Skills Hub</title><link>https://agentskill.wiki/tags/event-sourcing/</link><description>Recent content in Event-Sourcing on Agent Skills Hub</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/event-sourcing/index.xml" rel="self" type="application/rss+xml"/><item><title>Cqrs Implementation</title><link>https://agentskill.wiki/en/skills/cqrs-implementation/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/cqrs-implementation/</guid><description>&lt;h1 id="cqrs-implementation"&gt;CQRS Implementation&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Event-Sourcing on Agent Skills Hub</title><link>https://agentskill.wiki/tags/event-sourcing/</link><description>Recent content in Event-Sourcing on Agent Skills Hub</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/event-sourcing/index.xml" rel="self" type="application/rss+xml"/><item><title>Cqrs Implementation</title><link>https://agentskill.wiki/skills/cqrs-implementation/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/cqrs-implementation/</guid><description>&lt;h1 id="cqrs-implementation"&gt;CQRS Implementation&lt;/h1&gt;
 &lt;p&gt;Comprehensive guide to implementing CQRS (Command Query Responsibility Segregation) patterns.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -542,7 +542,7 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://martinfowler.com/bliki/CQRS.html"&gt;CQRS Pattern&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://docs.microsoft.com/en-us/azure/architecture/patterns/cqrs"&gt;Microsoft CQRS Guidance&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Event Store Design</title><link>https://agentskill.wiki/en/skills/event-store-design/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/event-store-design/</guid><description>&lt;h1 id="event-store-design"&gt;Event Store Design&lt;/h1&gt;
+&lt;/ul&gt;</description></item><item><title>Event Store Design</title><link>https://agentskill.wiki/skills/event-store-design/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/event-store-design/</guid><description>&lt;h1 id="event-store-design"&gt;Event Store Design&lt;/h1&gt;
 &lt;p&gt;Comprehensive guide to designing event stores for event-sourced applications.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;

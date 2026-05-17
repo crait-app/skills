@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Automation Engineer on Agent Skills Hub</title><link>https://agentskill.wiki/topics/automation-engineer/</link><description>Recent content in Automation Engineer on Agent Skills Hub</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/topics/automation-engineer/index.xml" rel="self" type="application/rss+xml"/><item><title>N8N Code Javascript</title><link>https://agentskill.wiki/en/skills/n8n-code-javascript/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/n8n-code-javascript/</guid><description>&lt;h1 id="javascript-code-node"&gt;JavaScript Code Node&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Automation Engineer on Agent Skills Hub</title><link>https://agentskill.wiki/topics/automation-engineer/</link><description>Recent content in Automation Engineer on Agent Skills Hub</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/topics/automation-engineer/index.xml" rel="self" type="application/rss+xml"/><item><title>N8N Code Javascript</title><link>https://agentskill.wiki/skills/n8n-code-javascript/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/n8n-code-javascript/</guid><description>&lt;h1 id="javascript-code-node"&gt;JavaScript Code Node&lt;/h1&gt;
 &lt;p&gt;Expert guidance for writing JavaScript code in n8n Code nodes.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;
@@ -25,7 +25,7 @@
 &lt;/ol&gt;
 &lt;hr&gt;
 &lt;h2 id="mode-selection-guide"&gt;Mode Selection Guide&lt;/h2&gt;
-&lt;p&gt;The Code node offers two execution modes. Choose based on your use case:&lt;/p&gt;</description></item><item><title>N8N Mcp Tools Expert</title><link>https://agentskill.wiki/en/skills/n8n-mcp-tools-expert/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/n8n-mcp-tools-expert/</guid><description>&lt;h1 id="n8n-mcp-tools-expert"&gt;n8n MCP Tools Expert&lt;/h1&gt;
+&lt;p&gt;The Code node offers two execution modes. Choose based on your use case:&lt;/p&gt;</description></item><item><title>N8N Mcp Tools Expert</title><link>https://agentskill.wiki/skills/n8n-mcp-tools-expert/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/n8n-mcp-tools-expert/</guid><description>&lt;h1 id="n8n-mcp-tools-expert"&gt;n8n MCP Tools Expert&lt;/h1&gt;
 &lt;p&gt;Master guide for using n8n-mcp MCP server tools to build workflows.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id="tool-categories"&gt;Tool Categories&lt;/h2&gt;
@@ -91,7 +91,7 @@
 &lt;hr&gt;
 &lt;h2 id="tool-selection-guide"&gt;Tool Selection Guide&lt;/h2&gt;
 &lt;h3 id="finding-the-right-node"&gt;Finding the Right Node&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Workflow&lt;/strong&gt;:&lt;/p&gt;</description></item><item><title>N8N Node Configuration</title><link>https://agentskill.wiki/en/skills/n8n-node-configuration/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/n8n-node-configuration/</guid><description>&lt;h1 id="n8n-node-configuration"&gt;n8n Node Configuration&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Workflow&lt;/strong&gt;:&lt;/p&gt;</description></item><item><title>N8N Node Configuration</title><link>https://agentskill.wiki/skills/n8n-node-configuration/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/n8n-node-configuration/</guid><description>&lt;h1 id="n8n-node-configuration"&gt;n8n Node Configuration&lt;/h1&gt;
 &lt;p&gt;Expert guidance for operation-aware node configuration with property dependencies.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id="configuration-philosophy"&gt;Configuration Philosophy&lt;/h2&gt;
@@ -106,7 +106,7 @@
 &lt;hr&gt;
 &lt;h2 id="core-concepts"&gt;Core Concepts&lt;/h2&gt;
 &lt;h3 id="1-operation-aware-configuration"&gt;1. Operation-Aware Configuration&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Not all fields are always required&lt;/strong&gt; - it depends on operation!&lt;/p&gt;</description></item><item><title>Pdf</title><link>https://agentskill.wiki/en/skills/pdf/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/pdf/</guid><description>&lt;h1 id="pdf-processing-guide"&gt;PDF Processing Guide&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Not all fields are always required&lt;/strong&gt; - it depends on operation!&lt;/p&gt;</description></item><item><title>Pdf</title><link>https://agentskill.wiki/skills/pdf/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/pdf/</guid><description>&lt;h1 id="pdf-processing-guide"&gt;PDF Processing Guide&lt;/h1&gt;
 &lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;This guide covers essential PDF processing operations using Python libraries and command-line tools. For advanced features, JavaScript libraries, and detailed examples, see reference.md. If you need to fill out a PDF form, read forms.md and follow its instructions.&lt;/p&gt;
 &lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;
@@ -372,7 +372,7 @@
 &lt;li&gt;For JavaScript libraries (pdf-lib), see reference.md&lt;/li&gt;
 &lt;li&gt;If you need to fill out a PDF form, follow the instructions in forms.md&lt;/li&gt;
 &lt;li&gt;For troubleshooting guides, see reference.md&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Pdf Processing</title><link>https://agentskill.wiki/en/skills/pdf-processing/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/pdf-processing/</guid><description>&lt;h1 id="pdf-processing"&gt;PDF Processing&lt;/h1&gt;
+&lt;/ul&gt;</description></item><item><title>Pdf Processing</title><link>https://agentskill.wiki/skills/pdf-processing/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/pdf-processing/</guid><description>&lt;h1 id="pdf-processing"&gt;PDF Processing&lt;/h1&gt;
 &lt;h2 id="quick-start"&gt;Quick start&lt;/h2&gt;
 &lt;p&gt;Use pdfplumber to extract text from PDFs:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-python" data-lang="python"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;import&lt;/span&gt; pdfplumber
@@ -392,7 +392,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;8&lt;/span&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;for&lt;/span&gt; row &lt;span style="color:#f92672"&gt;in&lt;/span&gt; table:
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;9&lt;/span&gt;&lt;span&gt; print(row)
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="extracting-all-pages"&gt;Extracting all pages&lt;/h2&gt;
-&lt;p&gt;Process multi-page documents efficiently:&lt;/p&gt;</description></item><item><title>Skill Builder</title><link>https://agentskill.wiki/en/skills/skill-builder/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/skill-builder/</guid><description>&lt;h1 id="skill-builder"&gt;Skill Builder&lt;/h1&gt;
+&lt;p&gt;Process multi-page documents efficiently:&lt;/p&gt;</description></item><item><title>Skill Builder</title><link>https://agentskill.wiki/skills/skill-builder/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/skill-builder/</guid><description>&lt;h1 id="skill-builder"&gt;Skill Builder&lt;/h1&gt;
 &lt;h2 id="what-this-skill-does"&gt;What This Skill Does&lt;/h2&gt;
 &lt;p&gt;Creates production-ready Claude Code Skills with proper YAML frontmatter, progressive disclosure architecture, and complete file/folder structure. This skill guides you through building skills that Claude can autonomously discover and use across all surfaces (Claude.ai, Claude Code, SDK, API).&lt;/p&gt;
 &lt;h2 id="prerequisites"&gt;Prerequisites&lt;/h2&gt;
@@ -427,7 +427,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
 &lt;h2 id="complete-specification"&gt;Complete Specification&lt;/h2&gt;
 &lt;h3 id="-yaml-frontmatter-required"&gt;📋 YAML Frontmatter (REQUIRED)&lt;/h3&gt;
-&lt;p&gt;Every SKILL.md &lt;strong&gt;must&lt;/strong&gt; start with YAML frontmatter containing exactly two required fields:&lt;/p&gt;</description></item><item><title>Skill Developer</title><link>https://agentskill.wiki/en/skills/skill-developer/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/skill-developer/</guid><description>&lt;h1 id="skill-developer-guide"&gt;Skill Developer Guide&lt;/h1&gt;
+&lt;p&gt;Every SKILL.md &lt;strong&gt;must&lt;/strong&gt; start with YAML frontmatter containing exactly two required fields:&lt;/p&gt;</description></item><item><title>Skill Developer</title><link>https://agentskill.wiki/skills/skill-developer/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/skill-developer/</guid><description>&lt;h1 id="skill-developer-guide"&gt;Skill Developer Guide&lt;/h1&gt;
 &lt;h2 id="purpose"&gt;Purpose&lt;/h2&gt;
 &lt;p&gt;Comprehensive guide for creating and managing skills in Claude Code with auto-activation system, following Anthropic&amp;rsquo;s official best practices including the 500-line rule and progressive disclosure pattern.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
@@ -447,7 +447,7 @@
 &lt;hr&gt;
 &lt;h2 id="system-overview"&gt;System Overview&lt;/h2&gt;
 &lt;h3 id="two-hook-architecture"&gt;Two-Hook Architecture&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;1. UserPromptSubmit Hook&lt;/strong&gt; (Proactive Suggestions)&lt;/p&gt;</description></item><item><title>Wox Plugin Creator</title><link>https://agentskill.wiki/en/skills/wox-plugin-creator/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/wox-plugin-creator/</guid><description>&lt;h1 id="wox-plugin-creator"&gt;Wox Plugin Creator&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;1. UserPromptSubmit Hook&lt;/strong&gt; (Proactive Suggestions)&lt;/p&gt;</description></item><item><title>Wox Plugin Creator</title><link>https://agentskill.wiki/skills/wox-plugin-creator/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/wox-plugin-creator/</guid><description>&lt;h1 id="wox-plugin-creator"&gt;Wox Plugin Creator&lt;/h1&gt;
 &lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Scaffold a Node.js plugin (clones template repo):

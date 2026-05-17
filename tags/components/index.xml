@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Components on Agent Skills Hub</title><link>https://agentskill.wiki/tags/components/</link><description>Recent content in Components on Agent Skills Hub</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/components/index.xml" rel="self" type="application/rss+xml"/><item><title>Dashboard Create Screen</title><link>https://agentskill.wiki/en/skills/dashboard-create-screen/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/dashboard-create-screen/</guid><description>&lt;h1 id="dashboard-create-screen-skill"&gt;Dashboard Create Screen Skill&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Components on Agent Skills Hub</title><link>https://agentskill.wiki/tags/components/</link><description>Recent content in Components on Agent Skills Hub</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/components/index.xml" rel="self" type="application/rss+xml"/><item><title>Dashboard Create Screen</title><link>https://agentskill.wiki/skills/dashboard-create-screen/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/dashboard-create-screen/</guid><description>&lt;h1 id="dashboard-create-screen-skill"&gt;Dashboard Create Screen Skill&lt;/h1&gt;
 &lt;p&gt;Creates new screens in &lt;code&gt;client/dashboard&lt;/code&gt; with automatic route discovery and registration.&lt;/p&gt;
 &lt;h2 id="step-1-discover-available-routes"&gt;Step 1: Discover Available Routes&lt;/h2&gt;
 &lt;p&gt;First, find all router files and extract available routes.&lt;/p&gt;
@@ -14,7 +14,7 @@ client/dashboard/app/router/*.ts
 &lt;pre tabindex="0"&gt;&lt;code class="language-regex" data-lang="regex"&gt;getParentRoute:\s*\(\)\s*=&amp;gt;\s*(\w+Route)
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Extract path segments:&lt;/strong&gt;&lt;/p&gt;
 &lt;pre tabindex="0"&gt;&lt;code class="language-regex" data-lang="regex"&gt;path:\s*[&amp;#39;&amp;#34;]([^&amp;#39;&amp;#34;]+)[&amp;#39;&amp;#34;]
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Extract component import paths:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Gpui Entity</title><link>https://agentskill.wiki/en/skills/gpui-entity/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/gpui-entity/</guid><description>&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Extract component import paths:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Gpui Entity</title><link>https://agentskill.wiki/skills/gpui-entity/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/gpui-entity/</guid><description>&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;An &lt;code&gt;Entity&amp;lt;T&amp;gt;&lt;/code&gt; is a handle to state of type &lt;code&gt;T&lt;/code&gt;, providing safe access and updates.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Key Methods:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -140,7 +140,7 @@ client/dashboard/app/router/*.ts
 &lt;h3 id="implementation-guides"&gt;Implementation Guides&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Patterns&lt;/strong&gt;: See &lt;a href="references/patterns.md"&gt;patterns.md&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Senior Frontend</title><link>https://agentskill.wiki/en/skills/senior-frontend/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/senior-frontend/</guid><description>&lt;h1 id="senior-frontend"&gt;Senior Frontend&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Patterns&lt;/strong&gt;: See &lt;a href="references/patterns.md"&gt;patterns.md&lt;/a&gt;&lt;/p&gt;</description></item><item><title>Senior Frontend</title><link>https://agentskill.wiki/skills/senior-frontend/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/senior-frontend/</guid><description>&lt;h1 id="senior-frontend"&gt;Senior Frontend&lt;/h1&gt;
 &lt;p&gt;Complete toolkit for senior frontend with modern tools and best practices.&lt;/p&gt;
 &lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;
 &lt;h3 id="main-capabilities"&gt;Main Capabilities&lt;/h3&gt;
@@ -155,7 +155,7 @@ client/dashboard/app/router/*.ts
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;8&lt;/span&gt;&lt;span&gt;python scripts/frontend_scaffolder.py &lt;span style="color:#f92672"&gt;[&lt;/span&gt;options&lt;span style="color:#f92672"&gt;]&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="core-capabilities"&gt;Core Capabilities&lt;/h2&gt;
 &lt;h3 id="1-component-generator"&gt;1. Component Generator&lt;/h3&gt;
-&lt;p&gt;Automated tool for component generator tasks.&lt;/p&gt;</description></item><item><title>Tailwind Design System</title><link>https://agentskill.wiki/en/skills/tailwind-design-system/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/tailwind-design-system/</guid><description>&lt;h1 id="tailwind-design-system"&gt;Tailwind Design System&lt;/h1&gt;
+&lt;p&gt;Automated tool for component generator tasks.&lt;/p&gt;</description></item><item><title>Tailwind Design System</title><link>https://agentskill.wiki/skills/tailwind-design-system/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/tailwind-design-system/</guid><description>&lt;h1 id="tailwind-design-system"&gt;Tailwind Design System&lt;/h1&gt;
 &lt;p&gt;Build production-ready design systems with Tailwind CSS, including design tokens, component variants, responsive patterns, and accessibility.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;

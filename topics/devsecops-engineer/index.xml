@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>DevSecOps Engineer on Agent Skills Hub</title><link>https://agentskill.wiki/topics/devsecops-engineer/</link><description>Recent content in DevSecOps Engineer on Agent Skills Hub</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/topics/devsecops-engineer/index.xml" rel="self" type="application/rss+xml"/><item><title>Pci Compliance</title><link>https://agentskill.wiki/en/skills/pci-compliance/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/pci-compliance/</guid><description>&lt;h1 id="pci-compliance"&gt;PCI Compliance&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>DevSecOps Engineer on Agent Skills Hub</title><link>https://agentskill.wiki/topics/devsecops-engineer/</link><description>Recent content in DevSecOps Engineer on Agent Skills Hub</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/topics/devsecops-engineer/index.xml" rel="self" type="application/rss+xml"/><item><title>Pci Compliance</title><link>https://agentskill.wiki/skills/pci-compliance/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/pci-compliance/</guid><description>&lt;h1 id="pci-compliance"&gt;PCI Compliance&lt;/h1&gt;
 &lt;p&gt;Master PCI DSS (Payment Card Industry Data Security Standard) compliance for secure payment processing and handling of cardholder data.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -45,7 +45,7 @@
 &lt;p&gt;&lt;strong&gt;Level 1&lt;/strong&gt;: &amp;gt; 6 million transactions/year (annual ROC required)
 &lt;strong&gt;Level 2&lt;/strong&gt;: 1-6 million transactions/year (annual SAQ)
 &lt;strong&gt;Level 3&lt;/strong&gt;: 20,000-1 million e-commerce transactions/year
-&lt;strong&gt;Level 4&lt;/strong&gt;: &amp;lt; 20,000 e-commerce or &amp;lt; 1 million total transactions&lt;/p&gt;</description></item><item><title>Prowler</title><link>https://agentskill.wiki/en/skills/prowler/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/prowler/</guid><description>&lt;h2 id="components"&gt;Components&lt;/h2&gt;
+&lt;strong&gt;Level 4&lt;/strong&gt;: &amp;lt; 20,000 e-commerce or &amp;lt; 1 million total transactions&lt;/p&gt;</description></item><item><title>Prowler</title><link>https://agentskill.wiki/skills/prowler/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/prowler/</guid><description>&lt;h2 id="components"&gt;Components&lt;/h2&gt;
 &lt;table&gt;
  &lt;thead&gt;
  &lt;tr&gt;
@@ -97,7 +97,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;17&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Full Stack&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;18&lt;/span&gt;&lt;span&gt;docker-compose up -d
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="providers"&gt;Providers&lt;/h2&gt;
-&lt;p&gt;AWS, Azure, GCP, Kubernetes, GitHub, M365, OCI, AlibabaCloud, Cloudflare, MongoDB Atlas, NHN, LLM, IaC&lt;/p&gt;</description></item><item><title>Prowler Compliance Review</title><link>https://agentskill.wiki/en/skills/prowler-compliance-review/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/prowler-compliance-review/</guid><description>&lt;h2 id="when-to-use"&gt;When to Use&lt;/h2&gt;
+&lt;p&gt;AWS, Azure, GCP, Kubernetes, GitHub, M365, OCI, AlibabaCloud, Cloudflare, MongoDB Atlas, NHN, LLM, IaC&lt;/p&gt;</description></item><item><title>Prowler Compliance Review</title><link>https://agentskill.wiki/skills/prowler-compliance-review/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/prowler-compliance-review/</guid><description>&lt;h2 id="when-to-use"&gt;When to Use&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Reviewing PRs that add new compliance frameworks&lt;/li&gt;
 &lt;li&gt;Reviewing PRs that modify existing compliance frameworks&lt;/li&gt;

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Architecture on Agent Skills Hub</title><link>https://agentskill.wiki/tags/architecture/</link><description>Recent content in Architecture on Agent Skills Hub</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/architecture/index.xml" rel="self" type="application/rss+xml"/><item><title>Agent Review</title><link>https://agentskill.wiki/en/skills/agent-review/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/agent-review/</guid><description>&lt;h1 id="agent-review"&gt;Agent Review&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Architecture on Agent Skills Hub</title><link>https://agentskill.wiki/tags/architecture/</link><description>Recent content in Architecture on Agent Skills Hub</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/architecture/index.xml" rel="self" type="application/rss+xml"/><item><title>Agent Review</title><link>https://agentskill.wiki/skills/agent-review/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/agent-review/</guid><description>&lt;h1 id="agent-review"&gt;Agent Review&lt;/h1&gt;
 &lt;p&gt;Get feedback from an external AI agent. Useful for code review, architecture decisions, or getting a second opinion.&lt;/p&gt;
 &lt;h2 id="running-commands"&gt;Running Commands&lt;/h2&gt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;echo &lt;span style="color:#e6db74"&gt;&amp;#34;code or prompt&amp;#34;&lt;/span&gt; | node .claude/skills/agent-review/query.mjs &lt;span style="color:#f92672"&gt;[&lt;/span&gt;options&lt;span style="color:#f92672"&gt;]&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;Your question&amp;#34;&lt;/span&gt;
@@ -99,7 +99,7 @@
  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;Anthropic models route through Claude Agent SDK (uses your Claude subscription).
-Other models route through OpenRouter API (requires &lt;code&gt;OPENROUTER_API_KEY&lt;/code&gt;).&lt;/p&gt;</description></item><item><title>Architecture Decision Records</title><link>https://agentskill.wiki/en/skills/architecture-decision-records/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/architecture-decision-records/</guid><description>&lt;h1 id="architecture-decision-records"&gt;Architecture Decision Records&lt;/h1&gt;
+Other models route through OpenRouter API (requires &lt;code&gt;OPENROUTER_API_KEY&lt;/code&gt;).&lt;/p&gt;</description></item><item><title>Architecture Decision Records</title><link>https://agentskill.wiki/skills/architecture-decision-records/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/architecture-decision-records/</guid><description>&lt;h1 id="architecture-decision-records"&gt;Architecture Decision Records&lt;/h1&gt;
 &lt;p&gt;Comprehensive patterns for creating, maintaining, and managing Architecture Decision Records (ADRs) that capture the context and rationale behind significant technical decisions.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -365,7 +365,7 @@ Other models route through OpenRouter API (requires &lt;code&gt;OPENROUTER_API_K
 OrderItemAdded { orderId, item, timestamp }
 OrderItemRemoved { orderId, itemId, timestamp }
 PaymentReceived { orderId, amount, paymentId, timestamp }
-OrderShipped { orderId, trackingNumber, timestamp }&lt;/p&gt;</description></item><item><title>Backend Dev Guidelines</title><link>https://agentskill.wiki/en/skills/backend-dev-guidelines/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/backend-dev-guidelines/</guid><description>&lt;h1 id="backend-development-guidelines"&gt;Backend Development Guidelines&lt;/h1&gt;
+OrderShipped { orderId, trackingNumber, timestamp }&lt;/p&gt;</description></item><item><title>Backend Dev Guidelines</title><link>https://agentskill.wiki/skills/backend-dev-guidelines/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/backend-dev-guidelines/</guid><description>&lt;h1 id="backend-development-guidelines"&gt;Backend Development Guidelines&lt;/h1&gt;
 &lt;h2 id="purpose"&gt;Purpose&lt;/h2&gt;
 &lt;p&gt;Establish consistency and best practices across backend microservices (blog-api, auth-service, notifications-service) using modern Node.js/Express/TypeScript patterns.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
@@ -417,7 +417,7 @@ Services (business logic)
 Repositories (data access)
  ↓
 Database (Prisma)
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Key Principle:&lt;/strong&gt; Each layer has ONE responsibility.&lt;/p&gt;</description></item><item><title>Command Name</title><link>https://agentskill.wiki/en/skills/command-name/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/command-name/</guid><description>&lt;h1 id="plugin-structure-for-claude-code"&gt;Plugin Structure for Claude Code&lt;/h1&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Key Principle:&lt;/strong&gt; Each layer has ONE responsibility.&lt;/p&gt;</description></item><item><title>Command Name</title><link>https://agentskill.wiki/skills/command-name/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/command-name/</guid><description>&lt;h1 id="plugin-structure-for-claude-code"&gt;Plugin Structure for Claude Code&lt;/h1&gt;
 &lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;Claude Code plugins follow a standardized directory structure with automatic component discovery. Understanding this structure enables creating well-organized, maintainable plugins that integrate seamlessly with Claude Code.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Key concepts:&lt;/strong&gt;&lt;/p&gt;
@@ -429,7 +429,7 @@ Database (Prisma)
 &lt;li&gt;Explicit vs. auto-discovered component loading&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="directory-structure"&gt;Directory Structure&lt;/h2&gt;
-&lt;p&gt;Every Claude Code plugin follows this organizational pattern:&lt;/p&gt;</description></item><item><title>Cqrs Implementation</title><link>https://agentskill.wiki/en/skills/cqrs-implementation/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/cqrs-implementation/</guid><description>&lt;h1 id="cqrs-implementation"&gt;CQRS Implementation&lt;/h1&gt;
+&lt;p&gt;Every Claude Code plugin follows this organizational pattern:&lt;/p&gt;</description></item><item><title>Cqrs Implementation</title><link>https://agentskill.wiki/skills/cqrs-implementation/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/cqrs-implementation/</guid><description>&lt;h1 id="cqrs-implementation"&gt;CQRS Implementation&lt;/h1&gt;
 &lt;p&gt;Comprehensive guide to implementing CQRS (Command Query Responsibility Segregation) patterns.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -973,14 +973,14 @@ Database (Prisma)
 &lt;ul&gt;
 &lt;li&gt;&lt;a href="https://martinfowler.com/bliki/CQRS.html"&gt;CQRS Pattern&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://docs.microsoft.com/en-us/azure/architecture/patterns/cqrs"&gt;Microsoft CQRS Guidance&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Cto Advisor</title><link>https://agentskill.wiki/en/skills/cto-advisor/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/cto-advisor/</guid><description>&lt;h1 id="cto-advisor"&gt;CTO Advisor&lt;/h1&gt;
+&lt;/ul&gt;</description></item><item><title>Cto Advisor</title><link>https://agentskill.wiki/skills/cto-advisor/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/cto-advisor/</guid><description>&lt;h1 id="cto-advisor"&gt;CTO Advisor&lt;/h1&gt;
 &lt;p&gt;Strategic frameworks and tools for technology leadership, team scaling, and engineering excellence.&lt;/p&gt;
 &lt;h2 id="keywords"&gt;Keywords&lt;/h2&gt;
 &lt;p&gt;CTO, chief technology officer, technical leadership, tech debt, technical debt, engineering team, team scaling, architecture decisions, technology evaluation, engineering metrics, DORA metrics, ADR, architecture decision records, technology strategy, engineering leadership, engineering organization, team structure, hiring plan, technical strategy, vendor evaluation, technology selection&lt;/p&gt;
 &lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;
 &lt;h3 id="for-technical-debt-assessment"&gt;For Technical Debt Assessment&lt;/h3&gt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;python scripts/tech_debt_analyzer.py
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Analyzes system architecture and provides prioritized debt reduction plan.&lt;/p&gt;</description></item><item><title>Event Store Design</title><link>https://agentskill.wiki/en/skills/event-store-design/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/event-store-design/</guid><description>&lt;h1 id="event-store-design"&gt;Event Store Design&lt;/h1&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Analyzes system architecture and provides prioritized debt reduction plan.&lt;/p&gt;</description></item><item><title>Event Store Design</title><link>https://agentskill.wiki/skills/event-store-design/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/event-store-design/</guid><description>&lt;h1 id="event-store-design"&gt;Event Store Design&lt;/h1&gt;
 &lt;p&gt;Comprehensive guide to designing event stores for event-sourced applications.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -1435,7 +1435,7 @@ Database (Prisma)
 &lt;li&gt;&lt;a href="https://www.eventstore.com/"&gt;EventStoreDB&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://martendb.io/events/"&gt;Marten Events&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://docs.microsoft.com/en-us/azure/architecture/patterns/event-sourcing"&gt;Event Sourcing Pattern&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Github Multi Repo</title><link>https://agentskill.wiki/en/skills/github-multi-repo/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/github-multi-repo/</guid><description>&lt;h1 id="github-multi-repository-coordination-skill"&gt;GitHub Multi-Repository Coordination Skill&lt;/h1&gt;
+&lt;/ul&gt;</description></item><item><title>Github Multi Repo</title><link>https://agentskill.wiki/skills/github-multi-repo/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/github-multi-repo/</guid><description>&lt;h1 id="github-multi-repository-coordination-skill"&gt;GitHub Multi-Repository Coordination Skill&lt;/h1&gt;
 &lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;Advanced multi-repository coordination system that combines swarm intelligence, package synchronization, and repository architecture optimization. This skill enables organization-wide automation, cross-project collaboration, and scalable repository management.&lt;/p&gt;
 &lt;h2 id="core-capabilities"&gt;Core Capabilities&lt;/h2&gt;
@@ -1446,7 +1446,7 @@ Database (Prisma)
 &lt;h3 id="-repository-architecture"&gt;🏗️ Repository Architecture&lt;/h3&gt;
 &lt;p&gt;Structure optimization and template management for scalable projects.&lt;/p&gt;
 &lt;h3 id="-integration-management"&gt;🔗 Integration Management&lt;/h3&gt;
-&lt;p&gt;Cross-package integration testing and deployment coordination.&lt;/p&gt;</description></item><item><title>Godot Gdscript Patterns</title><link>https://agentskill.wiki/en/skills/godot-gdscript-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/godot-gdscript-patterns/</guid><description>&lt;h1 id="godot-gdscript-patterns"&gt;Godot GDScript Patterns&lt;/h1&gt;
+&lt;p&gt;Cross-package integration testing and deployment coordination.&lt;/p&gt;</description></item><item><title>Godot Gdscript Patterns</title><link>https://agentskill.wiki/skills/godot-gdscript-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/godot-gdscript-patterns/</guid><description>&lt;h1 id="godot-gdscript-patterns"&gt;Godot GDScript Patterns&lt;/h1&gt;
 &lt;p&gt;Production patterns for Godot 4.x game development with GDScript, covering architecture, signals, scenes, and optimization.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -2176,7 +2176,7 @@ Database (Prisma)
 &lt;li&gt;&lt;a href="https://docs.godotengine.org/en/stable/"&gt;Godot Documentation&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://www.gdquest.com/"&gt;GDQuest Tutorials&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://kidscancode.org/godot_recipes/"&gt;Godot Recipes&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Nx Workspace Patterns</title><link>https://agentskill.wiki/en/skills/nx-workspace-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/nx-workspace-patterns/</guid><description>&lt;h1 id="nx-workspace-patterns"&gt;Nx Workspace Patterns&lt;/h1&gt;
+&lt;/ul&gt;</description></item><item><title>Nx Workspace Patterns</title><link>https://agentskill.wiki/skills/nx-workspace-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/nx-workspace-patterns/</guid><description>&lt;h1 id="nx-workspace-patterns"&gt;Nx Workspace Patterns&lt;/h1&gt;
 &lt;p&gt;Production patterns for Nx monorepo management.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -2618,7 +2618,7 @@ Database (Prisma)
 &lt;li&gt;&lt;a href="https://nx.dev/getting-started/intro"&gt;Nx Documentation&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://nx.dev/core-features/enforce-module-boundaries"&gt;Module Boundaries&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href="https://nx.app/"&gt;Nx Cloud&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Senior Fullstack</title><link>https://agentskill.wiki/en/skills/senior-fullstack/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/senior-fullstack/</guid><description>&lt;h1 id="senior-fullstack"&gt;Senior Fullstack&lt;/h1&gt;
+&lt;/ul&gt;</description></item><item><title>Senior Fullstack</title><link>https://agentskill.wiki/skills/senior-fullstack/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/senior-fullstack/</guid><description>&lt;h1 id="senior-fullstack"&gt;Senior Fullstack&lt;/h1&gt;
 &lt;p&gt;Complete toolkit for senior fullstack with modern tools and best practices.&lt;/p&gt;
 &lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;
 &lt;h3 id="main-capabilities"&gt;Main Capabilities&lt;/h3&gt;
@@ -2633,5 +2633,5 @@ Database (Prisma)
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;8&lt;/span&gt;&lt;span&gt;python scripts/code_quality_analyzer.py &lt;span style="color:#f92672"&gt;[&lt;/span&gt;options&lt;span style="color:#f92672"&gt;]&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="core-capabilities"&gt;Core Capabilities&lt;/h2&gt;
 &lt;h3 id="1-fullstack-scaffolder"&gt;1. Fullstack Scaffolder&lt;/h3&gt;
-&lt;p&gt;Automated tool for fullstack scaffolder tasks.&lt;/p&gt;</description></item><item><title>Tool Design</title><link>https://agentskill.wiki/en/skills/tool-design/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/tool-design/</guid><description>&lt;h1 id="tool-design-for-agents"&gt;Tool Design for Agents&lt;/h1&gt;
+&lt;p&gt;Automated tool for fullstack scaffolder tasks.&lt;/p&gt;</description></item><item><title>Tool Design</title><link>https://agentskill.wiki/skills/tool-design/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/tool-design/</guid><description>&lt;h1 id="tool-design-for-agents"&gt;Tool Design for Agents&lt;/h1&gt;
 &lt;p&gt;Tools are the primary mechanism through which agents interact with the world. They define the contract between deterministic systems and non-deterministic agents. Unlike traditional software APIs designed for developers, tool APIs must be designed for language models that reason about intent, infer parameter values, and generate calls from natural language requests. Poor tool design creates failure modes that no amount of prompt engineering can fix. Effective tool design follows specific principles that account for how agents perceive and use tools.&lt;/p&gt;</description></item></channel></rss>
