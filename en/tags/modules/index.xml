@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Modules on Agent Skills Hub</title><link>https://agentskill.wiki/en/tags/modules/</link><description>Recent content in Modules on Agent Skills Hub</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/en/tags/modules/index.xml" rel="self" type="application/rss+xml"/><item><title>Terraform Module Library</title><link>https://agentskill.wiki/en/skills/terraform-module-library/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/terraform-module-library/</guid><description>&lt;h1 id="terraform-module-library"&gt;Terraform Module Library&lt;/h1&gt;
+&lt;p&gt;Production-ready Terraform module patterns for AWS, Azure, and GCP infrastructure.&lt;/p&gt;
+&lt;h2 id="purpose"&gt;Purpose&lt;/h2&gt;
+&lt;p&gt;Create reusable, well-tested Terraform modules for common cloud infrastructure patterns across multiple cloud providers.&lt;/p&gt;
+&lt;h2 id="when-to-use"&gt;When to Use&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Build reusable infrastructure components&lt;/li&gt;
+&lt;li&gt;Standardize cloud resource provisioning&lt;/li&gt;
+&lt;li&gt;Implement infrastructure as code best practices&lt;/li&gt;
+&lt;li&gt;Create multi-cloud compatible modules&lt;/li&gt;
+&lt;li&gt;Establish organizational Terraform standards&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="module-structure"&gt;Module Structure&lt;/h2&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;terraform-modules/
+├── aws/
+│ ├── vpc/
+│ ├── eks/
+│ ├── rds/
+│ └── s3/
+├── azure/
+│ ├── vnet/
+│ ├── aks/
+│ └── storage/
+└── gcp/
+ ├── vpc/
+ ├── gke/
+ └── cloud-sql/
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id="standard-module-pattern"&gt;Standard Module Pattern&lt;/h2&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;module-name/
+├── main.tf # Main resources
+├── variables.tf # Input variables
+├── outputs.tf # Output values
+├── versions.tf # Provider versions
+├── README.md # Documentation
+├── examples/ # Usage examples
+│ └── complete/
+│ ├── main.tf
+│ └── variables.tf
+└── tests/ # Terratest files
+ └── module_test.go
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id="aws-vpc-module-example"&gt;AWS VPC Module Example&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;main.tf:&lt;/strong&gt;&lt;/p&gt;</description></item></channel></rss>

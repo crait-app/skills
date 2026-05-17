@@ -1,17 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>UX Writer on Agent Skills Hub</title><link>https://agentskill.wiki/topics/ux-writer/</link><description>Recent content in UX Writer on Agent Skills Hub</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/topics/ux-writer/index.xml" rel="self" type="application/rss+xml"/><item><title>Woocommerce Copy Guidelines</title><link>https://agentskill.wiki/en/skills/woocommerce-copy-guidelines/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/woocommerce-copy-guidelines/</guid><description>&lt;h1 id="woocommerce-copy-guidelines"&gt;WooCommerce Copy Guidelines&lt;/h1&gt;
-&lt;p&gt;This skill provides guidelines for writing user-facing copy in WooCommerce, including UI text, labels, buttons, messages, and documentation.&lt;/p&gt;
-&lt;h2 id="instructions"&gt;Instructions&lt;/h2&gt;
-&lt;p&gt;Follow these guidelines when writing any user-facing text:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;Sentence case&lt;/strong&gt;: See &lt;a href="sentence-case.md"&gt;sentence-case.md&lt;/a&gt; for rules on using sentence case for all UI text&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id="key-principles"&gt;Key Principles&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Always use sentence case for UI text, not title case&lt;/li&gt;
-&lt;li&gt;Keep copy concise and action-oriented&lt;/li&gt;
-&lt;li&gt;Use clear, simple language&lt;/li&gt;
-&lt;li&gt;Be consistent with existing WooCommerce copy patterns&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Woocommerce Copy Guidelines</title><link>https://agentskill.wiki/skills/woocommerce-copy-guidelines/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/woocommerce-copy-guidelines/</guid><description>&lt;h1 id="woocommerce-copy-guidelines"&gt;WooCommerce Copy Guidelines&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>UX Writer on Agent Skills Hub</title><link>https://agentskill.wiki/topics/ux-writer/</link><description>Recent content in UX Writer on Agent Skills Hub</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/topics/ux-writer/index.xml" rel="self" type="application/rss+xml"/><item><title>Woocommerce Copy Guidelines</title><link>https://agentskill.wiki/en/skills/woocommerce-copy-guidelines/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/woocommerce-copy-guidelines/</guid><description>&lt;h1 id="woocommerce-copy-guidelines"&gt;WooCommerce Copy Guidelines&lt;/h1&gt;
 &lt;p&gt;This skill provides guidelines for writing user-facing copy in WooCommerce, including UI text, labels, buttons, messages, and documentation.&lt;/p&gt;
 &lt;h2 id="instructions"&gt;Instructions&lt;/h2&gt;
 &lt;p&gt;Follow these guidelines when writing any user-facing text:&lt;/p&gt;

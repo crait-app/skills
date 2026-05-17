@@ -1,22 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Workflow on Agent Skills Hub</title><link>https://agentskill.wiki/tags/workflow/</link><description>Recent content in Workflow on Agent Skills Hub</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/workflow/index.xml" rel="self" type="application/rss+xml"/><item><title>Agent Memory</title><link>https://agentskill.wiki/en/skills/agent-memory/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/agent-memory/</guid><description>&lt;h1 id="agent-memory"&gt;Agent Memory&lt;/h1&gt;
-&lt;p&gt;A persistent memory space for storing knowledge that survives across conversations.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Location:&lt;/strong&gt; &lt;code&gt;.claude/skills/agent-memory/memories/&lt;/code&gt;&lt;/p&gt;
-&lt;h2 id="proactive-usage"&gt;Proactive Usage&lt;/h2&gt;
-&lt;p&gt;Save memories when you discover something worth preserving:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Research findings that took effort to uncover&lt;/li&gt;
-&lt;li&gt;Non-obvious patterns or gotchas in the codebase&lt;/li&gt;
-&lt;li&gt;Solutions to tricky problems&lt;/li&gt;
-&lt;li&gt;Architectural decisions and their rationale&lt;/li&gt;
-&lt;li&gt;In-progress work that may be resumed later&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Check memories when starting related work:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Before investigating a problem area&lt;/li&gt;
-&lt;li&gt;When working on a feature you&amp;rsquo;ve touched before&lt;/li&gt;
-&lt;li&gt;When resuming work after a conversation break&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Organize memories when needed:&lt;/p&gt;</description></item><item><title>Agent Memory</title><link>https://agentskill.wiki/skills/agent-memory/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/agent-memory/</guid><description>&lt;h1 id="agent-memory"&gt;Agent Memory&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Workflow on Agent Skills Hub</title><link>https://agentskill.wiki/tags/workflow/</link><description>Recent content in Workflow on Agent Skills Hub</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/workflow/index.xml" rel="self" type="application/rss+xml"/><item><title>Agent Memory</title><link>https://agentskill.wiki/en/skills/agent-memory/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/agent-memory/</guid><description>&lt;h1 id="agent-memory"&gt;Agent Memory&lt;/h1&gt;
 &lt;p&gt;A persistent memory space for storing knowledge that survives across conversations.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Location:&lt;/strong&gt; &lt;code&gt;.claude/skills/agent-memory/memories/&lt;/code&gt;&lt;/p&gt;
 &lt;h2 id="proactive-usage"&gt;Proactive Usage&lt;/h2&gt;
@@ -47,58 +29,7 @@
 &lt;/ul&gt;
 &lt;h2 id="command-basics"&gt;Command Basics&lt;/h2&gt;
 &lt;h3 id="what-is-a-slash-command"&gt;What is a Slash Command?&lt;/h3&gt;
-&lt;p&gt;A slash command is a Markdown file containing a prompt that Claude executes when invoked. Commands provide:&lt;/p&gt;</description></item><item><title>Command Development</title><link>https://agentskill.wiki/skills/command-development/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/command-development/</guid><description>&lt;h1 id="command-development-for-claude-code"&gt;Command Development for Claude Code&lt;/h1&gt;
-&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
-&lt;p&gt;Slash commands are frequently-used prompts defined as Markdown files that Claude executes during interactive sessions. Understanding command structure, frontmatter options, and dynamic features enables creating powerful, reusable workflows.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Key concepts:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Markdown file format for commands&lt;/li&gt;
-&lt;li&gt;YAML frontmatter for configuration&lt;/li&gt;
-&lt;li&gt;Dynamic arguments and file references&lt;/li&gt;
-&lt;li&gt;Bash execution for context&lt;/li&gt;
-&lt;li&gt;Command organization and namespacing&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="command-basics"&gt;Command Basics&lt;/h2&gt;
-&lt;h3 id="what-is-a-slash-command"&gt;What is a Slash Command?&lt;/h3&gt;
 &lt;p&gt;A slash command is a Markdown file containing a prompt that Claude executes when invoked. Commands provide:&lt;/p&gt;</description></item><item><title>Connect</title><link>https://agentskill.wiki/en/skills/connect/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/connect/</guid><description>&lt;h1 id="connect"&gt;Connect&lt;/h1&gt;
-&lt;p&gt;Connect Claude to any app. Stop generating text about what you could do - actually do it.&lt;/p&gt;
-&lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
-&lt;p&gt;Use this skill when you need Claude to:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Send that email&lt;/strong&gt; instead of drafting it&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Create that issue&lt;/strong&gt; instead of describing it&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Post that message&lt;/strong&gt; instead of suggesting it&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Update that database&lt;/strong&gt; instead of explaining how&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="what-changes"&gt;What Changes&lt;/h2&gt;
-&lt;table&gt;
- &lt;thead&gt;
- &lt;tr&gt;
- &lt;th&gt;Without Connect&lt;/th&gt;
- &lt;th&gt;With Connect&lt;/th&gt;
- &lt;/tr&gt;
- &lt;/thead&gt;
- &lt;tbody&gt;
- &lt;tr&gt;
- &lt;td&gt;&amp;ldquo;Here&amp;rsquo;s a draft email&amp;hellip;&amp;rdquo;&lt;/td&gt;
- &lt;td&gt;Sends the email&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;&amp;ldquo;You should create an issue&amp;hellip;&amp;rdquo;&lt;/td&gt;
- &lt;td&gt;Creates the issue&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;&amp;ldquo;Post this to Slack&amp;hellip;&amp;rdquo;&lt;/td&gt;
- &lt;td&gt;Posts it&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;&amp;ldquo;Add this to Notion&amp;hellip;&amp;rdquo;&lt;/td&gt;
- &lt;td&gt;Adds it&lt;/td&gt;
- &lt;/tr&gt;
- &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h2 id="supported-apps"&gt;Supported Apps&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;1000+ integrations&lt;/strong&gt; including:&lt;/p&gt;</description></item><item><title>Connect</title><link>https://agentskill.wiki/skills/connect/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/connect/</guid><description>&lt;h1 id="connect"&gt;Connect&lt;/h1&gt;
 &lt;p&gt;Connect Claude to any app. Stop generating text about what you could do - actually do it.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;p&gt;Use this skill when you need Claude to:&lt;/p&gt;
@@ -152,51 +83,13 @@
 &lt;h3 id="step-3-try-it"&gt;Step 3: Try It!&lt;/h3&gt;
 &lt;p&gt;After setup, restart Claude Code and try:&lt;/p&gt;
 &lt;pre tabindex="0"&gt;&lt;code&gt;Send me a test email at YOUR_EMAIL@example.com
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;If it works, you&amp;rsquo;re connected!&lt;/p&gt;</description></item><item><title>Connect Apps</title><link>https://agentskill.wiki/skills/connect-apps/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/connect-apps/</guid><description>&lt;h1 id="connect-apps"&gt;Connect Apps&lt;/h1&gt;
-&lt;p&gt;Connect Claude to 1000+ apps. Actually send emails, create issues, post messages - not just generate text about it.&lt;/p&gt;
-&lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;
-&lt;h3 id="step-1-install-the-plugin"&gt;Step 1: Install the Plugin&lt;/h3&gt;
-&lt;pre tabindex="0"&gt;&lt;code&gt;/plugin install composio-toolrouter
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id="step-2-run-setup"&gt;Step 2: Run Setup&lt;/h3&gt;
-&lt;pre tabindex="0"&gt;&lt;code&gt;/composio-toolrouter:setup
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;This will:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Ask for your free API key (get one at &lt;a href="https://platform.composio.dev/?utm_source=Github&amp;amp;utm_content=AwesomeSkills"&gt;platform.composio.dev&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;Configure Claude&amp;rsquo;s connection to 1000+ apps&lt;/li&gt;
-&lt;li&gt;Take about 60 seconds&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="step-3-try-it"&gt;Step 3: Try It!&lt;/h3&gt;
-&lt;p&gt;After setup, restart Claude Code and try:&lt;/p&gt;
-&lt;pre tabindex="0"&gt;&lt;code&gt;Send me a test email at YOUR_EMAIL@example.com
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;If it works, you&amp;rsquo;re connected!&lt;/p&gt;</description></item><item><title>Copilot</title><link>https://agentskill.wiki/en/skills/copilot/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/copilot/</guid><description>&lt;h2 id="examples"&gt;Examples&lt;/h2&gt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Create a task with an inline description&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;2&lt;/span&gt;&lt;span&gt;gh agent-task create &lt;span style="color:#e6db74"&gt;&amp;#34;&amp;lt;task description&amp;gt;&amp;#34;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;3&lt;/span&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;4&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Create a task from a markdown file&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;5&lt;/span&gt;&lt;span&gt;gh agent-task create -F task-desc.md
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Copilot</title><link>https://agentskill.wiki/skills/copilot/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/copilot/</guid><description>&lt;h2 id="examples"&gt;Examples&lt;/h2&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Create a task with an inline description&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;2&lt;/span&gt;&lt;span&gt;gh agent-task create &lt;span style="color:#e6db74"&gt;&amp;#34;&amp;lt;task description&amp;gt;&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;3&lt;/span&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;4&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Create a task from a markdown file&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;5&lt;/span&gt;&lt;span&gt;gh agent-task create -F task-desc.md
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Create Pull Request</title><link>https://agentskill.wiki/en/skills/create-pull-request/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/create-pull-request/</guid><description>&lt;h1 id="create-pull-request"&gt;Create Pull Request&lt;/h1&gt;
-&lt;p&gt;This skill guides you through creating a well-structured GitHub pull request that follows project conventions and best practices.&lt;/p&gt;
-&lt;h2 id="prerequisites-check"&gt;Prerequisites Check&lt;/h2&gt;
-&lt;p&gt;Before proceeding, verify the following:&lt;/p&gt;
-&lt;h3 id="1-check-if-gh-cli-is-installed"&gt;1. Check if &lt;code&gt;gh&lt;/code&gt; CLI is installed&lt;/h3&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;gh --version
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;If not installed, inform the user:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;The GitHub CLI (&lt;code&gt;gh&lt;/code&gt;) is required but not installed. Please install it:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;macOS: &lt;code&gt;brew install gh&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Other: &lt;a href="https://cli.github.com/"&gt;https://cli.github.com/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-&lt;h3 id="2-check-if-authenticated-with-github"&gt;2. Check if authenticated with GitHub&lt;/h3&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;gh auth status
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;If not authenticated, guide the user to run &lt;code&gt;gh auth login&lt;/code&gt;.&lt;/p&gt;</description></item><item><title>Create Pull Request</title><link>https://agentskill.wiki/skills/create-pull-request/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/create-pull-request/</guid><description>&lt;h1 id="create-pull-request"&gt;Create Pull Request&lt;/h1&gt;
 &lt;p&gt;This skill guides you through creating a well-structured GitHub pull request that follows project conventions and best practices.&lt;/p&gt;
 &lt;h2 id="prerequisites-check"&gt;Prerequisites Check&lt;/h2&gt;
 &lt;p&gt;Before proceeding, verify the following:&lt;/p&gt;
@@ -229,34 +122,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;4&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;goes here
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;5&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;HEREDOC&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="file-format"&gt;File format&lt;/h2&gt;
-&lt;p&gt;Files are created as: &lt;code&gt;{three-word-id}-{slug}.md&lt;/code&gt;&lt;/p&gt;</description></item><item><title>Create Scratch</title><link>https://agentskill.wiki/skills/create-scratch/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/create-scratch/</guid><description>&lt;h2 id="what-i-do"&gt;What I do&lt;/h2&gt;
-&lt;p&gt;I help you create new scratch files in the &lt;code&gt;.agents/scratches/&lt;/code&gt; directory. Each scratch file gets:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;A unique three-word identifier (e.g., &lt;code&gt;calm-teal-cloud&lt;/code&gt;)&lt;/li&gt;
-&lt;li&gt;Frontmatter with the current date and formatted title&lt;/li&gt;
-&lt;li&gt;Content you provide&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="how-to-use"&gt;How to use&lt;/h2&gt;
-&lt;p&gt;Run the script with a slug and content:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;npx tsx scripts/create-scratch.ts &lt;span style="color:#e6db74"&gt;&amp;#34;note-name&amp;#34;&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;Scratch content here&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Or use heredoc for multi-line content:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;npx tsx scripts/create-scratch.ts &lt;span style="color:#e6db74"&gt;&amp;#34;note-name&amp;#34;&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;lt;&amp;lt; HEREDOC
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;2&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;Multi-line
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;3&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;scratch content
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;4&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;goes here
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;5&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;HEREDOC&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="file-format"&gt;File format&lt;/h2&gt;
 &lt;p&gt;Files are created as: &lt;code&gt;{three-word-id}-{slug}.md&lt;/code&gt;&lt;/p&gt;</description></item><item><title>Doc Coauthoring</title><link>https://agentskill.wiki/en/skills/doc-coauthoring/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/doc-coauthoring/</guid><description>&lt;h1 id="doc-co-authoring-workflow"&gt;Doc Co-Authoring Workflow&lt;/h1&gt;
-&lt;p&gt;This skill provides a structured workflow for guiding users through collaborative document creation. Act as an active guide, walking users through three stages: Context Gathering, Refinement &amp;amp; Structure, and Reader Testing.&lt;/p&gt;
-&lt;h2 id="when-to-offer-this-workflow"&gt;When to Offer This Workflow&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Trigger conditions:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;User mentions writing documentation: &amp;ldquo;write a doc&amp;rdquo;, &amp;ldquo;draft a proposal&amp;rdquo;, &amp;ldquo;create a spec&amp;rdquo;, &amp;ldquo;write up&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;User mentions specific doc types: &amp;ldquo;PRD&amp;rdquo;, &amp;ldquo;design doc&amp;rdquo;, &amp;ldquo;decision doc&amp;rdquo;, &amp;ldquo;RFC&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;User seems to be starting a substantial writing task&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Initial offer:&lt;/strong&gt;
-Offer the user a structured workflow for co-authoring the document. Explain the three stages:&lt;/p&gt;</description></item><item><title>Doc Coauthoring</title><link>https://agentskill.wiki/skills/doc-coauthoring/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/doc-coauthoring/</guid><description>&lt;h1 id="doc-co-authoring-workflow"&gt;Doc Co-Authoring Workflow&lt;/h1&gt;
 &lt;p&gt;This skill provides a structured workflow for guiding users through collaborative document creation. Act as an active guide, walking users through three stages: Context Gathering, Refinement &amp;amp; Structure, and Reader Testing.&lt;/p&gt;
 &lt;h2 id="when-to-offer-this-workflow"&gt;When to Offer This Workflow&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Trigger conditions:&lt;/strong&gt;&lt;/p&gt;
@@ -290,112 +156,13 @@ Offer the user a structured workflow for co-authoring the document. Explain the 
 &lt;/ul&gt;
 &lt;h2 id="swarm-management"&gt;Swarm Management&lt;/h2&gt;
 &lt;h3 id="initialize-swarm"&gt;Initialize Swarm&lt;/h3&gt;
-&lt;p&gt;Create a new swarm with specified topology and configuration:&lt;/p&gt;</description></item><item><title>Flow Nexus Swarm</title><link>https://agentskill.wiki/skills/flow-nexus-swarm/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/flow-nexus-swarm/</guid><description>&lt;h1 id="flow-nexus-swarm--workflow-orchestration"&gt;Flow Nexus Swarm &amp;amp; Workflow Orchestration&lt;/h1&gt;
-&lt;p&gt;Deploy and manage cloud-based AI agent swarms with event-driven workflow automation, message queue processing, and intelligent agent coordination.&lt;/p&gt;
-&lt;h2 id="-table-of-contents"&gt;📋 Table of Contents&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;a href="https://agentskill.wiki/skills/flow-nexus-swarm/#overview"&gt;Overview&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://agentskill.wiki/skills/flow-nexus-swarm/#swarm-management"&gt;Swarm Management&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://agentskill.wiki/skills/flow-nexus-swarm/#workflow-automation"&gt;Workflow Automation&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://agentskill.wiki/skills/flow-nexus-swarm/#agent-orchestration"&gt;Agent Orchestration&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://agentskill.wiki/skills/flow-nexus-swarm/#templates--patterns"&gt;Templates &amp;amp; Patterns&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://agentskill.wiki/skills/flow-nexus-swarm/#advanced-features"&gt;Advanced Features&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href="https://agentskill.wiki/skills/flow-nexus-swarm/#best-practices"&gt;Best Practices&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
-&lt;p&gt;Flow Nexus provides cloud-based orchestration for AI agent swarms with:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Multi-topology Support&lt;/strong&gt;: Hierarchical, mesh, ring, and star architectures&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Event-driven Workflows&lt;/strong&gt;: Message queue processing with async execution&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Template Library&lt;/strong&gt;: Pre-built swarm configurations for common use cases&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Intelligent Agent Assignment&lt;/strong&gt;: Vector similarity matching for optimal agent selection&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Real-time Monitoring&lt;/strong&gt;: Comprehensive metrics and audit trails&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Scalable Infrastructure&lt;/strong&gt;: Cloud-based execution with auto-scaling&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="swarm-management"&gt;Swarm Management&lt;/h2&gt;
-&lt;h3 id="initialize-swarm"&gt;Initialize Swarm&lt;/h3&gt;
 &lt;p&gt;Create a new swarm with specified topology and configuration:&lt;/p&gt;</description></item><item><title>Gh Fix Ci</title><link>https://agentskill.wiki/en/skills/gh-fix-ci/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/gh-fix-ci/</guid><description>&lt;h1 id="gh-pr-checks-plan-fix"&gt;Gh Pr Checks Plan Fix&lt;/h1&gt;
 &lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;Use gh to locate failing PR checks, fetch GitHub Actions logs for actionable failures, summarize the failure snippet, then propose a fix plan and implement after explicit approval.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Depends on the &lt;code&gt;plan&lt;/code&gt; skill for drafting and approving the fix plan.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Prereq: ensure &lt;code&gt;gh&lt;/code&gt; is authenticated (for example, run &lt;code&gt;gh auth login&lt;/code&gt; once), then run &lt;code&gt;gh auth status&lt;/code&gt; with escalated permissions (include workflow/repo scopes) so &lt;code&gt;gh&lt;/code&gt; commands succeed. If sandboxing blocks &lt;code&gt;gh auth status&lt;/code&gt;, rerun it with &lt;code&gt;sandbox_permissions=require_escalated&lt;/code&gt;.&lt;/p&gt;</description></item><item><title>Gh Fix Ci</title><link>https://agentskill.wiki/skills/gh-fix-ci/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/gh-fix-ci/</guid><description>&lt;h1 id="gh-pr-checks-plan-fix"&gt;Gh Pr Checks Plan Fix&lt;/h1&gt;
-&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
-&lt;p&gt;Use gh to locate failing PR checks, fetch GitHub Actions logs for actionable failures, summarize the failure snippet, then propose a fix plan and implement after explicit approval.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Depends on the &lt;code&gt;plan&lt;/code&gt; skill for drafting and approving the fix plan.&lt;/li&gt;
-&lt;/ul&gt;
 &lt;p&gt;Prereq: ensure &lt;code&gt;gh&lt;/code&gt; is authenticated (for example, run &lt;code&gt;gh auth login&lt;/code&gt; once), then run &lt;code&gt;gh auth status&lt;/code&gt; with escalated permissions (include workflow/repo scopes) so &lt;code&gt;gh&lt;/code&gt; commands succeed. If sandboxing blocks &lt;code&gt;gh auth status&lt;/code&gt;, rerun it with &lt;code&gt;sandbox_permissions=require_escalated&lt;/code&gt;.&lt;/p&gt;</description></item><item><title>Github Issues</title><link>https://agentskill.wiki/en/skills/github-issues/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/github-issues/</guid><description>&lt;h1 id="github-issues"&gt;GitHub Issues&lt;/h1&gt;
-&lt;p&gt;Manage GitHub issues using the &lt;code&gt;@modelcontextprotocol/server-github&lt;/code&gt; MCP server.&lt;/p&gt;
-&lt;h2 id="available-mcp-tools"&gt;Available MCP Tools&lt;/h2&gt;
-&lt;table&gt;
- &lt;thead&gt;
- &lt;tr&gt;
- &lt;th&gt;Tool&lt;/th&gt;
- &lt;th&gt;Purpose&lt;/th&gt;
- &lt;/tr&gt;
- &lt;/thead&gt;
- &lt;tbody&gt;
- &lt;tr&gt;
- &lt;td&gt;&lt;code&gt;mcp__github__create_issue&lt;/code&gt;&lt;/td&gt;
- &lt;td&gt;Create new issues&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;&lt;code&gt;mcp__github__update_issue&lt;/code&gt;&lt;/td&gt;
- &lt;td&gt;Update existing issues&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;&lt;code&gt;mcp__github__get_issue&lt;/code&gt;&lt;/td&gt;
- &lt;td&gt;Fetch issue details&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;&lt;code&gt;mcp__github__search_issues&lt;/code&gt;&lt;/td&gt;
- &lt;td&gt;Search issues&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;&lt;code&gt;mcp__github__add_issue_comment&lt;/code&gt;&lt;/td&gt;
- &lt;td&gt;Add comments&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;&lt;code&gt;mcp__github__list_issues&lt;/code&gt;&lt;/td&gt;
- &lt;td&gt;List repository issues&lt;/td&gt;
- &lt;/tr&gt;
- &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h2 id="workflow"&gt;Workflow&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;Determine action&lt;/strong&gt;: Create, update, or query?&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Gather context&lt;/strong&gt;: Get repo info, existing labels, milestones if needed&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Structure content&lt;/strong&gt;: Use appropriate template from &lt;a href="references/templates.md"&gt;references/templates.md&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Execute&lt;/strong&gt;: Call the appropriate MCP tool&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Confirm&lt;/strong&gt;: Report the issue URL to user&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id="creating-issues"&gt;Creating Issues&lt;/h2&gt;
-&lt;h3 id="required-parameters"&gt;Required Parameters&lt;/h3&gt;
-&lt;pre tabindex="0"&gt;&lt;code&gt;owner: repository owner (org or user)
-repo: repository name 
-title: clear, actionable title
-body: structured markdown content
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id="optional-parameters"&gt;Optional Parameters&lt;/h3&gt;
-&lt;pre tabindex="0"&gt;&lt;code&gt;labels: [&amp;#34;bug&amp;#34;, &amp;#34;enhancement&amp;#34;, &amp;#34;documentation&amp;#34;, ...]
-assignees: [&amp;#34;username1&amp;#34;, &amp;#34;username2&amp;#34;]
-milestone: milestone number (integer)
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id="title-guidelines"&gt;Title Guidelines&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Start with type prefix when useful: &lt;code&gt;[Bug]&lt;/code&gt;, &lt;code&gt;[Feature]&lt;/code&gt;, &lt;code&gt;[Docs]&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Be specific and actionable&lt;/li&gt;
-&lt;li&gt;Keep under 72 characters&lt;/li&gt;
-&lt;li&gt;Examples:
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;[Bug] Login fails with SSO enabled&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;[Feature] Add dark mode support&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;Add unit tests for auth module&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="body-structure"&gt;Body Structure&lt;/h3&gt;
-&lt;p&gt;Always use the templates in &lt;a href="references/templates.md"&gt;references/templates.md&lt;/a&gt;. Choose based on issue type:&lt;/p&gt;</description></item><item><title>Github Issues</title><link>https://agentskill.wiki/skills/github-issues/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/github-issues/</guid><description>&lt;h1 id="github-issues"&gt;GitHub Issues&lt;/h1&gt;
 &lt;p&gt;Manage GitHub issues using the &lt;code&gt;@modelcontextprotocol/server-github&lt;/code&gt; MCP server.&lt;/p&gt;
 &lt;h2 id="available-mcp-tools"&gt;Available MCP Tools&lt;/h2&gt;
 &lt;table&gt;
@@ -477,19 +244,6 @@ milestone: milestone number (integer)
 &lt;/ul&gt;
 &lt;h2 id="hook-types"&gt;Hook Types&lt;/h2&gt;
 &lt;h3 id="prompt-based-hooks-recommended"&gt;Prompt-Based Hooks (Recommended)&lt;/h3&gt;
-&lt;p&gt;Use LLM-driven decision making for context-aware validation:&lt;/p&gt;</description></item><item><title>Hook Development</title><link>https://agentskill.wiki/skills/hook-development/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/hook-development/</guid><description>&lt;h1 id="hook-development-for-claude-code-plugins"&gt;Hook Development for Claude Code Plugins&lt;/h1&gt;
-&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
-&lt;p&gt;Hooks are event-driven automation scripts that execute in response to Claude Code events. Use hooks to validate operations, enforce policies, add context, and integrate external tools into workflows.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Key capabilities:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Validate tool calls before execution (PreToolUse)&lt;/li&gt;
-&lt;li&gt;React to tool results (PostToolUse)&lt;/li&gt;
-&lt;li&gt;Enforce completion standards (Stop, SubagentStop)&lt;/li&gt;
-&lt;li&gt;Load project context (SessionStart)&lt;/li&gt;
-&lt;li&gt;Automate workflows across the development lifecycle&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="hook-types"&gt;Hook Types&lt;/h2&gt;
-&lt;h3 id="prompt-based-hooks-recommended"&gt;Prompt-Based Hooks (Recommended)&lt;/h3&gt;
 &lt;p&gt;Use LLM-driven decision making for context-aware validation:&lt;/p&gt;</description></item><item><title>Issue Triage</title><link>https://agentskill.wiki/en/skills/issue-triage/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/issue-triage/</guid><description>&lt;h1 id="issue-triage-skill"&gt;Issue Triage Skill&lt;/h1&gt;
 &lt;p&gt;This skill helps triage open GitHub issues in the dotnet/maui repository by:&lt;/p&gt;
 &lt;ol&gt;
@@ -513,80 +267,7 @@ milestone: milestone number (integer)
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;10&lt;/span&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;11&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Authenticate (required before first use)&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;12&lt;/span&gt;&lt;span&gt;gh auth login
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The scripts will check for &lt;code&gt;gh&lt;/code&gt; and exit with installation instructions if not found.&lt;/p&gt;</description></item><item><title>Issue Triage</title><link>https://agentskill.wiki/skills/issue-triage/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/issue-triage/</guid><description>&lt;h1 id="issue-triage-skill"&gt;Issue Triage Skill&lt;/h1&gt;
-&lt;p&gt;This skill helps triage open GitHub issues in the dotnet/maui repository by:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Initializing a session with current milestones and labels&lt;/li&gt;
-&lt;li&gt;Loading a batch of issues into memory&lt;/li&gt;
-&lt;li&gt;Presenting issues ONE AT A TIME for triage decisions&lt;/li&gt;
-&lt;li&gt;Suggesting milestones based on issue characteristics&lt;/li&gt;
-&lt;li&gt;Tracking progress through a triage session&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id="prerequisites"&gt;Prerequisites&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;GitHub CLI (gh) must be installed and authenticated:&lt;/strong&gt;&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Install&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 2&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Windows:&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 3&lt;/span&gt;&lt;span&gt;winget install --id GitHub.cli
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 4&lt;/span&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 5&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# macOS:&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 6&lt;/span&gt;&lt;span&gt;brew install gh
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 7&lt;/span&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 8&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Linux:&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 9&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# See https://cli.github.com/manual/installation&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;10&lt;/span&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;11&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Authenticate (required before first use)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;12&lt;/span&gt;&lt;span&gt;gh auth login
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;The scripts will check for &lt;code&gt;gh&lt;/code&gt; and exit with installation instructions if not found.&lt;/p&gt;</description></item><item><title>Latchbio Integration</title><link>https://agentskill.wiki/en/skills/latchbio-integration/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/latchbio-integration/</guid><description>&lt;h1 id="latchbio-integration"&gt;LatchBio Integration&lt;/h1&gt;
-&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
-&lt;p&gt;Latch is a Python framework for building and deploying bioinformatics workflows as serverless pipelines. Built on Flyte, create workflows with @workflow/@task decorators, manage cloud data with LatchFile/LatchDir, configure resources, and integrate Nextflow/Snakemake pipelines.&lt;/p&gt;
-&lt;h2 id="core-capabilities"&gt;Core Capabilities&lt;/h2&gt;
-&lt;p&gt;The Latch platform provides four main areas of functionality:&lt;/p&gt;
-&lt;h3 id="1-workflow-creation-and-deployment"&gt;1. Workflow Creation and Deployment&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Define serverless workflows using Python decorators&lt;/li&gt;
-&lt;li&gt;Support for native Python, Nextflow, and Snakemake pipelines&lt;/li&gt;
-&lt;li&gt;Automatic containerization with Docker&lt;/li&gt;
-&lt;li&gt;Auto-generated no-code user interfaces&lt;/li&gt;
-&lt;li&gt;Version control and reproducibility&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="2-data-management"&gt;2. Data Management&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Cloud storage abstractions (LatchFile, LatchDir)&lt;/li&gt;
-&lt;li&gt;Structured data organization with Registry (Projects → Tables → Records)&lt;/li&gt;
-&lt;li&gt;Type-safe data operations with links and enums&lt;/li&gt;
-&lt;li&gt;Automatic file transfer between local and cloud&lt;/li&gt;
-&lt;li&gt;Glob pattern matching for file selection&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="3-resource-configuration"&gt;3. Resource Configuration&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Pre-configured task decorators (@small_task, @large_task, @small_gpu_task, @large_gpu_task)&lt;/li&gt;
-&lt;li&gt;Custom resource specifications (CPU, memory, GPU, storage)&lt;/li&gt;
-&lt;li&gt;GPU support (K80, V100, A100)&lt;/li&gt;
-&lt;li&gt;Timeout and storage configuration&lt;/li&gt;
-&lt;li&gt;Cost optimization strategies&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="4-verified-workflows"&gt;4. Verified Workflows&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Production-ready pre-built pipelines&lt;/li&gt;
-&lt;li&gt;Bulk RNA-seq, DESeq2, pathway analysis&lt;/li&gt;
-&lt;li&gt;AlphaFold and ColabFold for protein structure prediction&lt;/li&gt;
-&lt;li&gt;Single-cell tools (ArchR, scVelo, emptyDropsR)&lt;/li&gt;
-&lt;li&gt;CRISPR analysis, phylogenetics, and more&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;
-&lt;h3 id="installation-and-setup"&gt;Installation and Setup&lt;/h3&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Install Latch SDK&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 2&lt;/span&gt;&lt;span&gt;python3 -m uv pip install latch
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 3&lt;/span&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 4&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Login to Latch&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 5&lt;/span&gt;&lt;span&gt;latch login
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 6&lt;/span&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 7&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Initialize a new workflow&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 8&lt;/span&gt;&lt;span&gt;latch init my-workflow
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 9&lt;/span&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;10&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Register workflow to platform&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;11&lt;/span&gt;&lt;span&gt;latch register my-workflow
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Prerequisites:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Latchbio Integration</title><link>https://agentskill.wiki/skills/latchbio-integration/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/latchbio-integration/</guid><description>&lt;h1 id="latchbio-integration"&gt;LatchBio Integration&lt;/h1&gt;
 &lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;Latch is a Python framework for building and deploying bioinformatics workflows as serverless pipelines. Built on Flyte, create workflows with @workflow/@task decorators, manage cloud data with LatchFile/LatchDir, configure resources, and integrate Nextflow/Snakemake pipelines.&lt;/p&gt;
 &lt;h2 id="core-capabilities"&gt;Core Capabilities&lt;/h2&gt;
@@ -680,69 +361,7 @@ Loop 2: Research → save to notes.md → update task_plan.md
 Loop 3: Read notes.md → create deliverable → update task_plan.md
 Loop 4: Deliver final output
 &lt;/code&gt;&lt;/pre&gt;&lt;h3 id="the-loop-in-detail"&gt;The Loop in Detail&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Before each major action:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Planning With Files</title><link>https://agentskill.wiki/skills/planning-with-files/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/planning-with-files/</guid><description>&lt;h1 id="planning-with-files"&gt;Planning with Files&lt;/h1&gt;
-&lt;p&gt;Work like Manus: Use persistent markdown files as your &amp;ldquo;working memory on disk.&amp;rdquo;&lt;/p&gt;
-&lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;
-&lt;p&gt;Before ANY complex task:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;Create &lt;code&gt;task_plan.md&lt;/code&gt;&lt;/strong&gt; in the working directory&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Define phases&lt;/strong&gt; with checkboxes&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Update after each phase&lt;/strong&gt; - mark [x] and change status&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Read before deciding&lt;/strong&gt; - refresh goals in attention window&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id="the-3-file-pattern"&gt;The 3-File Pattern&lt;/h2&gt;
-&lt;p&gt;For every non-trivial task, create THREE files:&lt;/p&gt;
-&lt;table&gt;
- &lt;thead&gt;
- &lt;tr&gt;
- &lt;th&gt;File&lt;/th&gt;
- &lt;th&gt;Purpose&lt;/th&gt;
- &lt;th&gt;When to Update&lt;/th&gt;
- &lt;/tr&gt;
- &lt;/thead&gt;
- &lt;tbody&gt;
- &lt;tr&gt;
- &lt;td&gt;&lt;code&gt;task_plan.md&lt;/code&gt;&lt;/td&gt;
- &lt;td&gt;Track phases and progress&lt;/td&gt;
- &lt;td&gt;After each phase&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;&lt;code&gt;notes.md&lt;/code&gt;&lt;/td&gt;
- &lt;td&gt;Store findings and research&lt;/td&gt;
- &lt;td&gt;During research&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;&lt;code&gt;[deliverable].md&lt;/code&gt;&lt;/td&gt;
- &lt;td&gt;Final output&lt;/td&gt;
- &lt;td&gt;At completion&lt;/td&gt;
- &lt;/tr&gt;
- &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h2 id="core-workflow"&gt;Core Workflow&lt;/h2&gt;
-&lt;pre tabindex="0"&gt;&lt;code&gt;Loop 1: Create task_plan.md with goal and phases
-Loop 2: Research → save to notes.md → update task_plan.md
-Loop 3: Read notes.md → create deliverable → update task_plan.md
-Loop 4: Deliver final output
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id="the-loop-in-detail"&gt;The Loop in Detail&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;Before each major action:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Pr Creator</title><link>https://agentskill.wiki/en/skills/pr-creator/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/pr-creator/</guid><description>&lt;h1 id="pull-request-creator"&gt;Pull Request Creator&lt;/h1&gt;
-&lt;p&gt;This skill guides the creation of high-quality Pull Requests that adhere to the
-repository&amp;rsquo;s standards.&lt;/p&gt;
-&lt;h2 id="workflow"&gt;Workflow&lt;/h2&gt;
-&lt;p&gt;Follow these steps to create a Pull Request:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Branch Management&lt;/strong&gt;: Check the current branch to avoid working directly
-on &lt;code&gt;main&lt;/code&gt;.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Run &lt;code&gt;git branch --show-current&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;If the current branch is &lt;code&gt;main&lt;/code&gt;, create and switch to a new descriptive
-branch:
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;git checkout -b &amp;lt;new-branch-name&amp;gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Locate Template&lt;/strong&gt;: Search for a pull request template in the repository.&lt;/p&gt;</description></item><item><title>Pr Creator</title><link>https://agentskill.wiki/skills/pr-creator/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/pr-creator/</guid><description>&lt;h1 id="pull-request-creator"&gt;Pull Request Creator&lt;/h1&gt;
 &lt;p&gt;This skill guides the creation of high-quality Pull Requests that adhere to the
 repository&amp;rsquo;s standards.&lt;/p&gt;
 &lt;h2 id="workflow"&gt;Workflow&lt;/h2&gt;
@@ -873,119 +492,6 @@ branch:
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;15&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Create draft PR&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;16&lt;/span&gt;&lt;span&gt;gh pr create --draft --title &lt;span style="color:#e6db74"&gt;&amp;#34;feat: description&amp;#34;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="title-conventions"&gt;Title Conventions&lt;/h2&gt;
-&lt;p&gt;Follow conventional commits:&lt;/p&gt;</description></item><item><title>Prowler Pr</title><link>https://agentskill.wiki/skills/prowler-pr/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/prowler-pr/</guid><description>&lt;h2 id="pr-creation-process"&gt;PR Creation Process&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;Analyze changes&lt;/strong&gt;: &lt;code&gt;git diff main...HEAD&lt;/code&gt; to understand ALL commits&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Determine affected components&lt;/strong&gt;: SDK, API, UI, MCP, Docs&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Fill template sections&lt;/strong&gt; based on changes&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Create PR&lt;/strong&gt; with &lt;code&gt;gh pr create&lt;/code&gt;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id="pr-template-structure"&gt;PR Template Structure&lt;/h2&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-markdown" data-lang="markdown"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;### Context
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 2&lt;/span&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 3&lt;/span&gt;&lt;span&gt;{Why this change? Link issues with &lt;span style="color:#e6db74"&gt;`Fix #XXXX`&lt;/span&gt;}
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 4&lt;/span&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 5&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;### Description
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 6&lt;/span&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 7&lt;/span&gt;&lt;span&gt;{Summary of changes and dependencies}
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 8&lt;/span&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 9&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;### Steps to review
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;10&lt;/span&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;11&lt;/span&gt;&lt;span&gt;{How to test/verify the changes}
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;12&lt;/span&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;13&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;### Checklist
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;14&lt;/span&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;15&lt;/span&gt;&lt;span&gt;&amp;lt;details&amp;gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;16&lt;/span&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;17&lt;/span&gt;&lt;span&gt;&amp;lt;summary&amp;gt;&amp;lt;b&amp;gt;Community Checklist&amp;lt;/b&amp;gt;&amp;lt;/summary&amp;gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;18&lt;/span&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;19&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;- [ ]&lt;/span&gt; This feature/issue is listed in [&lt;span style="color:#f92672"&gt;here&lt;/span&gt;](&lt;span style="color:#a6e22e"&gt;https://github.com/prowler-cloud/prowler/issues?q=sort%3Aupdated-desc+is%3Aissue+is%3Aopen&lt;/span&gt;) or roadmap.prowler.com
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;20&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;- [ ]&lt;/span&gt; Is it assigned to me, if not, request it via the issue/feature in [&lt;span style="color:#f92672"&gt;here&lt;/span&gt;](&lt;span style="color:#a6e22e"&gt;https://github.com/prowler-cloud/prowler/issues?q=sort%3Aupdated-desc+is%3Aissue+is%3Aopen&lt;/span&gt;) or [&lt;span style="color:#f92672"&gt;Prowler Community Slack&lt;/span&gt;](&lt;span style="color:#a6e22e"&gt;goto.prowler.com/slack&lt;/span&gt;)
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;21&lt;/span&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;22&lt;/span&gt;&lt;span&gt;&amp;lt;/details&amp;gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;23&lt;/span&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;24&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;-&lt;/span&gt; Are there new checks included in this PR? Yes / No
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;25&lt;/span&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;-&lt;/span&gt; If so, do we need to update permissions for the provider?
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;26&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;- [ ]&lt;/span&gt; Review if the code is being covered by tests.
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;27&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;- [ ]&lt;/span&gt; Review if code is being documented following https://github.com/google/styleguide/blob/gh-pages/pyguide.md#38-comments-and-docstrings
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;28&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;- [ ]&lt;/span&gt; Review if backport is needed.
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;29&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;- [ ]&lt;/span&gt; Review if is needed to change the Readme.md
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;30&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;- [ ]&lt;/span&gt; Ensure new entries are added to CHANGELOG.md, if applicable.
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;31&lt;/span&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;32&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;#### SDK/CLI
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;33&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;-&lt;/span&gt; Are there new checks included in this PR? Yes / No
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;34&lt;/span&gt;&lt;span&gt; &lt;span style="color:#66d9ef"&gt;-&lt;/span&gt; If so, do we need to update permissions for the provider? Please review this carefully.
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;35&lt;/span&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;36&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;#### UI (if applicable)
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;37&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;- [ ]&lt;/span&gt; All issue/task requirements work as expected on the UI
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;38&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;- [ ]&lt;/span&gt; Screenshots/Video - Mobile (X &amp;lt; 640px)
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;39&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;- [ ]&lt;/span&gt; Screenshots/Video - Tablet (640px &amp;gt; X &amp;lt; 1024px)
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;40&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;- [ ]&lt;/span&gt; Screenshots/Video - Desktop (X &amp;gt; 1024px)
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;41&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;- [ ]&lt;/span&gt; Ensure new entries are added to ui/CHANGELOG.md
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;42&lt;/span&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;43&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;#### API (if applicable)
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;44&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;- [ ]&lt;/span&gt; All issue/task requirements work as expected on the API
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;45&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;- [ ]&lt;/span&gt; Endpoint response output (if applicable)
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;46&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;- [ ]&lt;/span&gt; EXPLAIN ANALYZE output for new/modified queries or indexes (if applicable)
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;47&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;- [ ]&lt;/span&gt; Performance test results (if applicable)
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;48&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;- [ ]&lt;/span&gt; Any other relevant evidence of the implementation (if applicable)
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;49&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;- [ ]&lt;/span&gt; Verify if API specs need to be regenerated.
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;50&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;- [ ]&lt;/span&gt; Check if version updates are required.
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;51&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;- [ ]&lt;/span&gt; Ensure new entries are added to api/CHANGELOG.md
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;52&lt;/span&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;53&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;### License
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;54&lt;/span&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;55&lt;/span&gt;&lt;span&gt;By submitting this pull request, I confirm that my contribution is made under the terms of the Apache 2.0 license.
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="component-specific-rules"&gt;Component-Specific Rules&lt;/h2&gt;
-&lt;table&gt;
- &lt;thead&gt;
- &lt;tr&gt;
- &lt;th&gt;Component&lt;/th&gt;
- &lt;th&gt;CHANGELOG&lt;/th&gt;
- &lt;th&gt;Extra Checks&lt;/th&gt;
- &lt;/tr&gt;
- &lt;/thead&gt;
- &lt;tbody&gt;
- &lt;tr&gt;
- &lt;td&gt;SDK&lt;/td&gt;
- &lt;td&gt;&lt;code&gt;prowler/CHANGELOG.md&lt;/code&gt;&lt;/td&gt;
- &lt;td&gt;New checks → permissions update?&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;API&lt;/td&gt;
- &lt;td&gt;&lt;code&gt;api/CHANGELOG.md&lt;/code&gt;&lt;/td&gt;
- &lt;td&gt;API specs, version bump, endpoint output, EXPLAIN ANALYZE, performance&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;UI&lt;/td&gt;
- &lt;td&gt;&lt;code&gt;ui/CHANGELOG.md&lt;/code&gt;&lt;/td&gt;
- &lt;td&gt;Screenshots for Mobile/Tablet/Desktop&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;MCP&lt;/td&gt;
- &lt;td&gt;&lt;code&gt;mcp_server/CHANGELOG.md&lt;/code&gt;&lt;/td&gt;
- &lt;td&gt;N/A&lt;/td&gt;
- &lt;/tr&gt;
- &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h2 id="commands"&gt;Commands&lt;/h2&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Check current branch status&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 2&lt;/span&gt;&lt;span&gt;git status
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 3&lt;/span&gt;&lt;span&gt;git log main..HEAD --oneline
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 4&lt;/span&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 5&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# View full diff&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 6&lt;/span&gt;&lt;span&gt;git diff main...HEAD
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 7&lt;/span&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 8&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Create PR with heredoc for body&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 9&lt;/span&gt;&lt;span&gt;gh pr create --title &lt;span style="color:#e6db74"&gt;&amp;#34;feat: description&amp;#34;&lt;/span&gt; --body &lt;span style="color:#e6db74"&gt;&amp;#34;&lt;/span&gt;&lt;span style="color:#66d9ef"&gt;$(&lt;/span&gt;cat &lt;span style="color:#e6db74"&gt;&amp;lt;&amp;lt;&amp;#39;EOF&amp;#39;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;10&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;### Context
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;11&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;...
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;12&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;EOF&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;13&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;)&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;14&lt;/span&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;15&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Create draft PR&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;16&lt;/span&gt;&lt;span&gt;gh pr create --draft --title &lt;span style="color:#e6db74"&gt;&amp;#34;feat: description&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="title-conventions"&gt;Title Conventions&lt;/h2&gt;
 &lt;p&gt;Follow conventional commits:&lt;/p&gt;</description></item><item><title>Rule Identifier</title><link>https://agentskill.wiki/en/skills/rule-identifier/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/rule-identifier/</guid><description>&lt;h1 id="writing-hookify-rules"&gt;Writing Hookify Rules&lt;/h1&gt;
 &lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;Hookify rules are markdown files with YAML frontmatter that define patterns to watch for and messages to show when those patterns match. Rules are stored in &lt;code&gt;.claude/hookify.{rule-name}.local.md&lt;/code&gt; files.&lt;/p&gt;
@@ -1001,85 +507,7 @@ branch:
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;8&lt;/span&gt;&lt;span&gt;Message to show Claude when this rule triggers.
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;9&lt;/span&gt;&lt;span&gt;Can include markdown formatting, warnings, suggestions, etc.
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="frontmatter-fields"&gt;Frontmatter Fields&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;name&lt;/strong&gt; (required): Unique identifier for the rule&lt;/p&gt;</description></item><item><title>Rule Identifier</title><link>https://agentskill.wiki/skills/rule-identifier/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/rule-identifier/</guid><description>&lt;h1 id="writing-hookify-rules"&gt;Writing Hookify Rules&lt;/h1&gt;
-&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
-&lt;p&gt;Hookify rules are markdown files with YAML frontmatter that define patterns to watch for and messages to show when those patterns match. Rules are stored in &lt;code&gt;.claude/hookify.{rule-name}.local.md&lt;/code&gt; files.&lt;/p&gt;
-&lt;h2 id="rule-file-format"&gt;Rule File Format&lt;/h2&gt;
-&lt;h3 id="basic-structure"&gt;Basic Structure&lt;/h3&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-markdown" data-lang="markdown"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;---
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;2&lt;/span&gt;&lt;span&gt;name: rule-identifier
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;3&lt;/span&gt;&lt;span&gt;enabled: true
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;4&lt;/span&gt;&lt;span&gt;event: bash|file|stop|prompt|all
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;5&lt;/span&gt;&lt;span&gt;pattern: regex-pattern-here
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;6&lt;/span&gt;&lt;span&gt;---
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;7&lt;/span&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;8&lt;/span&gt;&lt;span&gt;Message to show Claude when this rule triggers.
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;9&lt;/span&gt;&lt;span&gt;Can include markdown formatting, warnings, suggestions, etc.
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="frontmatter-fields"&gt;Frontmatter Fields&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;name&lt;/strong&gt; (required): Unique identifier for the rule&lt;/p&gt;</description></item><item><title>Skill Share</title><link>https://agentskill.wiki/en/skills/skill-share/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/skill-share/</guid><description>&lt;h2 id="when-to-use-this-skill"&gt;When to use this skill&lt;/h2&gt;
-&lt;p&gt;Use this skill when you need to:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Create new Claude skills&lt;/strong&gt; with proper structure and metadata&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Generate skill packages&lt;/strong&gt; ready for distribution&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Automatically share created skills&lt;/strong&gt; on Slack channels for team visibility&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Validate skill structure&lt;/strong&gt; before sharing&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Package and distribute&lt;/strong&gt; skills to your team&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Also use this skill when:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;User says he wants to create/share his skill&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;This skill is ideal for:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Creating skills as part of team workflows&lt;/li&gt;
-&lt;li&gt;Building internal tools that need skill creation + team notification&lt;/li&gt;
-&lt;li&gt;Automating the skill development pipeline&lt;/li&gt;
-&lt;li&gt;Collaborative skill creation with team notifications&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="key-features"&gt;Key Features&lt;/h2&gt;
-&lt;h3 id="1-skill-creation"&gt;1. Skill Creation&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Creates properly structured skill directories with SKILL.md&lt;/li&gt;
-&lt;li&gt;Generates standardized scripts/, references/, and assets/ directories&lt;/li&gt;
-&lt;li&gt;Auto-generates YAML frontmatter with required metadata&lt;/li&gt;
-&lt;li&gt;Enforces naming conventions (hyphen-case)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="2-skill-validation"&gt;2. Skill Validation&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Validates SKILL.md format and required fields&lt;/li&gt;
-&lt;li&gt;Checks naming conventions&lt;/li&gt;
-&lt;li&gt;Ensures metadata completeness before packaging&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="3-skill-packaging"&gt;3. Skill Packaging&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Creates distributable zip files&lt;/li&gt;
-&lt;li&gt;Includes all skill assets and documentation&lt;/li&gt;
-&lt;li&gt;Runs validation automatically before packaging&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="4-slack-integration-via-rube"&gt;4. Slack Integration via Rube&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Automatically sends created skill information to designated Slack channels&lt;/li&gt;
-&lt;li&gt;Shares skill metadata (name, description, link)&lt;/li&gt;
-&lt;li&gt;Posts skill summary for team discovery&lt;/li&gt;
-&lt;li&gt;Provides direct links to skill files&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="how-it-works"&gt;How It Works&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;Initialization&lt;/strong&gt;: Provide skill name and description&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Creation&lt;/strong&gt;: Skill directory is created with proper structure&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Validation&lt;/strong&gt;: Skill metadata is validated for correctness&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Packaging&lt;/strong&gt;: Skill is packaged into a distributable format&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Slack Notification&lt;/strong&gt;: Skill details are posted to your team&amp;rsquo;s Slack channel&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id="example-usage"&gt;Example Usage&lt;/h2&gt;
-&lt;pre tabindex="0"&gt;&lt;code&gt;When you ask Claude to create a skill called &amp;#34;pdf-analyzer&amp;#34;:
-1. Creates /skill-pdf-analyzer/ with SKILL.md template
-2. Generates structured directories (scripts/, references/, assets/)
-3. Validates the skill structure
-4. Packages the skill as a zip file
-5. Posts to Slack: &amp;#34;New Skill Created: pdf-analyzer - Advanced PDF analysis and extraction capabilities&amp;#34;
-&lt;/code&gt;&lt;/pre&gt;&lt;h2 id="integration-with-rube"&gt;Integration with Rube&lt;/h2&gt;
-&lt;p&gt;This skill leverages Rube for:&lt;/p&gt;</description></item><item><title>Skill Share</title><link>https://agentskill.wiki/skills/skill-share/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/skill-share/</guid><description>&lt;h2 id="when-to-use-this-skill"&gt;When to use this skill&lt;/h2&gt;
 &lt;p&gt;Use this skill when you need to:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Create new Claude skills&lt;/strong&gt; with proper structure and metadata&lt;/li&gt;

@@ -1,39 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Skill-Development on Agent Skills Hub</title><link>https://agentskill.wiki/tags/skill-development/</link><description>Recent content in Skill-Development on Agent Skills Hub</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/skill-development/index.xml" rel="self" type="application/rss+xml"/><item><title>Skill Builder</title><link>https://agentskill.wiki/en/skills/skill-builder/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/skill-builder/</guid><description>&lt;h1 id="skill-builder"&gt;Skill Builder&lt;/h1&gt;
-&lt;h2 id="what-this-skill-does"&gt;What This Skill Does&lt;/h2&gt;
-&lt;p&gt;Creates production-ready Claude Code Skills with proper YAML frontmatter, progressive disclosure architecture, and complete file/folder structure. This skill guides you through building skills that Claude can autonomously discover and use across all surfaces (Claude.ai, Claude Code, SDK, API).&lt;/p&gt;
-&lt;h2 id="prerequisites"&gt;Prerequisites&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Claude Code 2.0+ or Claude.ai with Skills support&lt;/li&gt;
-&lt;li&gt;Basic understanding of Markdown and YAML&lt;/li&gt;
-&lt;li&gt;Text editor or IDE&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;
-&lt;h3 id="creating-your-first-skill"&gt;Creating Your First Skill&lt;/h3&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# 1. Create skill directory (MUST be at top level, NOT in subdirectories!)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 2&lt;/span&gt;&lt;span&gt;mkdir -p ~/.claude/skills/my-first-skill
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 3&lt;/span&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 4&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# 2. Create SKILL.md with proper format&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 5&lt;/span&gt;&lt;span&gt;cat &amp;gt; ~/.claude/skills/my-first-skill/SKILL.md &lt;span style="color:#e6db74"&gt;&amp;lt;&amp;lt; &amp;#39;EOF&amp;#39;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 6&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;---
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 7&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;name: &amp;#34;My First Skill&amp;#34;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 8&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;description: &amp;#34;Brief description of what this skill does and when Claude should use it. Maximum 1024 characters.&amp;#34;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 9&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;---
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;10&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;11&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;# My First Skill
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;12&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;13&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;## What This Skill Does
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;14&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;[Your instructions here]
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;15&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;16&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;## Quick Start
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;17&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;[Basic usage]
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;18&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;EOF&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;19&lt;/span&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;20&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# 3. Verify skill is detected&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;21&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Restart Claude Code or refresh Claude.ai&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
-&lt;h2 id="complete-specification"&gt;Complete Specification&lt;/h2&gt;
-&lt;h3 id="-yaml-frontmatter-required"&gt;📋 YAML Frontmatter (REQUIRED)&lt;/h3&gt;
-&lt;p&gt;Every SKILL.md &lt;strong&gt;must&lt;/strong&gt; start with YAML frontmatter containing exactly two required fields:&lt;/p&gt;</description></item><item><title>Skill Builder</title><link>https://agentskill.wiki/skills/skill-builder/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/skill-builder/</guid><description>&lt;h1 id="skill-builder"&gt;Skill Builder&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Skill-Development on Agent Skills Hub</title><link>https://agentskill.wiki/tags/skill-development/</link><description>Recent content in Skill-Development on Agent Skills Hub</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/skill-development/index.xml" rel="self" type="application/rss+xml"/><item><title>Skill Builder</title><link>https://agentskill.wiki/en/skills/skill-builder/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/skill-builder/</guid><description>&lt;h1 id="skill-builder"&gt;Skill Builder&lt;/h1&gt;
 &lt;h2 id="what-this-skill-does"&gt;What This Skill Does&lt;/h2&gt;
 &lt;p&gt;Creates production-ready Claude Code Skills with proper YAML frontmatter, progressive disclosure architecture, and complete file/folder structure. This skill guides you through building skills that Claude can autonomously discover and use across all surfaces (Claude.ai, Claude Code, SDK, API).&lt;/p&gt;
 &lt;h2 id="prerequisites"&gt;Prerequisites&lt;/h2&gt;
@@ -84,39 +49,7 @@ equipped with procedural knowledge that no model can fully possess.&lt;/p&gt;
 &lt;/ol&gt;
 &lt;h2 id="core-principles"&gt;Core Principles&lt;/h2&gt;
 &lt;h3 id="concise-is-key"&gt;Concise is Key&lt;/h3&gt;
-&lt;p&gt;The context window is a public good. Skills share the context window with everything else Claude needs: system prompt, conversation history, other Skills&amp;rsquo; metadata, and the actual user request.&lt;/p&gt;</description></item><item><title>Skill Creation Guide</title><link>https://agentskill.wiki/skills/skill-creation-guide/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/skill-creation-guide/</guid><description>&lt;h1 id="skill-creator"&gt;Skill Creator&lt;/h1&gt;
-&lt;p&gt;This skill provides guidance for creating effective skills.&lt;/p&gt;
-&lt;h2 id="about-skills"&gt;About Skills&lt;/h2&gt;
-&lt;p&gt;Skills are modular, self-contained packages that extend Claude&amp;rsquo;s capabilities by providing
-specialized knowledge, workflows, and tools. Think of them as &amp;ldquo;onboarding guides&amp;rdquo; for specific
-domains or tasks—they transform Claude from a general-purpose agent into a specialized agent
-equipped with procedural knowledge that no model can fully possess.&lt;/p&gt;
-&lt;h3 id="what-skills-provide"&gt;What Skills Provide&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;Specialized workflows - Multi-step procedures for specific domains&lt;/li&gt;
-&lt;li&gt;Tool integrations - Instructions for working with specific file formats or APIs&lt;/li&gt;
-&lt;li&gt;Domain expertise - Company-specific knowledge, schemas, business logic&lt;/li&gt;
-&lt;li&gt;Bundled resources - Scripts, references, and assets for complex and repetitive tasks&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id="core-principles"&gt;Core Principles&lt;/h2&gt;
-&lt;h3 id="concise-is-key"&gt;Concise is Key&lt;/h3&gt;
 &lt;p&gt;The context window is a public good. Skills share the context window with everything else Claude needs: system prompt, conversation history, other Skills&amp;rsquo; metadata, and the actual user request.&lt;/p&gt;</description></item><item><title>Skill Creator</title><link>https://agentskill.wiki/en/skills/skill-creator/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/skill-creator/</guid><description>&lt;h1 id="skill-creator"&gt;Skill Creator&lt;/h1&gt;
-&lt;p&gt;This skill provides guidance for creating effective skills.&lt;/p&gt;
-&lt;h2 id="about-skills"&gt;About Skills&lt;/h2&gt;
-&lt;p&gt;Skills are modular, self-contained packages that extend Claude&amp;rsquo;s capabilities by providing
-specialized knowledge, workflows, and tools. Think of them as &amp;ldquo;onboarding guides&amp;rdquo; for specific
-domains or tasks—they transform Claude from a general-purpose agent into a specialized agent
-equipped with procedural knowledge that no model can fully possess.&lt;/p&gt;
-&lt;h3 id="what-skills-provide"&gt;What Skills Provide&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;Specialized workflows - Multi-step procedures for specific domains&lt;/li&gt;
-&lt;li&gt;Tool integrations - Instructions for working with specific file formats or APIs&lt;/li&gt;
-&lt;li&gt;Domain expertise - Company-specific knowledge, schemas, business logic&lt;/li&gt;
-&lt;li&gt;Bundled resources - Scripts, references, and assets for complex and repetitive tasks&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id="core-principles"&gt;Core Principles&lt;/h2&gt;
-&lt;h3 id="concise-is-key"&gt;Concise is Key&lt;/h3&gt;
-&lt;p&gt;The context window is a public good. Skills share the context window with everything else Claude needs: system prompt, conversation history, other Skills&amp;rsquo; metadata, and the actual user request.&lt;/p&gt;</description></item><item><title>Skill Creator</title><link>https://agentskill.wiki/skills/skill-creator/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/skill-creator/</guid><description>&lt;h1 id="skill-creator"&gt;Skill Creator&lt;/h1&gt;
 &lt;p&gt;This skill provides guidance for creating effective skills.&lt;/p&gt;
 &lt;h2 id="about-skills"&gt;About Skills&lt;/h2&gt;
 &lt;p&gt;Skills are modular, self-contained packages that extend Claude&amp;rsquo;s capabilities by providing
@@ -152,26 +85,6 @@ equipped with procedural knowledge that no model can fully possess.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id="system-overview"&gt;System Overview&lt;/h2&gt;
 &lt;h3 id="two-hook-architecture"&gt;Two-Hook Architecture&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;1. UserPromptSubmit Hook&lt;/strong&gt; (Proactive Suggestions)&lt;/p&gt;</description></item><item><title>Skill Developer</title><link>https://agentskill.wiki/skills/skill-developer/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/skill-developer/</guid><description>&lt;h1 id="skill-developer-guide"&gt;Skill Developer Guide&lt;/h1&gt;
-&lt;h2 id="purpose"&gt;Purpose&lt;/h2&gt;
-&lt;p&gt;Comprehensive guide for creating and managing skills in Claude Code with auto-activation system, following Anthropic&amp;rsquo;s official best practices including the 500-line rule and progressive disclosure pattern.&lt;/p&gt;
-&lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
-&lt;p&gt;Automatically activates when you mention:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Creating or adding skills&lt;/li&gt;
-&lt;li&gt;Modifying skill triggers or rules&lt;/li&gt;
-&lt;li&gt;Understanding how skill activation works&lt;/li&gt;
-&lt;li&gt;Debugging skill activation issues&lt;/li&gt;
-&lt;li&gt;Working with skill-rules.json&lt;/li&gt;
-&lt;li&gt;Hook system mechanics&lt;/li&gt;
-&lt;li&gt;Claude Code best practices&lt;/li&gt;
-&lt;li&gt;Progressive disclosure&lt;/li&gt;
-&lt;li&gt;YAML frontmatter&lt;/li&gt;
-&lt;li&gt;500-line rule&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id="system-overview"&gt;System Overview&lt;/h2&gt;
-&lt;h3 id="two-hook-architecture"&gt;Two-Hook Architecture&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;1. UserPromptSubmit Hook&lt;/strong&gt; (Proactive Suggestions)&lt;/p&gt;</description></item><item><title>Skill Development</title><link>https://agentskill.wiki/en/skills/skill-development/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/skill-development/</guid><description>&lt;h1 id="skill-development-for-claude-code-plugins"&gt;Skill Development for Claude Code Plugins&lt;/h1&gt;
 &lt;p&gt;This skill provides guidance for creating effective skills for Claude Code plugins.&lt;/p&gt;
 &lt;h2 id="about-skills"&gt;About Skills&lt;/h2&gt;
@@ -187,38 +100,7 @@ equipped with procedural knowledge that no model can fully possess.&lt;/p&gt;
 &lt;li&gt;Bundled resources - Scripts, references, and assets for complex and repetitive tasks&lt;/li&gt;
 &lt;/ol&gt;
 &lt;h3 id="anatomy-of-a-skill"&gt;Anatomy of a Skill&lt;/h3&gt;
-&lt;p&gt;Every skill consists of a required SKILL.md file and optional bundled resources:&lt;/p&gt;</description></item><item><title>Skill Development</title><link>https://agentskill.wiki/skills/skill-development/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/skill-development/</guid><description>&lt;h1 id="skill-development-for-claude-code-plugins"&gt;Skill Development for Claude Code Plugins&lt;/h1&gt;
-&lt;p&gt;This skill provides guidance for creating effective skills for Claude Code plugins.&lt;/p&gt;
-&lt;h2 id="about-skills"&gt;About Skills&lt;/h2&gt;
-&lt;p&gt;Skills are modular, self-contained packages that extend Claude&amp;rsquo;s capabilities by providing
-specialized knowledge, workflows, and tools. Think of them as &amp;ldquo;onboarding guides&amp;rdquo; for specific
-domains or tasks—they transform Claude from a general-purpose agent into a specialized agent
-equipped with procedural knowledge that no model can fully possess.&lt;/p&gt;
-&lt;h3 id="what-skills-provide"&gt;What Skills Provide&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;Specialized workflows - Multi-step procedures for specific domains&lt;/li&gt;
-&lt;li&gt;Tool integrations - Instructions for working with specific file formats or APIs&lt;/li&gt;
-&lt;li&gt;Domain expertise - Company-specific knowledge, schemas, business logic&lt;/li&gt;
-&lt;li&gt;Bundled resources - Scripts, references, and assets for complex and repetitive tasks&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h3 id="anatomy-of-a-skill"&gt;Anatomy of a Skill&lt;/h3&gt;
 &lt;p&gt;Every skill consists of a required SKILL.md file and optional bundled resources:&lt;/p&gt;</description></item><item><title>Skill Writer</title><link>https://agentskill.wiki/en/skills/skill-writer/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/skill-writer/</guid><description>&lt;h1 id="skill-writer"&gt;Skill Writer&lt;/h1&gt;
-&lt;p&gt;This Skill helps you create well-structured Agent Skills for Claude Code that follow best practices and validation requirements.&lt;/p&gt;
-&lt;h2 id="when-to-use-this-skill"&gt;When to use this Skill&lt;/h2&gt;
-&lt;p&gt;Use this Skill when:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Creating a new Agent Skill&lt;/li&gt;
-&lt;li&gt;Writing or updating SKILL.md files&lt;/li&gt;
-&lt;li&gt;Designing skill structure and frontmatter&lt;/li&gt;
-&lt;li&gt;Troubleshooting skill discovery issues&lt;/li&gt;
-&lt;li&gt;Converting existing prompts or workflows into Skills&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="instructions"&gt;Instructions&lt;/h2&gt;
-&lt;h3 id="step-1-determine-skill-scope"&gt;Step 1: Determine Skill scope&lt;/h3&gt;
-&lt;p&gt;First, understand what the Skill should do:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Ask clarifying questions&lt;/strong&gt;:&lt;/p&gt;</description></item><item><title>Skill Writer</title><link>https://agentskill.wiki/skills/skill-writer/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/skill-writer/</guid><description>&lt;h1 id="skill-writer"&gt;Skill Writer&lt;/h1&gt;
 &lt;p&gt;This Skill helps you create well-structured Agent Skills for Claude Code that follow best practices and validation requirements.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to use this Skill&lt;/h2&gt;
 &lt;p&gt;Use this Skill when:&lt;/p&gt;

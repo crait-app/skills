@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Message-Queue on Agent Skills Hub</title><link>https://agentskill.wiki/en/tags/message-queue/</link><description>Recent content in Message-Queue on Agent Skills Hub</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/en/tags/message-queue/index.xml" rel="self" type="application/rss+xml"/><item><title>Flow Nexus Swarm</title><link>https://agentskill.wiki/en/skills/flow-nexus-swarm/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/flow-nexus-swarm/</guid><description>&lt;h1 id="flow-nexus-swarm--workflow-orchestration"&gt;Flow Nexus Swarm &amp;amp; Workflow Orchestration&lt;/h1&gt;
+&lt;p&gt;Deploy and manage cloud-based AI agent swarms with event-driven workflow automation, message queue processing, and intelligent agent coordination.&lt;/p&gt;
+&lt;h2 id="-table-of-contents"&gt;📋 Table of Contents&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href="https://agentskill.wiki/en/skills/flow-nexus-swarm/#overview"&gt;Overview&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://agentskill.wiki/en/skills/flow-nexus-swarm/#swarm-management"&gt;Swarm Management&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://agentskill.wiki/en/skills/flow-nexus-swarm/#workflow-automation"&gt;Workflow Automation&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://agentskill.wiki/en/skills/flow-nexus-swarm/#agent-orchestration"&gt;Agent Orchestration&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://agentskill.wiki/en/skills/flow-nexus-swarm/#templates--patterns"&gt;Templates &amp;amp; Patterns&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://agentskill.wiki/en/skills/flow-nexus-swarm/#advanced-features"&gt;Advanced Features&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="https://agentskill.wiki/en/skills/flow-nexus-swarm/#best-practices"&gt;Best Practices&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Flow Nexus provides cloud-based orchestration for AI agent swarms with:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Multi-topology Support&lt;/strong&gt;: Hierarchical, mesh, ring, and star architectures&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Event-driven Workflows&lt;/strong&gt;: Message queue processing with async execution&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Template Library&lt;/strong&gt;: Pre-built swarm configurations for common use cases&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Intelligent Agent Assignment&lt;/strong&gt;: Vector similarity matching for optimal agent selection&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Real-time Monitoring&lt;/strong&gt;: Comprehensive metrics and audit trails&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Scalable Infrastructure&lt;/strong&gt;: Cloud-based execution with auto-scaling&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="swarm-management"&gt;Swarm Management&lt;/h2&gt;
+&lt;h3 id="initialize-swarm"&gt;Initialize Swarm&lt;/h3&gt;
+&lt;p&gt;Create a new swarm with specified topology and configuration:&lt;/p&gt;</description></item></channel></rss>

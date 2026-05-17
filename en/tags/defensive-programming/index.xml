@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Defensive-Programming on Agent Skills Hub</title><link>https://agentskill.wiki/en/tags/defensive-programming/</link><description>Recent content in Defensive-Programming on Agent Skills Hub</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/en/tags/defensive-programming/index.xml" rel="self" type="application/rss+xml"/><item><title>Bash Defensive Patterns</title><link>https://agentskill.wiki/en/skills/bash-defensive-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/bash-defensive-patterns/</guid><description>&lt;h1 id="bash-defensive-patterns"&gt;Bash Defensive Patterns&lt;/h1&gt;
+&lt;p&gt;Comprehensive guidance for writing production-ready Bash scripts using defensive programming techniques, error handling, and safety best practices to prevent common pitfalls and ensure reliability.&lt;/p&gt;
+&lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Writing production automation scripts&lt;/li&gt;
+&lt;li&gt;Building CI/CD pipeline scripts&lt;/li&gt;
+&lt;li&gt;Creating system administration utilities&lt;/li&gt;
+&lt;li&gt;Developing error-resilient deployment automation&lt;/li&gt;
+&lt;li&gt;Writing scripts that must handle edge cases safely&lt;/li&gt;
+&lt;li&gt;Building maintainable shell script libraries&lt;/li&gt;
+&lt;li&gt;Implementing comprehensive logging and monitoring&lt;/li&gt;
+&lt;li&gt;Creating scripts that must work across different platforms&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="core-defensive-principles"&gt;Core Defensive Principles&lt;/h2&gt;
+&lt;h3 id="1-strict-mode"&gt;1. Strict Mode&lt;/h3&gt;
+&lt;p&gt;Enable bash strict mode at the start of every script to catch errors early.&lt;/p&gt;</description></item></channel></rss>

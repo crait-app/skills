@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Automation Specialist on Agent Skills Hub</title><link>https://agentskill.wiki/topics/automation-specialist/</link><description>Recent content in Automation Specialist on Agent Skills Hub</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/topics/automation-specialist/index.xml" rel="self" type="application/rss+xml"/><item><title>Agent Builder</title><link>https://agentskill.wiki/en/skills/agent-builder/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/agent-builder/</guid><description>&lt;h1 id="agent-builder"&gt;Agent Builder&lt;/h1&gt;
-&lt;p&gt;Build AI agents for any domain - customer service, research, operations, creative work, or specialized business processes.&lt;/p&gt;
-&lt;h2 id="the-core-philosophy"&gt;The Core Philosophy&lt;/h2&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;The model already knows how to be an agent. Your job is to get out of the way.&lt;/strong&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;An agent is not complex engineering. It&amp;rsquo;s a simple loop that invites the model to act:&lt;/p&gt;
-&lt;pre tabindex="0"&gt;&lt;code&gt;LOOP:
- Model sees: context + available capabilities
- Model decides: act or respond
- If act: execute capability, add result, continue
- If respond: return to user
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;That&amp;rsquo;s it.&lt;/strong&gt; The magic isn&amp;rsquo;t in the code - it&amp;rsquo;s in the model. Your code just provides the opportunity.&lt;/p&gt;</description></item><item><title>Agent Builder</title><link>https://agentskill.wiki/skills/agent-builder/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/agent-builder/</guid><description>&lt;h1 id="agent-builder"&gt;Agent Builder&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Automation Specialist on Agent Skills Hub</title><link>https://agentskill.wiki/topics/automation-specialist/</link><description>Recent content in Automation Specialist on Agent Skills Hub</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/topics/automation-specialist/index.xml" rel="self" type="application/rss+xml"/><item><title>Agent Builder</title><link>https://agentskill.wiki/en/skills/agent-builder/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/agent-builder/</guid><description>&lt;h1 id="agent-builder"&gt;Agent Builder&lt;/h1&gt;
 &lt;p&gt;Build AI agents for any domain - customer service, research, operations, creative work, or specialized business processes.&lt;/p&gt;
 &lt;h2 id="the-core-philosophy"&gt;The Core Philosophy&lt;/h2&gt;
 &lt;blockquote&gt;
@@ -23,26 +11,6 @@
  If act: execute capability, add result, continue
  If respond: return to user
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;That&amp;rsquo;s it.&lt;/strong&gt; The magic isn&amp;rsquo;t in the code - it&amp;rsquo;s in the model. Your code just provides the opportunity.&lt;/p&gt;</description></item><item><title>Autogpt Agents</title><link>https://agentskill.wiki/en/skills/autogpt-agents/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/autogpt-agents/</guid><description>&lt;h1 id="autogpt---autonomous-ai-agent-platform"&gt;AutoGPT - Autonomous AI Agent Platform&lt;/h1&gt;
-&lt;p&gt;Comprehensive platform for building, deploying, and managing continuous AI agents through a visual interface or development toolkit.&lt;/p&gt;
-&lt;h2 id="when-to-use-autogpt"&gt;When to use AutoGPT&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Use AutoGPT when:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Building autonomous agents that run continuously&lt;/li&gt;
-&lt;li&gt;Creating visual workflow-based AI agents&lt;/li&gt;
-&lt;li&gt;Deploying agents with external triggers (webhooks, schedules)&lt;/li&gt;
-&lt;li&gt;Building complex multi-step automation pipelines&lt;/li&gt;
-&lt;li&gt;Need a no-code/low-code agent builder&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Key features:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Visual Agent Builder&lt;/strong&gt;: Drag-and-drop node-based workflow editor&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Continuous Execution&lt;/strong&gt;: Agents run persistently with triggers&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Marketplace&lt;/strong&gt;: Pre-built agents and blocks to share/reuse&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Block System&lt;/strong&gt;: Modular components for LLM, tools, integrations&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Forge Toolkit&lt;/strong&gt;: Developer tools for custom agent creation&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Benchmark System&lt;/strong&gt;: Standardized agent performance testing&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Use alternatives instead:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Autogpt Agents</title><link>https://agentskill.wiki/skills/autogpt-agents/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/autogpt-agents/</guid><description>&lt;h1 id="autogpt---autonomous-ai-agent-platform"&gt;AutoGPT - Autonomous AI Agent Platform&lt;/h1&gt;
 &lt;p&gt;Comprehensive platform for building, deploying, and managing continuous AI agents through a visual interface or development toolkit.&lt;/p&gt;
 &lt;h2 id="when-to-use-autogpt"&gt;When to use AutoGPT&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Use AutoGPT when:&lt;/strong&gt;&lt;/p&gt;

@@ -1,25 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>System Architect on Agent Skills Hub</title><link>https://agentskill.wiki/topics/system-architect/</link><description>Recent content in System Architect on Agent Skills Hub</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/topics/system-architect/index.xml" rel="self" type="application/rss+xml"/><item><title>Auth Implementation Patterns</title><link>https://agentskill.wiki/en/skills/auth-implementation-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/auth-implementation-patterns/</guid><description>&lt;h1 id="authentication--authorization-implementation-patterns"&gt;Authentication &amp;amp; Authorization Implementation Patterns&lt;/h1&gt;
-&lt;p&gt;Build secure, scalable authentication and authorization systems using industry-standard patterns and modern best practices.&lt;/p&gt;
-&lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Implementing user authentication systems&lt;/li&gt;
-&lt;li&gt;Securing REST or GraphQL APIs&lt;/li&gt;
-&lt;li&gt;Adding OAuth2/social login&lt;/li&gt;
-&lt;li&gt;Implementing role-based access control (RBAC)&lt;/li&gt;
-&lt;li&gt;Designing session management&lt;/li&gt;
-&lt;li&gt;Migrating authentication systems&lt;/li&gt;
-&lt;li&gt;Debugging auth issues&lt;/li&gt;
-&lt;li&gt;Implementing SSO or multi-tenancy&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="core-concepts"&gt;Core Concepts&lt;/h2&gt;
-&lt;h3 id="1-authentication-vs-authorization"&gt;1. Authentication vs Authorization&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Authentication (AuthN)&lt;/strong&gt;: Who are you?&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Verifying identity (username/password, OAuth, biometrics)&lt;/li&gt;
-&lt;li&gt;Issuing credentials (sessions, tokens)&lt;/li&gt;
-&lt;li&gt;Managing login/logout&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Authorization (AuthZ)&lt;/strong&gt;: What can you do?&lt;/p&gt;</description></item><item><title>Auth Implementation Patterns</title><link>https://agentskill.wiki/skills/auth-implementation-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/auth-implementation-patterns/</guid><description>&lt;h1 id="authentication--authorization-implementation-patterns"&gt;Authentication &amp;amp; Authorization Implementation Patterns&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>System Architect on Agent Skills Hub</title><link>https://agentskill.wiki/topics/system-architect/</link><description>Recent content in System Architect on Agent Skills Hub</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/topics/system-architect/index.xml" rel="self" type="application/rss+xml"/><item><title>Auth Implementation Patterns</title><link>https://agentskill.wiki/en/skills/auth-implementation-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/auth-implementation-patterns/</guid><description>&lt;h1 id="authentication--authorization-implementation-patterns"&gt;Authentication &amp;amp; Authorization Implementation Patterns&lt;/h1&gt;
 &lt;p&gt;Build secure, scalable authentication and authorization systems using industry-standard patterns and modern best practices.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -55,40 +34,7 @@
 &lt;/ul&gt;
 &lt;h2 id="core-concepts"&gt;Core Concepts&lt;/h2&gt;
 &lt;h3 id="1-error-handling-philosophies"&gt;1. Error Handling Philosophies&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Exceptions vs Result Types:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Error Handling Patterns</title><link>https://agentskill.wiki/skills/error-handling-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/error-handling-patterns/</guid><description>&lt;h1 id="error-handling-patterns"&gt;Error Handling Patterns&lt;/h1&gt;
-&lt;p&gt;Build resilient applications with robust error handling strategies that gracefully handle failures and provide excellent debugging experiences.&lt;/p&gt;
-&lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Implementing error handling in new features&lt;/li&gt;
-&lt;li&gt;Designing error-resilient APIs&lt;/li&gt;
-&lt;li&gt;Debugging production issues&lt;/li&gt;
-&lt;li&gt;Improving application reliability&lt;/li&gt;
-&lt;li&gt;Creating better error messages for users and developers&lt;/li&gt;
-&lt;li&gt;Implementing retry and circuit breaker patterns&lt;/li&gt;
-&lt;li&gt;Handling async/concurrent errors&lt;/li&gt;
-&lt;li&gt;Building fault-tolerant distributed systems&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="core-concepts"&gt;Core Concepts&lt;/h2&gt;
-&lt;h3 id="1-error-handling-philosophies"&gt;1. Error Handling Philosophies&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;Exceptions vs Result Types:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Evals Context</title><link>https://agentskill.wiki/en/skills/evals-context/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/evals-context/</guid><description>&lt;h1 id="evals-codebase-context"&gt;Evals Codebase Context&lt;/h1&gt;
-&lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
-&lt;p&gt;Use this skill when the task involves:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Modifying or debugging the evals execution infrastructure&lt;/li&gt;
-&lt;li&gt;Adding new eval exercises or languages&lt;/li&gt;
-&lt;li&gt;Working with the evals web interface (apps/web-evals)&lt;/li&gt;
-&lt;li&gt;Modifying the public evals display page on roocode.com&lt;/li&gt;
-&lt;li&gt;Understanding where evals code lives in this monorepo&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="when-not-to-use-this-skill"&gt;When NOT to Use This Skill&lt;/h2&gt;
-&lt;p&gt;Do NOT use this skill when:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Working on unrelated parts of the codebase (extension, webview-ui, etc.)&lt;/li&gt;
-&lt;li&gt;The task is purely about the VS Code extension&amp;rsquo;s core functionality&lt;/li&gt;
-&lt;li&gt;Working on the main website pages that don&amp;rsquo;t involve evals&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="key-disambiguation-two-evals-locations"&gt;Key Disambiguation: Two &amp;ldquo;Evals&amp;rdquo; Locations&lt;/h2&gt;
-&lt;p&gt;This monorepo has &lt;strong&gt;two distinct evals-related locations&lt;/strong&gt; that can cause confusion:&lt;/p&gt;</description></item><item><title>Evals Context</title><link>https://agentskill.wiki/skills/evals-context/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/evals-context/</guid><description>&lt;h1 id="evals-codebase-context"&gt;Evals Codebase Context&lt;/h1&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;p&gt;Use this skill when the task involves:&lt;/p&gt;
 &lt;ul&gt;
@@ -126,49 +72,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;8&lt;/span&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;mcp__claude&lt;/span&gt;&lt;span style="color:#f92672"&gt;-&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;flow__task_orchestrate&lt;/span&gt;({ &lt;span style="color:#a6e22e"&gt;task&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;...&amp;#34;&lt;/span&gt;, &lt;span style="color:#a6e22e"&gt;strategy&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;parallel&amp;#34;&lt;/span&gt; })
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="core-concepts"&gt;Core Concepts&lt;/h2&gt;
 &lt;h3 id="swarm-topologies"&gt;Swarm Topologies&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Mesh Topology&lt;/strong&gt; - Peer-to-peer communication, best for research and analysis&lt;/p&gt;</description></item><item><title>Swarm Advanced</title><link>https://agentskill.wiki/skills/swarm-advanced/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/swarm-advanced/</guid><description>&lt;h1 id="advanced-swarm-orchestration"&gt;Advanced Swarm Orchestration&lt;/h1&gt;
-&lt;p&gt;Master advanced swarm patterns for distributed research, development, and testing workflows. This skill covers comprehensive orchestration strategies using both MCP tools and CLI commands.&lt;/p&gt;
-&lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;
-&lt;h3 id="prerequisites"&gt;Prerequisites&lt;/h3&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Ensure Claude Flow is installed&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;2&lt;/span&gt;&lt;span&gt;npm install -g claude-flow@alpha
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;3&lt;/span&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;4&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Add MCP server (if using MCP tools)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;5&lt;/span&gt;&lt;span&gt;claude mcp add claude-flow npx claude-flow@alpha mcp start
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="basic-pattern"&gt;Basic Pattern&lt;/h3&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-javascript" data-lang="javascript"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;// 1. Initialize swarm topology
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;2&lt;/span&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;mcp__claude&lt;/span&gt;&lt;span style="color:#f92672"&gt;-&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;flow__swarm_init&lt;/span&gt;({ &lt;span style="color:#a6e22e"&gt;topology&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;mesh&amp;#34;&lt;/span&gt;, &lt;span style="color:#a6e22e"&gt;maxAgents&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;6&lt;/span&gt; })
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;3&lt;/span&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;4&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;// 2. Spawn specialized agents
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;5&lt;/span&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;mcp__claude&lt;/span&gt;&lt;span style="color:#f92672"&gt;-&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;flow__agent_spawn&lt;/span&gt;({ &lt;span style="color:#a6e22e"&gt;type&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;researcher&amp;#34;&lt;/span&gt;, &lt;span style="color:#a6e22e"&gt;name&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;Agent 1&amp;#34;&lt;/span&gt; })
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;6&lt;/span&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;7&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;// 3. Orchestrate tasks
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;8&lt;/span&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;mcp__claude&lt;/span&gt;&lt;span style="color:#f92672"&gt;-&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;flow__task_orchestrate&lt;/span&gt;({ &lt;span style="color:#a6e22e"&gt;task&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;...&amp;#34;&lt;/span&gt;, &lt;span style="color:#a6e22e"&gt;strategy&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;parallel&amp;#34;&lt;/span&gt; })
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="core-concepts"&gt;Core Concepts&lt;/h2&gt;
-&lt;h3 id="swarm-topologies"&gt;Swarm Topologies&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;Mesh Topology&lt;/strong&gt; - Peer-to-peer communication, best for research and analysis&lt;/p&gt;</description></item><item><title>Workflow Orchestration Patterns</title><link>https://agentskill.wiki/en/skills/workflow-orchestration-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/workflow-orchestration-patterns/</guid><description>&lt;h1 id="workflow-orchestration-patterns"&gt;Workflow Orchestration Patterns&lt;/h1&gt;
-&lt;p&gt;Master workflow orchestration architecture with Temporal, covering fundamental design decisions, resilience patterns, and best practices for building reliable distributed systems.&lt;/p&gt;
-&lt;h2 id="when-to-use-workflow-orchestration"&gt;When to Use Workflow Orchestration&lt;/h2&gt;
-&lt;h3 id="ideal-use-cases-source-docstemporalio"&gt;Ideal Use Cases (Source: docs.temporal.io)&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Multi-step processes&lt;/strong&gt; spanning machines/services/databases&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Distributed transactions&lt;/strong&gt; requiring all-or-nothing semantics&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Long-running workflows&lt;/strong&gt; (hours to years) with automatic state persistence&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Failure recovery&lt;/strong&gt; that must resume from last successful step&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Business processes&lt;/strong&gt;: bookings, orders, campaigns, approvals&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Entity lifecycle management&lt;/strong&gt;: inventory tracking, account management, cart workflows&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Infrastructure automation&lt;/strong&gt;: CI/CD pipelines, provisioning, deployments&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Human-in-the-loop&lt;/strong&gt; systems requiring timeouts and escalations&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="when-not-to-use"&gt;When NOT to Use&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Simple CRUD operations (use direct API calls)&lt;/li&gt;
-&lt;li&gt;Pure data processing pipelines (use Airflow, batch processing)&lt;/li&gt;
-&lt;li&gt;Stateless request/response (use standard APIs)&lt;/li&gt;
-&lt;li&gt;Real-time streaming (use Kafka, event processors)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="critical-design-decision-workflows-vs-activities"&gt;Critical Design Decision: Workflows vs Activities&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;The Fundamental Rule&lt;/strong&gt; (Source: temporal.io/blog/workflow-engine-principles):&lt;/p&gt;</description></item><item><title>Workflow Orchestration Patterns</title><link>https://agentskill.wiki/skills/workflow-orchestration-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/workflow-orchestration-patterns/</guid><description>&lt;h1 id="workflow-orchestration-patterns"&gt;Workflow Orchestration Patterns&lt;/h1&gt;
 &lt;p&gt;Master workflow orchestration architecture with Temporal, covering fundamental design decisions, resilience patterns, and best practices for building reliable distributed systems.&lt;/p&gt;
 &lt;h2 id="when-to-use-workflow-orchestration"&gt;When to Use Workflow Orchestration&lt;/h2&gt;
 &lt;h3 id="ideal-use-cases-source-docstemporalio"&gt;Ideal Use Cases (Source: docs.temporal.io)&lt;/h3&gt;

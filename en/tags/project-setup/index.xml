@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Project-Setup on Agent Skills Hub</title><link>https://agentskill.wiki/en/tags/project-setup/</link><description>Recent content in Project-Setup on Agent Skills Hub</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/en/tags/project-setup/index.xml" rel="self" type="application/rss+xml"/><item><title>Railway New</title><link>https://agentskill.wiki/en/skills/railway-new/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/railway-new/</guid><description>&lt;h1 id="new-project--service--database"&gt;New Project / Service / Database&lt;/h1&gt;
+&lt;p&gt;Create Railway projects, services, and databases with proper configuration.&lt;/p&gt;
+&lt;h2 id="when-to-use"&gt;When to Use&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;User says &amp;ldquo;deploy to railway&amp;rdquo; (add service if linked, init if not)&lt;/li&gt;
+&lt;li&gt;User says &amp;ldquo;create a railway project&amp;rdquo;, &amp;ldquo;init&amp;rdquo;, &amp;ldquo;new project&amp;rdquo; (explicit new project)&lt;/li&gt;
+&lt;li&gt;User says &amp;ldquo;link to railway&amp;rdquo;, &amp;ldquo;connect to railway&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;User says &amp;ldquo;create a service&amp;rdquo;, &amp;ldquo;add a backend&amp;rdquo;, &amp;ldquo;new api service&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;User says &amp;ldquo;create a vite app&amp;rdquo;, &amp;ldquo;create a react website&amp;rdquo;, &amp;ldquo;make a python api&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;User says &amp;ldquo;deploy from github.com/user/repo&amp;rdquo;, &amp;ldquo;create service from this repo&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;User says &amp;ldquo;add postgres&amp;rdquo;, &amp;ldquo;add a database&amp;rdquo;, &amp;ldquo;add redis&amp;rdquo;, &amp;ldquo;add mysql&amp;rdquo;, &amp;ldquo;add mongo&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;User says &amp;ldquo;connect to postgres&amp;rdquo;, &amp;ldquo;wire up the database&amp;rdquo;, &amp;ldquo;connect my api to redis&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;User says &amp;ldquo;add postgres and connect to the server&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Setting up code + Railway service together&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="prerequisites"&gt;Prerequisites&lt;/h2&gt;
+&lt;p&gt;Check CLI installed:&lt;/p&gt;</description></item></channel></rss>

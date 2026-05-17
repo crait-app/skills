@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Result-Type on Agent Skills Hub</title><link>https://agentskill.wiki/en/tags/result-type/</link><description>Recent content in Result-Type on Agent Skills Hub</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/en/tags/result-type/index.xml" rel="self" type="application/rss+xml"/><item><title>Byethrow</title><link>https://agentskill.wiki/en/skills/byethrow/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/byethrow/</guid><description>&lt;h2 id="about-byethrow"&gt;About byethrow&lt;/h2&gt;
+&lt;p&gt;&lt;code&gt;@praha/byethrow&lt;/code&gt; is a lightweight, tree-shakable Result type library for handling fallible operations in JavaScript and TypeScript.
+It provides a simple, consistent API for managing errors and results without throwing exceptions.&lt;/p&gt;
+&lt;p&gt;For detailed API references and usage examples, refer to the documentation in &lt;code&gt;node_modules/@praha/byethrow-docs/docs/**/*.md&lt;/code&gt;.&lt;/p&gt;
+&lt;h3 id="documentation-cli"&gt;Documentation CLI&lt;/h3&gt;
+&lt;p&gt;The byethrow documentation CLI provides commands to browse, search, and navigate documentation directly from your terminal.&lt;/p&gt;
+&lt;h4 id="list-command"&gt;&lt;code&gt;list&lt;/code&gt; command&lt;/h4&gt;
+&lt;p&gt;List all available documentation organized by sections.&lt;/p&gt;</description></item></channel></rss>

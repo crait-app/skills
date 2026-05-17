@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>代码质量 on Agent Skills Hub</title><link>https://agentskill.wiki/tags/%E4%BB%A3%E7%A0%81%E8%B4%A8%E9%87%8F/</link><description>Recent content in 代码质量 on Agent Skills Hub</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Wed, 14 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/%E4%BB%A3%E7%A0%81%E8%B4%A8%E9%87%8F/index.xml" rel="self" type="application/rss+xml"/><item><title>Python Code Analyzer</title><link>https://agentskill.wiki/skills/python-code-analyzer/</link><pubDate>Wed, 14 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/python-code-analyzer/</guid><description>&lt;h2 id="为什么选择这个-skill"&gt;为什么选择这个 Skill？&lt;/h2&gt;
+&lt;p&gt;每个 Python 开发者都面临同样的挑战：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;隐藏的 Bug&lt;/strong&gt;：通过测试但在生产环境中崩溃的微妙问题&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;性能陷阱&lt;/strong&gt;：能运行但比应有速度慢 10 倍的代码&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;技术债务&lt;/strong&gt;：不断累积的复杂度，直到重构变得不可能&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这个技能通过在编码时提供即时、可操作的反馈来解决这些问题。&lt;/p&gt;
+&lt;h2 id="核心功能"&gt;核心功能&lt;/h2&gt;
+&lt;h3 id="-静态分析"&gt;🔍 静态分析&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;检测常见 bug：未使用的变量、未定义的名称、导入错误&lt;/li&gt;
+&lt;li&gt;在反模式进入生产环境之前识别它们&lt;/li&gt;
+&lt;li&gt;突出显示潜在的运行时错误&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="-性能优化"&gt;⚡ 性能优化&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;发现 N+1 查询、低效循环和内存泄漏&lt;/li&gt;
+&lt;li&gt;建议更快的算法和数据结构&lt;/li&gt;
+&lt;li&gt;提供前后性能估算&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="-复杂度指标"&gt;📐 复杂度指标&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;计算圈复杂度和认知复杂度&lt;/li&gt;
+&lt;li&gt;识别过于复杂而难以维护的函数&lt;/li&gt;
+&lt;li&gt;推荐具体的重构策略&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="-样式与最佳实践"&gt;🎨 样式与最佳实践&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;强制执行 PEP 8 和团队特定约定&lt;/li&gt;
+&lt;li&gt;建议更 Pythonic 的编码方式&lt;/li&gt;
+&lt;li&gt;解释&lt;em&gt;为什么&lt;/em&gt;某些模式更好&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="高级功能"&gt;高级功能&lt;/h2&gt;
+&lt;h3 id="自定义规则配置"&gt;自定义规则配置&lt;/h3&gt;
+&lt;p&gt;在项目根目录创建 &lt;code&gt;.python-analyzer.yml&lt;/code&gt;：&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-yaml" data-lang="yaml"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;rules&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 2&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;max_line_length&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;120&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 3&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;max_function_length&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;50&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 4&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;max_complexity&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;10&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 5&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 6&lt;/span&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;ignore_patterns&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 7&lt;/span&gt;&lt;span&gt; - &lt;span style="color:#e6db74"&gt;&amp;#34;*/migrations/*&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 8&lt;/span&gt;&lt;span&gt; - &lt;span style="color:#e6db74"&gt;&amp;#34;*/tests/fixtures/*&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 9&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;10&lt;/span&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;custom_rules&lt;/span&gt;:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;11&lt;/span&gt;&lt;span&gt; - &lt;span style="color:#ae81ff"&gt;no_print_statements &lt;/span&gt; &lt;span style="color:#75715e"&gt;# 标记生产代码中的 print()&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;12&lt;/span&gt;&lt;span&gt; - &lt;span style="color:#ae81ff"&gt;require_type_hints &lt;/span&gt; &lt;span style="color:#75715e"&gt;# 强制类型注解&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="cicd-集成"&gt;CI/CD 集成&lt;/h3&gt;
+&lt;p&gt;该技能自动集成到您的开发工作流中：&lt;/p&gt;</description></item></channel></rss>

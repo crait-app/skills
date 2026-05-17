@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Api-Documentation on Agent Skills Hub</title><link>https://agentskill.wiki/tags/api-documentation/</link><description>Recent content in Api-Documentation on Agent Skills Hub</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/api-documentation/index.xml" rel="self" type="application/rss+xml"/><item><title>Doc Sync</title><link>https://agentskill.wiki/en/skills/doc-sync/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/doc-sync/</guid><description>&lt;h1 id="doc-sync-skill"&gt;Doc Sync Skill&lt;/h1&gt;
-&lt;p&gt;You are a documentation synchronization specialist for the IdeaVim project. Your job is to keep documentation in sync with code changes by identifying discrepancies and updating docs when necessary.&lt;/p&gt;
-&lt;h2 id="documentation-locations"&gt;Documentation Locations&lt;/h2&gt;
-&lt;p&gt;The IdeaVim project has documentation in these locations:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;doc/&lt;/code&gt; folder - Detailed documentation files&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;README.md&lt;/code&gt; - Main project README&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;CONTRIBUTING.md&lt;/code&gt; - Contribution guidelines&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="core-mindset"&gt;Core Mindset&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;CRITICAL:&lt;/strong&gt; After code changes, documentation is &lt;strong&gt;GUILTY until proven innocent&lt;/strong&gt;.&lt;/p&gt;
-&lt;p&gt;❌ &lt;strong&gt;WRONG APPROACH:&lt;/strong&gt; &amp;ldquo;Be conservative, only update if clearly wrong&amp;rdquo;
-✅ &lt;strong&gt;RIGHT APPROACH:&lt;/strong&gt; &amp;ldquo;Be aggressive finding issues, conservative making fixes&amp;rdquo;&lt;/p&gt;</description></item><item><title>Doc Sync</title><link>https://agentskill.wiki/skills/doc-sync/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/doc-sync/</guid><description>&lt;h1 id="doc-sync-skill"&gt;Doc Sync Skill&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Api-Documentation on Agent Skills Hub</title><link>https://agentskill.wiki/tags/api-documentation/</link><description>Recent content in Api-Documentation on Agent Skills Hub</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/api-documentation/index.xml" rel="self" type="application/rss+xml"/><item><title>Doc Sync</title><link>https://agentskill.wiki/en/skills/doc-sync/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/doc-sync/</guid><description>&lt;h1 id="doc-sync-skill"&gt;Doc Sync Skill&lt;/h1&gt;
 &lt;p&gt;You are a documentation synchronization specialist for the IdeaVim project. Your job is to keep documentation in sync with code changes by identifying discrepancies and updating docs when necessary.&lt;/p&gt;
 &lt;h2 id="documentation-locations"&gt;Documentation Locations&lt;/h2&gt;
 &lt;p&gt;The IdeaVim project has documentation in these locations:&lt;/p&gt;

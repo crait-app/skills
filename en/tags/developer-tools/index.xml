@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Developer-Tools on Agent Skills Hub</title><link>https://agentskill.wiki/en/tags/developer-tools/</link><description>Recent content in Developer-Tools on Agent Skills Hub</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/en/tags/developer-tools/index.xml" rel="self" type="application/rss+xml"/><item><title>Command Name</title><link>https://agentskill.wiki/en/skills/command-name/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/command-name/</guid><description>&lt;h1 id="plugin-structure-for-claude-code"&gt;Plugin Structure for Claude Code&lt;/h1&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Claude Code plugins follow a standardized directory structure with automatic component discovery. Understanding this structure enables creating well-organized, maintainable plugins that integrate seamlessly with Claude Code.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Key concepts:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Conventional directory layout for automatic discovery&lt;/li&gt;
+&lt;li&gt;Manifest-driven configuration in &lt;code&gt;.claude-plugin/plugin.json&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Component-based organization (commands, agents, skills, hooks)&lt;/li&gt;
+&lt;li&gt;Portable path references using &lt;code&gt;${CLAUDE_PLUGIN_ROOT}&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Explicit vs. auto-discovered component loading&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="directory-structure"&gt;Directory Structure&lt;/h2&gt;
+&lt;p&gt;Every Claude Code plugin follows this organizational pattern:&lt;/p&gt;</description></item><item><title>Evals Context</title><link>https://agentskill.wiki/en/skills/evals-context/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/evals-context/</guid><description>&lt;h1 id="evals-codebase-context"&gt;Evals Codebase Context&lt;/h1&gt;
+&lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
+&lt;p&gt;Use this skill when the task involves:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Modifying or debugging the evals execution infrastructure&lt;/li&gt;
+&lt;li&gt;Adding new eval exercises or languages&lt;/li&gt;
+&lt;li&gt;Working with the evals web interface (apps/web-evals)&lt;/li&gt;
+&lt;li&gt;Modifying the public evals display page on roocode.com&lt;/li&gt;
+&lt;li&gt;Understanding where evals code lives in this monorepo&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="when-not-to-use-this-skill"&gt;When NOT to Use This Skill&lt;/h2&gt;
+&lt;p&gt;Do NOT use this skill when:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Working on unrelated parts of the codebase (extension, webview-ui, etc.)&lt;/li&gt;
+&lt;li&gt;The task is purely about the VS Code extension&amp;rsquo;s core functionality&lt;/li&gt;
+&lt;li&gt;Working on the main website pages that don&amp;rsquo;t involve evals&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="key-disambiguation-two-evals-locations"&gt;Key Disambiguation: Two &amp;ldquo;Evals&amp;rdquo; Locations&lt;/h2&gt;
+&lt;p&gt;This monorepo has &lt;strong&gt;two distinct evals-related locations&lt;/strong&gt; that can cause confusion:&lt;/p&gt;</description></item><item><title>Rule Identifier</title><link>https://agentskill.wiki/en/skills/rule-identifier/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/rule-identifier/</guid><description>&lt;h1 id="writing-hookify-rules"&gt;Writing Hookify Rules&lt;/h1&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Hookify rules are markdown files with YAML frontmatter that define patterns to watch for and messages to show when those patterns match. Rules are stored in &lt;code&gt;.claude/hookify.{rule-name}.local.md&lt;/code&gt; files.&lt;/p&gt;
+&lt;h2 id="rule-file-format"&gt;Rule File Format&lt;/h2&gt;
+&lt;h3 id="basic-structure"&gt;Basic Structure&lt;/h3&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-markdown" data-lang="markdown"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;---
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;2&lt;/span&gt;&lt;span&gt;name: rule-identifier
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;3&lt;/span&gt;&lt;span&gt;enabled: true
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;4&lt;/span&gt;&lt;span&gt;event: bash|file|stop|prompt|all
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;5&lt;/span&gt;&lt;span&gt;pattern: regex-pattern-here
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;6&lt;/span&gt;&lt;span&gt;---
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;7&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;8&lt;/span&gt;&lt;span&gt;Message to show Claude when this rule triggers.
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;9&lt;/span&gt;&lt;span&gt;Can include markdown formatting, warnings, suggestions, etc.
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="frontmatter-fields"&gt;Frontmatter Fields&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;name&lt;/strong&gt; (required): Unique identifier for the rule&lt;/p&gt;</description></item></channel></rss>

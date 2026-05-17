@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Code-Formatting on Agent Skills Hub</title><link>https://agentskill.wiki/en/tags/code-formatting/</link><description>Recent content in Code-Formatting on Agent Skills Hub</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/en/tags/code-formatting/index.xml" rel="self" type="application/rss+xml"/><item><title>Hooks Automation</title><link>https://agentskill.wiki/en/skills/hooks-automation/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/hooks-automation/</guid><description>&lt;h1 id="hooks-automation"&gt;Hooks Automation&lt;/h1&gt;
+&lt;p&gt;Intelligent automation system that coordinates, validates, and learns from Claude Code operations through hooks integrated with MCP tools and neural pattern training.&lt;/p&gt;
+&lt;h2 id="what-this-skill-does"&gt;What This Skill Does&lt;/h2&gt;
+&lt;p&gt;This skill provides a comprehensive hook system that automatically manages development operations, coordinates swarm agents, maintains session state, and continuously learns from coding patterns. It enables automated agent assignment, code formatting, performance tracking, and cross-session memory persistence.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Key Capabilities:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Pre-Operation Hooks&lt;/strong&gt;: Validate, prepare, and auto-assign agents before operations&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Post-Operation Hooks&lt;/strong&gt;: Format, analyze, and train patterns after operations&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Session Management&lt;/strong&gt;: Persist state, restore context, generate summaries&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Memory Coordination&lt;/strong&gt;: Synchronize knowledge across swarm agents&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Git Integration&lt;/strong&gt;: Automated commit hooks with quality verification&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Neural Training&lt;/strong&gt;: Continuous learning from successful patterns&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;MCP Integration&lt;/strong&gt;: Seamless coordination with swarm tools&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="prerequisites"&gt;Prerequisites&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Required:&lt;/strong&gt;&lt;/p&gt;</description></item></channel></rss>

@@ -1,22 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Productivity on Agent Skills Hub</title><link>https://agentskill.wiki/tags/productivity/</link><description>Recent content in Productivity on Agent Skills Hub</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/productivity/index.xml" rel="self" type="application/rss+xml"/><item><title>Claude Skills</title><link>https://agentskill.wiki/en/skills/claude-skills/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/claude-skills/</guid><description>&lt;h1 id="claude-skills-meta-skill"&gt;Claude Skills Meta-Skill&lt;/h1&gt;
-&lt;p&gt;Turn scattered domain material into a Skill that is reusable, maintainable, and reliably activatable:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;SKILL.md&lt;/code&gt; as the entrypoint (triggers, constraints, patterns, examples)&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;references/&lt;/code&gt; for long-form evidence and navigation&lt;/li&gt;
-&lt;li&gt;optional &lt;code&gt;scripts/&lt;/code&gt; and &lt;code&gt;assets/&lt;/code&gt; for scaffolding and templates&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
-&lt;p&gt;Trigger this meta-skill when you need to:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Create a new Skill from scratch from docs/specs/repos&lt;/li&gt;
-&lt;li&gt;Refactor an existing Skill (too long, unclear, inconsistent, misfires)&lt;/li&gt;
-&lt;li&gt;Design reliable activation (frontmatter + triggers + boundaries)&lt;/li&gt;
-&lt;li&gt;Extract a clean Quick Reference from large material&lt;/li&gt;
-&lt;li&gt;Split long content into navigable &lt;code&gt;references/&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Add a quality gate and a validator&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="not-for--boundaries"&gt;Not For / Boundaries&lt;/h2&gt;
-&lt;p&gt;This meta-skill is NOT:&lt;/p&gt;</description></item><item><title>Claude Skills</title><link>https://agentskill.wiki/skills/claude-skills/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/claude-skills/</guid><description>&lt;h1 id="claude-skills-meta-skill"&gt;Claude Skills Meta-Skill&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Productivity on Agent Skills Hub</title><link>https://agentskill.wiki/tags/productivity/</link><description>Recent content in Productivity on Agent Skills Hub</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/productivity/index.xml" rel="self" type="application/rss+xml"/><item><title>Claude Skills</title><link>https://agentskill.wiki/en/skills/claude-skills/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/claude-skills/</guid><description>&lt;h1 id="claude-skills-meta-skill"&gt;Claude Skills Meta-Skill&lt;/h1&gt;
 &lt;p&gt;Turn scattered domain material into a Skill that is reusable, maintainable, and reliably activatable:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;SKILL.md&lt;/code&gt; as the entrypoint (triggers, constraints, patterns, examples)&lt;/li&gt;
@@ -44,16 +26,6 @@
 &lt;/ol&gt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;cp .claude/skills/clickup/.env-example .claude/skills/clickup/.env
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;2&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Edit .env and add your token&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Team ID and User ID are auto-detected and cached on first use.&lt;/p&gt;</description></item><item><title>Clickup</title><link>https://agentskill.wiki/skills/clickup/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/clickup/</guid><description>&lt;h1 id="clickup"&gt;ClickUp&lt;/h1&gt;
-&lt;p&gt;Interact with ClickUp tasks and documents via the API. Get task information, view comments, create tasks, manage assignments, post updates, and create/edit documents.&lt;/p&gt;
-&lt;h2 id="setup"&gt;Setup&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;Copy &lt;code&gt;.env-example&lt;/code&gt; to &lt;code&gt;.env&lt;/code&gt; in this skill directory&lt;/li&gt;
-&lt;li&gt;Add your ClickUp Personal API Token (starts with &lt;code&gt;pk_&lt;/code&gt;)&lt;/li&gt;
-&lt;li&gt;Generate token at: ClickUp Settings &amp;gt; Apps &amp;gt; API Token&lt;/li&gt;
-&lt;/ol&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;cp .claude/skills/clickup/.env-example .claude/skills/clickup/.env
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;2&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Edit .env and add your token&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Team ID and User ID are auto-detected and cached on first use.&lt;/p&gt;</description></item><item><title>Command Development</title><link>https://agentskill.wiki/en/skills/command-development/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/command-development/</guid><description>&lt;h1 id="command-development-for-claude-code"&gt;Command Development for Claude Code&lt;/h1&gt;
 &lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;Slash commands are frequently-used prompts defined as Markdown files that Claude executes during interactive sessions. Understanding command structure, frontmatter options, and dynamic features enables creating powerful, reusable workflows.&lt;/p&gt;
@@ -67,58 +39,7 @@
 &lt;/ul&gt;
 &lt;h2 id="command-basics"&gt;Command Basics&lt;/h2&gt;
 &lt;h3 id="what-is-a-slash-command"&gt;What is a Slash Command?&lt;/h3&gt;
-&lt;p&gt;A slash command is a Markdown file containing a prompt that Claude executes when invoked. Commands provide:&lt;/p&gt;</description></item><item><title>Command Development</title><link>https://agentskill.wiki/skills/command-development/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/command-development/</guid><description>&lt;h1 id="command-development-for-claude-code"&gt;Command Development for Claude Code&lt;/h1&gt;
-&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
-&lt;p&gt;Slash commands are frequently-used prompts defined as Markdown files that Claude executes during interactive sessions. Understanding command structure, frontmatter options, and dynamic features enables creating powerful, reusable workflows.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Key concepts:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Markdown file format for commands&lt;/li&gt;
-&lt;li&gt;YAML frontmatter for configuration&lt;/li&gt;
-&lt;li&gt;Dynamic arguments and file references&lt;/li&gt;
-&lt;li&gt;Bash execution for context&lt;/li&gt;
-&lt;li&gt;Command organization and namespacing&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="command-basics"&gt;Command Basics&lt;/h2&gt;
-&lt;h3 id="what-is-a-slash-command"&gt;What is a Slash Command?&lt;/h3&gt;
 &lt;p&gt;A slash command is a Markdown file containing a prompt that Claude executes when invoked. Commands provide:&lt;/p&gt;</description></item><item><title>Connect</title><link>https://agentskill.wiki/en/skills/connect/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/connect/</guid><description>&lt;h1 id="connect"&gt;Connect&lt;/h1&gt;
-&lt;p&gt;Connect Claude to any app. Stop generating text about what you could do - actually do it.&lt;/p&gt;
-&lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
-&lt;p&gt;Use this skill when you need Claude to:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Send that email&lt;/strong&gt; instead of drafting it&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Create that issue&lt;/strong&gt; instead of describing it&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Post that message&lt;/strong&gt; instead of suggesting it&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Update that database&lt;/strong&gt; instead of explaining how&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="what-changes"&gt;What Changes&lt;/h2&gt;
-&lt;table&gt;
- &lt;thead&gt;
- &lt;tr&gt;
- &lt;th&gt;Without Connect&lt;/th&gt;
- &lt;th&gt;With Connect&lt;/th&gt;
- &lt;/tr&gt;
- &lt;/thead&gt;
- &lt;tbody&gt;
- &lt;tr&gt;
- &lt;td&gt;&amp;ldquo;Here&amp;rsquo;s a draft email&amp;hellip;&amp;rdquo;&lt;/td&gt;
- &lt;td&gt;Sends the email&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;&amp;ldquo;You should create an issue&amp;hellip;&amp;rdquo;&lt;/td&gt;
- &lt;td&gt;Creates the issue&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;&amp;ldquo;Post this to Slack&amp;hellip;&amp;rdquo;&lt;/td&gt;
- &lt;td&gt;Posts it&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;&amp;ldquo;Add this to Notion&amp;hellip;&amp;rdquo;&lt;/td&gt;
- &lt;td&gt;Adds it&lt;/td&gt;
- &lt;/tr&gt;
- &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h2 id="supported-apps"&gt;Supported Apps&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;1000+ integrations&lt;/strong&gt; including:&lt;/p&gt;</description></item><item><title>Connect</title><link>https://agentskill.wiki/skills/connect/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/connect/</guid><description>&lt;h1 id="connect"&gt;Connect&lt;/h1&gt;
 &lt;p&gt;Connect Claude to any app. Stop generating text about what you could do - actually do it.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;p&gt;Use this skill when you need Claude to:&lt;/p&gt;
@@ -172,192 +93,13 @@
 &lt;h3 id="step-3-try-it"&gt;Step 3: Try It!&lt;/h3&gt;
 &lt;p&gt;After setup, restart Claude Code and try:&lt;/p&gt;
 &lt;pre tabindex="0"&gt;&lt;code&gt;Send me a test email at YOUR_EMAIL@example.com
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;If it works, you&amp;rsquo;re connected!&lt;/p&gt;</description></item><item><title>Connect Apps</title><link>https://agentskill.wiki/skills/connect-apps/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/connect-apps/</guid><description>&lt;h1 id="connect-apps"&gt;Connect Apps&lt;/h1&gt;
-&lt;p&gt;Connect Claude to 1000+ apps. Actually send emails, create issues, post messages - not just generate text about it.&lt;/p&gt;
-&lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;
-&lt;h3 id="step-1-install-the-plugin"&gt;Step 1: Install the Plugin&lt;/h3&gt;
-&lt;pre tabindex="0"&gt;&lt;code&gt;/plugin install composio-toolrouter
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id="step-2-run-setup"&gt;Step 2: Run Setup&lt;/h3&gt;
-&lt;pre tabindex="0"&gt;&lt;code&gt;/composio-toolrouter:setup
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;This will:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Ask for your free API key (get one at &lt;a href="https://platform.composio.dev/?utm_source=Github&amp;amp;utm_content=AwesomeSkills"&gt;platform.composio.dev&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;Configure Claude&amp;rsquo;s connection to 1000+ apps&lt;/li&gt;
-&lt;li&gt;Take about 60 seconds&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="step-3-try-it"&gt;Step 3: Try It!&lt;/h3&gt;
-&lt;p&gt;After setup, restart Claude Code and try:&lt;/p&gt;
-&lt;pre tabindex="0"&gt;&lt;code&gt;Send me a test email at YOUR_EMAIL@example.com
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;If it works, you&amp;rsquo;re connected!&lt;/p&gt;</description></item><item><title>Copilot</title><link>https://agentskill.wiki/en/skills/copilot/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/copilot/</guid><description>&lt;h2 id="examples"&gt;Examples&lt;/h2&gt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Create a task with an inline description&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;2&lt;/span&gt;&lt;span&gt;gh agent-task create &lt;span style="color:#e6db74"&gt;&amp;#34;&amp;lt;task description&amp;gt;&amp;#34;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;3&lt;/span&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;4&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Create a task from a markdown file&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;5&lt;/span&gt;&lt;span&gt;gh agent-task create -F task-desc.md
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Copilot</title><link>https://agentskill.wiki/skills/copilot/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/copilot/</guid><description>&lt;h2 id="examples"&gt;Examples&lt;/h2&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Create a task with an inline description&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;2&lt;/span&gt;&lt;span&gt;gh agent-task create &lt;span style="color:#e6db74"&gt;&amp;#34;&amp;lt;task description&amp;gt;&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;3&lt;/span&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;4&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Create a task from a markdown file&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;5&lt;/span&gt;&lt;span&gt;gh agent-task create -F task-desc.md
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description></item><item><title>Email Composer</title><link>https://agentskill.wiki/en/skills/email-composer/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/email-composer/</guid><description>&lt;h1 id="email-composer"&gt;Email Composer&lt;/h1&gt;
-&lt;h2 id="quick-start"&gt;Quick start&lt;/h2&gt;
-&lt;p&gt;Provide context and purpose, and I&amp;rsquo;ll draft an appropriate email.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;What I need:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Purpose of email (request, follow-up, announcement, etc.)&lt;/li&gt;
-&lt;li&gt;Recipient relationship (colleague, customer, manager, vendor)&lt;/li&gt;
-&lt;li&gt;Key points to include&lt;/li&gt;
-&lt;li&gt;Desired tone (formal, casual, urgent, friendly)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="email-structure"&gt;Email structure&lt;/h2&gt;
-&lt;p&gt;Standard professional email format:&lt;/p&gt;
-&lt;pre tabindex="0"&gt;&lt;code&gt;Subject: [Clear, specific subject line]
-
-[Greeting],
-
-[Opening - context/purpose]
-
-[Body - main points]
-
-[Closing - call to action]
-
-[Sign-off]
-[Your name]
-&lt;/code&gt;&lt;/pre&gt;&lt;h2 id="common-email-types"&gt;Common email types&lt;/h2&gt;
-&lt;h3 id="request-for-information"&gt;Request for information&lt;/h3&gt;
-&lt;pre tabindex="0"&gt;&lt;code&gt;Subject: Question about Q4 project timeline
-
-Hi [Name],
-
-I hope this email finds you well. I&amp;#39;m reaching out regarding the Q4 product launch timeline.
-
-Could you provide an update on:
-- Current progress on feature development
-- Expected completion date for testing phase
-- Any blockers or dependencies we should be aware of
-
-This will help us coordinate with the marketing team for the launch materials.
-
-Thanks in advance for your help!
-
-Best regards,
-[Your name]
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id="follow-up-email"&gt;Follow-up email&lt;/h3&gt;
-&lt;pre tabindex="0"&gt;&lt;code&gt;Subject: Following up: Proposal for new payment system
-
-Hi [Name],
-
-I wanted to follow up on the payment system proposal I sent last week. I understand you&amp;#39;re busy, so I wanted to make sure it didn&amp;#39;t get lost in your inbox.
-
-To recap, the proposed system would:
-- Reduce transaction fees by 30%
-- Integrate with existing accounting software
-- Improve customer checkout experience
-
-I&amp;#39;d be happy to schedule a brief call to discuss any questions you might have.
-
-Looking forward to hearing from you.
-
-Best,
-[Your name]
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id="technical-update"&gt;Technical update&lt;/h3&gt;
-&lt;pre tabindex="0"&gt;&lt;code&gt;Subject: API Maintenance Window - [Date]
-
-Team,
-
-This is a reminder that we&amp;#39;ll be performing scheduled maintenance on our API infrastructure on [Date] from [Time] to [Time] [Timezone].
-
-During this window:
-- API endpoints will be unavailable
-- Database will be upgraded to v14
-- SSL certificates will be renewed
-
-Expected downtime: 2 hours
-
-What you need to do:
-- Notify your users of the planned downtime
-- Ensure retry logic is in place for API calls
-- Monitor your application after maintenance completes
-
-If you have any concerns or conflicts with this schedule, please let me know by [Date].
-
-Technical details available in our status page: [link]
-
-Thanks,
-[Your name]
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id="customer-support"&gt;Customer support&lt;/h3&gt;
-&lt;pre tabindex="0"&gt;&lt;code&gt;Subject: Re: Issue with order #12345
-
-Hi [Customer name],
-
-Thank you for reaching out about your order. I&amp;#39;m sorry to hear you&amp;#39;re experiencing this issue.
-
-I&amp;#39;ve looked into your order (#12345) and found the following:
-
-[Explanation of the issue]
-
-To resolve this, I&amp;#39;ve:
-- [Action taken 1]
-- [Action taken 2]
-
-You should see [expected outcome] within [timeframe].
-
-If you continue to experience any problems, please don&amp;#39;t hesitate to reply to this email or call us at [phone number].
-
-We appreciate your patience and understanding.
-
-Best regards,
-[Your name]
-Customer Support Team
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id="meeting-request"&gt;Meeting request&lt;/h3&gt;
-&lt;pre tabindex="0"&gt;&lt;code&gt;Subject: Meeting request: Discuss database migration strategy
-
-Hi [Name],
-
-I&amp;#39;d like to schedule a meeting to discuss our approach for the upcoming database migration.
-
-Agenda items:
-- Review migration timeline and milestones
-- Discuss rollback strategy
-- Identify potential risks and mitigation plans
-- Assign team responsibilities
-
-Estimated duration: 45 minutes
-
-I&amp;#39;m available:
-- Monday 2-4 PM
-- Wednesday 10 AM - 12 PM
-- Friday 1-3 PM
-
-Please let me know what works best for you, or feel free to suggest alternative times.
-
-Best,
-[Your name]
-&lt;/code&gt;&lt;/pre&gt;&lt;h2 id="tone-guidelines"&gt;Tone guidelines&lt;/h2&gt;
-&lt;h3 id="formal-tone"&gt;Formal tone&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Use complete sentences&lt;/li&gt;
-&lt;li&gt;Avoid contractions&lt;/li&gt;
-&lt;li&gt;Professional language&lt;/li&gt;
-&lt;li&gt;Proper titles (Dr., Mr., Ms.)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="casual-tone"&gt;Casual tone&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Contractions acceptable&lt;/li&gt;
-&lt;li&gt;Conversational language&lt;/li&gt;
-&lt;li&gt;Still professional&lt;/li&gt;
-&lt;li&gt;First names&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="urgent-tone"&gt;Urgent tone&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Clear subject line with [URGENT] or [ACTION REQUIRED]&lt;/li&gt;
-&lt;li&gt;Bold key points&lt;/li&gt;
-&lt;li&gt;Explicit deadline&lt;/li&gt;
-&lt;li&gt;Direct call to action&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="subject-line-best-practices"&gt;Subject line best practices&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Good subject lines:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Email Composer</title><link>https://agentskill.wiki/skills/email-composer/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/email-composer/</guid><description>&lt;h1 id="email-composer"&gt;Email Composer&lt;/h1&gt;
 &lt;h2 id="quick-start"&gt;Quick start&lt;/h2&gt;
 &lt;p&gt;Provide context and purpose, and I&amp;rsquo;ll draft an appropriate email.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;What I need:&lt;/strong&gt;&lt;/p&gt;
@@ -538,133 +280,7 @@ Best,
 &lt;h2 id="how-to-use"&gt;How to Use&lt;/h2&gt;
 &lt;h3 id="from-your-home-directory"&gt;From Your Home Directory&lt;/h3&gt;
 &lt;pre tabindex="0"&gt;&lt;code&gt;cd ~
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Then run Claude Code and ask for help:&lt;/p&gt;</description></item><item><title>File Organizer</title><link>https://agentskill.wiki/skills/file-organizer/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/file-organizer/</guid><description>&lt;h1 id="file-organizer"&gt;File Organizer&lt;/h1&gt;
-&lt;p&gt;This skill acts as your personal organization assistant, helping you maintain a clean, logical file structure across your computer without the mental overhead of constant manual organization.&lt;/p&gt;
-&lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Your Downloads folder is a chaotic mess&lt;/li&gt;
-&lt;li&gt;You can&amp;rsquo;t find files because they&amp;rsquo;re scattered everywhere&lt;/li&gt;
-&lt;li&gt;You have duplicate files taking up space&lt;/li&gt;
-&lt;li&gt;Your folder structure doesn&amp;rsquo;t make sense anymore&lt;/li&gt;
-&lt;li&gt;You want to establish better organization habits&lt;/li&gt;
-&lt;li&gt;You&amp;rsquo;re starting a new project and need a good structure&lt;/li&gt;
-&lt;li&gt;You&amp;rsquo;re cleaning up before archiving old projects&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="what-this-skill-does"&gt;What This Skill Does&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;Analyzes Current Structure&lt;/strong&gt;: Reviews your folders and files to understand what you have&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Finds Duplicates&lt;/strong&gt;: Identifies duplicate files across your system&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Suggests Organization&lt;/strong&gt;: Proposes logical folder structures based on your content&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Automates Cleanup&lt;/strong&gt;: Moves, renames, and organizes files with your approval&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Maintains Context&lt;/strong&gt;: Makes smart decisions based on file types, dates, and content&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Reduces Clutter&lt;/strong&gt;: Identifies old files you probably don&amp;rsquo;t need anymore&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id="how-to-use"&gt;How to Use&lt;/h2&gt;
-&lt;h3 id="from-your-home-directory"&gt;From Your Home Directory&lt;/h3&gt;
-&lt;pre tabindex="0"&gt;&lt;code&gt;cd ~
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Then run Claude Code and ask for help:&lt;/p&gt;</description></item><item><title>GitHub Project Management</title><link>https://agentskill.wiki/en/skills/github-project-management/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/github-project-management/</guid><description>&lt;h1 id="github-project-management"&gt;GitHub Project Management&lt;/h1&gt;
-&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
-&lt;p&gt;A comprehensive skill for managing GitHub projects using AI swarm coordination. This skill combines intelligent issue management, automated project board synchronization, and swarm-based coordination for efficient project delivery.&lt;/p&gt;
-&lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;
-&lt;h3 id="basic-issue-creation-with-swarm-coordination"&gt;Basic Issue Creation with Swarm Coordination&lt;/h3&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Create a coordinated issue&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;2&lt;/span&gt;&lt;span&gt;gh issue create &lt;span style="color:#ae81ff"&gt;\
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;3&lt;/span&gt;&lt;span&gt; --title &lt;span style="color:#e6db74"&gt;&amp;#34;Feature: Advanced Authentication&amp;#34;&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;\
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;4&lt;/span&gt;&lt;span&gt; --body &lt;span style="color:#e6db74"&gt;&amp;#34;Implement OAuth2 with social login...&amp;#34;&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;\
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;5&lt;/span&gt;&lt;span&gt; --label &lt;span style="color:#e6db74"&gt;&amp;#34;enhancement,swarm-ready&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;6&lt;/span&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;7&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Initialize swarm for issue&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;8&lt;/span&gt;&lt;span&gt;npx claude-flow@alpha hooks pre-task --description &lt;span style="color:#e6db74"&gt;&amp;#34;Feature implementation&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="project-board-quick-setup"&gt;Project Board Quick Setup&lt;/h3&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Get project ID&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;2&lt;/span&gt;&lt;span&gt;PROJECT_ID&lt;span style="color:#f92672"&gt;=&lt;/span&gt;&lt;span style="color:#66d9ef"&gt;$(&lt;/span&gt;gh project list --owner @me --format json | &lt;span style="color:#ae81ff"&gt;\
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;3&lt;/span&gt;&lt;span&gt; jq -r &lt;span style="color:#e6db74"&gt;&amp;#39;.projects[0].id&amp;#39;&lt;/span&gt;&lt;span style="color:#66d9ef"&gt;)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;4&lt;/span&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;5&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Initialize board sync&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;6&lt;/span&gt;&lt;span&gt;npx ruv-swarm github board-init &lt;span style="color:#ae81ff"&gt;\
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;7&lt;/span&gt;&lt;span&gt; --project-id &lt;span style="color:#e6db74"&gt;&amp;#34;&lt;/span&gt;$PROJECT_ID&lt;span style="color:#e6db74"&gt;&amp;#34;&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;\
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;8&lt;/span&gt;&lt;span&gt; --sync-mode &lt;span style="color:#e6db74"&gt;&amp;#34;bidirectional&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
-&lt;h2 id="core-capabilities"&gt;Core Capabilities&lt;/h2&gt;
-&lt;h3 id="1-issue-management--triage"&gt;1. Issue Management &amp;amp; Triage&lt;/h3&gt;
-&lt;details&gt;
-&lt;summary&gt;&lt;strong&gt;Automated Issue Creation&lt;/strong&gt;&lt;/summary&gt;
-&lt;h4 id="single-issue-with-swarm-coordination"&gt;Single Issue with Swarm Coordination&lt;/h4&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-javascript" data-lang="javascript"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;// Initialize issue management swarm
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 2&lt;/span&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;mcp__claude&lt;/span&gt;&lt;span style="color:#f92672"&gt;-&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;flow__swarm_init&lt;/span&gt; { &lt;span style="color:#a6e22e"&gt;topology&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;star&amp;#34;&lt;/span&gt;, &lt;span style="color:#a6e22e"&gt;maxAgents&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;3&lt;/span&gt; }
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 3&lt;/span&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;mcp__claude&lt;/span&gt;&lt;span style="color:#f92672"&gt;-&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;flow__agent_spawn&lt;/span&gt; { &lt;span style="color:#a6e22e"&gt;type&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;coordinator&amp;#34;&lt;/span&gt;, &lt;span style="color:#a6e22e"&gt;name&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;Issue Coordinator&amp;#34;&lt;/span&gt; }
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 4&lt;/span&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;mcp__claude&lt;/span&gt;&lt;span style="color:#f92672"&gt;-&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;flow__agent_spawn&lt;/span&gt; { &lt;span style="color:#a6e22e"&gt;type&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;researcher&amp;#34;&lt;/span&gt;, &lt;span style="color:#a6e22e"&gt;name&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;Requirements Analyst&amp;#34;&lt;/span&gt; }
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 5&lt;/span&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;mcp__claude&lt;/span&gt;&lt;span style="color:#f92672"&gt;-&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;flow__agent_spawn&lt;/span&gt; { &lt;span style="color:#a6e22e"&gt;type&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;coder&amp;#34;&lt;/span&gt;, &lt;span style="color:#a6e22e"&gt;name&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;Implementation Planner&amp;#34;&lt;/span&gt; }
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 6&lt;/span&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 7&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;// Create comprehensive issue
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 8&lt;/span&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;mcp__github__create_issue&lt;/span&gt; {
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 9&lt;/span&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;owner&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;org&amp;#34;&lt;/span&gt;,
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;10&lt;/span&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;repo&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;repository&amp;#34;&lt;/span&gt;,
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;11&lt;/span&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;title&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;Integration Review: Complete system integration&amp;#34;&lt;/span&gt;,
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;12&lt;/span&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;body&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;`## 🔄 Integration Review
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;13&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;14&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; ### Overview
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;15&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; Comprehensive review and integration between components.
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;16&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;17&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; ### Objectives
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;18&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; - [ ] Verify dependencies and imports
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;19&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; - [ ] Ensure API integration
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;20&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; - [ ] Check hook system integration
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;21&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; - [ ] Validate data systems alignment
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;22&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;23&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; ### Swarm Coordination
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;24&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; This issue will be managed by coordinated swarm agents for optimal progress tracking.`&lt;/span&gt;,
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;25&lt;/span&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;labels&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; [&lt;span style="color:#e6db74"&gt;&amp;#34;integration&amp;#34;&lt;/span&gt;, &lt;span style="color:#e6db74"&gt;&amp;#34;review&amp;#34;&lt;/span&gt;, &lt;span style="color:#e6db74"&gt;&amp;#34;enhancement&amp;#34;&lt;/span&gt;],
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;26&lt;/span&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;assignees&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; [&lt;span style="color:#e6db74"&gt;&amp;#34;username&amp;#34;&lt;/span&gt;]
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;27&lt;/span&gt;&lt;span&gt;}
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;28&lt;/span&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;29&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;// Set up automated tracking
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;30&lt;/span&gt;&lt;span&gt;&lt;span style="color:#a6e22e"&gt;mcp__claude&lt;/span&gt;&lt;span style="color:#f92672"&gt;-&lt;/span&gt;&lt;span style="color:#a6e22e"&gt;flow__task_orchestrate&lt;/span&gt; {
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;31&lt;/span&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;task&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;Monitor and coordinate issue progress with automated updates&amp;#34;&lt;/span&gt;,
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;32&lt;/span&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;strategy&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;adaptive&amp;#34;&lt;/span&gt;,
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;33&lt;/span&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;priority&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;medium&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;34&lt;/span&gt;&lt;span&gt;}
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id="batch-issue-creation"&gt;Batch Issue Creation&lt;/h4&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Create multiple related issues using gh CLI&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 2&lt;/span&gt;&lt;span&gt;gh issue create &lt;span style="color:#ae81ff"&gt;\
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 3&lt;/span&gt;&lt;span&gt; --title &lt;span style="color:#e6db74"&gt;&amp;#34;Feature: Advanced GitHub Integration&amp;#34;&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;\
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 4&lt;/span&gt;&lt;span&gt; --body &lt;span style="color:#e6db74"&gt;&amp;#34;Implement comprehensive GitHub workflow automation...&amp;#34;&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;\
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 5&lt;/span&gt;&lt;span&gt; --label &lt;span style="color:#e6db74"&gt;&amp;#34;feature,github,high-priority&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 6&lt;/span&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 7&lt;/span&gt;&lt;span&gt;gh issue create &lt;span style="color:#ae81ff"&gt;\
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 8&lt;/span&gt;&lt;span&gt; --title &lt;span style="color:#e6db74"&gt;&amp;#34;Bug: Merge conflicts in integration branch&amp;#34;&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;\
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 9&lt;/span&gt;&lt;span&gt; --body &lt;span style="color:#e6db74"&gt;&amp;#34;Resolve merge conflicts...&amp;#34;&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;\
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;10&lt;/span&gt;&lt;span&gt; --label &lt;span style="color:#e6db74"&gt;&amp;#34;bug,integration,urgent&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;11&lt;/span&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;12&lt;/span&gt;&lt;span&gt;gh issue create &lt;span style="color:#ae81ff"&gt;\
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;13&lt;/span&gt;&lt;span&gt; --title &lt;span style="color:#e6db74"&gt;&amp;#34;Documentation: Update integration guides&amp;#34;&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;\
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;14&lt;/span&gt;&lt;span&gt; --body &lt;span style="color:#e6db74"&gt;&amp;#34;Update all documentation...&amp;#34;&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;\
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;15&lt;/span&gt;&lt;span&gt; --label &lt;span style="color:#e6db74"&gt;&amp;#34;documentation,integration&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/details&gt;
-&lt;details&gt;
-&lt;summary&gt;&lt;strong&gt;Issue-to-Swarm Conversion&lt;/strong&gt;&lt;/summary&gt;
-&lt;h4 id="transform-issues-into-swarm-tasks"&gt;Transform Issues into Swarm Tasks&lt;/h4&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Get issue details&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 2&lt;/span&gt;&lt;span&gt;ISSUE_DATA&lt;span style="color:#f92672"&gt;=&lt;/span&gt;&lt;span style="color:#66d9ef"&gt;$(&lt;/span&gt;gh issue view &lt;span style="color:#ae81ff"&gt;456&lt;/span&gt; --json title,body,labels,assignees,comments&lt;span style="color:#66d9ef"&gt;)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 3&lt;/span&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 4&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Create swarm from issue&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 5&lt;/span&gt;&lt;span&gt;npx ruv-swarm github issue-to-swarm &lt;span style="color:#ae81ff"&gt;456&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;\
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 6&lt;/span&gt;&lt;span&gt; --issue-data &lt;span style="color:#e6db74"&gt;&amp;#34;&lt;/span&gt;$ISSUE_DATA&lt;span style="color:#e6db74"&gt;&amp;#34;&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;\
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 7&lt;/span&gt;&lt;span&gt; --auto-decompose &lt;span style="color:#ae81ff"&gt;\
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 8&lt;/span&gt;&lt;span&gt; --assign-agents
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 9&lt;/span&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;10&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Batch process multiple issues&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;11&lt;/span&gt;&lt;span&gt;ISSUES&lt;span style="color:#f92672"&gt;=&lt;/span&gt;&lt;span style="color:#66d9ef"&gt;$(&lt;/span&gt;gh issue list --label &lt;span style="color:#e6db74"&gt;&amp;#34;swarm-ready&amp;#34;&lt;/span&gt; --json number,title,body,labels&lt;span style="color:#66d9ef"&gt;)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;12&lt;/span&gt;&lt;span&gt;npx ruv-swarm github issues-batch &lt;span style="color:#ae81ff"&gt;\
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;13&lt;/span&gt;&lt;span&gt; --issues &lt;span style="color:#e6db74"&gt;&amp;#34;&lt;/span&gt;$ISSUES&lt;span style="color:#e6db74"&gt;&amp;#34;&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;\
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;14&lt;/span&gt;&lt;span&gt; --parallel
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;15&lt;/span&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;16&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Update issues with swarm status&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;17&lt;/span&gt;&lt;span&gt;echo &lt;span style="color:#e6db74"&gt;&amp;#34;&lt;/span&gt;$ISSUES&lt;span style="color:#e6db74"&gt;&amp;#34;&lt;/span&gt; | jq -r &lt;span style="color:#e6db74"&gt;&amp;#39;.[].number&amp;#39;&lt;/span&gt; | &lt;span style="color:#66d9ef"&gt;while&lt;/span&gt; read -r num; &lt;span style="color:#66d9ef"&gt;do&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;18&lt;/span&gt;&lt;span&gt; gh issue edit $num --add-label &lt;span style="color:#e6db74"&gt;&amp;#34;swarm-processing&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;19&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;done&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id="issue-comment-commands"&gt;Issue Comment Commands&lt;/h4&gt;
-&lt;p&gt;Execute swarm operations via issue comments:&lt;/p&gt;</description></item><item><title>GitHub Project Management</title><link>https://agentskill.wiki/skills/github-project-management/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/github-project-management/</guid><description>&lt;h1 id="github-project-management"&gt;GitHub Project Management&lt;/h1&gt;
 &lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;A comprehensive skill for managing GitHub projects using AI swarm coordination. This skill combines intelligent issue management, automated project board synchronization, and swarm-based coordination for efficient project delivery.&lt;/p&gt;
 &lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;
@@ -775,15 +391,6 @@ Best,
 &lt;li&gt;Confirm access to the relevant Linear workspace, teams, and projects&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="required-workflow"&gt;Required Workflow&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Follow these steps in order. Do not skip steps.&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Linear</title><link>https://agentskill.wiki/skills/linear/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/linear/</guid><description>&lt;h1 id="linear"&gt;Linear&lt;/h1&gt;
-&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
-&lt;p&gt;This skill provides a structured workflow for managing issues, projects &amp;amp; team workflows in Linear. It ensures consistent integration with the Linear MCP server, which offers natural-language project management for issues, projects, documentation, and team collaboration.&lt;/p&gt;
-&lt;h2 id="prerequisites"&gt;Prerequisites&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Linear MCP server must be connected and accessible via OAuth&lt;/li&gt;
-&lt;li&gt;Confirm access to the relevant Linear workspace, teams, and projects&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="required-workflow"&gt;Required Workflow&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Follow these steps in order. Do not skip steps.&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Markitdown</title><link>https://agentskill.wiki/en/skills/markitdown/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/markitdown/</guid><description>&lt;h1 id="markitdown---file-to-markdown-conversion"&gt;MarkItDown - File to Markdown Conversion&lt;/h1&gt;
 &lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;MarkItDown is a Python tool developed by Microsoft for converting various file formats to Markdown. It&amp;rsquo;s particularly useful for converting documents into LLM-friendly text format, as Markdown is token-efficient and well-understood by modern language models.&lt;/p&gt;
@@ -797,86 +404,7 @@ Best,
 &lt;li&gt;Speech transcription for audio files&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="visual-enhancement-with-scientific-schematics"&gt;Visual Enhancement with Scientific Schematics&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;When creating documents with this skill, always consider adding scientific diagrams and schematics to enhance visual communication.&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Markitdown</title><link>https://agentskill.wiki/skills/markitdown/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/markitdown/</guid><description>&lt;h1 id="markitdown---file-to-markdown-conversion"&gt;MarkItDown - File to Markdown Conversion&lt;/h1&gt;
-&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
-&lt;p&gt;MarkItDown is a Python tool developed by Microsoft for converting various file formats to Markdown. It&amp;rsquo;s particularly useful for converting documents into LLM-friendly text format, as Markdown is token-efficient and well-understood by modern language models.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Key Benefits&lt;/strong&gt;:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Convert documents to clean, structured Markdown&lt;/li&gt;
-&lt;li&gt;Token-efficient format for LLM processing&lt;/li&gt;
-&lt;li&gt;Supports 15+ file formats&lt;/li&gt;
-&lt;li&gt;Optional AI-enhanced image descriptions&lt;/li&gt;
-&lt;li&gt;OCR for images and scanned documents&lt;/li&gt;
-&lt;li&gt;Speech transcription for audio files&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="visual-enhancement-with-scientific-schematics"&gt;Visual Enhancement with Scientific Schematics&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;When creating documents with this skill, always consider adding scientific diagrams and schematics to enhance visual communication.&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>N8N Mcp Tools Expert</title><link>https://agentskill.wiki/en/skills/n8n-mcp-tools-expert/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/n8n-mcp-tools-expert/</guid><description>&lt;h1 id="n8n-mcp-tools-expert"&gt;n8n MCP Tools Expert&lt;/h1&gt;
-&lt;p&gt;Master guide for using n8n-mcp MCP server tools to build workflows.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id="tool-categories"&gt;Tool Categories&lt;/h2&gt;
-&lt;p&gt;n8n-mcp provides &lt;strong&gt;40+ tools&lt;/strong&gt; organized into categories:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;Node Discovery&lt;/strong&gt; → &lt;a href="SEARCH_GUIDE.md"&gt;SEARCH_GUIDE.md&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Configuration Validation&lt;/strong&gt; → &lt;a href="VALIDATION_GUIDE.md"&gt;VALIDATION_GUIDE.md&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Workflow Management&lt;/strong&gt; → &lt;a href="WORKFLOW_GUIDE.md"&gt;WORKFLOW_GUIDE.md&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Template Library&lt;/strong&gt; - Search and access 2,653 real workflows&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Documentation&lt;/strong&gt; - Get tool and node documentation&lt;/li&gt;
-&lt;/ol&gt;
-&lt;hr&gt;
-&lt;h2 id="quick-reference"&gt;Quick Reference&lt;/h2&gt;
-&lt;h3 id="most-used-tools-by-success-rate"&gt;Most Used Tools (by success rate)&lt;/h3&gt;
-&lt;table&gt;
- &lt;thead&gt;
- &lt;tr&gt;
- &lt;th&gt;Tool&lt;/th&gt;
- &lt;th&gt;Use When&lt;/th&gt;
- &lt;th&gt;Success Rate&lt;/th&gt;
- &lt;th&gt;Speed&lt;/th&gt;
- &lt;/tr&gt;
- &lt;/thead&gt;
- &lt;tbody&gt;
- &lt;tr&gt;
- &lt;td&gt;&lt;code&gt;search_nodes&lt;/code&gt;&lt;/td&gt;
- &lt;td&gt;Finding nodes by keyword&lt;/td&gt;
- &lt;td&gt;99.9%&lt;/td&gt;
- &lt;td&gt;&amp;lt;20ms&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;&lt;code&gt;get_node_essentials&lt;/code&gt;&lt;/td&gt;
- &lt;td&gt;Understanding node operations&lt;/td&gt;
- &lt;td&gt;91.7%&lt;/td&gt;
- &lt;td&gt;&amp;lt;10ms&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;&lt;code&gt;validate_node_operation&lt;/code&gt;&lt;/td&gt;
- &lt;td&gt;Checking configurations&lt;/td&gt;
- &lt;td&gt;Varies&lt;/td&gt;
- &lt;td&gt;&amp;lt;100ms&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;&lt;code&gt;n8n_create_workflow&lt;/code&gt;&lt;/td&gt;
- &lt;td&gt;Creating workflows&lt;/td&gt;
- &lt;td&gt;96.8%&lt;/td&gt;
- &lt;td&gt;100-500ms&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;&lt;code&gt;n8n_update_partial_workflow&lt;/code&gt;&lt;/td&gt;
- &lt;td&gt;Editing workflows (MOST USED!)&lt;/td&gt;
- &lt;td&gt;99.0%&lt;/td&gt;
- &lt;td&gt;50-200ms&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;&lt;code&gt;validate_workflow&lt;/code&gt;&lt;/td&gt;
- &lt;td&gt;Checking complete workflow&lt;/td&gt;
- &lt;td&gt;95.5%&lt;/td&gt;
- &lt;td&gt;100-500ms&lt;/td&gt;
- &lt;/tr&gt;
- &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;hr&gt;
-&lt;h2 id="tool-selection-guide"&gt;Tool Selection Guide&lt;/h2&gt;
-&lt;h3 id="finding-the-right-node"&gt;Finding the Right Node&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Workflow&lt;/strong&gt;:&lt;/p&gt;</description></item><item><title>N8N Mcp Tools Expert</title><link>https://agentskill.wiki/skills/n8n-mcp-tools-expert/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/n8n-mcp-tools-expert/</guid><description>&lt;h1 id="n8n-mcp-tools-expert"&gt;n8n MCP Tools Expert&lt;/h1&gt;
 &lt;p&gt;Master guide for using n8n-mcp MCP server tools to build workflows.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id="tool-categories"&gt;Tool Categories&lt;/h2&gt;
@@ -971,65 +499,7 @@ Best,
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;After successful login, the user will have to restart codex. You should finish your answer and tell them so when they try again they can continue with Step 1.&lt;/p&gt;</description></item><item><title>Notion Knowledge Capture</title><link>https://agentskill.wiki/skills/notion-knowledge-capture/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/notion-knowledge-capture/</guid><description>&lt;h1 id="knowledge-capture"&gt;Knowledge Capture&lt;/h1&gt;
-&lt;p&gt;Convert conversations and notes into structured, linkable Notion pages for easy reuse.&lt;/p&gt;
-&lt;h2 id="quick-start"&gt;Quick start&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;Clarify what to capture (decision, how-to, FAQ, learning, documentation) and target audience.&lt;/li&gt;
-&lt;li&gt;Identify the right database/template in &lt;code&gt;reference/&lt;/code&gt; (team wiki, how-to, FAQ, decision log, learning, documentation).&lt;/li&gt;
-&lt;li&gt;Pull any prior context from Notion with &lt;code&gt;Notion:notion-search&lt;/code&gt; → &lt;code&gt;Notion:notion-fetch&lt;/code&gt; (existing pages to update/link).&lt;/li&gt;
-&lt;li&gt;Draft the page with &lt;code&gt;Notion:notion-create-pages&lt;/code&gt; using the database&amp;rsquo;s schema; include summary, context, source links, and tags/owners.&lt;/li&gt;
-&lt;li&gt;Link from hub pages and related records; update status/owners with &lt;code&gt;Notion:notion-update-page&lt;/code&gt; as the source evolves.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id="workflow"&gt;Workflow&lt;/h2&gt;
-&lt;h3 id="0-if-any-mcp-call-fails-because-notion-mcp-is-not-connected-pause-and-set-it-up"&gt;0) If any MCP call fails because Notion MCP is not connected, pause and set it up:&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;Add the Notion MCP:
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;codex mcp add notion --url https://mcp.notion.com/mcp&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Enable remote MCP client:
-&lt;ul&gt;
-&lt;li&gt;Set &lt;code&gt;[features].rmcp_client = true&lt;/code&gt; in &lt;code&gt;config.toml&lt;/code&gt; &lt;strong&gt;or&lt;/strong&gt; run &lt;code&gt;codex --enable rmcp_client&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Log in with OAuth:
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;codex mcp login notion&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
 &lt;p&gt;After successful login, the user will have to restart codex. You should finish your answer and tell them so when they try again they can continue with Step 1.&lt;/p&gt;</description></item><item><title>Notion Meeting Intelligence</title><link>https://agentskill.wiki/en/skills/notion-meeting-intelligence/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/notion-meeting-intelligence/</guid><description>&lt;h1 id="meeting-intelligence"&gt;Meeting Intelligence&lt;/h1&gt;
-&lt;p&gt;Prep meetings by pulling Notion context, tailoring agendas/pre-reads, and enriching with Codex research.&lt;/p&gt;
-&lt;h2 id="quick-start"&gt;Quick start&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;Confirm meeting goal, attendees, date/time, and decisions needed.&lt;/li&gt;
-&lt;li&gt;Gather context: search with &lt;code&gt;Notion:notion-search&lt;/code&gt;, then fetch with &lt;code&gt;Notion:notion-fetch&lt;/code&gt; (prior notes, specs, OKRs, decisions).&lt;/li&gt;
-&lt;li&gt;Pick the right template via &lt;code&gt;reference/template-selection-guide.md&lt;/code&gt; (status, decision, planning, retro, 1:1, brainstorming).&lt;/li&gt;
-&lt;li&gt;Draft agenda/pre-read in Notion with &lt;code&gt;Notion:notion-create-pages&lt;/code&gt;, embedding source links and owner/timeboxes.&lt;/li&gt;
-&lt;li&gt;Enrich with Codex research (industry insights, benchmarks, risks) and update the page with &lt;code&gt;Notion:notion-update-page&lt;/code&gt; as plans change.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id="workflow"&gt;Workflow&lt;/h2&gt;
-&lt;h3 id="0-if-any-mcp-call-fails-because-notion-mcp-is-not-connected-pause-and-set-it-up"&gt;0) If any MCP call fails because Notion MCP is not connected, pause and set it up:&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;Add the Notion MCP:
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;codex mcp add notion --url https://mcp.notion.com/mcp&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Enable remote MCP client:
-&lt;ul&gt;
-&lt;li&gt;Set &lt;code&gt;[features].rmcp_client = true&lt;/code&gt; in &lt;code&gt;config.toml&lt;/code&gt; &lt;strong&gt;or&lt;/strong&gt; run &lt;code&gt;codex --enable rmcp_client&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Log in with OAuth:
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;codex mcp login notion&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;After successful login, the user will have to restart codex. You should finish your answer and tell them so when they try again they can continue with Step 1.&lt;/p&gt;</description></item><item><title>Notion Meeting Intelligence</title><link>https://agentskill.wiki/skills/notion-meeting-intelligence/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/notion-meeting-intelligence/</guid><description>&lt;h1 id="meeting-intelligence"&gt;Meeting Intelligence&lt;/h1&gt;
 &lt;p&gt;Prep meetings by pulling Notion context, tailoring agendas/pre-reads, and enriching with Codex research.&lt;/p&gt;
 &lt;h2 id="quick-start"&gt;Quick start&lt;/h2&gt;
 &lt;ol&gt;
@@ -1087,90 +557,12 @@ Best,
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;After successful login, the user will have to restart codex. You should finish your answer and tell them so when they try again they can continue with Step 1.&lt;/p&gt;</description></item><item><title>Notion Spec To Implementation</title><link>https://agentskill.wiki/skills/notion-spec-to-implementation/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/notion-spec-to-implementation/</guid><description>&lt;h1 id="spec-to-implementation"&gt;Spec to Implementation&lt;/h1&gt;
-&lt;p&gt;Convert a Notion spec into linked implementation plans, tasks, and ongoing status updates.&lt;/p&gt;
-&lt;h2 id="quick-start"&gt;Quick start&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;Locate the spec with &lt;code&gt;Notion:notion-search&lt;/code&gt;, then fetch it with &lt;code&gt;Notion:notion-fetch&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;Parse requirements and ambiguities using &lt;code&gt;reference/spec-parsing.md&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;Create a plan page with &lt;code&gt;Notion:notion-create-pages&lt;/code&gt; (pick a template: quick vs. full).&lt;/li&gt;
-&lt;li&gt;Find the task database, confirm schema, then create tasks with &lt;code&gt;Notion:notion-create-pages&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;Link spec ↔ plan ↔ tasks; keep status current with &lt;code&gt;Notion:notion-update-page&lt;/code&gt;.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id="workflow"&gt;Workflow&lt;/h2&gt;
-&lt;h3 id="0-if-any-mcp-call-fails-because-notion-mcp-is-not-connected-pause-and-set-it-up"&gt;0) If any MCP call fails because Notion MCP is not connected, pause and set it up:&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;Add the Notion MCP:
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;codex mcp add notion --url https://mcp.notion.com/mcp&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Enable remote MCP client:
-&lt;ul&gt;
-&lt;li&gt;Set &lt;code&gt;[features].rmcp_client = true&lt;/code&gt; in &lt;code&gt;config.toml&lt;/code&gt; &lt;strong&gt;or&lt;/strong&gt; run &lt;code&gt;codex --enable rmcp_client&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Log in with OAuth:
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;codex mcp login notion&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
 &lt;p&gt;After successful login, the user will have to restart codex. You should finish your answer and tell them so when they try again they can continue with Step 1.&lt;/p&gt;</description></item><item><title>Obsidian Bases</title><link>https://agentskill.wiki/en/skills/obsidian-bases/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/obsidian-bases/</guid><description>&lt;h1 id="obsidian-bases-skill"&gt;Obsidian Bases Skill&lt;/h1&gt;
 &lt;p&gt;This skill enables Claude Code to create and edit valid Obsidian Bases (&lt;code&gt;.base&lt;/code&gt; files) including views, filters, formulas, and all related configurations.&lt;/p&gt;
 &lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;Obsidian Bases are YAML-based files that define dynamic views of notes in an Obsidian vault. A Base file can contain multiple views, global filters, formulas, property configurations, and custom summaries.&lt;/p&gt;
 &lt;h2 id="file-format"&gt;File Format&lt;/h2&gt;
-&lt;p&gt;Base files use the &lt;code&gt;.base&lt;/code&gt; extension and contain valid YAML. They can also be embedded in Markdown code blocks.&lt;/p&gt;</description></item><item><title>Obsidian Bases</title><link>https://agentskill.wiki/skills/obsidian-bases/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/obsidian-bases/</guid><description>&lt;h1 id="obsidian-bases-skill"&gt;Obsidian Bases Skill&lt;/h1&gt;
-&lt;p&gt;This skill enables Claude Code to create and edit valid Obsidian Bases (&lt;code&gt;.base&lt;/code&gt; files) including views, filters, formulas, and all related configurations.&lt;/p&gt;
-&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
-&lt;p&gt;Obsidian Bases are YAML-based files that define dynamic views of notes in an Obsidian vault. A Base file can contain multiple views, global filters, formulas, property configurations, and custom summaries.&lt;/p&gt;
-&lt;h2 id="file-format"&gt;File Format&lt;/h2&gt;
 &lt;p&gt;Base files use the &lt;code&gt;.base&lt;/code&gt; extension and contain valid YAML. They can also be embedded in Markdown code blocks.&lt;/p&gt;</description></item><item><title>Planning With Files</title><link>https://agentskill.wiki/en/skills/planning-with-files/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/planning-with-files/</guid><description>&lt;h1 id="planning-with-files"&gt;Planning with Files&lt;/h1&gt;
-&lt;p&gt;Work like Manus: Use persistent markdown files as your &amp;ldquo;working memory on disk.&amp;rdquo;&lt;/p&gt;
-&lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;
-&lt;p&gt;Before ANY complex task:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;Create &lt;code&gt;task_plan.md&lt;/code&gt;&lt;/strong&gt; in the working directory&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Define phases&lt;/strong&gt; with checkboxes&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Update after each phase&lt;/strong&gt; - mark [x] and change status&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Read before deciding&lt;/strong&gt; - refresh goals in attention window&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id="the-3-file-pattern"&gt;The 3-File Pattern&lt;/h2&gt;
-&lt;p&gt;For every non-trivial task, create THREE files:&lt;/p&gt;
-&lt;table&gt;
- &lt;thead&gt;
- &lt;tr&gt;
- &lt;th&gt;File&lt;/th&gt;
- &lt;th&gt;Purpose&lt;/th&gt;
- &lt;th&gt;When to Update&lt;/th&gt;
- &lt;/tr&gt;
- &lt;/thead&gt;
- &lt;tbody&gt;
- &lt;tr&gt;
- &lt;td&gt;&lt;code&gt;task_plan.md&lt;/code&gt;&lt;/td&gt;
- &lt;td&gt;Track phases and progress&lt;/td&gt;
- &lt;td&gt;After each phase&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;&lt;code&gt;notes.md&lt;/code&gt;&lt;/td&gt;
- &lt;td&gt;Store findings and research&lt;/td&gt;
- &lt;td&gt;During research&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;&lt;code&gt;[deliverable].md&lt;/code&gt;&lt;/td&gt;
- &lt;td&gt;Final output&lt;/td&gt;
- &lt;td&gt;At completion&lt;/td&gt;
- &lt;/tr&gt;
- &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;h2 id="core-workflow"&gt;Core Workflow&lt;/h2&gt;
-&lt;pre tabindex="0"&gt;&lt;code&gt;Loop 1: Create task_plan.md with goal and phases
-Loop 2: Research → save to notes.md → update task_plan.md
-Loop 3: Read notes.md → create deliverable → update task_plan.md
-Loop 4: Deliver final output
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id="the-loop-in-detail"&gt;The Loop in Detail&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Before each major action:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Planning With Files</title><link>https://agentskill.wiki/skills/planning-with-files/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/planning-with-files/</guid><description>&lt;h1 id="planning-with-files"&gt;Planning with Files&lt;/h1&gt;
 &lt;p&gt;Work like Manus: Use persistent markdown files as your &amp;ldquo;working memory on disk.&amp;rdquo;&lt;/p&gt;
 &lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;
 &lt;p&gt;Before ANY complex task:&lt;/p&gt;
@@ -1249,58 +641,7 @@ Loop 4: Deliver final output
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
 &lt;h2 id="complete-specification"&gt;Complete Specification&lt;/h2&gt;
 &lt;h3 id="-yaml-frontmatter-required"&gt;📋 YAML Frontmatter (REQUIRED)&lt;/h3&gt;
-&lt;p&gt;Every SKILL.md &lt;strong&gt;must&lt;/strong&gt; start with YAML frontmatter containing exactly two required fields:&lt;/p&gt;</description></item><item><title>Skill Builder</title><link>https://agentskill.wiki/skills/skill-builder/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/skill-builder/</guid><description>&lt;h1 id="skill-builder"&gt;Skill Builder&lt;/h1&gt;
-&lt;h2 id="what-this-skill-does"&gt;What This Skill Does&lt;/h2&gt;
-&lt;p&gt;Creates production-ready Claude Code Skills with proper YAML frontmatter, progressive disclosure architecture, and complete file/folder structure. This skill guides you through building skills that Claude can autonomously discover and use across all surfaces (Claude.ai, Claude Code, SDK, API).&lt;/p&gt;
-&lt;h2 id="prerequisites"&gt;Prerequisites&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Claude Code 2.0+ or Claude.ai with Skills support&lt;/li&gt;
-&lt;li&gt;Basic understanding of Markdown and YAML&lt;/li&gt;
-&lt;li&gt;Text editor or IDE&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;
-&lt;h3 id="creating-your-first-skill"&gt;Creating Your First Skill&lt;/h3&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# 1. Create skill directory (MUST be at top level, NOT in subdirectories!)&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 2&lt;/span&gt;&lt;span&gt;mkdir -p ~/.claude/skills/my-first-skill
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 3&lt;/span&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 4&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# 2. Create SKILL.md with proper format&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 5&lt;/span&gt;&lt;span&gt;cat &amp;gt; ~/.claude/skills/my-first-skill/SKILL.md &lt;span style="color:#e6db74"&gt;&amp;lt;&amp;lt; &amp;#39;EOF&amp;#39;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 6&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;---
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 7&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;name: &amp;#34;My First Skill&amp;#34;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 8&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;description: &amp;#34;Brief description of what this skill does and when Claude should use it. Maximum 1024 characters.&amp;#34;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 9&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;---
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;10&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;11&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;# My First Skill
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;12&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;13&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;## What This Skill Does
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;14&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;[Your instructions here]
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;15&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;16&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;## Quick Start
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;17&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;[Basic usage]
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;18&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;EOF&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;19&lt;/span&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;20&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# 3. Verify skill is detected&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;21&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Restart Claude Code or refresh Claude.ai&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
-&lt;h2 id="complete-specification"&gt;Complete Specification&lt;/h2&gt;
-&lt;h3 id="-yaml-frontmatter-required"&gt;📋 YAML Frontmatter (REQUIRED)&lt;/h3&gt;
 &lt;p&gt;Every SKILL.md &lt;strong&gt;must&lt;/strong&gt; start with YAML frontmatter containing exactly two required fields:&lt;/p&gt;</description></item><item><title>Skill Creation Guide</title><link>https://agentskill.wiki/en/skills/skill-creation-guide/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/skill-creation-guide/</guid><description>&lt;h1 id="skill-creator"&gt;Skill Creator&lt;/h1&gt;
-&lt;p&gt;This skill provides guidance for creating effective skills.&lt;/p&gt;
-&lt;h2 id="about-skills"&gt;About Skills&lt;/h2&gt;
-&lt;p&gt;Skills are modular, self-contained packages that extend Claude&amp;rsquo;s capabilities by providing
-specialized knowledge, workflows, and tools. Think of them as &amp;ldquo;onboarding guides&amp;rdquo; for specific
-domains or tasks—they transform Claude from a general-purpose agent into a specialized agent
-equipped with procedural knowledge that no model can fully possess.&lt;/p&gt;
-&lt;h3 id="what-skills-provide"&gt;What Skills Provide&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;Specialized workflows - Multi-step procedures for specific domains&lt;/li&gt;
-&lt;li&gt;Tool integrations - Instructions for working with specific file formats or APIs&lt;/li&gt;
-&lt;li&gt;Domain expertise - Company-specific knowledge, schemas, business logic&lt;/li&gt;
-&lt;li&gt;Bundled resources - Scripts, references, and assets for complex and repetitive tasks&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id="core-principles"&gt;Core Principles&lt;/h2&gt;
-&lt;h3 id="concise-is-key"&gt;Concise is Key&lt;/h3&gt;
-&lt;p&gt;The context window is a public good. Skills share the context window with everything else Claude needs: system prompt, conversation history, other Skills&amp;rsquo; metadata, and the actual user request.&lt;/p&gt;</description></item><item><title>Skill Creation Guide</title><link>https://agentskill.wiki/skills/skill-creation-guide/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/skill-creation-guide/</guid><description>&lt;h1 id="skill-creator"&gt;Skill Creator&lt;/h1&gt;
 &lt;p&gt;This skill provides guidance for creating effective skills.&lt;/p&gt;
 &lt;h2 id="about-skills"&gt;About Skills&lt;/h2&gt;
 &lt;p&gt;Skills are modular, self-contained packages that extend Claude&amp;rsquo;s capabilities by providing
@@ -1332,39 +673,7 @@ equipped with procedural knowledge that no model can fully possess.&lt;/p&gt;
 &lt;/ol&gt;
 &lt;h2 id="core-principles"&gt;Core Principles&lt;/h2&gt;
 &lt;h3 id="concise-is-key"&gt;Concise is Key&lt;/h3&gt;
-&lt;p&gt;The context window is a public good. Skills share the context window with everything else Claude needs: system prompt, conversation history, other Skills&amp;rsquo; metadata, and the actual user request.&lt;/p&gt;</description></item><item><title>Skill Creator</title><link>https://agentskill.wiki/skills/skill-creator/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/skill-creator/</guid><description>&lt;h1 id="skill-creator"&gt;Skill Creator&lt;/h1&gt;
-&lt;p&gt;This skill provides guidance for creating effective skills.&lt;/p&gt;
-&lt;h2 id="about-skills"&gt;About Skills&lt;/h2&gt;
-&lt;p&gt;Skills are modular, self-contained packages that extend Claude&amp;rsquo;s capabilities by providing
-specialized knowledge, workflows, and tools. Think of them as &amp;ldquo;onboarding guides&amp;rdquo; for specific
-domains or tasks—they transform Claude from a general-purpose agent into a specialized agent
-equipped with procedural knowledge that no model can fully possess.&lt;/p&gt;
-&lt;h3 id="what-skills-provide"&gt;What Skills Provide&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;Specialized workflows - Multi-step procedures for specific domains&lt;/li&gt;
-&lt;li&gt;Tool integrations - Instructions for working with specific file formats or APIs&lt;/li&gt;
-&lt;li&gt;Domain expertise - Company-specific knowledge, schemas, business logic&lt;/li&gt;
-&lt;li&gt;Bundled resources - Scripts, references, and assets for complex and repetitive tasks&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id="core-principles"&gt;Core Principles&lt;/h2&gt;
-&lt;h3 id="concise-is-key"&gt;Concise is Key&lt;/h3&gt;
 &lt;p&gt;The context window is a public good. Skills share the context window with everything else Claude needs: system prompt, conversation history, other Skills&amp;rsquo; metadata, and the actual user request.&lt;/p&gt;</description></item><item><title>Skill Writer</title><link>https://agentskill.wiki/en/skills/skill-writer/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/skill-writer/</guid><description>&lt;h1 id="skill-writer"&gt;Skill Writer&lt;/h1&gt;
-&lt;p&gt;This Skill helps you create well-structured Agent Skills for Claude Code that follow best practices and validation requirements.&lt;/p&gt;
-&lt;h2 id="when-to-use-this-skill"&gt;When to use this Skill&lt;/h2&gt;
-&lt;p&gt;Use this Skill when:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Creating a new Agent Skill&lt;/li&gt;
-&lt;li&gt;Writing or updating SKILL.md files&lt;/li&gt;
-&lt;li&gt;Designing skill structure and frontmatter&lt;/li&gt;
-&lt;li&gt;Troubleshooting skill discovery issues&lt;/li&gt;
-&lt;li&gt;Converting existing prompts or workflows into Skills&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="instructions"&gt;Instructions&lt;/h2&gt;
-&lt;h3 id="step-1-determine-skill-scope"&gt;Step 1: Determine Skill scope&lt;/h3&gt;
-&lt;p&gt;First, understand what the Skill should do:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Ask clarifying questions&lt;/strong&gt;:&lt;/p&gt;</description></item><item><title>Skill Writer</title><link>https://agentskill.wiki/skills/skill-writer/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/skill-writer/</guid><description>&lt;h1 id="skill-writer"&gt;Skill Writer&lt;/h1&gt;
 &lt;p&gt;This Skill helps you create well-structured Agent Skills for Claude Code that follow best practices and validation requirements.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to use this Skill&lt;/h2&gt;
 &lt;p&gt;Use this Skill when:&lt;/p&gt;
@@ -1395,28 +704,7 @@ equipped with procedural knowledge that no model can fully possess.&lt;/p&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;10&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Show status&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;11&lt;/span&gt;&lt;span&gt;python3 scripts/task_manager.py status --file &amp;lt;design.md&amp;gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="task-format"&gt;Task Format&lt;/h2&gt;
-&lt;p&gt;Tasks are written as markdown checkboxes in the design document:&lt;/p&gt;</description></item><item><title>Task Execution Engine</title><link>https://agentskill.wiki/skills/task-execution-engine/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/task-execution-engine/</guid><description>&lt;h1 id="feature-pipeline"&gt;Feature Pipeline&lt;/h1&gt;
-&lt;p&gt;Execute implementation tasks directly from design documents. Tasks are managed as markdown checkboxes - no separate session files needed.&lt;/p&gt;
-&lt;h2 id="quick-reference"&gt;Quick Reference&lt;/h2&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Get next task&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 2&lt;/span&gt;&lt;span&gt;python3 scripts/task_manager.py next --file &amp;lt;design.md&amp;gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 3&lt;/span&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 4&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Mark task completed&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 5&lt;/span&gt;&lt;span&gt;python3 scripts/task_manager.py &lt;span style="color:#66d9ef"&gt;done&lt;/span&gt; --file &amp;lt;design.md&amp;gt; --task &lt;span style="color:#e6db74"&gt;&amp;#34;Task Title&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 6&lt;/span&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 7&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Mark task failed&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 8&lt;/span&gt;&lt;span&gt;python3 scripts/task_manager.py fail --file &amp;lt;design.md&amp;gt; --task &lt;span style="color:#e6db74"&gt;&amp;#34;Task Title&amp;#34;&lt;/span&gt; --reason &lt;span style="color:#e6db74"&gt;&amp;#34;...&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 9&lt;/span&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;10&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Show status&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;11&lt;/span&gt;&lt;span&gt;python3 scripts/task_manager.py status --file &amp;lt;design.md&amp;gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="task-format"&gt;Task Format&lt;/h2&gt;
 &lt;p&gt;Tasks are written as markdown checkboxes in the design document:&lt;/p&gt;</description></item><item><title>Zapier Workflows</title><link>https://agentskill.wiki/en/skills/zapier-workflows/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/zapier-workflows/</guid><description>&lt;h1 id="zapier-workflows-skill"&gt;Zapier Workflows Skill&lt;/h1&gt;
-&lt;h2 id="the-problem-this-solves"&gt;The Problem This Solves&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Zapier MCP gives Claude access to 8,000+ individual tools&lt;/strong&gt; (every Zapier action), but there are critical limitations:&lt;/p&gt;
-&lt;p&gt;❌ &lt;strong&gt;No memory&lt;/strong&gt; - Claude doesn&amp;rsquo;t remember which tools YOU use or why
-❌ &lt;strong&gt;No context&lt;/strong&gt; - Doesn&amp;rsquo;t know when to use specific tools for your workflows
-❌ &lt;strong&gt;Only one-off actions&lt;/strong&gt; - Can&amp;rsquo;t trigger your complex, multi-step Zaps
-❌ &lt;strong&gt;Fresh start every session&lt;/strong&gt; - All context lost between conversations&lt;/p&gt;</description></item><item><title>Zapier Workflows</title><link>https://agentskill.wiki/skills/zapier-workflows/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/zapier-workflows/</guid><description>&lt;h1 id="zapier-workflows-skill"&gt;Zapier Workflows Skill&lt;/h1&gt;
 &lt;h2 id="the-problem-this-solves"&gt;The Problem This Solves&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Zapier MCP gives Claude access to 8,000+ individual tools&lt;/strong&gt; (every Zapier action), but there are critical limitations:&lt;/p&gt;
 &lt;p&gt;❌ &lt;strong&gt;No memory&lt;/strong&gt; - Claude doesn&amp;rsquo;t remember which tools YOU use or why

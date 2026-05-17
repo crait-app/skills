@@ -1,56 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Best Practices on Agent Skills Hub</title><link>https://agentskill.wiki/tags/best-practices/</link><description>Recent content in Best Practices on Agent Skills Hub</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/best-practices/index.xml" rel="self" type="application/rss+xml"/><item><title>Backend Dev Guidelines</title><link>https://agentskill.wiki/en/skills/backend-dev-guidelines/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/backend-dev-guidelines/</guid><description>&lt;h1 id="backend-development-guidelines"&gt;Backend Development Guidelines&lt;/h1&gt;
-&lt;h2 id="purpose"&gt;Purpose&lt;/h2&gt;
-&lt;p&gt;Establish consistency and best practices across backend microservices (blog-api, auth-service, notifications-service) using modern Node.js/Express/TypeScript patterns.&lt;/p&gt;
-&lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
-&lt;p&gt;Automatically activates when working on:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Creating or modifying routes, endpoints, APIs&lt;/li&gt;
-&lt;li&gt;Building controllers, services, repositories&lt;/li&gt;
-&lt;li&gt;Implementing middleware (auth, validation, error handling)&lt;/li&gt;
-&lt;li&gt;Database operations with Prisma&lt;/li&gt;
-&lt;li&gt;Error tracking with Sentry&lt;/li&gt;
-&lt;li&gt;Input validation with Zod&lt;/li&gt;
-&lt;li&gt;Configuration management&lt;/li&gt;
-&lt;li&gt;Backend testing and refactoring&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;
-&lt;h3 id="new-backend-feature-checklist"&gt;New Backend Feature Checklist&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Route&lt;/strong&gt;: Clean definition, delegate to controller&lt;/li&gt;
-&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Controller&lt;/strong&gt;: Extend BaseController&lt;/li&gt;
-&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Service&lt;/strong&gt;: Business logic with DI&lt;/li&gt;
-&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Repository&lt;/strong&gt;: Database access (if complex)&lt;/li&gt;
-&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Validation&lt;/strong&gt;: Zod schema&lt;/li&gt;
-&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Sentry&lt;/strong&gt;: Error tracking&lt;/li&gt;
-&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Tests&lt;/strong&gt;: Unit + integration tests&lt;/li&gt;
-&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Config&lt;/strong&gt;: Use unifiedConfig&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="new-microservice-checklist"&gt;New Microservice Checklist&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; Directory structure (see &lt;a href="architecture-overview.md"&gt;architecture-overview.md&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; instrument.ts for Sentry&lt;/li&gt;
-&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; unifiedConfig setup&lt;/li&gt;
-&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; BaseController class&lt;/li&gt;
-&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; Middleware stack&lt;/li&gt;
-&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; Error boundary&lt;/li&gt;
-&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; Testing framework&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id="architecture-overview"&gt;Architecture Overview&lt;/h2&gt;
-&lt;h3 id="layered-architecture"&gt;Layered Architecture&lt;/h3&gt;
-&lt;pre tabindex="0"&gt;&lt;code&gt;HTTP Request
- ↓
-Routes (routing only)
- ↓
-Controllers (request handling)
- ↓
-Services (business logic)
- ↓
-Repositories (data access)
- ↓
-Database (Prisma)
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Key Principle:&lt;/strong&gt; Each layer has ONE responsibility.&lt;/p&gt;</description></item><item><title>Backend Dev Guidelines</title><link>https://agentskill.wiki/skills/backend-dev-guidelines/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/backend-dev-guidelines/</guid><description>&lt;h1 id="backend-development-guidelines"&gt;Backend Development Guidelines&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Best-Practices on Agent Skills Hub</title><link>https://agentskill.wiki/tags/best-practices/</link><description>Recent content in Best-Practices on Agent Skills Hub</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/best-practices/index.xml" rel="self" type="application/rss+xml"/><item><title>Backend Dev Guidelines</title><link>https://agentskill.wiki/en/skills/backend-dev-guidelines/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/backend-dev-guidelines/</guid><description>&lt;h1 id="backend-development-guidelines"&gt;Backend Development Guidelines&lt;/h1&gt;
 &lt;h2 id="purpose"&gt;Purpose&lt;/h2&gt;
 &lt;p&gt;Establish consistency and best practices across backend microservices (blog-api, auth-service, notifications-service) using modern Node.js/Express/TypeScript patterns.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
@@ -121,41 +69,7 @@ Database (Prisma)
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;4&lt;/span&gt;&lt;span&gt;cargo audit &lt;span style="color:#75715e"&gt;# Rust&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;5&lt;/span&gt;&lt;span&gt;grep -r &lt;span style="color:#e6db74"&gt;&amp;#34;password\|secret\|api_key&amp;#34;&lt;/span&gt; --include&lt;span style="color:#f92672"&gt;=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;*.py&amp;#34;&lt;/span&gt; --include&lt;span style="color:#f92672"&gt;=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;*.js&amp;#34;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="2-correctness"&gt;2. Correctness&lt;/h3&gt;
-&lt;p&gt;Check for:&lt;/p&gt;</description></item><item><title>Code Review</title><link>https://agentskill.wiki/skills/code-review/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/code-review/</guid><description>&lt;h1 id="code-review-skill"&gt;Code Review Skill&lt;/h1&gt;
-&lt;p&gt;You now have expertise in conducting comprehensive code reviews. Follow this structured approach:&lt;/p&gt;
-&lt;h2 id="review-checklist"&gt;Review Checklist&lt;/h2&gt;
-&lt;h3 id="1-security-critical"&gt;1. Security (Critical)&lt;/h3&gt;
-&lt;p&gt;Check for:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Injection vulnerabilities&lt;/strong&gt;: SQL, command, XSS, template injection&lt;/li&gt;
-&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Authentication issues&lt;/strong&gt;: Hardcoded credentials, weak auth&lt;/li&gt;
-&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Authorization flaws&lt;/strong&gt;: Missing access controls, IDOR&lt;/li&gt;
-&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Data exposure&lt;/strong&gt;: Sensitive data in logs, error messages&lt;/li&gt;
-&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Cryptography&lt;/strong&gt;: Weak algorithms, improper key management&lt;/li&gt;
-&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Dependencies&lt;/strong&gt;: Known vulnerabilities (check with &lt;code&gt;npm audit&lt;/code&gt;, &lt;code&gt;pip-audit&lt;/code&gt;)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Quick security scans&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;2&lt;/span&gt;&lt;span&gt;npm audit &lt;span style="color:#75715e"&gt;# Node.js&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;3&lt;/span&gt;&lt;span&gt;pip-audit &lt;span style="color:#75715e"&gt;# Python&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;4&lt;/span&gt;&lt;span&gt;cargo audit &lt;span style="color:#75715e"&gt;# Rust&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;5&lt;/span&gt;&lt;span&gt;grep -r &lt;span style="color:#e6db74"&gt;&amp;#34;password\|secret\|api_key&amp;#34;&lt;/span&gt; --include&lt;span style="color:#f92672"&gt;=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;*.py&amp;#34;&lt;/span&gt; --include&lt;span style="color:#f92672"&gt;=&lt;/span&gt;&lt;span style="color:#e6db74"&gt;&amp;#34;*.js&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="2-correctness"&gt;2. Correctness&lt;/h3&gt;
 &lt;p&gt;Check for:&lt;/p&gt;</description></item><item><title>Code Review Excellence</title><link>https://agentskill.wiki/en/skills/code-review-excellence/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/code-review-excellence/</guid><description>&lt;h1 id="code-review-excellence"&gt;Code Review Excellence&lt;/h1&gt;
-&lt;p&gt;Transform code reviews from gatekeeping to knowledge sharing through constructive feedback, systematic analysis, and collaborative improvement.&lt;/p&gt;
-&lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Reviewing pull requests and code changes&lt;/li&gt;
-&lt;li&gt;Establishing code review standards for teams&lt;/li&gt;
-&lt;li&gt;Mentoring junior developers through reviews&lt;/li&gt;
-&lt;li&gt;Conducting architecture reviews&lt;/li&gt;
-&lt;li&gt;Creating review checklists and guidelines&lt;/li&gt;
-&lt;li&gt;Improving team collaboration&lt;/li&gt;
-&lt;li&gt;Reducing code review cycle time&lt;/li&gt;
-&lt;li&gt;Maintaining code quality standards&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="core-principles"&gt;Core Principles&lt;/h2&gt;
-&lt;h3 id="1-the-review-mindset"&gt;1. The Review Mindset&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Goals of Code Review:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Code Review Excellence</title><link>https://agentskill.wiki/skills/code-review-excellence/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/code-review-excellence/</guid><description>&lt;h1 id="code-review-excellence"&gt;Code Review Excellence&lt;/h1&gt;
 &lt;p&gt;Transform code reviews from gatekeeping to knowledge sharing through constructive feedback, systematic analysis, and collaborative improvement.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -185,41 +99,7 @@ Database (Prisma)
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;8&lt;/span&gt;&lt;span&gt;python scripts/review_report_generator.py &lt;span style="color:#f92672"&gt;[&lt;/span&gt;options&lt;span style="color:#f92672"&gt;]&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="core-capabilities"&gt;Core Capabilities&lt;/h2&gt;
 &lt;h3 id="1-pr-analyzer"&gt;1. Pr Analyzer&lt;/h3&gt;
-&lt;p&gt;Automated tool for pr analyzer tasks.&lt;/p&gt;</description></item><item><title>Code Reviewer</title><link>https://agentskill.wiki/skills/code-reviewer/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/code-reviewer/</guid><description>&lt;h1 id="code-reviewer"&gt;Code Reviewer&lt;/h1&gt;
-&lt;p&gt;Complete toolkit for code reviewer with modern tools and best practices.&lt;/p&gt;
-&lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;
-&lt;h3 id="main-capabilities"&gt;Main Capabilities&lt;/h3&gt;
-&lt;p&gt;This skill provides three core capabilities through automated scripts:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Script 1: Pr Analyzer&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;2&lt;/span&gt;&lt;span&gt;python scripts/pr_analyzer.py &lt;span style="color:#f92672"&gt;[&lt;/span&gt;options&lt;span style="color:#f92672"&gt;]&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;3&lt;/span&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;4&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Script 2: Code Quality Checker&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;5&lt;/span&gt;&lt;span&gt;python scripts/code_quality_checker.py &lt;span style="color:#f92672"&gt;[&lt;/span&gt;options&lt;span style="color:#f92672"&gt;]&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;6&lt;/span&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;7&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Script 3: Review Report Generator&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;8&lt;/span&gt;&lt;span&gt;python scripts/review_report_generator.py &lt;span style="color:#f92672"&gt;[&lt;/span&gt;options&lt;span style="color:#f92672"&gt;]&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="core-capabilities"&gt;Core Capabilities&lt;/h2&gt;
-&lt;h3 id="1-pr-analyzer"&gt;1. Pr Analyzer&lt;/h3&gt;
 &lt;p&gt;Automated tool for pr analyzer tasks.&lt;/p&gt;</description></item><item><title>Commit Helper</title><link>https://agentskill.wiki/en/skills/commit-helper/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/commit-helper/</guid><description>&lt;h1 id="cockroachdb-commit-helper"&gt;CockroachDB Commit Helper&lt;/h1&gt;
-&lt;p&gt;Help the user create properly formatted commit messages and release notes that follow CockroachDB conventions.&lt;/p&gt;
-&lt;h2 id="workflow"&gt;Workflow&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;Analyze the changes&lt;/strong&gt;: Run &lt;code&gt;git diff --staged&lt;/code&gt; or &lt;code&gt;git diff&lt;/code&gt; to understand what was modified&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Determine the package prefix&lt;/strong&gt;: Identify the primary package affected&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Ask the user&lt;/strong&gt; for:
-&lt;ul&gt;
-&lt;li&gt;Issue/epic number if not already known&lt;/li&gt;
-&lt;li&gt;Whether release notes are needed and what category fits best&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Write the subject line&lt;/strong&gt;: Imperative mood, no period, under 72 characters&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Write the body&lt;/strong&gt;: Explain the before/after, why the change was needed&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Add issue references&lt;/strong&gt;: Include Resolves/Epic as appropriate&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Write the release note&lt;/strong&gt;: Clear, user-focused description of the change&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Create the commit&lt;/strong&gt; using the properly formatted message&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id="commit-message-structure"&gt;Commit Message Structure&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Basic Format:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Commit Helper</title><link>https://agentskill.wiki/skills/commit-helper/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/commit-helper/</guid><description>&lt;h1 id="cockroachdb-commit-helper"&gt;CockroachDB Commit Helper&lt;/h1&gt;
 &lt;p&gt;Help the user create properly formatted commit messages and release notes that follow CockroachDB conventions.&lt;/p&gt;
 &lt;h2 id="workflow"&gt;Workflow&lt;/h2&gt;
 &lt;ol&gt;
@@ -254,22 +134,6 @@ Database (Prisma)
 &lt;/blockquote&gt;
 &lt;h3 id="2-check-if-authenticated-with-github"&gt;2. Check if authenticated with GitHub&lt;/h3&gt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;gh auth status
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;If not authenticated, guide the user to run &lt;code&gt;gh auth login&lt;/code&gt;.&lt;/p&gt;</description></item><item><title>Create Pull Request</title><link>https://agentskill.wiki/skills/create-pull-request/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/create-pull-request/</guid><description>&lt;h1 id="create-pull-request"&gt;Create Pull Request&lt;/h1&gt;
-&lt;p&gt;This skill guides you through creating a well-structured GitHub pull request that follows project conventions and best practices.&lt;/p&gt;
-&lt;h2 id="prerequisites-check"&gt;Prerequisites Check&lt;/h2&gt;
-&lt;p&gt;Before proceeding, verify the following:&lt;/p&gt;
-&lt;h3 id="1-check-if-gh-cli-is-installed"&gt;1. Check if &lt;code&gt;gh&lt;/code&gt; CLI is installed&lt;/h3&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;gh --version
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;If not installed, inform the user:&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;The GitHub CLI (&lt;code&gt;gh&lt;/code&gt;) is required but not installed. Please install it:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;macOS: &lt;code&gt;brew install gh&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Other: &lt;a href="https://cli.github.com/"&gt;https://cli.github.com/&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-&lt;h3 id="2-check-if-authenticated-with-github"&gt;2. Check if authenticated with GitHub&lt;/h3&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;gh auth status
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;If not authenticated, guide the user to run &lt;code&gt;gh auth login&lt;/code&gt;.&lt;/p&gt;</description></item><item><title>Move Code Quality</title><link>https://agentskill.wiki/en/skills/move-code-quality/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/move-code-quality/</guid><description>&lt;h1 id="move-code-quality-checker"&gt;Move Code Quality Checker&lt;/h1&gt;
 &lt;p&gt;You are an expert Move language code reviewer with deep knowledge of the Move Book Code Quality Checklist. Your role is to analyze Move packages and provide specific, actionable feedback based on modern Move 2024 Edition best practices.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
@@ -284,34 +148,7 @@ Database (Prisma)
 &lt;h3 id="phase-1-discovery"&gt;Phase 1: Discovery&lt;/h3&gt;
 &lt;ol&gt;
 &lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Detect Move project structure&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Move Code Quality</title><link>https://agentskill.wiki/skills/move-code-quality/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/move-code-quality/</guid><description>&lt;h1 id="move-code-quality-checker"&gt;Move Code Quality Checker&lt;/h1&gt;
-&lt;p&gt;You are an expert Move language code reviewer with deep knowledge of the Move Book Code Quality Checklist. Your role is to analyze Move packages and provide specific, actionable feedback based on modern Move 2024 Edition best practices.&lt;/p&gt;
-&lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
-&lt;p&gt;Activate this skill when:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;User asks to &amp;ldquo;check Move code quality&amp;rdquo;, &amp;ldquo;review Move code&amp;rdquo;, or &amp;ldquo;analyze Move package&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;User mentions Move 2024 Edition compliance&lt;/li&gt;
-&lt;li&gt;Working in a directory containing &lt;code&gt;.move&lt;/code&gt; files or &lt;code&gt;Move.toml&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;User asks to review code against the Move checklist&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="analysis-workflow"&gt;Analysis Workflow&lt;/h2&gt;
-&lt;h3 id="phase-1-discovery"&gt;Phase 1: Discovery&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;
 &lt;p&gt;&lt;strong&gt;Detect Move project structure&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>React Best Practices</title><link>https://agentskill.wiki/en/skills/react-best-practices/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/react-best-practices/</guid><description>&lt;h1 id="react-best-practices---performance-optimization"&gt;React Best Practices - Performance Optimization&lt;/h1&gt;
-&lt;p&gt;Comprehensive performance optimization guide for React and Next.js applications with 40+ rules organized by impact level. Designed to help developers eliminate performance bottlenecks and follow best practices.&lt;/p&gt;
-&lt;h2 id="when-to-use-this-skill"&gt;When to use this skill&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Use React Best Practices when:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Optimizing React or Next.js application performance&lt;/li&gt;
-&lt;li&gt;Reviewing code for performance improvements&lt;/li&gt;
-&lt;li&gt;Refactoring existing components for better performance&lt;/li&gt;
-&lt;li&gt;Implementing new features with performance in mind&lt;/li&gt;
-&lt;li&gt;Debugging slow rendering or loading issues&lt;/li&gt;
-&lt;li&gt;Reducing bundle size&lt;/li&gt;
-&lt;li&gt;Eliminating request waterfalls&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Key areas covered:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>React Best Practices</title><link>https://agentskill.wiki/skills/react-best-practices/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/react-best-practices/</guid><description>&lt;h1 id="react-best-practices---performance-optimization"&gt;React Best Practices - Performance Optimization&lt;/h1&gt;
 &lt;p&gt;Comprehensive performance optimization guide for React and Next.js applications with 40+ rules organized by impact level. Designed to help developers eliminate performance bottlenecks and follow best practices.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to use this skill&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Use React Best Practices when:&lt;/strong&gt;&lt;/p&gt;
@@ -344,39 +181,7 @@ Database (Prisma)
 &lt;hr&gt;
 &lt;h2 id="system-overview"&gt;System Overview&lt;/h2&gt;
 &lt;h3 id="two-hook-architecture"&gt;Two-Hook Architecture&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;1. UserPromptSubmit Hook&lt;/strong&gt; (Proactive Suggestions)&lt;/p&gt;</description></item><item><title>Skill Developer</title><link>https://agentskill.wiki/skills/skill-developer/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/skill-developer/</guid><description>&lt;h1 id="skill-developer-guide"&gt;Skill Developer Guide&lt;/h1&gt;
-&lt;h2 id="purpose"&gt;Purpose&lt;/h2&gt;
-&lt;p&gt;Comprehensive guide for creating and managing skills in Claude Code with auto-activation system, following Anthropic&amp;rsquo;s official best practices including the 500-line rule and progressive disclosure pattern.&lt;/p&gt;
-&lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
-&lt;p&gt;Automatically activates when you mention:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Creating or adding skills&lt;/li&gt;
-&lt;li&gt;Modifying skill triggers or rules&lt;/li&gt;
-&lt;li&gt;Understanding how skill activation works&lt;/li&gt;
-&lt;li&gt;Debugging skill activation issues&lt;/li&gt;
-&lt;li&gt;Working with skill-rules.json&lt;/li&gt;
-&lt;li&gt;Hook system mechanics&lt;/li&gt;
-&lt;li&gt;Claude Code best practices&lt;/li&gt;
-&lt;li&gt;Progressive disclosure&lt;/li&gt;
-&lt;li&gt;YAML frontmatter&lt;/li&gt;
-&lt;li&gt;500-line rule&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id="system-overview"&gt;System Overview&lt;/h2&gt;
-&lt;h3 id="two-hook-architecture"&gt;Two-Hook Architecture&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;1. UserPromptSubmit Hook&lt;/strong&gt; (Proactive Suggestions)&lt;/p&gt;</description></item><item><title>Typescript</title><link>https://agentskill.wiki/en/skills/typescript/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/typescript/</guid><description>&lt;h2 id="const-types-pattern-required"&gt;Const Types Pattern (REQUIRED)&lt;/h2&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-typescript" data-lang="typescript"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;// ✅ ALWAYS: Create const object first, then extract type
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 2&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;const&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;STATUS&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; {
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 3&lt;/span&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;ACTIVE&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;active&amp;#34;&lt;/span&gt;,
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 4&lt;/span&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;INACTIVE&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;inactive&amp;#34;&lt;/span&gt;,
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 5&lt;/span&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;PENDING&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;pending&amp;#34;&lt;/span&gt;,
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 6&lt;/span&gt;&lt;span&gt;} &lt;span style="color:#66d9ef"&gt;as&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;const&lt;/span&gt;;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 7&lt;/span&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 8&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;Status&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; (&lt;span style="color:#66d9ef"&gt;typeof&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;STATUS&lt;/span&gt;)[&lt;span style="color:#66d9ef"&gt;keyof&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;typeof&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;STATUS&lt;/span&gt;];
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 9&lt;/span&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;10&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;// ❌ NEVER: Direct union types
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;11&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;Status&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;active&amp;#34;&lt;/span&gt; &lt;span style="color:#f92672"&gt;|&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;inactive&amp;#34;&lt;/span&gt; &lt;span style="color:#f92672"&gt;|&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;pending&amp;#34;&lt;/span&gt;;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Why?&lt;/strong&gt; Single source of truth, runtime values, autocomplete, easier refactoring.&lt;/p&gt;</description></item><item><title>Typescript</title><link>https://agentskill.wiki/skills/typescript/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/typescript/</guid><description>&lt;h2 id="const-types-pattern-required"&gt;Const Types Pattern (REQUIRED)&lt;/h2&gt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-typescript" data-lang="typescript"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;// ✅ ALWAYS: Create const object first, then extract type
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 2&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;const&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;STATUS&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; {
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 3&lt;/span&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;ACTIVE&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;active&amp;#34;&lt;/span&gt;,
@@ -390,44 +195,7 @@ Database (Prisma)
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;11&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;Status&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;active&amp;#34;&lt;/span&gt; &lt;span style="color:#f92672"&gt;|&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;inactive&amp;#34;&lt;/span&gt; &lt;span style="color:#f92672"&gt;|&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;pending&amp;#34;&lt;/span&gt;;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Why?&lt;/strong&gt; Single source of truth, runtime values, autocomplete, easier refactoring.&lt;/p&gt;</description></item><item><title>Typescript Write</title><link>https://agentskill.wiki/en/skills/typescript-write/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/typescript-write/</guid><description>&lt;h1 id="typescriptjavascript-development-skill"&gt;TypeScript/JavaScript Development Skill&lt;/h1&gt;
 &lt;p&gt;@./../_shared/development-workflow.md
-@./../_shared/typescript-commands.md&lt;/p&gt;</description></item><item><title>Typescript Write</title><link>https://agentskill.wiki/skills/typescript-write/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/typescript-write/</guid><description>&lt;h1 id="typescriptjavascript-development-skill"&gt;TypeScript/JavaScript Development Skill&lt;/h1&gt;
-&lt;p&gt;@./../_shared/development-workflow.md
 @./../_shared/typescript-commands.md&lt;/p&gt;</description></item><item><title>Python Code Analyzer</title><link>https://agentskill.wiki/en/skills/python-code-analyzer/</link><pubDate>Wed, 14 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/python-code-analyzer/</guid><description>&lt;h2 id="why-this-skill"&gt;Why This Skill?&lt;/h2&gt;
-&lt;p&gt;Every Python developer faces the same challenges:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Hidden Bugs&lt;/strong&gt;: Subtle issues that pass tests but break in production&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Performance Pitfalls&lt;/strong&gt;: Code that works but runs 10x slower than it should&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Code Debt&lt;/strong&gt;: Complexity that accumulates until refactoring becomes impossible&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;This skill solves these problems by providing instant, actionable feedback as you code.&lt;/p&gt;
-&lt;h2 id="core-features"&gt;Core Features&lt;/h2&gt;
-&lt;h3 id="-static-analysis"&gt;🔍 Static Analysis&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Detects common bugs: unused variables, undefined names, import errors&lt;/li&gt;
-&lt;li&gt;Identifies anti-patterns before they reach production&lt;/li&gt;
-&lt;li&gt;Highlights potential runtime errors&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="-performance-optimization"&gt;⚡ Performance Optimization&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Spots N+1 queries, inefficient loops, and memory leaks&lt;/li&gt;
-&lt;li&gt;Suggests faster algorithms and data structures&lt;/li&gt;
-&lt;li&gt;Provides before/after performance estimates&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="-complexity-metrics"&gt;📐 Complexity Metrics&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Calculates cyclomatic and cognitive complexity&lt;/li&gt;
-&lt;li&gt;Identifies functions that are too complex to maintain&lt;/li&gt;
-&lt;li&gt;Recommends specific refactoring strategies&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="-style--best-practices"&gt;🎨 Style &amp;amp; Best Practices&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;Enforces PEP 8 and team-specific conventions&lt;/li&gt;
-&lt;li&gt;Suggests more Pythonic ways to write code&lt;/li&gt;
-&lt;li&gt;Explains &lt;em&gt;why&lt;/em&gt; certain patterns are better&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="advanced-capabilities"&gt;Advanced Capabilities&lt;/h2&gt;
-&lt;h3 id="custom-rule-configuration"&gt;Custom Rule Configuration&lt;/h3&gt;
-&lt;p&gt;Create &lt;code&gt;.python-analyzer.yml&lt;/code&gt; in your project root:&lt;/p&gt;</description></item><item><title>Python Code Analyzer</title><link>https://agentskill.wiki/skills/python-code-analyzer/</link><pubDate>Wed, 14 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/python-code-analyzer/</guid><description>&lt;h2 id="why-this-skill"&gt;Why This Skill?&lt;/h2&gt;
 &lt;p&gt;Every Python developer faces the same challenges:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Hidden Bugs&lt;/strong&gt;: Subtle issues that pass tests but break in production&lt;/li&gt;

@@ -1,76 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Infrastructure on Agent Skills Hub</title><link>https://agentskill.wiki/tags/infrastructure/</link><description>Recent content in Infrastructure on Agent Skills Hub</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/infrastructure/index.xml" rel="self" type="application/rss+xml"/><item><title>Deployment Pipeline Design</title><link>https://agentskill.wiki/en/skills/deployment-pipeline-design/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/deployment-pipeline-design/</guid><description>&lt;h1 id="deployment-pipeline-design"&gt;Deployment Pipeline Design&lt;/h1&gt;
-&lt;p&gt;Architecture patterns for multi-stage CI/CD pipelines with approval gates and deployment strategies.&lt;/p&gt;
-&lt;h2 id="purpose"&gt;Purpose&lt;/h2&gt;
-&lt;p&gt;Design robust, secure deployment pipelines that balance speed with safety through proper stage organization and approval workflows.&lt;/p&gt;
-&lt;h2 id="when-to-use"&gt;When to Use&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Design CI/CD architecture&lt;/li&gt;
-&lt;li&gt;Implement deployment gates&lt;/li&gt;
-&lt;li&gt;Configure multi-environment pipelines&lt;/li&gt;
-&lt;li&gt;Establish deployment best practices&lt;/li&gt;
-&lt;li&gt;Implement progressive delivery&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="pipeline-stages"&gt;Pipeline Stages&lt;/h2&gt;
-&lt;h3 id="standard-pipeline-flow"&gt;Standard Pipeline Flow&lt;/h3&gt;
-&lt;pre tabindex="0"&gt;&lt;code&gt;┌─────────┐ ┌──────┐ ┌─────────┐ ┌────────┐ ┌──────────┐
-│ Build │ → │ Test │ → │ Staging │ → │ Approve│ → │Production│
-└─────────┘ └──────┘ └─────────┘ └────────┘ └──────────┘
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id="detailed-stage-breakdown"&gt;Detailed Stage Breakdown&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;Source&lt;/strong&gt; - Code checkout&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Build&lt;/strong&gt; - Compile, package, containerize&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Test&lt;/strong&gt; - Unit, integration, security scans&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Staging Deploy&lt;/strong&gt; - Deploy to staging environment&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Integration Tests&lt;/strong&gt; - E2E, smoke tests&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Approval Gate&lt;/strong&gt; - Manual approval required&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Production Deploy&lt;/strong&gt; - Canary, blue-green, rolling&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Verification&lt;/strong&gt; - Health checks, monitoring&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Rollback&lt;/strong&gt; - Automated rollback on failure&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id="approval-gate-patterns"&gt;Approval Gate Patterns&lt;/h2&gt;
-&lt;h3 id="pattern-1-manual-approval"&gt;Pattern 1: Manual Approval&lt;/h3&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-yaml" data-lang="yaml"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# GitHub Actions&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 2&lt;/span&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;production-deploy&lt;/span&gt;:
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 3&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;needs&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;staging-deploy&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 4&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;environment&lt;/span&gt;:
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 5&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;name&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;production&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 6&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;url&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;https://app.example.com&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 7&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;runs-on&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;ubuntu-latest&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 8&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;steps&lt;/span&gt;:
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 9&lt;/span&gt;&lt;span&gt; - &lt;span style="color:#f92672"&gt;name&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;Deploy to production&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;10&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;run&lt;/span&gt;: |&lt;span style="color:#e6db74"&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;11&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt; # Deployment commands&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="pattern-2-time-based-approval"&gt;Pattern 2: Time-Based Approval&lt;/h3&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-yaml" data-lang="yaml"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# GitLab CI&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 2&lt;/span&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;deploy:production&lt;/span&gt;:
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 3&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;stage&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;deploy&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 4&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;script&lt;/span&gt;:
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 5&lt;/span&gt;&lt;span&gt; - &lt;span style="color:#ae81ff"&gt;deploy.sh production&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 6&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;environment&lt;/span&gt;:
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 7&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;name&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;production&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 8&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;when&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;delayed&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 9&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;start_in&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;30&lt;/span&gt; &lt;span style="color:#ae81ff"&gt;minutes&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;10&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;only&lt;/span&gt;:
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;11&lt;/span&gt;&lt;span&gt; - &lt;span style="color:#ae81ff"&gt;main&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="pattern-3-multi-approver"&gt;Pattern 3: Multi-Approver&lt;/h3&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-yaml" data-lang="yaml"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Azure Pipelines&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 2&lt;/span&gt;&lt;span&gt;&lt;span style="color:#f92672"&gt;stages&lt;/span&gt;:
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 3&lt;/span&gt;&lt;span&gt; - &lt;span style="color:#f92672"&gt;stage&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;Production&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 4&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;dependsOn&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;Staging&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 5&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;jobs&lt;/span&gt;:
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 6&lt;/span&gt;&lt;span&gt; - &lt;span style="color:#f92672"&gt;deployment&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;Deploy&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 7&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;environment&lt;/span&gt;:
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 8&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;name&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;production&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 9&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;resourceType&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;Kubernetes&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;10&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;strategy&lt;/span&gt;:
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;11&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;runOnce&lt;/span&gt;:
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;12&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;preDeploy&lt;/span&gt;:
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;13&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;steps&lt;/span&gt;:
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;14&lt;/span&gt;&lt;span&gt; - &lt;span style="color:#f92672"&gt;task&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;ManualValidation@0&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;15&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;inputs&lt;/span&gt;:
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;16&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;notifyUsers&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;&amp;#34;team-leads@example.com&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;17&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;instructions&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;&amp;#34;Review staging metrics before approving&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Reference:&lt;/strong&gt; See &lt;code&gt;assets/approval-gate-template.yml&lt;/code&gt;&lt;/p&gt;</description></item><item><title>Deployment Pipeline Design</title><link>https://agentskill.wiki/skills/deployment-pipeline-design/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/deployment-pipeline-design/</guid><description>&lt;h1 id="deployment-pipeline-design"&gt;Deployment Pipeline Design&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Infrastructure on Agent Skills Hub</title><link>https://agentskill.wiki/tags/infrastructure/</link><description>Recent content in Infrastructure on Agent Skills Hub</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/infrastructure/index.xml" rel="self" type="application/rss+xml"/><item><title>Deployment Pipeline Design</title><link>https://agentskill.wiki/en/skills/deployment-pipeline-design/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/deployment-pipeline-design/</guid><description>&lt;h1 id="deployment-pipeline-design"&gt;Deployment Pipeline Design&lt;/h1&gt;
 &lt;p&gt;Architecture patterns for multi-stage CI/CD pipelines with approval gates and deployment strategies.&lt;/p&gt;
 &lt;h2 id="purpose"&gt;Purpose&lt;/h2&gt;
 &lt;p&gt;Design robust, secure deployment pipelines that balance speed with safety through proper stage organization and approval workflows.&lt;/p&gt;
@@ -143,24 +71,6 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;16&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;notifyUsers&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;&amp;#34;team-leads@example.com&amp;#34;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;17&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;instructions&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;&amp;#34;Review staging metrics before approving&amp;#34;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Reference:&lt;/strong&gt; See &lt;code&gt;assets/approval-gate-template.yml&lt;/code&gt;&lt;/p&gt;</description></item><item><title>Evals Context</title><link>https://agentskill.wiki/en/skills/evals-context/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/evals-context/</guid><description>&lt;h1 id="evals-codebase-context"&gt;Evals Codebase Context&lt;/h1&gt;
-&lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
-&lt;p&gt;Use this skill when the task involves:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Modifying or debugging the evals execution infrastructure&lt;/li&gt;
-&lt;li&gt;Adding new eval exercises or languages&lt;/li&gt;
-&lt;li&gt;Working with the evals web interface (apps/web-evals)&lt;/li&gt;
-&lt;li&gt;Modifying the public evals display page on roocode.com&lt;/li&gt;
-&lt;li&gt;Understanding where evals code lives in this monorepo&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="when-not-to-use-this-skill"&gt;When NOT to Use This Skill&lt;/h2&gt;
-&lt;p&gt;Do NOT use this skill when:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Working on unrelated parts of the codebase (extension, webview-ui, etc.)&lt;/li&gt;
-&lt;li&gt;The task is purely about the VS Code extension&amp;rsquo;s core functionality&lt;/li&gt;
-&lt;li&gt;Working on the main website pages that don&amp;rsquo;t involve evals&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="key-disambiguation-two-evals-locations"&gt;Key Disambiguation: Two &amp;ldquo;Evals&amp;rdquo; Locations&lt;/h2&gt;
-&lt;p&gt;This monorepo has &lt;strong&gt;two distinct evals-related locations&lt;/strong&gt; that can cause confusion:&lt;/p&gt;</description></item><item><title>Evals Context</title><link>https://agentskill.wiki/skills/evals-context/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/evals-context/</guid><description>&lt;h1 id="evals-codebase-context"&gt;Evals Codebase Context&lt;/h1&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;p&gt;Use this skill when the task involves:&lt;/p&gt;
 &lt;ul&gt;
@@ -266,94 +176,6 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;51&lt;/span&gt;&lt;span&gt; ]
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;52&lt;/span&gt;&lt;span&gt; }
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;53&lt;/span&gt;&lt;span&gt;}
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Reference:&lt;/strong&gt; See &lt;code&gt;assets/api-dashboard.json&lt;/code&gt;&lt;/p&gt;</description></item><item><title>Grafana Dashboards</title><link>https://agentskill.wiki/skills/grafana-dashboards/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/grafana-dashboards/</guid><description>&lt;h1 id="grafana-dashboards"&gt;Grafana Dashboards&lt;/h1&gt;
-&lt;p&gt;Create and manage production-ready Grafana dashboards for comprehensive system observability.&lt;/p&gt;
-&lt;h2 id="purpose"&gt;Purpose&lt;/h2&gt;
-&lt;p&gt;Design effective Grafana dashboards for monitoring applications, infrastructure, and business metrics.&lt;/p&gt;
-&lt;h2 id="when-to-use"&gt;When to Use&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Visualize Prometheus metrics&lt;/li&gt;
-&lt;li&gt;Create custom dashboards&lt;/li&gt;
-&lt;li&gt;Implement SLO dashboards&lt;/li&gt;
-&lt;li&gt;Monitor infrastructure&lt;/li&gt;
-&lt;li&gt;Track business KPIs&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="dashboard-design-principles"&gt;Dashboard Design Principles&lt;/h2&gt;
-&lt;h3 id="1-hierarchy-of-information"&gt;1. Hierarchy of Information&lt;/h3&gt;
-&lt;pre tabindex="0"&gt;&lt;code&gt;┌─────────────────────────────────────┐
-│ Critical Metrics (Big Numbers) │
-├─────────────────────────────────────┤
-│ Key Trends (Time Series) │
-├─────────────────────────────────────┤
-│ Detailed Metrics (Tables/Heatmaps) │
-└─────────────────────────────────────┘
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id="2-red-method-services"&gt;2. RED Method (Services)&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Rate&lt;/strong&gt; - Requests per second&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Errors&lt;/strong&gt; - Error rate&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Duration&lt;/strong&gt; - Latency/response time&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="3-use-method-resources"&gt;3. USE Method (Resources)&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Utilization&lt;/strong&gt; - % time resource is busy&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Saturation&lt;/strong&gt; - Queue length/wait time&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Errors&lt;/strong&gt; - Error count&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="dashboard-structure"&gt;Dashboard Structure&lt;/h2&gt;
-&lt;h3 id="api-monitoring-dashboard"&gt;API Monitoring Dashboard&lt;/h3&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-json" data-lang="json"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 1&lt;/span&gt;&lt;span&gt;{
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 2&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;#34;dashboard&amp;#34;&lt;/span&gt;: {
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 3&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;#34;title&amp;#34;&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;&amp;#34;API Monitoring&amp;#34;&lt;/span&gt;,
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 4&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;#34;tags&amp;#34;&lt;/span&gt;: [&lt;span style="color:#e6db74"&gt;&amp;#34;api&amp;#34;&lt;/span&gt;, &lt;span style="color:#e6db74"&gt;&amp;#34;production&amp;#34;&lt;/span&gt;],
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 5&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;#34;timezone&amp;#34;&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;&amp;#34;browser&amp;#34;&lt;/span&gt;,
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 6&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;#34;refresh&amp;#34;&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;&amp;#34;30s&amp;#34;&lt;/span&gt;,
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 7&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;#34;panels&amp;#34;&lt;/span&gt;: [
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 8&lt;/span&gt;&lt;span&gt; {
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 9&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;#34;title&amp;#34;&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;&amp;#34;Request Rate&amp;#34;&lt;/span&gt;,
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;10&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;#34;type&amp;#34;&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;&amp;#34;graph&amp;#34;&lt;/span&gt;,
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;11&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;#34;targets&amp;#34;&lt;/span&gt;: [
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;12&lt;/span&gt;&lt;span&gt; {
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;13&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;#34;expr&amp;#34;&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;&amp;#34;sum(rate(http_requests_total[5m])) by (service)&amp;#34;&lt;/span&gt;,
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;14&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;#34;legendFormat&amp;#34;&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;&amp;#34;{{service}}&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;15&lt;/span&gt;&lt;span&gt; }
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;16&lt;/span&gt;&lt;span&gt; ],
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;17&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;#34;gridPos&amp;#34;&lt;/span&gt;: { &lt;span style="color:#f92672"&gt;&amp;#34;x&amp;#34;&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;0&lt;/span&gt;, &lt;span style="color:#f92672"&gt;&amp;#34;y&amp;#34;&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;0&lt;/span&gt;, &lt;span style="color:#f92672"&gt;&amp;#34;w&amp;#34;&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;12&lt;/span&gt;, &lt;span style="color:#f92672"&gt;&amp;#34;h&amp;#34;&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;8&lt;/span&gt; }
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;18&lt;/span&gt;&lt;span&gt; },
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;19&lt;/span&gt;&lt;span&gt; {
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;20&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;#34;title&amp;#34;&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;&amp;#34;Error Rate %&amp;#34;&lt;/span&gt;,
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;21&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;#34;type&amp;#34;&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;&amp;#34;graph&amp;#34;&lt;/span&gt;,
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;22&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;#34;targets&amp;#34;&lt;/span&gt;: [
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;23&lt;/span&gt;&lt;span&gt; {
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;24&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;#34;expr&amp;#34;&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;&amp;#34;(sum(rate(http_requests_total{status=~\&amp;#34;5..\&amp;#34;}[5m])) / sum(rate(http_requests_total[5m]))) * 100&amp;#34;&lt;/span&gt;,
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;25&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;#34;legendFormat&amp;#34;&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;&amp;#34;Error Rate&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;26&lt;/span&gt;&lt;span&gt; }
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;27&lt;/span&gt;&lt;span&gt; ],
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;28&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;#34;alert&amp;#34;&lt;/span&gt;: {
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;29&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;#34;conditions&amp;#34;&lt;/span&gt;: [
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;30&lt;/span&gt;&lt;span&gt; {
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;31&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;#34;evaluator&amp;#34;&lt;/span&gt;: { &lt;span style="color:#f92672"&gt;&amp;#34;params&amp;#34;&lt;/span&gt;: [&lt;span style="color:#ae81ff"&gt;5&lt;/span&gt;], &lt;span style="color:#f92672"&gt;&amp;#34;type&amp;#34;&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;&amp;#34;gt&amp;#34;&lt;/span&gt; },
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;32&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;#34;operator&amp;#34;&lt;/span&gt;: { &lt;span style="color:#f92672"&gt;&amp;#34;type&amp;#34;&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;&amp;#34;and&amp;#34;&lt;/span&gt; },
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;33&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;#34;query&amp;#34;&lt;/span&gt;: { &lt;span style="color:#f92672"&gt;&amp;#34;params&amp;#34;&lt;/span&gt;: [&lt;span style="color:#e6db74"&gt;&amp;#34;A&amp;#34;&lt;/span&gt;, &lt;span style="color:#e6db74"&gt;&amp;#34;5m&amp;#34;&lt;/span&gt;, &lt;span style="color:#e6db74"&gt;&amp;#34;now&amp;#34;&lt;/span&gt;] },
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;34&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;#34;type&amp;#34;&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;&amp;#34;query&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;35&lt;/span&gt;&lt;span&gt; }
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;36&lt;/span&gt;&lt;span&gt; ]
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;37&lt;/span&gt;&lt;span&gt; },
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;38&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;#34;gridPos&amp;#34;&lt;/span&gt;: { &lt;span style="color:#f92672"&gt;&amp;#34;x&amp;#34;&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;12&lt;/span&gt;, &lt;span style="color:#f92672"&gt;&amp;#34;y&amp;#34;&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;0&lt;/span&gt;, &lt;span style="color:#f92672"&gt;&amp;#34;w&amp;#34;&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;12&lt;/span&gt;, &lt;span style="color:#f92672"&gt;&amp;#34;h&amp;#34;&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;8&lt;/span&gt; }
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;39&lt;/span&gt;&lt;span&gt; },
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;40&lt;/span&gt;&lt;span&gt; {
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;41&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;#34;title&amp;#34;&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;&amp;#34;P95 Latency&amp;#34;&lt;/span&gt;,
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;42&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;#34;type&amp;#34;&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;&amp;#34;graph&amp;#34;&lt;/span&gt;,
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;43&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;#34;targets&amp;#34;&lt;/span&gt;: [
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;44&lt;/span&gt;&lt;span&gt; {
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;45&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;#34;expr&amp;#34;&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;&amp;#34;histogram_quantile(0.95, sum(rate(http_request_duration_seconds_bucket[5m])) by (le, service))&amp;#34;&lt;/span&gt;,
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;46&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;#34;legendFormat&amp;#34;&lt;/span&gt;: &lt;span style="color:#e6db74"&gt;&amp;#34;{{service}}&amp;#34;&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;47&lt;/span&gt;&lt;span&gt; }
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;48&lt;/span&gt;&lt;span&gt; ],
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;49&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;#34;gridPos&amp;#34;&lt;/span&gt;: { &lt;span style="color:#f92672"&gt;&amp;#34;x&amp;#34;&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;0&lt;/span&gt;, &lt;span style="color:#f92672"&gt;&amp;#34;y&amp;#34;&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;8&lt;/span&gt;, &lt;span style="color:#f92672"&gt;&amp;#34;w&amp;#34;&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;24&lt;/span&gt;, &lt;span style="color:#f92672"&gt;&amp;#34;h&amp;#34;&lt;/span&gt;: &lt;span style="color:#ae81ff"&gt;8&lt;/span&gt; }
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;50&lt;/span&gt;&lt;span&gt; }
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;51&lt;/span&gt;&lt;span&gt; ]
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;52&lt;/span&gt;&lt;span&gt; }
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;53&lt;/span&gt;&lt;span&gt;}
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Reference:&lt;/strong&gt; See &lt;code&gt;assets/api-dashboard.json&lt;/code&gt;&lt;/p&gt;</description></item><item><title>Hosted Agents</title><link>https://agentskill.wiki/en/skills/hosted-agents/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/hosted-agents/</guid><description>&lt;h1 id="hosted-agent-infrastructure"&gt;Hosted Agent Infrastructure&lt;/h1&gt;
 &lt;p&gt;Hosted agents run in remote sandboxed environments rather than on local machines. When designed well, they provide unlimited concurrency, consistent execution environments, and multiplayer collaboration. The critical insight is that session speed should be limited only by model provider time-to-first-token, with all infrastructure setup completed before the user starts their session.&lt;/p&gt;
 &lt;h2 id="when-to-activate"&gt;When to Activate&lt;/h2&gt;
@@ -367,32 +189,7 @@
 &lt;li&gt;Building systems where agents spawn sub-agents for parallel work&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="core-concepts"&gt;Core Concepts&lt;/h2&gt;
-&lt;p&gt;Hosted agents address the fundamental limitation of local agent execution: resource contention, environment inconsistency, and single-user constraints. By moving agent execution to remote sandboxed environments, teams gain unlimited concurrency, reproducible environments, and collaborative workflows.&lt;/p&gt;</description></item><item><title>Hosted Agents</title><link>https://agentskill.wiki/skills/hosted-agents/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/hosted-agents/</guid><description>&lt;h1 id="hosted-agent-infrastructure"&gt;Hosted Agent Infrastructure&lt;/h1&gt;
-&lt;p&gt;Hosted agents run in remote sandboxed environments rather than on local machines. When designed well, they provide unlimited concurrency, consistent execution environments, and multiplayer collaboration. The critical insight is that session speed should be limited only by model provider time-to-first-token, with all infrastructure setup completed before the user starts their session.&lt;/p&gt;
-&lt;h2 id="when-to-activate"&gt;When to Activate&lt;/h2&gt;
-&lt;p&gt;Activate this skill when:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Building background coding agents that run independently of user devices&lt;/li&gt;
-&lt;li&gt;Designing sandboxed execution environments for agent workloads&lt;/li&gt;
-&lt;li&gt;Implementing multiplayer agent sessions with shared state&lt;/li&gt;
-&lt;li&gt;Creating multi-client agent interfaces (Slack, Web, Chrome extensions)&lt;/li&gt;
-&lt;li&gt;Scaling agent infrastructure beyond local machine constraints&lt;/li&gt;
-&lt;li&gt;Building systems where agents spawn sub-agents for parallel work&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="core-concepts"&gt;Core Concepts&lt;/h2&gt;
 &lt;p&gt;Hosted agents address the fundamental limitation of local agent execution: resource contention, environment inconsistency, and single-user constraints. By moving agent execution to remote sandboxed environments, teams gain unlimited concurrency, reproducible environments, and collaborative workflows.&lt;/p&gt;</description></item><item><title>Railway Database</title><link>https://agentskill.wiki/en/skills/railway-database/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/railway-database/</guid><description>&lt;h1 id="railway-database"&gt;Railway Database&lt;/h1&gt;
-&lt;p&gt;Add official Railway database services. These are maintained templates with pre-configured volumes, networking, and connection variables.&lt;/p&gt;
-&lt;p&gt;For non-database templates, see the &lt;code&gt;railway-templates&lt;/code&gt; skill.&lt;/p&gt;
-&lt;h2 id="when-to-use"&gt;When to Use&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;User asks to &amp;ldquo;add a database&amp;rdquo;, &amp;ldquo;add Postgres&amp;rdquo;, &amp;ldquo;add Redis&amp;rdquo;, etc.&lt;/li&gt;
-&lt;li&gt;User needs a database for their application&lt;/li&gt;
-&lt;li&gt;User asks about connecting to a database&lt;/li&gt;
-&lt;li&gt;User says &amp;ldquo;add postgres and connect to my server&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;User says &amp;ldquo;wire up the database&amp;rdquo;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="decision-flow"&gt;Decision Flow&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;ALWAYS check for existing databases FIRST before creating.&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Railway Database</title><link>https://agentskill.wiki/skills/railway-database/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/railway-database/</guid><description>&lt;h1 id="railway-database"&gt;Railway Database&lt;/h1&gt;
 &lt;p&gt;Add official Railway database services. These are maintained templates with pre-configured volumes, networking, and connection variables.&lt;/p&gt;
 &lt;p&gt;For non-database templates, see the &lt;code&gt;railway-templates&lt;/code&gt; skill.&lt;/p&gt;
 &lt;h2 id="when-to-use"&gt;When to Use&lt;/h2&gt;
@@ -418,33 +215,7 @@
 &lt;p&gt;Starts deploy and returns immediately. Use for most deploys.&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;railway up --detach
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="ci-mode"&gt;CI Mode&lt;/h3&gt;
-&lt;p&gt;Streams build logs until complete. Use when user wants to watch the build or needs to debug issues.&lt;/p&gt;</description></item><item><title>Railway Deploy</title><link>https://agentskill.wiki/skills/railway-deploy/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/railway-deploy/</guid><description>&lt;h1 id="railway-deploy"&gt;Railway Deploy&lt;/h1&gt;
-&lt;p&gt;Deploy code from the current directory to Railway using &lt;code&gt;railway up&lt;/code&gt;.&lt;/p&gt;
-&lt;h2 id="when-to-use"&gt;When to Use&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;User asks to &amp;ldquo;deploy&amp;rdquo;, &amp;ldquo;ship&amp;rdquo;, &amp;ldquo;push code&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;User says &amp;ldquo;railway up&amp;rdquo; or &amp;ldquo;deploy to Railway&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;User wants to deploy local code changes&lt;/li&gt;
-&lt;li&gt;User says &amp;ldquo;deploy and fix any issues&amp;rdquo; (use &amp;ndash;ci mode)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="modes"&gt;Modes&lt;/h2&gt;
-&lt;h3 id="detach-mode-default"&gt;Detach Mode (default)&lt;/h3&gt;
-&lt;p&gt;Starts deploy and returns immediately. Use for most deploys.&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;railway up --detach
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="ci-mode"&gt;CI Mode&lt;/h3&gt;
 &lt;p&gt;Streams build logs until complete. Use when user wants to watch the build or needs to debug issues.&lt;/p&gt;</description></item><item><title>Railway Deployment</title><link>https://agentskill.wiki/en/skills/railway-deployment/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/railway-deployment/</guid><description>&lt;h1 id="railway-deployment-management"&gt;Railway Deployment Management&lt;/h1&gt;
-&lt;p&gt;Manage existing Railway deployments: list, view logs, redeploy, or remove.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Important:&lt;/strong&gt; &amp;ldquo;Remove deployment&amp;rdquo; (&lt;code&gt;railway down&lt;/code&gt;) stops the current deployment but keeps the service. To delete a service entirely, use the railway-environment skill with &lt;code&gt;isDeleted: true&lt;/code&gt;.&lt;/p&gt;
-&lt;h2 id="when-to-use"&gt;When to Use&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;User says &amp;ldquo;remove deploy&amp;rdquo;, &amp;ldquo;take down service&amp;rdquo;, &amp;ldquo;stop deployment&amp;rdquo;, &amp;ldquo;railway down&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;User wants to &amp;ldquo;redeploy&amp;rdquo;, &amp;ldquo;restart the service&amp;rdquo;, &amp;ldquo;restart deployment&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;User asks to &amp;ldquo;list deployments&amp;rdquo;, &amp;ldquo;show deployment history&amp;rdquo;, &amp;ldquo;deployment status&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;User asks to &amp;ldquo;see logs&amp;rdquo;, &amp;ldquo;show logs&amp;rdquo;, &amp;ldquo;check errors&amp;rdquo;, &amp;ldquo;debug issues&amp;rdquo;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="list-deployments"&gt;List Deployments&lt;/h2&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;railway deployment list --limit &lt;span style="color:#ae81ff"&gt;10&lt;/span&gt; --json
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Shows deployment IDs, statuses, and metadata. Use to find specific deployment IDs for logs or debugging.&lt;/p&gt;</description></item><item><title>Railway Deployment</title><link>https://agentskill.wiki/skills/railway-deployment/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/railway-deployment/</guid><description>&lt;h1 id="railway-deployment-management"&gt;Railway Deployment Management&lt;/h1&gt;
 &lt;p&gt;Manage existing Railway deployments: list, view logs, redeploy, or remove.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Important:&lt;/strong&gt; &amp;ldquo;Remove deployment&amp;rdquo; (&lt;code&gt;railway down&lt;/code&gt;) stops the current deployment but keeps the service. To delete a service entirely, use the railway-environment skill with &lt;code&gt;isDeleted: true&lt;/code&gt;.&lt;/p&gt;
 &lt;h2 id="when-to-use"&gt;When to Use&lt;/h2&gt;
@@ -471,47 +242,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;For a specific service:&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;railway domain --json --service backend
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="response"&gt;Response&lt;/h3&gt;
-&lt;p&gt;Returns the generated domain URL. Service must have a deployment.&lt;/p&gt;</description></item><item><title>Railway Domain</title><link>https://agentskill.wiki/skills/railway-domain/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/railway-domain/</guid><description>&lt;h1 id="railway-domain-management"&gt;Railway Domain Management&lt;/h1&gt;
-&lt;p&gt;Add, view, or remove domains for Railway services.&lt;/p&gt;
-&lt;h2 id="when-to-use"&gt;When to Use&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;User asks to &amp;ldquo;add a domain&amp;rdquo;, &amp;ldquo;generate a domain&amp;rdquo;, &amp;ldquo;get a URL&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;User wants to add a custom domain&lt;/li&gt;
-&lt;li&gt;User asks &amp;ldquo;what&amp;rsquo;s the URL for my service&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;User wants to remove a domain&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="add-railway-domain"&gt;Add Railway Domain&lt;/h2&gt;
-&lt;p&gt;Generate a railway-provided domain (max 1 per service):&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;railway domain --json
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;For a specific service:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;railway domain --json --service backend
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="response"&gt;Response&lt;/h3&gt;
 &lt;p&gt;Returns the generated domain URL. Service must have a deployment.&lt;/p&gt;</description></item><item><title>Railway Environment</title><link>https://agentskill.wiki/en/skills/railway-environment/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/railway-environment/</guid><description>&lt;h1 id="environment-configuration"&gt;Environment Configuration&lt;/h1&gt;
-&lt;p&gt;Query, stage, and apply configuration changes for Railway environments.&lt;/p&gt;
-&lt;h2 id="shell-escaping"&gt;Shell Escaping&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;CRITICAL:&lt;/strong&gt; When running GraphQL queries via bash, you MUST wrap in heredoc to prevent shell escaping issues:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;bash &lt;span style="color:#e6db74"&gt;&amp;lt;&amp;lt;&amp;#39;SCRIPT&amp;#39;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;2&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;${CLAUDE_PLUGIN_ROOT}/skills/lib/railway-api.sh &amp;#39;query ...&amp;#39; &amp;#39;{&amp;#34;var&amp;#34;: &amp;#34;value&amp;#34;}&amp;#39;
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;3&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;SCRIPT&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Without the heredoc wrapper, multi-line commands break and exclamation marks in GraphQL non-null types get escaped, causing query failures.&lt;/p&gt;
-&lt;h2 id="when-to-use"&gt;When to Use&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;User wants to create a new environment&lt;/li&gt;
-&lt;li&gt;User wants to duplicate an environment (e.g., &amp;ldquo;copy production to staging&amp;rdquo;)&lt;/li&gt;
-&lt;li&gt;User wants to switch to a different environment&lt;/li&gt;
-&lt;li&gt;User asks about current build/deploy settings, variables, replicas, health checks, domains&lt;/li&gt;
-&lt;li&gt;User asks to change service source (Docker image, branch, commit, root directory)&lt;/li&gt;
-&lt;li&gt;User wants to connect a service to a GitHub repo&lt;/li&gt;
-&lt;li&gt;User wants to deploy from a GitHub repo (create empty service first via railway-new skill, then use this)&lt;/li&gt;
-&lt;li&gt;User asks to change build or start command&lt;/li&gt;
-&lt;li&gt;User wants to add/update/delete environment variables&lt;/li&gt;
-&lt;li&gt;User wants to change replica count or configure health checks&lt;/li&gt;
-&lt;li&gt;User asks to delete a service, volume, or bucket&lt;/li&gt;
-&lt;li&gt;User says &amp;ldquo;apply changes&amp;rdquo;, &amp;ldquo;commit changes&amp;rdquo;, &amp;ldquo;deploy changes&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;Auto-fixing build errors detected in logs&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="create-environment"&gt;Create Environment&lt;/h2&gt;
-&lt;p&gt;Create a new environment in the linked project:&lt;/p&gt;</description></item><item><title>Railway Environment</title><link>https://agentskill.wiki/skills/railway-environment/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/railway-environment/</guid><description>&lt;h1 id="environment-configuration"&gt;Environment Configuration&lt;/h1&gt;
 &lt;p&gt;Query, stage, and apply configuration changes for Railway environments.&lt;/p&gt;
 &lt;h2 id="shell-escaping"&gt;Shell Escaping&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;CRITICAL:&lt;/strong&gt; When running GraphQL queries via bash, you MUST wrap in heredoc to prevent shell escaping issues:&lt;/p&gt;
@@ -552,37 +283,7 @@
 &lt;li&gt;Setting up code + Railway service together&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="prerequisites"&gt;Prerequisites&lt;/h2&gt;
-&lt;p&gt;Check CLI installed:&lt;/p&gt;</description></item><item><title>Railway New</title><link>https://agentskill.wiki/skills/railway-new/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/railway-new/</guid><description>&lt;h1 id="new-project--service--database"&gt;New Project / Service / Database&lt;/h1&gt;
-&lt;p&gt;Create Railway projects, services, and databases with proper configuration.&lt;/p&gt;
-&lt;h2 id="when-to-use"&gt;When to Use&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;User says &amp;ldquo;deploy to railway&amp;rdquo; (add service if linked, init if not)&lt;/li&gt;
-&lt;li&gt;User says &amp;ldquo;create a railway project&amp;rdquo;, &amp;ldquo;init&amp;rdquo;, &amp;ldquo;new project&amp;rdquo; (explicit new project)&lt;/li&gt;
-&lt;li&gt;User says &amp;ldquo;link to railway&amp;rdquo;, &amp;ldquo;connect to railway&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;User says &amp;ldquo;create a service&amp;rdquo;, &amp;ldquo;add a backend&amp;rdquo;, &amp;ldquo;new api service&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;User says &amp;ldquo;create a vite app&amp;rdquo;, &amp;ldquo;create a react website&amp;rdquo;, &amp;ldquo;make a python api&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;User says &amp;ldquo;deploy from github.com/user/repo&amp;rdquo;, &amp;ldquo;create service from this repo&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;User says &amp;ldquo;add postgres&amp;rdquo;, &amp;ldquo;add a database&amp;rdquo;, &amp;ldquo;add redis&amp;rdquo;, &amp;ldquo;add mysql&amp;rdquo;, &amp;ldquo;add mongo&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;User says &amp;ldquo;connect to postgres&amp;rdquo;, &amp;ldquo;wire up the database&amp;rdquo;, &amp;ldquo;connect my api to redis&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;User says &amp;ldquo;add postgres and connect to the server&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;Setting up code + Railway service together&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="prerequisites"&gt;Prerequisites&lt;/h2&gt;
 &lt;p&gt;Check CLI installed:&lt;/p&gt;</description></item><item><title>Railway Projects</title><link>https://agentskill.wiki/en/skills/railway-projects/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/railway-projects/</guid><description>&lt;h1 id="railway-project-management"&gt;Railway Project Management&lt;/h1&gt;
-&lt;p&gt;List, switch, and configure Railway projects.&lt;/p&gt;
-&lt;h2 id="when-to-use"&gt;When to Use&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;User asks &amp;ldquo;show me all my projects&amp;rdquo; or &amp;ldquo;what projects do I have&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;User asks about projects across workspaces&lt;/li&gt;
-&lt;li&gt;User asks &amp;ldquo;what workspaces do I have&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;User wants to switch to a different project&lt;/li&gt;
-&lt;li&gt;User asks to rename a project&lt;/li&gt;
-&lt;li&gt;User wants to enable/disable PR deploys&lt;/li&gt;
-&lt;li&gt;User wants to make a project public or private&lt;/li&gt;
-&lt;li&gt;User asks about project settings&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="list-projects"&gt;List Projects&lt;/h2&gt;
-&lt;p&gt;The &lt;code&gt;railway list --json&lt;/code&gt; output can be very large. Run in a subagent and return only essential fields:&lt;/p&gt;</description></item><item><title>Railway Projects</title><link>https://agentskill.wiki/skills/railway-projects/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/railway-projects/</guid><description>&lt;h1 id="railway-project-management"&gt;Railway Project Management&lt;/h1&gt;
 &lt;p&gt;List, switch, and configure Railway projects.&lt;/p&gt;
 &lt;h2 id="when-to-use"&gt;When to Use&lt;/h2&gt;
 &lt;ul&gt;
@@ -606,84 +307,7 @@
 &lt;li&gt;User wants to link a different service&lt;/li&gt;
 &lt;li&gt;User wants to deploy a Docker image as a new service (advanced)&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; For creating services with local code (the common case), prefer the railway-new skill which handles project setup, scaffolding, and service creation together.&lt;/p&gt;</description></item><item><title>Railway Service</title><link>https://agentskill.wiki/skills/railway-service/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/railway-service/</guid><description>&lt;h1 id="railway-service-management"&gt;Railway Service Management&lt;/h1&gt;
-&lt;p&gt;Check status, update properties, and advanced service creation.&lt;/p&gt;
-&lt;h2 id="when-to-use"&gt;When to Use&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;User asks about service status, health, or deployments&lt;/li&gt;
-&lt;li&gt;User asks &amp;ldquo;is my service deployed?&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;User wants to rename a service or change service icon&lt;/li&gt;
-&lt;li&gt;User wants to link a different service&lt;/li&gt;
-&lt;li&gt;User wants to deploy a Docker image as a new service (advanced)&lt;/li&gt;
-&lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; For creating services with local code (the common case), prefer the railway-new skill which handles project setup, scaffolding, and service creation together.&lt;/p&gt;</description></item><item><title>Railway Templates</title><link>https://agentskill.wiki/en/skills/railway-templates/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/railway-templates/</guid><description>&lt;h1 id="railway-templates"&gt;Railway Templates&lt;/h1&gt;
-&lt;p&gt;Search and deploy services from Railway&amp;rsquo;s template marketplace.&lt;/p&gt;
-&lt;h2 id="when-to-use"&gt;When to Use&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;User asks to &amp;ldquo;add Postgres&amp;rdquo;, &amp;ldquo;add Redis&amp;rdquo;, &amp;ldquo;add a database&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;User asks to &amp;ldquo;add Ghost&amp;rdquo;, &amp;ldquo;add Strapi&amp;rdquo;, &amp;ldquo;add n8n&amp;rdquo;, or any other service&lt;/li&gt;
-&lt;li&gt;User wants to find templates for a use case (e.g., &amp;ldquo;CMS&amp;rdquo;, &amp;ldquo;storage&amp;rdquo;, &amp;ldquo;monitoring&amp;rdquo;)&lt;/li&gt;
-&lt;li&gt;User asks &amp;ldquo;what templates are available?&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;User wants to deploy a pre-configured service&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="common-template-codes"&gt;Common Template Codes&lt;/h2&gt;
-&lt;table&gt;
- &lt;thead&gt;
- &lt;tr&gt;
- &lt;th&gt;Category&lt;/th&gt;
- &lt;th&gt;Template&lt;/th&gt;
- &lt;th&gt;Code&lt;/th&gt;
- &lt;/tr&gt;
- &lt;/thead&gt;
- &lt;tbody&gt;
- &lt;tr&gt;
- &lt;td&gt;&lt;strong&gt;Databases&lt;/strong&gt;&lt;/td&gt;
- &lt;td&gt;PostgreSQL&lt;/td&gt;
- &lt;td&gt;&lt;code&gt;postgres&lt;/code&gt;&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;&lt;/td&gt;
- &lt;td&gt;Redis&lt;/td&gt;
- &lt;td&gt;&lt;code&gt;redis&lt;/code&gt;&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;&lt;/td&gt;
- &lt;td&gt;MySQL&lt;/td&gt;
- &lt;td&gt;&lt;code&gt;mysql&lt;/code&gt;&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;&lt;/td&gt;
- &lt;td&gt;MongoDB&lt;/td&gt;
- &lt;td&gt;&lt;code&gt;mongodb&lt;/code&gt;&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;&lt;strong&gt;CMS&lt;/strong&gt;&lt;/td&gt;
- &lt;td&gt;Ghost&lt;/td&gt;
- &lt;td&gt;&lt;code&gt;ghost&lt;/code&gt;&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;&lt;/td&gt;
- &lt;td&gt;Strapi&lt;/td&gt;
- &lt;td&gt;&lt;code&gt;strapi&lt;/code&gt;&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;&lt;strong&gt;Storage&lt;/strong&gt;&lt;/td&gt;
- &lt;td&gt;Minio&lt;/td&gt;
- &lt;td&gt;&lt;code&gt;minio&lt;/code&gt;&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;&lt;strong&gt;Automation&lt;/strong&gt;&lt;/td&gt;
- &lt;td&gt;n8n&lt;/td&gt;
- &lt;td&gt;&lt;code&gt;n8n&lt;/code&gt;&lt;/td&gt;
- &lt;/tr&gt;
- &lt;tr&gt;
- &lt;td&gt;&lt;strong&gt;Monitoring&lt;/strong&gt;&lt;/td&gt;
- &lt;td&gt;Uptime Kuma&lt;/td&gt;
- &lt;td&gt;&lt;code&gt;uptime-kuma&lt;/code&gt;&lt;/td&gt;
- &lt;/tr&gt;
- &lt;/tbody&gt;
-&lt;/table&gt;
-&lt;p&gt;For other templates, use the search query below.&lt;/p&gt;</description></item><item><title>Railway Templates</title><link>https://agentskill.wiki/skills/railway-templates/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/railway-templates/</guid><description>&lt;h1 id="railway-templates"&gt;Railway Templates&lt;/h1&gt;
 &lt;p&gt;Search and deploy services from Railway&amp;rsquo;s template marketplace.&lt;/p&gt;
 &lt;h2 id="when-to-use"&gt;When to Use&lt;/h2&gt;
 &lt;ul&gt;

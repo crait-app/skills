@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Checklist on Agent Skills Hub</title><link>https://agentskill.wiki/en/tags/checklist/</link><description>Recent content in Checklist on Agent Skills Hub</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/en/tags/checklist/index.xml" rel="self" type="application/rss+xml"/><item><title>Reviewing Changes</title><link>https://agentskill.wiki/en/skills/reviewing-changes/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/reviewing-changes/</guid><description>&lt;h1 id="reviewing-changes---android-additions"&gt;Reviewing Changes - Android Additions&lt;/h1&gt;
+&lt;p&gt;This skill provides Android-specific workflow additions that complement the base &lt;code&gt;bitwarden-code-reviewer&lt;/code&gt; agent standards.&lt;/p&gt;
+&lt;h2 id="instructions"&gt;Instructions&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;IMPORTANT&lt;/strong&gt;: Use structured thinking throughout your review process. Plan your analysis in &lt;code&gt;&amp;lt;thinking&amp;gt;&lt;/code&gt; tags before providing final feedback.&lt;/p&gt;
+&lt;h3 id="step-1-retrieve-additional-details"&gt;Step 1: Retrieve Additional Details&lt;/h3&gt;
+&lt;thinking&gt;
+Determine if more context is available for the changes:
+1. Are there JIRA tickets or GitHub Issues mentioned in the PR title or body?
+2. Are there other GitHub pull requests mentioned in the PR title or body?
+&lt;/thinking&gt;
+&lt;p&gt;Retrieve any additional information linked to the pull request using available tools (JIRA MCP, GitHub API).&lt;/p&gt;</description></item></channel></rss>

@@ -1,44 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Fastapi on Agent Skills Hub</title><link>https://agentskill.wiki/tags/fastapi/</link><description>Recent content in Fastapi on Agent Skills Hub</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/fastapi/index.xml" rel="self" type="application/rss+xml"/><item><title>Fastapi Templates</title><link>https://agentskill.wiki/en/skills/fastapi-templates/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/fastapi-templates/</guid><description>&lt;h1 id="fastapi-project-templates"&gt;FastAPI Project Templates&lt;/h1&gt;
-&lt;p&gt;Production-ready FastAPI project structures with async patterns, dependency injection, middleware, and best practices for building high-performance APIs.&lt;/p&gt;
-&lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Starting new FastAPI projects from scratch&lt;/li&gt;
-&lt;li&gt;Implementing async REST APIs with Python&lt;/li&gt;
-&lt;li&gt;Building high-performance web services and microservices&lt;/li&gt;
-&lt;li&gt;Creating async applications with PostgreSQL, MongoDB&lt;/li&gt;
-&lt;li&gt;Setting up API projects with proper structure and testing&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="core-concepts"&gt;Core Concepts&lt;/h2&gt;
-&lt;h3 id="1-project-structure"&gt;1. Project Structure&lt;/h3&gt;
-&lt;p&gt;&lt;strong&gt;Recommended Layout:&lt;/strong&gt;&lt;/p&gt;
-&lt;pre tabindex="0"&gt;&lt;code&gt;app/
-├── api/ # API routes
-│ ├── v1/
-│ │ ├── endpoints/
-│ │ │ ├── users.py
-│ │ │ ├── auth.py
-│ │ │ └── items.py
-│ │ └── router.py
-│ └── dependencies.py # Shared dependencies
-├── core/ # Core configuration
-│ ├── config.py
-│ ├── security.py
-│ └── database.py
-├── models/ # Database models
-│ ├── user.py
-│ └── item.py
-├── schemas/ # Pydantic schemas
-│ ├── user.py
-│ └── item.py
-├── services/ # Business logic
-│ ├── user_service.py
-│ └── auth_service.py
-├── repositories/ # Data access
-│ ├── user_repository.py
-│ └── item_repository.py
-└── main.py # Application entry
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id="2-dependency-injection"&gt;2. Dependency Injection&lt;/h3&gt;
-&lt;p&gt;FastAPI&amp;rsquo;s built-in DI system using &lt;code&gt;Depends&lt;/code&gt;:&lt;/p&gt;</description></item><item><title>Fastapi Templates</title><link>https://agentskill.wiki/skills/fastapi-templates/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/fastapi-templates/</guid><description>&lt;h1 id="fastapi-project-templates"&gt;FastAPI Project Templates&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Fastapi on Agent Skills Hub</title><link>https://agentskill.wiki/tags/fastapi/</link><description>Recent content in Fastapi on Agent Skills Hub</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/fastapi/index.xml" rel="self" type="application/rss+xml"/><item><title>Fastapi Templates</title><link>https://agentskill.wiki/en/skills/fastapi-templates/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/fastapi-templates/</guid><description>&lt;h1 id="fastapi-project-templates"&gt;FastAPI Project Templates&lt;/h1&gt;
 &lt;p&gt;Production-ready FastAPI project structures with async patterns, dependency injection, middleware, and best practices for building high-performance APIs.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;

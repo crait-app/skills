@@ -1,80 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Refactoring on Agent Skills Hub</title><link>https://agentskill.wiki/tags/refactoring/</link><description>Recent content in Refactoring on Agent Skills Hub</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/refactoring/index.xml" rel="self" type="application/rss+xml"/><item><title>Clojure Write</title><link>https://agentskill.wiki/en/skills/clojure-write/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/clojure-write/</guid><description>&lt;h1 id="clojure-development-skill"&gt;Clojure Development Skill&lt;/h1&gt;
-&lt;h2 id="tool-preference"&gt;Tool Preference&lt;/h2&gt;
-&lt;p&gt;When &lt;code&gt;clojure-mcp&lt;/code&gt; tools are available (e.g., &lt;code&gt;clojure_eval&lt;/code&gt;, &lt;code&gt;clojure_edit&lt;/code&gt;), &lt;strong&gt;always use them&lt;/strong&gt;
-instead of shell commands like &lt;code&gt;./bin/mage -repl&lt;/code&gt;. The MCP tools provide:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Direct REPL integration without shell escaping issues&lt;/li&gt;
-&lt;li&gt;Better error messages and feedback&lt;/li&gt;
-&lt;li&gt;Structural Clojure editing that prevents syntax errors&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Only fall back to &lt;code&gt;./bin/mage&lt;/code&gt; commands when clojure-mcp is not available.&lt;/p&gt;
-&lt;p&gt;@./../_shared/development-workflow.md
-@./../_shared/clojure-style-guide.md
-@./../_shared/clojure-commands.md&lt;/p&gt;
-&lt;h2 id="repl-driven-development-workflow"&gt;REPL-Driven Development Workflow&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Start with small, fundamental functions:&lt;/li&gt;
-&lt;li&gt;Identify the core features or functionalities required for your task.&lt;/li&gt;
-&lt;li&gt;Break each feature down into the smallest, most basic functions that can be developed and tested independently.&lt;/li&gt;
-&lt;li&gt;Write and test in the REPL:
-&lt;ul&gt;
-&lt;li&gt;Write the code for each small function directly in the REPL (Read-Eval-Print Loop).&lt;/li&gt;
-&lt;li&gt;Test it thoroughly with a variety of inputs, including typical use cases and relevant edge cases, to ensure it
-behaves as expected.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Integrate into source code:
-&lt;ul&gt;
-&lt;li&gt;Once a function works correctly in the REPL, move it from the REPL environment into your source code files (e.g.,
-within appropriate namespaces).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Gradually increase complexity:
-&lt;ul&gt;
-&lt;li&gt;Build upon tested, basic functions to create more complex functions or components.&lt;/li&gt;
-&lt;li&gt;Compose smaller functions together, testing each new composition in the REPL to verify correctness step by step.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Ensure dependency testing:
-&lt;ul&gt;
-&lt;li&gt;Make sure every function is fully tested in the REPL before it is depended upon by other functions.&lt;/li&gt;
-&lt;li&gt;This ensures that each layer of your application is reliable before you build on it.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Use the REPL fully:
-&lt;ul&gt;
-&lt;li&gt;Use the REPL as your primary tool to experiment with different approaches, iterate quickly, and get immediate
-feedback on your code.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;Follow functional programming principles:
-&lt;ul&gt;
-&lt;li&gt;Keep functions small, focused, and composable.&lt;/li&gt;
-&lt;li&gt;Use Clojure&amp;rsquo;s functional programming features—like immutability, higher-order functions, and the standard
-library—to write concise, effective code.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="how-to-evaluate-code"&gt;How to Evaluate Code&lt;/h2&gt;
-&lt;h3 id="bottom-up-dev-loop"&gt;Bottom-up Dev Loop&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;Write code into a file.&lt;/li&gt;
-&lt;li&gt;Evaluate the file&amp;rsquo;s namespace and make sure it loads correctly with:&lt;/li&gt;
-&lt;/ol&gt;
-&lt;pre tabindex="0"&gt;&lt;code&gt;./bin/mage -repl --namespace metabase.app-db.connection
-&lt;/code&gt;&lt;/pre&gt;&lt;ol start="3"&gt;
-&lt;li&gt;Call functions in the namespace with test inputs, and observe that the outputs are correct
-Feel free to copy these REPL session trials into actual test cases using &lt;code&gt;deftest&lt;/code&gt; and &lt;code&gt;is&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;Once you know these functions are good, return to 1, and compose them into the task that you need to build.&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id="critical-rules-for-editing"&gt;Critical Rules for Editing&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Be careful with parentheses counts when editing Clojure code&lt;/li&gt;
-&lt;li&gt;After EVERY change to Clojure code, verify readability with &lt;code&gt;-check-readable&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;End all files with a newline&lt;/li&gt;
-&lt;li&gt;When editing tabular code, where the columns line up, try to keep them aligned&lt;/li&gt;
-&lt;li&gt;Spaces on a line with nothing after it is not allowed&lt;/li&gt;
-&lt;/ul&gt;</description></item><item><title>Clojure Write</title><link>https://agentskill.wiki/skills/clojure-write/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/clojure-write/</guid><description>&lt;h1 id="clojure-development-skill"&gt;Clojure Development Skill&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Refactoring on Agent Skills Hub</title><link>https://agentskill.wiki/tags/refactoring/</link><description>Recent content in Refactoring on Agent Skills Hub</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/refactoring/index.xml" rel="self" type="application/rss+xml"/><item><title>Clojure Write</title><link>https://agentskill.wiki/en/skills/clojure-write/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/clojure-write/</guid><description>&lt;h1 id="clojure-development-skill"&gt;Clojure Development Skill&lt;/h1&gt;
 &lt;h2 id="tool-preference"&gt;Tool Preference&lt;/h2&gt;
 &lt;p&gt;When &lt;code&gt;clojure-mcp&lt;/code&gt; tools are available (e.g., &lt;code&gt;clojure_eval&lt;/code&gt;, &lt;code&gt;clojure_edit&lt;/code&gt;), &lt;strong&gt;always use them&lt;/strong&gt;
 instead of shell commands like &lt;code&gt;./bin/mage -repl&lt;/code&gt;. The MCP tools provide:&lt;/p&gt;
@@ -166,37 +90,7 @@ Feel free to copy these REPL session trials into actual test cases using &lt;cod
 &lt;li&gt;Review each changed file for slop patterns&lt;/li&gt;
 &lt;li&gt;Remove identified slop while preserving legitimate changes&lt;/li&gt;
 &lt;li&gt;Report a 1-3 sentence summary of what was changed&lt;/li&gt;
-&lt;/ol&gt;</description></item><item><title>Deslop</title><link>https://agentskill.wiki/skills/deslop/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/deslop/</guid><description>&lt;h1 id="remove-ai-code-slop"&gt;Remove AI Code Slop&lt;/h1&gt;
-&lt;p&gt;Check the diff against main and remove all AI-generated slop introduced in this branch.&lt;/p&gt;
-&lt;h2 id="what-to-remove"&gt;What to Remove&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Extra comments that a human wouldn&amp;rsquo;t add or are inconsistent with the rest of the file&lt;/li&gt;
-&lt;li&gt;Extra defensive checks or try/catch blocks that are abnormal for that area of the codebase (especially if called by trusted/validated codepaths)&lt;/li&gt;
-&lt;li&gt;Casts to &lt;code&gt;any&lt;/code&gt; to get around type issues&lt;/li&gt;
-&lt;li&gt;Inline imports in Python (move to top of file with other imports)&lt;/li&gt;
-&lt;li&gt;Any other style that is inconsistent with the file&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="process"&gt;Process&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;Get the diff against main: &lt;code&gt;git diff main...HEAD&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Review each changed file for slop patterns&lt;/li&gt;
-&lt;li&gt;Remove identified slop while preserving legitimate changes&lt;/li&gt;
-&lt;li&gt;Report a 1-3 sentence summary of what was changed&lt;/li&gt;
 &lt;/ol&gt;</description></item><item><title>Pair Programming</title><link>https://agentskill.wiki/en/skills/pair-programming/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/pair-programming/</guid><description>&lt;h1 id="pair-programming"&gt;Pair Programming&lt;/h1&gt;
-&lt;p&gt;Collaborative AI pair programming with intelligent role management, real-time quality monitoring, and comprehensive development workflows.&lt;/p&gt;
-&lt;h2 id="what-this-skill-does"&gt;What This Skill Does&lt;/h2&gt;
-&lt;p&gt;This skill provides professional pair programming capabilities with AI assistance, supporting multiple collaboration modes, continuous verification, and integrated testing. It manages driver/navigator roles, performs real-time code review, tracks quality metrics, and ensures high standards through truth-score verification.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Key Capabilities:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Multiple Modes&lt;/strong&gt;: Driver, Navigator, Switch, TDD, Review, Mentor, Debug&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Real-Time Verification&lt;/strong&gt;: Automatic quality scoring with rollback on failures&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Role Management&lt;/strong&gt;: Seamless switching between driver/navigator roles&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Testing Integration&lt;/strong&gt;: Auto-generate tests, track coverage, continuous testing&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Code Review&lt;/strong&gt;: Security scanning, performance analysis, best practice enforcement&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Session Persistence&lt;/strong&gt;: Auto-save, recovery, export, and sharing&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="prerequisites"&gt;Prerequisites&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Required:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Pair Programming</title><link>https://agentskill.wiki/skills/pair-programming/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/pair-programming/</guid><description>&lt;h1 id="pair-programming"&gt;Pair Programming&lt;/h1&gt;
 &lt;p&gt;Collaborative AI pair programming with intelligent role management, real-time quality monitoring, and comprehensive development workflows.&lt;/p&gt;
 &lt;h2 id="what-this-skill-does"&gt;What This Skill Does&lt;/h2&gt;
 &lt;p&gt;This skill provides professional pair programming capabilities with AI assistance, supporting multiple collaboration modes, continuous verification, and integrated testing. It manages driver/navigator roles, performs real-time code review, tracks quality metrics, and ensures high standards through truth-score verification.&lt;/p&gt;
@@ -222,20 +116,6 @@ Feel free to copy these REPL session trials into actual test cases using &lt;cod
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 9&lt;/span&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;10&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;// ❌ NEVER: Direct union types
 &lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;11&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;Status&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;active&amp;#34;&lt;/span&gt; &lt;span style="color:#f92672"&gt;|&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;inactive&amp;#34;&lt;/span&gt; &lt;span style="color:#f92672"&gt;|&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;pending&amp;#34;&lt;/span&gt;;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Why?&lt;/strong&gt; Single source of truth, runtime values, autocomplete, easier refactoring.&lt;/p&gt;</description></item><item><title>Typescript</title><link>https://agentskill.wiki/skills/typescript/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/typescript/</guid><description>&lt;h2 id="const-types-pattern-required"&gt;Const Types Pattern (REQUIRED)&lt;/h2&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-typescript" data-lang="typescript"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;// ✅ ALWAYS: Create const object first, then extract type
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 2&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;const&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;STATUS&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; {
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 3&lt;/span&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;ACTIVE&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;active&amp;#34;&lt;/span&gt;,
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 4&lt;/span&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;INACTIVE&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;inactive&amp;#34;&lt;/span&gt;,
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 5&lt;/span&gt;&lt;span&gt; &lt;span style="color:#a6e22e"&gt;PENDING&lt;/span&gt;&lt;span style="color:#f92672"&gt;:&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;pending&amp;#34;&lt;/span&gt;,
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 6&lt;/span&gt;&lt;span&gt;} &lt;span style="color:#66d9ef"&gt;as&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;const&lt;/span&gt;;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 7&lt;/span&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 8&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;Status&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; (&lt;span style="color:#66d9ef"&gt;typeof&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;STATUS&lt;/span&gt;)[&lt;span style="color:#66d9ef"&gt;keyof&lt;/span&gt; &lt;span style="color:#66d9ef"&gt;typeof&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;STATUS&lt;/span&gt;];
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 9&lt;/span&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;10&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;// ❌ NEVER: Direct union types
-&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;11&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;type&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;Status&lt;/span&gt; &lt;span style="color:#f92672"&gt;=&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;active&amp;#34;&lt;/span&gt; &lt;span style="color:#f92672"&gt;|&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;inactive&amp;#34;&lt;/span&gt; &lt;span style="color:#f92672"&gt;|&lt;/span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;pending&amp;#34;&lt;/span&gt;;
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;Why?&lt;/strong&gt; Single source of truth, runtime values, autocomplete, easier refactoring.&lt;/p&gt;</description></item><item><title>Typescript Write</title><link>https://agentskill.wiki/en/skills/typescript-write/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/typescript-write/</guid><description>&lt;h1 id="typescriptjavascript-development-skill"&gt;TypeScript/JavaScript Development Skill&lt;/h1&gt;
-&lt;p&gt;@./../_shared/development-workflow.md
-@./../_shared/typescript-commands.md&lt;/p&gt;</description></item><item><title>Typescript Write</title><link>https://agentskill.wiki/skills/typescript-write/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/typescript-write/</guid><description>&lt;h1 id="typescriptjavascript-development-skill"&gt;TypeScript/JavaScript Development Skill&lt;/h1&gt;
 &lt;p&gt;@./../_shared/development-workflow.md
 @./../_shared/typescript-commands.md&lt;/p&gt;</description></item></channel></rss>

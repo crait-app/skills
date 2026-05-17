@@ -1,36 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Marketing Manager on Agent Skills Hub</title><link>https://agentskill.wiki/topics/marketing-manager/</link><description>Recent content in Marketing Manager on Agent Skills Hub</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/topics/marketing-manager/index.xml" rel="self" type="application/rss+xml"/><item><title>Domain Name Brainstormer</title><link>https://agentskill.wiki/en/skills/domain-name-brainstormer/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/domain-name-brainstormer/</guid><description>&lt;h1 id="domain-name-brainstormer"&gt;Domain Name Brainstormer&lt;/h1&gt;
-&lt;p&gt;This skill helps you find the perfect domain name for your project by generating creative options and checking what&amp;rsquo;s actually available to register.&lt;/p&gt;
-&lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Starting a new project or company&lt;/li&gt;
-&lt;li&gt;Launching a product or service&lt;/li&gt;
-&lt;li&gt;Creating a personal brand or portfolio site&lt;/li&gt;
-&lt;li&gt;Rebranding an existing project&lt;/li&gt;
-&lt;li&gt;Registering a domain for a side project&lt;/li&gt;
-&lt;li&gt;Finding available alternatives when your first choice is taken&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="what-this-skill-does"&gt;What This Skill Does&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;Understands Your Project&lt;/strong&gt;: Analyzes what you&amp;rsquo;re building and who it&amp;rsquo;s for&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Generates Creative Names&lt;/strong&gt;: Creates relevant, memorable domain options&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Checks Availability&lt;/strong&gt;: Verifies which domains are actually available across multiple TLDs&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Multiple Extensions&lt;/strong&gt;: Suggests .com, .io, .dev, .ai, .app, and more&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Provides Alternatives&lt;/strong&gt;: Offers variations if top choices are taken&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Branding Insights&lt;/strong&gt;: Explains why certain names work well&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id="how-to-use"&gt;How to Use&lt;/h2&gt;
-&lt;h3 id="basic-brainstorming"&gt;Basic Brainstorming&lt;/h3&gt;
-&lt;pre tabindex="0"&gt;&lt;code&gt;I&amp;#39;m building a project management tool for remote teams. 
-Suggest domain names.
-&lt;/code&gt;&lt;/pre&gt;&lt;pre tabindex="0"&gt;&lt;code&gt;Help me brainstorm domain names for a personal finance app
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id="specific-preferences"&gt;Specific Preferences&lt;/h3&gt;
-&lt;pre tabindex="0"&gt;&lt;code&gt;I need a domain name for my AI writing assistant. 
-Prefer short names with .ai or .io extension.
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id="with-keywords"&gt;With Keywords&lt;/h3&gt;
-&lt;pre tabindex="0"&gt;&lt;code&gt;Suggest domain names using the words &amp;#34;pixel&amp;#34; or &amp;#34;studio&amp;#34; 
-for my design agency
-&lt;/code&gt;&lt;/pre&gt;&lt;h2 id="example"&gt;Example&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;User&lt;/strong&gt;: &amp;ldquo;I&amp;rsquo;m building a tool for developers to share code snippets. Suggest creative domain names.&amp;rdquo;&lt;/p&gt;</description></item><item><title>Domain Name Brainstormer</title><link>https://agentskill.wiki/skills/domain-name-brainstormer/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/domain-name-brainstormer/</guid><description>&lt;h1 id="domain-name-brainstormer"&gt;Domain Name Brainstormer&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Marketing Manager on Agent Skills Hub</title><link>https://agentskill.wiki/topics/marketing-manager/</link><description>Recent content in Marketing Manager on Agent Skills Hub</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/topics/marketing-manager/index.xml" rel="self" type="application/rss+xml"/><item><title>Domain Name Brainstormer</title><link>https://agentskill.wiki/en/skills/domain-name-brainstormer/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/domain-name-brainstormer/</guid><description>&lt;h1 id="domain-name-brainstormer"&gt;Domain Name Brainstormer&lt;/h1&gt;
 &lt;p&gt;This skill helps you find the perfect domain name for your project by generating creative options and checking what&amp;rsquo;s actually available to register.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -86,59 +54,7 @@ for my design agency
 &lt;li&gt;&lt;strong&gt;CAC (Customer Acquisition Cost)&lt;/strong&gt;: Total marketing spend divided by new customers acquired&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h3 id="workflow-campaign-development--execution"&gt;Workflow: Campaign Development &amp;amp; Execution&lt;/h3&gt;
-&lt;p&gt;When developing a marketing campaign, follow this structured approach:&lt;/p&gt;</description></item><item><title>Executing Marketing Campaigns</title><link>https://agentskill.wiki/skills/executing-marketing-campaigns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/executing-marketing-campaigns/</guid><description>&lt;h1 id="executing-marketing-campaigns"&gt;Executing Marketing Campaigns&lt;/h1&gt;
-&lt;p&gt;This Skill helps marketing teams plan campaigns, develop messaging, manage execution across channels, and measure results. Use this when developing marketing strategies, creating campaign content, planning social media, drafting emails, or analyzing campaign performance.&lt;/p&gt;
-&lt;h2 id="quick-navigation"&gt;Quick Navigation&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Campaign Planning&lt;/strong&gt;: See &lt;a href="reference/campaigns.md"&gt;campaigns.md&lt;/a&gt; for structured campaign development&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Content Creation&lt;/strong&gt;: See &lt;a href="reference/content.md"&gt;content.md&lt;/a&gt; for copywriting guidelines and templates&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Social Media&lt;/strong&gt;: See &lt;a href="reference/social_media.md"&gt;social_media.md&lt;/a&gt; for platform-specific strategies&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Email Marketing&lt;/strong&gt;: See &lt;a href="reference/email.md"&gt;email.md&lt;/a&gt; for email templates and best practices&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Analytics &amp;amp; Measurement&lt;/strong&gt;: See &lt;a href="reference/analytics.md"&gt;analytics.md&lt;/a&gt; for KPIs and reporting&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Brand Guidelines&lt;/strong&gt;: See &lt;a href="reference/brand.md"&gt;brand.md&lt;/a&gt; for company voice and visual standards&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Templates &amp;amp; Tools&lt;/strong&gt;: See &lt;a href="reference/templates.md"&gt;templates.md&lt;/a&gt; for ready-to-use templates&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="core-principles"&gt;Core Principles&lt;/h2&gt;
-&lt;h3 id="key-marketing-terminology-consistent-throughout"&gt;Key Marketing Terminology (Consistent Throughout)&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Campaign&lt;/strong&gt;: A coordinated set of marketing activities with unified messaging around a specific goal&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Channels&lt;/strong&gt;: Distribution platforms (email, social media, paid ads, blog, etc.)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Target Audience&lt;/strong&gt;: Specific demographic/psychographic segments the campaign addresses&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Engagement Rate&lt;/strong&gt;: Percentage of audience who interact with content&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Conversion&lt;/strong&gt;: A desired action (signup, purchase, demo request, etc.)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;CTR (Click-Through Rate)&lt;/strong&gt;: Percentage of impressions that result in clicks&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;CAC (Customer Acquisition Cost)&lt;/strong&gt;: Total marketing spend divided by new customers acquired&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="workflow-campaign-development--execution"&gt;Workflow: Campaign Development &amp;amp; Execution&lt;/h3&gt;
 &lt;p&gt;When developing a marketing campaign, follow this structured approach:&lt;/p&gt;</description></item><item><title>Lead Research Assistant</title><link>https://agentskill.wiki/en/skills/lead-research-assistant/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/lead-research-assistant/</guid><description>&lt;h1 id="lead-research-assistant"&gt;Lead Research Assistant&lt;/h1&gt;
-&lt;p&gt;This skill helps you identify and qualify potential leads for your business by analyzing your product/service, understanding your ideal customer profile, and providing actionable outreach strategies.&lt;/p&gt;
-&lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Finding potential customers or clients for your product/service&lt;/li&gt;
-&lt;li&gt;Building a list of companies to reach out to for partnerships&lt;/li&gt;
-&lt;li&gt;Identifying target accounts for sales outreach&lt;/li&gt;
-&lt;li&gt;Researching companies that match your ideal customer profile&lt;/li&gt;
-&lt;li&gt;Preparing for business development activities&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="what-this-skill-does"&gt;What This Skill Does&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;Understands Your Business&lt;/strong&gt;: Analyzes your product/service, value proposition, and target market&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Identifies Target Companies&lt;/strong&gt;: Finds companies that match your ideal customer profile based on:
-&lt;ul&gt;
-&lt;li&gt;Industry and sector&lt;/li&gt;
-&lt;li&gt;Company size and location&lt;/li&gt;
-&lt;li&gt;Technology stack and tools they use&lt;/li&gt;
-&lt;li&gt;Growth stage and funding&lt;/li&gt;
-&lt;li&gt;Pain points your product solves&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Prioritizes Leads&lt;/strong&gt;: Ranks companies based on fit score and relevance&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Provides Contact Strategies&lt;/strong&gt;: Suggests how to approach each lead with personalized messaging&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Enriches Data&lt;/strong&gt;: Gathers relevant information about decision-makers and company context&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id="how-to-use"&gt;How to Use&lt;/h2&gt;
-&lt;h3 id="basic-usage"&gt;Basic Usage&lt;/h3&gt;
-&lt;p&gt;Simply describe your product/service and what you&amp;rsquo;re looking for:&lt;/p&gt;</description></item><item><title>Lead Research Assistant</title><link>https://agentskill.wiki/skills/lead-research-assistant/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/lead-research-assistant/</guid><description>&lt;h1 id="lead-research-assistant"&gt;Lead Research Assistant&lt;/h1&gt;
 &lt;p&gt;This skill helps you identify and qualify potential leads for your business by analyzing your product/service, understanding your ideal customer profile, and providing actionable outreach strategies.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;
@@ -171,48 +87,7 @@ for my design agency
 &lt;p&gt;A .pptx file is a ZIP archive containing XML files and resources. Create, edit, or analyze PowerPoint presentations using text extraction, raw XML access, or html2pptx workflows. Apply this skill for programmatic presentation creation and modification.&lt;/p&gt;
 &lt;h2 id="visual-enhancement-with-scientific-schematics"&gt;Visual Enhancement with Scientific Schematics&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;When creating documents with this skill, always consider adding scientific diagrams and schematics to enhance visual communication.&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;If your document does not already contain schematics or diagrams:&lt;/p&gt;</description></item><item><title>Pptx</title><link>https://agentskill.wiki/skills/pptx/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/pptx/</guid><description>&lt;h1 id="pptx-creation-editing-and-analysis"&gt;PPTX creation, editing, and analysis&lt;/h1&gt;
-&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
-&lt;p&gt;A .pptx file is a ZIP archive containing XML files and resources. Create, edit, or analyze PowerPoint presentations using text extraction, raw XML access, or html2pptx workflows. Apply this skill for programmatic presentation creation and modification.&lt;/p&gt;
-&lt;h2 id="visual-enhancement-with-scientific-schematics"&gt;Visual Enhancement with Scientific Schematics&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;When creating documents with this skill, always consider adding scientific diagrams and schematics to enhance visual communication.&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;If your document does not already contain schematics or diagrams:&lt;/p&gt;</description></item><item><title>Raffle Winner Picker</title><link>https://agentskill.wiki/en/skills/raffle-winner-picker/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/raffle-winner-picker/</guid><description>&lt;h1 id="raffle-winner-picker"&gt;Raffle Winner Picker&lt;/h1&gt;
-&lt;p&gt;This skill randomly selects winners from lists, spreadsheets, or Google Sheets for giveaways and contests.&lt;/p&gt;
-&lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Running social media giveaways&lt;/li&gt;
-&lt;li&gt;Picking raffle winners at events&lt;/li&gt;
-&lt;li&gt;Randomly selecting participants for surveys or tests&lt;/li&gt;
-&lt;li&gt;Choosing winners from contest submissions&lt;/li&gt;
-&lt;li&gt;Fair distribution of limited spots or resources&lt;/li&gt;
-&lt;li&gt;Random team assignments&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="what-this-skill-does"&gt;What This Skill Does&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;Random Selection&lt;/strong&gt;: Uses cryptographically random selection&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Multiple Sources&lt;/strong&gt;: Works with CSV, Excel, Google Sheets, or plain lists&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Multiple Winners&lt;/strong&gt;: Can pick one or multiple winners&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Duplicate Prevention&lt;/strong&gt;: Ensures the same person can&amp;rsquo;t win twice&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Transparent Results&lt;/strong&gt;: Shows the selection process clearly&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Winner Details&lt;/strong&gt;: Displays all relevant information about winners&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id="how-to-use"&gt;How to Use&lt;/h2&gt;
-&lt;h3 id="from-google-sheets"&gt;From Google Sheets&lt;/h3&gt;
-&lt;pre tabindex="0"&gt;&lt;code&gt;Pick a random row from this Google Sheet to select a winner 
-for a giveaway: [Sheet URL]
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id="from-local-file"&gt;From Local File&lt;/h3&gt;
-&lt;pre tabindex="0"&gt;&lt;code&gt;Pick 3 random winners from entries.csv
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id="from-list"&gt;From List&lt;/h3&gt;
-&lt;pre tabindex="0"&gt;&lt;code&gt;Pick a random winner from this list:
-- Alice (alice@email.com)
-- Bob (bob@email.com)
-- Carol (carol@email.com)
-...
-&lt;/code&gt;&lt;/pre&gt;&lt;h3 id="multiple-winners"&gt;Multiple Winners&lt;/h3&gt;
-&lt;pre tabindex="0"&gt;&lt;code&gt;Pick 5 random winners from contest-entries.xlsx, 
-make sure no duplicates
-&lt;/code&gt;&lt;/pre&gt;&lt;h2 id="example"&gt;Example&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;User&lt;/strong&gt;: &amp;ldquo;Pick a random row from this Google Sheet to select a winner for a giveaway.&amp;rdquo;&lt;/p&gt;</description></item><item><title>Raffle Winner Picker</title><link>https://agentskill.wiki/skills/raffle-winner-picker/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/raffle-winner-picker/</guid><description>&lt;h1 id="raffle-winner-picker"&gt;Raffle Winner Picker&lt;/h1&gt;
 &lt;p&gt;This skill randomly selects winners from lists, spreadsheets, or Google Sheets for giveaways and contests.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
 &lt;ul&gt;

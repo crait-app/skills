@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Extensions on Agent Skills Hub</title><link>https://agentskill.wiki/en/tags/extensions/</link><description>Recent content in Extensions on Agent Skills Hub</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/en/tags/extensions/index.xml" rel="self" type="application/rss+xml"/><item><title>Vscode Ext Commands</title><link>https://agentskill.wiki/en/skills/vscode-ext-commands/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/vscode-ext-commands/</guid><description>&lt;h1 id="vs-code-extension-command-contribution"&gt;VS Code extension command contribution&lt;/h1&gt;
+&lt;p&gt;This skill helps you to contribute commands in VS Code extensions&lt;/p&gt;
+&lt;h2 id="when-to-use-this-skill"&gt;When to use this skill&lt;/h2&gt;
+&lt;p&gt;Use this skill when you need to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Add or update commands to your VS Code extension&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="instructions"&gt;Instructions&lt;/h1&gt;
+&lt;p&gt;VS Code commands must always define a &lt;code&gt;title&lt;/code&gt;, independent of its category, visibility or location. We use a few patterns for each &amp;ldquo;kind&amp;rdquo; of command, with some characteristics, described below:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Regular commands: By default, all commands should be accessible in the Command Palette, must define a &lt;code&gt;category&lt;/code&gt;, and don&amp;rsquo;t need an &lt;code&gt;icon&lt;/code&gt;, unless the command will be used in the Side Bar.&lt;/p&gt;</description></item><item><title>Vscode Ext Localization</title><link>https://agentskill.wiki/en/skills/vscode-ext-localization/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/vscode-ext-localization/</guid><description>&lt;h1 id="vs-code-extension-localization"&gt;VS Code extension localization&lt;/h1&gt;
+&lt;p&gt;This skill helps you localize every aspect of VS Code extensions&lt;/p&gt;
+&lt;h2 id="when-to-use-this-skill"&gt;When to use this skill&lt;/h2&gt;
+&lt;p&gt;Use this skill when you need to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Localize new or existing contributed configurations (settings), commands, menus, views or walkthroughs&lt;/li&gt;
+&lt;li&gt;Localize new or existing messages or other string resources contained in extension source code that are displayed to the end user&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id="instructions"&gt;Instructions&lt;/h1&gt;
+&lt;p&gt;VS Code localization is composed by three different approaches, depending on the resource that is being localized. When a new localizable resource is created or updated, the corresponding localization for all currently available languages must be created/updated.&lt;/p&gt;</description></item></channel></rss>

@@ -1,29 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Net-Sdk on Agent Skills Hub</title><link>https://agentskill.wiki/tags/net-sdk/</link><description>Recent content in Net-Sdk on Agent Skills Hub</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/net-sdk/index.xml" rel="self" type="application/rss+xml"/><item><title>Nuget Manager</title><link>https://agentskill.wiki/en/skills/nuget-manager/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/nuget-manager/</guid><description>&lt;h1 id="nuget-manager"&gt;NuGet Manager&lt;/h1&gt;
-&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
-&lt;p&gt;This skill ensures consistent and safe management of NuGet packages across .NET projects. It prioritizes using the &lt;code&gt;dotnet&lt;/code&gt; CLI to maintain project integrity and enforces a strict verification and restoration workflow for version updates.&lt;/p&gt;
-&lt;h2 id="prerequisites"&gt;Prerequisites&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;.NET SDK installed (typically .NET 8.0 SDK or later, or a version compatible with the target solution).&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;dotnet&lt;/code&gt; CLI available on your &lt;code&gt;PATH&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;jq&lt;/code&gt; (JSON processor) OR PowerShell (for version verification using &lt;code&gt;dotnet package search&lt;/code&gt;).&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id="core-rules"&gt;Core Rules&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;NEVER&lt;/strong&gt; directly edit &lt;code&gt;.csproj&lt;/code&gt;, &lt;code&gt;.props&lt;/code&gt;, or &lt;code&gt;Directory.Packages.props&lt;/code&gt; files to &lt;strong&gt;add&lt;/strong&gt; or &lt;strong&gt;remove&lt;/strong&gt; packages. Always use &lt;code&gt;dotnet add package&lt;/code&gt; and &lt;code&gt;dotnet remove package&lt;/code&gt; commands.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;DIRECT EDITING&lt;/strong&gt; is ONLY permitted for &lt;strong&gt;changing versions&lt;/strong&gt; of existing packages.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;VERSION UPDATES&lt;/strong&gt; must follow the mandatory workflow:
-&lt;ul&gt;
-&lt;li&gt;Verify the target version exists on NuGet.&lt;/li&gt;
-&lt;li&gt;Determine if versions are managed per-project (&lt;code&gt;.csproj&lt;/code&gt;) or centrally (&lt;code&gt;Directory.Packages.props&lt;/code&gt;).&lt;/li&gt;
-&lt;li&gt;Update the version string in the appropriate file.&lt;/li&gt;
-&lt;li&gt;Immediately run &lt;code&gt;dotnet restore&lt;/code&gt; to verify compatibility.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id="workflows"&gt;Workflows&lt;/h2&gt;
-&lt;h3 id="adding-a-package"&gt;Adding a Package&lt;/h3&gt;
-&lt;p&gt;Use &lt;code&gt;dotnet add [&amp;lt;PROJECT&amp;gt;] package &amp;lt;PACKAGE_NAME&amp;gt; [--version &amp;lt;VERSION&amp;gt;]&lt;/code&gt;.
-Example: &lt;code&gt;dotnet add src/MyProject/MyProject.csproj package Newtonsoft.Json&lt;/code&gt;&lt;/p&gt;</description></item><item><title>Nuget Manager</title><link>https://agentskill.wiki/skills/nuget-manager/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/nuget-manager/</guid><description>&lt;h1 id="nuget-manager"&gt;NuGet Manager&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Net-Sdk on Agent Skills Hub</title><link>https://agentskill.wiki/tags/net-sdk/</link><description>Recent content in Net-Sdk on Agent Skills Hub</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/net-sdk/index.xml" rel="self" type="application/rss+xml"/><item><title>Nuget Manager</title><link>https://agentskill.wiki/en/skills/nuget-manager/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/nuget-manager/</guid><description>&lt;h1 id="nuget-manager"&gt;NuGet Manager&lt;/h1&gt;
 &lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;This skill ensures consistent and safe management of NuGet packages across .NET projects. It prioritizes using the &lt;code&gt;dotnet&lt;/code&gt; CLI to maintain project integrity and enforces a strict verification and restoration workflow for version updates.&lt;/p&gt;
 &lt;h2 id="prerequisites"&gt;Prerequisites&lt;/h2&gt;

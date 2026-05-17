@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Exceptions on Agent Skills Hub</title><link>https://agentskill.wiki/en/tags/exceptions/</link><description>Recent content in Exceptions on Agent Skills Hub</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/en/tags/exceptions/index.xml" rel="self" type="application/rss+xml"/><item><title>Error Handling Patterns</title><link>https://agentskill.wiki/en/skills/error-handling-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/error-handling-patterns/</guid><description>&lt;h1 id="error-handling-patterns"&gt;Error Handling Patterns&lt;/h1&gt;
+&lt;p&gt;Build resilient applications with robust error handling strategies that gracefully handle failures and provide excellent debugging experiences.&lt;/p&gt;
+&lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Implementing error handling in new features&lt;/li&gt;
+&lt;li&gt;Designing error-resilient APIs&lt;/li&gt;
+&lt;li&gt;Debugging production issues&lt;/li&gt;
+&lt;li&gt;Improving application reliability&lt;/li&gt;
+&lt;li&gt;Creating better error messages for users and developers&lt;/li&gt;
+&lt;li&gt;Implementing retry and circuit breaker patterns&lt;/li&gt;
+&lt;li&gt;Handling async/concurrent errors&lt;/li&gt;
+&lt;li&gt;Building fault-tolerant distributed systems&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="core-concepts"&gt;Core Concepts&lt;/h2&gt;
+&lt;h3 id="1-error-handling-philosophies"&gt;1. Error Handling Philosophies&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Exceptions vs Result Types:&lt;/strong&gt;&lt;/p&gt;</description></item></channel></rss>

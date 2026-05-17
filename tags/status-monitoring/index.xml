@@ -1,14 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Status-Monitoring on Agent Skills Hub</title><link>https://agentskill.wiki/tags/status-monitoring/</link><description>Recent content in Status-Monitoring on Agent Skills Hub</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/status-monitoring/index.xml" rel="self" type="application/rss+xml"/><item><title>Railway Service</title><link>https://agentskill.wiki/en/skills/railway-service/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/railway-service/</guid><description>&lt;h1 id="railway-service-management"&gt;Railway Service Management&lt;/h1&gt;
-&lt;p&gt;Check status, update properties, and advanced service creation.&lt;/p&gt;
-&lt;h2 id="when-to-use"&gt;When to Use&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;User asks about service status, health, or deployments&lt;/li&gt;
-&lt;li&gt;User asks &amp;ldquo;is my service deployed?&amp;rdquo;&lt;/li&gt;
-&lt;li&gt;User wants to rename a service or change service icon&lt;/li&gt;
-&lt;li&gt;User wants to link a different service&lt;/li&gt;
-&lt;li&gt;User wants to deploy a Docker image as a new service (advanced)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Note:&lt;/strong&gt; For creating services with local code (the common case), prefer the railway-new skill which handles project setup, scaffolding, and service creation together.&lt;/p&gt;</description></item><item><title>Railway Service</title><link>https://agentskill.wiki/skills/railway-service/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/railway-service/</guid><description>&lt;h1 id="railway-service-management"&gt;Railway Service Management&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Status-Monitoring on Agent Skills Hub</title><link>https://agentskill.wiki/tags/status-monitoring/</link><description>Recent content in Status-Monitoring on Agent Skills Hub</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/status-monitoring/index.xml" rel="self" type="application/rss+xml"/><item><title>Railway Service</title><link>https://agentskill.wiki/en/skills/railway-service/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/railway-service/</guid><description>&lt;h1 id="railway-service-management"&gt;Railway Service Management&lt;/h1&gt;
 &lt;p&gt;Check status, update properties, and advanced service creation.&lt;/p&gt;
 &lt;h2 id="when-to-use"&gt;When to Use&lt;/h2&gt;
 &lt;ul&gt;

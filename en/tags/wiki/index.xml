@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Wiki on Agent Skills Hub</title><link>https://agentskill.wiki/en/tags/wiki/</link><description>Recent content in Wiki on Agent Skills Hub</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/en/tags/wiki/index.xml" rel="self" type="application/rss+xml"/><item><title>Notion Knowledge Capture</title><link>https://agentskill.wiki/en/skills/notion-knowledge-capture/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/notion-knowledge-capture/</guid><description>&lt;h1 id="knowledge-capture"&gt;Knowledge Capture&lt;/h1&gt;
+&lt;p&gt;Convert conversations and notes into structured, linkable Notion pages for easy reuse.&lt;/p&gt;
+&lt;h2 id="quick-start"&gt;Quick start&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Clarify what to capture (decision, how-to, FAQ, learning, documentation) and target audience.&lt;/li&gt;
+&lt;li&gt;Identify the right database/template in &lt;code&gt;reference/&lt;/code&gt; (team wiki, how-to, FAQ, decision log, learning, documentation).&lt;/li&gt;
+&lt;li&gt;Pull any prior context from Notion with &lt;code&gt;Notion:notion-search&lt;/code&gt; → &lt;code&gt;Notion:notion-fetch&lt;/code&gt; (existing pages to update/link).&lt;/li&gt;
+&lt;li&gt;Draft the page with &lt;code&gt;Notion:notion-create-pages&lt;/code&gt; using the database&amp;rsquo;s schema; include summary, context, source links, and tags/owners.&lt;/li&gt;
+&lt;li&gt;Link from hub pages and related records; update status/owners with &lt;code&gt;Notion:notion-update-page&lt;/code&gt; as the source evolves.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="workflow"&gt;Workflow&lt;/h2&gt;
+&lt;h3 id="0-if-any-mcp-call-fails-because-notion-mcp-is-not-connected-pause-and-set-it-up"&gt;0) If any MCP call fails because Notion MCP is not connected, pause and set it up:&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Add the Notion MCP:
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;codex mcp add notion --url https://mcp.notion.com/mcp&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Enable remote MCP client:
+&lt;ul&gt;
+&lt;li&gt;Set &lt;code&gt;[features].rmcp_client = true&lt;/code&gt; in &lt;code&gt;config.toml&lt;/code&gt; &lt;strong&gt;or&lt;/strong&gt; run &lt;code&gt;codex --enable rmcp_client&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Log in with OAuth:
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;codex mcp login notion&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;After successful login, the user will have to restart codex. You should finish your answer and tell them so when they try again they can continue with Step 1.&lt;/p&gt;</description></item></channel></rss>

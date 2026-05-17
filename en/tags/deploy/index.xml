@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Deploy on Agent Skills Hub</title><link>https://agentskill.wiki/en/tags/deploy/</link><description>Recent content in Deploy on Agent Skills Hub</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/en/tags/deploy/index.xml" rel="self" type="application/rss+xml"/><item><title>Railway Environment</title><link>https://agentskill.wiki/en/skills/railway-environment/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/railway-environment/</guid><description>&lt;h1 id="environment-configuration"&gt;Environment Configuration&lt;/h1&gt;
+&lt;p&gt;Query, stage, and apply configuration changes for Railway environments.&lt;/p&gt;
+&lt;h2 id="shell-escaping"&gt;Shell Escaping&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;CRITICAL:&lt;/strong&gt; When running GraphQL queries via bash, you MUST wrap in heredoc to prevent shell escaping issues:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;bash &lt;span style="color:#e6db74"&gt;&amp;lt;&amp;lt;&amp;#39;SCRIPT&amp;#39;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;2&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;${CLAUDE_PLUGIN_ROOT}/skills/lib/railway-api.sh &amp;#39;query ...&amp;#39; &amp;#39;{&amp;#34;var&amp;#34;: &amp;#34;value&amp;#34;}&amp;#39;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;3&lt;/span&gt;&lt;span&gt;&lt;span style="color:#e6db74"&gt;SCRIPT&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Without the heredoc wrapper, multi-line commands break and exclamation marks in GraphQL non-null types get escaped, causing query failures.&lt;/p&gt;
+&lt;h2 id="when-to-use"&gt;When to Use&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;User wants to create a new environment&lt;/li&gt;
+&lt;li&gt;User wants to duplicate an environment (e.g., &amp;ldquo;copy production to staging&amp;rdquo;)&lt;/li&gt;
+&lt;li&gt;User wants to switch to a different environment&lt;/li&gt;
+&lt;li&gt;User asks about current build/deploy settings, variables, replicas, health checks, domains&lt;/li&gt;
+&lt;li&gt;User asks to change service source (Docker image, branch, commit, root directory)&lt;/li&gt;
+&lt;li&gt;User wants to connect a service to a GitHub repo&lt;/li&gt;
+&lt;li&gt;User wants to deploy from a GitHub repo (create empty service first via railway-new skill, then use this)&lt;/li&gt;
+&lt;li&gt;User asks to change build or start command&lt;/li&gt;
+&lt;li&gt;User wants to add/update/delete environment variables&lt;/li&gt;
+&lt;li&gt;User wants to change replica count or configure health checks&lt;/li&gt;
+&lt;li&gt;User asks to delete a service, volume, or bucket&lt;/li&gt;
+&lt;li&gt;User says &amp;ldquo;apply changes&amp;rdquo;, &amp;ldquo;commit changes&amp;rdquo;, &amp;ldquo;deploy changes&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;Auto-fixing build errors detected in logs&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="create-environment"&gt;Create Environment&lt;/h2&gt;
+&lt;p&gt;Create a new environment in the linked project:&lt;/p&gt;</description></item></channel></rss>

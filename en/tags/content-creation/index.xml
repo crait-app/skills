@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Content-Creation on Agent Skills Hub</title><link>https://agentskill.wiki/en/tags/content-creation/</link><description>Recent content in Content-Creation on Agent Skills Hub</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/en/tags/content-creation/index.xml" rel="self" type="application/rss+xml"/><item><title>Doc Coauthoring</title><link>https://agentskill.wiki/en/skills/doc-coauthoring/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/doc-coauthoring/</guid><description>&lt;h1 id="doc-co-authoring-workflow"&gt;Doc Co-Authoring Workflow&lt;/h1&gt;
+&lt;p&gt;This skill provides a structured workflow for guiding users through collaborative document creation. Act as an active guide, walking users through three stages: Context Gathering, Refinement &amp;amp; Structure, and Reader Testing.&lt;/p&gt;
+&lt;h2 id="when-to-offer-this-workflow"&gt;When to Offer This Workflow&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Trigger conditions:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;User mentions writing documentation: &amp;ldquo;write a doc&amp;rdquo;, &amp;ldquo;draft a proposal&amp;rdquo;, &amp;ldquo;create a spec&amp;rdquo;, &amp;ldquo;write up&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;User mentions specific doc types: &amp;ldquo;PRD&amp;rdquo;, &amp;ldquo;design doc&amp;rdquo;, &amp;ldquo;decision doc&amp;rdquo;, &amp;ldquo;RFC&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;User seems to be starting a substantial writing task&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Initial offer:&lt;/strong&gt;
+Offer the user a structured workflow for co-authoring the document. Explain the three stages:&lt;/p&gt;</description></item><item><title>Docs Write</title><link>https://agentskill.wiki/en/skills/docs-write/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/docs-write/</guid><description>&lt;h1 id="documentation-writing-skill"&gt;Documentation Writing Skill&lt;/h1&gt;
+&lt;p&gt;@./../_shared/metabase-style-guide.md&lt;/p&gt;
+&lt;h2 id="when-writing-documentation"&gt;When writing documentation&lt;/h2&gt;
+&lt;h3 id="start-here"&gt;Start here&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Who is this for?&lt;/strong&gt; Match complexity to audience. Don&amp;rsquo;t oversimplify hard things or overcomplicate simple ones.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;What do they need?&lt;/strong&gt; Get them to the answer fast. Nobody wants to be in docs longer than necessary.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;What did you struggle with?&lt;/strong&gt; Those common questions you had when learning? Answer them (without literally including the question).&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id="writing-process"&gt;Writing process&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Draft:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Write out the steps/explanation as you&amp;rsquo;d tell a colleague&lt;/li&gt;
+&lt;li&gt;Lead with what to do, then explain why&lt;/li&gt;
+&lt;li&gt;Use headings that state your point: &amp;ldquo;Set SAML before adding users&amp;rdquo; not &amp;ldquo;SAML configuration timing&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Edit:&lt;/strong&gt;&lt;/p&gt;</description></item></channel></rss>

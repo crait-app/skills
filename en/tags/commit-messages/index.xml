@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Commit-Messages on Agent Skills Hub</title><link>https://agentskill.wiki/en/tags/commit-messages/</link><description>Recent content in Commit-Messages on Agent Skills Hub</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/en/tags/commit-messages/index.xml" rel="self" type="application/rss+xml"/><item><title>Commit Helper</title><link>https://agentskill.wiki/en/skills/commit-helper/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/commit-helper/</guid><description>&lt;h1 id="cockroachdb-commit-helper"&gt;CockroachDB Commit Helper&lt;/h1&gt;
+&lt;p&gt;Help the user create properly formatted commit messages and release notes that follow CockroachDB conventions.&lt;/p&gt;
+&lt;h2 id="workflow"&gt;Workflow&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Analyze the changes&lt;/strong&gt;: Run &lt;code&gt;git diff --staged&lt;/code&gt; or &lt;code&gt;git diff&lt;/code&gt; to understand what was modified&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Determine the package prefix&lt;/strong&gt;: Identify the primary package affected&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Ask the user&lt;/strong&gt; for:
+&lt;ul&gt;
+&lt;li&gt;Issue/epic number if not already known&lt;/li&gt;
+&lt;li&gt;Whether release notes are needed and what category fits best&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Write the subject line&lt;/strong&gt;: Imperative mood, no period, under 72 characters&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Write the body&lt;/strong&gt;: Explain the before/after, why the change was needed&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Add issue references&lt;/strong&gt;: Include Resolves/Epic as appropriate&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Write the release note&lt;/strong&gt;: Clear, user-focused description of the change&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Create the commit&lt;/strong&gt; using the properly formatted message&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="commit-message-structure"&gt;Commit Message Structure&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Basic Format:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Git Commit Helper</title><link>https://agentskill.wiki/en/skills/git-commit-helper/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/git-commit-helper/</guid><description>&lt;h1 id="git-commit-helper"&gt;Git Commit Helper&lt;/h1&gt;
+&lt;h2 id="quick-start"&gt;Quick start&lt;/h2&gt;
+&lt;p&gt;Analyze staged changes and generate commit message:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# View staged changes&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;2&lt;/span&gt;&lt;span&gt;git diff --staged
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;3&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;4&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Generate commit message based on changes&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;5&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# (Claude will analyze the diff and suggest a message)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="commit-message-format"&gt;Commit message format&lt;/h2&gt;
+&lt;p&gt;Follow conventional commits format:&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;&amp;lt;type&amp;gt;(&amp;lt;scope&amp;gt;): &amp;lt;description&amp;gt;
+
+[optional body]
+
+[optional footer]
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id="types"&gt;Types&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;feat&lt;/strong&gt;: New feature&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;fix&lt;/strong&gt;: Bug fix&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;docs&lt;/strong&gt;: Documentation changes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;style&lt;/strong&gt;: Code style changes (formatting, missing semicolons)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;refactor&lt;/strong&gt;: Code refactoring&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;test&lt;/strong&gt;: Adding or updating tests&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;chore&lt;/strong&gt;: Maintenance tasks&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="examples"&gt;Examples&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Feature commit:&lt;/strong&gt;&lt;/p&gt;</description></item></channel></rss>

@@ -1,16 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Api-Upgrade on Agent Skills Hub</title><link>https://agentskill.wiki/tags/api-upgrade/</link><description>Recent content in Api-Upgrade on Agent Skills Hub</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/api-upgrade/index.xml" rel="self" type="application/rss+xml"/><item><title>Claude Opus 4 5 Migration</title><link>https://agentskill.wiki/en/skills/claude-opus-4-5-migration/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/claude-opus-4-5-migration/</guid><description>&lt;h1 id="opus-45-migration-guide"&gt;Opus 4.5 Migration Guide&lt;/h1&gt;
-&lt;p&gt;One-shot migration from Sonnet 4.0, Sonnet 4.5, or Opus 4.1 to Opus 4.5.&lt;/p&gt;
-&lt;h2 id="migration-workflow"&gt;Migration Workflow&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;Search codebase for model strings and API calls&lt;/li&gt;
-&lt;li&gt;Update model strings to Opus 4.5 (see platform-specific strings below)&lt;/li&gt;
-&lt;li&gt;Remove unsupported beta headers&lt;/li&gt;
-&lt;li&gt;Add effort parameter set to &lt;code&gt;&amp;quot;high&amp;quot;&lt;/code&gt; (see &lt;code&gt;references/effort.md&lt;/code&gt;)&lt;/li&gt;
-&lt;li&gt;Summarize all changes made&lt;/li&gt;
-&lt;li&gt;Tell the user: &amp;ldquo;If you encounter any issues with Opus 4.5, let me know and I can help adjust your prompts.&amp;rdquo;&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2 id="model-string-updates"&gt;Model String Updates&lt;/h2&gt;
-&lt;p&gt;Identify which platform the codebase uses, then replace model strings accordingly.&lt;/p&gt;</description></item><item><title>Claude Opus 4 5 Migration</title><link>https://agentskill.wiki/skills/claude-opus-4-5-migration/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/claude-opus-4-5-migration/</guid><description>&lt;h1 id="opus-45-migration-guide"&gt;Opus 4.5 Migration Guide&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Api-Upgrade on Agent Skills Hub</title><link>https://agentskill.wiki/tags/api-upgrade/</link><description>Recent content in Api-Upgrade on Agent Skills Hub</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/api-upgrade/index.xml" rel="self" type="application/rss+xml"/><item><title>Claude Opus 4 5 Migration</title><link>https://agentskill.wiki/en/skills/claude-opus-4-5-migration/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/claude-opus-4-5-migration/</guid><description>&lt;h1 id="opus-45-migration-guide"&gt;Opus 4.5 Migration Guide&lt;/h1&gt;
 &lt;p&gt;One-shot migration from Sonnet 4.0, Sonnet 4.5, or Opus 4.1 to Opus 4.5.&lt;/p&gt;
 &lt;h2 id="migration-workflow"&gt;Migration Workflow&lt;/h2&gt;
 &lt;ol&gt;

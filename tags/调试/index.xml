@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>调试 on Agent Skills Hub</title><link>https://agentskill.wiki/tags/%E8%B0%83%E8%AF%95/</link><description>Recent content in 调试 on Agent Skills Hub</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Wed, 14 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/%E8%B0%83%E8%AF%95/index.xml" rel="self" type="application/rss+xml"/><item><title>ML Model Debugger</title><link>https://agentskill.wiki/skills/ml-model-debugger/</link><pubDate>Wed, 14 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/ml-model-debugger/</guid><description>&lt;h2 id="为什么选择这个-skill"&gt;为什么选择这个 Skill？&lt;/h2&gt;
+&lt;p&gt;训练机器学习模型时，每个人都会遇到这些噩梦：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;训练不收敛&lt;/strong&gt;：loss 上下波动或停滞不前，不知从何下手&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;神秘的 NaN&lt;/strong&gt;：训练到一半 loss 突然变成 NaN，几小时心血白费&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;过拟合黑洞&lt;/strong&gt;：训练集 99% 准确率，测试集却只有 60%&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;性能陷阱&lt;/strong&gt;：模型能跑，但推理慢到无法生产部署&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这个技能就像给你配了一个 24/7 在线的 ML 专家，瞬间定位问题根因并给出可执行的修复方案。&lt;/p&gt;
+&lt;h2 id="核心功能"&gt;核心功能&lt;/h2&gt;
+&lt;h3 id="-训练诊断training-diagnostics"&gt;🔍 训练诊断（Training Diagnostics）&lt;/h3&gt;
+&lt;p&gt;自动检测并诊断常见训练问题：&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;梯度异常检测&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;梯度消失（Vanishing Gradients）：识别哪些层的梯度接近 0&lt;/li&gt;
+&lt;li&gt;梯度爆炸（Exploding Gradients）：捕获异常大的梯度值&lt;/li&gt;
+&lt;li&gt;死神经元（Dead Neurons）：找出永远不激活的神经元&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;过拟合/欠拟合分析&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;自动计算 Train/Val 差距&lt;/li&gt;
+&lt;li&gt;评估模型容量是否匹配数据规模&lt;/li&gt;
+&lt;li&gt;建议正则化策略（Dropout、Weight Decay、Data Augmentation）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;学习率问题&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;检测学习率是否过大/过小&lt;/li&gt;
+&lt;li&gt;建议最优学习率范围&lt;/li&gt;
+&lt;li&gt;分析 warmup 和 decay 策略&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="-性能分析performance-profiling"&gt;⚡ 性能分析（Performance Profiling）&lt;/h3&gt;
+&lt;p&gt;精确定位推理瓶颈：&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;逐层耗时分析&lt;/strong&gt;&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;┌────────────────────┬──────────┬─────────┬──────────┐
+│ Layer │ Time │ Percent │ GPU Mem │
+├────────────────────┼──────────┼─────────┼──────────┤
+│ Embedding │ 12ms │ 2% │ 500MB │
+│ MultiHeadAttention │ 450ms │ 75% │ 2.1GB │
+│ FeedForward │ 80ms │ 13% │ 800MB │
+│ LayerNorm │ 5ms │ 1% │ 50MB │
+│ Others │ 53ms │ 9% │ 200MB │
+└────────────────────┴──────────┴─────────┴──────────┘
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;GPU 利用率监控&lt;/strong&gt;&lt;/p&gt;</description></item></channel></rss>

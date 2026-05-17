@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Skill-Authoring on Agent Skills Hub</title><link>https://agentskill.wiki/en/tags/skill-authoring/</link><description>Recent content in Skill-Authoring on Agent Skills Hub</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/en/tags/skill-authoring/index.xml" rel="self" type="application/rss+xml"/><item><title>Claude Skills</title><link>https://agentskill.wiki/en/skills/claude-skills/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/claude-skills/</guid><description>&lt;h1 id="claude-skills-meta-skill"&gt;Claude Skills Meta-Skill&lt;/h1&gt;
+&lt;p&gt;Turn scattered domain material into a Skill that is reusable, maintainable, and reliably activatable:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;SKILL.md&lt;/code&gt; as the entrypoint (triggers, constraints, patterns, examples)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;references/&lt;/code&gt; for long-form evidence and navigation&lt;/li&gt;
+&lt;li&gt;optional &lt;code&gt;scripts/&lt;/code&gt; and &lt;code&gt;assets/&lt;/code&gt; for scaffolding and templates&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
+&lt;p&gt;Trigger this meta-skill when you need to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Create a new Skill from scratch from docs/specs/repos&lt;/li&gt;
+&lt;li&gt;Refactor an existing Skill (too long, unclear, inconsistent, misfires)&lt;/li&gt;
+&lt;li&gt;Design reliable activation (frontmatter + triggers + boundaries)&lt;/li&gt;
+&lt;li&gt;Extract a clean Quick Reference from large material&lt;/li&gt;
+&lt;li&gt;Split long content into navigable &lt;code&gt;references/&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Add a quality gate and a validator&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="not-for--boundaries"&gt;Not For / Boundaries&lt;/h2&gt;
+&lt;p&gt;This meta-skill is NOT:&lt;/p&gt;</description></item></channel></rss>

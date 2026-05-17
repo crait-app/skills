@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Saas on Agent Skills Hub</title><link>https://agentskill.wiki/en/tags/saas/</link><description>Recent content in Saas on Agent Skills Hub</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/en/tags/saas/index.xml" rel="self" type="application/rss+xml"/><item><title>Billing Automation</title><link>https://agentskill.wiki/en/skills/billing-automation/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/billing-automation/</guid><description>&lt;h1 id="billing-automation"&gt;Billing Automation&lt;/h1&gt;
+&lt;p&gt;Master automated billing systems including recurring billing, invoice generation, dunning management, proration, and tax calculation.&lt;/p&gt;
+&lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Implementing SaaS subscription billing&lt;/li&gt;
+&lt;li&gt;Automating invoice generation and delivery&lt;/li&gt;
+&lt;li&gt;Managing failed payment recovery (dunning)&lt;/li&gt;
+&lt;li&gt;Calculating prorated charges for plan changes&lt;/li&gt;
+&lt;li&gt;Handling sales tax, VAT, and GST&lt;/li&gt;
+&lt;li&gt;Processing usage-based billing&lt;/li&gt;
+&lt;li&gt;Managing billing cycles and renewals&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="core-concepts"&gt;Core Concepts&lt;/h2&gt;
+&lt;h3 id="1-billing-cycles"&gt;1. Billing Cycles&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Common Intervals:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Monthly (most common for SaaS)&lt;/li&gt;
+&lt;li&gt;Annual (discounted long-term)&lt;/li&gt;
+&lt;li&gt;Quarterly&lt;/li&gt;
+&lt;li&gt;Weekly&lt;/li&gt;
+&lt;li&gt;Custom (usage-based, per-seat)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="2-subscription-states"&gt;2. Subscription States&lt;/h3&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;trial → active → past_due → canceled
+ → paused → resumed
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id="3-dunning-management"&gt;3. Dunning Management&lt;/h3&gt;
+&lt;p&gt;Automated process to recover failed payments through:&lt;/p&gt;</description></item><item><title>Startup Metrics Framework</title><link>https://agentskill.wiki/en/skills/startup-metrics-framework/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/startup-metrics-framework/</guid><description>&lt;h1 id="startup-metrics-framework"&gt;Startup Metrics Framework&lt;/h1&gt;
+&lt;p&gt;Comprehensive guide to tracking, calculating, and optimizing key performance metrics for different startup business models from seed through Series A.&lt;/p&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Track the right metrics at the right stage. Focus on unit economics, growth efficiency, and cash management metrics that matter for fundraising and operational excellence.&lt;/p&gt;
+&lt;h2 id="universal-startup-metrics"&gt;Universal Startup Metrics&lt;/h2&gt;
+&lt;h3 id="revenue-metrics"&gt;Revenue Metrics&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;MRR (Monthly Recurring Revenue)&lt;/strong&gt;&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;MRR = Σ (Active Subscriptions × Monthly Price)
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;ARR (Annual Recurring Revenue)&lt;/strong&gt;&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;ARR = MRR × 12
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Growth Rate&lt;/strong&gt;&lt;/p&gt;</description></item></channel></rss>

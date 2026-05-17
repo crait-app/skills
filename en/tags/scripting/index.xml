@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Scripting on Agent Skills Hub</title><link>https://agentskill.wiki/en/tags/scripting/</link><description>Recent content in Scripting on Agent Skills Hub</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/en/tags/scripting/index.xml" rel="self" type="application/rss+xml"/><item><title>Command Development</title><link>https://agentskill.wiki/en/skills/command-development/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/command-development/</guid><description>&lt;h1 id="command-development-for-claude-code"&gt;Command Development for Claude Code&lt;/h1&gt;
+&lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
+&lt;p&gt;Slash commands are frequently-used prompts defined as Markdown files that Claude executes during interactive sessions. Understanding command structure, frontmatter options, and dynamic features enables creating powerful, reusable workflows.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Key concepts:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Markdown file format for commands&lt;/li&gt;
+&lt;li&gt;YAML frontmatter for configuration&lt;/li&gt;
+&lt;li&gt;Dynamic arguments and file references&lt;/li&gt;
+&lt;li&gt;Bash execution for context&lt;/li&gt;
+&lt;li&gt;Command organization and namespacing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="command-basics"&gt;Command Basics&lt;/h2&gt;
+&lt;h3 id="what-is-a-slash-command"&gt;What is a Slash Command?&lt;/h3&gt;
+&lt;p&gt;A slash command is a Markdown file containing a prompt that Claude executes when invoked. Commands provide:&lt;/p&gt;</description></item><item><title>Examples Auto Run</title><link>https://agentskill.wiki/en/skills/examples-auto-run/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/examples-auto-run/</guid><description>&lt;h1 id="examples-auto-run"&gt;examples-auto-run&lt;/h1&gt;
+&lt;h2 id="what-it-does"&gt;What it does&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Runs &lt;code&gt;uv run examples/run_examples.py&lt;/code&gt; with:
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;EXAMPLES_INTERACTIVE_MODE=auto&lt;/code&gt; (auto-input/auto-approve).&lt;/li&gt;
+&lt;li&gt;Per-example logs under &lt;code&gt;.tmp/examples-start-logs/&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Main summary log path passed via &lt;code&gt;--main-log&lt;/code&gt; (also under &lt;code&gt;.tmp/examples-start-logs/&lt;/code&gt;).&lt;/li&gt;
+&lt;li&gt;Generates a rerun list of failures at &lt;code&gt;.tmp/examples-rerun.txt&lt;/code&gt; when &lt;code&gt;--write-rerun&lt;/code&gt; is set.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Provides start/stop/status/logs/tail/collect/rerun helpers via &lt;code&gt;run.sh&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Background option keeps the process running with a pidfile; &lt;code&gt;stop&lt;/code&gt; cleans it up.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="usage"&gt;Usage&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Start (auto mode; interactive included by default)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 2&lt;/span&gt;&lt;span&gt;.codex/skills/examples-auto-run/scripts/run.sh start &lt;span style="color:#f92672"&gt;[&lt;/span&gt;extra args to run_examples.py&lt;span style="color:#f92672"&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 3&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Examples:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 4&lt;/span&gt;&lt;span&gt;.codex/skills/examples-auto-run/scripts/run.sh start --filter basic
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 5&lt;/span&gt;&lt;span&gt;.codex/skills/examples-auto-run/scripts/run.sh start --include-server --include-audio
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 6&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 7&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Check status&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 8&lt;/span&gt;&lt;span&gt;.codex/skills/examples-auto-run/scripts/run.sh status
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 9&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;10&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Stop running job&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;11&lt;/span&gt;&lt;span&gt;.codex/skills/examples-auto-run/scripts/run.sh stop
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;12&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;13&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# List logs&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;14&lt;/span&gt;&lt;span&gt;.codex/skills/examples-auto-run/scripts/run.sh logs
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;15&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;16&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Tail latest log (or specify one)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;17&lt;/span&gt;&lt;span&gt;.codex/skills/examples-auto-run/scripts/run.sh tail
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;18&lt;/span&gt;&lt;span&gt;.codex/skills/examples-auto-run/scripts/run.sh tail main_20260113-123000.log
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;19&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;20&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Collect rerun list from a main log (defaults to latest main_*.log)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;21&lt;/span&gt;&lt;span&gt;.codex/skills/examples-auto-run/scripts/run.sh collect
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;22&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;23&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Rerun only failed entries from rerun file (auto mode)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;24&lt;/span&gt;&lt;span&gt;.codex/skills/examples-auto-run/scripts/run.sh rerun
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="defaults-overridable-via-env"&gt;Defaults (overridable via env)&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;EXAMPLES_INTERACTIVE_MODE=auto&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;EXAMPLES_INCLUDE_INTERACTIVE=1&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;EXAMPLES_INCLUDE_SERVER=0&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;EXAMPLES_INCLUDE_AUDIO=0&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;EXAMPLES_INCLUDE_EXTERNAL=0&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Auto-approvals in auto mode: &lt;code&gt;APPLY_PATCH_AUTO_APPROVE=1&lt;/code&gt;, &lt;code&gt;SHELL_AUTO_APPROVE=1&lt;/code&gt;, &lt;code&gt;AUTO_APPROVE_MCP=1&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="log-locations"&gt;Log locations&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Main logs: &lt;code&gt;.tmp/examples-start-logs/main_*.log&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Per-example logs (from &lt;code&gt;run_examples.py&lt;/code&gt;): &lt;code&gt;.tmp/examples-start-logs/&amp;lt;module_path&amp;gt;.log&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Rerun list: &lt;code&gt;.tmp/examples-rerun.txt&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;Stdout logs: &lt;code&gt;.tmp/examples-start-logs/stdout_*.log&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="notes"&gt;Notes&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;The runner delegates to &lt;code&gt;uv run examples/run_examples.py&lt;/code&gt;, which already writes per-example logs and supports &lt;code&gt;--collect&lt;/code&gt;, &lt;code&gt;--rerun-file&lt;/code&gt;, and &lt;code&gt;--print-auto-skip&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;start&lt;/code&gt; uses &lt;code&gt;--write-rerun&lt;/code&gt; so failures are captured automatically.&lt;/li&gt;
+&lt;li&gt;If &lt;code&gt;.tmp/examples-rerun.txt&lt;/code&gt; exists and is non-empty, invoking the skill with no args runs &lt;code&gt;rerun&lt;/code&gt; by default.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="behavioral-validation-codexllm-responsibility"&gt;Behavioral validation (Codex/LLM responsibility)&lt;/h2&gt;
+&lt;p&gt;The runner does not perform any automated behavioral validation. After every foreground &lt;code&gt;start&lt;/code&gt; or &lt;code&gt;rerun&lt;/code&gt;, &lt;strong&gt;Codex must manually validate&lt;/strong&gt; all exit-0 entries:&lt;/p&gt;</description></item><item><title>N8N Code Python</title><link>https://agentskill.wiki/en/skills/n8n-code-python/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/n8n-code-python/</guid><description>&lt;h1 id="python-code-node-beta"&gt;Python Code Node (Beta)&lt;/h1&gt;
+&lt;p&gt;Expert guidance for writing Python code in n8n Code nodes.&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id="-important-javascript-first"&gt;⚠️ Important: JavaScript First&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Recommendation&lt;/strong&gt;: Use &lt;strong&gt;JavaScript for 95% of use cases&lt;/strong&gt;. Only use Python when:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;You need specific Python standard library functions&lt;/li&gt;
+&lt;li&gt;You&amp;rsquo;re significantly more comfortable with Python syntax&lt;/li&gt;
+&lt;li&gt;You&amp;rsquo;re doing data transformations better suited to Python&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Why JavaScript is preferred:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Full n8n helper functions ($helpers.httpRequest, etc.)&lt;/li&gt;
+&lt;li&gt;Luxon DateTime library for advanced date/time operations&lt;/li&gt;
+&lt;li&gt;No external library limitations&lt;/li&gt;
+&lt;li&gt;Better n8n documentation and community support&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-python" data-lang="python"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Basic template for Python Code nodes&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 2&lt;/span&gt;&lt;span&gt;items &lt;span style="color:#f92672"&gt;=&lt;/span&gt; _input&lt;span style="color:#f92672"&gt;.&lt;/span&gt;all()
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 3&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 4&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Process data&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 5&lt;/span&gt;&lt;span&gt;processed &lt;span style="color:#f92672"&gt;=&lt;/span&gt; []
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 6&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;for&lt;/span&gt; item &lt;span style="color:#f92672"&gt;in&lt;/span&gt; items:
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 7&lt;/span&gt;&lt;span&gt; processed&lt;span style="color:#f92672"&gt;.&lt;/span&gt;append({
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 8&lt;/span&gt;&lt;span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;json&amp;#34;&lt;/span&gt;: {
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 9&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;**&lt;/span&gt;item[&lt;span style="color:#e6db74"&gt;&amp;#34;json&amp;#34;&lt;/span&gt;],
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;10&lt;/span&gt;&lt;span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;processed&amp;#34;&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;True&lt;/span&gt;,
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;11&lt;/span&gt;&lt;span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;timestamp&amp;#34;&lt;/span&gt;: datetime&lt;span style="color:#f92672"&gt;.&lt;/span&gt;now()&lt;span style="color:#f92672"&gt;.&lt;/span&gt;isoformat()
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;12&lt;/span&gt;&lt;span&gt; }
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;13&lt;/span&gt;&lt;span&gt; })
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;14&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;15&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;return&lt;/span&gt; processed
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="essential-rules"&gt;Essential Rules&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Consider JavaScript first&lt;/strong&gt; - Use Python only when necessary&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Access data&lt;/strong&gt;: &lt;code&gt;_input.all()&lt;/code&gt;, &lt;code&gt;_input.first()&lt;/code&gt;, or &lt;code&gt;_input.item&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CRITICAL&lt;/strong&gt;: Must return &lt;code&gt;[{&amp;quot;json&amp;quot;: {...}}]&lt;/code&gt; format&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CRITICAL&lt;/strong&gt;: Webhook data is under &lt;code&gt;_json[&amp;quot;body&amp;quot;]&lt;/code&gt; (not &lt;code&gt;_json&lt;/code&gt; directly)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CRITICAL LIMITATION&lt;/strong&gt;: &lt;strong&gt;No external libraries&lt;/strong&gt; (no requests, pandas, numpy)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Standard library only&lt;/strong&gt;: json, datetime, re, base64, hashlib, urllib.parse, math, random, statistics&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;h2 id="mode-selection-guide"&gt;Mode Selection Guide&lt;/h2&gt;
+&lt;p&gt;Same as JavaScript - choose based on your use case:&lt;/p&gt;</description></item></channel></rss>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Planning on Agent Skills Hub</title><link>https://agentskill.wiki/en/tags/planning/</link><description>Recent content in Planning on Agent Skills Hub</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/en/tags/planning/index.xml" rel="self" type="application/rss+xml"/><item><title>Notion Meeting Intelligence</title><link>https://agentskill.wiki/en/skills/notion-meeting-intelligence/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/notion-meeting-intelligence/</guid><description>&lt;h1 id="meeting-intelligence"&gt;Meeting Intelligence&lt;/h1&gt;
+&lt;p&gt;Prep meetings by pulling Notion context, tailoring agendas/pre-reads, and enriching with Codex research.&lt;/p&gt;
+&lt;h2 id="quick-start"&gt;Quick start&lt;/h2&gt;
+&lt;ol&gt;
+&lt;li&gt;Confirm meeting goal, attendees, date/time, and decisions needed.&lt;/li&gt;
+&lt;li&gt;Gather context: search with &lt;code&gt;Notion:notion-search&lt;/code&gt;, then fetch with &lt;code&gt;Notion:notion-fetch&lt;/code&gt; (prior notes, specs, OKRs, decisions).&lt;/li&gt;
+&lt;li&gt;Pick the right template via &lt;code&gt;reference/template-selection-guide.md&lt;/code&gt; (status, decision, planning, retro, 1:1, brainstorming).&lt;/li&gt;
+&lt;li&gt;Draft agenda/pre-read in Notion with &lt;code&gt;Notion:notion-create-pages&lt;/code&gt;, embedding source links and owner/timeboxes.&lt;/li&gt;
+&lt;li&gt;Enrich with Codex research (industry insights, benchmarks, risks) and update the page with &lt;code&gt;Notion:notion-update-page&lt;/code&gt; as plans change.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="workflow"&gt;Workflow&lt;/h2&gt;
+&lt;h3 id="0-if-any-mcp-call-fails-because-notion-mcp-is-not-connected-pause-and-set-it-up"&gt;0) If any MCP call fails because Notion MCP is not connected, pause and set it up:&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Add the Notion MCP:
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;codex mcp add notion --url https://mcp.notion.com/mcp&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Enable remote MCP client:
+&lt;ul&gt;
+&lt;li&gt;Set &lt;code&gt;[features].rmcp_client = true&lt;/code&gt; in &lt;code&gt;config.toml&lt;/code&gt; &lt;strong&gt;or&lt;/strong&gt; run &lt;code&gt;codex --enable rmcp_client&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Log in with OAuth:
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;codex mcp login notion&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;After successful login, the user will have to restart codex. You should finish your answer and tell them so when they try again they can continue with Step 1.&lt;/p&gt;</description></item><item><title>Planning With Files</title><link>https://agentskill.wiki/en/skills/planning-with-files/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/planning-with-files/</guid><description>&lt;h1 id="planning-with-files"&gt;Planning with Files&lt;/h1&gt;
+&lt;p&gt;Work like Manus: Use persistent markdown files as your &amp;ldquo;working memory on disk.&amp;rdquo;&lt;/p&gt;
+&lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;
+&lt;p&gt;Before ANY complex task:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;Create &lt;code&gt;task_plan.md&lt;/code&gt;&lt;/strong&gt; in the working directory&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Define phases&lt;/strong&gt; with checkboxes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Update after each phase&lt;/strong&gt; - mark [x] and change status&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Read before deciding&lt;/strong&gt; - refresh goals in attention window&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="the-3-file-pattern"&gt;The 3-File Pattern&lt;/h2&gt;
+&lt;p&gt;For every non-trivial task, create THREE files:&lt;/p&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;File&lt;/th&gt;
+ &lt;th&gt;Purpose&lt;/th&gt;
+ &lt;th&gt;When to Update&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;code&gt;task_plan.md&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;Track phases and progress&lt;/td&gt;
+ &lt;td&gt;After each phase&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;code&gt;notes.md&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;Store findings and research&lt;/td&gt;
+ &lt;td&gt;During research&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;&lt;code&gt;[deliverable].md&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;Final output&lt;/td&gt;
+ &lt;td&gt;At completion&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2 id="core-workflow"&gt;Core Workflow&lt;/h2&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;Loop 1: Create task_plan.md with goal and phases
+Loop 2: Research → save to notes.md → update task_plan.md
+Loop 3: Read notes.md → create deliverable → update task_plan.md
+Loop 4: Deliver final output
+&lt;/code&gt;&lt;/pre&gt;&lt;h3 id="the-loop-in-detail"&gt;The Loop in Detail&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Before each major action:&lt;/strong&gt;&lt;/p&gt;</description></item></channel></rss>

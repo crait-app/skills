@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Bug-Fixing on Agent Skills Hub</title><link>https://agentskill.wiki/en/tags/bug-fixing/</link><description>Recent content in Bug-Fixing on Agent Skills Hub</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/en/tags/bug-fixing/index.xml" rel="self" type="application/rss+xml"/><item><title>Debug</title><link>https://agentskill.wiki/en/skills/debug/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/debug/</guid><description>&lt;h1 id="debug-mode"&gt;Debug Mode&lt;/h1&gt;
+&lt;p&gt;Fix bugs with &lt;strong&gt;runtime evidence&lt;/strong&gt;, not guesses.&lt;/p&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;Don&amp;#39;t guess → Hypothesize → Instrument → Reproduce → Analyze → Fix → Verify
+&lt;/code&gt;&lt;/pre&gt;&lt;h2 id="when-to-use"&gt;When to Use&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Trigger signals&lt;/strong&gt; (if you&amp;rsquo;re about to do any of these, use this skill instead):&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&amp;ldquo;Open DevTools Console and check for&amp;hellip;&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;Reproduce the bug and tell me what you see&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;Add console.log and let me know the output&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;Click X, open Y, check if Z appears in console&amp;rdquo;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Example scenario that should trigger this skill:&lt;/strong&gt;&lt;/p&gt;</description></item></channel></rss>

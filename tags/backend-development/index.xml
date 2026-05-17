@@ -1,56 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Backend-Development on Agent Skills Hub</title><link>https://agentskill.wiki/tags/backend-development/</link><description>Recent content in Backend-Development on Agent Skills Hub</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/backend-development/index.xml" rel="self" type="application/rss+xml"/><item><title>Backend Dev Guidelines</title><link>https://agentskill.wiki/en/skills/backend-dev-guidelines/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/backend-dev-guidelines/</guid><description>&lt;h1 id="backend-development-guidelines"&gt;Backend Development Guidelines&lt;/h1&gt;
-&lt;h2 id="purpose"&gt;Purpose&lt;/h2&gt;
-&lt;p&gt;Establish consistency and best practices across backend microservices (blog-api, auth-service, notifications-service) using modern Node.js/Express/TypeScript patterns.&lt;/p&gt;
-&lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
-&lt;p&gt;Automatically activates when working on:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Creating or modifying routes, endpoints, APIs&lt;/li&gt;
-&lt;li&gt;Building controllers, services, repositories&lt;/li&gt;
-&lt;li&gt;Implementing middleware (auth, validation, error handling)&lt;/li&gt;
-&lt;li&gt;Database operations with Prisma&lt;/li&gt;
-&lt;li&gt;Error tracking with Sentry&lt;/li&gt;
-&lt;li&gt;Input validation with Zod&lt;/li&gt;
-&lt;li&gt;Configuration management&lt;/li&gt;
-&lt;li&gt;Backend testing and refactoring&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;
-&lt;h3 id="new-backend-feature-checklist"&gt;New Backend Feature Checklist&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Route&lt;/strong&gt;: Clean definition, delegate to controller&lt;/li&gt;
-&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Controller&lt;/strong&gt;: Extend BaseController&lt;/li&gt;
-&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Service&lt;/strong&gt;: Business logic with DI&lt;/li&gt;
-&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Repository&lt;/strong&gt;: Database access (if complex)&lt;/li&gt;
-&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Validation&lt;/strong&gt;: Zod schema&lt;/li&gt;
-&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Sentry&lt;/strong&gt;: Error tracking&lt;/li&gt;
-&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Tests&lt;/strong&gt;: Unit + integration tests&lt;/li&gt;
-&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; &lt;strong&gt;Config&lt;/strong&gt;: Use unifiedConfig&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3 id="new-microservice-checklist"&gt;New Microservice Checklist&lt;/h3&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; Directory structure (see &lt;a href="architecture-overview.md"&gt;architecture-overview.md&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; instrument.ts for Sentry&lt;/li&gt;
-&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; unifiedConfig setup&lt;/li&gt;
-&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; BaseController class&lt;/li&gt;
-&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; Middleware stack&lt;/li&gt;
-&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; Error boundary&lt;/li&gt;
-&lt;li&gt;&lt;input disabled="" type="checkbox"&gt; Testing framework&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id="architecture-overview"&gt;Architecture Overview&lt;/h2&gt;
-&lt;h3 id="layered-architecture"&gt;Layered Architecture&lt;/h3&gt;
-&lt;pre tabindex="0"&gt;&lt;code&gt;HTTP Request
- ↓
-Routes (routing only)
- ↓
-Controllers (request handling)
- ↓
-Services (business logic)
- ↓
-Repositories (data access)
- ↓
-Database (Prisma)
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Key Principle:&lt;/strong&gt; Each layer has ONE responsibility.&lt;/p&gt;</description></item><item><title>Backend Dev Guidelines</title><link>https://agentskill.wiki/skills/backend-dev-guidelines/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/backend-dev-guidelines/</guid><description>&lt;h1 id="backend-development-guidelines"&gt;Backend Development Guidelines&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Backend-Development on Agent Skills Hub</title><link>https://agentskill.wiki/tags/backend-development/</link><description>Recent content in Backend-Development on Agent Skills Hub</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/backend-development/index.xml" rel="self" type="application/rss+xml"/><item><title>Backend Dev Guidelines</title><link>https://agentskill.wiki/en/skills/backend-dev-guidelines/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/backend-dev-guidelines/</guid><description>&lt;h1 id="backend-development-guidelines"&gt;Backend Development Guidelines&lt;/h1&gt;
 &lt;h2 id="purpose"&gt;Purpose&lt;/h2&gt;
 &lt;p&gt;Establish consistency and best practices across backend microservices (blog-api, auth-service, notifications-service) using modern Node.js/Express/TypeScript patterns.&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
@@ -103,21 +51,6 @@ Repositories (data access)
  ↓
 Database (Prisma)
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Key Principle:&lt;/strong&gt; Each layer has ONE responsibility.&lt;/p&gt;</description></item><item><title>Senior Backend</title><link>https://agentskill.wiki/en/skills/senior-backend/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/senior-backend/</guid><description>&lt;h1 id="senior-backend"&gt;Senior Backend&lt;/h1&gt;
-&lt;p&gt;Complete toolkit for senior backend with modern tools and best practices.&lt;/p&gt;
-&lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;
-&lt;h3 id="main-capabilities"&gt;Main Capabilities&lt;/h3&gt;
-&lt;p&gt;This skill provides three core capabilities through automated scripts:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Script 1: Api Scaffolder&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;2&lt;/span&gt;&lt;span&gt;python scripts/api_scaffolder.py &lt;span style="color:#f92672"&gt;[&lt;/span&gt;options&lt;span style="color:#f92672"&gt;]&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;3&lt;/span&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;4&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Script 2: Database Migration Tool&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;5&lt;/span&gt;&lt;span&gt;python scripts/database_migration_tool.py &lt;span style="color:#f92672"&gt;[&lt;/span&gt;options&lt;span style="color:#f92672"&gt;]&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;6&lt;/span&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;7&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Script 3: Api Load Tester&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;8&lt;/span&gt;&lt;span&gt;python scripts/api_load_tester.py &lt;span style="color:#f92672"&gt;[&lt;/span&gt;options&lt;span style="color:#f92672"&gt;]&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="core-capabilities"&gt;Core Capabilities&lt;/h2&gt;
-&lt;h3 id="1-api-scaffolder"&gt;1. Api Scaffolder&lt;/h3&gt;
-&lt;p&gt;Automated tool for api scaffolder tasks.&lt;/p&gt;</description></item><item><title>Senior Backend</title><link>https://agentskill.wiki/skills/senior-backend/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/senior-backend/</guid><description>&lt;h1 id="senior-backend"&gt;Senior Backend&lt;/h1&gt;
 &lt;p&gt;Complete toolkit for senior backend with modern tools and best practices.&lt;/p&gt;
 &lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;
 &lt;h3 id="main-capabilities"&gt;Main Capabilities&lt;/h3&gt;

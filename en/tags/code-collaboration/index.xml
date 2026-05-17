@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Code-Collaboration on Agent Skills Hub</title><link>https://agentskill.wiki/en/tags/code-collaboration/</link><description>Recent content in Code-Collaboration on Agent Skills Hub</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/en/tags/code-collaboration/index.xml" rel="self" type="application/rss+xml"/><item><title>Pair Programming</title><link>https://agentskill.wiki/en/skills/pair-programming/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/pair-programming/</guid><description>&lt;h1 id="pair-programming"&gt;Pair Programming&lt;/h1&gt;
+&lt;p&gt;Collaborative AI pair programming with intelligent role management, real-time quality monitoring, and comprehensive development workflows.&lt;/p&gt;
+&lt;h2 id="what-this-skill-does"&gt;What This Skill Does&lt;/h2&gt;
+&lt;p&gt;This skill provides professional pair programming capabilities with AI assistance, supporting multiple collaboration modes, continuous verification, and integrated testing. It manages driver/navigator roles, performs real-time code review, tracks quality metrics, and ensures high standards through truth-score verification.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Key Capabilities:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Multiple Modes&lt;/strong&gt;: Driver, Navigator, Switch, TDD, Review, Mentor, Debug&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Real-Time Verification&lt;/strong&gt;: Automatic quality scoring with rollback on failures&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Role Management&lt;/strong&gt;: Seamless switching between driver/navigator roles&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Testing Integration&lt;/strong&gt;: Auto-generate tests, track coverage, continuous testing&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Code Review&lt;/strong&gt;: Security scanning, performance analysis, best practice enforcement&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Session Persistence&lt;/strong&gt;: Auto-save, recovery, export, and sharing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="prerequisites"&gt;Prerequisites&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Required:&lt;/strong&gt;&lt;/p&gt;</description></item></channel></rss>

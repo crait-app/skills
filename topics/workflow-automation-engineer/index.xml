@@ -1,49 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Workflow Automation Engineer on Agent Skills Hub</title><link>https://agentskill.wiki/topics/workflow-automation-engineer/</link><description>Recent content in Workflow Automation Engineer on Agent Skills Hub</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/topics/workflow-automation-engineer/index.xml" rel="self" type="application/rss+xml"/><item><title>N8N Code Python</title><link>https://agentskill.wiki/en/skills/n8n-code-python/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/n8n-code-python/</guid><description>&lt;h1 id="python-code-node-beta"&gt;Python Code Node (Beta)&lt;/h1&gt;
-&lt;p&gt;Expert guidance for writing Python code in n8n Code nodes.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id="-important-javascript-first"&gt;⚠️ Important: JavaScript First&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Recommendation&lt;/strong&gt;: Use &lt;strong&gt;JavaScript for 95% of use cases&lt;/strong&gt;. Only use Python when:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;You need specific Python standard library functions&lt;/li&gt;
-&lt;li&gt;You&amp;rsquo;re significantly more comfortable with Python syntax&lt;/li&gt;
-&lt;li&gt;You&amp;rsquo;re doing data transformations better suited to Python&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Why JavaScript is preferred:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Full n8n helper functions ($helpers.httpRequest, etc.)&lt;/li&gt;
-&lt;li&gt;Luxon DateTime library for advanced date/time operations&lt;/li&gt;
-&lt;li&gt;No external library limitations&lt;/li&gt;
-&lt;li&gt;Better n8n documentation and community support&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr&gt;
-&lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-python" data-lang="python"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Basic template for Python Code nodes&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 2&lt;/span&gt;&lt;span&gt;items &lt;span style="color:#f92672"&gt;=&lt;/span&gt; _input&lt;span style="color:#f92672"&gt;.&lt;/span&gt;all()
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 3&lt;/span&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 4&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Process data&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 5&lt;/span&gt;&lt;span&gt;processed &lt;span style="color:#f92672"&gt;=&lt;/span&gt; []
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 6&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;for&lt;/span&gt; item &lt;span style="color:#f92672"&gt;in&lt;/span&gt; items:
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 7&lt;/span&gt;&lt;span&gt; processed&lt;span style="color:#f92672"&gt;.&lt;/span&gt;append({
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 8&lt;/span&gt;&lt;span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;json&amp;#34;&lt;/span&gt;: {
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 9&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;**&lt;/span&gt;item[&lt;span style="color:#e6db74"&gt;&amp;#34;json&amp;#34;&lt;/span&gt;],
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;10&lt;/span&gt;&lt;span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;processed&amp;#34;&lt;/span&gt;: &lt;span style="color:#66d9ef"&gt;True&lt;/span&gt;,
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;11&lt;/span&gt;&lt;span&gt; &lt;span style="color:#e6db74"&gt;&amp;#34;timestamp&amp;#34;&lt;/span&gt;: datetime&lt;span style="color:#f92672"&gt;.&lt;/span&gt;now()&lt;span style="color:#f92672"&gt;.&lt;/span&gt;isoformat()
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;12&lt;/span&gt;&lt;span&gt; }
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;13&lt;/span&gt;&lt;span&gt; })
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;14&lt;/span&gt;&lt;span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;15&lt;/span&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;return&lt;/span&gt; processed
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="essential-rules"&gt;Essential Rules&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;&lt;strong&gt;Consider JavaScript first&lt;/strong&gt; - Use Python only when necessary&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Access data&lt;/strong&gt;: &lt;code&gt;_input.all()&lt;/code&gt;, &lt;code&gt;_input.first()&lt;/code&gt;, or &lt;code&gt;_input.item&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;CRITICAL&lt;/strong&gt;: Must return &lt;code&gt;[{&amp;quot;json&amp;quot;: {...}}]&lt;/code&gt; format&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;CRITICAL&lt;/strong&gt;: Webhook data is under &lt;code&gt;_json[&amp;quot;body&amp;quot;]&lt;/code&gt; (not &lt;code&gt;_json&lt;/code&gt; directly)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;CRITICAL LIMITATION&lt;/strong&gt;: &lt;strong&gt;No external libraries&lt;/strong&gt; (no requests, pandas, numpy)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Standard library only&lt;/strong&gt;: json, datetime, re, base64, hashlib, urllib.parse, math, random, statistics&lt;/li&gt;
-&lt;/ol&gt;
-&lt;hr&gt;
-&lt;h2 id="mode-selection-guide"&gt;Mode Selection Guide&lt;/h2&gt;
-&lt;p&gt;Same as JavaScript - choose based on your use case:&lt;/p&gt;</description></item><item><title>N8N Code Python</title><link>https://agentskill.wiki/skills/n8n-code-python/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/n8n-code-python/</guid><description>&lt;h1 id="python-code-node-beta"&gt;Python Code Node (Beta)&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Workflow Automation Engineer on Agent Skills Hub</title><link>https://agentskill.wiki/topics/workflow-automation-engineer/</link><description>Recent content in Workflow Automation Engineer on Agent Skills Hub</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/topics/workflow-automation-engineer/index.xml" rel="self" type="application/rss+xml"/><item><title>N8N Code Python</title><link>https://agentskill.wiki/en/skills/n8n-code-python/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/n8n-code-python/</guid><description>&lt;h1 id="python-code-node-beta"&gt;Python Code Node (Beta)&lt;/h1&gt;
 &lt;p&gt;Expert guidance for writing Python code in n8n Code nodes.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id="-important-javascript-first"&gt;⚠️ Important: JavaScript First&lt;/h2&gt;
@@ -109,56 +64,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;3&lt;/span&gt;&lt;span&gt;{{&lt;span style="color:#a6e22e"&gt;$json&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;nested&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;property&lt;/span&gt;}}
 &lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;4&lt;/span&gt;&lt;span&gt;{{&lt;span style="color:#a6e22e"&gt;$json&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;items&lt;/span&gt;[&lt;span style="color:#ae81ff"&gt;0&lt;/span&gt;].&lt;span style="color:#a6e22e"&gt;name&lt;/span&gt;}}
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="node---reference-other-nodes"&gt;$node - Reference Other Nodes&lt;/h3&gt;
-&lt;p&gt;Access data from any previous node:&lt;/p&gt;</description></item><item><title>N8N Expression Syntax</title><link>https://agentskill.wiki/skills/n8n-expression-syntax/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/n8n-expression-syntax/</guid><description>&lt;h1 id="n8n-expression-syntax"&gt;n8n Expression Syntax&lt;/h1&gt;
-&lt;p&gt;Expert guide for writing correct n8n expressions in workflows.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id="expression-format"&gt;Expression Format&lt;/h2&gt;
-&lt;p&gt;All dynamic content in n8n uses &lt;strong&gt;double curly braces&lt;/strong&gt;:&lt;/p&gt;
-&lt;pre tabindex="0"&gt;&lt;code&gt;{{expression}}
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Examples&lt;/strong&gt;:&lt;/p&gt;
-&lt;pre tabindex="0"&gt;&lt;code&gt;✅ {{$json.email}}
-✅ {{$json.body.name}}
-✅ {{$node[&amp;#34;HTTP Request&amp;#34;].json.data}}
-❌ $json.email (no braces - treated as literal text)
-❌ {$json.email} (single braces - invalid)
-&lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;
-&lt;h2 id="core-variables"&gt;Core Variables&lt;/h2&gt;
-&lt;h3 id="json---current-node-output"&gt;$json - Current Node Output&lt;/h3&gt;
-&lt;p&gt;Access data from the current node:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-javascript" data-lang="javascript"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;{{&lt;span style="color:#a6e22e"&gt;$json&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;fieldName&lt;/span&gt;}}
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;2&lt;/span&gt;&lt;span&gt;{{&lt;span style="color:#a6e22e"&gt;$json&lt;/span&gt;[&lt;span style="color:#e6db74"&gt;&amp;#39;field with spaces&amp;#39;&lt;/span&gt;]}}
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;3&lt;/span&gt;&lt;span&gt;{{&lt;span style="color:#a6e22e"&gt;$json&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;nested&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;property&lt;/span&gt;}}
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;4&lt;/span&gt;&lt;span&gt;{{&lt;span style="color:#a6e22e"&gt;$json&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;items&lt;/span&gt;[&lt;span style="color:#ae81ff"&gt;0&lt;/span&gt;].&lt;span style="color:#a6e22e"&gt;name&lt;/span&gt;}}
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="node---reference-other-nodes"&gt;$node - Reference Other Nodes&lt;/h3&gt;
 &lt;p&gt;Access data from any previous node:&lt;/p&gt;</description></item><item><title>N8N Workflow Patterns</title><link>https://agentskill.wiki/en/skills/n8n-workflow-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/n8n-workflow-patterns/</guid><description>&lt;h1 id="n8n-workflow-patterns"&gt;n8n Workflow Patterns&lt;/h1&gt;
-&lt;p&gt;Proven architectural patterns for building n8n workflows.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id="the-5-core-patterns"&gt;The 5 Core Patterns&lt;/h2&gt;
-&lt;p&gt;Based on analysis of real workflow usage:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href="webhook_processing.md"&gt;Webhook Processing&lt;/a&gt;&lt;/strong&gt; (Most Common)&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Receive HTTP requests → Process → Output&lt;/li&gt;
-&lt;li&gt;Pattern: Webhook → Validate → Transform → Respond/Notify&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href="http_api_integration.md"&gt;HTTP API Integration&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Fetch from REST APIs → Transform → Store/Use&lt;/li&gt;
-&lt;li&gt;Pattern: Trigger → HTTP Request → Transform → Action → Error Handler&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href="database_operations.md"&gt;Database Operations&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Read/Write/Sync database data&lt;/li&gt;
-&lt;li&gt;Pattern: Schedule → Query → Transform → Write → Verify&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;&lt;a href="ai_agent_workflow.md"&gt;AI Agent Workflow&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>N8N Workflow Patterns</title><link>https://agentskill.wiki/skills/n8n-workflow-patterns/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/n8n-workflow-patterns/</guid><description>&lt;h1 id="n8n-workflow-patterns"&gt;n8n Workflow Patterns&lt;/h1&gt;
 &lt;p&gt;Proven architectural patterns for building n8n workflows.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id="the-5-core-patterns"&gt;The 5 Core Patterns&lt;/h2&gt;

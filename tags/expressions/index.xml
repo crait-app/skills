@@ -1,25 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Expressions on Agent Skills Hub</title><link>https://agentskill.wiki/tags/expressions/</link><description>Recent content in Expressions on Agent Skills Hub</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/expressions/index.xml" rel="self" type="application/rss+xml"/><item><title>N8N Expression Syntax</title><link>https://agentskill.wiki/en/skills/n8n-expression-syntax/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/n8n-expression-syntax/</guid><description>&lt;h1 id="n8n-expression-syntax"&gt;n8n Expression Syntax&lt;/h1&gt;
-&lt;p&gt;Expert guide for writing correct n8n expressions in workflows.&lt;/p&gt;
-&lt;hr&gt;
-&lt;h2 id="expression-format"&gt;Expression Format&lt;/h2&gt;
-&lt;p&gt;All dynamic content in n8n uses &lt;strong&gt;double curly braces&lt;/strong&gt;:&lt;/p&gt;
-&lt;pre tabindex="0"&gt;&lt;code&gt;{{expression}}
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;&lt;strong&gt;Examples&lt;/strong&gt;:&lt;/p&gt;
-&lt;pre tabindex="0"&gt;&lt;code&gt;✅ {{$json.email}}
-✅ {{$json.body.name}}
-✅ {{$node[&amp;#34;HTTP Request&amp;#34;].json.data}}
-❌ $json.email (no braces - treated as literal text)
-❌ {$json.email} (single braces - invalid)
-&lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;
-&lt;h2 id="core-variables"&gt;Core Variables&lt;/h2&gt;
-&lt;h3 id="json---current-node-output"&gt;$json - Current Node Output&lt;/h3&gt;
-&lt;p&gt;Access data from the current node:&lt;/p&gt;
-&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-javascript" data-lang="javascript"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;{{&lt;span style="color:#a6e22e"&gt;$json&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;fieldName&lt;/span&gt;}}
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;2&lt;/span&gt;&lt;span&gt;{{&lt;span style="color:#a6e22e"&gt;$json&lt;/span&gt;[&lt;span style="color:#e6db74"&gt;&amp;#39;field with spaces&amp;#39;&lt;/span&gt;]}}
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;3&lt;/span&gt;&lt;span&gt;{{&lt;span style="color:#a6e22e"&gt;$json&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;nested&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;property&lt;/span&gt;}}
-&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;4&lt;/span&gt;&lt;span&gt;{{&lt;span style="color:#a6e22e"&gt;$json&lt;/span&gt;.&lt;span style="color:#a6e22e"&gt;items&lt;/span&gt;[&lt;span style="color:#ae81ff"&gt;0&lt;/span&gt;].&lt;span style="color:#a6e22e"&gt;name&lt;/span&gt;}}
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h3 id="node---reference-other-nodes"&gt;$node - Reference Other Nodes&lt;/h3&gt;
-&lt;p&gt;Access data from any previous node:&lt;/p&gt;</description></item><item><title>N8N Expression Syntax</title><link>https://agentskill.wiki/skills/n8n-expression-syntax/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/n8n-expression-syntax/</guid><description>&lt;h1 id="n8n-expression-syntax"&gt;n8n Expression Syntax&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Expressions on Agent Skills Hub</title><link>https://agentskill.wiki/tags/expressions/</link><description>Recent content in Expressions on Agent Skills Hub</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/tags/expressions/index.xml" rel="self" type="application/rss+xml"/><item><title>N8N Expression Syntax</title><link>https://agentskill.wiki/en/skills/n8n-expression-syntax/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/n8n-expression-syntax/</guid><description>&lt;h1 id="n8n-expression-syntax"&gt;n8n Expression Syntax&lt;/h1&gt;
 &lt;p&gt;Expert guide for writing correct n8n expressions in workflows.&lt;/p&gt;
 &lt;hr&gt;
 &lt;h2 id="expression-format"&gt;Expression Format&lt;/h2&gt;

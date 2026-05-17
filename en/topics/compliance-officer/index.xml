@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Compliance Officer on Agent Skills Hub</title><link>https://agentskill.wiki/en/topics/compliance-officer/</link><description>Recent content in Compliance Officer on Agent Skills Hub</description><generator>Hugo</generator><language>en</language><lastBuildDate>Fri, 30 Jan 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/en/topics/compliance-officer/index.xml" rel="self" type="application/rss+xml"/><item><title>Pci Compliance</title><link>https://agentskill.wiki/en/skills/pci-compliance/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/pci-compliance/</guid><description>&lt;h1 id="pci-compliance"&gt;PCI Compliance&lt;/h1&gt;
+&lt;p&gt;Master PCI DSS (Payment Card Industry Data Security Standard) compliance for secure payment processing and handling of cardholder data.&lt;/p&gt;
+&lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Building payment processing systems&lt;/li&gt;
+&lt;li&gt;Handling credit card information&lt;/li&gt;
+&lt;li&gt;Implementing secure payment flows&lt;/li&gt;
+&lt;li&gt;Conducting PCI compliance audits&lt;/li&gt;
+&lt;li&gt;Reducing PCI compliance scope&lt;/li&gt;
+&lt;li&gt;Implementing tokenization and encryption&lt;/li&gt;
+&lt;li&gt;Preparing for PCI DSS assessments&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="pci-dss-requirements-12-core-requirements"&gt;PCI DSS Requirements (12 Core Requirements)&lt;/h2&gt;
+&lt;h3 id="build-and-maintain-secure-network"&gt;Build and Maintain Secure Network&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;Install and maintain firewall configuration&lt;/li&gt;
+&lt;li&gt;Don&amp;rsquo;t use vendor-supplied defaults for passwords&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id="protect-cardholder-data"&gt;Protect Cardholder Data&lt;/h3&gt;
+&lt;ol start="3"&gt;
+&lt;li&gt;Protect stored cardholder data&lt;/li&gt;
+&lt;li&gt;Encrypt transmission of cardholder data across public networks&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id="maintain-vulnerability-management"&gt;Maintain Vulnerability Management&lt;/h3&gt;
+&lt;ol start="5"&gt;
+&lt;li&gt;Protect systems against malware&lt;/li&gt;
+&lt;li&gt;Develop and maintain secure systems and applications&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id="implement-strong-access-control"&gt;Implement Strong Access Control&lt;/h3&gt;
+&lt;ol start="7"&gt;
+&lt;li&gt;Restrict access to cardholder data by business need-to-know&lt;/li&gt;
+&lt;li&gt;Identify and authenticate access to system components&lt;/li&gt;
+&lt;li&gt;Restrict physical access to cardholder data&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id="monitor-and-test-networks"&gt;Monitor and Test Networks&lt;/h3&gt;
+&lt;ol start="10"&gt;
+&lt;li&gt;Track and monitor all access to network resources and cardholder data&lt;/li&gt;
+&lt;li&gt;Regularly test security systems and processes&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id="maintain-information-security-policy"&gt;Maintain Information Security Policy&lt;/h3&gt;
+&lt;ol start="12"&gt;
+&lt;li&gt;Maintain a policy that addresses information security&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id="compliance-levels"&gt;Compliance Levels&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Level 1&lt;/strong&gt;: &amp;gt; 6 million transactions/year (annual ROC required)
+&lt;strong&gt;Level 2&lt;/strong&gt;: 1-6 million transactions/year (annual SAQ)
+&lt;strong&gt;Level 3&lt;/strong&gt;: 20,000-1 million e-commerce transactions/year
+&lt;strong&gt;Level 4&lt;/strong&gt;: &amp;lt; 20,000 e-commerce or &amp;lt; 1 million total transactions&lt;/p&gt;</description></item><item><title>Prowler Compliance Review</title><link>https://agentskill.wiki/en/skills/prowler-compliance-review/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/prowler-compliance-review/</guid><description>&lt;h2 id="when-to-use"&gt;When to Use&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Reviewing PRs that add new compliance frameworks&lt;/li&gt;
+&lt;li&gt;Reviewing PRs that modify existing compliance frameworks&lt;/li&gt;
+&lt;li&gt;Validating compliance framework JSON structure before merge&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h2 id="review-checklist-critical"&gt;Review Checklist (Critical)&lt;/h2&gt;
+&lt;table&gt;
+ &lt;thead&gt;
+ &lt;tr&gt;
+ &lt;th&gt;Check&lt;/th&gt;
+ &lt;th&gt;Command/Method&lt;/th&gt;
+ &lt;th&gt;Pass Criteria&lt;/th&gt;
+ &lt;/tr&gt;
+ &lt;/thead&gt;
+ &lt;tbody&gt;
+ &lt;tr&gt;
+ &lt;td&gt;JSON Valid&lt;/td&gt;
+ &lt;td&gt;&lt;code&gt;python3 -m json.tool file.json&lt;/code&gt;&lt;/td&gt;
+ &lt;td&gt;No syntax errors&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;All Checks Exist&lt;/td&gt;
+ &lt;td&gt;Run validation script&lt;/td&gt;
+ &lt;td&gt;0 missing checks&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;No Duplicate IDs&lt;/td&gt;
+ &lt;td&gt;Run validation script&lt;/td&gt;
+ &lt;td&gt;0 duplicate requirement IDs&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;CHANGELOG Entry&lt;/td&gt;
+ &lt;td&gt;Manual review&lt;/td&gt;
+ &lt;td&gt;Present under correct version&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Dashboard File&lt;/td&gt;
+ &lt;td&gt;Compare with existing&lt;/td&gt;
+ &lt;td&gt;Follows established pattern&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;tr&gt;
+ &lt;td&gt;Framework Metadata&lt;/td&gt;
+ &lt;td&gt;Manual review&lt;/td&gt;
+ &lt;td&gt;All required fields populated&lt;/td&gt;
+ &lt;/tr&gt;
+ &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;hr&gt;
+&lt;h2 id="commands"&gt;Commands&lt;/h2&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# 1. Validate JSON syntax&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 2&lt;/span&gt;&lt;span&gt;python3 -m json.tool prowler/compliance/&lt;span style="color:#f92672"&gt;{&lt;/span&gt;provider&lt;span style="color:#f92672"&gt;}&lt;/span&gt;/&lt;span style="color:#f92672"&gt;{&lt;/span&gt;framework&lt;span style="color:#f92672"&gt;}&lt;/span&gt;.json &amp;gt; /dev/null &lt;span style="color:#ae81ff"&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 3&lt;/span&gt;&lt;span&gt; &lt;span style="color:#f92672"&gt;&amp;amp;&amp;amp;&lt;/span&gt; echo &lt;span style="color:#e6db74"&gt;&amp;#34;Valid JSON&amp;#34;&lt;/span&gt; &lt;span style="color:#f92672"&gt;||&lt;/span&gt; echo &lt;span style="color:#e6db74"&gt;&amp;#34;INVALID JSON&amp;#34;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 4&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 5&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# 2. Run full validation script&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 6&lt;/span&gt;&lt;span&gt;python3 skills/prowler-compliance-review/assets/validate_compliance.py &lt;span style="color:#ae81ff"&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 7&lt;/span&gt;&lt;span&gt; prowler/compliance/&lt;span style="color:#f92672"&gt;{&lt;/span&gt;provider&lt;span style="color:#f92672"&gt;}&lt;/span&gt;/&lt;span style="color:#f92672"&gt;{&lt;/span&gt;framework&lt;span style="color:#f92672"&gt;}&lt;/span&gt;.json
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 8&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt; 9&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# 3. Compare dashboard with existing (find similar framework)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;10&lt;/span&gt;&lt;span&gt;diff dashboard/compliance/&lt;span style="color:#f92672"&gt;{&lt;/span&gt;new_framework&lt;span style="color:#f92672"&gt;}&lt;/span&gt;.py &lt;span style="color:#ae81ff"&gt;\
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;11&lt;/span&gt;&lt;span&gt; dashboard/compliance/&lt;span style="color:#f92672"&gt;{&lt;/span&gt;existing_framework&lt;span style="color:#f92672"&gt;}&lt;/span&gt;.py
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;hr&gt;
+&lt;h2 id="decision-tree"&gt;Decision Tree&lt;/h2&gt;
+&lt;pre tabindex="0"&gt;&lt;code&gt;JSON Valid?
+├── No → FAIL: Fix JSON syntax errors
+└── Yes ↓
+ All Checks Exist in Codebase?
+ ├── Missing checks → FAIL: Add missing checks or remove from framework
+ └── All exist ↓
+ Duplicate Requirement IDs?
+ ├── Yes → FAIL: Fix duplicate IDs
+ └── No ↓
+ CHANGELOG Entry Present?
+ ├── No → REQUEST CHANGES: Add CHANGELOG entry
+ └── Yes ↓
+ Dashboard File Follows Pattern?
+ ├── No → REQUEST CHANGES: Fix dashboard pattern
+ └── Yes ↓
+ Framework Metadata Complete?
+ ├── No → REQUEST CHANGES: Add missing metadata
+ └── Yes → APPROVE
+&lt;/code&gt;&lt;/pre&gt;&lt;hr&gt;
+&lt;h2 id="framework-structure-reference"&gt;Framework Structure Reference&lt;/h2&gt;
+&lt;p&gt;Compliance frameworks are JSON files in: &lt;code&gt;prowler/compliance/{provider}/{framework}.json&lt;/code&gt;&lt;/p&gt;</description></item><item><title>Senior Secops</title><link>https://agentskill.wiki/en/skills/senior-secops/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/en/skills/senior-secops/</guid><description>&lt;h1 id="senior-secops"&gt;Senior Secops&lt;/h1&gt;
+&lt;p&gt;Complete toolkit for senior secops with modern tools and best practices.&lt;/p&gt;
+&lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;
+&lt;h3 id="main-capabilities"&gt;Main Capabilities&lt;/h3&gt;
+&lt;p&gt;This skill provides three core capabilities through automated scripts:&lt;/p&gt;
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-bash" data-lang="bash"&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;1&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Script 1: Security Scanner&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;2&lt;/span&gt;&lt;span&gt;python scripts/security_scanner.py &lt;span style="color:#f92672"&gt;[&lt;/span&gt;options&lt;span style="color:#f92672"&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;3&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;4&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Script 2: Vulnerability Assessor&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;5&lt;/span&gt;&lt;span&gt;python scripts/vulnerability_assessor.py &lt;span style="color:#f92672"&gt;[&lt;/span&gt;options&lt;span style="color:#f92672"&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;6&lt;/span&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;7&lt;/span&gt;&lt;span&gt;&lt;span style="color:#75715e"&gt;# Script 3: Compliance Checker&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span style="white-space:pre;-webkit-user-select:none;user-select:none;margin-right:0.4em;padding:0 0.4em 0 0.4em;color:#7f7f7f"&gt;8&lt;/span&gt;&lt;span&gt;python scripts/compliance_checker.py &lt;span style="color:#f92672"&gt;[&lt;/span&gt;options&lt;span style="color:#f92672"&gt;]&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id="core-capabilities"&gt;Core Capabilities&lt;/h2&gt;
+&lt;h3 id="1-security-scanner"&gt;1. Security Scanner&lt;/h3&gt;
+&lt;p&gt;Automated tool for security scanner tasks.&lt;/p&gt;</description></item></channel></rss>
