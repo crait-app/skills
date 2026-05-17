@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>用户信息 on Agent Skills Hub</title><link>https://agentskill.wiki/zh/tags/%E7%94%A8%E6%88%B7%E4%BF%A1%E6%81%AF/</link><description>Recent content in 用户信息 on Agent Skills Hub</description><generator>Hugo</generator><language>zh</language><lastBuildDate>Sun, 17 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://agentskill.wiki/zh/tags/%E7%94%A8%E6%88%B7%E4%BF%A1%E6%81%AF/index.xml" rel="self" type="application/rss+xml"/><item><title>微信读书用户信息</title><link>https://agentskill.wiki/zh/skills/weread-profile/</link><pubDate>Sun, 17 May 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/zh/skills/weread-profile/</guid><description>&lt;h1 id="profile--用户信息与阅读统计"&gt;profile — 用户信息与阅读统计&lt;/h1&gt;
+&lt;h2 id="说明"&gt;说明&lt;/h2&gt;
+&lt;p&gt;通过组合已有接口获取用户阅读概况。&lt;/p&gt;
+&lt;h2 id="工作流"&gt;工作流&lt;/h2&gt;
+&lt;h3 id="1-获取书架"&gt;1. 获取书架&lt;/h3&gt;
+&lt;p&gt;调 &lt;code&gt;/shelf/sync&lt;/code&gt;，了解用户在读什么书、总数等。
+书架数量必须按 &lt;code&gt;books.length + albums.length + (mp 非空 ? 1 : 0)&lt;/code&gt; 计算；&lt;code&gt;albums[]&lt;/code&gt; 是专辑/有声书，也属于书架里的书，不能只统计 &lt;code&gt;books[]&lt;/code&gt;。
+具体逻辑参考 &lt;code&gt;shelf.md&lt;/code&gt;。&lt;/p&gt;
+&lt;h3 id="2-获取阅读进度"&gt;2. 获取阅读进度&lt;/h3&gt;
+&lt;p&gt;对书架中的书调 &lt;code&gt;/book/getprogress&lt;/code&gt;，获取进度和阅读时长，具体见&lt;code&gt;book.md&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id="3-获取笔记"&gt;3. 获取笔记&lt;/h3&gt;
+&lt;p&gt;调 &lt;code&gt;/book/bookmarklist&lt;/code&gt;，获取划线数量，具体见&lt;code&gt;notes.md&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id="输出格式"&gt;输出格式&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;综合书架和阅读进度信息，展示用户阅读概况&lt;/li&gt;
+&lt;li&gt;每本书显示：书名、进度、最近阅读时间&lt;/li&gt;
+&lt;li&gt;无参数时展示阅读概况（书架 + 最近阅读进度）&lt;/li&gt;
+&lt;/ul&gt;</description></item></channel></rss>
