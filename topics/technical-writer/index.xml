@@ -233,7 +233,7 @@ Offer the user a structured workflow for co-authoring the document. Explain the 
 &lt;li&gt;Lead with what to do, then explain why&lt;/li&gt;
 &lt;li&gt;Use headings that state your point: &amp;ldquo;Set SAML before adding users&amp;rdquo; not &amp;ldquo;SAML configuration timing&amp;rdquo;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Edit:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Docx</title><link>https://agentskill.wiki/skills/docx/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/docx/</guid><description>&lt;h1 id="docx-creation-editing-and-analysis"&gt;DOCX creation, editing, and analysis&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Edit:&lt;/strong&gt;&lt;/p&gt;</description></item><item><title>Docx - Professional Word Document Editor</title><link>https://agentskill.wiki/skills/docx/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/docx/</guid><description>&lt;h1 id="docx-creation-editing-and-analysis"&gt;DOCX creation, editing, and analysis&lt;/h1&gt;
 &lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;A user may ask you to create, edit, or analyze the contents of a .docx file. A .docx file is essentially a ZIP archive containing XML files and other resources that you can read or edit. You have different tools and workflows available for different tasks.&lt;/p&gt;
 &lt;h2 id="workflow-decision-tree"&gt;Workflow Decision Tree&lt;/h2&gt;

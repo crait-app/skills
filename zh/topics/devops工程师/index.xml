@@ -647,7 +647,7 @@ Other models route through OpenRouter API (requires &lt;code&gt;OPENROUTER_API_K
 &lt;li&gt;Issuing credentials (sessions, tokens)&lt;/li&gt;
 &lt;li&gt;Managing login/logout&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Authorization (AuthZ)&lt;/strong&gt;: What can you do?&lt;/p&gt;</description></item><item><title>Autogpt Agents</title><link>https://agentskill.wiki/zh/skills/autogpt-agents/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/zh/skills/autogpt-agents/</guid><description>&lt;h1 id="autogpt---autonomous-ai-agent-platform"&gt;AutoGPT - Autonomous AI Agent Platform&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;Authorization (AuthZ)&lt;/strong&gt;: What can you do?&lt;/p&gt;</description></item><item><title>AutoGPT Agents - 构建自主AI工作流</title><link>https://agentskill.wiki/zh/skills/autogpt-agents/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/zh/skills/autogpt-agents/</guid><description>&lt;h1 id="autogpt---autonomous-ai-agent-platform"&gt;AutoGPT - Autonomous AI Agent Platform&lt;/h1&gt;
 &lt;p&gt;Comprehensive platform for building, deploying, and managing continuous AI agents through a visual interface or development toolkit.&lt;/p&gt;
 &lt;h2 id="when-to-use-autogpt"&gt;When to use AutoGPT&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Use AutoGPT when:&lt;/strong&gt;&lt;/p&gt;
@@ -1586,7 +1586,7 @@ See the &lt;a href="SETUP.md"&gt;SETUP&lt;/a&gt; for installation instructions.&
  &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;h2 id="supported-apps"&gt;Supported Apps&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;1000+ integrations&lt;/strong&gt; including:&lt;/p&gt;</description></item><item><title>Connect Apps</title><link>https://agentskill.wiki/zh/skills/connect-apps/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/zh/skills/connect-apps/</guid><description>&lt;h1 id="connect-apps"&gt;Connect Apps&lt;/h1&gt;
+&lt;p&gt;&lt;strong&gt;1000+ integrations&lt;/strong&gt; including:&lt;/p&gt;</description></item><item><title>Connect Apps - 将Claude连接到1000+服务</title><link>https://agentskill.wiki/zh/skills/connect-apps/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/zh/skills/connect-apps/</guid><description>&lt;h1 id="connect-apps"&gt;Connect Apps&lt;/h1&gt;
 &lt;p&gt;Connect Claude to 1000+ apps. Actually send emails, create issues, post messages - not just generate text about it.&lt;/p&gt;
 &lt;h2 id="quick-start"&gt;Quick Start&lt;/h2&gt;
 &lt;h3 id="step-1-install-the-plugin"&gt;Step 1: Install the Plugin&lt;/h3&gt;

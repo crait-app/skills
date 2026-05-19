@@ -109,7 +109,7 @@
 &lt;li&gt;&lt;strong&gt;Integration Projects&lt;/strong&gt;: Building tools that interact with protocols.io&lt;/li&gt;
 &lt;/ul&gt;
 &lt;h2 id="core-capabilities"&gt;Core Capabilities&lt;/h2&gt;
-&lt;p&gt;This skill provides comprehensive guidance across five major capability areas:&lt;/p&gt;</description></item><item><title>Pylabrobot</title><link>https://agentskill.wiki/skills/pylabrobot/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/pylabrobot/</guid><description>&lt;h1 id="pylabrobot"&gt;PyLabRobot&lt;/h1&gt;
+&lt;p&gt;This skill provides comprehensive guidance across five major capability areas:&lt;/p&gt;</description></item><item><title>PyLabRobot - Laboratory Automation Python Toolkit</title><link>https://agentskill.wiki/skills/pylabrobot/</link><pubDate>Fri, 30 Jan 2026 00:00:00 +0000</pubDate><guid>https://agentskill.wiki/skills/pylabrobot/</guid><description>&lt;h1 id="pylabrobot"&gt;PyLabRobot&lt;/h1&gt;
 &lt;h2 id="overview"&gt;Overview&lt;/h2&gt;
 &lt;p&gt;PyLabRobot is a hardware-agnostic, pure Python Software Development Kit for automated and autonomous laboratories. Use this skill to control liquid handling robots, plate readers, pumps, heater shakers, incubators, centrifuges, and other laboratory automation equipment through a unified Python interface that works across platforms (Windows, macOS, Linux).&lt;/p&gt;
 &lt;h2 id="when-to-use-this-skill"&gt;When to Use This Skill&lt;/h2&gt;
